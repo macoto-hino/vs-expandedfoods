@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-flyagaric-normal-free": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedveggie-flyagaric"
+        },
+        "requiresContainer": false
+      },
+      "*-fieldmushroom-normal-free": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedveggie-fieldmushroom"
+        },
+        "requiresContainer": false
+      },
+      "*-bolete-normal-free": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedveggie-bolete"
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "blocktypes/plant/mushroom.json"
+  }
+]

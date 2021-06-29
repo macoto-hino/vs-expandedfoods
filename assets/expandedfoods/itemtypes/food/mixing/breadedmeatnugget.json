@@ -1,0 +1,247 @@
+{
+	code: "breadedmeatnugget",
+
+  	class: "ExpandedFood",
+	maxstacksize: 64,
+	variantgroups: [
+	
+		{ code: "type", states: ["flax", "rice", "rye", "spelt"]},
+		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"]},	
+		{ code: "state", states: ["smashed", "tender", "syrups", "oiled"] },
+	],
+
+	attributes: {
+  		"expandedNutritionPropsByType": {
+			"*-smashed": {
+				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
+				"game:flour-rye": {saturation: 150, foodcategory: "Grain"},
+				"game:flour-spelt": {saturation: 150, foodcategory: "Grain"},
+				"game:flour-rice": {saturation: 165, foodcategory: "Grain"},
+				"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
+				"expandedfoods:breadcrumbs-flax": {saturation: 80, foodcategory: "Grain"},
+				"expandedfoods:breadcrumbs-rice": {saturation: 160, foodcategory: "Grain"},
+				"expandedfoods:breadcrumbs-spelt": {saturation: 150, foodcategory: "Grain"},
+				"expandedfoods:breadcrumbs-rye": {saturation: 150, foodcategory: "Grain"},
+				"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
+				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
+				},
+			"*-syrups": {
+      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
+      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
+    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+				},
+			},
+		renderIngredientsByType: {
+			"*-oiled": 
+				{
+				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
+				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
+				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
+			},
+			"*-tender": 
+				{
+				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
+				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
+				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
+			},
+			"*-smashed": 
+				{
+				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
+				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
+				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
+			},
+			"*-syrups": 
+				{
+				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
+				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
+				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
+			},
+		},
+	},
+	shapebytype:	{
+		"*-syrups": {base: "item/food/meat/{meat}-tender"},
+		"*-tender": {base: "item/food/meat/{meat}-tender"},
+		"*-smashed": {base: "item/food/meat/{meat}-smash"},
+		"*-oiled": {base: "item/food/meat/{meat}-smash"},
+	},
+	texturesbytype: {
+		"*-oiled":	{
+
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
+		},
+		"*-syrups":	{
+
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
+		},
+		"*":	{
+
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-cooked" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-raw" },
+		},
+	},
+
+	nutritionPropsByType: {
+		"*-syrups": { satiety: 90, foodcategory: "Protein" },
+		"*-tender": { satiety: 90, foodcategory: "Protein" },
+
+	},
+
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 600,
+
+	transitionablePropsByType: {
+
+		"*-oiled": [
+{
+		
+			type: "Perish",
+
+			freshHours: { avg: 24 },
+	
+			transitionHours: { avg: 48 },
+	
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+
+			}
+
+		],
+
+		"*-smashed": [
+{
+		
+			type: "Perish",
+
+			freshHours: { avg: 24 },
+	
+			transitionHours: { avg: 48 },
+	
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+
+			}
+
+		],
+
+		"*-tender": [{
+
+			type: "Perish",
+
+			freshHours: { avg: 100 },
+
+			transitionHours: { avg: 72 },
+
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+		
+		}],
+		"*-syrups": [{
+
+			type: "Perish",
+
+			freshHours: { avg: 100 },
+
+			transitionHours: { avg: 72 },
+
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+		
+		}],
+	},
+
+	materialDensity: 600,
+
+	guiTransformByType: {
+
+		"*": {
+
+			rotate: false,
+
+			translation: { x: 0, y: 0, z: 0 },
+
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.5, y: 0.04, z: 0.56 },
+
+			scale: 5
+		}
+
+	},
+
+	fpHandTransformByType: {
+		"*": {
+
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+
+			rotation: { x: 0, y: -81, z: -74 },
+
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+
+			scale: 2.5
+		},
+	},
+
+	tpHandTransformByType: {
+		"*": {
+
+			translation: { x: 0, y: 0, z: 0 },
+
+			rotation: { x: 0, y: 27, z: -14 },
+
+			origin: { x: 0.28, y: -0.2, z: 0.13 },
+
+			scale: 0.75
+		},
+	},
+
+	groundTransformByType: {
+		"*": {
+
+			translation: { x: 0, y: 0, z: 0 },
+
+			rotation: { x: 180, y: 33, z: -180 },
+
+			origin: { x: 0.5, y: 0, z: 0.5 },
+
+			scale: 5
+		},
+
+	},
+
+	combustiblePropsByType: {
+
+		"breadedmeatnugget-*-*-smashed": {
+
+			meltingPoint: 150,
+
+			meltingDuration: 30,
+
+			smeltedRatio: 1,
+
+			smeltingType: "cook",
+
+			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-tender" },
+
+			requiresContainer: false
+
+		},
+		"breadedmeatnugget-*-*-oiled": {
+
+			meltingPoint: 150,
+
+			meltingDuration: 30,
+
+			smeltedRatio: 1,
+
+			smeltingType: "cook",
+
+			smeltedStack: { type: "item", code: "breadedmeatnugget-{type}-{meat}-tender" },
+
+			requiresContainer: false
+
+		},
+	}
+}

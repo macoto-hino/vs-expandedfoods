@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/squeezeInto",
+    "value": "honeyportion",
+    "file": "game:itemtypes/resource/honeycomb.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/squeezeRatio",
+    "value": 1,
+    "file": "game:itemtypes/resource/honeycomb.json"
+  }
+]

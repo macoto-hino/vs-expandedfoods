@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ExpandedDough",
+    "file": "itemtypes/food/dough.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/expandedNutritionProps",
+    "value": {
+      "game:milkportion": {
+        "saturation": 60,
+        "foodcategory": "Dairy"
+      },
+      "game:flour-rice": {
+        "saturation": 170,
+        "foodcategory": "Grain"
+      },
+      "game:flour-rye": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      },
+      "game:flour-spelt": {
+        "saturation": 140,
+        "foodcategory": "Grain"
+      }
+    },
+    "file": "itemtypes/food/dough.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredients",
+    "value": {
+      "game:flour-flax": "game:shapes/item/food/bread/flaxbread-dough.json",
+      "game:flour-rye": "game:shapes/item/food/bread/ryebread-dough.json",
+      "game:flour-spelt": "game:shapes/item/food/bread/speltbread-dough.json",
+      "game:flour-rice": "game:shapes/item/food/bread/ricebread-dough.json"
+    },
+    "file": "itemtypes/food/dough.json"
+  }
+]

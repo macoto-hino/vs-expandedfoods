@@ -1,0 +1,11 @@
+ {
+	ingredientPattern: "B",
+	ingredients: {
+		"B": { type: "item", code: "acorns:bread-acorn-*", name: "type", allowedVariants: ["flax", "rice", "rye", "spelt"]  }
+	},
+	name: "acornbreadcrumbs",
+	width: 1,
+	height: 1,
+	shapeless: false,
+	output: { type: "item", code: "acornbreadcrumbs-{type}", quantity: 4  }
+}

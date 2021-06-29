@@ -1,0 +1,160 @@
+{
+	code: "acornberrybread",
+  	class: "ExpandedFood",
+	maxstacksize: 32,
+	variantgroups: [
+		{code: "state", states: ["dough", "cooked", "syrup"]}
+	],
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+		expandedNutritionPropsByType: {
+			"*-dough": {
+      				"game:milkportion" : { saturation: 60, foodcategory: "Dairy" },
+      				"expandedfoods:pasteurizedmilkportion" : { saturation: 45, health: 1, foodcategory: "Dairy" },
+				"game:fruit-cranberry" : { saturation: 90, foodcategory: "Fruit" },
+				"game:fruit-blueberry" : { saturation: 120, foodcategory: "Fruit" },
+				"game:fruit-redcurrant" : { saturation: 120, foodcategory: "Fruit" },
+				"game:fruit-whitecurrant" : { saturation: 120, foodcategory: "Fruit" },
+				"game:fruit-blackcurrant" : { saturation: 120, foodcategory: "Fruit" },
+				"expandedfoods:dryfruit-cranberry" : { saturation: 75, foodcategory: "Fruit" },
+				"expandedfoods:dryfruit-blueberry" : { saturation: 105, foodcategory: "Fruit" },
+				"expandedfoods:dryfruit-redcurrant" : { saturation: 105, foodcategory: "Fruit" },
+				"expandedfoods:dryfruit-whitecurrant" : { saturation: 105, foodcategory: "Fruit" },
+				"expandedfoods:dryfruit-blackcurrant" : { saturation: 105, foodcategory: "Fruit" },
+      				"game:flour-rice" : { saturation: 170, foodcategory: "Grain" },
+      				"game:flour-rye" : { saturation: 140, foodcategory: "Grain" },
+      				"game:flour-spelt" : { saturation: 140, foodcategory: "Grain" },
+      				"acorns:flour-acorn" : { saturation: 140, foodcategory: "Grain" },
+				"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"}
+			},
+			"*-syrup": {
+      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
+      				"expandedfoods:fruitsyrupportion-mix" : { saturation: 210, health: 4, foodcategory: "Fruit" },
+      				"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 180, health: 3, foodcategory: "Fruit" },
+      				"expandedfoods:fruitsyrupportion-*" : { saturation: 180, health: 2, foodcategory: "Fruit" },
+      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
+			},
+		},
+    		renderIngredientsByType: {
+			"*-cooked": {
+      				"game:flour-*" : "acorns:shapes/item/food/bread/acornbread.json",
+				"game:fruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"game:fruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"game:fruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"game:fruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"game:fruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+				"expandedfoods:dryfruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"expandedfoods:dryfruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"expandedfoods:dryfruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"expandedfoods:dryfruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"expandedfoods:dryfruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+			},
+			"*-dough": {
+      				"game:flour-*" : "acorns:shapes/item/food/bread/acornbread-dough.json",
+				"game:fruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"game:fruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"game:fruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"game:fruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"game:fruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+				"expandedfoods:dryfruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"expandedfoods:dryfruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"expandedfoods:dryfruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"expandedfoods:dryfruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"expandedfoods:dryfruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+			},
+			"*-syrup": {
+      				"game:flour-*" : "acorns:shapes/item/food/bread/acornbread.json",
+				"game:fruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"game:fruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"game:fruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"game:fruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"game:fruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+				"expandedfoods:dryfruit-cranberry" : "expandedfoods:shapes/item/food/bread/overlays/cranberry-acorn.json",
+				"expandedfoods:dryfruit-blueberry" : "expandedfoods:shapes/item/food/bread/overlays/blueberry-acorn.json",
+				"expandedfoods:dryfruit-redcurrant" : "expandedfoods:shapes/item/food/bread/overlays/redcurrant-acorn.json",
+				"expandedfoods:dryfruit-blackcurrant" : "expandedfoods:shapes/item/food/bread/overlays/blackcurrant-acorn.json",
+				"expandedfoods:dryfruit-whitecurrant" : "expandedfoods:shapes/item/food/bread/overlays/whitecurrant-acorn.json",
+				"expandedfoods:treesyrupportion-birch": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornbirchsyrup.json",
+				"expandedfoods:treesyrupportion-maple": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornmaplesyrup.json",
+				"expandedfoods:fruitsyrupportion-blueberry": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornblueberrysyrup.json",
+      				"expandedfoods:fruitsyrupportion-cranberry": "expandedfoods:shapes/item/food/bread/overlays/syrup/acorncranberrysyrup.json",
+      				"expandedfoods:fruitsyrupportion-redcurrant": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornredcurrantsyrup.json",
+      				"expandedfoods:fruitsyrupportion-blackcurrant": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornblackcurrantsyrup.json",
+      				"expandedfoods:fruitsyrupportion-whitecurrant": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornwhitecurrantsyrup.json",
+      				"expandedfoods:fruitsyrupportion-mix": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornmixsyrup.json",
+      				"expandedfoods:fruitsyrupportion-saguaro": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornsaguarosyrup.json",
+				"game:honeyportion": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornhoney.json",
+			},
+		},
+	},
+	shape: { base: "acorns:item/food/bread/acornbread" },
+  	textures: {
+		"cranberry" : {base: "expandedfoods:item/food/grain/overlays/cranberry" },
+		"blueberry" : {base: "expandedfoods:item/food/grain/overlays/blueberry" },
+		"redcurrant" : {base: "expandedfoods:item/food/grain/overlays/redcurrant" },
+		"blackcurrant" : {base: "expandedfoods:item/food/grain/overlays/blackcurrant" },
+		"whitecurrant" : {base: "expandedfoods:item/food/grain/overlays/whitecurrant" },
+		"weaktannin": { base: "game:block/liquid/weaktannin"},
+		"strongtannin": { base: "game:block/liquid/strongtannin"},
+		"honey": { base: "game:block/liquid/honey"},
+		"mixwine": { base: "game:item/liquid/mixwine"},
+		"saguaro": { base: "game:item/liquid/saguaro"},
+  	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-cooked": {saturation: 160, foodcategory: "Grain" },
+		"*-syrup": {saturation: 160, foodcategory: "Grain" },
+	},
+	combustiblePropsByType: {
+		"*-dough": {
+			meltingPoint: 200,
+			meltingDuration: 15,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "expandedfoods:acornberrybread-cooked" },
+			requiresContainer: false
+		},
+	},
+	transitionablePropsByType: { 
+		"*-dough": [{
+			type: "Perish",
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 24 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 432 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	},
+	materialDensity: 200,
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -28, y: 23, z: 180 },
+		origin: { x: 0.5, y: 0.07, z: 0.5 },
+		scale: 5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.54, y: -0.16, z: -0.4 },
+		rotation: { x: 44, y: -69, z: 2 },
+		origin: { x: 0.5, y: 0.13, z: 0.5 },
+		scale: 1
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.24, z: 0.3 },
+		rotation: { x: 104, y: 0, z: 71 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.5
+	}
+}

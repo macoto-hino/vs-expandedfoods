@@ -1,0 +1,76 @@
+{
+	code: "soyprep",
+	maxstacksize: 40,
+	variantgroups: [
+		{ code: "type", states: ["soaked", "roasted", "powdered", "cultured", "slurry"] },
+	],
+	attributes: {
+		inContainerTextureByType: { 
+			"*-slurry": { base: "block/wood/barrel/raw-soybean" },
+			"*-cultured": { base: "block/wood/barrel/raw-soybean" },
+			"*-soaked": { base: "block/wood/barrel/raw-soybean" },
+		},
+		squeezeIntoByType: {
+			"*-slurry": "expandedfoods:soysauce",
+		},
+		squeezeRatioByType: {
+			"*-slurry": 1,
+		},
+	},
+	grindingPropsByType: {
+		"*-roasted": { grindedstack: {type: "item", code: "expandedfoods:soyprep-powdered"} }
+	},
+	materialDensity: 600,
+	shape: { base: "game:item/food/pickledvegetable/soypile" },
+	textures: { soypile: {base: "item/food/soyprep/{type}"} },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	transitionableProps: [{
+			type: "Perish",
+			freshHours: { avg: 1170 },
+			transitionHours: { avg: 110 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	combustiblePropsByType: {
+
+		"*-soaked": {
+
+			meltingPoint: 100,
+
+			meltingDuration: 20,
+
+			smeltedRatio: 1,
+
+			smeltingType: "cook",
+
+			smeltedStack: { type: "item", code: "soyprep-roasted" },
+
+			requiresContainer: false
+
+		},
+	}
+,
+	guiTransform: {
+		translation: { x: 2.5, y: 1, z: 0 },
+		rotation: { x: 137, y: 131, z: 0 },
+		origin: { x: 0.5, y: 0.2, z: 0.5 },
+		scale: 1.38
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 51, y: 90, z: -30 },
+		scale: 1.9
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.14, z: -0.6 },
+		rotation: { x: 1, y: -1, z: -31 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.79
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3.5
+	}
+}

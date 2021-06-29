@@ -1,0 +1,38 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:flour-flax", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornhardtack-flax-raw", stackSize: 2}
+ }, 
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:flour-rice", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornhardtack-rice-raw", stackSize: 2}
+ }, 
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:flour-rye", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornhardtack-rye-raw", stackSize: 2}
+ }, 
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:flour-spelt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornhardtack-spelt-raw", stackSize: 2}
+ }, 
+]

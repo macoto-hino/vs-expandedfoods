@@ -1,0 +1,76 @@
+{
+	code: "mixjuiceportion",
+	matterState: "liquid",
+	variantgroups: [
+		{ code: "type", states: ["fruit", "vegetable"] },
+	],
+	attributes: {
+		nutritionPropsWhenInMealByType: { 
+			"*-fruit": { satiety: 210, health: 3, foodcategory: "Fruit" },
+			"*-vegetable": { satiety: 220, health: 3, foodcategory: "Vegetable" },
+		},
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 4,
+			texture: { base: "game:item/liquid/{type}mix" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:mixjuiceportion-{type}" }
+			}
+		}
+	},
+	transitionablePropsByType: {
+		"*-fruit": [{
+    			type: "Perish",
+    			freshHours: { avg: 72 },
+    			transitionHours: { avg: 24 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		},{
+    			type: "Cure",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 336 },
+    			transitionedStack: { type: "item", code: "fruitwineportion-mix" },
+    			transitionRatio: 1
+  		}],
+		"*-vegetable": [{
+    			type: "Perish",
+    			freshHours: { avg: 144 },
+    			transitionHours: { avg: 24 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		}],
+	},
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:item/liquid/{type}mix" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	combustiblePropsByType: {
+		"*-fruit": {
+			meltingPoint: 150,
+			meltingDuration: 5,
+			smeltedRatio: 4,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "expandedfoods:fruitsyrupportion-mix" },
+			requiresContainer: false
+		},
+	},
+	nutritionPropsByType: { 
+		"*-fruit": { saturation: 140, health: 2, foodcategory: "Fruit" },
+		"*-vegetable": { saturation: 145, health: 2, foodcategory: "Vegetable" },
+	},
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

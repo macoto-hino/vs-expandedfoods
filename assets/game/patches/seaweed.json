@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 100,
+      "meltingDuration": 15,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:driedseaweed"
+      },
+      "requiresContainer": false
+    },
+    "file": "blocktypes/plant/seaweed.json"
+  },
+  {
+    "file": "game:blocktypes/plant/seaweed.json",
+    "op": "add",
+    "path": "/drops/0",
+    "value": {
+      "type": "block",
+      "code": "seaweed-{part}"
+    }
+  }
+]

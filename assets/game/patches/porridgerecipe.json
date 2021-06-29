@@ -1,0 +1,685 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/1",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-blueberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/2",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-saguaro",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/3",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-cranberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/4",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-whitecurrant",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/5",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-blackcurrant",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/6",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-redcurrant",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/1",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-blueberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/2",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-saguaro",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/3",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-cranberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/4",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-whitecurrant",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/5",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-blackcurrant",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/6",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-redcurrant",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "remove",
+    "path": "/ingredients/3",
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/3",
+    "value": {
+      "code": "vegetable-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "vegetable-cabbage",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-carrot",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-onion",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-parsnip",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-turnip",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "mushroom-*",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "block",
+          "code": "pumpkin-fruit-4",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-carrot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-flyagaric",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group2"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-bolete",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-parsnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-turnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-onion",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-fieldmushroom",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cabbage",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group10"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledcarrot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledparsnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledturnip",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledonion",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4",
+    "value": {
+      "code": "vegetable-extra-2",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "vegetable-cabbage",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-carrot",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-onion",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-parsnip",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-turnip",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "mushroom-*",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "block",
+          "code": "pumpkin-fruit-4",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "pickledvegetable-*",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-carrot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-flyagaric",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group2"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-bolete",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-parsnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-turnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-onion",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-fieldmushroom",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cabbage",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group10"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledcarrot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group1"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledparsnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group4"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledturnip",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group5"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledonion",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group6"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group8"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6",
+    "value": {
+      "code": "topping-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "salt",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:treesyrupportion-birch",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "birchsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:treesyrupportion-maple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "maplesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-blueberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "blueberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-cranberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cranberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-redcurrant",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "redcurrantsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-whitecurrant",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "whitecurrantsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-blackcurrant",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "blackcurrantsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-mix",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "mixwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-saguaro",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "saguarosyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:lard",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "lard"
+	 ]
+        },
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/7",
+    "value": {
+      "code": "nuts-extra1",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "expandedfoods:acornportion",
+          "shapeElement": "bowl/nuts 1/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/8",
+    "value": {
+      "code": "nuts-extra2",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "expandedfoods:acornportion",
+          "shapeElement": "bowl/nuts 2/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/porridge.json"
+  }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  code: "wine",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitjuiceportion-*", name: "fruit", quantity: 1 },
+  ],
+  output: { type: "item", code: "expandedfoods:fruitwineportion-{fruit}", stackSize: 1 }
+ },
+ {
+  code: "mixedwine",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:mixjuiceportion-fruit", quantity: 1 },
+  ],
+  output: { type: "item", code: "expandedfoods:fruitwineportion-mix", stackSize: 1 }
+ }
+]

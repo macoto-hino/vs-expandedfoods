@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "value": {
+      "satiety": 80,
+      "foodcategory": "Dairy"
+    },
+    "file": "itemtypes/liquid/dairy/milkportion.json"
+  }
+]

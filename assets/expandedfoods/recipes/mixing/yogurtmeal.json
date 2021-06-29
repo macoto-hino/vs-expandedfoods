@@ -1,0 +1,131 @@
+{
+	code: "yogurtmeal",
+	perishableProps: {
+		freshHours: { avg: 72 },
+		transitionHours: { avg: 18 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "game:rot" }
+	},
+	shape: { base: "block/meal/yogurt" },
+	ingredients: [
+		{
+			code: "yogurt-base",
+			validStacks: [
+				{ type: "item", code: "expandedfoods:yogurt-plain",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtplain"]  },
+				{ type: "item", code: "expandedfoods:yogurt-blueberry",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtblueberry"]  },
+				{ type: "item", code: "expandedfoods:yogurt-cranberry",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtcranberry"]  },
+				{ type: "item", code: "expandedfoods:yogurt-blackcurrant",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtblackcurrant"]  },
+				{ type: "item", code: "expandedfoods:yogurt-redcurrant",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtredcurrant"]  },
+				{ type: "item", code: "expandedfoods:yogurt-whitecurrant",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtwhitecurrant"]  },
+				{ type: "item", code: "expandedfoods:yogurt-saguaro",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtsaguaro"]  },
+				{ type: "item", code: "expandedfoods:yogurt-mix",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtmix"]  },
+				{ type: "item", code: "expandedfoods:yogurt-birch",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtbirch"]  },
+				{ type: "item", code: "expandedfoods:yogurt-maple",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurtmaple"]  },
+				{ type: "item", code: "expandedfoods:yogurt-honey",  shapeElement: "bowl/yogurt/*", textureMapping: ["liquid", "yogurthoney"]  },
+			],
+			minQuantity: 1,
+			maxQuantity: 1,
+		},
+		{
+			code: "fruit-extra",
+			validStacks: [ 
+				{ type: "item", code: "game:fruit-*",  shapeElement: "bowl/fruit 1/*" },
+				{ type: "item", code: "expandedfoods:dryfruit-blueberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group1"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-saguaro",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group2"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-cranberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group3"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-whitecurrant",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group4"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-blackcurrant",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group5"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-redcurrant",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group6"] }
+ 			], 
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "fruit-extra2",
+			validStacks: [ 
+				{ type: "item", code: "game:fruit-*",  shapeElement: "bowl/fruit 2/*" },
+				{ type: "item", code: "expandedfoods:dryfruit-blueberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group1"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-saguaro",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group2"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-cranberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group3"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-whitecurrant",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group4"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-blackcurrant",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group5"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-redcurrant",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group6"] }
+ 			], 
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "fruit-extra3",
+			validStacks: [ 
+				{ type: "item", code: "game:fruit-*",  shapeElement: "bowl/fruit 3/*" },
+				{ type: "item", code: "expandedfoods:dryfruit-blueberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group1"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-saguaro",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group2"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-cranberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group3"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-whitecurrant",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group4"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-blackcurrant",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group5"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-redcurrant",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group6"] }
+ 			], 
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "fruit-extra4",
+			validStacks: [ 
+				{ type: "item", code: "game:fruit-*",  shapeElement: "bowl/fruit 4/*" },
+				{ type: "item", code: "expandedfoods:dryfruit-blueberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group1"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-saguaro",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group2"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-cranberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group3"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-whitecurrant",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group4"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-blackcurrant",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group5"] }, 
+				{ type: "item", code: "expandedfoods:dryfruit-redcurrant",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group6"] }
+ 			], 
+			minQuantity: 0,
+			maxQuantity: 1
+		},
+		{
+			code: "vegetable-extra1",
+			validStacks: [
+				{ type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+		},
+		{
+			code: "vegetable-extra2",
+			validStacks: [
+				{ type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
+			],
+			minQuantity: 0,
+			maxQuantity: 1,
+		},
+		{
+			code: "topping-sauce", 
+			validStacks: [
+				{ type: "item", code: "game:honeyportion",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "honey"] }, 
+				{ type: "item", code: "expandedfoods:treesyrupportion-birch",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "birchsyrup"] }, 
+				{ type: "item", code: "expandedfoods:treesyrupportion-maple",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "maplesyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-blueberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "blueberrysyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-cranberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "cranberrysyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-blackcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "blackcurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-redcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "redcurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-whitecurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "whitecurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-mix",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "mixwine"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-saguaro",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "saguarosyrup"] }, 
+				{ type: "item", code: "expandedfoods:gelatin-plain",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinplain"] },
+				{ type: "item", code: "expandedfoods:gelatin-blueberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinblueberry"] },
+				{ type: "item", code: "expandedfoods:gelatin-cranberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatincranberry"] },
+				{ type: "item", code: "expandedfoods:gelatin-redcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinredcurrant"] },
+				{ type: "item", code: "expandedfoods:gelatin-whitecurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinwhitecurrant"] },
+				{ type: "item", code: "expandedfoods:gelatin-blackcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinblackcurrant"] },
+				{ type: "item", code: "expandedfoods:gelatin-fruitmix",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinfruitmix"] },
+				{ type: "item", code: "expandedfoods:gelatin-saguaro",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinsaguaro"] },
+				{ type: "item", code: "expandedfoods:gelatin-birch",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinbirch"] },
+				{ type: "item", code: "expandedfoods:gelatin-maple",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinmaple"] },
+				{ type: "item", code: "expandedfoods:gelatin-honey",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "gelatinhoney"] },
+
+			],
+			minQuantity: 0,
+			maxQuantity: 1
+		}
+	]
+}

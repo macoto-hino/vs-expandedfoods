@@ -1,0 +1,274 @@
+{
+	code: "cookedveggie",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric"] },
+	],
+	materialDensity: 600,
+	shape: { base: "item/food/veggies/{type}"},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-cabbage": { satiety: 375, foodcategory: "Vegetable" },
+		"*-pumpkin": { satiety: 150, foodcategory: "Vegetable" },
+		"*-bolete": { satiety: 100, foodcategory: "Vegetable" },
+		"*-fieldmushroom": { satiety: 100, foodcategory: "Vegetable" },
+		"*-flyagaric": { satiety: 100, health: -5, foodcategory: "Vegetable" },
+		"*": { satiety: 125, foodcategory: "Vegetable" }
+	},
+	guiTransformByType: {
+		"*-cabbage": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.6
+		},
+		"*-carrot": {
+			translation: { x: 2, y: 1, z: 0 },
+			rotation: { x: 180, y: 44, z: 56 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 4.75
+		},
+		"*-onion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 5.35
+		},
+		"*-parsnip": {
+			translation: { x: 2, y: 2, z: 0 },
+			rotation: { x: 180, y: 158, z: 38 },
+			origin: { x: 0.5, y: 0.23, z: 0.5 },
+			scale: 3.6
+		},
+		"*-turnip": {
+			translation: { x: 1, y: 2, z: 0 },
+			rotation: { x: 180, y: 158, z: 38 },
+			origin: { x: 0.5, y: 0.18, z: 0.5 },
+			scale: 4.25
+		},
+		"*-pumpkin": {
+			translation: { x: 2, y: 2, z: 0 },
+			rotation: { x: 127, y: 180, z: 38 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 3.5999
+		},
+		"*-flyagaric": {
+			rotation: { x: -22, y: 107, z: 180 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 3
+		},
+		"*-bolete": {
+			rotation: { x: -22, y: 107, z: 180 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 3
+		},
+		"*-fieldmushroom": {
+			rotation: { x: -22, y: 107, z: 180 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 3
+		},		
+	},
+	fpHandTransformByType: {
+		"*-cabbage": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-carrot": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-onion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-parsnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-turnip":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-pumpkin":	{
+			translation: { x: 0, y: 0.22, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 1.8999
+		},
+		"*-flyagaric": {
+			translation: { x: 0, y: -0.25, z: 0 },
+			rotation: { x: 0, y: 90, z: -30 },
+			scale: 1.33
+		},
+		"*-bolete": {
+			translation: { x: 0, y: -0.25, z: 0 },
+			rotation: { x: 0, y: 90, z: -30 },
+			scale: 1.33
+		},
+		"*-fieldmushroom": {
+			translation: { x: 0, y: -0.25, z: 0 },
+			rotation: { x: 0, y: 90, z: -30 },
+			scale: 1.33
+		},
+	},
+	tpHandTransformByType: {
+		"*-cabbage": {
+			translation: { x: -0.7, y: -0.14, z: -0.6 },
+			rotation: { x: 1, y: -1, z: -31 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-carrot": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-onion": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-parsnip": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-turnip": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
+		"*-pumpkin": {
+			translation: { x: -0.75, y: -0.13, z: -0.71 },
+			rotation: { x: 45, y: -42, z: -65 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.75
+		},
+		"*-flyagaric": {
+			translation: { x: -0.93, y: -0.17, z: -0.8 },
+			rotation: { x: 15, y: -10, z: -114 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.58
+		},	
+		"*-bolete": {
+			translation: { x: -0.93, y: -0.17, z: -0.8 },
+			rotation: { x: 15, y: -10, z: -114 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.58
+		},	
+		"*-fieldmushroom": {
+			translation: { x: -0.93, y: -0.17, z: -0.8 },
+			rotation: { x: 15, y: -10, z: -114 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.58
+		},		
+		
+	},
+	groundTransformByType: {
+		"*-cabbage": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-carrot": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-onion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-parsnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-turnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 75 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.8
+		},
+		"*-pumpkin": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 75 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.8
+		},
+		"*-flyagaric": {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},	
+		"*-bolete": {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},	
+		"*-fieldmushroom": {
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+	},
+	transitionablePropsByType: {
+		"*-pumpkin": [{
+			type: "Perish",
+			freshHours: { avg: 108 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-onion": [{
+			type: "Perish",
+			freshHours: { avg: 336 },
+			transitionHours: { avg: 60 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-bolete": [{
+			type: "Perish",
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-fieldmushroom": [{
+			type: "Perish",
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-flyagaric": [{
+			type: "Perish",
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 252 },
+			transitionHours: { avg: 48 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}]
+	}
+}

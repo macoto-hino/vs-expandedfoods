@@ -1,0 +1,45 @@
+{
+	code: "breadstarter",
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	maxstacksize: 16,
+	attributes: {
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 4,
+			texture: { base: "game:block/liquid/starter" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:breadstarter" }
+			}
+		},
+		nutritionPropsWhenInMeal: { satiety: 25, health: 1, foodcategory: "Grain" }
+	},
+	variantgroups: [
+		{ code: "type", states: ["wild"] },
+	],
+	shape: { base: "game:item/liquid" },
+	texture:  {base: "game:block/liquid/starter"},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 48 },
+		transitionHours: { avg: 48 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.25
+	}],
+	materialDensity: 200,
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

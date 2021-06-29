@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps",
+    "value": {
+      "meltingPoint": 100,
+      "meltingDuration": 10,
+      "smeltedRatio": 1,
+      "smeltingType": "bake",
+      "smeltedStack": {
+        "type": "item",
+        "code": "expandedfoods:dryfruit-{type}"
+      },
+      "requiresContainer": false
+    },
+    "file": "itemtypes/food/fruit.json"
+  }
+]

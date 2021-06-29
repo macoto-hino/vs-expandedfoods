@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-bigberrybush.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-croton.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-herb.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-lupine.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-rafflesia.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/wildseeds-smallberrybush.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "wildfarming:itemtypes/cactiseeds.json"
+  },
+]

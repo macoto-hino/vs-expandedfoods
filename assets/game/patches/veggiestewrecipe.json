@@ -1,0 +1,972 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/11",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/12",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/14",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/15",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/16",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/17",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/18",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/19",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/20",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/21",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-fieldmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/22",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/23",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/24",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/11",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/12",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/13",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/14",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/15",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/16",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/17",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/18",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/19",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/20",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/21",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-fieldmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/22",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/23",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/24",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/11",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dumpling-raw"
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/12",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/11",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dumpling-raw"
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/12",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acorndumpling-raw"
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-carrot",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledcarrot",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group1"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-parsnip",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledparsnip",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group4"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-turnip",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledturnip",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group5"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-onion",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledonion",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group6"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-fieldmushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pumpkin",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledpumpkin",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cabbage",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4",
+    "value": {
+      "code": "topping-sauce",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:soysauce",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-flax",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-rice",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-seed",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-soy",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:lard",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "lard"
+	 ]
+        },
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5",
+    "value": {
+      "code": "breadcrumbs-extra",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "expandedfoods:breadcrumbs-*"
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/1",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:acornbreadcrumbs-*"
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6",
+    "value": {
+      "code": "salt",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "salt"
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/7",
+    "value": {
+      "code": "nuts-extra1",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "expandedfoods:acornportion",
+          "shapeElement": "bowl/nuts 1/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/8",
+    "value": {
+      "code": "nuts-extra2",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "expandedfoods:acornportion",
+          "shapeElement": "bowl/nuts 2/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+        }
+      ],
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  }
+]

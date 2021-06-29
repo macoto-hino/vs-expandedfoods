@@ -1,0 +1,98 @@
+{
+	code: "acorndoughball",
+	maxstacksize: 32,
+  	class: "ExpandedFood",
+	variantgroups: [
+		{code: "type", states: ["dough", "bread"]},
+	],
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+    		"expandedNutritionPropsByType": {
+			"*-dough": {
+      				"game:milkportion" : { saturation: 60, foodcategory: "Dairy" },
+      				"expandedfoods:pasteurizedmilkportion" : { saturation: 45, health: 1, foodcategory: "Dairy" },
+      				"game:flour-rice" : { saturation: 170, foodcategory: "Grain" },
+      				"game:flour-rye" : { saturation: 140, foodcategory: "Grain" },
+      				"game:flour-spelt" : { saturation: 140, foodcategory: "Grain" },
+      				"acorns:flour-acorn" : { saturation: 140, foodcategory: "Grain" },
+			},
+		},
+  		renderIngredientsByType: {
+			"*-dough": {
+				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-doughball.json",
+      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-doughball.json",
+			},
+			"*-bread": {
+				"acorns:flour-acorn": "expandedfoods:shapes/item/food/bread/acornbread-breadball.json",
+      				"game:flour-*" : "expandedfoods:shapes/item/food/bread/acornbread-breadball.json",
+			},
+		},
+	},
+	textures: {
+		"acornbread": {base: "acorns:item/food/grain/acornbread"},
+  	},
+	shape: { base: "expandedfoods:item/food/bread/acornbread-doughball" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 200,
+	nutritionPropsByType: {
+		"*-bread": { satiety: 160, foodcategory: "Grain" },
+
+	},
+
+	combustiblePropsByType: {
+		"*-dough": {
+			meltingPoint: 200,
+			meltingDuration: 15,
+			smeltedRatio: 1,
+			smeltingType: "bake",
+			smeltedStack: { type: "item", code: "expandedfoods:acorndoughball-bread" },
+			requiresContainer: false
+		},
+	},
+	guiTransform: {
+		translation: { x: -4.5, y: -3.5, z: 0 },
+
+		rotation: { x: 179, y: -127, z: 38 },
+
+		origin: { x: 0.57, y: 0.07, z: 0.5 },
+		scale: 5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.22, z: 0.2 },
+		rotation: { x: 47, y: 1, z: -17 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: 0.2, y: 0, z: 0 },
+
+		rotation: { x: 5, y: 31, z: -21 },
+
+		origin: { x: 0.23, y: 0, z: 0.13 },
+
+		scale: 0.7
+	},
+	transitionablePropsByType: {
+		"*-dough": [{
+			type: "Perish",
+			freshHours: { avg: 72 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-bread": [{
+			type: "Perish",
+			freshHours: { avg: 540 },
+			transitionHours: { avg: 345 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+	}
+}

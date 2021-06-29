@@ -1,0 +1,9 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:yogurt-starter",  quantity: 4 }]},
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-ferment", stackSize: 4 }
+ }
+]

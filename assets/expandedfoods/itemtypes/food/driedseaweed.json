@@ -1,0 +1,7 @@
+{
+    code: "driedseaweed",
+    maxstacksize: 64,
+    materialDensity: 200,
+    texture: { base: "item/food/sushi/dried-seaweed" },
+    creativeinventory: { "general": ["*"], "items": ["*"] },
+}

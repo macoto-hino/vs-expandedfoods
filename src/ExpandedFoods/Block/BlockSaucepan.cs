@@ -1,0 +1,509 @@
+﻿using System;
+using System.Collections.Generic;
+using Vintagestory.API.Client;
+using Vintagestory.API.Common;
+using Vintagestory.API.Config;
+using Vintagestory.API.MathTools;
+using Vintagestory.API.Util;
+using Vintagestory.GameContent;
+using Vintagestory.API.Datastructures;
+
+namespace ExpandedFoods
+{
+    public class BlockSaucepan : BlockBucket
+    {
+        public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(5f) ?? 5f;
+
+        static SimmerRecipe[] simmerRecipes;
+
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
+
+            if (simmerRecipes == null)
+            {
+                simmerRecipes = Attributes["simmerRecipes"].AsObject<SimmerRecipe[]>();
+                if (simmerRecipes != null)
+                {
+                    foreach(SimmerRecipe rec in simmerRecipes)
+                    {
+                        rec.Resolve(api.World, "saucepan");
+                    }
+                }
+            }
+        }
+
+        public override bool CanSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemStack inputStack, ItemStack outputStack)
+        {
+            if (outputStack != null || GetContent(world, inputStack) != null) return false;
+            List<ItemStack> stacks = new List<ItemStack>();
+
+            foreach (ItemSlot slot in cookingSlotsProvider.Slots)
+            {
+                if (!slot.Empty) stacks.Add(slot.Itemstack);
+            }
+
+            if (stacks.Count <= 0) return false;
+            else if (stacks.Count == 1)
+            {
+                //stacks[0].Collectible.CombustibleProps?.SmeltedStack?.Resolve(world, "saucepan");
+                if (stacks[0].Collectible.CombustibleProps?.SmeltedStack?.ResolvedItemstack == null || !stacks[0].Collectible.CombustibleProps.RequiresContainer) return false;
+                return stacks[0].StackSize % stacks[0].Collectible.CombustibleProps.SmeltedRatio == 0;
+            }
+            else if (simmerRecipes != null)
+            {
+                foreach (SimmerRecipe rec in simmerRecipes)
+                {
+                    if (rec.Match(stacks) > 0) return true;
+                }
+            }
+            return false;
+        }
+
+        public override void DoSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemSlot inputSlot, ItemSlot outputSlot)
+        {
+            if (!CanSmelt(world, cookingSlotsProvider, inputSlot.Itemstack, outputSlot.Itemstack)) return;
+
+            List<ItemStack> contents = new List<ItemStack>();
+            ItemStack product = null;
+
+            foreach (ItemSlot slot in cookingSlotsProvider.Slots)
+            {
+                if (!slot.Empty) contents.Add(slot.Itemstack);
+            }
+
+            if (contents.Count == 1)
+            {
+                //contents[0].Collectible.CombustibleProps.SmeltedStack.Resolve(world, "saucepan");
+
+                product = contents[0].Collectible.CombustibleProps.SmeltedStack.ResolvedItemstack.Clone();
+
+                product.StackSize *= (contents[0].StackSize / contents[0].Collectible.CombustibleProps.SmeltedRatio);
+            }
+            else if (simmerRecipes != null && contents.Count > 1)
+            {
+                SimmerRecipe match = null;
+                int amount = 0;
+
+                foreach (SimmerRecipe rec in simmerRecipes)
+                {
+                    if ((amount = rec.Match(contents)) > 0)
+                    {
+                        match = rec;
+                        break;
+                    }
+                }
+
+                if (match == null) return;
+
+                product = match.Simmering.SmeltedStack.ResolvedItemstack.Clone();
+
+                product.StackSize *= amount;
+                
+                if (product.Collectible is IExpandedFood)
+                {
+                    List<KeyValuePair<ItemSlot, CraftingRecipeIngredient>> input = new List<KeyValuePair<ItemSlot, CraftingRecipeIngredient>>();
+                    List<ItemSlot> alreadyfound = new List<ItemSlot>();
+
+                    foreach (CraftingRecipeIngredient ing in match.Ingredients)
+                    {
+                        foreach (ItemSlot slot in cookingSlotsProvider.Slots)
+                        {
+                            if (!alreadyfound.Contains(slot) && !slot.Empty && ing.SatisfiesAsIngredient(slot.Itemstack))
+                            {
+                                alreadyfound.Add(slot);
+                                input.Add(new KeyValuePair<ItemSlot, CraftingRecipeIngredient>(slot, ing));
+                                break;
+                            }
+                        }
+                    }
+                    
+                    (product.Collectible as IExpandedFood).OnCreatedByKneading(input, product);
+                }
+            }
+
+            if (product == null) return;
+
+            if (product.Collectible.Class == "ItemLiquidPortion" || product.Collectible is ItemExpandedLiquid || product.Collectible is ItemTransLiquid)
+            {
+                for (int i = 0; i < cookingSlotsProvider.Slots.Length; i++)
+                {
+                    cookingSlotsProvider.Slots[i].Itemstack = null;
+                }
+
+                outputSlot.Itemstack = inputSlot.TakeOut(1);
+
+                (outputSlot.Itemstack.Collectible as BlockLiquidContainerBase).TryPutContent(world, outputSlot.Itemstack, product, product.StackSize);
+
+            }
+            else
+            {
+                outputSlot.Itemstack = product;
+
+                for (int i = 0; i < cookingSlotsProvider.Slots.Length; i++)
+                {
+                    cookingSlotsProvider.Slots[i].Itemstack = null;
+                }
+
+            }
+        }
+
+        public override float GetMeltingDuration(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemSlot inputSlot)
+        {
+            float dur = 0f;
+            List<ItemStack> contents = new List<ItemStack>();
+            foreach (ItemSlot slot in cookingSlotsProvider.Slots)
+            {
+                if (!slot.Empty) contents.Add(slot.Itemstack);
+            }
+            if (contents.Count == 1 && contents[0].Collectible.CombustibleProps != null) return contents[0].Collectible.CombustibleProps.MeltingDuration * contents[0].StackSize;
+            else if (simmerRecipes != null && contents.Count > 1)
+            {
+                SimmerRecipe match = null;
+                int amount = 0;
+
+                foreach (SimmerRecipe rec in simmerRecipes)
+                {
+                    if ((amount = rec.Match(contents)) > 0)
+                    {
+                        match = rec;
+                        break;
+                    }
+                }
+
+                if (match == null) return 0;
+
+                return match.Simmering.MeltingDuration * amount;
+            }
+
+            return dur;
+        }
+
+        public override float GetMeltingPoint(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemSlot inputSlot)
+        {
+            float temp = 0f;
+            List<ItemStack> contents = new List<ItemStack>();
+            foreach (ItemSlot slot in cookingSlotsProvider.Slots)
+            {
+                if (!slot.Empty) contents.Add(slot.Itemstack);
+            }
+            if (contents.Count == 1 && contents[0].Collectible.CombustibleProps != null) return contents[0].Collectible.CombustibleProps.MeltingPoint;
+            else if (simmerRecipes != null && contents.Count > 1)
+            {
+                SimmerRecipe match = null;
+                int amount = 0;
+
+                foreach (SimmerRecipe rec in simmerRecipes)
+                {
+                    if ((amount = rec.Match(contents)) > 0)
+                    {
+                        match = rec;
+                        break;
+                    }
+                }
+
+                if (match == null) return 0;
+
+                return match.Simmering.MeltingPoint;
+            }
+
+            return temp;
+        }
+
+        public override int TryPutContent(IWorldAccessor world, ItemStack containerStack, ItemStack contentStack, int desiredItems)
+        {
+            if (contentStack == null) return 0;
+
+            ItemStack stack = GetContent(world, containerStack);
+
+            int availItems = contentStack.StackSize;
+
+            ILiquidSink sink = containerStack.Collectible as ILiquidSink;
+
+            if (stack == null)
+            {
+                WaterTightContainableProps props = GetInContainerProps(contentStack);
+                if (props == null || !props.Containable) return 0;
+
+
+                int placeableItems = (int)(sink.CapacityLitres * props.ItemsPerLitre);
+
+                ItemStack placedstack = contentStack.Clone();
+                placedstack.StackSize = GameMath.Min(availItems, desiredItems, placeableItems);
+                SetContent(containerStack, placedstack);
+
+                return Math.Min(desiredItems, placeableItems);
+            }
+            else
+            {
+                if (!stack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes)) return 0;
+
+                WaterTightContainableProps props = GetContentProps(world, containerStack);
+
+                float maxItems = sink.CapacityLitres * props.ItemsPerLitre;
+                int placeableItems = (int)(maxItems - stack.StackSize);
+                stack.StackSize += Math.Min(placeableItems, desiredItems);
+
+                return Math.Min(placeableItems, desiredItems);
+            }
+        }
+
+        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+        {
+            ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
+
+            if (!hotbarSlot.Empty && hotbarSlot.Itemstack.Collectible.Attributes?.IsTrue("handleLiquidContainerInteract") == true)
+            {
+                EnumHandHandling handling = EnumHandHandling.NotHandled;
+                hotbarSlot.Itemstack.Collectible.OnHeldInteractStart(hotbarSlot, byPlayer.Entity, blockSel, null, true, ref handling);
+                if (handling == EnumHandHandling.PreventDefault || handling == EnumHandHandling.PreventDefaultAction) return true;
+            }
+
+            if (hotbarSlot.Empty || !(hotbarSlot.Itemstack.Collectible is ILiquidInterface)) return base.OnBlockInteractStart(world, byPlayer, blockSel);
+
+
+            CollectibleObject obj = hotbarSlot.Itemstack.Collectible;
+
+            bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
+            bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
+
+            if (obj is ILiquidSource && !singleTake)
+            {
+                int moved = TryPutContent(world, blockSel.Position, (obj as ILiquidSource).GetContent(world, hotbarSlot.Itemstack), singlePut ? 1 : 9999);
+
+                if (moved > 0)
+                {
+                    TryTakeContent(world, hotbarSlot.Itemstack, moved);
+                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+
+                    return true;
+                }
+            }
+
+            if (obj is ILiquidSink && !singlePut)
+            {
+                ItemStack owncontentStack = GetContent(world, blockSel.Position);
+                int moved = 0;
+
+                if (hotbarSlot.Itemstack.StackSize == 1)
+                {
+                    moved = TryPutContent(world, hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
+                }
+                else
+                {
+                    ItemStack containerStack = hotbarSlot.Itemstack.Clone();
+                    containerStack.StackSize = 1;
+                    moved = TryPutContent(world, containerStack, owncontentStack, singleTake ? 1 : 9999);
+
+                    if (moved > 0)
+                    {
+                        hotbarSlot.TakeOut(1);
+                        if (!byPlayer.InventoryManager.TryGiveItemstack(containerStack, true))
+                        {
+                            api.World.SpawnItemEntity(containerStack, byPlayer.Entity.SidedPos.XYZ);
+                        }
+                    }
+                }
+
+                if (moved > 0)
+                {
+                    TryTakeContent(world, blockSel.Position, moved);
+                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+                    return true;
+                }
+            }
+
+            return true;
+        }
+
+
+        public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
+        {
+            Dictionary<int, MeshRef> meshrefs = null;
+
+            object obj;
+            if (capi.ObjectCache.TryGetValue("saucepanMeshRefs", out obj))
+            {
+                meshrefs = obj as Dictionary<int, MeshRef>;
+            }
+            else
+            {
+                capi.ObjectCache["saucepanMeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
+            }
+
+            ItemStack contentStack = GetContent(capi.World, itemstack);
+            if (contentStack == null) return;
+
+            int hashcode = GetBucketHashCode(capi.World, contentStack);
+
+            MeshRef meshRef = null;
+
+            if (!meshrefs.TryGetValue(hashcode, out meshRef))
+            {
+                MeshData meshdata = GenRightMesh(capi, contentStack);
+                //meshdata.Rgba2 = null;
+
+
+                meshrefs[hashcode] = meshRef = capi.Render.UploadMesh(meshdata);
+
+            }
+
+            renderinfo.ModelRef = meshRef;
+        }
+
+        public string GetOutputText(IWorldAccessor world, InventorySmelting inv)
+        {
+            List<ItemStack> contents = new List<ItemStack>();
+            ItemStack product = null;
+
+            foreach (ItemSlot slot in new ItemSlot[] { inv[3], inv[4], inv[5], inv[6]})
+            {
+                if (!slot.Empty) contents.Add(slot.Itemstack);
+            }
+
+            if (contents.Count == 1)
+            {
+                product = contents[0].Collectible.CombustibleProps?.SmeltedStack?.ResolvedItemstack;
+
+                if (product == null) return null;
+
+                return Lang.Get("firepit-gui-willcreate", contents[0].StackSize / contents[0].Collectible.CombustibleProps.SmeltedRatio, product.GetName());
+            }
+            else if (simmerRecipes != null && contents.Count > 1)
+            {
+                SimmerRecipe match = null;
+                int amount = 0;
+
+                foreach (SimmerRecipe rec in simmerRecipes)
+                {
+                    if ((amount = rec.Match(contents)) > 0)
+                    {
+                        match = rec;
+                        break;
+                    }
+                }
+
+                if (match == null) return null;
+
+                product = match.Simmering.SmeltedStack.ResolvedItemstack;
+
+                if (product == null) return null;
+
+                return Lang.Get("firepit-gui-willcreate", amount, product.GetName());
+            }
+
+            return null;
+        }
+
+        public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
+        {
+            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/saucepan/empty.json").ToObject<Shape>();
+            MeshData bucketmesh;
+            capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
+
+            if (contentStack != null)
+            {
+                WaterTightContainableProps props = GetInContainerProps(contentStack);
+
+                ContainerTextureSource contentSource = new ContainerTextureSource(capi, contentStack, props.Texture);
+                shape = capi.Assets.TryGet("expandedfoods:shapes/block/saucepan/contents.json").ToObject<Shape>();
+                MeshData contentMesh;
+                capi.Tesselator.TesselateShape("saucepan", shape, out contentMesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
+
+                contentMesh.Translate(0, GameMath.Min(7 / 16f, contentStack.StackSize / props.ItemsPerLitre * 0.7f / 16f), 0);
+
+                if (props.ClimateColorMap != null)
+                {
+                    int col = capi.World.ApplyColorMapOnRgba(props.ClimateColorMap, null, ColorUtil.WhiteArgb, 196, 128, false);
+                    if (forBlockPos != null)
+                    {
+                        col = capi.World.ApplyColorMapOnRgba(props.ClimateColorMap, null, ColorUtil.WhiteArgb, forBlockPos.X, forBlockPos.Y, forBlockPos.Z, false);
+                    }
+
+                    byte[] rgba = ColorUtil.ToBGRABytes(col);
+
+                    for (int i = 0; i < contentMesh.Rgba.Length; i++)
+                    {
+                        contentMesh.Rgba[i] = (byte)((contentMesh.Rgba[i] * rgba[i % 4]) / 255);
+                    }
+                }
+
+                for (int i = 0; i < contentMesh.Flags.Length; i++)
+                {
+                    contentMesh.Flags[i] = contentMesh.Flags[i] & ~(1 << 12); // Remove water waving flag
+                }
+
+                bucketmesh.AddMeshData(contentMesh);
+
+                // Water flags
+                if (forBlockPos != null)
+                {
+                    bucketmesh.CustomInts = new CustomMeshDataPartInt(bucketmesh.FlagsCount);
+                    bucketmesh.CustomInts.Count = bucketmesh.FlagsCount;
+                    bucketmesh.CustomInts.Values.Fill(0x4000000); // light foam only
+
+                    bucketmesh.CustomFloats = new CustomMeshDataPartFloat(bucketmesh.FlagsCount * 2);
+                    bucketmesh.CustomFloats.Count = bucketmesh.FlagsCount * 2;
+                }
+            }
+
+
+            return bucketmesh;
+        }
+    }
+
+    public class SimmerRecipe
+    {
+        public CraftingRecipeIngredient[] Ingredients;
+
+        public CombustibleProperties Simmering;
+
+        public bool Resolve(IWorldAccessor world, string debug)
+        {
+            bool result = true;
+
+            foreach (CraftingRecipeIngredient ing in Ingredients)
+            {
+                result &= ing.Resolve(world, debug);
+            }
+
+            result &= Simmering.SmeltedStack.Resolve(world, debug);
+
+            return result;
+        }
+
+        public int Match(List<ItemStack> Inputs)
+        {
+            if (Inputs.Count != Ingredients.Length) return 0;
+            List<CraftingRecipeIngredient> matched = new List<CraftingRecipeIngredient>();
+            int amount = -1;
+
+            foreach (ItemStack input in Inputs)
+            {
+                CraftingRecipeIngredient match = null;
+
+                foreach (CraftingRecipeIngredient ing in Ingredients)
+                {
+                    if ((ing.ResolvedItemstack == null && !ing.IsWildCard) || matched.Contains(ing) || !ing.SatisfiesAsIngredient(input)) continue;
+                    match = ing;
+                    break;
+                }
+
+                if (match == null || input.StackSize % match.Quantity != 0 || (input.StackSize / match.Quantity) % Simmering.SmeltedRatio != 0) return 0;
+
+                int maxAmount = (input.StackSize / match.Quantity) / Simmering.SmeltedRatio;
+
+                if (amount == -1) amount = maxAmount;
+                else if (maxAmount != amount) return 0;
+
+                if (amount == 0) return amount;
+
+                matched.Add(match);
+
+
+            }
+
+            return amount;
+        }
+    }
+}

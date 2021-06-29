@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "squeezeInto": "expandedfoods:foodoilportion-seed",
+      "squeezeRatio": 4
+    },
+    "file": "game:itemtypes/resource/seeds.json"
+  }
+]

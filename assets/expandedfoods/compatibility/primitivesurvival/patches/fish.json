@@ -1,0 +1,122 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/squeezeRatio",
+    "value": 6,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-bass*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-bass*/squeezeRatio",
+    "value": 4,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-bluegill*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-bluegill*/squeezeRatio",
+    "value": 4,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-mutant*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-mutant*/squeezeRatio",
+    "value": 4,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-arcticchar*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-arcticchar*/squeezeRatio",
+    "value": 2,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-carp*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-carp*/squeezeRatio",
+    "value": 2,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-perch*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-perch*/squeezeRatio",
+    "value": 2,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pike*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pike*/squeezeRatio",
+    "value": 2,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-trout*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-trout*/squeezeRatio",
+    "value": 2,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-catfish*/squeezeInto",
+    "value": "game:fishsauce",
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-catfish*/squeezeRatio",
+    "value": 1,
+    "file": "primitivesurvival:itemtypes/fishing/psfish.json"
+  },
+]

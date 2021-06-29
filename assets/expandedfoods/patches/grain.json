@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-flax/squeezeInto",
+    "value": "expandedfoods:foodoilportion-flax",
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-flax/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rice/squeezeInto",
+    "value": "expandedfoods:foodoilportion-rice",
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rice/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/grain.json"
+  }
+]

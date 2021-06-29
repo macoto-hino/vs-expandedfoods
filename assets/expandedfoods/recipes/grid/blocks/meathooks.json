@@ -1,0 +1,135 @@
+[
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-acacia",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-acacia-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-aged",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-aged-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-birch",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-birch-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-oak",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-oak-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-maple",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-maple-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-pine",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-pine-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-kapok",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-kapok-{metal}-east"  }
+},
+]

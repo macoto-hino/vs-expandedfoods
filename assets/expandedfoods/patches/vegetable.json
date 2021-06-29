@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*/squeezeInto",
+    "value": "expandedfoods:vegetablejuiceportion-{type}",
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cabbage/squeezeInto",
+    "value": "expandedfoods:vegetablejuiceportion-cabbage",
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cabbage/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/squeezeInto",
+    "value": "expandedfoods:vegetablejuiceportion-pumpkin",
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/vegetable.json"
+  }
+]

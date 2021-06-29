@@ -1,0 +1,45 @@
+{
+	code: "softresin",
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	maxstacksize: 16,
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:block/resin" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	combustibleProps: {
+		burnTemperature: 700,
+		burnDuration: 12	
+	},
+	attributes: {
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 10,
+			texture: { base: "game:block/resin" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:softresin" }
+			}
+		},
+	},
+	transitionableProps: [{
+    		type: "Cure",
+    		freshHours: { avg: 24 },
+    		transitionHours: { avg: 1440 },
+    		transitionedStack: { type: "item", code: "game:resin" },
+    		transitionRatio: 0.1
+  	}],
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+	materialDensity: 700,
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/log-grown-*/sapPropertiesByType",
+    "value": {
+      "log-grown-birch-ud": {
+        "sap": "expandedfoods:birchsapportion",
+        "dripCount": 1,
+        "dripChance": 0.5,
+        "dripTime": 8,
+        "seasons": [
+          6,
+          5,
+	  4
+        ]
+      },
+      "log-grown-pine-ud": {
+        "sap": "expandedfoods:softresin",
+        "dripCount": 1,
+        "dripChance": 0.2,
+        "dripTime": 24,
+        "seasons": [
+	  11,
+	  10,
+          9,
+          8,
+	  7,		
+          6,
+          5,
+	  4,
+	  3
+        ]
+      },
+      "log-grown-maple-ud": {
+        "sap": "expandedfoods:maplesapportion",
+        "dripCount": 1,
+        "dripChance": 0.5,
+        "dripTime": 8,
+        "seasons": [
+	  1,
+          2,
+          3
+        ]
+      }
+    },
+    "file": "game:blocktypes/wood/log.json"
+  }
+]

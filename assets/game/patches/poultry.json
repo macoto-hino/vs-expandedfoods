@@ -1,0 +1,76 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "*-raw": {
+        "satiety": 375,
+        "foodcategory": "Protein"
+      },
+      "*-cured": {
+        "satiety": 280,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "TransFix",
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/meathookable",
+    "value": true,
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/meatHookTransform",
+    "value": {
+      "translation": {
+        "x": 0.99,
+        "y": 0.29,
+        "z": 0.5
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": -90
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "itemtypes/food/poultry.json"
+  },
+  {
+    "op": "add",
+    "path": "/transitionablePropsByType/*-raw/1",
+    "value": {
+      "type": "Cure",
+      "freshHours": {
+        "avg": 72
+      },
+      "transitionHours": {
+        "avg": 6
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-poultry-normal"
+      },
+      "transitionRatio": 1
+    },
+    "file": "itemtypes/food/poultry.json"
+  }
+]

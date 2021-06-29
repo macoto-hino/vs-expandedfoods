@@ -1,0 +1,332 @@
+{
+	code: "agedmeat",
+	
+	maxstacksize: 64,
+	attributes: {
+		meatHookTransformByType: {
+			"*-poultry-normal": {
+  				translation: { x: 0.99, y: 0.29, z: 0.5 },
+  				rotation: { x: 0, y: -90, z: -90 },
+  				origin: { x: 0, y: 0, z: 0 },
+  				scale: 1
+			},
+			"*-bushmeat-normal": {
+  				translation: { x: -0.0, y: -0.69, z: 0.49 },
+  				rotation: { x: 0, y: 90, z: 90 },
+  				origin: { x: 0, y: 0, z: 0 },
+  				scale: 1
+			},
+			"*-redmeat-normal": {
+    				translation: { x: 0.08, y: -0.63, z: 0.48 },
+  				rotation: { x: 0, y: 90, z: 90 },
+  				origin: { x: 0, y: 0, z: 0 },
+  				scale: 1
+			},
+		},
+		nutritionPropsWhenInMealByType: { 
+			"agedmeat-bushmeat-normal": {satiety: 270, foodcategory: "Protein"},
+			"agedmeat-redmeat-normal": {satiety: 630, foodcategory: "Protein"},
+			"agedmeat-poultry-normal": {satiety: 450, foodcategory: "Protein"},
+			"agedmeat-bushmeat-cut": {satiety: 285, foodcategory: "Protein"},
+			"agedmeat-redmeat-cut": {satiety: 660, foodcategory: "Protein"},
+			"agedmeat-poultry-cut": {satiety: 480, foodcategory: "Protein"},
+			"agedmeat-bushmeat-raw": {satiety: 300, foodcategory: "Protein"},
+			"agedmeat-redmeat-raw": {satiety: 705, foodcategory: "Protein"},
+			"agedmeat-poultry-raw": {satiety: 510, foodcategory: "Protein"},
+			},
+
+	},
+	variantgroups: [
+	
+		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"]},	
+		{ code: "type", states: ["normal", "cut", "raw", "tender", "meatball" ] },
+	],
+	
+	shapebytype:	{
+		"agedmeat-redmeat-normal": {base: "game:item/food/meat/red"},
+		"agedmeat-*-normal": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-redmeat-tender": {base: "game:item/food/meat/red"},
+		"agedmeat-*-tender": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-normal": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-redmeat-cut": {base: "game:item/food/meat/red"},
+		"agedmeat-*-cut": {base: "game:item/food/meat/{meat}"},
+		"agedmeat-*-raw": {base: "item/food/meat/{meat}-nugget"},
+		"agedmeat-*-meatball":   {base: "item/food/meat/{meat}-cooked"}
+	},
+	texturesByType: {
+		"*-tender": {
+
+			"meat": {base: "game:item/food/meat/cooked" },
+		},
+		"*-normal": {
+
+			"meat": {base: "game:item/food/meat/smoked" },
+		},
+		"*": {
+
+			"cooked": {base: "game:item/food/meat/cooked" },
+			"meat": {base: "game:item/food/meat/raw" },
+			"raw": {base: "game:item/food/meat/raw" },
+		}
+	},
+
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+
+	nutritionPropsByType: {
+		"*-bushmeat-tender": { satiety: 190, foodcategory: "Protein" },
+
+		"*-poultry-tender": { satiety: 320, foodcategory: "Protein" },
+		"*-redmeat-tender": { satiety: 440, foodcategory: "Protein" },
+		"*-bushmeat-meatball": { satiety: 200, foodcategory: "Protein" },
+
+		"*-poultry-meatball": { satiety: 340, foodcategory: "Protein" },
+		"*-redmeat-meatball": { satiety: 470, foodcategory: "Protein" },
+
+	},
+
+	transitionablePropsByType: {
+
+		"*-normal": [
+{
+		
+			type: "Perish",
+
+			freshHours: { avg: 36 },
+	
+			transitionHours: { avg: 24 },
+	
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+
+		}],
+		"*-cut": [
+{
+		
+			type: "Perish",
+
+			freshHours: { avg: 24 },
+	
+			transitionHours: { avg: 48 },
+	
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+
+		}],
+		"*-raw": [
+{
+		
+			type: "Perish",
+
+			freshHours: { avg: 18 },
+	
+			transitionHours: { avg: 72 },
+	
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+
+		}],
+		"*-tender": [{
+
+			type: "Perish",
+
+			freshHours: { avg: 100 },
+
+			transitionHours: { avg: 72 },
+
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+		
+		}],
+		"*-meatball": [{
+
+			type: "Perish",
+
+			freshHours: { avg: 60 },
+
+			transitionHours: { avg: 36 },
+
+			transitionedStack: { type: "item", code: "game:rot" },
+
+			transitionRatio: 1
+		
+		}],
+	},
+
+	materialDensity: 600,
+
+	guiTransformByType: {
+
+		"*-meatball": {
+
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+
+			rotation: { x: 171, y: -122, z: 28 },
+
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+
+			scale: 7
+		},
+
+		"*-raw": {
+
+			rotate: false,
+			translation: { x: 0.0, y: 0, z: 0 },
+
+			rotation: { x: 171, y: -122, z: 28 },
+
+			origin: { x: 0.43, y: 0.04, z: 0.53 },
+
+			scale: 7
+		},
+
+		"*-redmeat-normal": {
+
+			rotate: false,
+			translation: { x: 0.5, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+
+		"*-redmeat-cut": {
+
+			rotate: false,
+			translation: { x: 0.5, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+
+		"*-redmeat-tender": {
+
+			rotate: false,
+			translation: { x: 0.5, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.4, y: 0.08, z: 0.5 },
+			scale: 4.72
+		},
+
+		"*": {
+
+			rotate: false,
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 171, y: -122, z: 33 },
+			origin: { x: 0.5, y: 0.04, z: 0.53 },
+			scale: 4.7199
+		}
+
+	},
+
+	fpHandTransformByType: {
+		"*-meatball": {
+
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+
+			rotation: { x: 0, y: -81, z: -35 },
+
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+
+			scale: 3
+		},
+		"*-raw": {
+
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+
+			rotation: { x: 0, y: -81, z: -35 },
+
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+
+			scale: 3
+		},
+		"*": {
+
+			translation: { x: -0.06, y: 0.36, z: 0.23 },
+			rotation: { x: 40, y: 91, z: 15 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.5
+		},
+	},
+
+	tpHandTransformByType: {
+
+		"*-meatball": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+
+			rotation: { x: 1, y: 9, z: -11 },
+
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+
+			scale: 1	
+		},
+
+		"*-raw": {
+			translation: { x: 0.05, y: -0.05, z: 0.1 },
+
+			rotation: { x: 1, y: 9, z: -11 },
+
+			origin: { x: 0.21, y: -0.2, z: 0.15 },
+
+			scale: 1	
+		},
+
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 5, y: 41, z: -31 },
+			origin: { x: 0.23, y: 0, z: 0.13 },
+			scale: 0.75
+		},
+
+	},
+	groundTransformByType: {
+		"*": {
+
+			translation: { x: 0, y: 0, z: 0 },
+
+			rotation: { x: 180, y: 33, z: -180 },
+
+			origin: { x: 0.5, y: 0, z: 0.5 },
+
+			scale: 5
+
+		},
+	},
+
+	combustiblePropsByType: {
+
+		"agedmeat-*-cut": {
+
+			meltingPoint: 150,
+
+			meltingDuration: 30,
+
+			smeltedRatio: 1,
+
+			smeltingType: "cook",
+
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-tender" },
+
+			requiresContainer: false
+
+		},
+		"agedmeat-*-raw": {
+
+			meltingPoint: 150,
+
+			meltingDuration: 30,
+
+			smeltedRatio: 1,
+
+			smeltingType: "cook",
+
+			smeltedStack: { type: "item", code: "agedmeat-{meat}-meatball" },
+
+			requiresContainer: false
+
+		},
+	}
+}

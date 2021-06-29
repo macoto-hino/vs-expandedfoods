@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/squeezeIntobyType",
+    "value": {
+      "*-blueberry": "expandedfoods:fruitjuiceportion-blueberry",
+      "*-cranberry": "expandedfoods:fruitjuiceportion-cranberry",
+      "*-redcurrant": "expandedfoods:fruitjuiceportion-redcurrant",
+      "*-blackcurrant": "expandedfoods:fruitjuiceportion-blackcurrant",
+      "*-whitecurrant": "expandedfoods:fruitjuiceportion-whitecurrant"
+    },
+    "file": "game:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/squeezeRatio",
+    "value": 4,
+    "file": "game:itemtypes/food/fruit.json"
+  }
+]

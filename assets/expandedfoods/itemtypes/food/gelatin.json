@@ -1,0 +1,123 @@
+{
+	code: "gelatin",
+	classByType: {
+		"*-liquid": "ItemLiquidPortion",
+	},
+	matterStateByType: {
+		"*-liquid": "liquid",
+	},
+	variantgroups: [
+		{ code: "type", states: ["liquid", "raw", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "fruitmix", "vegetablemix", "saguaro", "birch", "maple", "soy", "honey"] },
+	],
+	attributes: {
+		waterTightContainerPropsByType: {
+			"*-liquid": {
+				containable: true,
+				itemsPerLitre: 4,
+				texture: { base: "game:item/gelatin/plain" },
+				allowSpill: true,
+				whenSpilled: {
+					action: "DropContents",
+					stack: { type: "item", code: "expandedfoods:gelatin-liquid" }
+				},
+			}
+		}
+	},
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 720 },
+    		transitionHours: { avg: 360 },
+    		transitionedStack: { type: "item", code: "game:rot" },
+    		transitionRatio: 0.25
+  	}],
+	shapeByType: {
+		"*-liquid": { base: "item/food/gelatinliquid" },
+		"*-raw": { base: "item/food/gelatinraw" },
+		"*": { base: "item/food/gelatinsolid" },
+	},
+	texturebyType: {
+		"*-soy": { base: "game:item/gelatin/fishgelatin" },
+		"*-liquid": { base: "game:item/gelatin/plain" },
+		"*": { base: "game:item/gelatin/{type}" },
+	},
+	nutritionPropsByType: {
+		"*-soy": { saturation: 200, health: 4, foodcategory: "Protein" },
+		"*-vegetablemix": { saturation: 230, health: 6, foodcategory: "Vegetable" },
+		"*-fruitmix": { saturation: 230, health: 6, foodcategory: "Fruit" },
+		"*-saguaro": { saturation: 200, health: 5, foodcategory: "Fruit" },
+		"*-pumpkin": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-parsnip": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-turnip": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-onion": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-cabbage": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-carrot": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-blueberry": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-cranberry": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-redcurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-blackcurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-whitecurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-birch": { saturation: 200, health: 5, foodcategory: "Fruit" },
+		"*-maple": { saturation: 200, health: 5, foodcategory: "Fruit" },
+		"*-honey": { saturation: 200, health: 4.5, foodcategory: "Fruit" },
+		"*-plain": { saturation: 150, health: 2, foodcategory: "Protein" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	guiTransformByType: {
+		"*-liquid": {
+			rotation: { x: 128, y: 40, z: 7 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.4
+		},
+		"*-raw": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4
+		},
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -28, y: 23, z: 180 },
+			origin: { x: 0.5, y: 0.07, z: 0.5 },
+			scale: 4
+		},
+	},
+	groundTransformByType: {
+		"*-liquid": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.53 },
+			scale: 1.5
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 1 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 4
+		},
+	},
+	tpHandTransformByType: {
+		"*-liquid": {
+			translation: { x: -1.5, y: -1, z: -1.4 },
+		},
+		"*": {
+			translation: { x: -0.54, y: -0.16, z: -0.4 },
+			rotation: { x: 44, y: -69, z: 2 },
+			origin: { x: 0.5, y: 0.13, z: 0.5 },
+			scale: 1
+		},
+	},
+	fpHandTransformByType: {
+		"*-liquid": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 42, y: 129, z: -30 }
+		},
+		"*": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 72, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2
+		},
+	}
+}

@@ -1,0 +1,146 @@
+[
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-blueberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-cranberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-blackcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-redcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-whitecurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-mix", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-blueberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-cranberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-blackcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-redcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-whitecurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-mix", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-blueberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-cranberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-blackcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-redcurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-whitecurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-mix", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ }
+]

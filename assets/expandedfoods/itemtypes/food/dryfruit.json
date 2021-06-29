@@ -1,0 +1,42 @@
+{
+	code: "dryfruit",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro"] },
+	],
+	materialDensityByType: {"*": 600},
+	attributes: {
+		nutritionPropsWhenInMeal: { 
+			satietyByType:  { 
+				"*-saguaro": 90, 
+				"*-cranberry": 90,
+				"*":  120 
+			},
+			foodcategory: "Fruit" 
+		},
+	inContainerTexture: { base: "game:block/barrel/{type}fruit" },
+	},
+	texture: { base: "item/food/dryfruit/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-saguaro": { satiety: 50, health: 1, foodcategory: "Fruit" },
+		"*-cranberry": { satiety: 50, foodcategory: "Fruit" },
+		"*": { satiety: 70, foodcategory: "Fruit" }
+	},
+	transitionablePropsByType: {
+		"*-cranberry": [{
+			type: "Perish",
+			freshHours: { avg: 960 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg: 480 },
+			transitionHours: { avg: 12 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}]
+	}
+}

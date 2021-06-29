@@ -1,0 +1,32 @@
+{
+	code: "mixingbowlmini",
+	class: "BlockMixingBowl",
+	entityClass: "MixingBowl",
+	behaviors: [{name: "Container"}],
+	attributes: {
+		handbook: {
+			groupBy: ["mixingbowl-*"]
+		}
+	},
+	creativeinventory: { "general": ["*"], "terrain": ["*"] },
+	shape: { base: "expandedfoods:block/mixingbowlmini/complete" },
+	blockmaterial: "Wood",
+	textures: {
+		material: { base: "game:block/wood/planks/generic" },
+		generic: { base: "game:block/wood/planks/generic" },
+		bowl: {	base: "game:block/clay/ceramic" },
+	},
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	lightAbsorption: 1,
+	replaceable: 600,
+	resistance: 1.5,
+	collisionSelectionBoxes: [
+		{ x1: 0.15, y1: 0, z1: 0.15, x2: 0.85, y2: 0.35, z2: 0.85 },
+		{ x1: 0.25, y1: 0.35, z1: 0.25, x2: 0.75, y2: 0.75, z2: 0.75 },
+	]
+}

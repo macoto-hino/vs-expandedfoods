@@ -1,0 +1,18 @@
+[
+{
+  code: "water1",
+  sealHours: 240,
+  ingredients: [
+    { type: "item", code: "waterportion",  quantity: 5 }
+  ],
+  output: { type: "item", code: "salt", stackSize: 1 }
+},
+{
+  code: "water2",
+  sealHours: 120,
+  ingredients: [
+    { type: "item", code: "brineportion",  quantity: 2 }
+  ],
+  output: { type: "item", code: "salt", stackSize: 1 }
+},
+]

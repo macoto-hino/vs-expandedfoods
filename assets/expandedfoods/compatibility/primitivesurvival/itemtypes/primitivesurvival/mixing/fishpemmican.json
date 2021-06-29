@@ -1,0 +1,95 @@
+{
+	code: "fishpemmican",
+	maxstacksize: 64,
+  	class: "ExpandedFood",
+	variantgroups: [
+		{ code: "type", states: ["raw", "cooked"]}
+	],
+	attributes: {
+		displaycaseable: true,
+		shelvable: true,
+    		"expandedNutritionPropsByType": {
+			"*-raw": {
+				"game:fat" : {saturation: 100, foodcategory: "Protein"},
+				"game:fruit-cranberry" : { saturation: 45, foodcategory: "Fruit" },
+				"game:fruit-blueberry" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-redcurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-whitecurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-blackcurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"expandedfoods:meatnugget-poultry-raw": {saturation: 120, foodcategory: "Protein"},
+				"expandedfoods:meatnugget-redmeat-raw": {saturation: 170, foodcategory: "Protein"},
+				"expandedfoods:meatnugget-bushmeat-raw": {saturation: 70, foodcategory: "Protein"},
+				"expandedfoods:fishnugget-raw": {saturation: 60, foodcategory: "Protein"},
+				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
+			},
+		},
+     		renderIngredientsByType: {
+			"*-raw": {
+				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-ball.json",
+			},
+			"*-cooked": {
+				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/pemmican/fishpemmican-plain.json",
+			},
+		},
+	},
+  	texturesByType: {
+		"*-raw": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-ball"},
+		},
+		"*-cooked": {
+			fish: { base: "item/food/pemmican/fish/pemmicanfish-plain"},
+		},
+  	},
+	shape:{ base: "item/food/pemmican/fishpemmican-ball"},
+	nutritionPropsByType: {
+		"*-raw": { saturation: 0, foodcategory: "Protein" },
+		"*-cooked": { saturation: 100, foodcategory: "Protein" },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	materialDensity: 200,
+	fpHandTransform: {
+		translation: { x: 0, y: -0.1, z: 0 },
+		rotation: { x: 180, y: 90, z: 22 }
+	},
+	combustiblePropsByType: {
+		"*-raw": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "expandedfoods:fishpemmican-cooked" },
+			requiresContainer: false
+		},
+	},
+	transitionableProps: [{
+		type: "Perish",
+		freshHours: { avg: 3160 },
+		transitionHours: { avg: 112 },
+		transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 1
+		}],
+	guiTransform: {
+		translation: { x: 3, y: 0, z: 0 },
+		rotation: { x: -28, y: 203, z: 180 },
+		origin: { x: 0.5, y: 0.07, z: 0.5 },
+		scale: 5
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 4.5
+	},
+	tpHandTransform: {
+		translation: { x: -0.54, y: -0.16, z: -0.4 },
+		rotation: { x: 44, y: -69, z: 2 },
+		origin: { x: 0.5, y: 0.13, z: 0.5 },
+		scale: 1
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.24, z: 0.3 },
+		rotation: { x: 104, y: 0, z: 71 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 2.5
+	}
+}

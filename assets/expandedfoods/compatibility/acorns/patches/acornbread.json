@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add",
+    "path": "/grindingProps",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "expandedfoods:acornbreadcrumbs-{type}",
+	"quantity": 4,
+      }
+    },
+    "file": "acorns:itemtypes/food/bread-acorn.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "ExpandedFood",
+    "file": "acorns:itemtypes/food/bread-acorn.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax",
+    "file": "acorns:itemtypes/food/bread-acorn.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*/saturation",
+    "value": 240,
+    "file": "acorns:itemtypes/food/bread-acorn.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/renderIngredients",
+    "value": {
+      "game:flour-*": "acorns:shapes/item/food/bread/acornbread.json",
+    },
+    "file": "acorns:itemtypes/food/bread-acorn.json"
+  }
+]

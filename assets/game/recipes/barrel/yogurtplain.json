@@ -1,0 +1,8 @@
+{
+	code: "yogurtplain",
+	sealHours: 168,
+	ingredients: [
+		{ type: "item", code: "expandedfoods:yogurt-ferment",  quantity: 1 },
+	],
+	output: { type: "item", code: "expandedfoods:yogurt-plain", stackSize: 1 }
+}

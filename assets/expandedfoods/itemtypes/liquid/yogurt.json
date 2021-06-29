@@ -1,0 +1,95 @@
+{
+	code: "yogurt",
+	class: "ExpandedLiquid",
+	matterState: "liquid",
+	attributes: {
+		inContainerTexture: { base: "game:item/liquid/yogurt/{type}" },
+		inBowlShape: { base: "game:block/meal/liquid" },
+		expandedNutritionPropsByType: {
+			"*-plain": {
+      				"expandedfoods:pasteurizedmilkportion" : { saturation: 30, health: 1, foodcategory: "Dairy" },
+			},
+		},
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 4,
+			isopaque: true,
+			texture: { base: "game:item/liquid/yogurt/{type}" },
+			allowSpill: true,
+			whenSpilled: { 
+				action: "DropContents",
+				stack: { type: "item", code: "yogurt-{type}" } 
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["starter", "ferment", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "birch", "maple", "honey"] },
+	],
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:item/liquid/yogurt/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	transitionablePropsByType: {
+		"*-ferment":[{
+    			type: "Perish",
+    			freshHours: { avg: 96 },
+    			transitionHours: { avg: 96 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		},
+		{
+    			type: "Cure",
+    			freshHours: { avg: 192 },
+    			transitionHours: { avg: 286 },
+    			transitionedStack: { type: "item", code: "yogurt-plain" },
+    			transitionRatio: 1
+  		}],
+		"*-starter":[{
+    			type: "Perish",
+    			freshHours: { avg: 96 },
+    			transitionHours: { avg: 96 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		}],
+		"*":[{
+    			type: "Perish",
+    			freshHours: { avg: 120 },
+    			transitionHours: { avg: 120 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		},
+		{
+    			type: "Cure",
+    			freshHours: { avg: 240 },
+    			transitionHours: { avg: 360 },
+    			transitionedStack: { type: "item", code: "yogurt-starter" },
+    			transitionRatio: 1
+  		}],
+	},
+	nutritionPropsByType: {
+		"*-plain": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-blueberry": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-cranberry": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-blackcurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-redcurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-whitecurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-mix": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-saguaro": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-birch": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-maple": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-honey": { saturation: 75, Health: 0.5, foodcategory: "Protein" }
+	},
+	guiTransform: {
+		rotation: { x: 123, y: -33, z: -13 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 25, y: 157, z: -5 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 }
+	}
+}
