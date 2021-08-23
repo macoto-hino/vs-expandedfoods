@@ -7,7 +7,7 @@
 		"*-liquid": "liquid",
 	},
 	variantgroups: [
-		{ code: "type", states: ["liquid", "raw", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "fruitmix", "vegetablemix", "saguaro", "birch", "maple", "soy", "honey"] },
+		{ code: "type", states: ["liquid", "raw", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "fruitmix", "vegetablemix", "saguaro", "birch", "maple", "soy", "honey", "pineapple", "cassava", "bellpepper"] },
 	],
 	attributes: {
 		waterTightContainerPropsByType: {
@@ -21,7 +21,31 @@
 					stack: { type: "item", code: "expandedfoods:gelatin-liquid" }
 				},
 			}
-		}
+		},
+    		inPiePropertiesByType: {
+			"*-soy": { texture: "game:item/gelatin/fishgelatin", partType: 'Filling' },
+			"*-vegetablemix": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-fruitmix": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-saguaro": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pumpkin": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-parsnip": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-turnip": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-onion": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cabbage": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-carrot": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cassava": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-bellpepper": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-blueberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-cranberry": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-redcurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-blackcurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-whitecurrant": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-pineapple": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-birch":  { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-maple": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-honey": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+			"*-plain": { texture: "game:item/gelatin/{type}", partType: 'Filling' },
+		},
 	},
 	transitionableProps: [{
     		type: "Perish",
@@ -51,11 +75,14 @@
 		"*-onion": { saturation: 200, health: 4, foodcategory: "Vegetable" },
 		"*-cabbage": { saturation: 200, health: 4, foodcategory: "Vegetable" },
 		"*-carrot": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-cassava": { saturation: 200, health: 4, foodcategory: "Vegetable" },
+		"*-bellpepper": { saturation: 200, health: 4, foodcategory: "Vegetable" },
 		"*-blueberry": { saturation: 200, health: 4, foodcategory: "Fruit" },
 		"*-cranberry": { saturation: 200, health: 4, foodcategory: "Fruit" },
 		"*-redcurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
 		"*-blackcurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
 		"*-whitecurrant": { saturation: 200, health: 4, foodcategory: "Fruit" },
+		"*-pineapple": { saturation: 200, health: 4, foodcategory: "Fruit" },
 		"*-birch": { saturation: 200, health: 5, foodcategory: "Fruit" },
 		"*-maple": { saturation: 200, health: 5, foodcategory: "Fruit" },
 		"*-honey": { saturation: 200, health: 4.5, foodcategory: "Fruit" },

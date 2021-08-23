@@ -12,14 +12,9 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["spelt", "rye", "flax", "rice" ] },
+		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ] },
 	],
-	shapebytype: { 
-		"breadcrumbs-flax": { base: "item/food/bread/crumbs/breadcrumbs-flax" },
-		"breadcrumbs-rice": { base: "item/food/bread/crumbs/breadcrumbs-rice" },
-		"breadcrumbs-spelt": { base: "item/food/bread/crumbs/breadcrumbs-spelt" },
-		"breadcrumbs-rye": { base: "item/food/bread/crumbs/breadcrumbs-rye" },
-	},
+	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
 		"*-flax": { saturation: 40, foodcategory: "Grain" },

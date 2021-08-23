@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+    "path": "/combustibleProps/meltingDuration",
+    "value": 45,
+    "file": "game:itemtypes/resource/fat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps/meltingPoint",
+    "value": 400,
+    "file": "game:itemtypes/resource/fat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps/requiresContainer",
+    "value": true,
+    "file": "game:itemtypes/resource/fat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps/smeltedRatio",
+    "value": 1,
+    "file": "game:itemtypes/resource/fat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps/smeltedStack",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:lard"
+    },
+    "file": "game:itemtypes/resource/fat.json"
+  },
+  {
+    "op": "add",
+    "path": "/combustibleProps/smeltingType",
+    "value": "cook",
+    "file": "game:itemtypes/resource/fat.json"
+  }
+]

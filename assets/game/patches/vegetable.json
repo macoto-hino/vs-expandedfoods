@@ -10,7 +10,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-cabbage"
+          "code": "expandedfoods:cookedveggie-cabbage-charred"
         },
         "requiresContainer": false
       },
@@ -21,7 +21,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-carrot"
+          "code": "expandedfoods:cookedveggie-carrot-charred"
         },
         "requiresContainer": false
       },
@@ -32,7 +32,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-onion"
+          "code": "expandedfoods:cookedveggie-onion-charred"
         },
         "requiresContainer": false
       },
@@ -43,7 +43,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-turnip"
+          "code": "expandedfoods:cookedveggie-turnip-charred"
         },
         "requiresContainer": false
       },
@@ -54,7 +54,18 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-parsnip"
+          "code": "expandedfoods:cookedveggie-parsnip-charred"
+        },
+        "requiresContainer": false
+      },
+      "*-cassava": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedveggie-cassava-charred"
         },
         "requiresContainer": false
       },
@@ -65,7 +76,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-pumpkin"
+          "code": "expandedfoods:cookedveggie-pumpkin-charred"
         },
         "requiresContainer": false
       }
@@ -148,6 +159,213 @@
       },
       "useFirepitModel": "Spit"
     },
+    "file": "itemtypes/food/vegetable.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/attributesByType/*-carrot",
+    "value": {
+      	"inContainerTexture": {
+        	"base": "block/wood/barrel/raw-{type}"
+      	},
+	"squeezeInto": "expandedfoods:vegetablejuiceportion-carrot",
+	"squeezeRatio": 4,
+      	"nutritionPropsWhenInMeal": {
+        	"satiety": 150,
+        	"foodcategory": "Vegetable"
+      	},
+      	"inPieProperties": {
+        	"texture": "block/food/pie/fill-{type}",
+        	"partType": "Filling"
+      	},
+     	"bakingProperties": {
+       		"temp": 100,
+       		"levelFrom": 0.0,
+       		"levelTo": 0.25,
+        	"startScaleY": 1.0,
+       		"endScaleY": 1.0,
+        	"resultCode": "expandedfoods:cookedveggie-carrot-partbaked"
+      	},
+     	"onDisplayTransform": {
+       		"rotation": {
+         		"x": 90,
+        		"y": 0,
+        		"z": 0
+        	},
+        	"translation": {
+          		"x": 0,
+          		"y": -0.45,
+          		"z": 0.25
+        	},
+        	"scale": 1
+      	}
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-parsnip",
+    "value": {
+      "inContainerTexture": {
+        "base": "block/wood/barrel/raw-{type}"
+      },
+	"squeezeInto": "expandedfoods:vegetablejuiceportion-parsnip",
+	"squeezeRatio": 4,
+      "nutritionPropsWhenInMeal": {
+        "satiety": 150,
+        "foodcategory": "Vegetable"
+      },
+      "inPieProperties": {
+        "texture": "block/food/pie/fill-{type}",
+        "partType": "Filling"
+      },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+       	"endScaleY": 1.0,
+        "resultCode": "expandedfoods:cookedveggie-parsnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "translation": {
+          "x": 0,
+          "y": -0.45,
+          "z": 0.25
+        },
+        "scale": 1
+      }
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-turnip",
+    "value": {
+      "inContainerTexture": {
+        "base": "block/wood/barrel/raw-{type}"
+      },
+	"squeezeInto": "expandedfoods:vegetablejuiceportion-turnip",
+	"squeezeRatio": 4,
+      "nutritionPropsWhenInMeal": {
+        "satiety": 150,
+        "foodcategory": "Vegetable"
+      },
+      "inPieProperties": {
+        "texture": "block/food/pie/fill-{type}",
+        "partType": "Filling"
+      },
+      "bakingProperties": {
+        "temp": 100,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+       	"endScaleY": 1.0,
+        "resultCode": "expandedfoods:cookedveggie-turnip-partbaked"
+      },
+      "onDisplayTransform": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "translation": {
+          "x": 0,
+          "y": -0.4,
+          "z": 0.25
+        },
+        "scale": 1
+      }
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cassava/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-cassava-partbaked"
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cassava/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+ {
+    "op": "remove",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+ {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/food/vegetable.json",
+    "value": {
+	inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
+	squeezeInto: "expandedfoods:vegetablejuiceportion-{type}",
+	squeezeRatio: 4,
+	nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+	inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
+	bakingProperties: {
+		temp: 100,
+		levelFrom: 0.0,
+		levelTo: 0.25,
+        	startScaleY: 1.0,
+       		endScaleY: 1.0,
+		resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
+	},
+	onDisplayTransform: { 
+		translation: { x: 0, y: 0, z: 0 },
+		scale: 1 
+	}
+     }
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variantgroups/0/states/5",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states/5",
+    "value": "pumpkin",
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/6",
+    "value": "cassava",
     "file": "itemtypes/food/vegetable.json"
   }
 ]

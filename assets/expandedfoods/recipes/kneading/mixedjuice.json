@@ -5,9 +5,10 @@
 		{inputs: [{ type: "item", code: "expandedfoods:fruitjuiceportion-cranberry",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:fruitjuiceportion-redcurrant",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:fruitjuiceportion-whitecurrant",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:fruitjuiceportion-pineapple",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:fruitjuiceportion-blackcurrant",  quantity: 1 }]}
 	],
-	output: { type: "item", code: "expandedfoods:mixjuiceportion-fruit", stackSize: 5}
+	output: { type: "item", code: "expandedfoods:mixjuiceportion-fruit", stackSize: 6}
  },
  {
 	ingredients: [

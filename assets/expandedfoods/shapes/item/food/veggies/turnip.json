@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"turnip": "item/food/veggie/turnip"
+		"turnip": "item/food/veggie/perfect/turnip"
 	},
 	"elements": [
 		{

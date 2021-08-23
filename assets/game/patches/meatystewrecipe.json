@@ -239,6 +239,48 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-grub",
+      "shapeElement": "bowl/meat stew/*",
+      "textureMapping": [
+        "meat",
+        "bugs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite",
+      "shapeElement": "bowl/meat stew/*",
+      "textureMapping": [
+        "meat",
+        "bugs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite-stick",
+      "shapeElement": "bowl/meat stew/*",
+      "textureMapping": [
+        "meat",
+        "bugs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/6",
     "value": {
       "type": "item",
@@ -875,6 +917,48 @@
       "textureMapping": [
         "meat",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-grub",
+      "shapeElement": "bowl/bugs 1/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite",
+      "shapeElement": "bowl/termites 1/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite-stick",
+      "shapeElement": "bowl/termites 1/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
       ]
     },
     "file": "recipes/cooking/meatystew.json"
@@ -1521,6 +1605,48 @@
     },
     "file": "recipes/cooking/meatystew.json"
   },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-grub",
+      "shapeElement": "bowl/bugs 2/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite",
+      "shapeElement": "bowl/termites 2/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "insect-termite-stick",
+      "shapeElement": "bowl/termites 2/*",
+      "textureMapping": [
+        "grubs",
+        "grubs"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
  {
     "op": "add",
     "path": "/ingredients/4/validStacks/-",
@@ -1737,6 +1863,90 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:driedseaweed-edible",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
@@ -1945,6 +2155,90 @@
       "textureMapping": [
         "vegetable",
         "group10"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:driedseaweed-edible",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
       ]
     },
     "file": "recipes/cooking/meatystew.json"
@@ -2048,6 +2342,15 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:fruitwineportion-pineapple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pineapplewine"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:fruitwineportion-mix",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
@@ -2111,6 +2414,15 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:strongwineportion-pineapple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pineapplewine"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:potentwineportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
@@ -2152,6 +2464,15 @@
           "textureMapping": [
             "topping",
             "whitecurrantwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-pineapple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pineapplewine"
           ]
         },
         {
@@ -2237,7 +2558,16 @@
             "fruit",
             "group6"
           ]
-        }
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-pineapple",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "group7"
+          ]
+        },
       ],
       "minQuantity": 0,
       "maxQuantity": 1

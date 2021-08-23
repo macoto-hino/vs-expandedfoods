@@ -13,7 +13,7 @@
 	attributes: {
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 10,
+			itemsPerLitre: 8,
 			texture: { base: "game:block/resin" },
 			allowSpill: true,
 			whenSpilled: {
@@ -25,7 +25,7 @@
 	transitionableProps: [{
     		type: "Cure",
     		freshHours: { avg: 24 },
-    		transitionHours: { avg: 1440 },
+    		transitionHours: { avg: 432 },
     		transitionedStack: { type: "item", code: "game:resin" },
     		transitionRatio: 0.1
   	}],

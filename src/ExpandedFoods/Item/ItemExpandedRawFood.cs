@@ -143,8 +143,12 @@ namespace ExpandedFoods
 
             int batchSize = 1;
 
-            smeltedStack.Attributes["madeWith"] = new StringArrayAttribute((inputSlot.Itemstack.Attributes["madeWith"] as StringArrayAttribute)?.value);
-            smeltedStack.Attributes["expandedSats"] = new FloatArrayAttribute((inputSlot.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value);
+            string[] ingredients = (inputSlot.Itemstack.Attributes["madeWith"] as StringArrayAttribute)?.value;
+            float[] satieties = (inputSlot.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
+
+
+            if (ingredients != null) smeltedStack.Attributes["madeWith"] = new StringArrayAttribute(ingredients);
+            if (satieties != null) smeltedStack.Attributes["expandedSats"] = new FloatArrayAttribute(satieties);
 
             if (outputSlot.Itemstack == null)
             {
@@ -375,10 +379,10 @@ namespace ExpandedFoods
 
 
 
-            /*if (GrindingProps != null)
+            if (GrindingProps != null)
             {
                 dsc.AppendLine(Lang.Get("When ground: Turns into {0}x {1}", GrindingProps.GroundStack.ResolvedItemstack.StackSize, GrindingProps.GroundStack.ResolvedItemstack.GetName()));
-            }*/
+            }
 
             if (CrushingProps != null)
             {
@@ -1104,36 +1108,39 @@ namespace ExpandedFoods
                 }
 
                 TransitionableProperties[] oprops = val.Collectible.GetTransitionableProperties(api.World, val, null);
-                foreach (var prop in oprops)
+                if (oprops != null)
                 {
-                    ItemStack transitionedStack = prop.TransitionedStack?.ResolvedItemstack;
-
-                    switch (prop.Type)
+                    foreach (var prop in oprops)
                     {
-                        case EnumTransitionType.Cure:
-                            if (transitionedStack != null && transitionedStack.Equals(capi.World, stack, GlobalConstants.IgnoredStackAttributes) && !curables.Any(s => s.Equals(capi.World, transitionedStack, GlobalConstants.IgnoredStackAttributes)))
-                            {
-                                curables.Add(val);
-                            }
-                            break;
+                        ItemStack transitionedStack = prop.TransitionedStack?.ResolvedItemstack;
 
-                        case EnumTransitionType.Ripen:
-                            if (transitionedStack != null && transitionedStack.Equals(capi.World, stack, GlobalConstants.IgnoredStackAttributes) && !curables.Any(s => s.Equals(capi.World, transitionedStack, GlobalConstants.IgnoredStackAttributes)))
-                            {
-                                ripenables.Add(val);
-                            }
-                            break;
+                        switch (prop.Type)
+                        {
+                            case EnumTransitionType.Cure:
+                                if (transitionedStack != null && transitionedStack.Equals(capi.World, stack, GlobalConstants.IgnoredStackAttributes) && !curables.Any(s => s.Equals(capi.World, transitionedStack, GlobalConstants.IgnoredStackAttributes)))
+                                {
+                                    curables.Add(val);
+                                }
+                                break;
+
+                            case EnumTransitionType.Ripen:
+                                if (transitionedStack != null && transitionedStack.Equals(capi.World, stack, GlobalConstants.IgnoredStackAttributes) && !curables.Any(s => s.Equals(capi.World, transitionedStack, GlobalConstants.IgnoredStackAttributes)))
+                                {
+                                    ripenables.Add(val);
+                                }
+                                break;
 
 
-                        case EnumTransitionType.Dry:
-                            break;
+                            case EnumTransitionType.Dry:
+                                break;
 
-                        case EnumTransitionType.Convert:
-                            break;
+                            case EnumTransitionType.Convert:
+                                break;
 
-                        case EnumTransitionType.Perish:
-                            break;
+                            case EnumTransitionType.Perish:
+                                break;
 
+                        }
                     }
                 }
 

@@ -5,7 +5,7 @@
 	attributes: {
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:block/liquid/brine" },
 			allowSpill: true,
 			whenSpilled: {
@@ -25,7 +25,7 @@
 		smeltedRatio: 4,
 		smeltingType: "cook",
 		smeltedStack: { type: "item", code: "expandedfoods:treesyrupportion-maple" },
-		requiresContainer: false
+		requiresContainer: true
 	},
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

@@ -1,12 +1,13 @@
 {
 	code: "fishsauce",
+	enabled: false,
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
 		nutritionPropsWhenInMeal: { satiety: 200, health: 0.5, foodcategory: "Protein" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 16,
 			texture: { base: "item/liquid/fishsauce" },
 			allowSpill: true,
 			whenSpilled: { 

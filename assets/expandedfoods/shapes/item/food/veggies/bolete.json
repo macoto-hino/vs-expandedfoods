@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"stipe": "item/food/veggie/bolete/stipe",
-		"cap": "item/food/veggie/bolete/cap",
-		"pores": "item/food/veggie/bolete/pores"
+		"stipe": "item/food/veggie/perfect/bolete/stipe",
+		"cap": "item/food/veggie/perfect/bolete/cap",
+		"pores": "item/food/veggie/perfect/bolete/pores"
 	},
 	"elements": [
 		{

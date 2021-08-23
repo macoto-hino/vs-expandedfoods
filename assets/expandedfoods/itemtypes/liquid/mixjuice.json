@@ -11,7 +11,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:item/liquid/{type}mix" },
 			allowSpill: true,
 			whenSpilled: {
@@ -54,7 +54,7 @@
 			smeltedRatio: 4,
 			smeltingType: "cook",
 			smeltedStack: { type: "item", code: "expandedfoods:fruitsyrupportion-mix" },
-			requiresContainer: false
+			requiresContainer: true
 		},
 	},
 	nutritionPropsByType: { 

@@ -1,0 +1,99 @@
+[
+  {
+	enabled: "false",
+	ingredientPattern: "K,P",
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "acornpasta-flat", 
+			name: "pasta",
+		},
+    		"K": {
+        		type: "item",
+        		code: "game:knife-*",
+        		isTool: true
+      		},
+	},
+	width: 2,
+	height: 1,
+    	"shapeless": true,
+	output: { type: "item", code: "acornpasta-cut"  }
+  },
+  {
+	enabled: "false",
+    "ingredientPattern": "SP",
+    "ingredients": {
+      "S": {
+        type: "item",
+        code: "game:cleaver-*",
+        isTool: true
+      },
+      "P": {
+        type: "item",
+        code: "acornpasta-flat",
+        name: "pasta",
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "output": { type: "item", code: "acornpasta-cut" }
+   },
+  {
+	enabled: "false",
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "game:stone-*"
+		},
+		"M": { 
+			type: "item", 
+			code: "acornpasta-dough", 
+			name: "pasta",
+		},
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "acornpasta-flat"  }
+  },
+  {
+	enabled: "false",
+	ingredientPattern: "H,M",
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "game:hammer-*",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "acornpasta-dough", 
+			name: "pasta",
+		},
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "acornpasta-flat"  }
+  },
+{
+	enabled: "false",
+	ingredientPattern: "H,M",
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "acorns:mallet",
+			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "acornpasta-dough", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "bushmeatsmash",
+	output: { type: "item", code: "acornpasta-flat"  }
+}
+]

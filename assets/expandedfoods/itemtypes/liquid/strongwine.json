@@ -3,7 +3,7 @@
 	class: "TransLiquid",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix"] },
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "pineapple"] },
 	],
 	attributes: {
 		nutritionPropsWhenInMealByType: {
@@ -12,7 +12,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:item/liquid/{type}wine" },
 			allowSpill: true,
 			whenSpilled: {

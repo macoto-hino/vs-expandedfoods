@@ -3,7 +3,7 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro"] },
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "pineapple"] },
 	],
 	attributes: {
 		nutritionPropsWhenInMealByType: { 
@@ -13,7 +13,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			textureByType: { 
 				"*-mix": {
 					base: "game:item/liquid/fruitmix",

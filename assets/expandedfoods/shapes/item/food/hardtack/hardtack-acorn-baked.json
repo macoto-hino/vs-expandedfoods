@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"acornbread": "acorns:item/food/grain/acornbread"
+		"acornbread": "game:item/food/grain/acornricebread"
 	},
 	"elements": [
 		{

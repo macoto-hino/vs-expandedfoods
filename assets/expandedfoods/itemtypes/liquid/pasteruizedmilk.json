@@ -3,13 +3,13 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
-		inContainerTexture: { base: "game:block/dairy/milk" },
+		inContainerTexture: { base: "game:block/food/dairy/milk" },
 		inBowlShape: { base: "game:block/meal/liquid" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 1,
 			isopaque: true,
-			texture: { base: "game:block/dairy/milk" },
+			texture: { base: "game:block/food/dairy/milk" },
 			allowSpill: true,
 			whenSpilled: { 
 				action: "DropContents",
@@ -18,7 +18,7 @@
 		}
 	},
 	shape: { base: "game:item/liquid" },
-	texture: { base: "game:block/dairy/milk" },
+	texture: { base: "game:block/food/dairy/milk" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 16,
 	materialDensity: 200,

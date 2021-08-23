@@ -4,7 +4,8 @@
 	ingredients: {
 		"R": { 
 			type: "item", 
-			code: "game:stone-*"
+			code: "game:stone-*",
+			name: "stone",
 		},
 		"M": { 
 			type: "item", 
@@ -22,7 +23,8 @@
 	ingredients: {
 		"R": { 
 			type: "item", 
-			code: "game:stone-*"
+			code: "game:stone-*",
+			name: "stone",
 		},
 		"M": { 
 			type: "item", 
@@ -40,7 +42,8 @@
 	ingredients: {
 		"R": { 
 			type: "item", 
-			code: "game:stone-*"
+			code: "game:stone-*",
+			name: "stone",
 		},
 		"M": { 
 			type: "item", 

@@ -322,13 +322,13 @@ namespace ExpandedFoods
             Dictionary<int, MeshRef> meshrefs = null;
 
             object obj;
-            if (capi.ObjectCache.TryGetValue("saucepanMeshRefs", out obj))
+            if (capi.ObjectCache.TryGetValue(FirstCodePart() + "MeshRefs", out obj))
             {
                 meshrefs = obj as Dictionary<int, MeshRef>;
             }
             else
             {
-                capi.ObjectCache["saucepanMeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
+                capi.ObjectCache[FirstCodePart() + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
             }
 
             ItemStack contentStack = GetContent(capi.World, itemstack);
@@ -397,7 +397,7 @@ namespace ExpandedFoods
 
         public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
         {
-            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/saucepan/empty.json").ToObject<Shape>();
+            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/"+ FirstCodePart() + "/empty.json").ToObject<Shape>();
             MeshData bucketmesh;
             capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
 
@@ -406,11 +406,13 @@ namespace ExpandedFoods
                 WaterTightContainableProps props = GetInContainerProps(contentStack);
 
                 ContainerTextureSource contentSource = new ContainerTextureSource(capi, contentStack, props.Texture);
-                shape = capi.Assets.TryGet("expandedfoods:shapes/block/saucepan/contents.json").ToObject<Shape>();
+                shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();
                 MeshData contentMesh;
                 capi.Tesselator.TesselateShape("saucepan", shape, out contentMesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
+                float maxLevel = Attributes["maxFillLevel"].AsFloat(4f);
+                float fullness = contentStack.StackSize / (props.ItemsPerLitre * CapacityLitres);
 
-                contentMesh.Translate(0, GameMath.Min(7 / 16f, contentStack.StackSize / props.ItemsPerLitre * 0.7f / 16f), 0);
+                contentMesh.Translate(0, GameMath.Min(maxLevel / 16f, (maxLevel * fullness) / 16f), 0);
 
                 if (props.ClimateColorMap != null)
                 {

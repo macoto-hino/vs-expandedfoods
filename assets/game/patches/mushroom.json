@@ -1,40 +1,19 @@
 [
   {
     "op": "add",
-    "path": "/combustiblePropsByType",
+    "path": "/attributes/inPiePropertiesByType",
     "value": {
-      "*-flyagaric-normal-free": {
-        "meltingPoint": 150,
-        "meltingDuration": 30,
-        "smeltedRatio": 1,
-        "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-flyagaric"
-        },
-        "requiresContainer": false
+      "*-bolete-normal-free": {
+        "texture": "game:block/food/pie/fill-mushroombrown",
+        "partType": "Filling"
       },
       "*-fieldmushroom-normal-free": {
-        "meltingPoint": 150,
-        "meltingDuration": 30,
-        "smeltedRatio": 1,
-        "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-fieldmushroom"
-        },
-        "requiresContainer": false
+        "texture": "game:block/food/pie/fill-mushroomwhite",
+        "partType": "Filling"
       },
-      "*-bolete-normal-free": {
-        "meltingPoint": 150,
-        "meltingDuration": 30,
-        "smeltedRatio": 1,
-        "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "expandedfoods:cookedveggie-bolete"
-        },
-        "requiresContainer": false
+      "*-flyagaric-normal-free": {
+        "texture": "game:block/food/pie/fill-mushroomred",
+        "partType": "Filling"
       }
     },
     "file": "blocktypes/plant/mushroom.json"

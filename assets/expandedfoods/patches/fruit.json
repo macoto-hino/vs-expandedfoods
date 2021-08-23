@@ -7,7 +7,8 @@
       "*-cranberry": "expandedfoods:fruitjuiceportion-cranberry",
       "*-redcurrant": "expandedfoods:fruitjuiceportion-redcurrant",
       "*-blackcurrant": "expandedfoods:fruitjuiceportion-blackcurrant",
-      "*-whitecurrant": "expandedfoods:fruitjuiceportion-whitecurrant"
+      "*-whitecurrant": "expandedfoods:fruitjuiceportion-whitecurrant",
+      "*-pineapple": "expandedfoods:fruitjuiceportion-pineapple",
     },
     "file": "game:itemtypes/food/fruit.json"
   },

@@ -12,7 +12,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			isopaque: true,
 			texture: { base: "game:item/liquid/yogurt/{type}" },
 			allowSpill: true,
@@ -23,7 +23,7 @@
 		}
 	},
 	variantgroups: [
-		{ code: "type", states: ["starter", "ferment", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "birch", "maple", "honey"] },
+		{ code: "type", states: ["starter", "ferment", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "birch", "maple", "honey", "pineapple"] },
 	],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/yogurt/{type}" },
@@ -74,6 +74,7 @@
 		"*-blackcurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
 		"*-redcurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
 		"*-whitecurrant": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
+		"*-pineapple": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
 		"*-mix": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
 		"*-saguaro": { saturation: 75, Health: 0.5, foodcategory: "Protein" },
 		"*-birch": { saturation: 75, Health: 0.5, foodcategory: "Protein" },

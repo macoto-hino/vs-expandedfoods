@@ -1,13 +1,13 @@
 [
   {
     "op": "add",
-    "path": "/attributesByType/*/squeezeInto",
-    "value": "expandedfoods:vegetablejuiceportion-{type}",
+    "path": "/attributesByType/*-cassava/squeezeInto",
+    "value": "expandedfoods:vegetablejuiceportion-cassava",
     "file": "game:itemtypes/food/vegetable.json"
   },
   {
     "op": "add",
-    "path": "/attributesByType/*/squeezeRatio",
+    "path": "/attributesByType/*-cassava/squeezeRatio",
     "value": 4,
     "file": "game:itemtypes/food/vegetable.json"
   },
@@ -33,6 +33,58 @@
     "op": "add",
     "path": "/attributesByType/*-pumpkin/squeezeRatio",
     "value": 4,
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cabbage/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-cabbage-partbaked"
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cabbage/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": -0.125,
+        "z": 0
+      },
+      "scale": 0.75
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-pumpkin-partbaked"
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
     "file": "game:itemtypes/food/vegetable.json"
   }
 ]

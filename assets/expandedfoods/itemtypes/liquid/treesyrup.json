@@ -9,7 +9,7 @@
 		nutritionPropsWhenInMeal: { satiety: 120, health: 1.5, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			textureByType: {
 				"*-birch": {
 					base: "game:block/liquid/weaktannin" 

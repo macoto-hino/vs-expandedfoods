@@ -35,7 +35,8 @@
 				"expandedfoods:choppedvegetable-parsnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-parsnip.json",
 				"expandedfoods:choppedvegetable-pickledparsnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-parsnip.json",
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip.json",
-				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip.json"
+				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip.json",
+				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-fieldmushroom.json"
 			},
 			"*-oil": {
 				"game:legume-soybean": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-soybean-sauce.json",
@@ -52,6 +53,7 @@
 				"expandedfoods:choppedvegetable-pickledparsnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-parsnip-sauce.json",
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip-sauce.json",
 				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip-sauce.json",
+				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-fieldmushroom-sauce.json",
 				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-noveggie-sauce.json"
 			},
 			"*-honey": {
@@ -69,11 +71,12 @@
 				"expandedfoods:choppedvegetable-pickledparsnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-parsnip-honey.json",
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip-honey.json",
 				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-turnip-honey.json",
+				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-fieldmushroom-honey.json",
 			},
 		},
 	},
 	variantgroups: [
-		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "noveggie"] },
+		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "cassava", "noveggie"] },
 		{ code: "oiled", states: ["nooil", "oil", "honey"]},
 	],
 	materialDensity: 150,
@@ -127,6 +130,15 @@
 		},
 		"*-turnip-honey": {
 			sushiturniphoney: { base: "expandedfoods:item/food/sushi/vegetarian/sushiturniphoney"},
+		},
+		"*-cassava-nooil": {
+			sushifieldmushroom: { base: "expandedfoods:item/food/sushi/vegetarian/sushifieldmushroom"},
+		},
+		"*-cassava-oil": {
+			sushifieldmushroomsauce: { base: "expandedfoods:item/food/sushi/vegetarian/sushifieldmushroomsauce"},
+		},
+		"*-cassava-honey": {
+			sushifieldmushroomhoney: { base: "expandedfoods:item/food/sushi/vegetarian/sushifieldmushroomhoney"},
 		},
 		"*-bolete-nooil": {
 			sushibolete: { base: "expandedfoods:item/food/sushi/vegetarian/sushibolete"},

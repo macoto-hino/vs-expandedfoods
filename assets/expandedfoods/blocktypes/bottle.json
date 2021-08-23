@@ -26,13 +26,16 @@
 	],
 	drawtype: "JSON",
 	replaceable: 1,
-	behaviors: [{name: "RightClickPickup" },{name: "SneakPlacing"}, {name: "UnstableFalling", properties: { attachmentArea: { x1: 5, y1: 0, z1: 5, x2: 10, y2: 0, z2: 10 } }}],
+	behaviorsByType: {		
+		"*-raw": [{name: "RightClickPickup" },{name: "SneakPlacing"}, { "name": "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }, {name: "Unplaceable"}, {name: "UnstableFalling", properties: { attachmentArea: { x1: 5, y1: 0, z1: 5, x2: 10, y2: 0, z2: 10 } }}],
+		"*": [{name: "RightClickPickup" },{name: "SneakPlacing"}, { "name": "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }, {name: "UnstableFalling", properties: { attachmentArea: { x1: 5, y1: 0, z1: 5, x2: 10, y2: 0, z2: 10 } }}],
+	},
 	combustiblePropsByType: {
 		"bottle-clay-raw": {
 			meltingPoint: 600,
 			meltingDuration: 30,
 			smeltedRatio: 1,
-			smeltingType: "bake",
+			smeltingType: "fire",
 			smeltedStack: { type: "block", code: "bottle-clay-burned" },
 			requiresContainer: false
 		}

@@ -1,17 +1,42 @@
 [
   {
     "op": "add",
-    "path": "/combustibleProps",
+    "path": "/attributes/bakingProperties",
     "value": {
-      "meltingPoint": 100,
-      "meltingDuration": 10,
-      "smeltedRatio": 1,
-      "smeltingType": "bake",
-      "smeltedStack": {
-        "type": "item",
-        "code": "expandedfoods:dryfruit-{type}"
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "expandedfoods:dryfruit-{fruit}"
+    },
+    "file": "itemtypes/food/fruit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+      "*-pineapple": {
+        "translation": {
+          "x": 0.0,
+          "y": -0.2,
+          "z": 0.1
+        },
+        "scale": 0.6
       },
-      "requiresContainer": false
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.05
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": 0.8
+      }
     },
     "file": "itemtypes/food/fruit.json"
   }

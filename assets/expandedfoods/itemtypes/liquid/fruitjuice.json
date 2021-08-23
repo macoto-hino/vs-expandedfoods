@@ -3,13 +3,13 @@
 	class: "TransLiquid",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant"] },
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "pineapple"] },
 	],
 	attributes: {
 		nutritionPropsWhenInMeal: { satiety: 180, health: 1.5, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:item/liquid/{type}" },
 			allowSpill: true,
 			whenSpilled: {
@@ -43,7 +43,7 @@
 		smeltedRatio: 4,
 		smeltingType: "cook",
 		smeltedStack: { type: "item", code: "expandedfoods:fruitsyrupportion-{type}" },
-		requiresContainer: false
+		requiresContainer: true
 	},
 	nutritionProps: { saturation: 120, health: 1, foodcategory: "Fruit" },
 	guiTransform: {

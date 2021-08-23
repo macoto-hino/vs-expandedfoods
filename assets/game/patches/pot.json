@@ -131,7 +131,7 @@
     "op": "add",
     "path": "/texturesByType/*/poultry-raw",
     "value": {
-      "base": "block/meal/group3-millet-bolete-cranberry-poultry"
+      "base": "block/food/meal/group3-millet-bolete-cranberry-poultry"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -139,7 +139,7 @@
     "op": "add",
     "path": "/texturesByType/*/redmeat-raw",
     "value": {
-      "base": "block/meal/group2-soup-flyagaric-cactifruit-redmeat"
+      "base": "block/food/meal/group2-soup-flyagaric-cactifruit-redmeat"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -233,6 +233,15 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:dryfruit-pineapple",
+    "value": [
+      "fruit",
+      "group7"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/riceandbeans",
     "value": {
       "base": "block/riceandbeans"
@@ -281,6 +290,15 @@
     "value": [
       "topping",
       "whitecurrantsyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pineapple",
+    "value": [
+      "topping",
+      "pineapplesyrup"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -355,6 +373,14 @@
     "path": "/texturesByType/*/whitecurrantsyrup",
     "value": {
       "base": "item/liquid/whitecurrant"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pineapplesyrup",
+    "value": {
+      "base": "item/liquid/pineapple"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -466,6 +492,25 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-cassava",
+    "value": [
+      "water",
+      "cassavajuice"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:vegetablejuiceportion-bellpepper",
+    "value": [
+      "water",
+      "bellpepperjuice"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+
+  {
+    "op": "add",
     "path": "/texturesByType/*/cabbagejuice",
     "value": {
       "base": "item/liquid/cabbage"
@@ -509,6 +554,22 @@
     "path": "/texturesByType/*/turnipjuice",
     "value": {
       "base": "item/liquid/turnip"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cassavajuice",
+    "value": {
+      "base": "item/liquid/cassava"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bellpepperjuice",
+    "value": {
+      "base": "item/liquid/bellpepper"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -593,9 +654,33 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/breading-acorn-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/acorn-partbaked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-acorn-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/acorn-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/breading-acorn-syrup",
     "value": {
       "base": "expandedfoods:item/food/grain/breading/acorn-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-flax-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/flax-partbaked"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -609,9 +694,25 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/breading-flax-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/flax-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/breading-flax-syrup",
     "value": {
       "base": "expandedfoods:item/food/grain/breading/flax-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-rice-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/rice-partbaked"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -625,9 +726,25 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/breading-rice-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/rice-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/breading-rice-syrup",
     "value": {
       "base": "expandedfoods:item/food/grain/breading/rice-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-rye-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/rye-partbaked"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -641,9 +758,25 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/breading-rye-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/rye-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/breading-rye-syrup",
     "value": {
       "base": "expandedfoods:item/food/grain/breading/rye-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-spelt-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/spelt-partbaked"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -657,9 +790,113 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/breading-spelt-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/spelt-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/breading-spelt-syrup",
     "value": {
       "base": "expandedfoods:item/food/grain/breading/spelt-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-cassava-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/cassava-partbaked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-cassava",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/cassava-cooked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-cassava-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/cassava-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-cassava-syrup",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/cassava-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-amaranth-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/amaranth-partbaked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-amaranth",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/amaranth-cooked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-amaranth-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/amaranth-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-amaranth-syrup",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/amaranth-fish"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-sunflower-partbaked",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/sunflower-partbaked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-sunflower",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/sunflower-cooked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-sunflower-charred",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/sunflower-charred"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breading-sunflower-syrup",
+    "value": {
+      "base": "expandedfoods:item/food/grain/breading/sunflower-fish"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -708,6 +945,14 @@
     "path": "/texturesByType/*/whitecurrantwine",
     "value": {
       "base": "item/liquid/whitecurrantwine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pineapplewine",
+    "value": {
+      "base": "item/liquid/pineapplewine"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -844,6 +1089,15 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pineapple",
+    "value": [
+      "topping",
+      "gelatinpineapple"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:yogurt-plain",
     "value": [
       "liquid",
@@ -941,6 +1195,14 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/gelatinpineapple",
+    "value": {
+      "base": "item/gelatin/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/yogurtplain",
     "value": {
       "base": "item/liquid/yogurt/plain"
@@ -977,7 +1239,7 @@
     "op": "add",
     "path": "/texturesByType/*/pasta",
     "value": {
-      "base": "expandedfoods:item/food/pasta/ricepasta"
+      "base": "expandedfoods:item/food/pasta/pasta"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1058,6 +1320,30 @@
     "path": "/texturesByType/*/yogurtwhitecurrant",
     "value": {
       "base": "item/liquid/yogurt/whitecurrant"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpineapple",
+    "value": {
+      "base": "item/liquid/yogurt/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bugs",
+    "value": {
+      "base": "block/eatthebugs"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/grubs",
+    "value": {
+      "base": "entity/grub"
     },
     "file": "blocktypes/clay/pot.json"
   },

@@ -15,7 +15,7 @@
 	shape: {
 		base: "block/screwpress"
 	},
-	variantgroups: [{ code: "type", states: ["acacia", "birch", "kapok", "maple", "oak", "pine", "aged"] },
+	variantgroups: [{ code: "type", states: ["acacia", "birch", "kapok", "maple", "oak", "pine", "aged", "baldcypress", "ebony", "larch", "purpleheart", "redwood", "walnut"] },
 	],
 	renderpass: "OpaqueNoCull",
 	lightAbsorption: 0,

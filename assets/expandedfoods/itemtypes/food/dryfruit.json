@@ -2,7 +2,7 @@
 	code: "dryfruit",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro"] },
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple"] },
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {
@@ -14,9 +14,35 @@
 			},
 			foodcategory: "Fruit" 
 		},
-	inContainerTexture: { base: "game:block/barrel/{type}fruit" },
+		bakingProperties: {
+			temp: 100,
+			levelFrom: 0.5,
+			levelTo: 1.0,
+			startScaleY: 0.8,
+			endScaleY: 0.8,
+			initialCode: "game:fruit-{type}",
+		},
+    		inPieProperties: { texture: "game:block/food/pie/fill-{type}", partType: 'Filling' },
+		onDisplayTransformByType: {
+			"*-pineapple": { 
+				translation: { x: 0.0, y: -0.25, z: 0.1 },
+				scale: 0.5 
+			},
+			"*": { 
+				translation: { x: 0.0, y: 0.0, z: 0.05 },
+				rotation: { x: 0, y: 0, z: 90 },
+				scale: 0.8 
+			},
+		},
+		inContainerTexture: { base: "game:block/barrel/{type}fruit" },
 	},
-	texture: { base: "item/food/dryfruit/{type}" },
+	texturesByType: {
+		"*-pineapple": { "pineapple":  { base: "item/food/dryfruit/pineapple"} },
+		"*": { all:  { base: "item/food/dryfruit/{type}"} },
+	},
+	shapebytype: { 
+		"*-pineapple": { base: "game:item/food/fruit/pineapple-slice" }
+	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
 		"*-saguaro": { satiety: 50, health: 1, foodcategory: "Fruit" },
@@ -38,5 +64,37 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.25
 		}]
+	},
+	guiTransformByType: {
+		"*-pineapple": {
+			translation: { x: 2, y: 3, z: 0 },
+			rotation: { x: 127, y: 180, z: 23 },
+			origin: { x: 0.55, y: 0.05, z: 0.5 },
+			scale: 1.54
+		}
+	},
+	fpHandTransformByType: {
+		"*-pineapple": {
+			translation: { x: 0, y: 0.22, z: 0 },
+			rotation: { x: 31, y: 10, z: 2 },
+			origin: { x: 0.7, y: 0.1, z: 0.5 },
+			scale: 1.24
+		}
+	},
+	tpHandTransformByType: {
+		"*-pineapple": {
+			translation: { x: -1.85, y: -0.23, z: -1.61 },
+			rotation: { x: 124, y: -42, z: -65 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.21
+		}
+	},
+	groundTransformByType: {
+		"*-pineapple": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: -3 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 1.75
+		}
 	}
 }

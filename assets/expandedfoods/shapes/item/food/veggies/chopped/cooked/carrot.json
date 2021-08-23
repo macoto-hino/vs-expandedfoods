@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"carrot": "item/food/veggie/carrot"
+		"carrot": "item/food/veggie/perfect/carrot"
 	},
 	"elements": [
 		{

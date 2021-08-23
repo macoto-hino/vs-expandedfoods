@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cap": "item/food/veggie/flyagaric/cap",
-		"stipe": "item/food/veggie/flyagaric/stipe",
-		"pores": "item/food/veggie/flyagaric/pores"
+		"cap": "item/food/veggie/perfect/flyagaric/cap",
+		"stipe": "item/food/veggie/perfect/flyagaric/stipe",
+		"pores": "item/food/veggie/perfect/flyagaric/pores"
 	},
 	"elements": [
 		{

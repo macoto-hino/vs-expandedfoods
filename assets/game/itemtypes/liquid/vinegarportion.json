@@ -6,7 +6,7 @@
 		nutritionPropsWhenInMeal: { satiety: 150, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 16,
 			texture: { base: "block/liquid/vinegarmod" },
 			allowSpill: true,
 			whenSpilled: { 

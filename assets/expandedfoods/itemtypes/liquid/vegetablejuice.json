@@ -3,13 +3,13 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"] },
 	],
 	attributes: {
 		nutritionPropsWhenInMeal: { satiety: 180, health: 1.5, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:item/liquid/{type}" },
 			allowSpill: true,
 			whenSpilled: {

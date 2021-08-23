@@ -1,0 +1,66 @@
+{
+	code: "tea",
+	enabled: false,
+	class: "ExpandedLiquid",
+	matterState: "liquid",
+	attributes: {
+		inContainerTexture: { base: "game:item/liquid/tea" },
+		inBowlShape: { base: "game:block/meal/liquid" },
+		expandedNutritionPropsByType: {
+			"*-herb": {
+      				"game:herbbundle-sage" : { saturation: 190, health: 3.5, foodcategory: "Vegetable" },
+      				"game:herbbundle-cilantro" : { saturation: 150, health: 1.5, foodcategory: "Vegetable" },
+      				"game:herbbundle-lavender" : { saturation: 150, health: 1.5, foodcategory: "Vegetable" },
+      				"game:herbbundle-mint" : { saturation: 150, health: 1.5, foodcategory: "Vegetable" },
+      				"game:herbbundle-basil" : { saturation: 100, health: 1, foodcategory: "Vegetable" },
+      				"game:herbbundle-chamomile" : { saturation: 100, health: 1, foodcategory: "Vegetable" },
+      				"game:herbbundle-marjoram" : { saturation: 100, health: 1, foodcategory: "Vegetable" },
+      				"game:herbbundle-saffron" : { saturation: 100, health: 1, foodcategory: "Vegetable" },
+      				"game:herbbundle-thyme" : { saturation: 100, health: 1, foodcategory: "Vegetable" },
+			},
+		},
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 8,
+			isopaque: true,
+			texture: { base: "game:item/liquid/tea" },
+			allowSpill: true,
+			whenSpilled: { 
+				action: "DropContents",
+				stack: { type: "item", code: "tea" } 
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["herb"] },
+	],
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:item/liquid/tea" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	transitionablePropsByType: {
+		"*":[{
+    			type: "Perish",
+    			freshHours: { avg: 240 },
+    			transitionHours: { avg: 480 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		}],
+	},
+	nutritionPropsByType: {
+		"*-herb": { saturation: 10, Health: 1, foodcategory: "Vegetable" }
+	},
+	guiTransform: {
+		rotation: { x: 123, y: -33, z: -13 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 25, y: 157, z: -5 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 }
+	}
+}

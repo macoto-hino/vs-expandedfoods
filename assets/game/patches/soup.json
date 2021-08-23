@@ -88,6 +88,34 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:vegetablejuiceportion-cassava",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "cassavajuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:vegetablejuiceportion-bellpepper",
+      "shapeElement": "bowl/water",
+      "textureMapping": [
+        "water",
+        "bellpepperjuice"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:brothportion-bone",
       "shapeElement": "bowl/water",
       "textureMapping": [
@@ -325,6 +353,85 @@
     },
     "file": "recipes/cooking/soup.json"
   },
+ {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
   {
     "op": "add",
     "path": "/ingredients/2/validStacks/8",
@@ -539,6 +646,85 @@
     },
     "file": "recipes/cooking/soup.json"
   },
+ {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
   {
     "op": "add",
     "path": "/ingredients/3/validStacks/-",
@@ -755,6 +941,85 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cassava",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-bellpepper",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "fruit",
+        "group8"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:driedseaweed-edible"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-cattailroot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedvegetable-papyrusroot",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group11"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
@@ -784,7 +1049,8 @@
        		 "fishfillet-raw"
      	 ]
         }
-  },   {
+  },
+   {
         "file": "recipes/cooking/soup.json",
         "op": "add",
         "path": "/ingredients/4/validStacks/-",
@@ -819,6 +1085,48 @@
         "value": {
             "type": "item",
    	    "code": "expandedfoods:meatnugget-poultry-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group5"
+     	 ]
+        }
+  },
+   {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "expandedfoods:agedmeat-bushmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "expandedfoods:agedmeat-redmeat-raw",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "expandedfoods:agedmeat-poultry-raw",
      	    "shapeElement": "bowl/meatnugget 1/*",
      	    "textureMapping": [
        		"meatnugget",

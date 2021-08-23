@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cabbage": "item/food/veggie/cabbage/cabbage",
-		"bottom12": "item/food/veggie/cabbage/bottom12",
-		"top": "item/food/veggie/cabbage/top"
+		"cabbage": "item/food/veggie/perfect/cabbage/cabbage",
+		"bottom12": "item/food/veggie/perfect/cabbage/bottom12",
+		"top": "item/food/veggie/perfect/cabbage/top"
 	},
 	"elements": [
 		{

@@ -85,6 +85,20 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pineapple",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/1",
     "value": {
       "type": "item",
@@ -168,6 +182,20 @@
     "file": "recipes/cooking/porridge.json"
   },
   {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pineapple",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
     "op": "remove",
     "path": "/ingredients/3",
     "file": "recipes/cooking/porridge.json"
@@ -206,6 +234,16 @@
         {
           "type": "item",
           "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 1/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-cassava",
           "shapeElement": "bowl/vegetable 1/*"
         },
         {
@@ -343,7 +381,52 @@
             "vegetable",
             "group8"
           ]
-        }
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cassava",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cattailroot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-papyrusroot",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
+        },
       ],
       "minQuantity": 0,
       "maxQuantity": 1
@@ -384,6 +467,16 @@
         {
           "type": "item",
           "code": "vegetable-pumpkin",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 2/*"
+        },
+        {
+          "type": "item",
+          "code": "vegetable-cassava",
           "shapeElement": "bowl/vegetable 2/*"
         },
         {
@@ -526,6 +619,51 @@
             "vegetable",
             "group8"
           ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cassava",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-cattailroot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-papyrusroot",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group11"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-bellpepper",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedvegetable-pickledbellpepper",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "fruit",
+            "group8"
+          ]
         }
       ],
       "minQuantity": 0,
@@ -609,6 +747,15 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-pineapple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pineapplesyrup"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:fruitsyrupportion-mix",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
@@ -633,6 +780,61 @@
 	    "topping",
 	    "lard"
 	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:brothportion-bone",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "bonebroth"
+          ]
+        },
+       {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-flax",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-rice",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-seed",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-soy",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:soysauce",
+          "shapeElement": "bowl/topping/*"
         },
       ],
       "minQuantity": 0,

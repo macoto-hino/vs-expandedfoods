@@ -16,6 +16,34 @@
 		squeezeRatioByType: {
 			"*-slurry": 1,
 		},
+		bakingPropertiesByType: {
+			"*-soaked": {
+				temp: 100,
+				levelFrom: 0.0,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 0.9,
+				resultCode: "expandedfoods:soyprep-roasted",
+			},
+			"*-roasted": {
+				temp: 100,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 0.9,
+				endScaleY: 0.9,
+				initialCode: "expandedfoods:soyprep-soaked",
+			},
+		},
+		onDisplayTransformByType: { 
+			"*-soaked": {
+				translation: { x: 0, y: -0.25, z: 0 },
+				scale: 0.5 
+			},
+			"*-roasted": {
+				translation: { x: 0, y: -0.25, z: 0 },
+				scale: 0.5 
+			},
+		},
 	},
 	grindingPropsByType: {
 		"*-roasted": { grindedstack: {type: "item", code: "expandedfoods:soyprep-powdered"} }

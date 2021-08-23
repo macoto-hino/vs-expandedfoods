@@ -5,7 +5,7 @@
 	attributes: {
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			texture: { base: "game:block/liquid/water2" },
 			allowSpill: true,
 			whenSpilled: {

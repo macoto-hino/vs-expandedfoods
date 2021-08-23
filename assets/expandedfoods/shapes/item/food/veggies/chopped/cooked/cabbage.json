@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"cabbage": "item/food/veggie/chopped/cabbage"
+		"cabbage": "item/food/veggie/perfect/chopped/cabbage"
 	},
 	"elements": [
 		{

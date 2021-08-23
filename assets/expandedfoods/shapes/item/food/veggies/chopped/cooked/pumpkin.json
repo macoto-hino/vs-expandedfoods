@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"pumpkin": "item/food/veggie/pumpkin"
+		"pumpkin": "item/food/veggie/perfect/pumpkin"
 	},
 	"elements": [
 		{

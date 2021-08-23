@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"onion": "item/food/veggie/onion"
+		"onion": "item/food/veggie/perfect/onion"
 	},
 	"elements": [
 		{

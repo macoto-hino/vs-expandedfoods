@@ -5,8 +5,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -16,8 +16,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -27,8 +27,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -38,8 +38,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -49,8 +49,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -60,19 +60,8 @@
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
-	],
-	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
- },
- {
-	ingredients: [
-		{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard"}]},
-		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -82,8 +71,8 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -93,8 +82,8 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -104,8 +93,8 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-redmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-redmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -115,8 +104,8 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },
@@ -126,8 +115,19 @@
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
 		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-poultry-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-poultry-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
+	],
+	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard"}]},
+		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
+		{inputs: [{ type: "item", code: "game:fruit-*", quantity: 1 }, { type: "item", code: "expandedfoods:dryfruit-*"}]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:agedmeat-bushmeat-raw", quantity: 1 }, { type: "item", code: "expandedfoods:meatnugget-bushmeat-cured", quantity: 1 }]},
 	],
 	output: { type: "item", code: "expandedfoods:pemmican-raw", stackSize: 2}
  },

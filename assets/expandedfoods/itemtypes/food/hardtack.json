@@ -2,12 +2,68 @@
 	code: "hardtack",
 	maxstacksize: 128,
 	variantgroups: [
-		{ code: "type", states: ["spelt", "rye", "flax", "rice" ] },
+		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ] },
 		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
 	],
+	attributes: {
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 150,
+				levelFrom: 0.0,
+				levelTo: 0.75,
+				startScaleY: 1.0,
+				endScaleY: 0.95,
+				resultCode: "expandedfoods:hardtack-{type}-bake1",
+			},
+			"*-bake1": {
+				temp: 150,
+				levelFrom: 0.75,
+				levelTo: 1.5,
+				startScaleY: 0.95,
+				endScaleY: 0.9,
+				resultCode: "expandedfoods:hardtack-{type}-bake2",
+				initialCode: "expandedfoods:hardtack-{type}-raw",
+			},
+			"*-bake2": {
+				temp: 150,
+				levelFrom: 1.5,
+				levelTo: 2.25,
+				startScaleY: 0.9,
+				endScaleY: 0.85,
+				resultCode: "expandedfoods:hardtack-{type}-bake3",
+				initialCode: "expandedfoods:hardtack-{type}-bake1",
+			},
+			"*-bake3": {
+				temp: 150,
+				levelFrom: 2.25,
+				levelTo: 3.0,
+				startScaleY: 0.85,
+				endScaleY: 0.8,
+				resultCode: "expandedfoods:hardtack-{type}-bake4",
+				initialCode: "expandedfoods:hardtack-{type}-bake2",
+			},
+			"*-bake4": {
+				temp: 150,
+				levelFrom: 3.0,
+				levelTo: 4.0,
+				startScaleY: 0.8,
+				endScaleY: 0.75,
+				initialCode: "expandedfoods:hardtack-{type}-bake3",
+			},
+		},
+		onDisplayTransformByType: { 
+			"*": {
+				translation: { x: 0, y: -0.25, z: 0 },
+				scale: 0.5
+			},
+		},
+	},
 	shapebytype: {
 		"hardtack-*-raw": { base: "item/food/hardtack/hardtack-{type}-raw"},
-		"hardtack-*-*": { base: "item/food/hardtack/hardtack-{type}-baked"},
+		"hardtack-*-bake1": { base: "item/food/hardtack/hardtack-{type}-partbaked"},
+		"hardtack-*-bake2": { base: "item/food/hardtack/hardtack-{type}-baked"},
+		"hardtack-*-bake3": { base: "item/food/hardtack/hardtack-{type}-baked"},
+		"hardtack-*-bake4": { base: "item/food/hardtack/hardtack-{type}-charred"},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
@@ -23,40 +79,6 @@
 		"*-flax-bake4": { saturation: 80, foodcategory: "Grain" },
 		"*-rice-bake4": { saturation: 210, foodcategory: "Grain"},
 		"*-bake4": { saturation: 180, foodcategory: "Grain"  },
-	},
-	combustiblePropsByType: {
-		"hardtack-*-raw": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "hardtack-{type}-bake1" },
-			requiresContainer: false
-		},
-		"hardtack-*-bake1": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "hardtack-{type}-bake2" },
-			requiresContainer: false
-		},
-		"hardtack-*-bake2": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "hardtack-{type}-bake3" },
-			requiresContainer: false
-		},
-		"hardtack-*-bake3": {
-			meltingPoint: 150,
-			meltingDuration: 30,
-			smeltedRatio: 1,
-			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "hardtack-{type}-bake4" },
-			requiresContainer: false
-		},
 	},
 	transitionablePropsByType: {
 	"*-raw":[{

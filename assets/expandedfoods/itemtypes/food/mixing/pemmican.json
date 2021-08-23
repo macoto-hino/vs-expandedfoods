@@ -3,7 +3,7 @@
 	maxstacksize: 64,
   	class: "ExpandedFood",
 	variantgroups: [
-		{ code: "type", states: ["raw", "cooked"]}
+		{ code: "type", states: ["raw", "partbaked", "cooked", "charred"]}
 	],
 	attributes: {
 		displaycaseable: true,
@@ -16,9 +16,16 @@
 				"game:fruit-redcurrant" : { saturation: 60, foodcategory: "Fruit" },
 				"game:fruit-whitecurrant" : { saturation: 60, foodcategory: "Fruit" },
 				"game:fruit-blackcurrant" : { saturation: 60, foodcategory: "Fruit" },
+				"game:fruit-pineapple" : { saturation: 60, foodcategory: "Fruit" },
+				"expandedfoods:meatnugget-poultry-cured": {saturation: 95, foodcategory: "Protein"},
+				"expandedfoods:meatnugget-redmeat-cured": {saturation: 130, foodcategory: "Protein"},
+				"expandedfoods:meatnugget-bushmeat-cured": {saturation: 55, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-poultry-raw": {saturation: 120, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-redmeat-raw": {saturation: 170, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-bushmeat-raw": {saturation: 70, foodcategory: "Protein"},
+				"expandedfoods:agedmeat-poultry-raw": {saturation: 170, foodcategory: "Protein"},
+				"expandedfoods:agedmeat-redmeat-raw": {saturation: 235, foodcategory: "Protein"},
+				"expandedfoods:agedmeat-bushmeat-raw": {saturation: 100, foodcategory: "Protein"},
 				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 			},
 		},
@@ -27,12 +34,88 @@
 				"expandedfoods:meatnugget-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-poultry.json",
 				"expandedfoods:meatnugget-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-redmeat.json",
 				"expandedfoods:meatnugget-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-bushmeat.json",
+				"expandedfoods:meatnugget-poultry-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-poultry.json",
+				"expandedfoods:meatnugget-redmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-bushmeat.json",
+				"expandedfoods:agedmeat-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-poultry.json",
+				"expandedfoods:agedmeat-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-redmeat.json",
+				"expandedfoods:agedmeat-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-ball-bushmeat.json",
 			},
 			"*-cooked": {
 				"expandedfoods:meatnugget-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
 				"expandedfoods:meatnugget-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
 				"expandedfoods:meatnugget-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:meatnugget-poultry-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:meatnugget-redmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:agedmeat-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:agedmeat-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:agedmeat-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
 			},
+			"*-partbaked": {
+				"expandedfoods:meatnugget-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:meatnugget-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:meatnugget-poultry-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:meatnugget-redmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:agedmeat-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:agedmeat-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:agedmeat-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+			},
+			"*-charred": {
+				"expandedfoods:meatnugget-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:meatnugget-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:meatnugget-poultry-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:meatnugget-redmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:meatnugget-bushmeat-cured": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+				"expandedfoods:agedmeat-poultry-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-poultry.json",
+				"expandedfoods:agedmeat-redmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-redmeat.json",
+				"expandedfoods:agedmeat-bushmeat-raw": "expandedfoods:shapes/item/food/pemmican/pemmican-plain-bushmeat.json",
+			},
+		},
+		bakingPropertiesByType: {
+			"*-raw": {
+				temp: 110,
+				levelFrom: 0.0,
+				levelTo: 0.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:pemmican-partbaked",
+			},
+			"*-partbaked": {
+				temp: 110,
+				levelFrom: 0.5,
+				levelTo: 1.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:pemmican-cooked",
+				initialCode: "expandedfoods:pemmican-raw"
+			},
+			"*-cooked": {
+				temp: 110,
+				levelFrom: 1.0,
+				levelTo: 1.5,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				resultCode: "expandedfoods:pemmican-charred",
+				initialCode: "expandedfoods:pemmican-partbaked"
+			},
+			"*-charred": {
+				temp: 110,
+				levelFrom: 1.5,
+				levelTo: 2.0,
+				startScaleY: 1.0,
+				endScaleY: 1.0,
+				initialCode: "expandedfoods:pemmican-cooked"
+			},
+		},
+		satMultByType: {
+			"*-raw": 0.7,
+			"*-partbaked": 0.9,
+			"*-cooked": 1,
+			"*-charred": 0.8
 		},
 	},
   	texturesByType: {
@@ -41,19 +124,33 @@
 			bushmeat: { base: "item/food/pemmican/pemmican-ball-bushmeat"},
 			poultry: { base: "item/food/pemmican/pemmican-ball-poultry"},
 		},
+		"*-partbaked": {
+			redmeat: { base: "item/food/pemmican/pemmican-partbaked-redmeat"},
+			bushmeat: { base: "item/food/pemmican/pemmican-partbaked-bushmeat"},
+			poultry: { base: "item/food/pemmican/pemmican-partbaked-poultry"},
+		},
 		"*-cooked": {
 			redmeat: { base: "item/food/pemmican/pemmican-plain-redmeat"},
 			bushmeat: { base: "item/food/pemmican/pemmican-plain-bushmeat"},
 			poultry: { base: "item/food/pemmican/pemmican-plain-poultry"},
 		},
+		"*-charred": {
+			redmeat: { base: "item/food/pemmican/pemmican-charred-redmeat"},
+			bushmeat: { base: "item/food/pemmican/pemmican-charred-bushmeat"},
+			poultry: { base: "item/food/pemmican/pemmican-charred-poultry"},
+		},
   	},
 	shapeByType:{
 		"*-raw": { base: "item/food/pemmican/pemmican-ball-poultry"},
+		"*-partbaked": { base: "item/food/pemmican/pemmican-plain-poultry"},
 		"*-cooked": { base: "item/food/pemmican/pemmican-plain-poultry"},
+		"*-charred": { base: "item/food/pemmican/pemmican-plain-poultry"},
 	},
 	nutritionPropsByType: {
 		"*-raw": { saturation: 0, foodcategory: "Protein" },
+		"*-partbaked": { saturation: 90, foodcategory: "Protein" },
 		"*-cooked": { saturation: 100, foodcategory: "Protein" },
+		"*-charred": { saturation: 80, foodcategory: "Protein" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	materialDensity: 200,
@@ -67,17 +164,42 @@
 			meltingDuration: 20,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "expandedfoods:pemmican-cooked" },
+			smeltedStack: { type: "item", code: "expandedfoods:pemmican-charred" },
+			requiresContainer: false
+		},
+		"*-partbaked": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "expandedfoods:pemmican-charred" },
+			requiresContainer: false
+		},
+		"*-cooked": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "expandedfoods:pemmican-charred" },
 			requiresContainer: false
 		},
 	},
-	transitionableProps: [{
+	transitionablePropsByType: {
+		"*-charred": [{
+			type: "Perish",
+			freshHours: { avg: 6320 },
+			transitionHours: { avg: 224 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*": [{
 			type: "Perish",
 			freshHours: { avg: 3160 },
 			transitionHours: { avg: 112 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
+	},
 	guiTransform: {
 		translation: { x: 3, y: 0, z: 0 },
 		rotation: { x: -28, y: 203, z: 180 },

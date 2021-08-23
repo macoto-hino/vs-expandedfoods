@@ -6,7 +6,7 @@
 		nutritionPropsWhenInMeal: { satiety: 120, health: 2, foodcategory: "Protein" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 16,
 			texture: { base: "game:item/liquid/fishsauce" },
 			allowSpill: true,
 			whenSpilled: { 

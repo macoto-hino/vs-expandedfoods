@@ -1,18 +1,21 @@
 [
   {
     "op": "add",
-    "path": "/combustiblePropsByType",
+    "path": "/variantgroups/1/states/1",
+    "value": "boiled",
+    "file": "itemtypes/food/egg.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inPiePropertiesByType",
     "value": {
-      "egg-chicken-raw": {
-        "meltingPoint": 150,
-        "meltingDuration": 20,
-        "smeltedRatio": 1,
-        "smeltingType": "cook",
-        "smeltedStack": {
-          "type": "item",
-          "code": "egg-chicken-boiled"
-        },
-        "requiresContainer": false
+      "*-raw": {
+        "texture": "game:block/food/pie/fill-egg",
+        "partType": "Filling"
+      },
+      "*-cured": {
+        "texture": "game:block/food/pie/fill-egg",
+        "partType": "Filling"
       }
     },
     "file": "itemtypes/food/egg.json"

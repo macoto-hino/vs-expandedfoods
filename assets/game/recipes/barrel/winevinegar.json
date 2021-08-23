@@ -43,6 +43,14 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
+    { type: "item", code: "expandedfoods:fruitwineportion-pineapple", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
     { type: "item", code: "expandedfoods:fruitwineportion-mix", quantity: 1 },
   ],
   output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
@@ -91,6 +99,14 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-pineapple", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
     { type: "item", code: "expandedfoods:strongwineportion-mix", quantity: 1 },
   ],
   output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
@@ -132,6 +148,14 @@
   sealHours: 336,
   ingredients: [
     { type: "item", code: "expandedfoods:potentwineportion-whitecurrant", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-pineapple", quantity: 1 },
   ],
   output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
  },

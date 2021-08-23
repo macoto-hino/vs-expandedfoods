@@ -1,7 +1,7 @@
  {
 	ingredientPattern: "B",
 	ingredients: {
-		"B": { type: "item", code: "game:bread-*", name: "type", allowedVariants: ["flax", "rice", "rye", "spelt"]  }
+		"B": { type: "item", code: "game:bread-*", name: "type", allowedVariants: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]  }
 	},
 	name: "breadcrumbs",
 	width: 1,
