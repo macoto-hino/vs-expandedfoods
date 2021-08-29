@@ -35,13 +35,13 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\jakec\AppData\Roaming\Vintagestory\Lib\0Harmony.dll</HintPath>
+      <HintPath>$(AppData)\Vintagestory\Lib\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="cairo-sharp">
-      <HintPath>C:\Users\jakec\AppData\Roaming\Vintagestory\Lib\cairo-sharp.dll</HintPath>
+      <HintPath>$(AppData)\Vintagestory\Lib\cairo-sharp.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>C:\Users\jakec\AppData\Roaming\Vintagestory\Lib\protobuf-net.dll</HintPath>
+      <HintPath>$(AppData)\Vintagestory\Lib\protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
