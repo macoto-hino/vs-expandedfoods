@@ -10,6 +10,8 @@
 	entityClass: "Saucepan",
 	attributesByType: {
 		"*": {
+			canSeal: true,
+			lidPerishRate: 0.5,
 			maxTemperature: 900,
 			storageType: 1,
 			maxContainerSlotStackSize: 50,
