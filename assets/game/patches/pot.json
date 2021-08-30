@@ -1347,4 +1347,21 @@
     },
     "file": "blocktypes/clay/pot.json"
   },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/egg-chicken-pickled",
+    "value": [
+      "egg",
+      "pickledegg"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pickledegg",
+    "value": {
+      "base": "block/food/meal/pickledegg"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
 ]

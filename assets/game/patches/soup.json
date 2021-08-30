@@ -1136,6 +1136,16 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "egg-chicken-pickled",
+      "shapeElement": "bowl/meat/*"
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/5",
     "value": {
       "code": "breadcrumbs-extra",

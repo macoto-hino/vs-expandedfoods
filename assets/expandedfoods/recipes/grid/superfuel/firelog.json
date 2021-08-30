@@ -1,0 +1,284 @@
+[
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "game:woodbucket"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "game:woodbucket"
+    },		
+  },
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "game:woodbucket"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ }, 
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "game:woodbucket"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "game:woodbucket"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:lard" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+
+
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "expandedfoods:bottle-*-burned"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "expandedfoods:bottle-*-burned"
+    },		
+  },
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "expandedfoods:bottle-*-burned"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ }, 
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "expandedfoods:bottle-*-burned"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ },
+ {
+	enabled: "false",
+  "ingredientPattern": "ASG",
+  "ingredients": {
+    "A": {
+      "type": "item", 
+	  "code": "game:firewood", "quantity": 8
+    },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass", "quantity": 4
+    },
+	"G": { 
+      type: "block", 
+      code: "expandedfoods:bottle-*-burned"
+    },			
+  },	
+   attributes: {
+      liquidContainerProps: {
+      requiresContent: { type: "item", code: "expandedfoods:lard" },
+      requiresQuantity: 1
+		}
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
+ }
+]

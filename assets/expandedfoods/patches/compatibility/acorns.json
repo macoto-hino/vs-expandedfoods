@@ -7,7 +7,7 @@
     dependsOn: [{ "modid": "acorns" }]
  },
  {
-    "file": "expandedfoods:itemtypes/food/acorns/acornhardtack.json",
+    "file": "expandedfoods:itemtypes/food/acorns/mixing/acornhardtack.json",
     op: "replace", 
     path: "/enabled", 
     value: "true",
@@ -66,6 +66,13 @@
     "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
     op: "replace", 
     path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/grid/acorns/acornpastaprep.json",
+    op: "replace", 
+    path: "/5/enabled", 
     value: "true",
     dependsOn: [{ "modid": "acorns" }]
  },
@@ -1095,6 +1102,83 @@
     "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
     op: "replace", 
     path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/8/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/9/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/10/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/11/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/12/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornhardtack.json",
+    op: "replace", 
+    path: "/13/enabled", 
     value: "true",
     dependsOn: [{ "modid": "acorns" }]
  },

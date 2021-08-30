@@ -3,7 +3,7 @@
 	class: "BlockSaucepan",
 	behaviorsByType: {
 		"*": [
-			{name: "UnstableFalling"},
+			{name: "UnstableFalling"}, 
 			{name: "RightClickPickup"}
 		],
 	},
@@ -13,13 +13,13 @@
 			canSeal: true,
 			lidPerishRate: 0.5,
 			maxTemperature: 900,
+			maxFillLevel: 13,
 			storageType: 1,
 			maxContainerSlotStackSize: 50,
 			cookingContainerSlots: 4,
 			liquidcontainer: true,
 			capacityLitres: 50,
 			canhold: ["water-*"],
-			maxFillLevel: 13,
 			simmerRecipes: [
 				{
 					Ingredients: [
@@ -603,7 +603,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["copper", "tinbronze", "blackbronze", "iron", "castiron", "steel", "meteoriciron"]}
+		{ code: "type", states: ["copper", "tinbronze", "blackbronze", "iron", "steel", "meteoriciron"]},
 	],
 	creativeinventory: { general: ["*"], decorative: ["*"] },
 	shape: { base: "block/cauldron/empty" },
@@ -615,20 +615,26 @@
 	},
 	blockmaterial: "Metal",
 	texturesbyType: {
-		"*-castiron": {
-		 	metal: {base: "block/cauldron/castiron" }
+		"*-iron": {
+		 	metal: { base: "block/cauldron/castiron" },
+			metaldark: { base: "block/cauldron/castiron", overlays: [ "block/cauldron/metaloverlay"] },
+			metalgradient: { base: "block/cauldron/castiron", overlays: [ "block/cauldron/metaloverlaygradient"] },
 		 },
 		"*-meteoriciron": {
-		 	metal: {base: "block/cauldron/meteoriciron" }
+		 	metal: { base: "block/cauldron/meteoriciron" },
+			metaldark: { base: "block/cauldron/meteoriciron", overlays: [ "block/cauldron/metaloverlay"] },
+			metalgradient: { base: "block/cauldron/meteoriciron", overlays: [ "block/cauldron/metaloverlaygradient"] },
 		 },
 		"*": {
-		 	metal: {base: "game:block/metal/plate/{type}" }
+		 	metal: { base: "game:block/metal/plate/{type}" },
+			metaldark: { base: "game:block/metal/plate/{type}", overlays: [ "block/cauldron/metaloverlay"] },
+			metalgradient: { base: "game:block/metal/plate/{type}", overlays: [ "block/cauldron/metaloverlaygradient"] },
 		 },
 	},
 	replaceable: 500,
 	resistance: 1.5,
 	liquidSelectable: 1,
-	lightAbsorption: 0,
+	lightAbsorption: 1,
 	sounds: {
 		"place": "game:block/metaldoor-place",
 		"hit": "game:block/metaldoor-place",
@@ -637,21 +643,17 @@
 	},
 	collisionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.9375, z2: 1 },
 	selectionbox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.9375, z2: 1 },
-	materialDensity: 400,
+	materialDensity: 7870,
 	tpHandTransform: {
 		translation: { x: -0.86, y: -0.73, z: -1.14 },
 		rotation: { x: 0, y: 0, z: 0 },
 		scale: 0.55
-	},
-	guiTransform: {
-		origin: { x: 0.5, y: 0.3, z: 0.5 },
-		scale: 1.75
 	},
 	fpHandTransform: {
 		scale: 1.5
 	},
 	groundTransform: {
 		origin: { x: 0.5, y: 0, z: 0.5 },
-		scale: 2
+		scale: 5
 	}
 }
