@@ -16,6 +16,8 @@
 	entityClassByType: {"*-burned": "Saucepan"},
 	attributesByType: {
 		"saucepan-burned": {
+			canSeal: true,
+			lidPerishRate: 0.5,
 			storageType: 1,
 			maxContainerSlotStackSize: 4,
 			cookingContainerSlots: 4,

@@ -16,6 +16,7 @@ namespace ExpandedFoods
 
         static SimmerRecipe[] simmerRecipes;
 
+        public bool isSealed;
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
@@ -31,6 +32,42 @@ namespace ExpandedFoods
                     }
                 }
             }
+        }
+
+        public override WorldInteraction[] GetPlacedBlockInteractionHelp(IWorldAccessor world, BlockSelection selection, IPlayer forPlayer)
+        {
+            List<ItemStack> liquidContainerStacks = new List<ItemStack>();
+
+            foreach (CollectibleObject obj in api.World.Collectibles)
+            {
+                if ((obj is BlockBowl && obj.LastCodePart() != "raw") || obj is ILiquidSource || obj is ILiquidSink || obj is BlockWateringCan)
+                {
+                    List<ItemStack> stacks = obj.GetHandBookStacks((ICoreClientAPI)api);
+                    if (stacks != null) liquidContainerStacks.AddRange(stacks);
+                }
+            }
+
+            return new WorldInteraction[]
+            {
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "game:blockhelp-behavior-rightclickpickup",
+                        MouseButton = EnumMouseButton.Right,
+                        RequireFreeHand = true
+                    },
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "expandedfoods:blockhelp-lid", // json lang file. 
+                        HotKeyCodes = new string[] { "sneak", "sprint" },
+                        MouseButton = EnumMouseButton.Right
+                    },
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "blockhelp-bucket-rightclick",
+                        MouseButton = EnumMouseButton.Right,
+                        Itemstacks = liquidContainerStacks.ToArray()
+                    }
+            };
         }
 
         public override bool CanSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemStack inputStack, ItemStack outputStack)
@@ -212,6 +249,7 @@ namespace ExpandedFoods
 
         public override int TryPutContent(IWorldAccessor world, ItemStack containerStack, ItemStack contentStack, int desiredItems)
         {
+        
             if (contentStack == null) return 0;
 
             ItemStack stack = GetContent(world, containerStack);
@@ -282,6 +320,16 @@ namespace ExpandedFoods
 
             bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
             bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
+
+            if (obj is BlockBarrel && !singleTake)
+            {
+                return true;
+            }
+
+            if (obj is BlockBarrel && !singlePut)
+            {
+                return true;
+            }
 
             if (obj is ILiquidSource && !singleTake)
             {
@@ -482,6 +530,9 @@ namespace ExpandedFoods
             if (isSealed) s += "sealed";
             return s.GetHashCode();
         }
+
+        // Added new displayable text to help players understand how to place/remove lid
+
 
         public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
         {
