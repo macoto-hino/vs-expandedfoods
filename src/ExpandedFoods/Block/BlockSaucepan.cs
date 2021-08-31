@@ -250,6 +250,22 @@ namespace ExpandedFoods
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
+            BlockEntitySaucepan sp = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BlockEntitySaucepan;
+
+            if (byPlayer.WorldData.EntityControls.Sneak && byPlayer.WorldData.EntityControls.Sprint)
+            {
+                if (sp != null && Attributes.IsTrue("canSeal"))
+                {
+                    sp.isSealed = !sp.isSealed;
+                    sp.RedoMesh();
+                    sp.MarkDirty(true);
+                }
+
+                return true;
+            }
+
+            if (sp?.isSealed == true) return false;
+
             ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
             if (!hotbarSlot.Empty && hotbarSlot.Itemstack.Collectible.Attributes?.IsTrue("handleLiquidContainerInteract") == true)
@@ -316,10 +332,17 @@ namespace ExpandedFoods
             return true;
         }
 
+        public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
+        {
+            if (itemslot.Itemstack?.Attributes.GetBool("isSealed") == true) return;
+
+            base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);
+        }
 
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {
             Dictionary<int, MeshRef> meshrefs = null;
+            bool isSealed = itemstack.Attributes.GetBool("isSealed");
 
             object obj;
             if (capi.ObjectCache.TryGetValue(FirstCodePart() + "MeshRefs", out obj))
@@ -334,13 +357,13 @@ namespace ExpandedFoods
             ItemStack contentStack = GetContent(capi.World, itemstack);
             if (contentStack == null) return;
 
-            int hashcode = GetBucketHashCode(capi.World, contentStack);
+            int hashcode = GetSaucepanHashCode(capi.World, contentStack, isSealed);
 
             MeshRef meshRef = null;
 
             if (!meshrefs.TryGetValue(hashcode, out meshRef))
             {
-                MeshData meshdata = GenRightMesh(capi, contentStack);
+                MeshData meshdata = GenRightMesh(capi, contentStack, null, isSealed);
                 //meshdata.Rgba2 = null;
 
 
@@ -395,9 +418,9 @@ namespace ExpandedFoods
             return null;
         }
 
-        public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
+        public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null, bool isSealed = false)
         {
-            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/"+ FirstCodePart() + "/empty.json").ToObject<Shape>();
+            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/"+ FirstCodePart() + "/" + (isSealed && Attributes.IsTrue("canSeal") ? "lid" : "empty") + ".json").ToObject<Shape>();
             MeshData bucketmesh;
             capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
 
@@ -451,6 +474,27 @@ namespace ExpandedFoods
 
 
             return bucketmesh;
+        }
+
+        public int GetSaucepanHashCode(IClientWorldAccessor world, ItemStack contentStack, bool isSealed)
+        {
+            string s = contentStack.StackSize + "x" + contentStack.Collectible.Code.ToShortString();
+            if (isSealed) s += "sealed";
+            return s.GetHashCode();
+        }
+
+        public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
+        {
+            ItemStack drop =  base.OnPickBlock(world, pos);
+
+            BlockEntitySaucepan sp = world.BlockAccessor.GetBlockEntity(pos) as BlockEntitySaucepan;
+
+            if (sp != null)
+            {
+                drop.Attributes.SetBool("isSealed", sp.isSealed);
+            }
+
+            return drop;
         }
     }
 

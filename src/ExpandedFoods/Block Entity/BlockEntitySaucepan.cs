@@ -10,6 +10,7 @@ namespace ExpandedFoods
     {
         MeshData currentRightMesh;
         BlockSaucepan ownBlock;
+        public bool isSealed;
 
         public override void Initialize(ICoreAPI api)
         {
@@ -28,6 +29,8 @@ namespace ExpandedFoods
         {
             base.OnBlockPlaced(byItemStack);
 
+            if (byItemStack != null) isSealed = byItemStack.Attributes.GetBool("isSealed");
+
             if (Api.Side == EnumAppSide.Client)
             {
                 currentRightMesh = GenRightMesh();
@@ -40,6 +43,7 @@ namespace ExpandedFoods
             base.FromTreeAttributes(tree, worldForResolving);
 
             MeshAngle = tree.GetFloat("meshAngle", MeshAngle);
+            isSealed = tree.GetBool("isSealed");
 
             if (Api?.Side == EnumAppSide.Client)
             {
@@ -48,11 +52,18 @@ namespace ExpandedFoods
             }
         }
 
+        public override void ToTreeAttributes(ITreeAttribute tree)
+        {
+            base.ToTreeAttributes(tree);
+
+            tree.SetBool("isSealed", isSealed);
+        }
+
         internal MeshData GenRightMesh()
         {
             if (ownBlock == null || ownBlock.Code.Path.Contains("clay")) return null;
 
-            MeshData mesh = ownBlock.GenRightMesh(Api as ICoreClientAPI, GetContent(), Pos);
+            MeshData mesh = ownBlock.GenRightMesh(Api as ICoreClientAPI, GetContent(), Pos, isSealed);
 
             if (mesh.CustomInts != null)
             {
@@ -72,5 +83,17 @@ namespace ExpandedFoods
             return true;
         }
 
+        public void RedoMesh()
+        {
+            if (Api.Side == EnumAppSide.Client)
+            {
+                currentRightMesh = GenRightMesh();
+            }
+        }
+
+        public override float GetPerishRate()
+        {
+            return base.GetPerishRate() * (isSealed ? Block.Attributes["lidPerishRate"].AsFloat(0.5f) : 1f);
+        }
     }
 }
