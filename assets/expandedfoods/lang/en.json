@@ -857,6 +857,9 @@
     "block-saucepan-raw" : "Unfired Saucepan",
     "block-saucepan-burned" : "Saucepan",
 
+    "blockhelp-lid" : "Open/Close Lid", 
+
+
     "block-bottle-*-raw" : "Unfired Bottle",
     "block-bottle-*-burned" : "Bottle",
 
