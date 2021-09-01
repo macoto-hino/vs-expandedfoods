@@ -15,9 +15,11 @@ namespace ExpandedFoods
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
-            
+
 
             ownBlock = Block as BlockSaucepan;
+     
+
             if (Api.Side == EnumAppSide.Client)
             {
                 currentRightMesh = GenRightMesh();
@@ -84,11 +86,16 @@ namespace ExpandedFoods
         }
 
         public void RedoMesh()
-        {
+        { 
             if (Api.Side == EnumAppSide.Client)
             {
                 currentRightMesh = GenRightMesh();
             }
+
+            //if (currentRightMesh == null && isSealed == true)
+            //{
+            //    Api.World.PlaySoundAt(new AssetLocation("game:sounds/block/metaldoor-place.ogg"), Pos.X, Pos.Y, Pos.Z);
+            //}
         }
 
         public override float GetPerishRate()
