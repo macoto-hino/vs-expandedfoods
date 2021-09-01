@@ -12,7 +12,7 @@
 		"*": {
 			"lidSound": "game:sounds/block/metaldoor-place",
 			"canSeal": true,
-			"lidPerishRate": 0.5,
+			"lidPerishRate": 0.75,
 			"maxTemperature": 900,
 			"maxFillLevel": 13,
 			"storageType": 1,
