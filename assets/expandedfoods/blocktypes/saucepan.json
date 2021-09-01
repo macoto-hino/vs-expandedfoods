@@ -18,7 +18,7 @@
 		"saucepan-burned": {
 			"lidSound": "game:sounds/block/planks",
 			canSeal: true,
-			lidPerishRate: 0.5,
+			lidPerishRate: 0.9,
 			storageType: 1,
 			maxContainerSlotStackSize: 4,
 			cookingContainerSlots: 4,
