@@ -1347,6 +1347,15 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:foodoilportion-soy",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "foodoil"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
