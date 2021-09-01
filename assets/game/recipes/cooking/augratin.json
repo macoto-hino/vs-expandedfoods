@@ -23,6 +23,7 @@
 			validStacks: [ 
 				{ type: "item", code: "milkportion",  shapeElement: "bowl/cheese2" },
 				{ type: "item", code: "expandedfoods:pasteurizedmilkportion",  shapeElement: "bowl/cheese2" },
+				{ type: "item", code: "expandedfoods:soymilk-edible",  shapeElement: "bowl/cheese2" },
 			],
 			minQuantity: 1,
 			maxQuantity: 1,

@@ -1,0 +1,89 @@
+{
+	code: "soymilk",
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	attributes: {
+		nutritionPropsWhenInMealByType: {
+			"*-edible": { satiety: 30, health: 0.3, foodcategory: "Dairy" },
+		},
+		waterTightContainerPropsByType: {
+			"*-edible": {
+				containable: true,
+				itemsPerLitre: 1,
+				isopaque: true,
+				texture: { base: "game:block/liquid/slakedlime" },
+				allowSpill: true,
+				whenSpilled: { 
+					action: "DropContents",
+					stack: { type: "item", code: "expandedfoods:soymilk-edible" } 
+				}
+			},			
+			"*-raw": {
+				containable: true,
+				itemsPerLitre: 1,
+				isopaque: true,
+				texture: { base: "game:block/liquid/milkportion" },
+				allowSpill: true,
+				whenSpilled: { 
+					action: "DropContents",
+					stack: { type: "item", code: "expandedfoods:soymilk-raw" } 
+				}
+			},
+		}
+	},
+	variantgroups: [
+		{ code: "state", states: [ "raw", "edible"] }
+	],
+	shape: { base: "game:item/liquid" },
+	texturesByType: {
+		"*-edible": { all: { base: "game:block/liquid/slakedlime" } },
+		"*-raw": { all: { base: "game:block/liquid/milkportion" } },
+	},
+  	combustiblePropsByType: {
+		"*-raw": {
+      			"meltingPoint": 100,
+      			"meltingDuration": 30,
+      			"smeltedRatio": 1,
+      			"smeltingType": "cook",
+      			"smeltedStack": {
+        			"type": "item",
+        			"code": "expandedfoods:soymilk-edible"
+      				},
+      			"requiresContainer": true
+    			},
+  	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	transitionablePropsByType: {
+		"*-edible": [{
+    			type: "Perish",
+    			freshHours: { avg: 768 },
+    			transitionHours: { avg: 192 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.1
+  		}],
+		"*-raw": [{
+    			type: "Perish",
+    			freshHours: { avg: 96 },
+    			transitionHours: { avg: 96 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.1
+  		}],
+	},
+	nutritionPropsByType: {
+		"*-edible": { saturation: 20, health: 0.2, foodcategory: "Dairy" },
+	},
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

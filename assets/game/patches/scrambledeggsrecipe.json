@@ -17,6 +17,10 @@
         {
           "type": "item",
           "code": "expandedfoods:pasteurizedmilkportion"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:soymilk-edible"
         }
       ],
       "minQuantity": 0,

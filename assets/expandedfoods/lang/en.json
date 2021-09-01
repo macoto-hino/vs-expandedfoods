@@ -4981,4 +4981,12 @@
   "itemdesc-herbalacornhardtack-*-bake2": "Twice-baked herbal crackers that are completely flavorless.",
   "itemdesc-herbalacornhardtack-*-bake3": "Thrice-baked crackers. A sharp herbal hazard to yourself and others.",
   "itemdesc-herbalacornhardtack-*-bake4": "It's like eating burnt oak bark...",
+
+  "item-soyprep-shelled": "Shelled Soybeans",
+  "item-soyprep-wetshell": "Wet Shelled Soybeans",
+  "item-soyprep-blended": "Blended Soybean Mixture",
+  "item-soymilk-raw": "Raw Soy Milk (1 L)",
+  "item-soymilk-edible": "Soy Milk (1 L)",
+  "game:incontainer-item-soymilk-edible" : "soy milk",
+  "game:recipeingredient-item-soymilk-edible" : "soy milk",
 }
