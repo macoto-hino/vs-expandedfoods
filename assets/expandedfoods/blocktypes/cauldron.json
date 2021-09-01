@@ -1197,7 +1197,7 @@
 	},
 	"variantgroups": [
 		{
-			"code": "type",
+			"code": "metal",
 			"states": [ "copper", "tinbronze", "blackbronze", "iron", "steel", "meteoriciron" ]
 		}
 	],
@@ -1238,13 +1238,13 @@
 			}
 		},
 		"*": {
-			"metal": { "base": "game:block/metal/plate/{type}" },
+			"metal": { "base": "game:block/metal/plate/{metal}" },
 			"metaldark": {
-				"base": "game:block/metal/plate/{type}",
+				"base": "game:block/metal/plate/{metal}",
 				"overlays": [ "block/cauldron/metaloverlay" ]
 			},
 			"metalgradient": {
-				"base": "game:block/metal/plate/{type}",
+				"base": "game:block/metal/plate/{metal}",
 				"overlays": [ "block/cauldron/metaloverlaygradient" ]
 			}
 		}
@@ -1253,9 +1253,6 @@
 	"resistance": 1.5,
 	"liquidSelectable": 1,
 	"lightAbsorption": 1,
-	"vertexFlags": {
-		"reflective": true
-	},
 	"sounds": {
 		"place": "game:block/metaldoor-place",
 		"hit": "game:block/metaldoor-place",
