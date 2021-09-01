@@ -1,11 +1,12 @@
 {
-  "type": "code",
-  "modid": "exper",
-  "name": "exper",
-  "author": "Unknown",
-  "description": "To be added",
-  "version": "1.0.0",
-  "dependency": {
-    "game": ""
-  }
+  "Type": "code",
+  "Name": "Expanded Foods",
+  "Version": "1.4.2",
+  "NetworkVersion": null,
+  "Description": "New recipes for existing food types.",
+  "ModID": "expandedfoods",
+  "authors": ["l33tmaan, jakecool19, Mister_Andy_Dandy"],
+
+  "Contributors": ["Korhaka, Ledyanaya Sonya, DoctorVanGogh, Jobediah Timberman"],
+  "Dependencies": {}
 }
