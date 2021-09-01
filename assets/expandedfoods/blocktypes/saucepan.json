@@ -16,6 +16,7 @@
 	entityClassByType: {"*-burned": "Saucepan"},
 	attributesByType: {
 		"saucepan-burned": {
+			"lidSound": "game:sounds/block/planks",
 			canSeal: true,
 			lidPerishRate: 0.5,
 			storageType: 1,
