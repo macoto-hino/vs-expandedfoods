@@ -14,6 +14,7 @@ namespace ExpandedFoods
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(5f) ?? 5f;
 
+
         static SimmerRecipe[] simmerRecipes;
 
         public bool isSealed;
@@ -397,7 +398,15 @@ namespace ExpandedFoods
             Dictionary<int, MeshRef> meshrefs = null;
             bool isSealed = itemstack.Attributes.GetBool("isSealed");
 
-            capi.ObjectCache[FirstCodePart() + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
+            object obj;
+            if (capi.ObjectCache.TryGetValue((Variant["metal"]) + "MeshRefs", out obj))
+            {
+                meshrefs = obj as Dictionary<int, MeshRef>;
+            }
+            else
+            {
+                capi.ObjectCache[(Variant["metal"]) + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
+            }
 
             ItemStack contentStack = GetContent(capi.World, itemstack);
             if (contentStack == null) return;
@@ -466,7 +475,9 @@ namespace ExpandedFoods
         public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null, bool isSealed = false)
         {
 
-            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/"+ FirstCodePart() + "/" + (isSealed && Attributes.IsTrue("canSeal") ? "lid" : "empty") + ".json").ToObject<Shape>();
+          
+
+            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/" + (isSealed && Attributes.IsTrue("canSeal") ? "lid" : "empty") + ".json").ToObject<Shape>();
             ITesselatorAPI mesher = ((ICoreClientAPI)api).Tesselator;
             MeshData bucketmesh;
             capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
