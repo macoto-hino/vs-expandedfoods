@@ -76,7 +76,7 @@
 	height: 2,
 	output: { type: "item", code: "acornpasta-flat"  }
   },
-{
+  {
 	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
@@ -95,5 +95,24 @@
 	height: 2,
 	name: "bushmeatsmash",
 	output: { type: "item", code: "acornpasta-flat"  }
-}
+  },
+  {
+	enabled: "false",
+	ingredientPattern: "H,M",
+	ingredients: {
+		"H": { 
+			type: "item", 
+			code: "rollingpin-*",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "acornpasta-dough", 
+			name: "pasta",
+		},
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "acornpasta-flat"  }
+  },
 ]

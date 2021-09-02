@@ -281,6 +281,16 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "egg-chicken-pickled",
+      "shapeElement": "bowl/egg/*"
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/6",
     "value": {
       "type": "item",
@@ -960,6 +970,16 @@
         "grubs",
         "grubs"
       ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "egg-chicken-pickled",
+      "shapeElement": "bowl/egg2/*"
     },
     "file": "recipes/cooking/meatystew.json"
   },

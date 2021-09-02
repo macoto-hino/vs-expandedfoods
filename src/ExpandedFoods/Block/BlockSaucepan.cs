@@ -14,8 +14,10 @@ namespace ExpandedFoods
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(5f) ?? 5f;
 
+
         static SimmerRecipe[] simmerRecipes;
 
+        public bool isSealed;
         public override void OnLoaded(ICoreAPI api)
         {
             base.OnLoaded(api);
@@ -31,6 +33,42 @@ namespace ExpandedFoods
                     }
                 }
             }
+        }
+
+        public override WorldInteraction[] GetPlacedBlockInteractionHelp(IWorldAccessor world, BlockSelection selection, IPlayer forPlayer)
+        {
+            List<ItemStack> liquidContainerStacks = new List<ItemStack>();
+
+            foreach (CollectibleObject obj in api.World.Collectibles)
+            {
+                if ((obj is BlockBowl && obj.LastCodePart() != "raw") || obj is ILiquidSource || obj is ILiquidSink || obj is BlockWateringCan)
+                {
+                    List<ItemStack> stacks = obj.GetHandBookStacks((ICoreClientAPI)api);
+                    if (stacks != null) liquidContainerStacks.AddRange(stacks);
+                }
+            }
+
+            return new WorldInteraction[]
+                    {
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "game:blockhelp-behavior-rightclickpickup",
+                        MouseButton = EnumMouseButton.Right,
+                        RequireFreeHand = true
+                    },
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "blockhelp-bucket-rightclick",
+                        MouseButton = EnumMouseButton.Right,
+                        Itemstacks = liquidContainerStacks.ToArray()
+                    },
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "expandedfoods:blockhelp-lid", // json lang file. 
+                        HotKeyCodes = new string[] { "sneak", "sprint" },
+                        MouseButton = EnumMouseButton.Right
+                    }
+            };
         }
 
         public override bool CanSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemStack inputStack, ItemStack outputStack)
@@ -212,6 +250,7 @@ namespace ExpandedFoods
 
         public override int TryPutContent(IWorldAccessor world, ItemStack containerStack, ItemStack contentStack, int desiredItems)
         {
+        
             if (contentStack == null) return 0;
 
             ItemStack stack = GetContent(world, containerStack);
@@ -248,8 +287,29 @@ namespace ExpandedFoods
             }
         }
 
+
+
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
+
+            BlockEntitySaucepan sp = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BlockEntitySaucepan;
+            BlockPos pos = blockSel.Position;
+
+            if (byPlayer.WorldData.EntityControls.Sneak && byPlayer.WorldData.EntityControls.Sprint)
+            {
+                if (sp != null && Attributes.IsTrue("canSeal"))
+                {
+                    world.PlaySoundAt(AssetLocation.Create(Attributes["lidSound"].AsString("sounds/block"), Code.Domain), pos.X + 0.5f, pos.Y + 0.5f, pos.Z + 0.5f, byPlayer);
+                    sp.isSealed = !sp.isSealed;
+                    sp.RedoMesh();
+                    sp.MarkDirty(true);
+                }
+
+                return true;
+            }
+
+            if (sp?.isSealed == true) return false;
+
             ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
             if (!hotbarSlot.Empty && hotbarSlot.Itemstack.Collectible.Attributes?.IsTrue("handleLiquidContainerInteract") == true)
@@ -266,6 +326,16 @@ namespace ExpandedFoods
 
             bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
             bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
+
+            if (obj is BlockBarrel && !singleTake)
+            {
+                return true;
+            }
+
+            if (obj is BlockBarrel && !singlePut)
+            {
+                return true;
+            }
 
             if (obj is ILiquidSource && !singleTake)
             {
@@ -316,31 +386,38 @@ namespace ExpandedFoods
             return true;
         }
 
+        public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
+        {
+            if (itemslot.Itemstack?.Attributes.GetBool("isSealed") == true) return;
+
+            base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);
+        }
 
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {
             Dictionary<int, MeshRef> meshrefs = null;
+            bool isSealed = itemstack.Attributes.GetBool("isSealed");
 
             object obj;
-            if (capi.ObjectCache.TryGetValue(FirstCodePart() + "MeshRefs", out obj))
+            if (capi.ObjectCache.TryGetValue((Variant["metal"]) + "MeshRefs", out obj))
             {
                 meshrefs = obj as Dictionary<int, MeshRef>;
             }
             else
             {
-                capi.ObjectCache[FirstCodePart() + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
+                capi.ObjectCache[(Variant["metal"]) + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
             }
 
             ItemStack contentStack = GetContent(capi.World, itemstack);
             if (contentStack == null) return;
 
-            int hashcode = GetBucketHashCode(capi.World, contentStack);
+            int hashcode = GetSaucepanHashCode(capi.World, contentStack, isSealed);
 
             MeshRef meshRef = null;
 
             if (!meshrefs.TryGetValue(hashcode, out meshRef))
             {
-                MeshData meshdata = GenRightMesh(capi, contentStack);
+                MeshData meshdata = GenRightMesh(capi, contentStack, null, isSealed);
                 //meshdata.Rgba2 = null;
 
 
@@ -395,9 +472,13 @@ namespace ExpandedFoods
             return null;
         }
 
-        public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
+        public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null, bool isSealed = false)
         {
-            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/"+ FirstCodePart() + "/empty.json").ToObject<Shape>();
+
+          
+
+            Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/" + (isSealed && Attributes.IsTrue("canSeal") ? "lid" : "empty") + ".json").ToObject<Shape>();
+            ITesselatorAPI mesher = ((ICoreClientAPI)api).Tesselator;
             MeshData bucketmesh;
             capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
 
@@ -451,6 +532,28 @@ namespace ExpandedFoods
 
 
             return bucketmesh;
+        }
+
+        public int GetSaucepanHashCode(IClientWorldAccessor world, ItemStack contentStack, bool isSealed)
+        {
+            string s = contentStack.StackSize + "x" + contentStack.Collectible.Code.ToShortString();
+            if (isSealed) s += "sealed";
+            return s.GetHashCode();
+        }
+
+
+        public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
+        {
+            ItemStack drop =  base.OnPickBlock(world, pos);
+
+            BlockEntitySaucepan sp = world.BlockAccessor.GetBlockEntity(pos) as BlockEntitySaucepan;
+
+            if (sp != null)
+            {
+                drop.Attributes.SetBool("isSealed", sp.isSealed);
+            }
+
+            return drop;
         }
     }
 

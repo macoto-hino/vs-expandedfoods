@@ -71,5 +71,23 @@
 	width: 1,
 	height: 2,
 	output: { type: "item", code: "pasta-flat"  }
-  }
+  },
+  {
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "pasta-dough", 
+			name: "pasta",
+		},
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "pasta-flat"  }
+  },
 ]

@@ -126,10 +126,29 @@ namespace Exper
         {
             base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
             handling = EnumHandHandling.PreventDefault;
-            BlockEntityFarmland fl;
-            if (blockSel != null && (fl = byEntity.World.BlockAccessor.GetBlockEntity(blockSel.Position) as BlockEntityFarmland) != null)
+
+            BlockPos checkAt = byEntity.ServerPos.AsBlockPos;
+            IServerChunk chunk = byEntity.World.BlockAccessor.GetChunkAtBlockPos(checkAt) as IServerChunk;
+            bool[] caves = null;
+
+            if (chunk != null)
             {
-                fl.Nutrients[0] -= 10;
+                try
+                {
+                    caves = SerializerUtil.Deserialize<bool[]>(chunk.GetServerModdata("noiseCaves"));
+                }
+                catch
+                {
+                    System.Diagnostics.Debug.WriteLine("Did not work");
+                }
+
+                int chunksize = byEntity.World.BlockAccessor.ChunkSize;
+
+                int localX = checkAt.X % chunksize;
+                int localY = checkAt.Y % chunksize;
+                int localZ = checkAt.Z % chunksize;
+
+                System.Diagnostics.Debug.WriteLine(caves[MapUtil.Index3d(localX, localY, localZ, chunksize,chunksize)]);
             }
         }
     }

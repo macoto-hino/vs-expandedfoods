@@ -91,6 +91,13 @@
     dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
+   file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+ },
+ {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedball.json",
     op: "replace", 
     path: "/0/enabled", 

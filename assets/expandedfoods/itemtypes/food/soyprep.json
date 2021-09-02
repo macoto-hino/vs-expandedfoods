@@ -2,7 +2,8 @@
 	code: "soyprep",
 	maxstacksize: 40,
 	variantgroups: [
-		{ code: "type", states: ["soaked", "roasted", "powdered", "cultured", "slurry"] },
+		{ code: "type", states: ["soaked", "roasted", "powdered", "cultured", "slurry",
+												"shelled", "wetshell", "blended"] },
 	],
 	attributes: {
 		inContainerTextureByType: { 
@@ -12,9 +13,11 @@
 		},
 		squeezeIntoByType: {
 			"*-slurry": "expandedfoods:soysauce",
+			"*-blended": "expandedfoods:soymilk-raw",
 		},
 		squeezeRatioByType: {
-			"*-slurry": 1,
+			"*-slurry": 2,
+			"*-blended": 4,
 		},
 		bakingPropertiesByType: {
 			"*-soaked": {
@@ -46,7 +49,8 @@
 		},
 	},
 	grindingPropsByType: {
-		"*-roasted": { grindedstack: {type: "item", code: "expandedfoods:soyprep-powdered"} }
+		"*-roasted": { grindedstack: {type: "item", code: "expandedfoods:soyprep-powdered"} },
+		"*-wetshell": { grindedstack: {type: "item", code: "expandedfoods:soyprep-blended"} }
 	},
 	materialDensity: 600,
 	shape: { base: "game:item/food/pickledvegetable/soypile" },

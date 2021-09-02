@@ -98,4 +98,24 @@
 	name: "fishsmash",
 	output: { type: "item", code: "fishnugget-smashed"  }
   },
+  {
+	enabled: false,
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "primitivesurvival:fishfillet-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "fishsmash",
+	output: { type: "item", code: "fishnugget-smashed"  }
+  },
 ]

@@ -340,5 +340,65 @@
     "height": 1,
     "shapeless": true,
     "output": { type: "item", code: "meatnugget-poultry-cured" }
-   }
+   },
+  {
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+			name: "rollingpin",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "game:bushmeat-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "bushmeatsmash",
+	output: { type: "item", code: "meatnugget-bushmeat-smashed"  }
+  },
+  {
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+			name: "rollingpin",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "game:poultry-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "poultrysmash",
+	output: { type: "item", code: "meatnugget-poultry-smashed"  }
+  },
+  {
+	ingredientPattern: "R,M",
+	ingredients: {
+		"R": { 
+			type: "item", 
+			code: "rollingpin-*",
+			name: "rollingpin",
+       			isTool: true
+		},
+		"M": { 
+			type: "item", 
+			code: "game:redmeat-raw", 
+			name: "meat",
+		},
+	},
+	width: 1,
+	height: 2,
+	name: "redmeatsmash",
+	output: { type: "item", code: "meatnugget-redmeat-smashed"  }
+  },
 ]

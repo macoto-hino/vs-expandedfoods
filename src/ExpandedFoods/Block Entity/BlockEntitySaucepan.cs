@@ -10,13 +10,16 @@ namespace ExpandedFoods
     {
         MeshData currentRightMesh;
         BlockSaucepan ownBlock;
+        public bool isSealed;
 
         public override void Initialize(ICoreAPI api)
         {
             base.Initialize(api);
-            
+
 
             ownBlock = Block as BlockSaucepan;
+     
+
             if (Api.Side == EnumAppSide.Client)
             {
                 currentRightMesh = GenRightMesh();
@@ -27,6 +30,8 @@ namespace ExpandedFoods
         public override void OnBlockPlaced(ItemStack byItemStack = null)
         {
             base.OnBlockPlaced(byItemStack);
+
+            if (byItemStack != null) isSealed = byItemStack.Attributes.GetBool("isSealed");
 
             if (Api.Side == EnumAppSide.Client)
             {
@@ -40,6 +45,7 @@ namespace ExpandedFoods
             base.FromTreeAttributes(tree, worldForResolving);
 
             MeshAngle = tree.GetFloat("meshAngle", MeshAngle);
+            isSealed = tree.GetBool("isSealed");
 
             if (Api?.Side == EnumAppSide.Client)
             {
@@ -48,11 +54,18 @@ namespace ExpandedFoods
             }
         }
 
+        public override void ToTreeAttributes(ITreeAttribute tree)
+        {
+            base.ToTreeAttributes(tree);
+
+            tree.SetBool("isSealed", isSealed);
+        }
+
         internal MeshData GenRightMesh()
         {
             if (ownBlock == null || ownBlock.Code.Path.Contains("clay")) return null;
 
-            MeshData mesh = ownBlock.GenRightMesh(Api as ICoreClientAPI, GetContent(), Pos);
+            MeshData mesh = ownBlock.GenRightMesh(Api as ICoreClientAPI, GetContent(), Pos, isSealed);
 
             if (mesh.CustomInts != null)
             {
@@ -72,5 +85,22 @@ namespace ExpandedFoods
             return true;
         }
 
+        public void RedoMesh()
+        { 
+            if (Api.Side == EnumAppSide.Client)
+            {
+                currentRightMesh = GenRightMesh();
+            }
+
+            //if (currentRightMesh == null && isSealed == true)
+            //{
+            //    Api.World.PlaySoundAt(new AssetLocation("game:sounds/block/metaldoor-place.ogg"), Pos.X, Pos.Y, Pos.Z);
+            //}
+        }
+
+        public override float GetPerishRate()
+        {
+            return base.GetPerishRate() * (isSealed ? Block.Attributes["lidPerishRate"].AsFloat(0.5f) : 1f);
+        }
     }
 }
