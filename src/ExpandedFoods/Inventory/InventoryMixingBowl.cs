@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Common;
+using Vintagestory.API.Common.Entities;
 using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
@@ -20,6 +21,10 @@ namespace ExpandedFoods
         public ItemSlot[] Slots { get { return slots; } }
         BlockEntityMixingBowl machine;
 
+        //xskills compatibility
+        public IPlayer LastModifiedBy { get; protected set; }
+        public IPlayer LastAccessedBy { get; protected set; }
+        public string LoadedOwner { get; protected set; }
 
         public InventoryMixingBowl(string inventoryID, ICoreAPI api, BlockEntityMixingBowl bowl) : base(inventoryID, api)
         {
@@ -28,6 +33,10 @@ namespace ExpandedFoods
             //slots 2-7 = ingredients
             machine = bowl;
             slots = GenEmptySlots(8);
+
+            LastModifiedBy = null;
+            LastAccessedBy = null;
+            LoadedOwner = null;
         }
 
 
@@ -64,11 +73,15 @@ namespace ExpandedFoods
                     (this[i] as ItemSlotMixingBowl).Set(machine, i - 2);
                 }
             }
+
+            LoadedOwner = tree.GetString("owner");
         }
 
         public override void ToTreeAttributes(ITreeAttribute tree)
         {
             SlotsToTreeAttributes(slots, tree);
+
+            if (LastModifiedBy != null) tree.SetString("owner", LastModifiedBy.PlayerUID);
         }
 
         protected override ItemSlot NewSlot(int i)
@@ -93,6 +106,28 @@ namespace ExpandedFoods
             ItemSlot goingTo = base.GetAutoPushIntoSlot(atBlockFace, fromSlot);
 
             return goingTo == slots[1] ? slots[0] : goingTo;
+        }
+
+        public override bool CanPlayerAccess(IPlayer player, EntityPos position)
+        {
+            bool result = base.CanPlayerAccess(player, position);
+            if (!result) return result;
+            LastAccessedBy = player;
+            return result;
+        }
+
+        public override void OnItemSlotModified(ItemSlot slot)
+        {
+            base.OnItemSlotModified(slot);
+            if (LastAccessedBy == null) return;
+            if (slot == this[0] || slot == this[1]) return;
+            LastModifiedBy = LastAccessedBy;
+        }
+
+        public override object ActivateSlot(int slotId, ItemSlot sourceSlot, ref ItemStackMoveOperation op)
+        {
+            LastAccessedBy = op.ActingPlayer;
+            return base.ActivateSlot(slotId, sourceSlot, ref op);
         }
     }
 
