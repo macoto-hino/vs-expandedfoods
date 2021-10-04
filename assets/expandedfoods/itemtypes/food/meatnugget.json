@@ -170,33 +170,30 @@
 
 	nutritionPropsByType: {
 		"*-bushmeat-cured": { satiety: 110, foodcategory: "Protein" },
-
 		"*-poultry-cured": { satiety: 190, foodcategory: "Protein" },
 		"*-redmeat-cured": { satiety: 260, foodcategory: "Protein" },
 
 		"*-bushmeat-cookedpartbaked": { satiety: 125, foodcategory: "Protein" },
-
 		"*-poultry-cookedpartbaked": { satiety: 210, foodcategory: "Protein" },
 		"*-redmeat-cookedpartbaked": { satiety: 300, foodcategory: "Protein" },
-		"*-bushmeat-cooked": { satiety: 140, foodcategory: "Protein" },
 
+		"*-bushmeat-cooked": { satiety: 140, foodcategory: "Protein" },
 		"*-poultry-cooked": { satiety: 240, foodcategory: "Protein" },
 		"*-redmeat-cooked": { satiety: 340, foodcategory: "Protein" },
-		"*-bushmeat-cookedcharred": { satiety: 130, foodcategory: "Protein" },
 
+		"*-bushmeat-cookedcharred": { satiety: 130, foodcategory: "Protein" },
 		"*-poultry-cookedcharred": { satiety: 220, foodcategory: "Protein" },
 		"*-redmeat-cookedcharred": { satiety: 320, foodcategory: "Protein" },
 
 		"*-bushmeat-tenderpartbaked": { satiety: 122, foodcategory: "Protein" },
-
 		"*-poultry-tenderpartbaked": { satiety: 205, foodcategory: "Protein" },
 		"*-redmeat-tenderpartbaked": { satiety: 290, foodcategory: "Protein" },
-		"*-bushmeat-tender": { satiety: 130, foodcategory: "Protein" },
 
+		"*-bushmeat-tender": { satiety: 130, foodcategory: "Protein" },
 		"*-poultry-tender": { satiety: 220, foodcategory: "Protein" },
 		"*-redmeat-tender": { satiety: 310, foodcategory: "Protein" },
-		"*-bushmeat-tendercharred": { satiety: 125, foodcategory: "Protein" },
 
+		"*-bushmeat-tendercharred": { satiety: 125, foodcategory: "Protein" },
 		"*-poultry-tendercharred": { satiety: 210, foodcategory: "Protein" },
 		"*-redmeat-tendercharred": { satiety: 300, foodcategory: "Protein" },
 

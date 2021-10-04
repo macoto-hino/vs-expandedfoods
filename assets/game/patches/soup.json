@@ -1173,6 +1173,39 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-flax",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-rice",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "grain-sunflower",
+      "minQuantity": 0,
+      "maxQuantity": 1
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/6",
     "value": {
       "code": "salt",

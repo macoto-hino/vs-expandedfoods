@@ -560,6 +560,34 @@
     dependsOn: [{ "modid": "acorns" }]
  },
  {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "replace", 
+    path: "/16/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "replace", 
+    path: "/17/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "replace", 
+    path: "/18/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
+    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnugget.json",
+    op: "replace", 
+    path: "/19/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }]
+ },
+ {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedmeatnuggetoiled.json",
     op: "replace", 
     path: "/0/enabled", 

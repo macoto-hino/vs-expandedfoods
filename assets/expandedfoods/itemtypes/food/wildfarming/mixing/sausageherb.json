@@ -318,16 +318,16 @@
 		"*-partbaked": { saturation: 90, foodcategory: "Protein"},
 		"*-cooked": { saturation: 100, foodcategory: "Protein"},
 		"*-charred": { saturation: 80, foodcategory: "Protein"},
-		"*-driedpartbaked": { saturation: 135, foodcategory: "Protein"},
-		"*-driedcooked": { saturation: 150, foodcategory: "Protein"},
-		"*-driedcharred": { saturation: 120, foodcategory: "Protein"},
+		"*-driedpartbaked": { saturation: 115, foodcategory: "Protein"},
+		"*-driedcooked": { saturation: 125, foodcategory: "Protein"},
+		"*-driedcharred": { saturation: 100, foodcategory: "Protein"},
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	transitionablePropsByType: {
 		"*-raw": [
             		{
         			type: "Cure",
-        			freshHours: { avg: 96 },
+        			freshHours: { avg: 700 },
         			transitionHours: { avg: 6 },
         			transitionedStack: { type: "item", code: "expandedfoods:sausageherb-{type}-dried" },
         			transitionRatio: 1

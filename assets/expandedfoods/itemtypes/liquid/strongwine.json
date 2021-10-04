@@ -25,8 +25,8 @@
     		type: "Perish",
     		freshHours: { avg: 672 },
     		transitionHours: { avg: 288 },
-    		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 0.25
+    		transitionedStack: { type: "item", code: "game:vinegarportion" },
+    		transitionRatio: 1
   	},
 	{
     		type: "Cure",

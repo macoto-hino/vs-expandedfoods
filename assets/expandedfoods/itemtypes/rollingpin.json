@@ -29,12 +29,12 @@
 		}
 	},
 	durabilitybytype: {
-		"rollingpin-steel": 2100,
-		"rollingpin-meteoriciron": 1200,
-		"rollingpin-iron": 800,
-		"rollingpin-blackbronze": 550,
-		"rollingpin-tinbronze": 450,
-		"rollingpin-copper": 250,
+		"rollingpin-steel": 5000,
+		"rollingpin-meteoriciron": 2500,
+		"rollingpin-iron": 2100,
+		"rollingpin-blackbronze": 1300,
+		"rollingpin-tinbronze": 900,
+		"rollingpin-copper": 600,
 		"rollingpin-*": 100,
 	},
 	attackpowerbytype: {

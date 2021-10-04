@@ -60,7 +60,7 @@
     "value": {
       "type": "Cure",
       "freshHours": {
-        "avg": 72
+        "avg": 700
       },
       "transitionHours": {
         "avg": 6
@@ -138,7 +138,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-charred",
     "value": {
-      "satiety": 260,
+      "satiety": 235,
       "foodcategory": "Protein"
     },
     "file": "itemtypes/food/redmeat.json"
@@ -147,7 +147,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": {
-      "satiety": 235,
+      "satiety": 260,
       "foodcategory": "Protein"
     },
     "file": "itemtypes/food/redmeat.json"

@@ -60,7 +60,7 @@
     "value": {
       "type": "Cure",
       "freshHours": {
-        "avg": 72
+        "avg": 700
       },
       "transitionHours": {
         "avg": 6
@@ -137,7 +137,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-charred",
     "value": {
-      "satiety": 115,
+      "satiety": 110,
       "foodcategory": "Protein"
     },
     "file": "itemtypes/food/bushmeat.json"
@@ -146,7 +146,7 @@
     "op": "add",
     "path": "/nutritionPropsByType/*-partbaked",
     "value": {
-      "satiety": 110,
+      "satiety": 115,
       "foodcategory": "Protein"
     },
     "file": "itemtypes/food/bushmeat.json"

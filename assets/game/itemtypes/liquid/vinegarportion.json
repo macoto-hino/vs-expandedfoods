@@ -15,6 +15,13 @@
 			}
 		}
 	},
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 4320 },
+    		transitionHours: { avg: 1440 },
+    		transitionedStack: { type: "item", code: "game:waterportion" },
+    		transitionRatio: 0.5
+  	}],
 	nutritionProps: { satiety: 75, health: 0.5, foodcategory: "Fruit" },
 	shape: { base: "game:item/liquid" },
 	texture: { base: "block/liquid/vinegarmod" },

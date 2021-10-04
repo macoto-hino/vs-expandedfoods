@@ -134,12 +134,12 @@
 			},
 		},
 		nutritionPropsWhenInMealByType: { 
-			"agedmeat-bushmeat-cut": {satiety: 285, foodcategory: "Protein"},
-			"agedmeat-redmeat-cut": {satiety: 660, foodcategory: "Protein"},
-			"agedmeat-poultry-cut": {satiety: 480, foodcategory: "Protein"},
+			"agedmeat-bushmeat-cut": {satiety: 270, foodcategory: "Protein"},
+			"agedmeat-redmeat-cut": {satiety: 525, foodcategory: "Protein"},
+			"agedmeat-poultry-cut": {satiety: 450, foodcategory: "Protein"},
 			"agedmeat-bushmeat-raw": {satiety: 300, foodcategory: "Protein"},
-			"agedmeat-redmeat-raw": {satiety: 705, foodcategory: "Protein"},
-			"agedmeat-poultry-raw": {satiety: 510, foodcategory: "Protein"},
+			"agedmeat-redmeat-raw": {satiety: 575, foodcategory: "Protein"},
+			"agedmeat-poultry-raw": {satiety: 495, foodcategory: "Protein"},
 			},
 
     		inPiePropertiesByType: {
@@ -211,34 +211,31 @@
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 
 	nutritionPropsByType: {
-		"*-bushmeat-tenderpartbaked": { satiety: 145, foodcategory: "Protein" },
+		"*-bushmeat-tenderpartbaked": { satiety: 160, foodcategory: "Protein" },
+		"*-poultry-tenderpartbaked": { satiety: 270, foodcategory: "Protein" },
+		"*-redmeat-tenderpartbaked": { satiety: 315, foodcategory: "Protein" },
 
-		"*-poultry-tenderpartbaked": { satiety: 245, foodcategory: "Protein" },
-		"*-redmeat-tenderpartbaked": { satiety: 345, foodcategory: "Protein" },
-		"*-bushmeat-tender": { satiety: 190, foodcategory: "Protein" },
+		"*-bushmeat-tender": { satiety: 180, foodcategory: "Protein" },
+		"*-poultry-tender": { satiety: 300, foodcategory: "Protein" },
+		"*-redmeat-tender": { satiety: 350, foodcategory: "Protein" },
 
-		"*-poultry-tender": { satiety: 320, foodcategory: "Protein" },
-		"*-redmeat-tender": { satiety: 440, foodcategory: "Protein" },
-		"*-bushmeat-tendercharred": { satiety: 160, foodcategory: "Protein" },
+		"*-bushmeat-tendercharred": { satiety: 145, foodcategory: "Protein" },
+		"*-poultry-tendercharred": { satiety: 240, foodcategory: "Protein" },
+		"*-redmeat-tendercharred": { satiety: 280, foodcategory: "Protein" },
 
-		"*-poultry-tendercharred": { satiety: 270, foodcategory: "Protein" },
-		"*-redmeat-tendercharred": { satiety: 375, foodcategory: "Protein" },
+		"*-bushmeat-meatballpartbaked": { satiety: 180, foodcategory: "Protein" },
+		"*-poultry-meatballpartbaked": { satiety: 300, foodcategory: "Protein" },
+		"*-redmeat-meatballpartbaked": { satiety: 345, foodcategory: "Protein" },
 
-		"*-bushmeat-meatballpartbaked": { satiety: 160, foodcategory: "Protein" },
-
-		"*-poultry-meatballpartbaked": { satiety: 270, foodcategory: "Protein" },
-		"*-redmeat-meatballpartbaked": { satiety: 375, foodcategory: "Protein" },
 		"*-bushmeat-meatball": { satiety: 200, foodcategory: "Protein" },
+		"*-poultry-meatball": { satiety: 330, foodcategory: "Protein" },
+		"*-redmeat-meatball": { satiety: 385, foodcategory: "Protein" },
 
-		"*-poultry-meatball": { satiety: 340, foodcategory: "Protein" },
-		"*-redmeat-meatball": { satiety: 470, foodcategory: "Protein" },
-		"*-bushmeat-meatballcharred": { satiety: 170, foodcategory: "Protein" },
-
-		"*-poultry-meatballcharred": { satiety: 290, foodcategory: "Protein" },
-		"*-redmeat-meatballcharred": { satiety: 405, foodcategory: "Protein" },
+		"*-bushmeat-meatballcharred": { satiety: 160, foodcategory: "Protein" },
+		"*-poultry-meatballcharred": { satiety: 265, foodcategory: "Protein" },
+		"*-redmeat-meatballcharred": { satiety: 305, foodcategory: "Protein" },
 
 	},
-
 	transitionablePropsByType: {
 
 		"*-normal": [

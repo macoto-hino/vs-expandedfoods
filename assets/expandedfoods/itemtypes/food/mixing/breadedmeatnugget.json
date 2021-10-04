@@ -9,7 +9,6 @@
 		{ code: "meat", states: ["bushmeat", "poultry", "redmeat"]},	
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
-
 	attributes: {
   		"expandedNutritionPropsByType": {
 			"*-smashed": {

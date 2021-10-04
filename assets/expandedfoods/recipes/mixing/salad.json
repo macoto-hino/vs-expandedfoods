@@ -596,6 +596,14 @@
 				{ type: "item", code: "expandedfoods:foodoilportion-rice",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:foodoilportion-seed",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:foodoilportion-soy",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-blueberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "blueberrysyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-cranberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "cranberrysyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-blackcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "blackcurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-redcurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "redcurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-whitecurrant",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "whitecurrantsyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-pineapple",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "pineapplesyrup"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-mix",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "mixwine"] }, 
+				{ type: "item", code: "expandedfoods:fruitsyrupportion-saguaro",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "saguarosyrup"] }, 
 			],
 			minQuantity: 0,
 			maxQuantity: 1
@@ -625,6 +633,9 @@
 			validStacks: [ 
 				{ type: "item", code: "expandedfoods:breadcrumbs-*"},
 				{ type: "item", code: "expandedfoods:acornbreadcrumbs-*"},
+				{ type: "item", code: "grain-flax"},
+				{ type: "item", code: "grain-rice"},
+				{ type: "item", code: "grain-sunflower"},
 			],
 			minQuantity: 0,
 			maxQuantity: 1

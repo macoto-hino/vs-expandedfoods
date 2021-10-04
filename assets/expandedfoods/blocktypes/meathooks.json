@@ -22,7 +22,7 @@
 	},
 	attributes: {
 		cureRate: 3,
-		dryRate: 6,
+		dryRate: 200,
 	},
 	drawtype: "json",
 	blockmaterial: "Wood",
