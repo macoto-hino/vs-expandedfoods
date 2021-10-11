@@ -60,7 +60,7 @@
     "value": {
       "type": "Cure",
       "freshHours": {
-        "avg": 700
+        "avg": 350
       },
       "transitionHours": {
         "avg": 6

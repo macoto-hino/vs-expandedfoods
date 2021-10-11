@@ -327,7 +327,7 @@
 		"*-raw": [
             		{
         			type: "Cure",
-        			freshHours: { avg: 700 },
+        			freshHours: { avg: 350 },
         			transitionHours: { avg: 6 },
         			transitionedStack: { type: "item", code: "expandedfoods:sausageherb-{type}-dried" },
         			transitionRatio: 1
