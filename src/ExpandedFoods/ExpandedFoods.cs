@@ -36,6 +36,9 @@ namespace ExpandedFoods
             api.RegisterBlockClass("BlockMeatHooks", typeof(BlockMeatHooks));
             api.RegisterBlockEntityClass("MeatHooks", typeof(BlockEntityMeatHooks));
 
+            api.RegisterBlockClass("BlockBottleRack", typeof(BlockBottleRack));
+            api.RegisterBlockEntityClass("BottleRack", typeof(BlockEntityBottleRack));
+
             api.RegisterBlockClass("BlockMixingBowl", typeof(BlockMixingBowl));
             api.RegisterBlockEntityClass("MixingBowl", typeof(BlockEntityMixingBowl));
 

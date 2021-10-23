@@ -1,0 +1,98 @@
+{
+	"code": "bottlerack",
+	"class": "BlockBottleRack",
+	"entityClass": "BottleRack",
+	"variantgroups": [
+		{
+			"code": "wood",
+			"states": [ "acacia", "birch", "kapok", "maple", "oak", "pine", "aged" ]
+		}
+	],
+	"shape": { "base": "expandedfoods:block/bottlerack" },
+	"creativeinventory": {
+		"general": [ "*" ],
+		"terrain": [ "*" ]
+	},
+	"textures": {
+		"wood": { "base": "game:block/wood/planks/{wood}1" }
+	},
+	"drawtype": "json",
+	"blockmaterial": "Wood",
+	"replaceable": 600,
+	"resistance": 3,
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"sounds": {
+		"walk": "player/buildhigh"
+	},
+	"collisionSelectionBoxes": [
+		{
+			"x1": 0.0625,
+			"y1": 0.8125,
+			"z1": 0,
+			"x2": 0.25,
+			"y2": 1,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.3125,
+			"y1": 0.8125,
+			"z1": 0,
+			"x2": 0.5,
+			"y2": 1,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.5625,
+			"y1": 0.8125,
+			"z1": 0,
+			"x2": 0.75,
+			"y2": 1,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.8125,
+			"y1": 0.8125,
+			"z1": 0,
+			"x2": 1,
+			"y2": 1,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.0625,
+			"y1": 0.5625,
+			"z1": 0,
+			"x2": 0.25,
+			"y2": 0.75,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.3125,
+			"y1": 0.5625,
+			"z1": 0,
+			"x2": 0.5,
+			"y2": 0.75,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.5625,
+			"y1": 0.5625,
+			"z1": 0,
+			"x2": 0.75,
+			"y2": 0.75,
+			"z2": 0.375
+		},
+		{
+			"x1": 0.8125,
+			"y1": 0.5625,
+			"z1": 0,
+			"x2": 1,
+			"y2": 0.75,
+			"z2": 0.375
+		}
+	],
+	"sideopaque": { "all": false },
+	"sideao": { "all": true },
+	"emitsideao": { "all": false },
+	"sidesolid": { "all": false }
+}
