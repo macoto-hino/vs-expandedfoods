@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ceramic": "game:block/clay/ceramic"
 	},
 	"elements": [
 		{
