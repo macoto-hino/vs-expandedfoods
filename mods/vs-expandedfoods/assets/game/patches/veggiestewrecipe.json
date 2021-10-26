@@ -242,20 +242,6 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
-      "shapeElement": "bowl/vegetable 1/*",
-      "textureMapping": [
-        "fruit",
-        "group8"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
-      "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
@@ -509,20 +495,6 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
-      "shapeElement": "bowl/vegetable 2/*",
-      "textureMapping": [
-        "fruit",
-        "group8"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "fruit",
@@ -820,20 +792,6 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
-      "shapeElement": "bowl/vegetable 3/*",
-      "textureMapping": [
-        "fruit",
-        "group8"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
@@ -1105,20 +1063,6 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
-      "shapeElement": "bowl/vegetable 4/*",
-      "textureMapping": [
-        "fruit",
-        "group8"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-pickledbellpepper",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "fruit",

@@ -6,7 +6,7 @@
 	variantgroups: [
 	
 		{ code: "type", states: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]},
-		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava"]},	
+		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
 
@@ -180,6 +180,7 @@
 				"game:vegetable-parsnip": "game:shapes/item/food/pickledvegetable/parsnip.json",
 				"game:vegetable-pumpkin": "game:shapes/item/food/pickledvegetable/pumpkin.json",
 				"game:vegetable-cassava": "expandedfoods:shapes/item/food/veggies/cassava.json",
+				"game:vegetable-bellpepper": "expandedfoods:shapes/item/food/veggies/bellpepper.json",
 			},
 		},
 		satMultByType: {
@@ -211,7 +212,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 	 
 			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},	
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-syrupv": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
@@ -224,7 +226,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 	 
 			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},	
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-syrupcharred": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
@@ -237,7 +240,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 	 
 			"breading-syrup": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},		
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-partbaked": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
@@ -250,7 +254,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },  
 			"breading-cooked": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked"},		
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked"},				
 		},
 		"*-cooked": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
@@ -263,7 +268,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" },  
 			"breading-cooked": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-cooked"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-cooked"}, 
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-cooked"},				
 		},
 		"*-charred": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
@@ -276,7 +282,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-charred" },  
 			"breading-cooked": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-charred"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-charred"}, 
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-charred"},				
 		},
 		"*-oiled": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
@@ -289,7 +296,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
 			"breading-raw": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-oiled"},	 				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-oiled"},
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-oiled"},	 				
 		},
 		"*-raw": {
 			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
@@ -302,7 +310,8 @@
 			"pumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
 			"slicedpumpkin": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
 			"breading-raw": { base: "expandedfoods:item/food/grain/breading/{type}-raw" },	 
-			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-raw"},				
+			"cassava": {base: "expandedfoods:item/food/grain/breading/{type}-raw"},		 
+			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-raw"},			
 		},
 	},
 
@@ -324,123 +333,70 @@
 	materialDensity: 600,
 
 	transitionablePropsByType: {
-
 		"*-oiled": [
 {
-		
 			type: "Perish",
-
 			freshHours: { avg: 18 },
-	
 			transitionHours: { avg: 72 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 			}
 
 		],
-
 		"*-raw": [
 {
-		
 			type: "Perish",
-
 			freshHours: { avg: 18 },
-	
 			transitionHours: { avg: 72 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 			}
-
 		],
-
 		"*-partbaked": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 60 },
-
 			transitionHours: { avg: 96 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-cooked": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 60 },
-
 			transitionHours: { avg: 96 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
 		
 		}],
 		"*-charred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 120 },
-
 			transitionHours: { avg: 192 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-syruppartbaked": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 60 },
-
 			transitionHours: { avg: 96 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-syrupv": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 60 },
-
 			transitionHours: { avg: 96 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-syrupcharred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 120 },
-
 			transitionHours: { avg: 192 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 	},
-
 	materialDensity: 600,
-
 	guiTransformByType: {
     		"*-bolete-syruppartbaked": {
 			rotation: { x: -22, y: 107, z: 180 },
@@ -1090,60 +1046,52 @@
 			origin: { x: 0.5, y: 0.09, z: 0.5 },
 			scale: 3
 		},
+		"*-bellpepper-*": {
+			translation: { x: 3, y: 6, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.15, z: 0.5 },
+			scale: 3
+		},
 		"*-partbaked": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*-cooked": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*-charred": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*-syruppartbaked": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*-syrupv": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*-syrupcharred": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 3.5
 		},
 		"*": { 
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 2
 		},
 	},
@@ -1788,73 +1736,49 @@
 			rotation: { x: -87, y: 138, z: 60 },
 			scale: 1.26
 		},
+		"*-bellpepper-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
 		"*-oiled": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -35 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 3
 		},
-
 		"*-raw": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -35 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 3
 		},
-
 		"*-syruppartbaked": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -35 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 3
 		},
-
 		"*-syrupv": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -35 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 3
 		},
-
 		"*-syrupcharred": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -35 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 3
 		},
-
 		"*": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: 0, z: 0 },
-
 			origin: { x: 0, y: 0, z: 1 },
-
 			scale: 1.5
 		},
 	},
-
 	tpHandTransformByType: {
     		"*-bolete-syruppartbaked": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
@@ -2520,73 +2444,49 @@
 			rotation: { x: -55, y: -78, z: 56 },
 			scale: 0.36
 		},
+		"*-bellpepper-*": {
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		},
 		"*-oiled": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 1, y: 9, z: -11 },
-
 			origin: { x: 0.21, y: -0.2, z: 0.15 },
-
 			scale: 1	
 		},
-
 		"*-raw": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 1, y: 9, z: -11 },
-
 			origin: { x: 0.21, y: -0.2, z: 0.15 },
-
 			scale: 1	
 		},
-
 		"*-syruppartbaked": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 1, y: 9, z: -11 },
-
 			origin: { x: 0.21, y: -0.2, z: 0.15 },
-
 			scale: 1	
 		},
-
 		"*-syrupv": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 1, y: 9, z: -11 },
-
 			origin: { x: 0.21, y: -0.2, z: 0.15 },
-
 			scale: 1	
 		},
-
 		"*-syrupcharred": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 1, y: 9, z: -11 },
-
 			origin: { x: 0.21, y: -0.2, z: 0.15 },
-
 			scale: 1	
 		},
-
 		"*": {
-
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 0, y: 0, z: -7 },
-
 			origin: { x: 0.17, y: -0.2, z: 0.15 },
-
 			scale: 0.4
 		},
 	},
-
 	groundTransformByType: {
     		"*-bolete-syruppartbaked": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
@@ -3212,108 +3112,66 @@
 			origin: { x: 0.5, y: 0.5, z: 0.5299 },
 			scale: 2.8
 		},
-		"*": {
-
+		"*-bellpepper-*": {
 			translation: { x: 0, y: 0, z: 0 },
-
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 180, y: 33, z: -180 },
-
 			origin: { x: 0.5, y: 0, z: 0.5 },
-
 			scale: 1.5
 		},
-
 	},
-
 	combustiblePropsByType: {
-
 		"breadedvegetable-*-*-raw": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-charred" },
-
 			requiresContainer: false
-
 		},
 		"breadedvegetable-*-*-partbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-charred" },
-
 			requiresContainer: false
-
 		},
 		"breadedvegetable-*-*-cooked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-charred" },
-
 			requiresContainer: false
-
 		},
 		"breadedvegetable-*-*-oiled": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-charred" },
-
 			requiresContainer: false
-
 		},
 		"breadedvegetable-*-*-syruppartbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-syrupcharred" },
-
 			requiresContainer: false
-
 		},
 		"breadedvegetable-*-*-syrupv": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "breadedvegetable-{type}-{veggie}-syrupcharred" },
-
 			requiresContainer: false
 
 		},

@@ -2,7 +2,7 @@
 	code: "cookedchoppedvegetable",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
 		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
 	],
 	shape: { base: "item/food/veggies/chopped/cooked/{type}"},
@@ -30,6 +30,8 @@
 			"pickledparsnip": {base: "item/food/veggie/partbaked/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/partbaked/cassava"},
 			"reeds": {base: "item/food/veggie/partbaked/reeds"},
+			"bellpepper": {base: "item/food/veggie/partbaked/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/partbaked/pickledbellpepper"},
 		},
 		"*-perfect": {
 			"cap": {base: "item/food/veggie/perfect/bolete/cap"},
@@ -53,7 +55,9 @@
 			"parsnip": {base: "item/food/veggie/perfect/parsnip"},
 			"pickledparsnip": {base: "item/food/veggie/perfect/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/perfect/cassava"},
-			"reeds": {base: "game:item/resource/reeds"}
+			"reeds": {base: "game:item/resource/reeds"},
+			"bellpepper": {base: "item/food/veggie/perfect/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/perfect/pickledbellpepper"},
 		},
 		"*-charred": {
 			"cap": {base: "item/food/veggie/charred/bolete/cap"},
@@ -78,6 +82,8 @@
 			"pickledparsnip": {base: "item/food/veggie/charred/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/charred/cassava"},
 			"reeds": {base: "item/food/veggie/charred/reeds"},
+			"bellpepper": {base: "item/food/veggie/charred/bellpepper"},
+			"pickledbellpepper": {base: "item/food/veggie/charred/pickledbellpepper"},
 		},
 	},
 	attributesByType: {
@@ -332,6 +338,7 @@
 		"*-pickledparsnip-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledturnip-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledpumpkin-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-partbaked": { satiety: 130, foodcategory: "Vegetable" },
 
 		"*-cabbage-perfect": { satiety: 520, foodcategory: "Vegetable" },
@@ -344,6 +351,7 @@
 		"*-pickledparsnip-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledturnip-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledpumpkin-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-perfect": { saturation: 120, foodcategory: "Vegetable" },
 		"*-perfect": { satiety: 170, foodcategory: "Vegetable" },
 
 		"*-cabbage-charred": { satiety: 450, foodcategory: "Vegetable" },
@@ -356,6 +364,7 @@
 		"*-pickledparsnip-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledturnip-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledpumpkin-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-pickledbellpepper-charred": { saturation: 110, foodcategory: "Vegetable" },
 		"*-charred": { satiety: 150, foodcategory: "Vegetable" },
 	},
 	transitionablePropsByType: {
@@ -423,6 +432,13 @@
       			transitionRatio: 1
     		}],
     		"*-pickledpumpkin-partbaked": [{
+      			type: "Perish",
+      			freshHours: { avg: 900 },
+      			transitionHours: { avg: 120 },
+      			transitionedStack: { type: "item", code: "game:rot" },
+      			transitionRatio: 1
+    		}],
+    		"*-pickledbellpepper-partbaked": [{
       			type: "Perish",
       			freshHours: { avg: 900 },
       			transitionHours: { avg: 120 },
@@ -506,6 +522,13 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
+		"*-pickledbellpepper-perfect": [{
+			type: "Perish",
+			freshHours: { avg: 900 },
+			transitionHours: { avg: 120 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
 		"*-perfect": [{
 			type: "Perish",
 			freshHours: { avg:  252 },
@@ -577,6 +600,13 @@
 			transitionRatio: 1
 		}],
 		"*-pickledpumpkin-charred": [{
+			type: "Perish",
+			freshHours: { avg: 3150 },
+			transitionHours: { avg: 200 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 1
+		}],
+		"*-pickledbellpepper-charred": [{
 			type: "Perish",
 			freshHours: { avg: 3150 },
 			transitionHours: { avg: 200 },
@@ -660,10 +690,10 @@
 			scale: 3.5
 		},
 		"*-pickledbellpepper-*": {
-			translation: { x: -2, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.45, y: 0, z: 0.6 },
-			scale: 2.5
+			translation: { x: -7, y: 5, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 3
 		},
 		"*-cassava-*": {
 			translation: { x: 0, y: 0, z: 0 },
@@ -770,7 +800,7 @@
 		},
 		"*-pickledbellpepper-*":	{
 			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 75, y: 65, z: -25 },
+			rotation: { x: 45, y: 47, z: -30 },
 			origin: { x: 0.5, y: 0.3, z: 0.5 },
 			scale: 1.9
 		},
@@ -877,10 +907,10 @@
 			scale: 0.5
 		},
 		"*-pickledbellpepper-*": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
+			translation: { x: -0.6, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -42 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
+			scale: 0.8
 		},
 		"*-cassava-*": {
 			translation: { x: -0.75, y: -0.14, z: -0.8 },
@@ -986,9 +1016,9 @@
 		},
 		"*-pickledbellpepper-*": {
 			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			scale: 4.3
 		},
 		"*-cassava-*": {
 			translation: { x: 0, y: 0, z: 0 },

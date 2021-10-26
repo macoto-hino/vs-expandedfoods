@@ -171,22 +171,6 @@
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
-		"*-pickledbellpepper": {
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-bellpepper", partType: 'Filling' },
-		},
 		"*-papyrusroot": {
 			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
 			bakingProperties: {
@@ -237,7 +221,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
 	],
 	shape: { base: "item/food/veggies/chopped/{type}"
 	},
@@ -256,7 +240,6 @@
 		"*-pickledparsnip": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledturnip": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledpumpkin": { saturation: 100, foodcategory: "Vegetable" },
-		"*-pickledbellpepper": { saturation: 100, foodcategory: "Vegetable" },
 		"*": { satiety: 125, foodcategory: "Vegetable" },
 	},
 	combustiblePropsByType: {
@@ -338,13 +321,6 @@
 			transitionRatio: 0.5
 		}],
 		"*-pickledpumpkin": [{
-			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 0.5
-		}],
-		"*-pickledbellpepper": [{
 			type: "Perish",
 			freshHours: { avg: 900 },
 			transitionHours: { avg: 120 },
@@ -462,12 +438,6 @@
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
 			scale: 3.5
 		},
-		"*-pickledbellpepper": {
-			translation: { x: -2, y: 0, z: 0 },
-			rotation: { x: -60, y: 29, z: 0 },
-			origin: { x: 0.45, y: 0, z: 0.6 },
-			scale: 2.5
-		},
 		"*-cassava": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
@@ -571,12 +541,6 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 1.9
 		},
-		"*-pickledbellpepper":	{
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 75, y: 65, z: -25 },
-			origin: { x: 0.5, y: 0.3, z: 0.5 },
-			scale: 1.9
-		},
 		"*-cassava": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 60, y: 0, z: 0 },
@@ -674,12 +638,6 @@
 			scale: 0.8
 		},
 		"*-pickledpumpkin": {
-			translation: { x: -0.95, y: -0.25, z: -0.93 },
-			rotation: { x: 56, y: -70, z: -59 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.5
-		},
-		"*-pickledbellpepper": {
 			translation: { x: -0.95, y: -0.25, z: -0.93 },
 			rotation: { x: 56, y: -70, z: -59 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -786,12 +744,6 @@
 			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
 			scale: 3.8
-		},
-		"*-pickledbellpepper": {
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 0 },
-			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
 		},
 		"*-cassava": {
 			translation: { x: 0, y: 0, z: 0 },

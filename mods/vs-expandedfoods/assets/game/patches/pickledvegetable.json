@@ -79,7 +79,7 @@
         "levelTo": 0.25,
         "startScaleY": 1.0,
         "endScaleY": 1.0,
-        "resultCode": "expandedfoods:cookedveggie-pickledbellpepper-partbaked"
+        "resultCode": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-partbaked"
       }
     },
     "file": "itemtypes/food/pickledvegetable.json"
@@ -126,6 +126,14 @@
           "z": 0.25
         },
         "scale": 1
+      },
+      "*-bellpepper": {
+        "translation": {
+          "x": 0,
+          "y": -0.125,
+          "z": 0
+        },
+        "scale": 0.75
       },
       "*": {
         "translation": {
@@ -204,7 +212,7 @@
         "smeltingType": "cook",
         "smeltedStack": {
           "type": "item",
-          "code": "expandedfoods:cookedveggie-pickledbellpepper-charred"
+          "Code": "expandedfoods:cookedchoppedvegetable-pickledbellpepper-charred"
         },
         "requiresContainer": false
       }

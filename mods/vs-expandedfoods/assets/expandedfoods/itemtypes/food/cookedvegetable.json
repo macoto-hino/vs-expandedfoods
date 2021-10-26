@@ -2,7 +2,7 @@
 	code: "cookedveggie",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "cattailroot", "papyrusroot", "bellpepper"] },
 		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
 	],
 	shapeByType: {
@@ -47,6 +47,7 @@
 			"pickledparsnip": {base: "item/food/veggie/partbaked/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/partbaked/cassava"},
 			"reeds": {base: "item/food/veggie/partbaked/reeds"},
+			"bellpepper": {base: "item/food/veggie/partbaked/bellpepper"},
 		},
 		"*-bolete-perfect": {
 			"cap": {base: "item/food/veggie/perfect/bolete/cap"},
@@ -79,6 +80,7 @@
 			"pickledparsnip": {base: "item/food/veggie/perfect/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/perfect/cassava"},
 			"reeds": {base: "game:item/resource/reeds"},
+			"bellpepper": {base: "item/food/veggie/perfect/bellpepper"},
 		},
 		"*-bolete-charred": {
 			"cap": {base: "item/food/veggie/charred/bolete/cap"},
@@ -111,6 +113,7 @@
 			"pickledparsnip": {base: "item/food/veggie/charred/pickledparsnip"},
 			"cassava": {base: "item/food/veggie/charred/cassava"},
 			"reeds": {base: "item/food/veggie/charred/reeds"},
+			"bellpepper": {base: "item/food/veggie/charred/bellpepper"},
 		},
 	},
 	attributesByType: {

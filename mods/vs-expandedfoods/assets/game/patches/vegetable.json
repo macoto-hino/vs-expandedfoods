@@ -364,7 +364,7 @@
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/6",
+    "path": "/variantgroups/0/states/7",
     "value": "cassava",
     "file": "itemtypes/food/vegetable.json"
   }

@@ -10,7 +10,7 @@
       "V": {
         type: "item",
         code: "game:vegetable-*",
-	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava"],
+	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
         name: "type",
       }
     },
@@ -68,7 +68,7 @@
       "V": {
         type: "item",
         code: "game:vegetable-*",
-	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava"],
+	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
         name: "type",
       }
     },

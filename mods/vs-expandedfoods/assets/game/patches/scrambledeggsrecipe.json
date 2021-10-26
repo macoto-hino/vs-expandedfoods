@@ -240,15 +240,6 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-pickledbellpepper",
-          "shapeElement": "bowl/vegetable 1/*",
-          "textureMapping": [
-            "fruit",
-            "group8"
-          ]
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:choppedvegetable-cattailroot",
           "shapeElement": "bowl/vegetable 1/*",
           "textureMapping": [
@@ -475,15 +466,6 @@
         {
           "type": "item",
           "code": "expandedfoods:choppedvegetable-bellpepper",
-          "shapeElement": "bowl/vegetable 2/*",
-          "textureMapping": [
-            "fruit",
-            "group8"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:choppedvegetable-pickledbellpepper",
           "shapeElement": "bowl/vegetable 2/*",
           "textureMapping": [
             "fruit",
