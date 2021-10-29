@@ -5,7 +5,7 @@
 	"variantgroups": [
 		{
 			"code": "wood",
-			"states": [ "acacia", "birch", "kapok", "maple", "oak", "pine", "aged" ]
+			"states": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "aged" ]
 		}
 	],
 	"shape": { "base": "expandedfoods:block/bottlerack" },
@@ -89,7 +89,7 @@
 			"x2": 1,
 			"y2": 0.75,
 			"z2": 0.375
-		}
+		},
 	],
 	"sideopaque": { "all": false },
 	"sideao": { "all": true },

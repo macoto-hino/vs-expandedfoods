@@ -7,7 +7,6 @@
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupcooked", "syrupcharred", "oiled"] },
 	],
 	skipVariants: [
-		"stuffedpepper-bare-oiled",
 		"stuffedpepper-bare-syruppartbaked",
 		"stuffedpepper-bare-syrupcooked",
 		"stuffedpepper-bare-syrupcharred",

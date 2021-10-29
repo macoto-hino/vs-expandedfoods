@@ -777,6 +777,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\sausage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\soyculture.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\stuffedpepper.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\stuffedpepperoiled.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\stuffedpeppersyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\sushiveg.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\sushivegoil.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\acornbreadedballherb.json" />
