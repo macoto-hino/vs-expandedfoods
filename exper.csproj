@@ -112,6 +112,17 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\block\mixing.ogg" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\lock.ogg" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\player\gulp.ogg" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\blue.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\brown.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\green.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\pink.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\plain.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\quartz.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\red.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\smoky.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\vintage.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\violet.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\bottle\yellow.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\cauldron\castiron.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\cauldron\metaloverlay.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\cauldron\metaloverlaygradient.png" />

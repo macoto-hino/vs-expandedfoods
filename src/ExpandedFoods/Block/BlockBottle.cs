@@ -543,6 +543,7 @@ namespace ExpandedFoods
 
         TextureAtlasPosition contentTextPos;
         TextureAtlasPosition blockTextPos;
+        TextureAtlasPosition corkTextPos;
         CompositeTexture contentTexture;
 
         public BottleTextureSource(ICoreClientAPI capi, ItemStack forContents, CompositeTexture contentTexture, Block bottle)
@@ -551,6 +552,7 @@ namespace ExpandedFoods
             this.forContents = forContents;
             this.contentTexture = contentTexture;
             this.blockTextPos = capi.BlockTextureAtlas.GetPosition(bottle, "glass");
+            this.blockTextPos = capi.BlockTextureAtlas.GetPosition(bottle, "map");
         }
 
         public TextureAtlasPosition this[string textureCode]
@@ -558,6 +560,7 @@ namespace ExpandedFoods
             get
             {
                 if (textureCode == "glass" && blockTextPos != null) return blockTextPos;
+                if (textureCode == "map" && blockTextPos != null) return blockTextPos;
                 if (contentTextPos == null)
                 {
                     int textureSubId;

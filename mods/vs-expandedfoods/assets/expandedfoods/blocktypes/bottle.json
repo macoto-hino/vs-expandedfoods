@@ -171,7 +171,10 @@
 	"texturesByType": {
 		"*-raw": { "all": { "base": "game:block/clay/blueclay" } },
 		"*-clay-*": { "all": { "base": "game:block/clay/ceramic" } },
-		"*": { "glass": { "base": "game:block/glass/{color}" } }
+		"*": {
+			"glass": { "base": "block/bottle/{color}" },
+			"map":  { "base":  "item/utility/map" },
+		}
 	},
 	"resistance": 0.5,
 	"guiTransform": {
