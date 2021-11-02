@@ -173,7 +173,7 @@
 		"*-clay-*": { "all": { "base": "game:block/clay/ceramic" } },
 		"*": {
 			"glass": { "base": "block/bottle/{color}" },
-			"map":  { "base":  "item/utility/map" },
+			"map":  { "base":  "game:item/utility/map" },
 		}
 	},
 	"resistance": 0.5,

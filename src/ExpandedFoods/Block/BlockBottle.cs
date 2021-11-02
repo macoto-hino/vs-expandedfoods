@@ -551,16 +551,16 @@ namespace ExpandedFoods
             this.capi = capi;
             this.forContents = forContents;
             this.contentTexture = contentTexture;
+            this.corkTextPos = capi.BlockTextureAtlas.GetPosition(bottle, "map");
             this.blockTextPos = capi.BlockTextureAtlas.GetPosition(bottle, "glass");
-            this.blockTextPos = capi.BlockTextureAtlas.GetPosition(bottle, "map");
         }
 
         public TextureAtlasPosition this[string textureCode]
         {
             get
             {
+                if (textureCode == "map" && corkTextPos != null) return corkTextPos;
                 if (textureCode == "glass" && blockTextPos != null) return blockTextPos;
-                if (textureCode == "map" && blockTextPos != null) return blockTextPos;
                 if (contentTextPos == null)
                 {
                     int textureSubId;
