@@ -1,98 +1,274 @@
 {
-	"code": "bottlerack",
-	"class": "BlockBottleRack",
-	"entityClass": "BottleRack",
-	"variantgroups": [
-		{
-			"code": "wood",
-			"states": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "aged" ]
-		}
-	],
-	"shape": { "base": "expandedfoods:block/bottlerack" },
-	"creativeinventory": {
-		"general": [ "*" ],
-		"terrain": [ "*" ]
-	},
-	"textures": {
-		"wood": { "base": "game:block/wood/planks/{wood}1" }
-	},
-	"drawtype": "json",
-	"blockmaterial": "Wood",
-	"replaceable": 600,
-	"resistance": 3,
-	"heldTpIdleAnimation": "holdbothhandslarge",
-	"heldTpUseAnimation": "twohandplaceblock",
-	"sounds": {
-		"walk": "player/buildhigh"
-	},
-	"collisionSelectionBoxes": [
-		{
-			"x1": 0.0625,
-			"y1": 0.8125,
-			"z1": 0,
-			"x2": 0.25,
-			"y2": 1,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.3125,
-			"y1": 0.8125,
-			"z1": 0,
-			"x2": 0.5,
-			"y2": 1,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.5625,
-			"y1": 0.8125,
-			"z1": 0,
-			"x2": 0.75,
-			"y2": 1,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.8125,
-			"y1": 0.8125,
-			"z1": 0,
-			"x2": 1,
-			"y2": 1,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.0625,
-			"y1": 0.5625,
-			"z1": 0,
-			"x2": 0.25,
-			"y2": 0.75,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.3125,
-			"y1": 0.5625,
-			"z1": 0,
-			"x2": 0.5,
-			"y2": 0.75,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.5625,
-			"y1": 0.5625,
-			"z1": 0,
-			"x2": 0.75,
-			"y2": 0.75,
-			"z2": 0.375
-		},
-		{
-			"x1": 0.8125,
-			"y1": 0.5625,
-			"z1": 0,
-			"x2": 1,
-			"y2": 0.75,
-			"z2": 0.375
-		},
-	],
-	"sideopaque": { "all": false },
-	"sideao": { "all": true },
-	"emitsideao": { "all": false },
-	"sidesolid": { "all": false }
+  "code": "bottlerack",
+  "class": "BlockBottleRack",
+  "entityClass": "BottleRack",
+  "behaviors": [ { "name": "HorizontalOrientable" } ],
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut", "aged" ]
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "shape": {
+    "base": "block/bottlerack",
+    "rotateYByType": {
+      "*-west": 90,
+      "*-south": 180,
+      "*-east": 270
+    }
+  },
+  "drops": [
+    {
+      "type": "block",
+      "code": "*-{wood}-north",
+      "quantity": { "avg": 1 }
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*-north" ],
+    "terrain": [ "*-north" ]
+  },
+  "textures": {
+    "wood": { "base": "game:block/wood/planks/{wood}1" }
+  },
+  "drawtype": "json",
+  "blockmaterial": "Wood",
+  "replaceable": 600,
+  "resistance": 3,
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "sounds": {
+    "walk": "game:player/buildhigh"
+  },
+  "sideopaque": { "all": false },
+  "sideao": { "all": true },
+  "emitsideao": { "all": false },
+  "sidesolid": { "all": false },
+  "CollisionBox": {
+    "x1": 0,
+    "y1": 0,
+    "z1": 0,
+    "x2": 1,
+    "y2": 1,
+    "z2": 0.4,
+    "rotateYByType": {
+      "*-west": 90,
+      "*-south": 180,
+      "*-east": 270
+    }
+  },
+  "SelectionBoxes": [
+    {
+      "x1": 0,
+      "y1": 0,
+      "z1": 0,
+      "x2": 0.25,
+      "y2": 0.25,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.25,
+      "y1": 0,
+      "z1": 0,
+      "x2": 0.5,
+      "y2": 0.25,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.5,
+      "y1": 0,
+      "z1": 0,
+      "x2": 0.75,
+      "y2": 0.25,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.75,
+      "y1": 0,
+      "z1": 0,
+      "x2": 1,
+      "y2": 0.25,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0,
+      "y1": 0.25,
+      "z1": 0,
+      "x2": 0.25,
+      "y2": 0.5,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.25,
+      "z1": 0,
+      "x2": 0.5,
+      "y2": 0.5,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.5,
+      "y1": 0.25,
+      "z1": 0,
+      "x2": 0.75,
+      "y2": 0.5,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.75,
+      "y1": 0.25,
+      "z1": 0,
+      "x2": 1,
+      "y2": 0.5,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0,
+      "y1": 0.5,
+      "z1": 0,
+      "x2": 0.25,
+      "y2": 0.75,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.5,
+      "z1": 0,
+      "x2": 0.5,
+      "y2": 0.75,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.5,
+      "y1": 0.5,
+      "z1": 0,
+      "x2": 0.75,
+      "y2": 0.75,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.75,
+      "y1": 0.5,
+      "z1": 0,
+      "x2": 1,
+      "y2": 0.75,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0,
+      "y1": 0.75,
+      "z1": 0,
+      "x2": 0.25,
+      "y2": 1,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.25,
+      "y1": 0.75,
+      "z1": 0,
+      "x2": 0.5,
+      "y2": 1,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.5,
+      "y1": 0.75,
+      "z1": 0,
+      "x2": 0.75,
+      "y2": 1,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    },
+    {
+      "x1": 0.75,
+      "y1": 0.75,
+      "z1": 0,
+      "x2": 1,
+      "y2": 1,
+      "z2": 0.4,
+      "rotateYByType": {
+        "*-west": 90,
+        "*-south": 180,
+        "*-east": 270
+      }
+    }
+  ]
 }
