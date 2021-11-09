@@ -1,5 +1,5 @@
 {
-  "code": "bottlerack",
+  "code": "bottlerackcorner",
   "class": "BlockBottleRack",
   "entityClass": "BottleRack",
   "behaviors": [ { "name": "HorizontalOrientable" } ],
@@ -18,7 +18,7 @@
     }
   ],
   "shape": {
-    "base": "block/bottlerack",
+    "base": "block/bottlerackcorner",
     "rotateYByType": {
       "*-west": 90,
       "*-south": 180,

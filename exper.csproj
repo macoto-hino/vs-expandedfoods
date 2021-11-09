@@ -84,9 +84,9 @@
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntitySpile.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntitySaucepan.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntityExpandedOven.cs" />
+    <Compile Include="src\ExpandedFoods\Block\BlockBottleRack.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockExpandedClayOven.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockBottle.cs" />
-    <Compile Include="src\ExpandedFoods\Block\BlockBottleRack.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockSaucepan.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockMeatHooks.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockScrewPress.cs" />
@@ -588,6 +588,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bighookmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bottlerack.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bottlerackcorner.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldron.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldronmoldblock.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\meathooks.json" />
@@ -829,6 +830,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bighookmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottlerack.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottlerackcorner.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldron\contents.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldron\empty.json" />
@@ -839,6 +841,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottle-3.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottleempty.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottleracked-1.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottleracked-2.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\glassbottleracked-3.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\meathooks.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowlmini\base.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowlmini\complete.json" />

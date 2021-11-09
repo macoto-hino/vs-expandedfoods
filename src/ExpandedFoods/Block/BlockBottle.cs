@@ -51,7 +51,6 @@ namespace ExpandedFoods
                 capi.Tesselator.TesselateShape("bucket", shape, out bucketmesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
             }
 
-
             return bucketmesh;
         }
 
