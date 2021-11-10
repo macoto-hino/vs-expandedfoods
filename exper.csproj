@@ -109,6 +109,7 @@
     <Compile Include="src\ExpandedFoods\Renderer\MixingBowlTopRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="changelog.txt" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\block\mixing.ogg" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\lock.ogg" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\sounds\player\gulp.ogg" />
@@ -712,6 +713,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\meatnugget.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\pasta.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\agedmeat.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\bottlerack.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\bottlerackcorner.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\glassbottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\meathooks.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\mixingbowl.json" />

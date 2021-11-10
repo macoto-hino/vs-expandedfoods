@@ -1,0 +1,704 @@
+[
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-acacia-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-acacia-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-baldcypress-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-baldcypress-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-birch-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-birch-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-ebony-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-ebony-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-kapok-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-kapok-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-larch-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-larch-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-maple-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-maple-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-oak-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-oak-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-pine-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-pine-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-purpleheart-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-purpleheart-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-redwood-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-redwood-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-walnut-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-walnut-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerack-*-aged-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerackcorner-{woodframe}-aged-north"
+		}
+	},	
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-acacia-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-acacia-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-baldcypress-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-baldcypress-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-birch-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-birch-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-ebony-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-ebony-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-kapok-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-kapok-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-larch-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-larch-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-maple-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-maple-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-oak-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-oak-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-pine-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-pine-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-purpleheart-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-purpleheart-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-redwood-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-redwood-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-walnut-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-walnut-north"
+		}
+	},
+	{
+		ingredientPattern: "BSH",
+		ingredients: {
+			"B": {
+				type: "block",
+				code: "bottlerackcorner-*-aged-north",
+				name: "woodframe"
+			},
+			"S": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true,
+			},
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true,
+			},
+		},
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: {
+			type: "block",
+			code: "bottlerack-{woodframe}-aged-north"
+		}
+	},
+]

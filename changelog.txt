@@ -1,0 +1,297 @@
+Changelog
+
+1.4.5
+Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings; all appropriate meals - DONE!!!
+Added stuffed bell peppers
+Added Stuffing
+Added peanut compatibility
+Added Acorn "Coffee" & Roasted Acorns
+Added peanut butter
+Added mayo - useable in salads, veggie stews, au gratin, and porridge
+Added cabbage rolls
+Added syrup-glazed termite sticks (w/acorns)
+Added century eggs
+Added lime eggs
+Added Wildcraft compatibility
+Added peanut & sunflower oil
+Fixed rice & bean textures
+Adedd cured aged meat
+Added bottle racks
+
+1.4.4 - 10K DOWNLOAD SPECIAL!
+Meat curing time decreased
+Ready for XSkills compatibility
+
+1.4.3
+Added Braziers compatibility
+Breaded food can be fried in saucepan/cauldron
+Metal rolling pin durabiltiy increased
+Meat curing time increased
+Aged meat/dried sausage nutrition bonus reduced from +50% to +25% 
+Yogurt changed from Protein to Dairy
+Acorn breaded meat display fixed
+Aged meatnuggets show up in meal description
+Honey & Maple/Birch yogurt can be made now
+Bread starter doesn't require yeast water to make more starter
+Knives can be used to chop up dried cassava & papyrus/cattail roots
+Sunflower, flax grain, and fruit syrups can be added to salads
+Spelt, rice, and amaranth grain can be added to soups
+Wine always rots into vinegar; vinegar rots into water
+
+1.4.2
+Added Rolling Pins - can be used to flatten food or as a weapon
+Added Pickled Eggs
+Added Soy Milk
+No more crashing when cooking items pulled directly from the creative inventory
+Chopped food; sausage; sauce/lard/food oil; milk; salt can be added to scrambled eggs meal
+Bone broth can be used to make dough; soft dough; hardtack
+Eggs & herbs can be used to make Hardtack
+Lard can be used to make dough; soft dough
+Cauldron lids added - CTRL + SHIFT + Right Click to put lid on cauldron
+Cauldrons may be recycled using a chisel
+Superfuels compatibility added
+Fixed compatibility with th3expansion mod
+
+1.4.1
+Added Cauldron - larger version of saucepan made out of metal
+Saucepan glitch fixed
+Savory sauces and food oil can be used in porridge
+Grubs & Termites can be used in meat stews & pies
+Seaweed can be used in stews
+Syrup-covered fried balls given names again
+Pasteurized milk has saucepan textures
+Smashing meat with a stone consumes the stone
+Dried fruit bakes properly
+Aged Sausage changed to Dried Sausage
+Clay items need to be fired in kiln
+Fixed fish-related crashing
+Bread no longer crashes when placed on shelves 
+
+1.4.0
+Many foods now compatible with clay oven (Vegetables/Chopped Vegetables; Aged Meat/Meat nuggets/Regular Meat; Fruit; Soaked Soybeans; Hardtack; Seaweed) [Fried Balls; Fried meat; Fried veggies; Soft Bread; Dumplings; Muffins; Pemmican; Sausage; Berry Bread; Gozinaki]
+Items updated with new vegetables (Cooked/Chopped/Cooked Chopped veggies; Juice; Soup meal; Gelatin) [Bell peppers pushed off till later] [Fried Balls; Fried veggies; Sushi]
+Items updated with new fruit (Dried fruit; Juice/Wine/Syrup; Yogurt; Gelatin; various meals) [Muffins; Pemmican; Berry Bread; Gozinaki]
+Updated bread items to include new flour types (Bread crumbs; Hardtack) [Fried Balls; Fried meat; Fried veggies; Soft Bread; Dumplings; Muffins; Pasta; Berry Bread]
+Bushmeat, Cured meat, mushrooms, gelatin, chopped food, sausage, raw eggs can be used in pies
+Pies are now EXPANDED - fillings can be mixed in any way and soft dough/herbal dough can be used as a crust
+Seaweed cooking process expanded to require the quern and clay oven for processing
+Aged meat nuggets and seaweed can be added to soup 
+Seaweed can be added to salad
+Hot pasta now actually carries over noodle nutrition
+Soft resin curing time cut to 18 days
+Cured meat nuggets available in pemmican recipe
+Re-added Boiled Egg (Thanks, Tyron...)
+Liquid portions downsized
+Handbook guides redone; recipes and items made more explicit
+Curing no longer multiplies nutrition
+Regular cooked cattail/papyrus roots disabled
+Mixing bowl made easier to select
+Screwpress updated with new wood types
+Handful of Acorns changed from Vegetable to Protein
+New pasta & seaweed textures textures (thanks to Ledyanaya Sonya)
+
+1.3.14
+Lard & food oil can be used to make oiled hides
+Fixed sap & juice saucepan combustible properties
+
+1.3.13
+Added recipe to make large hook mold
+Lard recipe fixed
+Breaded food recipes made properly compatible without Acorns
+Full Alchemy support - sausage and meat can be hung from the herb rack!
+Tea perish duration doubled
+Tea added to handbook
+
+1.3.12
+Added Alchemy support (mostly) - cuttings can be hung from the meat rack
+Pasta (cold) added
+Tea added 
+Herbal bread added
+Food oil/lard works with beeswax candle recipe
+Removed water from lard recipe
+Can press honeycombs in screwpress
+Meatnugget recipe fixed 
+Fermented yogurt can be sealed in barrels
+Cured bushmeat can be used in meat stews/soup
+Bottles display more info about the liquid they contain
+Yogurt given extra nutrients, output doubled
+Cheese may be used in hot pasta meals
+Boiled eggs may be used to make fried balls
+
+1.3.11
+Miniature Mixing Bowl added; mixing bowl collision boxes tweaked
+Flavored Yogurt added
+Salad nerfed; only accepts 1 meat & 1 fried item
+Hot Pasta added
+Spile in pine gets soft resin, cures into resin
+Herbal Gozinaki added
+Pemmican recipe gives 2 chunks of pemmican instead of 3
+Expanded liquids added (includes yogurt for now)
+Screwpress crashes fixed
+Regular bread no longer crashes on shelves
+
+1.3.10
+Cactus Syrup added
+Gozinaki added
+Gelatin added, can be put in berry dough
+Lard added, can be used as a replacement for fat or food oil & added into porridge (but not salads)
+Pasteurized milk added
+Yogurt added (new mixing meal added)
+Bone broth changed from Vegetable to Protein
+Acorn bread nutrition nerfed
+Cactus/Fruit Mix syrup render properly in baked goods
+Honey can be added to salads
+Handful of Acorns buffed when in meals/expanded foods
+Acorns can be added to salads, au gratin, and rice & beans
+Mixed fruit juice can be sealed in barrels to make wine
+Bottles removed from mechanical recipes, buckets only
+Food oil & lard added to dough recipes
+No more crashing when trying to make saguaro juice or putting wild yeast starter in barrels
+
+1.3.9
+Wine now cures into 'strong wine', which cures into 'fine wine'
+
+Mixed fruit wine can be turned into vinegar in barrels
+
+Dried berries can be used for pemmican
+Fruit Syrup can be added to fried food
+
+Squeezing soybeans in the screwpress actually makes soybean oil
+
+Fixed aged meat perish time
+Wine dropped from barrels is actually wine and not juice
+
+1.3.8
+Meat can be dried on the meat rack to make dried meat - can be chopped up and used like regular meat for everything except sausage & curing
+Fruit/Vegetable juice mix added
+Oil recipes for mechanical items fixed (Clutch can only be made with buckets, not bottles - causes crashing otherwise)
+Wine spoil/cure time doubled
+Cured meat nuggets are actually creatable now (Thanks EtherialMind)
+Soybean Oil can be used in meals
+Handbook wording made more explicit
+
+1.3.7
+Bottles revamp - now actual containers; use /efremap to map old bottles to new ones
+Added wild yeast - used to add healing to dough or soft dough
+Altered breadberry & muffin recipes, made normal bread an Expanded Food
+Added chopped cured meat - cured meat can now be fried
+Fried veggie/meat balls removed in favor of new item - Fried Balls
+All fried items now require flour, too!
+Fixed bread crumb name in salads
+Salad expiration time nerfed
+Deep fried food added
+New handbook section on liquids added
+Meat racks and spiles can only be made with these metals: Copper, brass, tin bronze, black bronze, titanium, steel
+Soaked soybeans added, now used to make soy sauce - soy beans now make food oil
+Soy sauce has less nutrition, more healing
+Saucepan no longer bigger on the inside
+
+
+1.3.6
+Syrup/sauce drizzling moved to the mixing bowl (should fix FPS drop)
+Cured meat and bread crumbs can be added to salads
+Handbook edited for clarity
+4x recipes for Spiles and Big Hooks added (thanks to DoctorVanGogh)
+Food oil can be used in place of animal fat for mechanics recipes (thanks to Jobediah Timberman for the recipes)
+Cleavers added to chopped food recipes
+Honey now gives HP in meals
+Sausage now rots properly and gives proper nutrient values when dried
+Putting chopped pickled carrots in sushi no longer crashes the game
+
+1.3.5
+Bone broth nutrition reduced, healing increased
+Sap leak time doubled
+Screwpress no longer crashes when clicking it with an item that cannot be pressed
+Bucket saucepan duplication bug fixed
+
+1.3.4
+Saucepan revamped - now capable of turning liquids into solids, and vice versa
+
+Bone broth added - can be used in stews
+
+Fried veggies added - can be added to salads as optional veggies
+
+
+Fruit juice turns into wine, which can be sealed into a barrel to make vinegar or used in meat stews
+
+
+Mixing bowl can be locked with CTRL + Shift
+
+
+Vinegar is now 0.25 liters per portion instead of 1
+
+Daisies are visible in salads and give proper nutrition boosts
+
+Fried/cooked meat is actually visible in salads (oops!)!
+
+Liquids rot properly
+
+Bottles & liquids given item descriptions
+
+1.3.3
+Can now add fried meat & ANY cooked meat to salads (including fish)
+Bottles no longer crash the game when used on a barrel
+Fruit juice turns into rot upon rotting; barrel recipes added for juice > vinegar conversion
+Screw press liquid overfilling patched
+Eliminated false salad clone
+
+1.3.2
+Memory leak during multiplayer fixed (among other issues) 
+Keys swapped for screw press; it now displays how much time is remaining
+Milk bottles now give dairy instead of protein
+Bottles and screw presses don't explode in water
+Pemmican buffed; now gives 3 balls instead of 1
+Mixing bowl can no longer accept infinite liquids
+
+1.3.1
+Multiplayer issues fixed (hopefully)
+Mixing bowl has new sound
+Can now add daisies to salads
+Seeds from Wild Farming can be squeezed into seed oil
+Fixed mixing bowl's axle shape
+Fruit in mixing bowl buffed to give 50% nutrition boost
+Clay/smithing recipe duplication fixed
+
+1.3.0
+Added new blocks: Bottles, Mixing Bowl, Saucepan, Spile, Screw Press
+Can now cook most pickled veggies
+Can use egg as adherant for breading
+Salt can be used in many recipes for healing
+Salt can be made in barrels out of water or brine
+All liquids have been buffed to give at least 0.5 HP
+
+1.2.4
+Added chopped veggies/pickled veggies/mushrooms & cooked variants; chopped veggies can be used for dumplings & sushi
+Added handbook guide
+Added hammer & Acorns mallot recipes for smashed meat/fish & pemmican
+Hardtack spoil times significantly buffed
+Smashed/Nugget meat now boosts meat satiety and spoils faster, all food using these items have been buffed
+Dumplings satiety in meals overall buffed (up to 1695 satiety from a single dumpling!)
+Sushi using veggies buffed
+Removed infinite egg boiling exploit
+Cooked cabbage shape changed
+
+1.2.3
+Added bread crumbs! Can be eaten as a snack, put in most meals, or used to make breaded/fried meat
+Added smashed & nugget versions of fish fillets - fish dumplings now require fish nuggets instead of a whole fillet
+Added hardtack
+Changed vinegar portion texture to a shape
+Changed meat nugget and fish shape in meals
+Added meat nugget and fish shapes to meat stews; added meat nugget shape to soups
+You can now use up to 2 slots in soups for nuggets
+
+1.2.2
+Implemented the Vinegar mod!
+Added muffins!
+Added fish jerky to trail mix recipe
+Berry bread can be made by putting berries in existing dough
+Changed soft bread shape to have fewer balls
+Changed fish pemmican texture to look less gross
+Added item descriptions to berry bread
+
+1.2.1
+Replaced fish fillet & au gratin textures; fish fillets display differently in meals
+Fixed au gratin name not displaying correctly
+Decreased nutrition of items requiring fish fillets by 100
+Different kinds of fish require different amounts of water to produce fish sauce (see fish sauce entry for amounts)
+Added fish pemmican & item descriptions to pemmican
