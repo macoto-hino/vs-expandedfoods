@@ -5148,5 +5148,14 @@
 	"item-cookedveggie-bellpepper-partbaked": "Cooked Bellpepper (part-baked)",
 	"item-cookedveggie-bellpepper-perfect": "Cooked Bellpepper",
 	"item-cookedveggie-bellpepper-charred": "Cooked Bellpepper (charred)",
-	"item-stuffedpepper-bare-oiled": "Stuffed Oiled Bellpepper",
+    "item-stuffedpepper-bare-oiled": "Stuffed Oiled Bellpepper",
+
+	"item-acornstuffedpepper-raw": "Stuffed Acorn Bellpepper (raw)",
+	"item-acornstuffedpepper-partbaked": "Stuffed Acorn Bellpepper (part-baked)",
+	"item-acornstuffedpepper-cooked": "Stuffed Acorn Bellpepper",
+	"item-acornstuffedpepper-charred": "Stuffed Acorn Bellpepper (charred)",
+	"item-acornstuffedpepper-syruppartbaked": "Stuffed Acorn Deluxe Bellpepper (part-baked)",
+	"item-acornstuffedpepper-syrupcooked": "Stuffed Acorn Deluxe Bellpepper",
+	"item-acornstuffedpepper-syrupcharred": "Stuffed Acorn  Deluxe Bellpepper (charred)",
+    "item-acornstuffedpepper-oiled": "Stuffed Acorn Oiled Bellpepper",
 }

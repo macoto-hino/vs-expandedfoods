@@ -616,6 +616,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\acornhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\acornmuffin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\acornpasta.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\acornstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\gozinaki.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\trailmixvegetarian.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\agedmeat.json" />
@@ -755,6 +756,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornmuffindough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornmuffinsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornpasta.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpepper.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpepperoiled.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpeppersyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\gozinaki.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\gozinakisyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\trailmixvegetarian.json" />

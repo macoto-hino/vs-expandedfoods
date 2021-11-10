@@ -1,15 +1,10 @@
 {
-	code: "stuffedpepper",
+	code: "acornstuffedpepper",
+	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["bare", "flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]},
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupcooked", "syrupcharred", "oiled"] },
-	],
-	skipVariants: [
-		"stuffedpepper-bare-syruppartbaked",
-		"stuffedpepper-bare-syrupcooked",
-		"stuffedpepper-bare-syrupcharred",
 	],
 	attributes: {
   		"expandedNutritionPropsByType": {
@@ -24,13 +19,13 @@
 				"game:flour-sunflower": {saturation: 150, foodcategory: "Grain"},
 				"game:flour-rice": {saturation: 165, foodcategory: "Grain"},
 				"acorns:flour-acorn": {saturation: 150, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-flax": {saturation: 80, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-rice": {saturation: 160, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-spelt": {saturation: 150, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-rye": {saturation: 150, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-cassava": {saturation: 150, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-amaranth": {saturation: 150, foodcategory: "Grain"},
-				"expandedfoods:breadcrumbs-sunflower": {saturation: 150, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-flax": {saturation: 120, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-rice": {saturation: 220, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-spelt": {saturation: 220, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-rye": {saturation: 220, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-cassava": {saturation: 220, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-amaranth": {saturation: 220, foodcategory: "Grain"},
+				"expandedfoods:acornbreadcrumbs-sunflower": {saturation: 220, foodcategory: "Grain"},
 				},
 			"*-syruppartbaked": {
       				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
@@ -55,7 +50,7 @@
 				levelTo: 0.25,
 				startScaleY: 1.0,
 				endScaleY: 1.0,
-				resultCode: "expandedfoods:stuffedpepper-{type}-partbaked"
+				resultCode: "expandedfoods:acornstuffedpepper-partbaked"
 			},
 			"*-oiled": {
 				temp: 100,
@@ -63,7 +58,7 @@
 				levelTo: 0.25,
 				startScaleY: 1.0,
 				endScaleY: 1.0,
-				resultCode: "expandedfoods:stuffedpepper-{type}-partbaked"
+				resultCode: "expandedfoods:acornstuffedpepper-partbaked"
 			},
 			"*-partbaked": {
 				temp: 100,
@@ -71,8 +66,8 @@
 				levelTo: 0.5,
 				startScaleY: 1.0,
 				endScaleY: 0.9,
-				resultCode: "expandedfoods:stuffedpepper-{type}-cooked",
-				initialCode: "expandedfoods:stuffedpepper-{type}-{raw|oiled}"
+				resultCode: "expandedfoods:acornstuffedpepper-cooked",
+				initialCode: "expandedfoods:acornstuffedpepper-{raw|oiled}"
 			},
 			"*-cooked": {
 				temp: 100,
@@ -80,8 +75,8 @@
 				levelTo: 0.75,
 				startScaleY: 0.9,
 				endScaleY: 0.8,
-				resultCode: "expandedfoods:stuffedpepper-{type}-charred",
-				initialCode: "expandedfoods:stuffedpepper-{type}-partbaked"
+				resultCode: "expandedfoods:acornstuffedpepper-charred",
+				initialCode: "expandedfoods:acornstuffedpepper-partbaked"
 			},
 			"*-charred": {
 				temp: 100,
@@ -89,7 +84,7 @@
 				levelTo: 1.0,
 				startScaleY: 0.8,
 				endScaleY: 0.7,
-				initialCode: "expandedfoods:stuffedpepper-{type}-cooked"
+				initialCode: "expandedfoods:acornstuffedpepper-cooked"
 			},
 			"*-syruppartbaked": {
 				temp: 100,
@@ -97,7 +92,7 @@
 				levelTo: 0.5,
 				startScaleY: 1.0,
 				endScaleY: 0.9,
-				resultCode: "expandedfoods:stuffedpepper-{type}-syrupcooked"
+				resultCode: "expandedfoods:acornstuffedpepper-syrupcooked"
 			},
 			"*-syrupcooked": {
 				temp: 100,
@@ -105,8 +100,8 @@
 				levelTo: 0.75,
 				startScaleY: 0.9,
 				endScaleY: 0.8,
-				resultCode: "expandedfoods:stuffedpepper-{type}-syrupcharred",
-				initialCode: "expandedfoods:stuffedpepper-{type}-syruppartbaked"
+				resultCode: "expandedfoods:acornstuffedpepper-syrupcharred",
+				initialCode: "expandedfoods:acornstuffedpepper-syruppartbaked"
 			},
 			"*-syrupcharred": {
 				temp: 100,
@@ -114,7 +109,7 @@
 				levelTo: 1.0,
 				startScaleY: 0.8,
 				endScaleY: 0.7,
-				initialCode: "expandedfoods:stuffedpepper-{type}-syrupcooked"
+				initialCode: "expandedfoods:acornstuffedpepper-syrupcooked"
 			}
 		},
 		onDisplayTransformByType: {
@@ -248,27 +243,6 @@
 	},
 	shape: { base: "item/food/stuffedbellpepper/stuffedbellpepper" },
 	texturesByType: {
-		"*-bare-*": {
-			"turnip": { "base": "item/food/veggie/perfect/turnip" },
-			"bluespread": { "base": "item/food/stuffedpepper/bluespread" },
-			"waxedblue": { "base": "game:block/food/dairy/waxedblue" },
-			"cheddarjack": { "base": "game:block/food/dairy/cheddarjack" },
-			"cheddarspread": { "base": "item/food/stuffedpepper/cheddarspread" },
-			"cottagecheese": { "base": "game:block/food/dairy/cottagecheese" },
-			"cottagespread": { "base": "item/food/stuffedpepper/cottagespread" },
-			"group1-flax-carrot-blueberry-cottagecheese-fish": { "base": "game:block/food/meal/group1-flax-carrot-blueberry-cottagecheese-fish" },
-			"group2-soup-flyagaric-cactifruit-redmeat": { "base": "game:block/food/meal/group2-soup-flyagaric-cactifruit-redmeat" },
-			"group3-millet-bolete-cranberry-poultry": { "base": "game:block/food/meal/group3-millet-bolete-cranberry-poultry" },
-			"group4-rice-parsnip-whitecurrant-bluecheese-fishstew": { "base": "game:block/food/meal/group4-rice-parsnip-whitecurrant-bluecheese-fishstew" },
-			"group5-rye-turnip-blackcurrant-cheddarcheese-poultrystew": { "base": "game:block/food/meal/group5-rye-turnip-blackcurrant-cheddarcheese-poultrystew" },
-			"group6-spelt-onion-redcurrant-egg-redmeatstew": { "base": "game:block/food/meal/group6-spelt-onion-redcurrant-egg-redmeatstew" },
-			"group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat": { "base": "game:block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat" },
-			"group8-amaranth-pumpkin-bellpepper-bushmeatstew": { "base": "game:block/food/meal/group8-amaranth-pumpkin-bellpepper-bushmeatstew" },
-			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
-			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
-			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "game:item/food/vegetable/bellpepper" }
-		},
 		"*-syruppartbaked": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
 			"bluespread": { "base": "item/food/stuffedpepper/bluespread" },
@@ -288,7 +262,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" }
 		},
 		"*-syrupcooked": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -309,7 +283,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" }
 		},
 		"*-syrupcharred": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -330,7 +304,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-fish" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-fish" }
 		},
 		"*-partbaked": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -351,7 +325,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-partbaked" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-partbaked" }
 		},
 		"*-cooked": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -372,7 +346,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-cooked" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-cooked" }
 		},
 		"*-charred": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -393,7 +367,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-charred" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-charred" }
 		},
 		"*-oiled": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -414,7 +388,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-oiled" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-oiled" }
 		},
 		"*-raw": {
 			"turnip": { "base": "item/food/veggie/perfect/turnip" },
@@ -435,7 +409,7 @@
 			"group9-sunflower-soya": { "base": "game:block/food/meal/group9-sunflower-soya" },
 			"group10-cabbage": { "base": "game:block/food/meal/group10-cabbage" },
 			"group11-cassava": { "base": "game:block/food/meal/group11-cassava" },
-			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/{type}-raw" }
+			"bellpepper": { "base": "expandedfoods:item/food/grain/breading/acorn-raw" }
 		},
 	},
 	nutritionPropsByType: {
@@ -547,52 +521,52 @@
 		},
 	},
 	combustiblePropsByType: {
-		"stuffedpepper-*-raw": {
+		"acornstuffedpepper-raw": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-charred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-charred" },
 			requiresContainer: false
 		},
-		"stuffedpepper-*-partbaked": {
+		"acornstuffedpepper-partbaked": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-charred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-charred" },
 			requiresContainer: false
 		},
-		"stuffedpepper-*-cooked": {
+		"acornstuffedpepper-cooked": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-charred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-charred" },
 			requiresContainer: false
 		},
-		"stuffedpepper-*-oiled": {
+		"acornstuffedpepper-oiled": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-charred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-charred" },
 			requiresContainer: false
 		},
-		"stuffedpepper-*-syruppartbaked": {
+		"acornstuffedpepper-syruppartbaked": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-syrupcharred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-syrupcharred" },
 			requiresContainer: false
 		},
-		"stuffedpepper-*-syrupcooked": {
+		"acornstuffedpepper-syrupcooked": {
 			meltingPoint: 150,
 			meltingDuration: 30,
 			smeltedRatio: 1,
 			smeltingType: "cook",
-			smeltedStack: { type: "item", code: "stuffedpepper-{type}-syrupcharred" },
+			smeltedStack: { type: "item", code: "acornstuffedpepper-syrupcharred" },
 			requiresContainer: false
 
 		},
