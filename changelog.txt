@@ -2,7 +2,7 @@ Changelog
 
 1.4.5
 Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings; all appropriate meals - DONE!!!
-Added stuffed bell peppers
+Added stuffed bell peppers - DONE!!!
 Added Stuffing
 Added peanut compatibility
 Added Acorn "Coffee" & Roasted Acorns
@@ -15,8 +15,9 @@ Added lime eggs
 Added Wildcraft compatibility
 Added peanut & sunflower oil
 Fixed rice & bean textures
-Adedd cured aged meat
+Added cured aged meat
 Added bottle racks
+Updated Primitive Survival compatibility
 
 1.4.4 - 10K DOWNLOAD SPECIAL!
 Meat curing time decreased

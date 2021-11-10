@@ -1,7 +1,6 @@
 {
 	
 	code: "fishnugget",
-	
 	enabled: "false",
 	maxstacksize: 64,
 	attributes: {

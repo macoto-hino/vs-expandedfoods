@@ -752,6 +752,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acorndough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acorndoughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acorndumpling.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornfishstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornmuffindough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornmuffinsyrup.json" />
@@ -789,6 +790,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedfishnuggetsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\fishdumpling.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\fishpemmican.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\fishstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\sausagefish.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\sushi.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\sushioil.json" />
@@ -820,6 +822,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalbread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalbreadsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalhardtack.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\pemmicanherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausagefishherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausageherb.json" />

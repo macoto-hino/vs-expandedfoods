@@ -173,7 +173,11 @@
 				"expandedfoods:sausage-bushmeatcheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/bushmeat.json",
 				"expandedfoods:sausage-poultrycheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/poultry.json",
 				"expandedfoods:sausage-redmeatcheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/redmeat.json",
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json"
+				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-normal-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-cheese-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-normal-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-cheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
 			},
 			"*": {
 				"game:vegetable-bellpepper": "expandedfoods:shapes/item/food/stuffedbellpepper/stuffedbellpepper.json",
@@ -229,7 +233,11 @@
 				"expandedfoods:sausage-bushmeatcheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/bushmeat.json",
 				"expandedfoods:sausage-poultrycheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/poultry.json",
 				"expandedfoods:sausage-redmeatcheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/redmeat.json",
-				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json"
+				"expandedfoods:fishnugget-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-normal-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-cheese-raw": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-normal-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
+				"expandedfoods:sausagefish-cheese-dried": "expandedfoods:shapes/item/food/stuffedbellpepper/fish.json",
 			}
 		},
 		satMultByType: {
