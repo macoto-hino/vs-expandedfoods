@@ -1,6 +1,5 @@
 [ 
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -12,7 +11,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-cheesy", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -23,7 +21,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-cheesy", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -35,7 +32,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-nutty", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -46,7 +42,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-nutty", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -58,7 +53,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-meaty", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -69,7 +63,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-meaty", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},
@@ -81,7 +74,6 @@
 	output: { type: "item", code: "expandedfoods:trailmix-fruity", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion",  quantity: 3 }]},
 		{inputs: [{ type: "item", code: "primitivesurvival:jerky-bushmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-poultry-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-redmeat-*", allowedVariants: ["cured", "cooked"], quantity: 4 }, { type: "item", code: "primitivesurvival:jerky-fish-*", allowedVariants: ["cured", "cooked"], quantity: 4 }]},

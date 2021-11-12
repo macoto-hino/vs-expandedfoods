@@ -413,6 +413,33 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-soy",
+    "value": [
+      "topping",
+      "foodoil"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-sunflower",
+    "value": [
+      "topping",
+      "foodoil"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:foodoilportion-peanut",
+    "value": [
+      "topping",
+      "foodoil"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:lard",
     "value": [
       "topping",

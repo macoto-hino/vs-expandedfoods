@@ -1,583 +1,583 @@
 [
  {
    file: "game:itemtypes/liquid/fishsauce.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/gelatinfish.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagefish.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedball.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedball.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnugget.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnuggetoiled.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnuggetsyrup.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnuggetsyrup.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/breadedfishnuggetsyrup.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
-    op: "replace", 
+    op: "add", 
     path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sausagefish.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/8/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/9/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/10/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/11/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/12/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/13/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/14/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/15/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/16/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/17/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/18/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "replace", 
+    op: "add", 
     path: "/19/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushioil.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushioil.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/trailmix.json",
-    op: "replace", 
+    op: "add", 
     path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/8/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "replace", 
+    op: "add", 
     path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
 ]

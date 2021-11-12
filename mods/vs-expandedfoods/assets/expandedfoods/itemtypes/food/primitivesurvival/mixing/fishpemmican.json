@@ -1,6 +1,5 @@
 {
 	code: "fishpemmican",
-	enabled: "false",
 	maxstacksize: 64,
   	class: "ExpandedFood",
 	variantgroups: [

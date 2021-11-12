@@ -1,6 +1,5 @@
 [
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -23,7 +22,6 @@
     	output: { type: "block", code: "hqzlights:brazier-scrap" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -46,7 +44,6 @@
     	output: { type: "block", code: "hqzlights:brazier-{metal}" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -69,7 +66,6 @@
     	output: { type: "block", code: "hqzlights:brazier-scrap" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -92,7 +88,6 @@
     	output: { type: "block", code: "hqzlights:brazier-{metal}" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -115,7 +110,6 @@
     	output: { type: "block", code: "hqzlights:brazier-scrap" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -138,7 +132,6 @@
     	output: { type: "block", code: "hqzlights:brazier-{metal}" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -161,7 +154,6 @@
     	output: { type: "block", code: "hqzlights:brazier-scrap" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -184,7 +176,6 @@
     	output: { type: "block", code: "hqzlights:brazier-{metal}" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -207,7 +198,6 @@
     	output: { type: "block", code: "hqzlights:brazier-scrap" }
     },
     {
-	enabled: "false",
     	ingredientPattern: "_H_,FWF,SLS",
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },

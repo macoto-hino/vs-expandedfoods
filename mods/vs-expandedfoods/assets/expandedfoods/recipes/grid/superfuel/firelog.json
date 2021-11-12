@@ -1,6 +1,5 @@
 [
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -28,7 +27,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -56,7 +54,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -84,7 +81,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  }, 
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -112,7 +108,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -142,7 +137,6 @@
 
 
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -170,7 +164,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -198,7 +191,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -226,7 +218,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  }, 
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {
@@ -254,7 +245,6 @@
   "output": { type: "item", code: "superfuel:firelog", "quantity": 8 }
  },
  {
-	enabled: "false",
   "ingredientPattern": "ASG",
   "ingredients": {
     "A": {

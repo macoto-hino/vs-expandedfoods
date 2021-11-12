@@ -1,6 +1,5 @@
 [
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-flax", quantity: 1 }]},
@@ -9,7 +8,6 @@
 	output: { type: "item", code: "game:dough-acornflax", stackSize: 2}
  }, 
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rice", quantity: 1 }]},
@@ -18,7 +16,6 @@
 	output: { type: "item", code: "game:dough-acornrice", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rye", quantity: 1 }]},
@@ -27,7 +24,6 @@
 	output: { type: "item", code: "game:dough-acornrye", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-spelt", quantity: 1 }]},
@@ -36,7 +32,6 @@
 	output: { type: "item", code: "game:dough-acornspelt", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-cassava", quantity: 1 }]},
@@ -45,7 +40,6 @@
 	output: { type: "item", code: "game:dough-acorncassava", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-amaranth", quantity: 1 }]},
@@ -54,7 +48,6 @@
 	output: { type: "item", code: "game:dough-acornamaranth", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-sunflower", quantity: 1 }]},
@@ -63,7 +56,6 @@
 	output: { type: "item", code: "game:dough-acornsunflower", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-flax", quantity: 1 }]},
@@ -73,7 +65,6 @@
 	output: { type: "item", code: "game:dough-acornflax", stackSize: 2}
  }, 
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rice", quantity: 1 }]},
@@ -83,7 +74,6 @@
 	output: { type: "item", code: "game:dough-acornrice", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rye", quantity: 1 }]},
@@ -93,7 +83,6 @@
 	output: { type: "item", code: "game:dough-acornrye", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-spelt", quantity: 1 }]},
@@ -103,7 +92,6 @@
 	output: { type: "item", code: "game:dough-acornspelt", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-cassava", quantity: 1 }]},
@@ -113,7 +101,6 @@
 	output: { type: "item", code: "game:dough-acorncassava", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-amaranth", quantity: 1 }]},
@@ -123,7 +110,6 @@
 	output: { type: "item", code: "game:dough-acornamaranth", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-sunflower", quantity: 1 }]},
@@ -133,7 +119,6 @@
 	output: { type: "item", code: "game:dough-acornsunflower", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-flax", quantity: 1 }]},
@@ -143,7 +128,6 @@
 	output: { type: "item", code: "game:dough-acornflax", stackSize: 2}
  }, 
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rice", quantity: 1 }]},
@@ -153,7 +137,6 @@
 	output: { type: "item", code: "game:dough-acornrice", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rye", quantity: 1 }]},
@@ -163,7 +146,6 @@
 	output: { type: "item", code: "game:dough-acornrye", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-spelt", quantity: 1 }]},
@@ -173,7 +155,6 @@
 	output: { type: "item", code: "game:dough-acornspelt", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-cassava", quantity: 1 }]},
@@ -183,7 +164,6 @@
 	output: { type: "item", code: "game:dough-acorncassava", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-amaranth", quantity: 1 }]},
@@ -193,7 +173,6 @@
 	output: { type: "item", code: "game:dough-acornamaranth", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-sunflower", quantity: 1 }]},
@@ -203,7 +182,6 @@
 	output: { type: "item", code: "game:dough-acornsunflower", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-flax", quantity: 1 }]},
@@ -214,7 +192,6 @@
 	output: { type: "item", code: "game:dough-acornflax", stackSize: 2}
  }, 
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rice", quantity: 1 }]},
@@ -225,7 +202,6 @@
 	output: { type: "item", code: "game:dough-acornrice", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-rye", quantity: 1 }]},
@@ -236,7 +212,6 @@
 	output: { type: "item", code: "game:dough-acornrye", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-spelt", quantity: 1 }]},
@@ -247,7 +222,6 @@
 	output: { type: "item", code: "game:dough-acornspelt", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-cassava", quantity: 1 }]},
@@ -258,7 +232,6 @@
 	output: { type: "item", code: "game:dough-acorncassava", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-amaranth", quantity: 1 }]},
@@ -269,7 +242,6 @@
 	output: { type: "item", code: "game:dough-acornamaranth", stackSize: 2}
  },
  {
-	enabled: "false",
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:waterportion",  quantity: 1 }, { type: "item", code: "game:milkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:pasteurizedmilkportion",  quantity: 1 }, { type: "item", code: "expandedfoods:brothportion-bone",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:soymilk-edible", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-sunflower", quantity: 1 }]},

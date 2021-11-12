@@ -1,6 +1,5 @@
 {
 	code: "fishsauce",
-	enabled: false,
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {

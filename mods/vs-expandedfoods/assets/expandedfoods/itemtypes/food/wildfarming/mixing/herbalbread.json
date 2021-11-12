@@ -1,6 +1,5 @@
 {
 	code: "herbalbread",
-	enabled: false,
   	classByType: {
 		"*-dough": "ExpandedDough",
 		"*": "ExpandedFood",

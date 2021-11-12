@@ -1,6 +1,5 @@
 {
 	code: "gozinakiherb",
-	enabled: false,
   	class: "ExpandedFood",
 	maxstacksize: 32,
 	variantgroups: [

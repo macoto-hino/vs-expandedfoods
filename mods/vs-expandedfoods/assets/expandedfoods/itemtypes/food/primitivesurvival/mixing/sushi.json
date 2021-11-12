@@ -1,6 +1,5 @@
 {
 	code: "sushi",
-	enabled: "false",
 	maxstacksize: 32,
   	class: "ExpandedFood",
 	attributes: {

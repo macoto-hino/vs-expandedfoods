@@ -1,8 +1,6 @@
 {
 	
 	code: "breadedfishnugget",
-
-	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [

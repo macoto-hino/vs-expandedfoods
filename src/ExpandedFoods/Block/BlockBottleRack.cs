@@ -1,22 +1,17 @@
-    using System;
-    using Vintagestory.API.Client;
-    using Vintagestory.API.Common;
-    using Vintagestory.API.MathTools;
+using System;
+using Vintagestory.API.Client;
+using Vintagestory.API.Common;
+using Vintagestory.API.MathTools;
+//using System.Diagnostics;
 
+namespace ExpandedFoods
+{
     public class BlockBottleRack : Block
     {
-
-        public MeshData GenMesh(ICoreClientAPI capi, string shapePath, ITexPositionSource texture, int slot, float rot, ITesselatorAPI tesselator = null)
+        public MeshData GenMesh(ICoreClientAPI capi, string shapePath, ITexPositionSource texture, ITesselatorAPI tesselator = null)
         {
-            var y = (float)(Math.Floor(slot / 4f) / 4f) - 0.25f;
-            var x = (float)(slot % 4) / 4 - 0.374f;
             var shape = capi.Assets.TryGet(shapePath + ".json").ToObject<Shape>();
             tesselator.TesselateShape(shapePath, shape, out var mesh, texture, new Vec3f(this.Shape.rotateX, this.Shape.rotateY, this.Shape.rotateZ));
-            if (slot >= 0)
-            {
-                mesh.Translate(x, y - 0.475f, -0.375f);
-                mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 1.57f, 0f, rot);
-            }
             return mesh;
         }
 
@@ -33,4 +28,39 @@
             { return bedc.OnInteract(byPlayer, blockSel); }
             return base.OnBlockInteractStart(world, byPlayer, blockSel);
         }
+
+        /*
+        public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
+        {
+            if (this.FirstCodePart() == "bottlerack")
+            { return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode); }
+            var block = world.BlockAccessor.GetBlock(blockSel.Position);
+            var face = blockSel.Face.ToString();
+            
+            var targetPos = blockSel.DidOffset ? blockSel.Position.AddCopy(blockSel.Face.Opposite) : blockSel.Position;
+            var angle = Math.Atan2(byPlayer.Entity.Pos.X - (targetPos.X + blockSel.HitPosition.X), byPlayer.Entity.Pos.Z - (targetPos.Z + blockSel.HitPosition.Z));
+            angle += Math.PI;
+            angle /= Math.PI / 4;
+
+            var facing = "south";
+            if (angle < 2)
+            { facing = "east"; }
+            else if (angle < 4)
+            { facing = "north"; }
+            else if (angle < 6)
+            { facing = "west"; }
+                
+            var newPath = this.Code.Path.Replace("north", facing); 
+            var blockToPlace = this.api.World.GetBlock(this.CodeWithPath(newPath));
+            if (blockToPlace != null)
+            {
+                if (!CanPlaceBlock(world, byPlayer, blockSel, ref failureCode))
+                { return false; }
+                world.BlockAccessor.SetBlock(blockToPlace.BlockId, blockSel.Position);
+                return true;
+            }
+            return false;
+        }
+        */
     }
+}

@@ -1,6 +1,5 @@
 {
 	code: "acornpasta",
-	enabled: "false",
 	maxstacksize: 32,
   	class: "ExpandedFood",
 	variantgroups: [

@@ -1337,6 +1337,24 @@
           ]
         },
         {
+            "type": "item",
+            "code": "expandedfoods:foodoilportion-sunflower",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "foodoil"
+            ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-peanut",
+          "shapeElement": "bowl/topping/*",
+	  "textureMapping": [
+	    "topping",
+	    "foodoil"
+	 ]
+        },
+        {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",

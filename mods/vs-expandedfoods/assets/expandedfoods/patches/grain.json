@@ -22,5 +22,18 @@
     "path": "/attributesByType/*-rice/squeezeRatio",
     "value": 4,
     "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-sunflower",
+    "value": {
+      "nutritionPropsWhenInMeal": {
+        "satiety": 240,
+        "foodcategory": "Grain"
+      },
+      "squeezeInto": "expandedfoods:foodoilportion-sunflower",
+      "squeezeRatio": 4
+    },
+    "file": "game:itemtypes/food/grain.json"
   }
 ]

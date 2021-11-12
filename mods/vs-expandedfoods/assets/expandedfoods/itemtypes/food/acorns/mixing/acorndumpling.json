@@ -1,6 +1,5 @@
 {
 	code: "acorndumpling",
-	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 32,
 	variantgroups: [

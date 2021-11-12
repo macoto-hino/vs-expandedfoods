@@ -1,6 +1,5 @@
 {
 	code: "gozinaki",
-	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 32,
 	variantgroups: [

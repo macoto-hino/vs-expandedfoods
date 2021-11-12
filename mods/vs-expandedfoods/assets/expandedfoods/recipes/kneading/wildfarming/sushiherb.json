@@ -1,6 +1,5 @@
 [
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -11,7 +10,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-noveggie-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -21,7 +19,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-noveggie-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -33,7 +30,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-cabbage-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -44,7 +40,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-cabbage-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -56,7 +51,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-bolete-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -67,7 +61,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-bolete-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -79,7 +72,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-fieldmushroom-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -90,7 +82,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-fieldmushroom-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -102,7 +93,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-soybean-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -113,7 +103,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-soybean-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -125,7 +114,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-carrot-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -136,7 +124,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-carrot-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -148,7 +135,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-onion-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -159,7 +145,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-onion-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -171,7 +156,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-parsnip-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -182,7 +166,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-parsnip-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
@@ -194,7 +177,6 @@
 	output: { type: "item", code: "expandedfoods:sushi-turnip-nooil", stackSize: 1}
  },
  {
-	enabled: false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},

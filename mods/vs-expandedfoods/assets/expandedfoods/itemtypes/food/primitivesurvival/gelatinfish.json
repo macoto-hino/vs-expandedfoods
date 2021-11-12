@@ -1,6 +1,5 @@
 {
 	code: "gelatinfish",
-	enabled: "false",
 	transitionableProps: [{
     		type: "Perish",
     		freshHours: { avg: 720 },

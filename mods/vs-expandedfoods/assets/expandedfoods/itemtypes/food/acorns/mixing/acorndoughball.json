@@ -1,6 +1,5 @@
 {
 	code: "acorndoughball",
-	enabled: "false",
 	maxstacksize: 32,
   	classByType: {
 		"*-dough": "ExpandedDough",

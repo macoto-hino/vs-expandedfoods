@@ -1,6 +1,5 @@
 {
 	code: "herbalhardtack",
-	enabled: false,
   	class: "ExpandedFood",
 	maxstacksize: 128,
 	variantgroups: [

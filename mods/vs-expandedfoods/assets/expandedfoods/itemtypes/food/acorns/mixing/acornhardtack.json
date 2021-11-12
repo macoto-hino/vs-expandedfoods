@@ -1,6 +1,5 @@
 {
 	code: "acornhardtack",
-	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 128,
 	variantgroups: [

@@ -1,6 +1,5 @@
 {
 	code: "tea",
-	enabled: false,
 	class: "ExpandedLiquid",
 	matterState: "liquid",
 	attributes: {

@@ -1,14 +1,17 @@
 [
   {
     "op": "add",
-    "path": "/attributes/squeezeInto",
-    "value": "expandedfoods:foodoilportion-soy",
-    "file": "game:itemtypes/food/legume.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributes/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType",
+    "value": {
+      "*-soybean": {
+        "squeezeInto": "expandedfoods:foodoilportion-soy",
+        "squeezeRatio": 4
+      },
+      "*-peanut": {
+        "squeezeInto": "expandedfoods:foodoilportion-peanut",
+        "squeezeRatio": 2
+      }
+    },
     "file": "game:itemtypes/food/legume.json"
   }
 ]

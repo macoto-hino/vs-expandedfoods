@@ -1,6 +1,5 @@
 {
 	code: "acornbreadcrumbs",
-	enabled: "false",
 	maxstacksize: 128,
 	attributes: {
 		nutritionPropsWhenInMeal: { 

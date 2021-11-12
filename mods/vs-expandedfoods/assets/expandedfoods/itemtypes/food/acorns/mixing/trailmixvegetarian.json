@@ -1,6 +1,5 @@
 {
 	code: "trailmixvegetarian",
-	enabled: "false",
   	class: "ExpandedFood",
 	maxstacksize: 16,
 	variantgroups: [
