@@ -1,6 +1,5 @@
 [
   {
-	enabled: "false",
 	ingredientPattern: "K,P",
 	ingredients: {
 		"P": { 
@@ -20,7 +19,6 @@
 	output: { type: "item", code: "acornpasta-cut"  }
   },
   {
-	enabled: "false",
     "ingredientPattern": "SP",
     "ingredients": {
       "S": {
@@ -40,7 +38,6 @@
     "output": { type: "item", code: "acornpasta-cut" }
    },
   {
-	enabled: "false",
 	ingredientPattern: "R,M",
 	ingredients: {
 		"R": { 
@@ -58,7 +55,6 @@
 	output: { type: "item", code: "acornpasta-flat"  }
   },
   {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 
@@ -77,7 +73,6 @@
 	output: { type: "item", code: "acornpasta-flat"  }
   },
   {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 
@@ -97,7 +92,6 @@
 	output: { type: "item", code: "acornpasta-flat"  }
   },
   {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 

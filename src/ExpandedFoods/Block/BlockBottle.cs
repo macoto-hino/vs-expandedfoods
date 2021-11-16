@@ -54,6 +54,51 @@ namespace ExpandedFoods
             return bucketmesh;
         }
 
+
+
+
+        public MeshData GenMeshSideways(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
+        {
+            Shape shape = null;
+            MeshData bucketmesh = null;
+            
+
+            if (contentStack != null)
+            {
+                WaterTightContainableProps props = GetInContainerProps(contentStack);
+
+                BottleTextureSource contentSource = new BottleTextureSource(capi, contentStack, props.Texture, this);
+
+                float level = contentStack.StackSize / props.ItemsPerLitre;
+
+                if (level <= 0.25f)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-1.json").ToObject<Shape>();
+                }
+                else if (level <= 0.5f)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-2.json").ToObject<Shape>();
+                }
+                else if (level < 1)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-3.json").ToObject<Shape>();
+                }
+                else
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottle.json").ToObject<Shape>();
+                }
+                
+                capi.Tesselator.TesselateShape("bucket", shape, out bucketmesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
+            }
+
+            return bucketmesh;
+        }
+
+
+
+
+
+
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {
             if (Code.Path.Contains("clay")) return;

@@ -19,7 +19,10 @@
 			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
 		},
 		renderIngredients: {
+			"game:legume-peanut": "expandedfoods:shapes/item/food/trailmix.json",
 			"expandedfoods:acornportion": "expandedfoods:shapes/item/food/trailmix.json",
+      		"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/trailmix.json",
+      		"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/trailmix.json",
 		},
 	},
 	materialDensity: 300,

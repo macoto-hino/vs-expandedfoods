@@ -1,0 +1,82 @@
+{
+	code: "peanutliquid",
+	classByType: { "*-butter": "ExpandedLiquid", "*-sauce": "ExpandedLiquid", "*-paste": "ItemLiquidPortion"},
+	matterState: "liquid",
+	variantgroups: [
+		{ code: "type", states: ["paste", "butter", "sauce"] },
+	],
+	attributes: {
+		inContainerTexture: { base: "item/food/peanut/{type}" },
+		inBowlShape: { base: "game:block/meal/liquid" },
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 16,
+			texture: { base: "item/food/peanut/{type}" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: {
+					type: "item",
+					code: "expandedfoods:peanutliquid-{type}"
+				}
+			}
+		},
+		"expandedNutritionPropsByType": {
+			"*-sauce": {
+				"expandedfoods:peanutliquid-paste": { saturation: 100, foodcategory: "Protein" },
+				"game:salt": { saturation: 10, health: 0.5, foodcategory: "Protein"	},
+      			"game:honeyportion" : { saturation: 30, health: 0.25, foodcategory: "Fruit" },
+      			"expandedfoods:treesyrupportion-*" : { saturation: 60, health: 0.75, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-mix" : { saturation: 160, health: 3, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 135, health: 2.25, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-blueberry" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-cranberry" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-redcurrant" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-whitecurrant" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-blackcurrant" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+      			"expandedfoods:fruitsyrupportion-pineapple" : { saturation: 135, health: 1.5, foodcategory: "Fruit" },
+			},
+			"*-butter": {
+				"expandedfoods:peanutliquid-paste": { saturation: 200, foodcategory: "Protein" },
+				"game:salt": { saturation: 10, health: 0.5, foodcategory: "Protein"	},
+      			"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
+			},
+		},
+	},
+	shape: { base: "game:item/liquid" },
+	texture: { base: "item/food/peanut/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	nutritionPropsByType: {
+		"*": { saturation: 0, foodcategory: "Protein" }
+	},
+	transitionablePropsByType: {
+		"*-butter":[{
+    			type: "Perish",
+				freshHours: { avg: 4380 },
+				transitionHours: { avg: 438 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		}],
+		"*":[{
+    			type: "Perish",
+				freshHours: { avg: 2190 },
+				transitionHours: { avg: 220 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+  		}],
+	},
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

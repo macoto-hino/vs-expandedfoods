@@ -1,6 +1,5 @@
 [	
  {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 
@@ -20,7 +19,6 @@
 	output: { type: "item", code: "meatnugget-bushmeat-smashed"  }
   },
   {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 
@@ -40,7 +38,6 @@
 	output: { type: "item", code: "meatnugget-poultry-smashed"  }
   },
   {
-	enabled: "false",
 	ingredientPattern: "H,M",
 	ingredients: {
 		"H": { 

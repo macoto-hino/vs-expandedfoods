@@ -77,7 +77,7 @@
 	},
 	variantgroups: [
 		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "cassava", "noveggie"] },
-		{ code: "oiled", states: ["nooil", "oil", "honey"]},
+		{ code: "oiled", states: ["nooil", "oil", "honey", "peanut"]},
 	],
 	materialDensity: 150,
         shapeByType: {

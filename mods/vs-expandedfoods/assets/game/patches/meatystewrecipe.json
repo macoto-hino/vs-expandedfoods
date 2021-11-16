@@ -2703,6 +2703,48 @@
     },
     "file": "recipes/cooking/meatystew.json"
   },
+ {
+    "op": "add",
+    "path": "/ingredients/12/validStacks/1",
+    "value": {
+      "type": "item",
+          "code": "game:legume-peanut",
+          "shapeElement": "bowl/nuts 1/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/12/validStacks/2",
+    "value": {
+      "type": "item",
+          "code": "expandedfoods:peanut-cooked",
+          "shapeElement": "bowl/nuts 1/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/12/validStacks/3",
+    "value": {
+      "type": "item",
+          "code": "expandedfoods:peanut-kernels",
+          "shapeElement": "bowl/nuts 1/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
   {
     "op": "add",
     "path": "/ingredients/13",
@@ -2723,5 +2765,47 @@
       "maxQuantity": 1
     },
     "file": "recipes/cooking/meatystew.json"
-  }
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/13/validStacks/1",
+    "value": {
+      "type": "item",
+          "code": "game:legume-peanut",
+          "shapeElement": "bowl/nuts 2/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/13/validStacks/2",
+    "value": {
+      "type": "item",
+          "code": "expandedfoods:peanut-cooked",
+          "shapeElement": "bowl/nuts 2/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/13/validStacks/3",
+    "value": {
+      "type": "item",
+          "code": "expandedfoods:peanut-kernels",
+          "shapeElement": "bowl/nuts 2/*",
+          "textureMapping": [
+            "acorns",
+            "acorns"
+          ]
+    },
+    "file": "recipes/cooking/meatystew.json"
+  },
 ]

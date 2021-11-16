@@ -1,16 +1,16 @@
+using System;
 using System.Text;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 using Vintagestory.API.Datastructures;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+using Vintagestory.API.Config;
+//using System.Diagnostics;
 
 namespace ExpandedFoods
 {
-    public class BlockEntityBottleRack : BlockEntityDisplay
+    public class BlockEntityBottleRack : BlockEntityShelf
     {
         private readonly int maxSlots = 16;
         public override string InventoryClassName => "bottlerack";
@@ -41,10 +41,10 @@ namespace ExpandedFoods
                     if (colObj.Code.Path.StartsWith("bottle-"))
                     {
                         if (this.TryPut(playerSlot, blockSel))
-                        { 
-                        var sound = this.Block?.Sounds?.Place;
-                        this.Api.World.PlaySoundAt(sound ?? new AssetLocation("game:sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
-                        return true; 
+                        {
+                            var sound = this.Block?.Sounds?.Place;
+                            this.Api.World.PlaySoundAt(sound ?? new AssetLocation("game:sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
+                            return true; 
                         }
                     }
                     return false;
@@ -115,7 +115,6 @@ namespace ExpandedFoods
             }
         }
 
-
         public MeshData TransformBottleMesh(MeshData mesh, int slot, string type, string direction)
         {
             var rot = 0f; //north in radians
@@ -128,7 +127,7 @@ namespace ExpandedFoods
             double col = slot % 4;
             var x = (float)col / 4 - 0.38f;
             var y = (float)(Math.Floor(slot / 4f) / 4f) - 0.3f;
-            mesh.Translate(x, y - 0.5f, -0.4f);
+            mesh.Translate(x, y - 0.5f, -0.42f);
             if (type == "bottlerackcorner")
             {
                 if (col == 1 || col == 2)
@@ -136,7 +135,7 @@ namespace ExpandedFoods
             }
             
             mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 1.57f, 0f, rot);
-            mesh.Scale(new Vec3f(0.5f, 0.5f, 0.5f), 0.97f, 0.97f, 0.97f);
+            mesh.Scale(new Vec3f(0.5f, 0.5f, 0.5f), 0.99f, 0.99f, 0.99f);
             if (type == "bottlerackcorner")
             { 
                 if ( col == 1 || col == 2) 
@@ -155,7 +154,7 @@ namespace ExpandedFoods
             MeshData mesh;
             var shapeBase = "expandedfoods:shapes/";
             var block = this.Api.World.BlockAccessor.GetBlock(this.Pos) as BlockBottleRack;
-            mesh = capi.TesselatorManager.GetDefaultBlockMesh(block); //.Clone(); //add bottle rack
+            mesh = capi.TesselatorManager.GetDefaultBlockMesh(block); //add bottle rack
             mesher.AddMeshData(mesh);
             for (var i = 0; i <= 15; i++)
             {
@@ -175,16 +174,9 @@ namespace ExpandedFoods
                         ItemStack content = (this.inventory[i].Itemstack.Collectible as BlockBottle).GetContent(Api.World, this.inventory[i].Itemstack);
                         if (content != null) //glass bottle with contents
                         {
-                            try
-                            {
-                                mesh = (this.inventory[i].Itemstack.Collectible as BlockBottle).GenMesh(Api as ICoreClientAPI, content);
-                                mesh = TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
-                                mesher.AddMeshData(mesh);
-                            }
-                            catch
-                            {
-                                Debug.WriteLine("ah fuck");
-                            }
+                            mesh = (this.inventory[i].Itemstack.Collectible as BlockBottle).GenMeshSideways(Api as ICoreClientAPI, content, null);
+                            mesh = TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
+                            mesher.AddMeshData(mesh);
                         }
                         else //glass bottle
                         {
@@ -202,7 +194,7 @@ namespace ExpandedFoods
 
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder sb)
         {
-            base.GetBlockInfo(forPlayer, sb);
+            sb.AppendLine(Lang.Get("Suitable spot for liquid storage."));
             sb.AppendLine();
             if (forPlayer?.CurrentBlockSelection == null)
             { return; }

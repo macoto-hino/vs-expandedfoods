@@ -9,6 +9,8 @@
 		"glass": [4,4],
 		"map": [8,8]
 	},
+	"textures": {
+	},
 	"elements": [
 		{
 			"name": "content",
@@ -42,32 +44,31 @@
 			"children": [
 				{
 					"name": "cork1",
-					"from": [ 1.0, 4.0, 1.0 ], 
-					"to": [ 2.0, 5.0, 2.0 ],
+					"from": [ 1.0, 4.05, 1.0 ], 
+					"to": [ 2.0, 5.0, 2.0 ], 
+					"renderPass": 2,
 					"rotationOrigin": [ 7.0, 4.0, 7.0 ],
-					"renderPass": 1,
 					"faces": {
-						"north": { "texture": "#map", "uv": [ 6.5, 1.25, 7.5, 2.25 ] },
-						"east": { "texture": "#map", "uv": [ 6.5, 1.75, 7.5, 2.75 ] },
-						"south": { "texture": "#map", "uv": [ 6.5, 2.75, 7.5, 3.75 ] },
-						"west": { "texture": "#map", "uv": [ 6.5, 3.75, 7.5, 4.75 ] },
+						"north": { "texture": "#map", "uv": [ 6.5, 1.5, 7.5, 2.0 ] },
+						"east": { "texture": "#map", "uv": [ 6.5, 2.0, 7.5, 2.5 ] },
+						"south": { "texture": "#map", "uv": [ 6.5, 3.0, 7.5, 3.5 ] },
+						"west": { "texture": "#map", "uv": [ 6.5, 4.0, 7.5, 4.5 ] },
 						"up": { "texture": "#map", "uv": [ 5.5, 4.0, 6.5, 5.0 ] },
-						"down": { "texture": "#map", "uv": [ 5.5, 4.25, 6.5, 5.25 ] }
+						"down": { "texture": "#map", "uv": [ 5.5, 4.5, 6.5, 5.5 ] }
 					},
 					"children": [
 						{
 							"name": "cork2",
-							"from": [ -0.5, 1.0, -0.5 ], 
-							"to": [ 1.5, 2.0, 1.5 ], 
-							"renderPass": 3,
+							"from": [ -0.5, 0.95, -0.5 ], 
+							"to": [ 1.5, 1.95, 1.5 ], 
+							"renderPass": 2,
 							"rotationOrigin": [ 0.0, 1.0, 0.0 ],
-							"renderPass": 1,
 							"faces": {
 								"north": { "texture": "#map", "uv": [ 5.5, 1.0, 6.5, 3.0 ], "rotation": 90 },
 								"east": { "texture": "#map", "uv": [ 5.5, 1.5, 6.5, 3.5 ], "rotation": 90 },
 								"south": { "texture": "#map", "uv": [ 5.5, 2.5, 6.5, 4.5 ], "rotation": 270 },
 								"west": { "texture": "#map", "uv": [ 5.5, 3.5, 6.5, 5.5 ], "rotation": 270 },
-								"up": { "texture": "#map", "uv": [ 5.25, 2.0, 7.25, 4.0 ] },
+								"up": { "texture": "#map", "uv": [ 5.5, 2.0, 7.5, 4.0 ] },
 								"down": { "texture": "#map", "uv": [ 5.0, 2.5, 7.0, 4.5 ] }
 							}
 						}

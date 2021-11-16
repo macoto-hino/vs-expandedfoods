@@ -1,5 +1,4 @@
 {
-	enabled: "false",
 	ingredientPattern: "WFA,E__",
 	ingredients: {
 		"W": { 

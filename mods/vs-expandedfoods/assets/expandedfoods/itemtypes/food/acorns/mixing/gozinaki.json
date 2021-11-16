@@ -19,16 +19,26 @@
 		},
     		renderIngredientsByType: {
 			"*-cooked": {
+      				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
       				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
 			},
 			"*-mashed": {
+      				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
       				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      				"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
 			},
 			"*-syrup": {
+      				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
       				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
-				"expandedfoods:treesyrupportion-birch": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakibirchsyrup.json",
-				"expandedfoods:treesyrupportion-maple": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakimaplesyrup.json",
-				"expandedfoods:fruitsyrupportion-blueberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiblueberrysyrup.json",
+      				"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"expandedfoods:peanutliquid-paste" : "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakipeanutbutter.json",
+					"expandedfoods:treesyrupportion-birch": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakibirchsyrup.json",
+					"expandedfoods:treesyrupportion-maple": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakimaplesyrup.json",
+					"expandedfoods:fruitsyrupportion-blueberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiblueberrysyrup.json",
       				"expandedfoods:fruitsyrupportion-cranberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakicranberrysyrup.json",
       				"expandedfoods:fruitsyrupportion-redcurrant": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiredcurrantsyrup.json",
       				"expandedfoods:fruitsyrupportion-blackcurrant": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiblackcurrantsyrup.json",
@@ -88,6 +98,7 @@
 		"strongtannin": { base: "game:block/liquid/strongtannin"},
 		"mixwine": { base: "game:item/liquid/mixwine"},
 		"saguaro": { base: "game:item/liquid/saguaro"},
+		"peanutbutter": { base: "item/food/peanut/butter"},
   	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {

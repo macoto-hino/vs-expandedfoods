@@ -5716,18 +5716,54 @@
 						requiresContainer: false
 					}
 				},
+                {
+                    Ingredients: [
+                        {
+                            type: "item",
+                            code: "expandedfoods:lard",
+                            quantity: 1
+                        },
+                        {
+                            type: "item",
+                            code: "expandedfoods:acornstuffedpepper-raw",
+                            quantity: 1
+                        },
+                    ],
+                    Simmering: {
+                        meltingPoint: 150,
+                        meltingDuration: 10,
+                        smeltedRatio: 1,
+                        smeltingType: "bake",
+                        smeltedStack: {
+                            type: "item",
+                            code: "expandedfoods:acornstuffedpepper-cooked"
+                        },
+                        requiresContainer: false
+                    }
+                },
 				{
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
-						{ type: "item", code: "expandedfoods:acornstuffedpepper-raw", quantity: 1 },
+					"Ingredients": [
+						{
+							"type": "item",
+							"code": "waterportion",
+							"quantity": 1
+						},
+						{
+							"type": "item",
+							"code": "game:legume-peanut",
+							"quantity": 1
+						}
 					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornstuffedpepper-cooked" },
-						requiresContainer: false
+					"Simmering": {
+						"meltingPoint": 150,
+						"meltingDuration": 45,
+						"smeltedRatio": 1,
+						"smeltingType": "bake",
+						"smeltedStack": {
+							"type": "item",
+							"code": "expandedfoods:peanut-cooked"
+						},
+						"requiresContainer": false
 					}
 				},
 			],
@@ -5764,7 +5800,8 @@
 	"blockmaterial": "Metal",
 	"texturesbyType": {
 		"*-iron": {
-			"metal": { "base": "block/cauldron/castiron" },
+            "metal": { "base": "block/cauldron/castiron" },
+			"metal2": { "base": "game:block/metal/sheet/gold1" },
 			"metaldark": {
 				"base": "block/cauldron/castiron",
 				"overlays": [ "block/cauldron/metaloverlay" ]
@@ -5775,7 +5812,8 @@
 			}
 		},
 		"*-meteoriciron": {
-			"metal": { "base": "block/cauldron/meteoriciron" },
+            "metal": { "base": "block/cauldron/meteoriciron" },
+			"metal2": { "base": "game:block/metal/sheet/blackbronze1" },
 			"metaldark": {
 				"base": "block/cauldron/meteoriciron",
 				"overlays": [ "block/cauldron/metaloverlay" ]
@@ -5786,13 +5824,14 @@
 			}
 		},
 		"*": {
-			"metal": { "base": "game:block/metal/plate/{metal}" },
+            "metal": { "base": "game:block/metal/sheet/{metal}1" },
+			"metal2": { "base": "game:block/metal/sheet/blackbronze1" },
 			"metaldark": {
-				"base": "game:block/metal/plate/{metal}",
+				"base": "game:block/metal/sheet/{metal}1",
 				"overlays": [ "block/cauldron/metaloverlay" ]
 			},
 			"metalgradient": {
-				"base": "game:block/metal/plate/{metal}",
+				"base": "game:block/metal/sheet/{metal}1",
 				"overlays": [ "block/cauldron/metaloverlaygradient" ]
 			}
 		}

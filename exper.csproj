@@ -272,6 +272,10 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pasta\ryepasta.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pasta\speltpasta.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pasta\sunflowerpasta.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\peanut\cooked.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\peanut\butter.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\peanut\paste.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\peanut\sauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pemmican\fish\pemmicanfish-ball.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pemmican\fish\pemmicanfish-charred.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pemmican\fish\pemmicanfish-partbaked.png" />
@@ -640,6 +644,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\plaindoughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\sausage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\sushiveg.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\primitivesurvival\fishnugget.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\primitivesurvival\gelatinfish.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\primitivesurvival\mixing\breadedfishnugget.json" />
@@ -666,6 +671,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\maplesap.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\mixjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\pasteruizedmilk.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\peanutliquid.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\softresin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\soymilk.json" />
@@ -729,6 +735,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\oilitems\oilcandle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\oilitems\oillamp.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\pastaprep.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\primitivesurvival\fishnugget.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\rollingpinrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\seaweedsheet.json" />
@@ -783,6 +790,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\muffindough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\muffinsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\pasta.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\peanutbutter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\peanutsauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\pemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedfishnugget.json" />
@@ -978,6 +987,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornhoney.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornmaplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornmixsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornpeanutbutter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornpeanutsauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornpineapplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornredcurrantsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornsaguarosyrup.json" />
@@ -989,6 +1000,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadhoney.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadmaplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadmixsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadpeanutbutter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadpeanutsauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadpineapplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadredcurrantsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\breadsaguarosyrup.json" />
@@ -1000,6 +1013,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinhoney.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinmaplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinmixsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinpeanutbutter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinpeanutsauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinpineapplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinredcurrantsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\muffinsaguarosyrup.json" />
@@ -1094,6 +1109,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakicranberrysyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakimaplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakimixsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakipeanutbutter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakipineapplesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakiredcurrantsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\gozinaki\overlays\gozinakisaguarosyrup.json" />
@@ -1146,6 +1162,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\meat\sausage-bushmeat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\meat\sausage-poultry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\meat\sausage-redmeat.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\peanut\kernels.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\peanut\skins.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\pemmican\fishpemmican-ball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\pemmican\fishpemmican-plain.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\pemmican\pemmican-ball-bushmeat.json" />
@@ -1341,6 +1359,8 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-half.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-quarter.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-threefourths.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\trough-large.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\trough-small.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\vegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\veggiestewrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\veggiestewshape.json" />
@@ -1366,7 +1386,14 @@
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\meal\riceandbeans.json" />
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\meal\salad.json" />
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\meal\yogurt.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill1.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill2.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill3.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill4.json" />
     <None Include="mods\vs-expandedfoods\modinfo.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mods\vs-expandedfoods\assets\game\textures\block\wood\trough\small\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

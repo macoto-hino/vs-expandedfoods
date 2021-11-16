@@ -9,7 +9,19 @@
       },
       "*-peanut": {
         "squeezeInto": "expandedfoods:foodoilportion-peanut",
-        "squeezeRatio": 2
+        "squeezeRatio": 2,
+        "bakingProperties":  {
+			temp: 175,
+			levelFrom: 0.0,
+			levelTo: 0.5,
+			startScaleY: 1.0,
+			endScaleY: 1.0,
+			initialCode: "expandedfoods:peanut-roasted",
+		},
+	    onDisplayTransform: { 
+			translation: { x: 0, y: -0.25, z: 0 },
+			scale: 0.5 
+		},
       }
     },
     "file": "game:itemtypes/food/legume.json"
