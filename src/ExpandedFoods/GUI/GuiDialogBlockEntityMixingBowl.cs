@@ -29,7 +29,8 @@ namespace ExpandedFoods
 
         private void OnInventorySlotModified(int slotid)
         {
-            SetupDialog();
+            // Direct call can cause InvalidOperationException
+            capi.Event.EnqueueMainThreadTask(SetupDialog, "setupmixingbowldlg");
         }
 
         void SetupDialog()
