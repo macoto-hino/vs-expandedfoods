@@ -756,6 +756,96 @@
         },
         {
           "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-huckleberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "huckleberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-snowberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "snowberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-brambleberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "brambleberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-cloudberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cloudberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-dogrose",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "dogrosesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-elderberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "elderberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-gooseberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "gooseberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-honeysuckle",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "honeysucklesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-strawberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "strawberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-raspberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "raspberrysyrup"
+          ]
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
 	  "textureMapping": [
@@ -954,18 +1044,19 @@
     },
     "file": "recipes/cooking/porridge.json"
   },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/3",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:peanut-kernels",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
+    {
+        "op": "add",
+        "path": "/ingredients/8/validStacks/3",
+        "value": {
+            "type": "item",
+            "code": "expandedfoods:peanut-kernels",
+            "shapeElement": "bowl/nuts 1/*",
+            "textureMapping": [
+                "acorns",
+                "acorns"
+            ]
+        },
+        "file": "recipes/cooking/porridge.json"
     },
-    "file": "recipes/cooking/porridge.json"
-  },
+
 ]

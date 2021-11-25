@@ -1,0 +1,242 @@
+[
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-huckleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-huckleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-huckleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-snowberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-snowberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-snowberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-brambleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-brambleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-brambleberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-cloudberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-cloudberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-cloudberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-dogrose", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-dogrose", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-dogrose", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-elderberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-elderberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-elderberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-gooseberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-gooseberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-gooseberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-honeysuckle", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-honeysuckle", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-honeysuckle", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-strawberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-strawberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-strawberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitwineportion-raspberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildstrongwineportion-raspberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildpotentwineportion-raspberry", quantity: 1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", stackSize: 1 }
+ },
+]

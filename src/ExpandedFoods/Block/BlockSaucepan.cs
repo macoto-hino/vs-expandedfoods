@@ -490,7 +490,7 @@ namespace ExpandedFoods
                 shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();
                 MeshData contentMesh;
                 capi.Tesselator.TesselateShape("saucepan", shape, out contentMesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
-                float maxLevel = Attributes["maxFillLevel"].AsFloat(4f);
+                float maxLevel = Attributes["maxFillLevel"].AsFloat(3f);
                 float fullness = contentStack.StackSize / (props.ItemsPerLitre * CapacityLitres);
 
                 contentMesh.Translate(0, GameMath.Min(maxLevel / 16f, (maxLevel * fullness) / 16f), 0);

@@ -6,7 +6,7 @@
 		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"] },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 180, health: 1.5, foodcategory: "Vegetable" },
+		nutritionPropsWhenInMeal: { satiety: 180, health: 1, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 8,

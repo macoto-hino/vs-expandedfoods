@@ -6,7 +6,7 @@
 		{ code: "type", states: ["bone"] },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 25, health: 2, foodcategory: "Protein" },
+		nutritionPropsWhenInMeal: { satiety: 25, health: 1, foodcategory: "Protein" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 4,

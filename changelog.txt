@@ -3,25 +3,31 @@ Changelog
 1.4.5
 Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings; all appropriate meals - DONE!!!
 Added stuffed bell peppers - DONE!!!
-Added peanut compatibility; Cooked Peanuts, Peanut Skins (fertilizer & animal feed), Peanut Kernels, Peanut Paste, Peanut Butter, Peanut Sauce; addable to everything Acorns can be added to
+Added peanut compatibility; Cooked Peanuts, Peanut Skins (fertilizer & animal feed), Peanut Kernels, Peanut Paste, Peanut Butter, Peanut Sauce (add to sushi later), Peanut Candy; addable to everything Acorns can be added to
 Added peanut & sunflower oil - DONE!!!
+Added Peanut/Sunflower/Acorn Candy - DONE!!!
+Honey can be added to teas
 Added Stuffing
 Added mayo - useable in salads, veggie stews, au gratin, and porridge
 Added cabbage rolls
 Added syrup-glazed termite sticks (w/acorns)
 Added century eggs
 Added lime eggs
-Added Wildcraft compatibility
+Added Wildcraft compatibility (Fruit juice/wine/syrup; )
 Added herbal bread crumbs
 Added Acorn "Coffee" & Roasted Acorns
 Fixed rice & bean textures
 Added cured aged meat
+Added Garum
 Added bottle racks, updated bottle visuals - DONE!!!
 Updated Primitive Survival compatibility; crab meat = fish & snake meat = chicken
 Added VanVar compatibility for more mixing bowl variants
 Added new shapes to certain blocks (thanks Vinter Nacht!)
+Added Small Cauldrons - DONE!!!
 Added preserves, jelly & jam - jam, but in the mixing bowl
 Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
+Fixed charred rye soft bread crash - DONE!!!
+All liquid healing in meals nerfed - DONE!!!
 
 1.4.4 - 10K DOWNLOAD SPECIAL!
 Meat curing time decreased

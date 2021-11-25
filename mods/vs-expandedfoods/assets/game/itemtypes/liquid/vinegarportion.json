@@ -3,7 +3,7 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 150, health: 1, foodcategory: "Fruit" },
+		nutritionPropsWhenInMeal: { satiety: 150, health: 0.5, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 16,

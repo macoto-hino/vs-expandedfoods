@@ -129,6 +129,9 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\cauldron\metaloverlaygradient.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\block\cauldron\meteoriciron.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\acornportion.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\candy\acorn.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\candy\peanut.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\candy\sunflower.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\dryfruit\blackcurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\dryfruit\blueberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\dryfruit\blueraspberry.png" />
@@ -259,9 +262,19 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\herbal\sunflowerbread2.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\blackcurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\blueberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\brambleberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\cloudberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\cranberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\dogrose.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\elderberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\gooseberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\honeysuckle.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\huckleberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\pineapple.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\raspberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\redcurrant.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\snowberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\strawberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\grain\overlays\whitecurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pasta\acornpasta.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\pasta\amaranthpasta.png" />
@@ -547,14 +560,28 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\blueberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\blueberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\bonebroth.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\brambleberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\brambleberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cabbage.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\carrot.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cassava.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cloudberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cloudberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cranberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\cranberrywine.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\dogrose.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\dogrosewine.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\elderberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\elderberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\fishsauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\foodoil.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\fruitmix.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\gooseberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\gooseberrywine.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\honeysuckle.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\honeysucklewine.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\huckleberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\huckleberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\mixwine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\onion.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\parsnip.png" />
@@ -562,9 +589,15 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\pineapplewine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\potentwine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\pumpkin.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\raspberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\raspberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\redcurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\redcurrantwine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\saguaro.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\snowberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\snowberrywine.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\strawberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\strawberrywine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\syrup.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\tea.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\turnip.png" />
@@ -575,16 +608,26 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\birch.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\blackcurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\blueberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\brambleberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\cloudberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\cranberry.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\dogrose.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\elderberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\ferment.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\gooseberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\honey.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\honeysuckle.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\huckleberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\maple.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\mix.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\pineapple.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\plain.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\raspberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\redcurrant.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\saguaro.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\snowberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\starter.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\strawberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\whitecurrant.png" />
     <Content Include="mods\vs-expandedfoods\exper.dll" />
     <Content Include="mods\vs-expandedfoods\exper.pdb" />
@@ -595,6 +638,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bottlerack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bottlerackcorner.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldron.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldronmini.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldronminimold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\cauldronmoldblock.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\meathooks.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\mixingbowl.json" />
@@ -625,6 +670,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\acorns\mixing\trailmixvegetarian.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\agedmeat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\breadcrumbs.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\candy.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\choppedvegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedchoppedvegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedvegetable.json" />
@@ -679,6 +725,12 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\treesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\vegetablejuice.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitjuice.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitwine.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentwine.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongwine.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildyogurt.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildfarming\tea.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yeastwater.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yogurt.json" />
@@ -695,7 +747,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\fish.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\primitivesurvival.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\superfuel.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildfarming.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildseeds.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\fat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\flower.json" />
@@ -782,6 +836,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\breadedvegetableoiled.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\breadedvegetablesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\breadstarter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\candy.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\dough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\doughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\dumpling.json" />
@@ -811,6 +866,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\stuffedpeppersyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\sushiveg.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\sushivegoil.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildberrydough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\acornbreadedballherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\acornbreadedfishnuggetherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\acornbreadedmeatnuggetherb.json" />
@@ -850,6 +906,11 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottlerack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\bottlerackcorner.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronminimold.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmini\contents.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmini\empty.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmini\filled.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmini\lid.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldronmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldron\contents.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\cauldron\empty.json" />
@@ -968,8 +1029,15 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\blackcurrant.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\blueberry-acorn.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\blueberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\brambleberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\cloudberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\cranberry-acorn.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\cranberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\dogrose.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\elderberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\gooseberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\honeysuckle.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\huckleberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\muffinblackcurrant.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\muffinblueberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\muffincranberry.json" />
@@ -978,8 +1046,11 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\muffinwhitecurrant.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\pineapple-acorn.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\pineapple.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\raspberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\redcurrant-acorn.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\redcurrant.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\snowberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\strawberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornbirchsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornblackcurrantsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\overlays\syrup\acornblueberrysyrup.json" />
@@ -1058,6 +1129,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ricebread-doughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ricebread-partbakedball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ryebread-breadball.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ryebread-charredball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ryebread-doughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\ryebread-partbakedball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\speltbread-breadball.json" />
@@ -1068,6 +1140,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\sunflowerbread-charredball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\sunflowerbread-doughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\bread\sunflowerbread-partbakedball.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\candy\acorn.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\candy\peanut.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\candy\sunflower.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\dumpling\acorncooked.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\dumpling\acornraw.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\dumpling\amaranthcharred.json" />
@@ -1373,6 +1448,10 @@
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\soyprep.json" />
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\soyslurry.json" />
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\vinegarpickledvegetable.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wildcraft\fastvinegar.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wildcraft\winevinegar.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wildcraft\wine.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wildcraft\yogurtstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wildyeast.json" />
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\wine.json" />
     <None Include="mods\vs-expandedfoods\assets\game\recipes\barrel\winevinegar.json" />
@@ -1402,4 +1481,9 @@ copy "$(TargetPath)" "$(ProjectDir)mods\vs-expandedfoods"
 copy "$(TargetDir)\$(TargetName).pdb" "$(ProjectDir)mods\vs-expandedfoods" 
     </PostBuildEvent>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties mods_4vs-expandedfoods_4assets_4expandedfoods_4itemtypes_4food_4peanut_1json__JsonSchema="https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

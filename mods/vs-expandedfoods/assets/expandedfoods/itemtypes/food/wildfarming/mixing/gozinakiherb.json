@@ -25,10 +25,10 @@
       				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
 			},
 			"*-mashed": {
-      				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
-      				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
-      				"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
-      				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
+      				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      				"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
+      				"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/gozinaki/gozinakimashed.json",
 			},
 			"*-syrup": {
       				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",

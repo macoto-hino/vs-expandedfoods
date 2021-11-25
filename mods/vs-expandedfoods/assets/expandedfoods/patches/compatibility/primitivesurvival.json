@@ -580,4 +580,32 @@
     value: "false",
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
  },
+ {
+    "file": "game:recipes/barrel/fishsaucebarrel.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+    "file": "game:recipes/barrel/fishsaucebarrel.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+    "file": "game:recipes/barrel/fishsaucebarrel.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+    "file": "game:recipes/barrel/fishsaucebarrel.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
 ]

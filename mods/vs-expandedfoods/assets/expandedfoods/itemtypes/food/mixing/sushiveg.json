@@ -84,6 +84,7 @@
 		"*-nooil": { base: "item/food/sushi/vegetarian/sushi-noveggie"},
 		"*-oil": { base: "item/food/sushi/vegetarian/sushi-noveggie-sauce"},
 		"*-honey": { base: "item/food/sushi/vegetarian/sushi-noveggie-honey"},
+		"*-peanut": { base: "expandedfoods:item/food/sushi/sushi-noveggie"},
 	},
   	texturesByType: {
 		"*-cabbage-nooil": {

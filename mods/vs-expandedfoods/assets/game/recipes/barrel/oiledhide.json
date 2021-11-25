@@ -178,5 +178,77 @@
 			{ type: "item", code: "game:hide-raw-huge", quantity: 1 }
 		],
 		output: { type: "item", code: "game:hide-oiled-huge", stackSize: 1 }
-	}
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-peanut",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-small", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-small", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-peanut",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-medium", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-medium", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-peanut",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-large", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-large", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-peanut",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-huge", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-huge", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-sunflower",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-small", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-small", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-sunflower",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-medium", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-medium", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-sunflower",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-large", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-large", stackSize: 1 }
+	},
+	{
+		code: "oiledhide",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "expandedfoods:foodoilportion-sunflower",   quantity: 1, consumeQuantity: 1 },
+			{ type: "item", code: "game:hide-raw-huge", quantity: 1 }
+		],
+		output: { type: "item", code: "game:hide-oiled-huge", stackSize: 1 }
+	},
 ]

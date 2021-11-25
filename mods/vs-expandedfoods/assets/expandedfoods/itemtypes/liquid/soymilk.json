@@ -4,7 +4,7 @@
 	matterState: "liquid",
 	attributes: {
 		nutritionPropsWhenInMealByType: {
-			"*-edible": { satiety: 30, health: 0.3, foodcategory: "Dairy" },
+			"*-edible": { satiety: 30, health: 0.2, foodcategory: "Dairy" },
 		},
 		waterTightContainerPropsByType: {
 			"*-edible": {

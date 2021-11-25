@@ -6,7 +6,7 @@
 		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "pineapple"] },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 180, health: 1.5, foodcategory: "Fruit" },
+		nutritionPropsWhenInMeal: { satiety: 180, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 8,

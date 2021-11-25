@@ -5218,8 +5218,8 @@
 		"break": "game:block/planks",
 		"walk": "game:walk/wood"
 	},
-	collisionbox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.875 },
-	selectionbox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.3125, z2: 0.875 },
+	collisionbox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.275, z2: 0.875 },
+	selectionbox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.875, y2: 0.275, z2: 0.875 },
 	materialDensity: 400,
 	tpHandTransform: {
 		translation: { x: -0.86, y: -0.73, z: -1.14 },

@@ -1,0 +1,168 @@
+{
+	code: "wildfruitwineportion",
+	class: "TransLiquid",
+	matterState: "liquid",
+	variantgroups: [
+		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+	],
+	attributes: {
+		nutritionPropsWhenInMealByType: {
+			"*-cloudberry": { saturation: 335, health: 1.5, foodcategory: "Fruit" },
+			"*-snowberry": { saturation: 230, health: -1, foodcategory: "Fruit" },
+			"*-huckleberry": { saturation: 170, health: 1.5, foodcategory: "Fruit" },
+			"*-dogrose": { saturation: 60, health: 1.5, foodcategory: "Fruit" },
+			"*-elderberry": { saturation: 70, health: 0.75, foodcategory: "Fruit" },
+			"*": { satiety: 225, health: 2.25, foodcategory: "Fruit" },
+
+		},
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 4,
+	        texture: { base: "game:item/liquid/{type}wine" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:wildfruitwineportion-{type}" }
+			}
+		}
+	},
+	transitionablePropsByType: {
+		"*-huckleberry": [{
+    			type: "Perish",
+    			freshHours: { avg: 784 },
+    			transitionHours: { avg: 336 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 784 },
+    			transitionHours: { avg: 2352 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-huckleberry" },
+    			transitionRatio: 1
+  			}],
+		"*-snowberry": [{
+    			type: "Perish",
+    			freshHours: { avg: 588 },
+    			transitionHours: { avg: 252 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 588 },
+    			transitionHours: { avg: 1764 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-snowberry" },
+    			transitionRatio: 1
+  			}],
+		"*-cloudberry": [{
+    			type: "Perish",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 72 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 504 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-cloudberry" },
+    			transitionRatio: 1
+  			}],
+		"*-dogrose": [{
+    			type: "Perish",
+    			freshHours: { avg: 2352 },
+    			transitionHours: { avg: 1008 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 2352 },
+    			transitionHours: { avg: 7056 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-dogrose" },
+    			transitionRatio: 1
+  			}],
+		"*-elderberry": [{
+    			type: "Perish",
+    			freshHours: { avg: 588 },
+    			transitionHours: { avg: 252 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 588 },
+    			transitionHours: { avg: 1764 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-elderberry" },
+    			transitionRatio: 1
+  			}],
+		"*-honeysuckle": [{
+    			type: "Perish",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 72 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 504 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-honeysuckle" },
+    			transitionRatio: 1
+  			}],
+		"*-strawberry": [{
+    			type: "Perish",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 72 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 168 },
+    			transitionHours: { avg: 504 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-strawberry" },
+    			transitionRatio: 1
+  			}],
+		"*": [{
+    			type: "Perish",
+    			freshHours: { avg: 336 },
+    			transitionHours: { avg: 144 },
+    			transitionedStack: { type: "item", code: "game:rot" },
+    			transitionRatio: 0.25
+			},
+			{
+    			type: "Cure",
+    			freshHours: { avg: 336 },
+    			transitionHours: { avg: 1008 },
+    			transitionedStack: { type: "item", code: "wildstrongwineportion-{type}" },
+    			transitionRatio: 1
+  			}],
+	},
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:item/liquid/{type}wine" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	nutritionPropsByType: {
+		"*-cloudberry": { saturation: 225, health: 1.5, foodcategory: "Fruit" },
+		"*-snowberry": { saturation: 115, health: -2, foodcategory: "Fruit" },
+		"*-huckleberry": { saturation: 115, health: 1.5, foodcategory: "Fruit" },
+		"*-dogrose": { saturation: 40, health: 1.5, foodcategory: "Fruit" },
+		"*-elderberry": { saturation: 115, health: 0.75, foodcategory: "Fruit" },
+		"*": { saturation: 150, health: 1.5, foodcategory: "Fruit" },
+	},
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

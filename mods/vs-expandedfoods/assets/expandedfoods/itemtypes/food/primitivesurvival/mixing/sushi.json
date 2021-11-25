@@ -86,6 +86,7 @@
 		"*-nooil": { base: "expandedfoods:item/food/sushi/sushi-noveggie"},
 		"*-oil": { base: "expandedfoods:item/food/sushi/sushi-noveggie-sauce"},
 		"*-honey": { base: "expandedfoods:item/food/sushi/sushi-noveggie-honey"},
+		"*-peanut": { base: "expandedfoods:item/food/sushi/sushi-noveggie"},
 	},
   	texturesByType: {
 		"*-cabbage-nooil": {

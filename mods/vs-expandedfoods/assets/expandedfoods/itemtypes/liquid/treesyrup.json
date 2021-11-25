@@ -6,7 +6,7 @@
 		{ code: "type", states: ["birch", "maple",] },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 120, health: 1.5, foodcategory: "Fruit" },
+		nutritionPropsWhenInMeal: { satiety: 120, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 8,

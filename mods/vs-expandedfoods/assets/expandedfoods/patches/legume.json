@@ -13,10 +13,10 @@
         "bakingProperties":  {
 			temp: 175,
 			levelFrom: 0.0,
-			levelTo: 0.5,
+			levelTo: 0.25,
 			startScaleY: 1.0,
 			endScaleY: 1.0,
-			initialCode: "expandedfoods:peanut-roasted",
+			resultCode: "expandedfoods:peanut-cooked",
 		},
 	    onDisplayTransform: { 
 			translation: { x: 0, y: -0.25, z: 0 },

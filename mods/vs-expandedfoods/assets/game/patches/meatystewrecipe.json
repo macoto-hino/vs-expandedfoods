@@ -2495,6 +2495,276 @@
           ]
         },
         {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildfruitwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
@@ -2794,18 +3064,18 @@
     },
     "file": "recipes/cooking/meatystew.json"
   },
- {
-    "op": "add",
-    "path": "/ingredients/13/validStacks/3",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:peanut-kernels",
-          "shapeElement": "bowl/nuts 2/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
+    {
+        "op": "add",
+        "path": "/ingredients/13/validStacks/3",
+        "value": {
+            "type": "item",
+            "code": "expandedfoods:peanut-kernels",
+            "shapeElement": "bowl/nuts 2/*",
+            "textureMapping": [
+                "acorns",
+                "acorns"
+            ]
+        },
+        "file": "recipes/cooking/meatystew.json"
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
 ]

@@ -1383,11 +1383,261 @@
     ],
     "file": "blocktypes/clay/pot.json"
   },
+    {
+        "op": "add",
+        "path": "/texturesByType/*/pickledegg",
+        "value": {
+            "base": "block/food/meal/pickledegg"
+        },
+        "file": "blocktypes/clay/pot.json"
+    },
   {
     "op": "add",
-    "path": "/texturesByType/*/pickledegg",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-huckleberry",
+    "value": [
+      "topping",
+      "huckleberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/huckleberrysyrup",
     "value": {
-      "base": "block/food/meal/pickledegg"
+      "base": "item/liquid/huckleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-snowberry",
+    "value": [
+      "topping",
+      "snowberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/snowberrysyrup",
+    "value": {
+      "base": "item/liquid/snowberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-brambleberry",
+    "value": [
+      "topping",
+      "brambleberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/brambleberrysyrup",
+    "value": {
+      "base": "item/liquid/brambleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-cloudberry",
+    "value": [
+      "topping",
+      "cloudberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cloudberrysyrup",
+    "value": {
+      "base": "item/liquid/cloudberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-dogrose",
+    "value": [
+      "topping",
+      "dogrosesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/dogrosesyrup",
+    "value": {
+      "base": "item/liquid/dogrose"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-elderberry",
+    "value": [
+      "topping",
+      "elderberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/elderberrysyrup",
+    "value": {
+      "base": "item/liquid/elderberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-gooseberry",
+    "value": [
+      "topping",
+      "gooseberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gooseberrysyrup",
+    "value": {
+      "base": "item/liquid/gooseberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-honeysuckle",
+    "value": [
+      "topping",
+      "honeysucklesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/honeysucklesyrup",
+    "value": {
+      "base": "item/liquid/honeysuckle"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-strawberry",
+    "value": [
+      "topping",
+      "strawberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/strawberrysyrup",
+    "value": {
+      "base": "item/liquid/strawberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:wildfruitsyrupportion-raspberry",
+    "value": [
+      "topping",
+      "raspberrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/raspberrysyrup",
+    "value": {
+      "base": "item/liquid/raspberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/huckleberrywine",
+    "value": {
+      "base": "item/liquid/huckleberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/snowberrywine",
+    "value": {
+      "base": "item/liquid/snowberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/brambleberrywine",
+    "value": {
+      "base": "item/liquid/brambleberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cloudberrywine",
+    "value": {
+      "base": "item/liquid/cloudberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/dogrosewine",
+    "value": {
+      "base": "item/liquid/dogrosewine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/elderberrywine",
+    "value": {
+      "base": "item/liquid/elderberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gooseberrywine",
+    "value": {
+      "base": "item/liquid/gooseberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/honeysucklewine",
+    "value": {
+      "base": "item/liquid/honeysucklewine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/strawberrywine",
+    "value": {
+      "base": "item/liquid/strawberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/raspberrywine",
+    "value": {
+      "base": "item/liquid/raspberrywine"
     },
     "file": "blocktypes/clay/pot.json"
   },

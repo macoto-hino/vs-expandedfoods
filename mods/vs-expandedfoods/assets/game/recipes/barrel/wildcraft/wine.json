@@ -1,0 +1,10 @@
+[
+ {
+  code: "wineWILD",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:wildfruitjuiceportion-*", name: "fruit", quantity: 1 },
+  ],
+  output: { type: "item", code: "expandedfoods:wildfruitwineportion-{fruit}", stackSize: 1 }
+ }
+]

@@ -7,8 +7,8 @@
 	],
 	attributes: {
 		nutritionPropsWhenInMealByType: {
-			"*-mix": { satiety: 260, health: 4.5, foodcategory: "Fruit" },
-			"*": { satiety: 225, health: 2.25, foodcategory: "Fruit" },
+			"*-mix": { satiety: 260, health: 3, foodcategory: "Fruit" },
+			"*": { satiety: 225, health: 1.5, foodcategory: "Fruit" },
 		},
 		waterTightContainerProps: {
 			containable: true,

@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/squeezeIntobyType",
+    "value": {
+      "*-huckleberry": "expandedfoods:wildfruitjuiceportion-huckleberry",
+      "*-snowberry": "expandedfoods:wildfruitjuiceportion-snowberry",
+      "*-brambleberry": "expandedfoods:wildfruitjuiceportion-brambleberry",
+      "*-cloudberry": "expandedfoods:wildfruitjuiceportion-cloudberry",
+      "*-dogrose": "expandedfoods:wildfruitjuiceportion-dogrose",
+      "*-elderberry": "expandedfoods:wildfruitjuiceportion-elderberry",
+      "*-gooseberry": "expandedfoods:wildfruitjuiceportion-gooseberry",
+      "*-raspberry": "expandedfoods:wildfruitjuiceportion-raspberry",
+      "*-blueraspberry": "expandedfoods:wildfruitjuiceportion-blueraspberry",
+      "*-strawberry": "expandedfoods:wildfruitjuiceportion-strawberry",
+      "*-honeysuckle": "expandedfoods:wildfruitjuiceportion-honeysuckle",
+    },
+    "file": "wildcraft:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/squeezeRatio",
+    "value": 4,
+    "file": "wildcraft:itemtypes/food/fruit.json"
+  }
+]

@@ -2,7 +2,10 @@
 	code: "peanut",
 	maxstacksize: 32,
 	variantgroups: [
-		{ code: "type", states: ["cooked", "skins", "kernels"] },
+		{
+			code: "type",
+			states: [ "cooked", "skins", "kernels" ]
+		},
 	],
 	shapeByType: {
 		"*-kernels": { base: "item/food/peanut/kernels" },
@@ -32,7 +35,7 @@
 		},
 		bakingProperties: {
 			temp: 175,
-			levelFrom: 0.5,
+			levelFrom: 0.25,
 			levelTo: 1.0,
 			startScaleY: 1.0,
 			endScaleY: 1.0,
@@ -84,6 +87,7 @@
 				transitionRatio: 0.33
 			}
 		],
+
 	},	
 	grindingPropsByType: {
 		"*-kernels": {

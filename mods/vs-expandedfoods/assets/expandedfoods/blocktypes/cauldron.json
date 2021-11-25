@@ -5799,6 +5799,42 @@
 	"drawtype": "JSON",
 	"blockmaterial": "Metal",
 	"texturesbyType": {
+		"*-copper": {
+            "metal": { "base": "game:block/metal/sheet/copper1" },
+			"metal2": { "base": "game:block/metal/sheet/brass1" },
+			"metaldark": {
+				"base": "game:block/metal/sheet/copper1",
+				"overlays": [ "block/cauldron/metaloverlay" ]
+			},
+			"metalgradient": {
+				"base": "game:block/metal/sheet/copper1",
+				"overlays": [ "block/cauldron/metaloverlaygradient" ]
+			}
+		},
+		"*-tinbronze": {
+            "metal": { "base": "game:block/metal/sheet/tinbronze1" },
+			"metal2": { "base": "game:block/metal/sheet/bismuth1" },
+			"metaldark": {
+				"base": "game:block/metal/sheet/tinbronze1",
+				"overlays": [ "block/cauldron/metaloverlay" ]
+			},
+			"metalgradient": {
+				"base": "game:block/metal/sheet/tinbronze1",
+				"overlays": [ "block/cauldron/metaloverlaygradient" ]
+			}
+		},
+		"*-blackbronze": {
+            "metal": { "base": "game:block/metal/sheet/blackbronze1" },
+			"metal2": { "base": "game:block/metal/sheet/tinbronze1" },
+			"metaldark": {
+				"base": "game:block/metal/sheet/blackbronze1",
+				"overlays": [ "block/cauldron/metaloverlay" ]
+			},
+			"metalgradient": {
+				"base": "game:block/metal/sheet/blackbronze1",
+				"overlays": [ "block/cauldron/metaloverlaygradient" ]
+			}
+		},
 		"*-iron": {
             "metal": { "base": "block/cauldron/castiron" },
 			"metal2": { "base": "game:block/metal/sheet/gold1" },
@@ -5811,9 +5847,21 @@
 				"overlays": [ "block/cauldron/metaloverlaygradient" ]
 			}
 		},
+		"*-steel": {
+            "metal": { "base": "game:block/metal/sheet/steel1" },
+			"metal2": { "base": "block/cauldron/castiron" },
+			"metaldark": {
+				"base": "game:block/metal/sheet/steel1",
+				"overlays": [ "block/cauldron/metaloverlay" ]
+			},
+			"metalgradient": {
+				"base": "game:block/metal/sheet/steel1",
+				"overlays": [ "block/cauldron/metaloverlaygradient" ]
+			}
+		},
 		"*-meteoriciron": {
             "metal": { "base": "block/cauldron/meteoriciron" },
-			"metal2": { "base": "game:block/metal/sheet/blackbronze1" },
+			"metal2": { "base": "game:block/metal/sheet/tinbronze1" },
 			"metaldark": {
 				"base": "block/cauldron/meteoriciron",
 				"overlays": [ "block/cauldron/metaloverlay" ]
@@ -5823,18 +5871,6 @@
 				"overlays": [ "block/cauldron/metaloverlaygradient" ]
 			}
 		},
-		"*": {
-            "metal": { "base": "game:block/metal/sheet/{metal}1" },
-			"metal2": { "base": "game:block/metal/sheet/blackbronze1" },
-			"metaldark": {
-				"base": "game:block/metal/sheet/{metal}1",
-				"overlays": [ "block/cauldron/metaloverlay" ]
-			},
-			"metalgradient": {
-				"base": "game:block/metal/sheet/{metal}1",
-				"overlays": [ "block/cauldron/metaloverlaygradient" ]
-			}
-		}
 	},
 	"replaceable": 500,
 	"resistance": 1.5,
