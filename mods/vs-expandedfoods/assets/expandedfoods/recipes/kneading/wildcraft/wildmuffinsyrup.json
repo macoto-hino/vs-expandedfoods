@@ -1,0 +1,24 @@
+[
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:muffin-partbaked" }]},
+	],
+	output: { type: "item", code: "expandedfoods:muffin-syruppartbaked", stackSize: 1}
+ },
+ {
+	ingredients: [
+		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:muffin-cooked" }]},
+	],
+	output: { type: "item", code: "expandedfoods:muffin-syrup", stackSize: 1}
+ },
+ {
+	ingredients: [
+	{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
+	{inputs: [{ type: "item", code: "expandedfoods:muffin-charred" }]},
+	],
+	output: { type: "item", code: "expandedfoods:muffin-syrupcharred", stackSize: 1}
+ }
+]
+

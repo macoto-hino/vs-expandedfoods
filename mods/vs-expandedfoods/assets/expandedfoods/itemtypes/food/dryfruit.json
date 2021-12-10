@@ -6,6 +6,7 @@
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {
+		"handbook": { "groupBy": [ "dryfruit-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
 				"*-saguaro": 90, 

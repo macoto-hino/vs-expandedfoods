@@ -1,6 +1,7 @@
 [
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 1,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -20,6 +21,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 2,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -39,6 +41,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 3,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -58,6 +61,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 4,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -77,6 +81,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 5,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -96,6 +101,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 6,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -115,6 +121,7 @@
 },
 {
 	ingredientPattern: "PP,HH",
+	recipeGroup: 7,
 	ingredients: {
 		"P": { 
 			type: "item", 

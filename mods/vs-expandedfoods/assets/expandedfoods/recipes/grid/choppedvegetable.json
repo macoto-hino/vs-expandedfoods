@@ -1,6 +1,7 @@
 [  
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -20,6 +21,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -39,6 +41,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -59,6 +62,7 @@
 
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",
@@ -78,6 +82,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",
@@ -97,6 +102,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",
@@ -116,6 +122,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -134,6 +141,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",
@@ -152,6 +160,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -170,6 +179,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",
@@ -189,6 +199,7 @@
 
   {
     "ingredientPattern": "KV",
+    recipeGroup: 1,
     "ingredients": {
       "K": {
         type: "item",
@@ -207,6 +218,7 @@
    },
   {
     "ingredientPattern": "KV",
+    recipeGroup: 2,
     "ingredients": {
       "K": {
         type: "item",

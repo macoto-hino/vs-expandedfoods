@@ -1,6 +1,7 @@
 [
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 1,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -23,6 +24,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 2,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -45,6 +47,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 1,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -67,6 +70,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 2,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -89,6 +93,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 1,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -111,6 +116,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 2,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -133,6 +139,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 1,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -155,6 +162,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 2,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -177,6 +185,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 1,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},
@@ -199,6 +208,7 @@
     },
     {
     	ingredientPattern: "_H_,FWF,SLS",
+	    recipeGroup: 2,
     	ingredients: {
     		"H": { type: "item", code: "game:hammer-*", isTool: true },
     		"W": { type: "item", code: "game:firewood", quantity: 4},

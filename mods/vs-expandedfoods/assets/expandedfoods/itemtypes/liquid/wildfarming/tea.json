@@ -3,6 +3,7 @@
 	class: "ExpandedLiquid",
 	matterState: "liquid",
 	attributes: {
+		"handbook": { "groupBy": [ "tea-*" ] },
 		inContainerTexture: { base: "game:item/liquid/tea" },
 		inBowlShape: { base: "game:block/meal/liquid" },
 		expandedNutritionPropsByType: {

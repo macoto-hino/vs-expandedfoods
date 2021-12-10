@@ -6,6 +6,7 @@
 		{ code: "type", states: ["flax", "rice", "seed", "soy", "sunflower", "peanut"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "foodoilportion-*" ] },
 		nutritionPropsWhenInMeal: { satiety: 100, health: 0.5, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,

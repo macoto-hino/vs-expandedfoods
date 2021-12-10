@@ -23,6 +23,7 @@
 	attributes: {
 		cureRate: 3,
 		dryRate: 200,
+		"handbook": { "groupBy": ["meathooks-*"] }
 	},
 	drawtype: "json",
 	blockmaterial: "Wood",

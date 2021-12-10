@@ -3,6 +3,9 @@
   "class": "BlockBottleRack",
   "entityClass": "BottleRack",
   "behaviors": [ { "name": "HorizontalOrientable" } ],
+    "attributes": {
+		handbook: { "groupBy": ["bottlerackcorner-*"] },
+    },
   "variantgroups": [
     {
       "code": "woodframe",

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["fruity", "nutty", "beany", "cheesy"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "trailmixvegetarian-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionProps: {

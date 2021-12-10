@@ -3,6 +3,7 @@
 	class: "ExpandedLiquid",
 	matterState: "liquid",
 	attributes: {
+		"handbook": { "groupBy": [ "wildyogurt-*" ] },
 		inContainerTextureByType: {
 			"*-huckleberry": { base: "game:item/liquid/yogurt/blueberry" },
 			"*-snowberry": { base: "game:item/liquid/yogurt/whitecurrant" },

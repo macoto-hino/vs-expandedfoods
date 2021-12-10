@@ -9,6 +9,7 @@
 	],
 
 	attributes: {
+		"handbook": { "groupBy": [ "acornbreadedball-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

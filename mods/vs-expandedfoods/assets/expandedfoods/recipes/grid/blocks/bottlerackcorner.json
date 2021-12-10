@@ -1,6 +1,7 @@
 [
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 1,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -28,6 +29,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 2,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -55,6 +57,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 3,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -82,6 +85,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 4,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -109,6 +113,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 5,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -136,6 +141,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 6,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -163,6 +169,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 7,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -190,6 +197,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 8,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -217,6 +225,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 93,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -244,6 +253,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 10,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -271,6 +281,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 11,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -298,6 +309,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 12,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -325,6 +337,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 13,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -352,6 +365,7 @@
 	},	
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 1,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -379,6 +393,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 2,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -406,6 +421,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 3,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -433,6 +449,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 4,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -460,6 +477,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 5,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -487,6 +505,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 6,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -514,6 +533,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 7,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -541,6 +561,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 8,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -568,6 +589,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 19,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -595,6 +617,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 10,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -622,6 +645,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 11,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -649,6 +673,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 12,
 		ingredients: {
 			"B": {
 				type: "block",
@@ -676,6 +701,7 @@
 	},
 	{
 		ingredientPattern: "BSH",
+		recipeGroup: 13,
 		ingredients: {
 			"B": {
 				type: "block",

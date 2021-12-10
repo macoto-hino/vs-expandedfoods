@@ -2,6 +2,7 @@
 	code: "breadcrumbs",
 	maxstacksize: 128,
 	attributes: {
+		"handbook": { "groupBy": ["breadcrumbs-*"] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
 				"*-flax": 160, 

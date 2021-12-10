@@ -1,6 +1,7 @@
 [
   {
 	ingredientPattern: "K,P",
+    recipeGroup: 1,
 	ingredients: {
 		"P": { 
 			type: "item", 
@@ -20,6 +21,7 @@
   },
   {
     "ingredientPattern": "SP",
+    recipeGroup: 21,
     "ingredients": {
       "S": {
         type: "item",
@@ -39,6 +41,7 @@
    },
   {
 	ingredientPattern: "R,M",
+    recipeGroup: 3,
 	ingredients: {
 		"R": { 
 			type: "item", 
@@ -56,6 +59,7 @@
   },
   {
 	ingredientPattern: "H,M",
+    recipeGroup: 4,
 	ingredients: {
 		"H": { 
 			type: "item", 
@@ -74,6 +78,7 @@
   },
   {
 	ingredientPattern: "H,M",
+    recipeGroup: 5,
 	ingredients: {
 		"H": { 
 			type: "item", 

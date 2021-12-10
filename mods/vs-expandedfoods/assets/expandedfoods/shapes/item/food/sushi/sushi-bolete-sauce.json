@@ -5,10 +5,6 @@
 	},
 	"textureWidth": 4,
 	"textureHeight": 4,
-	"textureSizes": {
-		"sushiboletesauce": [4,4],
-		"sushiroll": [4,4]
-	},
 	"textures": {
 		"sushiboletesauce": "item/food/sushi/sushiboletesauce",
 		"sushiroll": "item/food/sushi/sushiroll"

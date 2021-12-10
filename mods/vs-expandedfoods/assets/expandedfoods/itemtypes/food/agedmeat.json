@@ -1,8 +1,8 @@
 {
 	code: "agedmeat",
-	
 	maxstacksize: 64,
 	attributes: {
+		"handbook": { "groupBy": ["agedmeat-*"] },
 		displaycaseable: true,
 		shelvable: true,
 		meatHookTransformByType: {

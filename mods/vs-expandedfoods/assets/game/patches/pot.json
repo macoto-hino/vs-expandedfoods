@@ -79,7 +79,7 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fishnugget-raw",
     "value": [
       "meatnugget",
-      "poultry-raw"
+      "fishfillet-raw"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -1125,6 +1125,96 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-huckleberry",
+    "value": [
+      "topping",
+      "gelatinhuckleberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-snowberry",
+    "value": [
+      "topping",
+      "gelatinsnowberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-brambleberry",
+    "value": [
+      "topping",
+      "gelatinbrambleberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cloudberry",
+    "value": [
+      "topping",
+      "gelatincloudberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-dogrose",
+    "value": [
+      "topping",
+      "gelatindogrose"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-elderberry",
+    "value": [
+      "topping",
+      "gelatinelderberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-gooseberry",
+    "value": [
+      "topping",
+      "gelatingooseberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honeysuckle",
+    "value": [
+      "topping",
+      "gelatinhoneysuckle"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-strawberry",
+    "value": [
+      "topping",
+      "gelatinstrawberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-raspberry",
+    "value": [
+      "topping",
+      "gelatinraspberry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:yogurt-plain",
     "value": [
       "liquid",
@@ -1222,9 +1312,89 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/gelatinpineapple",
+    "path": "/texturesByType/*/gelatinhuckleberry",
+    "value": {
+      "base": "item/gelatin/huckleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinsnowberry",
+    "value": {
+      "base": "item/gelatin/snowberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbrambleberry",
+    "value": {
+      "base": "item/gelatin/brambleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincloudberry",
+    "value": {
+      "base": "item/gelatin/cloudberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatindogrose",
+    "value": {
+      "base": "item/gelatin/dogrose"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinelderberry",
+    "value": {
+      "base": "item/gelatin/elderberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatingooseberry",
+    "value": {
+      "base": "item/gelatin/gooseberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinhoneysuckle",
+    "value": {
+      "base": "item/gelatin/honeysuckle"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinstrawberry",
+    "value": {
+      "base": "item/gelatin/strawberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinraspberry",
     "value": {
       "base": "item/gelatin/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpineapple",
+    "value": {
+      "base": "item/gelatin/raspberry"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1355,6 +1525,86 @@
     "path": "/texturesByType/*/yogurtpineapple",
     "value": {
       "base": "item/liquid/yogurt/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthuckleberry",
+    "value": {
+      "base": "item/liquid/yogurt/huckleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbrambleberry",
+    "value": {
+      "base": "item/liquid/yogurt/brambleberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtdogrose",
+    "value": {
+      "base": "item/liquid/yogurt/dogrose"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtgooseberry",
+    "value": {
+      "base": "item/liquid/yogurt/gooseberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurthoneysuckle",
+    "value": {
+      "base": "item/liquid/yogurt/honeysuckle"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtsnowberry",
+    "value": {
+      "base": "item/liquid/yogurt/snowberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtelderberry",
+    "value": {
+      "base": "item/liquid/yogurt/elderberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtstrawberry",
+    "value": {
+      "base": "item/liquid/yogurt/strawberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcloudberry",
+    "value": {
+      "base": "item/liquid/yogurt/cloudberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtraspberry",
+    "value": {
+      "base": "item/liquid/yogurt/raspberry"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1638,6 +1888,22 @@
     "path": "/texturesByType/*/raspberrywine",
     "value": {
       "base": "item/liquid/raspberrywine"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/snakemeat",
+    "value": {
+      "base": "primitivesurvival:item/snake/snakemeat-cooked"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/crabmeat",
+    "value": {
+      "base": "primitivesurvival:item/crab/crabmeat-cooked"
     },
     "file": "blocktypes/clay/pot.json"
   },

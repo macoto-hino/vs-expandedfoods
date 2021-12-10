@@ -9,6 +9,7 @@
 	],
 
 	attributes: {
+		"handbook": { "groupBy": [ "acornbreadedfishnugget-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-smashed": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

@@ -118,6 +118,7 @@
 	},
 	attributesByType: {
 		"*-cabbage-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -133,6 +134,7 @@
 			}
 		},
 		"*-flyagaric-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -148,6 +150,7 @@
 			}
 		},
 		"*-bolete-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -163,6 +166,7 @@
 			}
 		},
 		"*-fieldmushroom-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -178,6 +182,7 @@
 			}
 		},
 		"*-carrot-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -194,6 +199,7 @@
 			}
 		},
 		"*-pickledcarrot-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -210,6 +216,7 @@
 			}
 		},
 		"*-turnip-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -226,6 +233,7 @@
 			}
 		},
 		"*-pickledturnip-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -242,6 +250,7 @@
 			}
 		},
 		"*-parsnip-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -258,6 +267,7 @@
 			}
 		},
 		"*-pickledparsnip-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -274,6 +284,7 @@
 			}
 		},
 		"*-pickledonion-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -289,6 +300,7 @@
 			}
 		},
 		"*-pickledpumpkin-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -304,6 +316,7 @@
 			}
 		},
 		"*-cattailroot-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -320,6 +333,7 @@
 			}
 		},
 		"*-papyrusroot-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -336,6 +350,7 @@
 			}
 		},
 		"*-partbaked": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -351,6 +366,7 @@
 			}
 		},
 		"*-cabbage-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -366,6 +382,7 @@
 			}
 		},
 		"*-flyagaric-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -381,6 +398,7 @@
 			}
 		},
 		"*-bolete-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -396,6 +414,7 @@
 			}
 		},
 		"*-fieldmushroom-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -411,6 +430,7 @@
 			}
 		},
 		"*-carrot-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -427,6 +447,7 @@
 			}
 		},
 		"*-pickledcarrot-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -443,6 +464,7 @@
 			}
 		},
 		"*-turnip-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -459,6 +481,7 @@
 			}
 		},
 		"*-pickledturnip-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -475,6 +498,7 @@
 			}
 		},
 		"*-parsnip-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -491,6 +515,7 @@
 			}
 		},
 		"*-pickledparsnip-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -507,6 +532,7 @@
 			}
 		},
 		"*-pickledonion-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -522,6 +548,7 @@
 			}
 		},
 		"*-pickledpumpkin-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -537,6 +564,7 @@
 			}
 		},
 		"*-cattailroot-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -553,6 +581,7 @@
 			}
 		},
 		"*-papyrusroot-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -569,6 +598,7 @@
 			}
 		},
 		"*-perfect": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -584,6 +614,7 @@
 			}
 		},
 		"*-cabbage-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -598,6 +629,7 @@
 			}
 		},
 		"*-flyagaric-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -612,6 +644,7 @@
 			}
 		},
 		"*-bolete-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -626,6 +659,7 @@
 			}
 		},
 		"*-fieldmushroom-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -640,6 +674,7 @@
 			}
 		},
 		"*-carrot-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -655,6 +690,7 @@
 			}
 		},
 		"*-pickledcarrot-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -670,6 +706,7 @@
 			}
 		},
 		"*-turnip-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -685,6 +722,7 @@
 			}
 		},
 		"*-pickledturnip-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -700,6 +738,7 @@
 			}
 		},
 		"*-parsnip-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -715,6 +754,7 @@
 			}
 		},
 		"*-pickledparsnip-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -730,6 +770,7 @@
 			}
 		},
 		"*-pickledonion-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -744,6 +785,7 @@
 			}
 		},
 		"*-pickledpumpkin-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -758,6 +800,7 @@
 			}
 		},
 		"*-cattailroot-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -773,6 +816,7 @@
 			}
 		},
 		"*-papyrusroot-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -788,6 +832,7 @@
 			}
 		},
 		"*-charred": {
+			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,

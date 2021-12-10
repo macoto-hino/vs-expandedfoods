@@ -49,6 +49,7 @@
 	maxstacksize: 16,
 	materialDensity: 200,
 	nutritionPropsByType: {
+		"*-paste": { saturation: 200, foodcategory: "Protein" },
 		"*": { saturation: 0, foodcategory: "Protein" }
 	},
 	transitionablePropsByType: {

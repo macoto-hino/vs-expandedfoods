@@ -6,6 +6,7 @@
 		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "wildstrongwineportion-*" ] },
 		nutritionPropsWhenInMealByType: {
 			"*-cloudberry": { saturation: 405, health: 2, foodcategory: "Fruit" },
 			"*-snowberry": { saturation: 210, health: -1, foodcategory: "Fruit" },

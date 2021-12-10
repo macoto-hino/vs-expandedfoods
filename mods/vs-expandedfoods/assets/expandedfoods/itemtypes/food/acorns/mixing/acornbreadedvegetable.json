@@ -8,6 +8,7 @@
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "acornbreadedvegetable-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "pineapple"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "fruitjuiceportion-*" ] },
 		nutritionPropsWhenInMeal: { satiety: 180, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "wildfruitwineportion-*" ] },
 		nutritionPropsWhenInMealByType: {
 			"*-cloudberry": { saturation: 335, health: 1.5, foodcategory: "Fruit" },
 			"*-snowberry": { saturation: 230, health: -1, foodcategory: "Fruit" },
@@ -13,7 +14,6 @@
 			"*-dogrose": { saturation: 60, health: 1.5, foodcategory: "Fruit" },
 			"*-elderberry": { saturation: 70, health: 0.75, foodcategory: "Fruit" },
 			"*": { satiety: 225, health: 2.25, foodcategory: "Fruit" },
-
 		},
 		waterTightContainerProps: {
 			containable: true,

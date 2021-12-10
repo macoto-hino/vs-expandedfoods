@@ -1,6 +1,5 @@
 {
 	code: "breadedmeatnugget",
-
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
@@ -10,6 +9,7 @@
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "breadedmeatnugget-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-smashed": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

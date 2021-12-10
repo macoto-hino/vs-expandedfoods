@@ -2,6 +2,7 @@
 	code: "acornbreadcrumbs",
 	maxstacksize: 128,
 	attributes: {
+		"handbook": { "groupBy": [ "acornbreadcrumbs-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
 				"*-acornflax": 240, 

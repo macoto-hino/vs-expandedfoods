@@ -9,6 +9,7 @@
 		{code: "state", states: ["dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred"]}
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "herbalacornbread-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		inPiePropertiesByType: {

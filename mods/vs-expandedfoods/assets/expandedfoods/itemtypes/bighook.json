@@ -4,32 +4,9 @@
     "attributes": {
         "handbook": {
             "excludeByType": {
-                		"*-bismuth-*": true,
-                		"*-bismuthbronze-*": true,
-                		"*-blackbronze-*": true,
-              			"*-blistersteel-*": true,
-              			"*-brass-*": true,
-                		"*-chromium-*": true,
-                		"*-copper-*": true,
-                		"*-gold-*": true,
-                		"*-lead-*": true,
-                		"*-iron-*": true,
-                		"*-meteoriciron-*": true,
-                		"*-molybdochalkos-*": true,
-                		"*-platinum-*": true,
-                		"*-rhodium-*": true,
-                		"*-silver-*": true,
-                		"*-stainlessteel-*": true,
-                		"*-steel-*": true,
-                		"*-tin-*": true,
-                		"*-tinbronze-*": true,
-                		"*-titanium-*": true,
-                		"*-uranium-*": true,
-                		"*-zinc-*": true,
+                "@.*-(bismuth|bismuthbronze|blackbronze|blistersteel|brass|chromium|copper|gold|lead|iron|meteoriciron|molybdochalkos|platinum|rhodium|silver|stainlessteel|steel|tin|tinbronze|titanium|uranium|zinc)-.*": true
             }
         },
-        "displaycaseable": false,
-        "shelvable": false
     },
     "variantgroups": [
         { "code": "metal", states: ["copper", "brass", "tinbronze", "blackbronze", "titanium", "steel"] }

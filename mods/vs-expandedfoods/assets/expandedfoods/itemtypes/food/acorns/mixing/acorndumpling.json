@@ -6,6 +6,7 @@
 		{ code: "type", states: ["raw", "partbaked", "cooked", "charred"]}
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "acorndumpling-*" ] },
 		displaycaseable: true,
 		shelvable: true,
     		"expandedNutritionPropsByType": {

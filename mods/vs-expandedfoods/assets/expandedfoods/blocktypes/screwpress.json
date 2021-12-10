@@ -9,7 +9,8 @@
 	drawtype: "JSON",
 	replaceable: 1,
 	attributes: {
-		pressTime: 4
+		pressTime: 4,
+		"handbook": { "groupBy": ["screwpress-*"] }
 	},
 	blockmaterial: "Ceramic",
 	shape: {

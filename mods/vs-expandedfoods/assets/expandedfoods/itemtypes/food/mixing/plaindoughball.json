@@ -9,6 +9,7 @@
 		{code: "type", states: ["dough", "partbaked", "bread", "charred"]},
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "plaindoughball-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		inPiePropertiesByType: {

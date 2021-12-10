@@ -18,9 +18,50 @@
     "file": "wildcraft:itemtypes/food/fruit.json"
   },
   {
+      "op": "add",
+      "path": "/attributes/squeezeRatio",
+      "value": 4,
+      "file": "wildcraft:itemtypes/food/fruit.json"
+  },
+  {
     "op": "add",
-    "path": "/attributes/squeezeRatio",
-    "value": 4,
+    "path": "/attributes/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.5,
+      "startScaleY": 1.0,
+      "endScaleY": 0.8,
+      "resultCode": "expandedfoods:wilddryfruit-{fruit}"
+    },
+    "file": "wildcraft:itemtypes/food/fruit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+      "*-pineapple": {
+        "translation": {
+          "x": 0.0,
+          "y": -0.2,
+          "z": 0.1
+        },
+        "scale": 0.6
+      },
+      "*": {
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.05
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "scale": 0.8
+      }
+    },
     "file": "wildcraft:itemtypes/food/fruit.json"
   }
 ]

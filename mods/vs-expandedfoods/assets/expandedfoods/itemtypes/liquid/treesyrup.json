@@ -6,6 +6,7 @@
 		{ code: "type", states: ["birch", "maple",] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "treesyrupportion-*" ] },
 		nutritionPropsWhenInMeal: { satiety: 120, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,

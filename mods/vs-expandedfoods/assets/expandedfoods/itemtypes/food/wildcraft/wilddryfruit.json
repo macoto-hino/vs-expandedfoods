@@ -1,0 +1,161 @@
+{
+	code: "wilddryfruit",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+	],
+	materialDensityByType: {"*": 600},
+	attributes: {
+		"handbook": { "groupBy": [ "wilddryfruit-*" ] },
+		nutritionPropsWhenInMeal: { 
+			satietyByType:  { 
+				"*-cloudberry": 155,
+				"*-brambleberry": 105,
+				"*-dogrose": 25,
+				"*-gooseberry": 105,
+				"*-honeysuckle": 105,
+				"*-strawberry": 105,
+				"*-raspberry":  105,
+				"*-snowberry": 75,
+				"*-elderberry": 75,
+				"*-huckleberry": 75
+			},
+            "healthByType": {
+                "*-snowberry": -2.5,
+                "*-huckleberry":  -0.25,
+            },
+            foodcategory: "Fruit" 
+		},
+		bakingProperties: {
+			temp: 100,
+			levelFrom: 0.5,
+			levelTo: 1.0,
+			startScaleY: 0.8,
+			endScaleY: 0.8,
+			initialCode: "wildcraft:fruit-{type}",
+		},
+    		inPieProperties: { texture: "game:block/food/pie/fill-{type}", partType: 'Filling' },
+		onDisplayTransformByType: {
+			"*": { 
+				translation: { x: 0.0, y: 0.0, z: 0.05 },
+				rotation: { x: 0, y: 0, z: 90 },
+				scale: 0.8 
+			},
+		},
+		inContainerTexture: { base: "game:block/barrel/{type}fruit" },
+	},
+	texturesByType: {
+		"*": { all:  { base: "item/food/dryfruit/{type}"} },
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-cloudberry": { satiety: 105, foodcategory: "Fruit" },
+		"*-brambleberry": { satiety: 70, foodcategory: "Fruit" },
+		"*-dogrose": { satiety: 18, foodcategory: "Fruit" },
+		"*-gooseberry": { satiety: 70, foodcategory: "Fruit" },
+		"*-honeysuckle": { satiety: 70, foodcategory: "Fruit" },
+		"*-strawberry": { satiety: 70, foodcategory: "Fruit" },
+		"*-raspberry": { satiety: 70, foodcategory: "Fruit" },
+		"*-snowberry": { satiety: 50, health: -2.5, foodcategory: "Fruit" },
+		"*-elderberry": { satiety: 50, health: -0.25, foodcategory: "Fruit" },
+		"*-huckleberry": { satiety: 50, foodcategory: "Fruit" }
+	},
+  "transitionablePropsByType": {
+    "*-snowberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 720 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-cloudberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 60 },
+        "transitionHours": { "avg": 20 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-strawberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 240 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-elderberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 680 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-huckleberry": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 960 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-honeysuckle": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 240 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-dogrose": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 3360 },
+        "transitionHours": { "avg": 1680 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 480 },
+        "transitionHours": { "avg": 120 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+}

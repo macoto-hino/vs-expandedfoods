@@ -6,6 +6,7 @@
 		{code: "state", states: ["mashed", "cooked", "syrup"]}
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "gozinaki-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionPropsByType: {
@@ -46,6 +47,16 @@
       				"expandedfoods:fruitsyrupportion-pineapple": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakipineapplesyrup.json",
       				"expandedfoods:fruitsyrupportion-mix": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakimixsyrup.json",
       				"expandedfoods:fruitsyrupportion-saguaro": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakisaguarosyrup.json",
+					"expandedfoods:wildfruitsyrupportion-brambleberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakibrambleberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-cloudberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakicloudberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-raspberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakiraspberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-dogrose": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakidogrosesyrup.json",
+					"expandedfoods:wildfruitsyrupportion-elderberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakielderberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-gooseberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakigooseberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-honeysuckle": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakihoneysucklesyrup.json",
+					"expandedfoods:wildfruitsyrupportion-huckleberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakihuckleberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-strawberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakistrawberrysyrup.json",
+					"expandedfoods:wildfruitsyrupportion-snowberry": "expandedfoods:shapes/item/food/gozinaki/overlays/gozinakisnowberrysyrup.json",
 			},
 		},
 		onDisplayTransformByType: { 
@@ -99,6 +110,16 @@
 		"mixwine": { base: "game:item/liquid/mixwine"},
 		"saguaro": { base: "game:item/liquid/saguaro"},
 		"peanutbutter": { base: "item/food/peanut/butter"},
+			"huckleberry" : {base: "expandedfoods:item/food/grain/overlays/huckleberry" },
+			"snowberry" : {base: "expandedfoods:item/food/grain/overlays/snowberry" },
+			"brambleberry" : {base: "expandedfoods:item/food/grain/overlays/brambleberry" },
+			"cloudberry" : {base: "expandedfoods:item/food/grain/overlays/cloudberry" },
+			"dogrose" : {base: "expandedfoods:item/food/grain/overlays/dogrose" },
+			"elderberry" : {base: "expandedfoods:item/food/grain/overlays/elderberry" },
+			"gooseberry" : {base: "expandedfoods:item/food/grain/overlays/gooseberry" },
+			"honeysuckle" : {base: "expandedfoods:item/food/grain/overlays/honeysuckle" },
+			"strawberry" : {base: "expandedfoods:item/food/grain/overlays/strawberry" },
+			"raspberry" : {base: "expandedfoods:item/food/grain/overlays/raspberry" },
   	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {

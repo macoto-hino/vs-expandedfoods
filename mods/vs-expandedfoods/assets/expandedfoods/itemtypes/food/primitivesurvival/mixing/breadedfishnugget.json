@@ -4,12 +4,11 @@
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-	
 		{ code: "type", states: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]},
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
-
 	attributes: {
+		"handbook": { "groupBy": [ "breadedfishnugget-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-smashed": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "pineapple"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "fruitsyrupportion-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"*-mix": { satiety: 315, health: 4, foodcategory: "Fruit" },
 			"*-saguaro": { satiety: 270, health: 3, foodcategory: "Fruit" },

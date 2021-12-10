@@ -17,6 +17,7 @@
 		"shelvable": true,
 		"bottlerackable": true,
 		"perishRate": 0.1,
+		handbook: { "groupBy": ["bottle-*"] },
 		"bottleRackTransformByType": {
 			"*-burned": {
 				"translation": {

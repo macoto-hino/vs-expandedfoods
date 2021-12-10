@@ -1,12 +1,12 @@
 {
-  "Type": "code",
-  "Name": "Expanded Foods",
-  "Version": "1.4.4",
-  "NetworkVersion": null,
-  "Description": "New recipes for existing food types.",
-  "ModID": "expandedfoods",
+  "type": "code",
+  "name": "Expanded Foods",
+  "version": "1.4.4",
+  "networkVersion": null,
+  "description": "New recipes for existing food types.",
+  "modID": "expandedfoods",
   "authors": ["l33tmaan, jakecool19, Mister_Andy_Dandy"],
 
-  "Contributors": ["Korhaka, Ledyanaya Sonya, DoctorVanGogh, Jobediah Timberman"],
-  "Dependencies": {}
+  "contributors": ["Korhaka, Ledyanaya Sonya, DoctorVanGogh, Jobediah Timberman"],
+  "dependencies": {}
 }

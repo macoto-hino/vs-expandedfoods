@@ -8,11 +8,11 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blueberry": "item/food/grain/overlays/blueberry",
+		"blueberry": "item/food/grain/overlays/blueberry"
 	},
 	"elements": [
 		{
-			"name": "berries",
+			"name": "blueberry1",
 			"from": [ 7.0, 0.0, 5.0 ], 
 			"to": [ 7.0, 0.0, 5.0 ], 
 			"rotationOrigin": [ 7.0, 0.0, 5.0 ],
@@ -152,20 +152,6 @@
 							}
 						},
 						{
-							"name": "berry14",
-							"from": [ 1.5, 1.5, -0.51 ], 
-							"to": [ 2.01, 1.51, -0.01 ], 
-							"rotationOrigin": [ 1.51, 1.5, -0.5 ],
-							"faces": {
-								"north": { "texture": "#blueberry", "uv": [ 7.5, 5.0, 8.0, 5.5 ] },
-								"east": { "texture": "#blueberry", "uv": [ 9.0, 11.5, 9.5, 12.0 ] },
-								"south": { "texture": "#blueberry", "uv": [ 11.0, 11.0, 11.5, 11.5 ] },
-								"west": { "texture": "#blueberry", "uv": [ 15.0, 8.5, 15.5, 9.0 ] },
-								"up": { "texture": "#blueberry", "uv": [ 12.5, 8.5, 13.0, 9.0 ] },
-								"down": { "texture": "#blueberry", "uv": [ 10.0, 12.0, 10.5, 12.5 ] }
-							}
-						},
-						{
 							"name": "berry15",
 							"from": [ 2.5, 1.5, 2.5 ], 
 							"to": [ 3.0, 1.51, 3.0 ], 
@@ -293,30 +279,30 @@
 						},
 						{
 							"name": "berry5",
-							"from": [ 3.01, -0.5, 2.0 ], 
+							"from": [ 3.01, -0.5, 2.5 ], 
 							"to": [ 3.02, 0.5, 3.0 ], 
-							"rotationOrigin": [ 3.01, -0.5, 2.0 ],
+							"rotationOrigin": [ 3.01, -0.5, 2.5 ],
 							"faces": {
 								"north": { "texture": "#blueberry", "uv": [ 5.5, 4.5, 6.0, 5.5 ] },
-								"east": { "texture": "#blueberry", "uv": [ 5.5, 0.0, 6.5, 1.0 ] },
+								"east": { "texture": "#blueberry", "uv": [ 5.5, 0.0, 6.0, 1.0 ] },
 								"south": { "texture": "#blueberry", "uv": [ 9.0, 8.5, 9.5, 9.5 ] },
-								"west": { "texture": "#blueberry", "uv": [ 10.0, 3.0, 11.0, 4.0 ] },
-								"up": { "texture": "#blueberry", "uv": [ 1.5, 12.0, 2.0, 13.0 ] },
-								"down": { "texture": "#blueberry", "uv": [ 3.0, 1.0, 3.5, 2.0 ] }
+								"west": { "texture": "#blueberry", "uv": [ 10.0, 3.0, 10.5, 4.0 ] },
+								"up": { "texture": "#blueberry", "uv": [ 1.5, 12.0, 2.0, 12.5 ] },
+								"down": { "texture": "#blueberry", "uv": [ 3.0, 1.0, 3.5, 1.5 ] }
 							}
 						},
 						{
 							"name": "berry24",
-							"from": [ 2.5, -0.51, 2.0 ], 
+							"from": [ 2.5, -0.51, 2.5 ], 
 							"to": [ 3.02, -0.5, 3.0 ], 
-							"rotationOrigin": [ 2.51, -0.5, 2.0 ],
+							"rotationOrigin": [ 2.51, -0.5, 2.5 ],
 							"faces": {
 								"north": { "texture": "#blueberry", "uv": [ 8.0, 8.0, 8.5, 8.5 ] },
-								"east": { "texture": "#blueberry", "uv": [ 10.5, 3.5, 11.5, 4.0 ] },
+								"east": { "texture": "#blueberry", "uv": [ 10.5, 3.5, 11.0, 4.0 ] },
 								"south": { "texture": "#blueberry", "uv": [ 5.0, 13.0, 5.5, 13.5 ] },
-								"west": { "texture": "#blueberry", "uv": [ 1.0, 5.0, 2.0, 5.5 ] },
-								"up": { "texture": "#blueberry", "uv": [ 12.5, 4.5, 13.0, 5.5 ] },
-								"down": { "texture": "#blueberry", "uv": [ 3.0, 5.5, 3.5, 6.5 ] }
+								"west": { "texture": "#blueberry", "uv": [ 1.0, 5.0, 1.5, 5.5 ] },
+								"up": { "texture": "#blueberry", "uv": [ 12.5, 4.5, 13.0, 5.0 ] },
+								"down": { "texture": "#blueberry", "uv": [ 3.0, 5.5, 3.5, 6.0 ] }
 							}
 						}
 					]

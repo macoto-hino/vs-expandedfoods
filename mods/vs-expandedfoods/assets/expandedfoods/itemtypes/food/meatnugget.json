@@ -3,6 +3,7 @@
 	
 	maxstacksize: 64,
 	attributes: {
+		"handbook": { "groupBy": [ "meatnugget-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"meatnugget-bushmeat-raw": {satiety: 210, foodcategory: "Protein"},
 			"meatnugget-redmeat-raw": {satiety: 510, foodcategory: "Protein"},

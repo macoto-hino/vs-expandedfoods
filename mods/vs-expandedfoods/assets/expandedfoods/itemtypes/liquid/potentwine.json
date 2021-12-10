@@ -6,6 +6,7 @@
 		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "pineapple"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "potentwineportion-*" ] },
 		nutritionPropsWhenInMealByType: {
 			"*-mix": { satiety: 365, health: 5, foodcategory: "Fruit" },
 			"*": { satiety: 315, health: 2.5, foodcategory: "Fruit" },

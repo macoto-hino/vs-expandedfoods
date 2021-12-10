@@ -6,13 +6,14 @@
 		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "wildfruitsyrupportion-*" ] },
 		nutritionPropsWhenInMealByType: { 
 			"*-cloudberry": { saturation: 405, health: 2, foodcategory: "Fruit" },
 			"*-snowberry": { saturation: 210, health: 0, foodcategory: "Fruit" },
 			"*-huckleberry": { saturation: 210, health: 2, foodcategory: "Fruit" },
 			"*-dogrose": { saturation: 75, health: 2, foodcategory: "Fruit" },
 			"*-elderberry": { saturation: 210, health: 1, foodcategory: "Fruit" },
-			"*": { satiety: 270, health: 3, foodcategory: "Fruit" },
+			"*": { satiety: 270, health: 2, foodcategory: "Fruit" },
 		},
 		waterTightContainerProps: {
 			containable: true,

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "wildfruitjuiceportion-*" ] },
 		nutritionPropsWhenInMealbyType: { 
 			"*-cloudberry": { saturation: 270, health: 1, foodcategory: "Fruit" },
 		    "*-snowberry": { saturation: 135, health: -3, foodcategory: "Fruit" },

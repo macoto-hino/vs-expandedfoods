@@ -2,9 +2,12 @@
 	code: "choppedvegetable",
 	maxstacksize: 64,
 	attributesByType: {
-		"*-cassavadried": {},
+		"*-cassavadried": {
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
+		},
 		"*-cabbage": {
 			nutritionPropsWhenInMeal: { satiety: 560, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -21,6 +24,7 @@
 		},
 		"*-pumpkin": {
 			nutritionPropsWhenInMeal: { satiety: 225, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -37,6 +41,7 @@
 		},
 		"*-flyagaric": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -53,6 +58,7 @@
 		},
 		"*-bolete": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -69,6 +75,7 @@
 		},
 		"*-fieldmushroom": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -85,6 +92,7 @@
 		},
 		"*-pickledcarrot": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -101,6 +109,7 @@
 		},
 		"*-pickledonion": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -117,6 +126,7 @@
 		},
 		"*-pickledparsnip": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -141,6 +151,7 @@
 		},
 		"*-pickledturnip": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -157,6 +168,7 @@
 		},
 		"*-pickledpumpkin": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -173,6 +185,7 @@
 		},
 		"*-papyrusroot": {
 			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -189,6 +202,7 @@
 		},
 		"*-cattailroot": {
 			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,
@@ -205,6 +219,7 @@
 		},
 		"*": {
 			nutritionPropsWhenInMeal: { satiety: 185, foodcategory: "Vegetable" },
+			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.0,

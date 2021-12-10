@@ -19,6 +19,7 @@
 	attackRange: 2,
 	attributes: {
 		rackable: true,
+		handbook: { "groupBy": ["rollingpin-*"] },
 		toolrackTransformByType: {
 			"*": { 
 				scale: 1.5,

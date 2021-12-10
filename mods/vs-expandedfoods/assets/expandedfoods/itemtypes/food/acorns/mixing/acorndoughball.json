@@ -9,6 +9,7 @@
 		{code: "type", states: ["dough", "partbaked", "bread", "charred"]},
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "acorndoughball-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		inPiePropertiesByType: {

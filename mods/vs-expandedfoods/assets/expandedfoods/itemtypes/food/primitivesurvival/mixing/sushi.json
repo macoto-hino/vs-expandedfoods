@@ -3,6 +3,7 @@
 	maxstacksize: 32,
   	class: "ExpandedFood",
 	attributes: {
+		"handbook": { "groupBy": [ "sushi-*" ] },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionProps: {
@@ -38,6 +39,7 @@
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip.json",
 				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip.json",
 				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom.json",
+				"wildcraft:minerslettuce": "expandedfoods:shapes/item/food/sushi/sushi-cabbage.json",
 			},
 			"*-oil": {
 				"game:legume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-sauce.json",
@@ -55,7 +57,8 @@
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-sauce.json",
 				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-sauce.json",
 				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-sauce.json",
-				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/sushi-noveggie-sauce.json"
+				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/sushi-noveggie-sauce.json",
+				"wildcraft:minerslettuce": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-sauce.json",
 			},
 			"*-honey": {
 				"game:legume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-honey.json",
@@ -72,13 +75,33 @@
 				"expandedfoods:choppedvegetable-pickledparsnip": "expandedfoods:shapes/item/food/sushi/sushi-parsnip-honey.json",
 				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-honey.json",
 				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-honey.json",
-				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-sauce.json",
-				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/sushi-noveggie-honey.json"
+				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-honey.json",
+				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/sushi-noveggie-honey.json",
+				"wildcraft:minerslettuce": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-honey.json",
+			},
+			"*-peanut": {
+				"game:legume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-peanut.json",
+				"game:pickledlegume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-peanut.json",
+				"expandedfoods:choppedvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-peanut.json",
+				"game:pickledvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-peanut.json",
+				"expandedfoods:choppedvegetable-bolete": "expandedfoods:shapes/item/food/sushi/sushi-bolete-peanut.json",
+				"expandedfoods:choppedvegetable-fieldmushroom": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-peanut.json",
+				"expandedfoods:choppedvegetable-carrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-peanut.json",
+				"expandedfoods:choppedvegetable-pickledcarrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-peanut.json",
+				"expandedfoods:choppedvegetable-onion": "expandedfoods:shapes/item/food/sushi/sushi-onion-peanut.json",
+				"expandedfoods:choppedvegetable-pickledonion": "expandedfoods:shapes/item/food/sushi/sushi-onion-peanut.json",
+				"expandedfoods:choppedvegetable-parsnip": "expandedfoods:shapes/item/food/sushi/sushi-parsnip-peanut.json",
+				"expandedfoods:choppedvegetable-pickledparsnip": "expandedfoods:shapes/item/food/sushi/sushi-parsnip-peanut.json",
+				"expandedfoods:choppedvegetable-turnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-peanut.json",
+				"expandedfoods:choppedvegetable-pickledturnip": "expandedfoods:shapes/item/food/sushi/sushi-turnip-peanut.json",
+				"expandedfoods:choppedvegetable-cassava": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-peanut.json",
+				"game:grain-rice": "expandedfoods:shapes/item/food/sushi/sushi-noveggie-peanut.json",
+				"wildcraft:minerslettuce": "expandedfoods:shapes/item/food/sushi/vegetarian/sushi-cabbage-peanut.json",
 			},
 		},
 	},
 	variantgroups: [
-		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "cassava", "noveggie"] },
+		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "cassava", "noveggie", "minerslettuce"] },
 		{ code: "oiled", states: ["nooil", "oil", "honey", "peanut"]},
 	],
 	materialDensity: 150,
@@ -86,7 +109,7 @@
 		"*-nooil": { base: "expandedfoods:item/food/sushi/sushi-noveggie"},
 		"*-oil": { base: "expandedfoods:item/food/sushi/sushi-noveggie-sauce"},
 		"*-honey": { base: "expandedfoods:item/food/sushi/sushi-noveggie-honey"},
-		"*-peanut": { base: "expandedfoods:item/food/sushi/sushi-noveggie"},
+		"*-peanut": { base: "expandedfoods:item/food/sushi/sushi-turnip-peanut"},
 	},
   	texturesByType: {
 		"*-cabbage-nooil": {
@@ -98,6 +121,9 @@
 		"*-cabbage-honey": {
 			sushicabbagehoney: { base: "expandedfoods:item/food/sushi/sushicabbagehoney"},
 		},
+		"*-cabbage-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushicabbagepeanut"},
+		},
 		"*-carrot-nooil": {
 			sushicarrot: { base: "expandedfoods:item/food/sushi/sushicarrot"},
 		},
@@ -106,6 +132,9 @@
 		},
 		"*-carrot-honey": {
 			sushicarrothoney: { base: "expandedfoods:item/food/sushi/sushicarrothoney"},
+		},
+		"*-carrot-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushicarrotpeanut"},
 		},
 		"*-onion-nooil": {
 			sushionion: { base: "expandedfoods:item/food/sushi/sushionion"},
@@ -116,6 +145,9 @@
 		"*-onion-honey": {
 			sushionionhoney: { base: "expandedfoods:item/food/sushi/sushionionhoney"},
 		},
+		"*-onion-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushionionpeanut"},
+		},
 		"*-parsnip-nooil": {
 			sushiparsnip: { base: "expandedfoods:item/food/sushi/sushiparsnip"},
 		},
@@ -124,6 +156,9 @@
 		},
 		"*-parsnip-honey": {
 			sushiparsniphoney: { base: "expandedfoods:item/food/sushi/sushiparsniphoney"},
+		},
+		"*-parsnip-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiparsnippeanut"},
 		},
 		"*-turnip-nooil": {
 			sushiturnip: { base: "expandedfoods:item/food/sushi/sushiturnip"},
@@ -134,6 +169,9 @@
 		"*-turnip-honey": {
 			sushiturniphoney: { base: "expandedfoods:item/food/sushi/sushiturniphoney"},
 		},
+		"*-turnip-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiturnippeanut"},
+		},
 		"*-cassava-nooil": {
 			sushifieldmushroom: { base: "expandedfoods:item/food/sushi/sushifieldmushroom"},
 		},
@@ -142,6 +180,9 @@
 		},
 		"*-cassava-honey": {
 			sushifieldmushroomhoney: { base: "expandedfoods:item/food/sushi/sushifieldmushroomhoney"},
+		},
+		"*-cassava-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushicassavapeanut"},
 		},
 		"*-bolete-nooil": {
 			sushibolete: { base: "expandedfoods:item/food/sushi/sushibolete"},
@@ -152,6 +193,9 @@
 		"*-bolete-honey": {
 			sushiboletehoney: { base: "expandedfoods:item/food/sushi/sushiboletehoney"},
 		},
+		"*-bolete-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiboletepeanut"},
+		},
 		"*-fieldmushroom-nooil": {
 			sushifieldmushroom: { base: "expandedfoods:item/food/sushi/sushifieldmushroom"},
 		},
@@ -160,6 +204,9 @@
 		},
 		"*-fieldmushroom-honey": {
 			sushifieldmushroomhoney: { base: "expandedfoods:item/food/sushi/sushifieldmushroomhoney"},
+		},
+		"*-fieldmushroom-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushifieldmushroompeanut"},
 		},
 		"*-soybean-nooil": {
 			sushisoybean: { base: "expandedfoods:item/food/sushi/sushisoybean"},
@@ -170,6 +217,9 @@
 		"*-soybean-honey": {
 			sushisoybeanhoney: { base: "expandedfoods:item/food/sushi/sushisoybeanhoney"},
 		},
+		"*-soybean-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushisoybeanpeanut"},
+		},
 		"*-noveggie-nooil": {
 			sushirice: { base: "expandedfoods:item/food/sushi/sushirice"},
 		},
@@ -178,6 +228,21 @@
 		},
 		"*-noveggie-honey": {
 			sushiricehoney: { base: "expandedfoods:item/food/sushi/sushiricehoney"},
+		},
+		"*-noveggie-peanut": {
+			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiricepeanut"},
+		},
+		"*-minerslettuce-nooil": {
+			sushicabbage: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbage"},
+		},
+		"*-minerslettuce-oil": {
+			sushicabbagesauce: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagesauce"},
+		},
+		"*-minerslettuce-honey": {
+			sushicabbagehoney: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagehoney"},
+		},
+		"*-minerslettuce-peanut": {
+			sushicabbagepeanut: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagepeanut"},
 		},
 		"*": {
 			sushiroll: {base: "expandedfoods:item/food/sushi/sushiroll"},
@@ -213,6 +278,13 @@
 		"*-honey": [{
 			type: "Perish",
 			freshHours: { avg: 240 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.25
+		}],
+		"*-peanut": [{
+			type: "Perish",
+			freshHours: { avg: 120 },
 			transitionHours: { avg: 36 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.25

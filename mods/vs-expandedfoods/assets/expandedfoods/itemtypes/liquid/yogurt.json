@@ -3,6 +3,7 @@
 	class: "ExpandedLiquid",
 	matterState: "liquid",
 	attributes: {
+		"handbook": { "groupBy": [ "yogurt-*" ] },
 		inContainerTexture: { base: "game:item/liquid/yogurt/{type}" },
 		inBowlShape: { base: "game:block/meal/liquid" },
 		expandedNutritionPropsByType: {
@@ -23,7 +24,7 @@
 		}
 	},
 	variantgroups: [
-		{ code: "type", states: ["starter", "ferment", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "birch", "maple", "honey", "pineapple"] },
+		{ code: "type", states: ["starter", "ferment", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "birch", "maple", "honey", "pineapple", "huckleberry", "snowberry", "strawberry", "raspberry", "honeysuckle", "gooseberry", "brambleberry", "cloudberry", "dogrose", "elderberry"] },
 	],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/yogurt/{type}" },
@@ -79,7 +80,17 @@
 		"*-saguaro": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
 		"*-birch": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
 		"*-maple": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
-		"*-honey": { saturation: 75, Health: 0.5, foodcategory: "Dairy" }
+		"*-honey": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-huckleberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-brambleberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-dogrose": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-gooseberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-honeysuckle": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-snowberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-elderberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-strawberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-cloudberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
+		"*-raspberry": { saturation: 75, Health: 0.5, foodcategory: "Dairy" },
 	},
 	guiTransform: {
 		rotation: { x: 123, y: -33, z: -13 },

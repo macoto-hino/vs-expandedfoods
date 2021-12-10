@@ -88,6 +88,7 @@
 	},
 	attributesByType: {
 		"*-cabbage-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -103,6 +104,7 @@
 			}
 		},
 		"*-flyagaric-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -118,6 +120,7 @@
 			}
 		},
 		"*-bolete-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -133,6 +136,7 @@
 			}
 		},
 		"*-fieldmushroom-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -148,6 +152,7 @@
 			}
 		},
 		"*-partbaked": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.25,
@@ -163,6 +168,7 @@
 			}
 		},
 		"*-cabbage-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -178,6 +184,7 @@
 			}
 		},
 		"*-flyagaric-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -193,6 +200,7 @@
 			}
 		},
 		"*-bolete-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -208,6 +216,7 @@
 			}
 		},
 		"*-fieldmushroom-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -223,6 +232,7 @@
 			}
 		},
 		"*-perfect": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.5,
@@ -238,6 +248,7 @@
 			}
 		},
 		"*-cabbage-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -252,6 +263,7 @@
 			}
 		},
 		"*-flyagaric-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -266,6 +278,7 @@
 			}
 		},
 		"*-bolete-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -280,6 +293,7 @@
 			}
 		},
 		"*-fieldmushroom-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,
@@ -294,6 +308,7 @@
 			}
 		},
 		"*-charred": {
+			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
 				levelFrom: 0.75,

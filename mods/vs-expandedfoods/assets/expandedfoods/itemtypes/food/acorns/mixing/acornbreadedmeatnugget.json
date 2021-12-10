@@ -9,6 +9,7 @@
 		{ code: "state", states: ["smashed", "partbaked", "tender", "charred", "syruppartbaked", "syrups", "syrupcharred", "oiled"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "acornbreadedmeatnugget-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-smashed": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

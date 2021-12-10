@@ -1,6 +1,7 @@
 [
 	{
 		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 1,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -23,6 +24,7 @@
 	},
 	{
 		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 1,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -44,6 +46,7 @@
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 1,
 		ingredients: {
 			"X": { type: "item", code: "game:saw-*", isTool: true },
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -68,6 +71,7 @@
 	},
 	{
 		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 1,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -91,6 +95,7 @@
 	},
 	{
 		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 1,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -115,6 +120,7 @@
 	},
 	{
 		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 1,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -140,6 +146,7 @@
 	},
 	{
 		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 2,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -162,6 +169,7 @@
 	},
 	{
 		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 2,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -183,6 +191,7 @@
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 2,
 		ingredients: {
 			"X": { type: "item", code: "game:saw-*", isTool: true },
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -207,6 +216,7 @@
 	},
 	{
 		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 2,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -230,6 +240,7 @@
 	},
 	{
 		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 2,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -254,6 +265,7 @@
 	},
 	{
 		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 2,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -279,6 +291,7 @@
 	},
 	{
 		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 3,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -301,6 +314,7 @@
 	},
 	{
 		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 3,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -322,6 +336,7 @@
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 3,
 		ingredients: {
 			"X": { type: "item", code: "game:saw-*", isTool: true },
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -346,6 +361,7 @@
 	},
 	{
 		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 3,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -369,6 +385,7 @@
 	},
 	{
 		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 3,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -393,6 +410,7 @@
 	},
 	{
 		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 3,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -418,6 +436,7 @@
 	},
 	{
 		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 4,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -440,6 +459,7 @@
 	},
 	{
 		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 4,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -461,6 +481,7 @@
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 4,
 		ingredients: {
 			"X": { type: "item", code: "game:saw-*", isTool: true },
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -485,6 +506,7 @@
 	},
 	{
 		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 4,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -508,6 +530,7 @@
 	},
 	{
 		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 4,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -532,6 +555,186 @@
 	},
 	{
 		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 4,
+		ingredients: {
+			"H": {
+				type: "item",
+				code: "game:hammer-*",
+				isTool: true
+			},
+			"C": {
+				type: "item",
+				code: "game:chisel-*",
+				isTool: true
+			},
+			"X": {
+				type: "item",
+				code: "game:saw-*",
+				isTool: true
+			},
+			"P": {
+				type: "item",
+				code: "game:plank-*",
+				quantity: 8
+			},
+			"A": {
+				type: "block",
+				code: "game:log-placed-*-ud"
+			},
+			"S": {
+				type: "item",
+				code: "game:stick",
+				quantity: 8
+			},
+			"R": {
+				type: "item",
+				code: "game:resin",
+				quantity: 2
+			},
+			"W": {
+				type: "block",
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: {
+					type: "item",
+					code: "expandedfoods:foodoilportion-soy"
+				},
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: {
+			type: "block",
+			code: "game:clutch-north",
+			quantity: 1
+		}
+	},
+	{
+		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 5,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:resin" },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood", quantity: 2 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:windmillrotor-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 5,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+				requiresQuantity: 2
+			}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 2 }
+	},
+	{
+		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 5,
+		ingredients: {
+			"X": { type: "item", code: "game:saw-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 5,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:resin", quantity: 4 },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 4 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+			"A": { type: "block", code: "game:woodenaxle-ud" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:woodentoggle-ns", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 5,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"X": { type: "item", code: "game:saw-*", isTool: true },
+			"G": { type: "block", code: "game:angledgears-s" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:transmission-ns", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 5,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -547,7 +750,7 @@
 		},
 		attributes: {
 			liquidContainerProps: {
-				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
 				requiresQuantity: 2
 			}
 		},
@@ -557,6 +760,152 @@
 	},
 	{
 		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 6,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:resin" },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood", quantity: 2 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:windmillrotor-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 6,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 2 }
+	},
+	{
+		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 6,
+		ingredients: {
+			"X": { type: "item", code: "game:saw-*", isTool: true },
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 6,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"R": { type: "item", code: "game:resin", quantity: 4 },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 4 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+			"A": { type: "block", code: "game:woodenaxle-ud" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:woodentoggle-ns", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 6,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"X": { type: "item", code: "game:saw-*", isTool: true },
+			"G": { type: "block", code: "game:angledgears-s" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:transmission-ns", quantity: 1 }
+	},
+	{
+		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 6,
+		ingredients: {
+			"H": { type: "item", code: "game:hammer-*", isTool: true },
+			"C": { type: "item", code: "game:chisel-*", isTool: true },
+			"X": { type: "item", code: "game:saw-*", isTool: true },
+			"P": { type: "item", code: "game:plank-*", quantity: 8 },
+			"A": { type: "block", code: "game:log-placed-*-ud" },
+			"S": { type: "item", code: "game:stick", quantity: 8 },
+			"R": { type: "item", code: "game:resin", quantity: 2 },
+			"W": { 
+				type: "block", 
+				code: "game:woodbucket"
+			},
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
+				requiresQuantity: 2
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:clutch-north", quantity: 1 }
+	},
+	{
+		ingredientPattern: "_H_,_C_,RSW",
+		recipeGroup: 7,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -579,6 +928,7 @@
 	},
 	{
 		ingredientPattern: "H_,C_,SW",
+		recipeGroup: 7,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -600,6 +950,7 @@
 	},
 	{
 		ingredientPattern: "HX_,PCP,RSW",
+		recipeGroup: 7,
 		ingredients: {
 			"X": { type: "item", code: "game:saw-*", isTool: true },
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
@@ -624,6 +975,7 @@
 	},
 	{
 		ingredientPattern: "HCR,PAP,_W_",
+		recipeGroup: 7,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -647,6 +999,7 @@
 	},
 	{
 		ingredientPattern: "HCX,GPG,RW_",
+		recipeGroup: 7,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },
@@ -671,6 +1024,7 @@
 	},
 	{
 		ingredientPattern: "HCX,PAS,RW_",
+		recipeGroup: 7,
 		ingredients: {
 			"H": { type: "item", code: "game:hammer-*", isTool: true },
 			"C": { type: "item", code: "game:chisel-*", isTool: true },

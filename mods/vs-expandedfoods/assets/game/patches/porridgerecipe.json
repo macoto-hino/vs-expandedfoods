@@ -99,6 +99,146 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-elderberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group16"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-snowberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group17"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-cloudberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group18"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-raspberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group19"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-dogrose",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group20"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-brambleberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group21"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-honeysuckle",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group22"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-gooseberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group23"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-huckleberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group24"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-strawberry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "group25"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/1",
     "value": {
       "type": "item",
@@ -191,6 +331,146 @@
       "textureMapping": [
         "fruit",
         "group7"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-elderberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group16"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-snowberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group17"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-cloudberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group18"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-raspberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group19"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-dogrose",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group20"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-brambleberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group21"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-honeysuckle",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group22"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-gooseberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group23"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-huckleberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group24"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:wilddryfruit-strawberry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "group25"
       ]
     },
     "file": "recipes/cooking/porridge.json"

@@ -2,6 +2,9 @@
     "code": "bottlerack",
     "class": "BlockBottleRack",
     "entityClass": "BottleRack",
+    "attributes": {
+		handbook: { "groupBy": ["bottlerack-*"] },
+    },
     "behaviors": [ { "name": "HorizontalOrientable" } ],
     "variantgroups": [
         {

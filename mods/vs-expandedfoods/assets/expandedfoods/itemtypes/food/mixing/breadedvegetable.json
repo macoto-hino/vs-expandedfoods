@@ -1,6 +1,5 @@
 {
 	code: "breadedvegetable",
-
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
@@ -9,8 +8,8 @@
 		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
-
 	attributes: {
+		"handbook": { "groupBy": [ "breadedvegetable-*" ] },
   		"expandedNutritionPropsByType": {
 			"*-raw": {
 				"game:flour-flax": {saturation: 80, foodcategory: "Grain"},

@@ -6,6 +6,7 @@
 		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"] },
 	],
 	attributes: {
+		"handbook": { "groupBy": [ "vegetablejuiceportion-*" ] },
 		nutritionPropsWhenInMeal: { satiety: 180, health: 1, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,
