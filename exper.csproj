@@ -388,7 +388,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibellpepperhoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibellpepperpeanut.png" />
-    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibellpeppersause.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibellpeppersauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushibolete.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushiboletehoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushiboletepeanut.png" />
@@ -404,7 +404,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushicassava.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushicassavahoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushicassavapeanut.png" />
-    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushicassavasause.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushicassavasauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushifieldmushroom.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushifieldmushroomhoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\sushifieldmushroompeanut.png" />
@@ -433,7 +433,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibellpepperhoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibellpepperpeanut.png" />
-    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibellpeppersause.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibellpeppersauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushibolete.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushiboletehoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushiboletepeanut.png" />
@@ -449,7 +449,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushicassava.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushicassavahoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushicassavapeanut.png" />
-    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushicassavasause.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushicassavasauce.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushifieldmushroom.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushifieldmushroomhoney.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\sushi\vegetarian\sushifieldmushroompeanut.png" />
@@ -483,6 +483,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\trailmix\vegetarian\cheesy.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\trailmix\vegetarian\fruity.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\trailmix\vegetarian\nutty.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\bellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\bolete\cap.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\bolete\pores.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\bolete\stipe.png" />
@@ -501,6 +502,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\flyagaric\stipe.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\onion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\parsnip.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\pickledbellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\pickledcarrot.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\pickledonion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\pickledparsnip.png" />
@@ -508,6 +510,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\pumpkin.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\reeds.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\charred\turnip.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\bellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\bolete\cap.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\bolete\pores.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\bolete\stipe.png" />
@@ -526,6 +529,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\flyagaric\stipe.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\onion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\parsnip.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\pickledbellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\pickledcarrot.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\pickledonion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\pickledparsnip.png" />
@@ -533,6 +537,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\pumpkin.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\reeds.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\partbaked\turnip.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\bellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\bolete\cap.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\bolete\pores.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\bolete\stipe.png" />
@@ -551,6 +556,7 @@
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\flyagaric\stipe.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\onion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\parsnip.png" />
+    <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\pickledbellpepper.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\pickledcarrot.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\pickledonion.png" />
     <Content Include="mods\vs-expandedfoods\assets\expandedfoods\textures\item\food\veggie\perfect\pickledparsnip.png" />
@@ -759,6 +765,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\pemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\plaindoughball.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\sausage.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\stuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\mixing\sushiveg.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\primitivesurvival\crabnugget.json" />
@@ -781,8 +788,10 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\herbalacornhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\herbalbread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\herbalhardtack.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\sausagecrabherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\sausagefishherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\sausageherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildfarming\mixing\sausagesnakeherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\birchsap.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\breadstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\broth.json" />
@@ -821,6 +830,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\alchemy\poultry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\alchemy\redmeat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\alchemy\sausage.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\braziers.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\fish.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\primitivesurvival.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\superfuel.json" />
@@ -857,6 +867,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\meathooks.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\mixingbowl.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\screwpress.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\braziers\brazier.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\breadcrumbs.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\choppedvegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\destroycauldron.json" />
@@ -977,6 +988,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildbreadedvegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildbreadedvegetablesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildcandy.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildcrabpemmican.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildherbcrabpemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wilddumpling.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildfishpemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildfishstuffedpepper.json" />
@@ -1001,6 +1014,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildmuffindough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildmuffinsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildpemmican.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildsnakepemmican.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildherbsnakepemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildstuffedpeppersyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildcraft\wildsushi.json" />
@@ -1015,6 +1030,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\breadedfishnuggetherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\breadedmeatnuggetherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\breadedvegetableherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\crabpemmicanherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\dumplingherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\fishdumplingherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\fishpemmicanherb.json" />
@@ -1028,9 +1044,13 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\herbalstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\pemmicanherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausagecrabherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausagefishherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausageherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sausagesnakeherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\snakepemmicanherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\wildfarming\sushiherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\yogurt.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\yogurtferment.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\yogurtfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\mixing\pastacold.json" />
@@ -1474,6 +1494,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cloudberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cottagecheese.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cottagespread.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\crab.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cranberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\dogrose.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\elderberry.json" />
@@ -1494,6 +1515,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\redmeat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\rice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\rye.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\snake.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\snowberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\spelt.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\strawberry.json" />
@@ -1501,7 +1523,10 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\turnip.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\whitecurrant.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\seaweedmash.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bellpepper-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bellpepper-peanut.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bellpepper-sauce.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bolete-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bolete-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-bolete-sauce.json" />
@@ -1514,7 +1539,10 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-carrot-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-carrot-sauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-carrot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-cassava-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-cassava-peanut.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-cassava-sauce.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-cassava.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-fieldmushroom-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-fieldmushroom-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-fieldmushroom-sauce.json" />
@@ -1539,7 +1567,10 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-turnip-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-turnip-sauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\sushi-turnip.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bellpepper-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bellpepper-peanut.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bellpepper-sauce.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bolete-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bolete-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-bolete-sauce.json" />
@@ -1552,7 +1583,10 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-carrot-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-carrot-sauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-carrot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-cassava-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-cassava-peanut.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-cassava-sauce.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-cassava.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-fieldmushroom-honey.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-fieldmushroom-peanut.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-fieldmushroom-sauce.json" />
@@ -1578,6 +1612,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-turnip-sauce.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\sushi\vegetarian\sushi-turnip.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\trailmix.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\bellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\bolete.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\cabbage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\carrot.json" />
@@ -1589,6 +1624,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cassava.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cassavadried.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cattailroot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\bellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\bolete.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\cabbage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\carrot.json" />
@@ -1599,6 +1635,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\onion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\papyrusroot.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\parsnip.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\pickledbellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\pickledcarrot.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\pickledonion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\veggies\chopped\cooked\pickledparsnip.json" />

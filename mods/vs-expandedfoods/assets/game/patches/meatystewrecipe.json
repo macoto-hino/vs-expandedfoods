@@ -95,7 +95,8 @@
       		"meat",
         	"fishfillet-raw"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival"}]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -109,7 +110,8 @@
       		"meat",
         	"crabmeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival"}]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -123,7 +125,8 @@
       		"meat",
         	"snakemeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival"}]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -137,7 +140,8 @@
       		"meat",
         	"fishfillet-raw"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
   {
     "op": "add",
@@ -428,7 +432,8 @@
             "code": "expandedfoods:fishnugget-raw",
             "shapeElement": "bowl/meatnugget 1/*",
             "textureMapping": ["meatnugget", "fishfillet-raw"]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -442,7 +447,8 @@
       		"meat",
         	"crabmeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -456,7 +462,8 @@
       		"meat",
         	"snakemeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
    {
         "file": "recipes/cooking/meatystew.json",
@@ -467,7 +474,8 @@
             "code": "expandedfoods:fishnugget-smashed",
             "shapeElement": "bowl/fish/*",
             "textureMapping": [ "normal", "fishfillet-raw" ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
   {
     "op": "add",
@@ -649,7 +657,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -663,7 +672,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -677,7 +687,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -691,7 +702,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -705,7 +717,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -719,7 +732,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -733,7 +747,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -747,7 +762,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -761,7 +777,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -775,7 +792,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -789,7 +807,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -803,7 +822,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1262,7 +1282,8 @@
             "code": "expandedfoods:fishnugget-raw",
             "shapeElement": "bowl/meatnugget 2/*",
             "textureMapping": ["meatnugget", "fishfillet-raw"]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -1276,7 +1297,8 @@
       		"meat",
         	"crabmeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
     {
         "file": "recipes/cooking/meatystew.json",
@@ -1290,7 +1312,8 @@
       		"meat",
         	"snakemeat"
       	  ]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
    {
         "file": "recipes/cooking/meatystew.json",
@@ -1301,7 +1324,8 @@
             "code": "expandedfoods:fishnugget-smashed",
             "shapeElement": "bowl/fish 2/*",
             "textureMapping": ["normal", "fishfillet-raw"]
-        }
+        },
+        dependsOn: [{ "modid": "primitivesurvival" }]
     },
   {
     "op": "add",
@@ -1483,7 +1507,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1497,7 +1522,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1511,7 +1537,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1525,7 +1552,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1539,7 +1567,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1553,7 +1582,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1567,7 +1597,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1581,7 +1612,8 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1595,7 +1627,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1609,7 +1642,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1623,7 +1657,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -1637,7 +1672,8 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [ { "modid": "wildfarming" } ]
   },
   {
     "op": "add",
@@ -2553,11 +2589,6 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "fishsauce",
-          "shapeElement": "bowl/topping/*"
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*"
         },
@@ -3091,6 +3122,17 @@
   },
  {
     "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*"
+    },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
     "path": "/ingredients/7",
     "value": {
       "code": "dryfruit-extra",
@@ -3252,7 +3294,8 @@
       "minQuantity": 0,
       "maxQuantity": 1
     },
-    "file": "recipes/cooking/meatystew.json"
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft"}]
   },
   {
     "op": "add",

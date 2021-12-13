@@ -994,48 +994,6 @@
     },
     "file": "recipes/cooking/soup.json"
   },
-  {
-        "file": "recipes/cooking/soup.json",
-        "op": "add",
-        "path": "/ingredients/4/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-  	    "textureMapping": [
-      		 "meatnugget",
-       		 "fishfillet-raw"
-     	 ]
-        }
-  },
-  {
-        "file": "recipes/cooking/soup.json",
-        "op": "add",
-        "path": "/ingredients/4/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:crabnugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-  	    "textureMapping": [
-      		 "meatnugget",
-       		 "crabmeat"
-     	 ]
-        }
-  },
-  {
-        "file": "recipes/cooking/soup.json",
-        "op": "add",
-        "path": "/ingredients/4/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:snakenugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-  	    "textureMapping": [
-      		 "meatnugget",
-       		 "snakemeat"
-     	 ]
-        }
-  },
    {
         "file": "recipes/cooking/soup.json",
         "op": "add",
@@ -1205,5 +1163,16 @@
       "maxQuantity": 1
     },
     "file": "recipes/cooking/soup.json"
+  },
+  {
+   "op": "add",
+   "path": "/ingredients/4/validStacks",
+   "value": [
+		{"type": "item", "code": "expandedfoods:fishnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "fishfillet-raw" ]},
+		{"type": "item", "code": "expandedfoods:crabnugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ]},
+		{"type": "item", "code": "expandedfoods:snakenugget-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ]},
+	],
+    "file": "recipes/cooking/soup.json",	
+	dependsOn: [{ "modid": "primitivesurvival" }]
   },
 ]

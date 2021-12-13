@@ -34,7 +34,7 @@
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acorndoughball-dough",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1}]}
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 },]}
 	],
 	output: { type: "item", code: "expandedfoods:acorndumpling-raw", stackSize: 1}
  }, 
@@ -77,7 +77,7 @@
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acorndoughball-dough",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1}]},
+		{inputs: [{ type: "item", code: "expandedfoods:fishnugget-raw", quantity: 1}, { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1 }, { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 },]},
 		{inputs: [{ type: "item", code: "game:salt", quantity: 1 }]}
 	],
 	output: { type: "item", code: "expandedfoods:acorndumpling-raw", stackSize: 1}

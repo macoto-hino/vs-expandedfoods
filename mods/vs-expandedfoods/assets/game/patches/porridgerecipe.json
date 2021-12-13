@@ -109,7 +109,8 @@
         "group16"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -123,7 +124,8 @@
         "group17"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -137,7 +139,8 @@
         "group18"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -151,7 +154,8 @@
         "group19"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -165,7 +169,8 @@
         "group20"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -179,7 +184,8 @@
         "group21"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [ { "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -193,7 +199,8 @@
         "group22"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -207,7 +214,8 @@
         "group23"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -221,7 +229,8 @@
         "group24"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -235,7 +244,8 @@
         "group25"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft"}]
   },
   {
     "op": "add",
@@ -347,7 +357,8 @@
         "group16"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -361,7 +372,8 @@
         "group17"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -375,7 +387,8 @@
         "group18"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -389,7 +402,8 @@
         "group19"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -403,7 +417,8 @@
         "group20"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -417,7 +432,8 @@
         "group21"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -431,7 +447,8 @@
         "group22"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -445,7 +462,8 @@
         "group23"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -459,7 +477,8 @@
         "group24"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",
@@ -473,7 +492,8 @@
         "group25"
       ]
     },
-    "file": "recipes/cooking/porridge.json"
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft"}]
   },
   {
     "op": "remove",
@@ -946,6 +966,16 @@
         },
         {
           "type": "item",
+          "code": "milkportion",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:pasteurizedmilkportion",
+          "shapeElement": "bowl/topping/*"
+        },
+        {
+          "type": "item",
           "code": "expandedfoods:treesyrupportion-birch",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
@@ -1198,11 +1228,6 @@
         },
         {
           "type": "item",
-          "code": "fishsauce",
-          "shapeElement": "bowl/topping/*"
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*"
         },
@@ -1211,6 +1236,17 @@
       "maxQuantity": 1
     },
     "file": "recipes/cooking/porridge.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*"
+    },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",

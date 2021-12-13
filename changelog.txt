@@ -1,11 +1,29 @@
 Changelog
 
 1.5.0
-Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings; all appropriate meals - DONE!!!
+Added bottle racks, updated bottle visuals - DONE!!!
+Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings, sushi; all appropriate meals - DONE!!!
 Added stuffed bell peppers - DONE!!!
 Added peanut compatibility; Cooked Peanuts, Peanut Skins (fertilizer & animal feed), Peanut Kernels, Peanut Paste, Peanut Butter, Peanut Sauce, Peanut Candy; addable to everything Acorns can be added to - DONE!!!
 Added peanut & sunflower oil - DONE!!!
 Added Peanut/Sunflower/Acorn Candy - DONE!!!
+Added Wildcraft compatibility (Fruit juice/wine/syrup; Berry bread & muffins; Dried fruit; Yogurt; Gelatin; Acorn berry bread & muffins; berries addable to everything fruits can be added to; Miner's Lettuce addable to everything chopped cabbage can be added to) - DONE!!!
+Updated Primitive Survival compatibility; crab meat = fish & snake meat = chicken (Meat Nuggets; Pemmican; Sausage; Stuffed Bell Peppers) - DONE!!! (for now, crab sushi later)
+Added new shapes to certain blocks (thanks Vinter Nacht!) - DONE!!!
+Added recipeGroups & groupBys (Thanks to Craluminum2413) - DONE!!!
+Added Small Cauldrons - DONE!!!
+Added new wood types to meat hooks - DONE!!!
+Fixed mixing bowl crash - DONE!!!
+Fixed charred rye soft bread crash - DONE!!!
+All liquid healing in meals nerfed - DONE!!!
+Yogurt meal perish timer doubled to 6 days - DONE!!!
+Updated Russian translation (Thanks to Dr_Oldman) - DONE!!!
+Fixed rice & bean textures - DONE!!!
+Rice and beans renamed to Pilaf; can now be made with meat or chopped veggies - DONE!!!
+Milk can be added to porridge - DONE!!!
+
+Peanuts visible in meals without needing Acorns
+Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
 Added Acorn "Coffee" & Roasted Acorns
 Honey can be added to teas
 Added Stuffing
@@ -15,27 +33,15 @@ Added cabbage rolls
 Added syrup-glazed termite sticks (w/acorns)
 Added century eggs
 Added lime eggs
-Added Wildcraft compatibility (Fruit juice/wine/syrup; Berry bread & muffins; Dried fruit; Yogurt; Gelatin; Acorn berry bread & muffins; berries addable to everything fruits can be added to; Miner's Lettuce addable to everything chopped cabbage can be added to) - DONE!!!
-Updated Primitive Survival compatibility; crab meat = fish & snake meat = chicken (Meat Nuggets; Pemmican; Sausage;)
 Added herbal bread crumbs
-Fixed rice & bean textures
 Added cured aged meat
 Added Garum
-Added bottle racks, updated bottle visuals - DONE!!!
 Added preserves, jelly & jam - jam, but in the mixing bowl
 Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
 Added VanVar compatibility for more mixing bowl variants
-Added new shapes to certain blocks (thanks Vinter Nacht!) - DONE!!!
-Added Small Cauldrons - DONE!!!
-Fixed charred rye soft bread crash - DONE!!!
-All liquid healing in meals nerfed - DONE!!!
 Fixed meat rack cure timer?
-Yogurt meal perish timer doubled to 6 days - DONE!!!
-Added recipeGroups & groupBys (Thanks to Craluminum2413) - DONE!!!
-Added new wood types to meat hooks
-Fixed mixing bowl crash - DONE!?!!?
-Rice and beans > Pilav
-Updated Russian translation (Thanks to Dr_Oldman) - DONE!!!
+Remove smashed meat variants?
+Acorns stuff compiled into base items & removed; vanilla patches redone
 
 1.4.4 - 10K DOWNLOAD SPECIAL!
 Meat curing time decreased

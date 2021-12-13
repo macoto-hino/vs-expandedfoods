@@ -1107,11 +1107,6 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "fishsauce",
-          "shapeElement": "bowl/topping/*"
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*"
         },
@@ -1350,5 +1345,20 @@
           ]
     },
     "file": "recipes/cooking/vegetablestew.json"
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "fishsauce",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "fishsauce"
+          ]
+    },
+    "file": "recipes/cooking/vegetablestew.json",
+    dependsOn: [{ "modid": "primitivesurvival" }]
   },
 ]

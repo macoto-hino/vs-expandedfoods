@@ -139,4 +139,124 @@
 	height: 2,
 	output: { type: "block", code: "meathooks-kapok-{metal}-east"  }
 },
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 8,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-baldcypress",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-baldcypress-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 9,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-larch",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-larch-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 10,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-redwood",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-redwood-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 11,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-ebony",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-ebony-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 12,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-walnut",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-walnut-{metal}-east"  }
+},
+{
+	ingredientPattern: "PP,HH",
+	recipeGroup: 13,
+	ingredients: {
+		"P": { 
+			type: "item", 
+			code: "game:plank-purpleheart",
+			name: "wood",
+		},
+		"H": { 
+			type: "item", 
+			code: "bighook-*",
+			name: "metal",
+			quantity: 2
+		},
+	},
+	width: 2,
+	height: 2,
+	output: { type: "block", code: "meathooks-purpleheart-{metal}-east"  }
+},
 ]
