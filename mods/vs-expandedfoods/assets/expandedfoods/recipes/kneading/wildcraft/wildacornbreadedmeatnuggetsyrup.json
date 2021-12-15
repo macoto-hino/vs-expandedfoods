@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-partbaked" }]},
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-syruppartbaked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-partbaked" }]},
@@ -14,6 +16,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-partbaked" }]},
@@ -21,6 +24,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-tender" }]},
@@ -28,6 +32,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-tender" }]},
@@ -35,6 +40,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-tender" }]},
@@ -42,6 +48,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-charred" }]},
@@ -49,6 +56,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-syrupcharred", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-charred" }]},
@@ -56,6 +64,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-syrupcharred", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-charred" }]},

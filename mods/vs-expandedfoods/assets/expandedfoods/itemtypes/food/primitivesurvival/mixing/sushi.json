@@ -249,16 +249,16 @@
 			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiricepeanut"},
 		},
 		"*-minerslettuce-nooil": {
-			sushicabbage: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbage"},
+			sushicabbage: { base: "expandedfoods:item/food/sushi/sushicabbage"},
 		},
 		"*-minerslettuce-oil": {
-			sushicabbagesauce: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagesauce"},
+			sushicabbagesauce: { base: "expandedfoods:item/food/sushi/sushicabbagesauce"},
 		},
 		"*-minerslettuce-honey": {
-			sushicabbagehoney: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagehoney"},
+			sushicabbagehoney: { base: "expandedfoods:item/food/sushi/sushicabbagehoney"},
 		},
 		"*-minerslettuce-peanut": {
-			sushicabbagepeanut: { base: "expandedfoods:item/food/sushi/vegetarian/sushicabbagepeanut"},
+			sushicabbagepeanut: { base: "expandedfoods:item/food/sushi/sushicabbagepeanut"},
 		},
 		"*": {
 			sushiroll: {base: "expandedfoods:item/food/sushi/sushiroll"},

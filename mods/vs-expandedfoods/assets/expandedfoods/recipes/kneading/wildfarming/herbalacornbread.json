@@ -1,5 +1,6 @@
 [
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:dough-*", allowedVariants: ["acornspelt", "acornrye", "acornrice", "acornflax", "acorncassava", "acornamaranth", "acornsunflower"], quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*", allowedVariants: ["basil", "chamomile", "cilantro", "lavender", "marjoram", "mint", "saffron", "sage", "thyme" ], quantity: 1 }]}
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:herbalacornbread-dough", stackSize: 1}
  },
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:dough-*", allowedVariants: ["acornspelt", "acornrye", "acornrice", "acornflax", "acorncassava", "acornamaranth", "acornsunflower"], quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*", allowedVariants: ["basil", "chamomile", "cilantro", "lavender", "marjoram", "mint", "saffron", "sage", "thyme" ], quantity: 1 }]},
@@ -15,6 +17,7 @@
 	output: { type: "item", code: "expandedfoods:herbalacornbread-dough", stackSize: 1}
  },
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:dough-*", allowedVariants: ["acornspelt", "acornrye", "acornrice", "acornflax", "acorncassava", "acornamaranth", "acornsunflower"], quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*", allowedVariants: ["basil", "chamomile", "cilantro", "lavender", "marjoram", "mint", "saffron", "sage", "thyme" ], quantity: 1 }]},
@@ -24,6 +27,7 @@
 	output: { type: "item", code: "expandedfoods:herbalacornbread-dough", stackSize: 1}
  },
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:dough-*", allowedVariants: ["acornspelt", "acornrye", "acornrice", "acornflax", "acorncassava", "acornamaranth", "acornsunflower"], quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*", allowedVariants: ["basil", "chamomile", "cilantro", "lavender", "marjoram", "mint", "saffron", "sage", "thyme" ], quantity: 1 }]},
@@ -34,6 +38,7 @@
 	output: { type: "item", code: "expandedfoods:herbalacornbread-dough", stackSize: 1}
  },
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:dough-*", allowedVariants: ["acornspelt", "acornrye", "acornrice", "acornflax", "acorncassava", "acornamaranth", "acornsunflower"], quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:herbbundle-*", allowedVariants: ["basil", "chamomile", "cilantro", "lavender", "marjoram", "mint", "saffron", "sage", "thyme" ], quantity: 1 }]},

@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
     {inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:breadedfishnugget-*-partbaked", name: "grain" }]},
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:breadedfishnugget-{grain}-syruppartbaked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
     {inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:breadedfishnugget-*-tender", name: "grain" }]},
@@ -14,6 +16,7 @@
 	output: { type: "item", code: "expandedfoods:breadedfishnugget-{grain}-syrups", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
     {inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:breadedfishnugget-*-charred", name: "grain" }]},

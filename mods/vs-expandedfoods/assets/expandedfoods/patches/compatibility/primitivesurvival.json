@@ -85,10 +85,10 @@
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
-    op: "add", 
+    op: "replace", 
     path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns" }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
    file: "expandedfoods:recipes/grid/primitivesurvival/fishnugget.json",
@@ -162,10 +162,10 @@
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "add", 
+    op: "replace", 
     path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
@@ -176,10 +176,10 @@
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishdumpling.json",
-    op: "add", 
+    op: "replace", 
     path: "/3/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
@@ -568,45 +568,45 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/2/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/3/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornfishstuffedpepper.json",
-    op: "add", 
+    op: "replace", 
     path: "/5/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }, { "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "acorns" }]
  },
  {
     "file": "game:recipes/barrel/fishsaucebarrel.json",
@@ -1262,10 +1262,6 @@
     "file": "game:recipes/cooking/riceandbeans.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
-
-
-
-
   {
     "op": "add",
     "path": "/ingredients/4/validStacks",
@@ -1957,7 +1953,7 @@
   },
   {
     "op": "add",
-    "path": "/attributesByType/*/simmerRecipes",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes",
     "value": [
 				{
 					Ingredients: [

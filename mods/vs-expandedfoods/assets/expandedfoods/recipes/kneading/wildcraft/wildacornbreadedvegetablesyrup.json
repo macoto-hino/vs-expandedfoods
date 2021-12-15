@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-*-partbaked", name: "vegetable" }]},
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-{vegetable}-syruppartbaked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-flyagaric-partbaked", name: "grain" }]},
@@ -14,6 +16,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-flyagaric-syruppartbaked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-*-cooked", name: "vegetable" }]},
@@ -21,6 +24,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-{vegetable}-syrupv", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-flyagaric-cooked", name: "grain" }]},
@@ -28,6 +32,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-flyagaric-syrupv", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-*-charred", name: "vegetable" }]},
@@ -35,6 +40,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedvegetable-{vegetable}-syrupcharred", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadedvegetable-flyagaric-charred", name: "grain" }]},

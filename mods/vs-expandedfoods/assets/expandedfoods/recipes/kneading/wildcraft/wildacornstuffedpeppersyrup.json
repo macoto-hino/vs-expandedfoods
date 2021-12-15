@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-partbaked"  }]},
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:acornstuffedpepper-syruppartbaked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-cooked" }]},
@@ -14,6 +16,7 @@
 	output: { type: "item", code: "expandedfoods:acornstuffedpepper-syrupcooked", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-charred" }]},

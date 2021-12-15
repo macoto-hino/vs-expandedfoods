@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
@@ -10,6 +11,7 @@
 	output: { type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", stackSize: 1}
  },
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:wildfruitsyrupportion-*",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},

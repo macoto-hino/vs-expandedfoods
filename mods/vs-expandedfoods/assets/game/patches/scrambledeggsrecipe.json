@@ -1016,7 +1016,7 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildfarming" }]
     },
     {
     "op": "add",
@@ -1036,7 +1036,7 @@
         { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     ],
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+    dependsOn: [{ "modid": "wildfarming" }]
   },
  {
     "op": "add",

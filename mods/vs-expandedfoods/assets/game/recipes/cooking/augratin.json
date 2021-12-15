@@ -243,7 +243,6 @@
       			code: "nuts-extra1",
       			validStacks: [
         			{ type: "item", code: "game:legume-peanut",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
-        			{ type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
         			{ type: "item", code: "expandedfoods:peanut-cooked",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
         			{ type: "item", code: "expandedfoods:peanut-kernels",  shapeElement: "bowl/nuts 1/*", textureMapping: ["acorns", "acorns"]},
       			],
@@ -254,7 +253,6 @@
       			code: "nuts-extra2",
       			validStacks: [
         			{ type: "item", code: "game:legume-peanut",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
-        			{ type: "item", code: "expandedfoods:acornportion",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
         			{ type: "item", code: "expandedfoods:peanut-cooked",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
         			{ type: "item", code: "expandedfoods:peanut-kernels",  shapeElement: "bowl/nuts 2/*", textureMapping: ["acorns", "acorns"]},
       			],

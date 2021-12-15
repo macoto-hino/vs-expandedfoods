@@ -79,6 +79,7 @@
 	output: { type: "item", code: "fishnugget-smashed"  }
   },
   {
+	"enabled":  false,
 	ingredientPattern: "H,M",
 	recipeGroup: 5,
 	ingredients: {

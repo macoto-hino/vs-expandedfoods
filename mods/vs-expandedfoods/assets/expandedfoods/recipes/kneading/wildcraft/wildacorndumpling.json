@@ -1,5 +1,6 @@
 [
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acorndoughball-dough",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "wildcraft:minerslettuce", quantity: 1}]},
@@ -7,6 +8,7 @@
 	output: { type: "item", code: "expandedfoods:acorndumpling-raw", stackSize: 1}
  }, 
  {
+	"enabled": false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "expandedfoods:acorndoughball-dough",  quantity: 1 }]},
 		{inputs: [{ type: "item", code: "wildcraft:minerslettuce", quantity: 1}]},

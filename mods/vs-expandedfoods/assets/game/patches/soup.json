@@ -155,7 +155,8 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
     },
-    "file": "recipes/cooking/soup.json"
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
   {
     "op": "add",
@@ -434,7 +435,8 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
     },
-    "file": "recipes/cooking/soup.json"
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
   {
     "op": "add",
@@ -713,7 +715,8 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
     },
-    "file": "recipes/cooking/soup.json"
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
   {
     "op": "add",
@@ -992,7 +995,8 @@
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
     },
-    "file": "recipes/cooking/soup.json"
+    "file": "recipes/cooking/soup.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
    {
         "file": "recipes/cooking/soup.json",

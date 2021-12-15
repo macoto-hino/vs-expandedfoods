@@ -1254,16 +1254,10 @@
     "value": {
       "code": "nuts-extra1",
       "validStacks": [
-        {
-          "type": "item",
-          "code": "expandedfoods:acornportion",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-        }
-      ],
+            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
+            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 1/*",  "textureMapping": [ "acorns", "acorns" ] },      
+],
       "minQuantity": 0,
       "maxQuantity": 1
     },
@@ -1271,62 +1265,22 @@
   },
  {
     "op": "add",
-    "path": "/ingredients/7/validStacks/1",
-    "value": {
-      "type": "item",
-          "code": "game:legume-peanut",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-    },
-    "file": "recipes/cooking/porridge.json"
-  },
- {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/2",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:peanut-cooked",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-    },
-    "file": "recipes/cooking/porridge.json"
-  },
- {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/3",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:peanut-kernels",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-    },
-    "file": "recipes/cooking/porridge.json"
+    "path": "/ingredients/7/validStacks/-",
+    "value":
+        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
   {
     "op": "add",
     "path": "/ingredients/8",
     "value": {
-      "code": "nuts-extra2",
+      "code": "nuts-extra1",
       "validStacks": [
-        {
-          "type": "item",
-          "code": "expandedfoods:acornportion",
-          "shapeElement": "bowl/nuts 2/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-        }
-      ],
+            { "type": "item", "code": "game:legume-peanut",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+            { "type": "item", "code": "expandedfoods:peanut-cooked",  "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },      
+            { "type": "item",  "code": "expandedfoods:peanut-kernels",  "shapeElement": "bowl/nuts 2/*",  "textureMapping": [ "acorns", "acorns" ] },      
+],
       "minQuantity": 0,
       "maxQuantity": 1
     },
@@ -1335,44 +1289,9 @@
  {
     "op": "add",
     "path": "/ingredients/8/validStacks/1",
-    "value": {
-      "type": "item",
-          "code": "game:legume-peanut",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-    },
-    "file": "recipes/cooking/porridge.json"
+    "value": 
+        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "acorns" }]
   },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/2",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:peanut-cooked",
-          "shapeElement": "bowl/nuts 1/*",
-          "textureMapping": [
-            "acorns",
-            "acorns"
-          ]
-    },
-    "file": "recipes/cooking/porridge.json"
-  },
-    {
-        "op": "add",
-        "path": "/ingredients/8/validStacks/3",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:peanut-kernels",
-            "shapeElement": "bowl/nuts 1/*",
-            "textureMapping": [
-                "acorns",
-                "acorns"
-            ]
-        },
-        "file": "recipes/cooking/porridge.json"
-    },
-
 ]
