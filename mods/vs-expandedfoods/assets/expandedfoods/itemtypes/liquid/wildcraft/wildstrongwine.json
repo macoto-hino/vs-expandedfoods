@@ -17,7 +17,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 	        texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/syrup"]},
 			allowSpill: true,
 			whenSpilled: {

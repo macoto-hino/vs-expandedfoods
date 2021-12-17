@@ -1,0 +1,9 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/liquid/wildfarming/tea.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+]

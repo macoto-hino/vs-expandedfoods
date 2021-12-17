@@ -1,0 +1,170 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "game:recipes/cooking/augratin.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+]

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+    "value": {
+					"Ingredients": [
+						{ "type": "item", "code": "waterportion", "quantity": 1 },
+						{ "type": "item", "code": "herbbundle-*", "quantity": 1 }
+					],
+					"Simmering": {
+						"meltingPoint": 100,
+						"meltingDuration": 10,
+						"smeltedRatio": 1,
+						"smeltingType": "bake",
+						"smeltedStack": { "type": "item", "code": "expandedfoods:tea-herb" },
+						"requiresContainer": false
+					}
+			},
+    "file": "blocktypes/saucepan.json",
+    dependsOn: [{ "modid": "wildfarming" }]
+  },
+]

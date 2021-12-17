@@ -1,28 +1,31 @@
 Changelog
 
 1.5.0
-Added bottle racks, updated bottle visuals - DONE!!!
-Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings, sushi; all appropriate meals - DONE!!!
-Added stuffed bell peppers - DONE!!!
-Added peanut compatibility; Cooked Peanuts, Peanut Skins (fertilizer & animal feed), Peanut Kernels, Peanut Paste, Peanut Butter, Peanut Sauce, Peanut Candy; addable to everything Acorns can be added to - DONE!!!
-Added peanut & sunflower oil - DONE!!!
-Added Peanut/Sunflower/Acorn Candy - DONE!!!
-Added Wildcraft compatibility (Fruit juice/wine/syrup; Berry bread & muffins; Dried fruit; Yogurt; Gelatin; Acorn berry bread & muffins; berries addable to everything fruits can be added to; Miner's Lettuce addable to everything chopped cabbage can be added to) - DONE!!!
-Updated Primitive Survival compatibility; crab meat = fish & snake meat = chicken (Meat Nuggets; Pemmican; Sausage; Stuffed Bell Peppers) - DONE!!! (for now, crab sushi later)
-Added new shapes to certain blocks (thanks Vinter Nacht!) - DONE!!!
-Added recipeGroups & groupBys (Thanks to Craluminum2413) - DONE!!!
-Added Small Cauldrons - DONE!!!
-Added new wood types to meat hooks - DONE!!!
-Fixed mixing bowl crash - DONE!!!
-Fixed charred rye soft bread crash - DONE!!!
-All liquid healing in meals nerfed - DONE!!!
-Yogurt meal perish timer doubled to 6 days - DONE!!!
-Updated Russian translation (Thanks to Dr_Oldman) - DONE!!!
-Fixed rice & bean textures - DONE!!!
-Rice and beans renamed to Pilaf; can now be made with meat or chopped veggies - DONE!!!
-Milk can be added to porridge - DONE!!!
+Added bottle racks, updated bottle visuals
+Added Bell Pepper compatibility; Cooked/chopped bellpeppers & cooked pickled peppers;can be added to fried balls, fried vegetables, dumplings, sushi; all appropriate meals
+Added stuffed bell peppers
+Added peanut compatibility; Cooked Peanuts, Peanut Skins (fertilizer & animal feed), Peanut Kernels, Peanut Paste, Peanut Butter, Peanut Sauce, Peanut Candy; addable to everything Acorns can be added to
+Added peanut & sunflower oil
+Added Peanut/Sunflower/Acorn Candy
+Added Wildcraft compatibility (Fruit juice/wine/syrup; Berry bread & muffins; Dried fruit; Yogurt; Gelatin; Acorn berry bread & muffins; berries addable to everything fruits can be added to; Miner's Lettuce addable to everything chopped cabbage can be added to)
+Updated Primitive Survival compatibility; crab meat = fish & snake meat = chicken (Meat Nuggets; Pemmican; Sausage; Stuffed Bell Peppers) (for now, crab sushi later)
+Added new shapes to certain blocks (thanks Vinter Nacht!)
+Added recipeGroups & groupBys (Thanks to Craluminum2413)
+Added Small Cauldrons
+Added new wood types to meat hooks
+Fixed mixing bowl crash
+Fixed charred rye soft bread crash
+All liquid healing in meals nerfed
+Yogurt meal perish timer doubled to 6 days
+Updated Russian translation (Thanks to Dr_Oldman)
+Fixed rice & bean textures
+Rice and beans renamed to Pilaf; can now be made with meat or chopped veggies
+Milk can be added to porridge
 
+Updated Russian translation (Thanks to Dr_Oldman)
+Pushed patches out into distinct folders, fixed various compatibility issues
 Peanuts visible in meals without needing Acorns
+Fixed cauldron & mini cauldron contents issue
 Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
 Added Acorn "Coffee" & Roasted Acorns
 Honey can be added to teas

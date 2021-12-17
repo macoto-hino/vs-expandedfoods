@@ -1,0 +1,142 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildfarming/mixing/sausagefishherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/wildfarming/mixing/sausagecrabherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/wildfarming/mixing/sausagesnakeherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/wildfarming/mixing/sausageherb.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagefishherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagefishherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagefishherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagefishherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagecrabherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagecrabherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagecrabherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagecrabherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagesnakeherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagesnakeherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagesnakeherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausagesnakeherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausageherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausageherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausageherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sausageherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+]

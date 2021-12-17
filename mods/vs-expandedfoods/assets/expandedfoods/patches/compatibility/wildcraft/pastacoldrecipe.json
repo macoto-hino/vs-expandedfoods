@@ -1,0 +1,32 @@
+﻿[
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:minerslettuce",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/mixing/pastacold.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:minerslettuce",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/mixing/pastacold.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+]

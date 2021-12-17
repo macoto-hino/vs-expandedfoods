@@ -1,0 +1,30 @@
+﻿[
+ {
+   file: "expandedfoods:itemtypes/food/wildfarming/mixing/gozinakiherb.json",
+    op: "replace", 
+    path: "/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/gozinakiherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/gozinakiherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "acorns", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/gozinakiherbsyrup.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "acorns", "invert": true }]
+ },
+]

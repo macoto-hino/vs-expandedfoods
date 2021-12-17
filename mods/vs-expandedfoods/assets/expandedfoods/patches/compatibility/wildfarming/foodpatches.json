@@ -1,0 +1,1059 @@
+[
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/8/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/9/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/10/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/11/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/12/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedballherb.json",
+    op: "replace", 
+    path: "/13/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedfishnuggetherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedfishnuggetherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedmeatnuggetherb.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acornbreadedvegetableherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/8/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/acorndumplingherb.json",
+    op: "replace", 
+    path: "/9/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/12/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedballherb.json",
+    op: "add", 
+    path: "/13/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedfishnuggetherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedfishnuggetherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedmeatnuggetherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/breadedvegetableherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/dumplingherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishdumplingherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishdumplingherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishdumplingherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishdumplingherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/fishpemmicanherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/crabpemmicanherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/snakepemmicanherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/0/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/1/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/2/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/3/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/4/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/5/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/pemmicanherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/6/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/7/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/8/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/9/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/10/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/11/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/12/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/13/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/14/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/15/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/16/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/sushiherb.json",
+    op: "replace", 
+    path: "/17/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/3/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/4/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/5/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/6/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/9/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "replace", 
+    path: "/10/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "wildfarming" }, { "modid": "primitivesurvival" }, { "modid": "acorns" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/12/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/13/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildfarming/herbalstuffedpepper.json",
+    op: "add", 
+    path: "/14/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildfarming" , "invert": true}]
+ },
+]

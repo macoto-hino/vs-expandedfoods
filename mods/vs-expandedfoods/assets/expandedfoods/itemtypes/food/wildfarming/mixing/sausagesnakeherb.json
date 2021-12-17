@@ -1,5 +1,6 @@
 {
-  code: "sausagesnakeherb",
+    "enabled":  false,
+    code: "sausagesnakeherb",
     class: "ExpandedFood",
   maxstacksize: 32,
   variantgroups: [

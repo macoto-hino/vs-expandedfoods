@@ -14,7 +14,7 @@
 		inBowlShape: { base: "game:block/meal/liquid" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 8,
 			isopaque: true,
 			textureByType: {
 				"*-huckleberry": { base: "game:item/liquid/yogurt/blueberry" },
