@@ -761,6 +761,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildcandy.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wilddryfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wilddumpling.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildfruitjuices.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildgozinaki.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildherbacornbread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildherbbread.json" />
@@ -890,7 +891,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongwine.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildyogurt.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildfarming\tea.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yeastwater.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yogurt.json" />

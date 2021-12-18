@@ -1,6 +1,6 @@
 ﻿[
  {
-    "file": "expandedfoods:itemtypes/food/liquid/gelatin.json",
+    "file": "expandedfoods:itemtypes/food/gelatin.json",
     op: "add", 
     path: "/skipVariants",
     value: [ "gelatin-huckleberry", "gelatin-snowberry", "gelatin-brambleberry", "gelatin-honeysuckle", "gelatin-cloudberry", "gelatin-dogrose", "gelatin-elderberry", "gelatin-gooseberry", "gelatin-strawberry", "gelatin-raspberry",  ],
