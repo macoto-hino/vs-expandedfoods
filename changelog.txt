@@ -1,4 +1,7 @@
 Changelog
+1.5.1
+Pushed patches out into distinct folders, fixed various compatibility issues
+Updated Russian translation (Thanks to Dr_Oldman)
 
 1.5.0
 Added bottle racks, updated bottle visuals
@@ -22,8 +25,6 @@ Fixed rice & bean textures
 Rice and beans renamed to Pilaf; can now be made with meat or chopped veggies
 Milk can be added to porridge
 
-Updated Russian translation (Thanks to Dr_Oldman)
-Pushed patches out into distinct folders, fixed various compatibility issues
 Peanuts visible in meals without needing Acorns
 Fixed cauldron & mini cauldron contents issue
 Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
