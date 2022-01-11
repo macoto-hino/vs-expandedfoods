@@ -647,7 +647,7 @@ namespace ExpandedFoods
             renderer = null;
         }
 
-        public override void OnBlockBroken()
+        public override void OnBlockBroken(IPlayer player)
         {
             base.OnBlockBroken();
         }
@@ -796,7 +796,7 @@ namespace ExpandedFoods
         public CookingRecipe GetMatchingMixingRecipe(IWorldAccessor world, ItemStack[] stacks)
         {
             if (Pot == null) return null;
-            List<CookingRecipe> recipes = MixingRecipeRegistry.Loaded.MixingRecipes;
+            var recipes = MixingRecipeRegistry.Loaded.MixingRecipes;
             if (recipes == null) return null;
 
             for (int j = 0; j < recipes.Count; j++)

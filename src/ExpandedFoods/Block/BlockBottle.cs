@@ -13,7 +13,7 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class BlockBottle : BlockBucket
+    public class BlockBottle : BlockLiquidContainerTopOpened
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
 
@@ -25,7 +25,7 @@ namespace ExpandedFoods
 
             if (contentStack != null)
             {
-                WaterTightContainableProps props = GetInContainerProps(contentStack);
+                WaterTightContainableProps props = GetContainableProps(contentStack);
 
                 BottleTextureSource contentSource = new BottleTextureSource(capi, contentStack, props.Texture, this);
 
@@ -65,7 +65,7 @@ namespace ExpandedFoods
 
             if (contentStack != null)
             {
-                WaterTightContainableProps props = GetInContainerProps(contentStack);
+                WaterTightContainableProps props = GetContainableProps(contentStack);
 
                 BottleTextureSource contentSource = new BottleTextureSource(capi, contentStack, props.Texture, this);
 
@@ -114,7 +114,7 @@ namespace ExpandedFoods
                 capi.ObjectCache["bottleMeshRefs"] = meshrefs = new Dictionary<string, MeshRef>();
             }
 
-            ItemStack contentStack = GetContent(capi.World, itemstack);
+            ItemStack contentStack = GetContent(itemstack);
             if (contentStack == null) return;
 
             MeshRef meshRef = null;
@@ -159,7 +159,7 @@ namespace ExpandedFoods
                 return;
             }
 
-            ItemStack content = GetContent(byEntity.World, itemslot.Itemstack);
+            ItemStack content = GetContent(itemslot.Itemstack);
 
             if (content != null && content.Collectible.GetNutritionProperties(byEntity.World, content, byEntity as Entity) != null)
             {
@@ -182,7 +182,7 @@ namespace ExpandedFoods
 
         public override bool OnHeldInteractStep(float secondsUsed, ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
-            ItemStack content = GetContent(byEntity.World, slot.Itemstack);
+            ItemStack content = GetContent(slot.Itemstack);
             if (content == null || content.Collectible.GetNutritionProperties(byEntity.World, slot.Itemstack, byEntity as Entity) == null || (blockSel != null && !byEntity.Controls.Sneak)) return false;
 
 
@@ -229,7 +229,7 @@ namespace ExpandedFoods
 
         public override void OnHeldInteractStop(float secondsUsed, ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
-            ItemStack content = GetContent(byEntity.World, slot.Itemstack);
+            ItemStack content = GetContent(slot.Itemstack);
             FoodNutritionProperties nutriProps = content?.Collectible.GetNutritionProperties(byEntity.World, content, byEntity as Entity);
 
             if (byEntity.World is IServerWorldAccessor && nutriProps != null && secondsUsed >= 0.95f)
@@ -257,7 +257,7 @@ namespace ExpandedFoods
         public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
         {
             base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
-            ItemStack content = GetContent(world, inSlot.Itemstack);
+            ItemStack content = GetContent(inSlot.Itemstack);
             if (content != null)
             {
                 DummySlot dummy = new DummySlot(content);
@@ -271,7 +271,7 @@ namespace ExpandedFoods
         {
             dsc.Append(GetHeldItemName(inSlot.Itemstack));
             dsc.Append(", ");
-            ItemStack content = GetContent(world, inSlot.Itemstack);
+            ItemStack content = GetContent(inSlot.Itemstack);
             if (content != null)
             {
                 DummyInventory dummyInv = new DummyInventory(api);
@@ -285,25 +285,27 @@ namespace ExpandedFoods
             }
         }
 
-        public override int TryPutContent(IWorldAccessor world, ItemStack containerStack, ItemStack contentStack, int desiredItems)
+        public override int TryPutLiquid(ItemStack containerStack, ItemStack liquidStack, float desiredLitres)
         {
-            if (contentStack == null) return 0;
+            if (liquidStack == null) return 0;
 
-            ItemStack stack = GetContent(world, containerStack);
+            var props = GetContainableProps(liquidStack);
+            if (props == null) return 0;
+            
+            int desiredItems = (int)(props.ItemsPerLitre * desiredLitres);
+            int availItems = liquidStack.StackSize;
 
-            int availItems = contentStack.StackSize;
-
+            ItemStack stack = GetContent(containerStack);
             ILiquidSink sink = containerStack.Collectible as ILiquidSink;
 
             if (stack == null)
             {
-                WaterTightContainableProps props = GetInContainerProps(contentStack);
-                if (props == null || !props.Containable) return 0;
+                if (!props.Containable) return 0;
 
 
                 int placeableItems = (int)(sink.CapacityLitres * props.ItemsPerLitre);
 
-                ItemStack placedstack = contentStack.Clone();
+                ItemStack placedstack = liquidStack.Clone();
                 placedstack.StackSize = GameMath.Min(availItems, desiredItems, placeableItems);
                 SetContent(containerStack, placedstack);
 
@@ -311,19 +313,17 @@ namespace ExpandedFoods
             }
             else
             {
-                if (!stack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes)) return 0;
-
-                WaterTightContainableProps props = GetContentProps(world, containerStack);
+                if (!stack.Equals(api.World, liquidStack, GlobalConstants.IgnoredStackAttributes)) return 0;
 
                 float maxItems = sink.CapacityLitres * props.ItemsPerLitre;
                 int placeableItems = (int)(maxItems - stack.StackSize);
+
                 stack.StackSize += Math.Min(placeableItems, desiredItems);
 
                 return Math.Min(placeableItems, desiredItems);
             }
         }
-
-        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+		public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
             ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
@@ -342,66 +342,79 @@ namespace ExpandedFoods
             bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
             bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
 
-            if (obj is ILiquidSource && !singleTake)
+            if (obj is ILiquidSource objLso && !singleTake)
             {
-                int moved = TryPutContent(world, blockSel.Position, (obj as ILiquidSource).GetContent(world, hotbarSlot.Itemstack), singlePut ? 1 : 9999);
+                if (!objLso.AllowHeldLiquidTransfer) return false; 
+
+                var contentStackToMove = objLso.GetContent(hotbarSlot.Itemstack);
+
+                float litres = singlePut ? objLso.TransferSizeLitres : objLso.CapacityLitres;
+                int moved = TryPutLiquid(blockSel.Position, contentStackToMove, litres);
 
                 if (moved > 0)
                 {
-                    TryTakeContent(world, hotbarSlot.Itemstack, moved);
-                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
-
-                    return true;
-                }
-            }
-
-            if (obj is ILiquidSink && !singlePut)
-            {
-                ItemStack owncontentStack = GetContent(world, blockSel.Position);
-                int moved = 0;
-
-                if (hotbarSlot.Itemstack.StackSize == 1)
-                {
-                    moved = TryPutContent(world, hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
-                }
-                else
-                {
-                    ItemStack containerStack = hotbarSlot.Itemstack.Clone();
-                    containerStack.StackSize = 1;
-                    moved = TryPutContent(world, containerStack, owncontentStack, singleTake ? 1 : 9999);
-
-                    if (moved > 0)
+                    splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) =>
                     {
-                        hotbarSlot.TakeOut(1);
-                        if (!byPlayer.InventoryManager.TryGiveItemstack(containerStack, true))
-                        {
-                            api.World.SpawnItemEntity(containerStack, byPlayer.Entity.SidedPos.XYZ);
-                        }
-                    }
-                }
+                        objLso.TryTakeContent(stack, moved);
+                        return moved;
+                    });
+                    DoLiquidMovedEffects(byPlayer, contentStackToMove, moved, EnumLiquidDirection.Pour);
 
-                if (moved > 0)
-                {
-                    TryTakeContent(world, blockSel.Position, moved);
-                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
                     return true;
                 }
             }
 
-            return true;
+            if (obj is ILiquidSink objLsi && !singlePut)
+            {
+                if (!objLsi.AllowHeldLiquidTransfer) return false;
+
+                ItemStack owncontentStack = GetContent(blockSel.Position);
+
+                if (owncontentStack == null) return base.OnBlockInteractStart(world, byPlayer, blockSel);
+
+                var liquidStackForParticles = owncontentStack.Clone();
+
+                float litres = singleTake ? objLsi.TransferSizeLitres : objLsi.CapacityLitres;
+
+                int moved = splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) => objLsi.TryPutLiquid(stack, owncontentStack, litres));
+                if (moved > 0)
+                {
+                    TryTakeContent(blockSel.Position, moved);
+                    DoLiquidMovedEffects(byPlayer, liquidStackForParticles, moved, EnumLiquidDirection.Fill);
+                    return true;
+                }
+            }
+
+            return base.OnBlockInteractStart(world, byPlayer, blockSel);
         }
 
         public override void OnGroundIdle(EntityItem entityItem)
         {
             base.OnGroundIdle(entityItem);
 
-            if (!entityItem.Swimming || entityItem.World.Side != EnumAppSide.Server) return;
+            IWorldAccessor world = entityItem.World;
+            if (world.Side != EnumAppSide.Server) return;
 
-            ItemStack contents = GetContent(entityItem.World, entityItem.Itemstack);
-            if (contents != null && contents.Collectible.Code.Path == "rot")
+            if (entityItem.Swimming && world.Rand.NextDouble() < 0.03)
             {
-                entityItem.World.SpawnItemEntity(contents, entityItem.ServerPos.XYZ);
-                SetContent(entityItem.Itemstack, null);
+                TryFillFromBlock(entityItem, entityItem.SidedPos.AsBlockPos);
+            }
+
+            if (entityItem.Swimming && world.Rand.NextDouble() < 0.01)
+            {
+                ItemStack[] stacks = GetContents(world, entityItem.Itemstack);
+                if (MealMeshCache.ContentsRotten(stacks))
+                {
+                    for (int i = 0; i < stacks.Length; i++)
+                    {
+                        if (stacks[i] != null && stacks[i].StackSize > 0 && stacks[i].Collectible.Code.Path == "rot")
+                        {
+                            world.SpawnItemEntity(stacks[i], entityItem.ServerPos.XYZ);
+                        }
+                    }
+
+                    SetContent(entityItem.Itemstack, null);
+                }
             }
         }
 
@@ -492,6 +505,7 @@ namespace ExpandedFoods
             return dsc.ToString();
         }
     }
+
 
     public class BlockEntityBottle : BlockEntityContainer
     {

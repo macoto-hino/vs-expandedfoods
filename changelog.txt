@@ -1,4 +1,31 @@
 Changelog
+
+1.5.3
+Peanuts visible in meals without needing Acorns
+Fixed cauldron & mini cauldron contents issue
+Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
+Added Acorn "Coffee" & Roasted Acorns
+Honey can be added to teas
+Added Stuffing
+Added Walnut Jam
+Added mayo - useable in salads, veggie stews, au gratin, and porridge
+Added cabbage rolls
+Added syrup-glazed termite sticks (w/acorns)
+Added century eggs
+Added lime eggs
+Added herbal bread crumbs
+Added cured aged meat
+Added Garum
+Added preserves, jelly & jam - jam, but in the mixing bowl
+Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
+Added VanVar compatibility for more mixing bowl variants
+Fixed meat rack cure timer?
+Remove smashed meat variants?
+Acorns stuff compiled into base items & removed; vanilla patches redone
+
+1.5.2
+Fixed further compatibility issues
+
 1.5.1
 Pushed patches out into distinct folders, fixed various compatibility issues
 Updated Russian translation (Thanks to Dr_Oldman)
@@ -24,28 +51,6 @@ Updated Russian translation (Thanks to Dr_Oldman)
 Fixed rice & bean textures
 Rice and beans renamed to Pilaf; can now be made with meat or chopped veggies
 Milk can be added to porridge
-
-Peanuts visible in meals without needing Acorns
-Fixed cauldron & mini cauldron contents issue
-Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
-Added Acorn "Coffee" & Roasted Acorns
-Honey can be added to teas
-Added Stuffing
-Added Walnut Jam
-Added mayo - useable in salads, veggie stews, au gratin, and porridge
-Added cabbage rolls
-Added syrup-glazed termite sticks (w/acorns)
-Added century eggs
-Added lime eggs
-Added herbal bread crumbs
-Added cured aged meat
-Added Garum
-Added preserves, jelly & jam - jam, but in the mixing bowl
-Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
-Added VanVar compatibility for more mixing bowl variants
-Fixed meat rack cure timer?
-Remove smashed meat variants?
-Acorns stuff compiled into base items & removed; vanilla patches redone
 
 1.4.4 - 10K DOWNLOAD SPECIAL!
 Meat curing time decreased

@@ -1825,7 +1825,6 @@
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill2.json" />
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill3.json" />
     <None Include="mods\vs-expandedfoods\assets\game\shapes\block\wood\trough\small\legumefill4.json" />
-    <None Include="mods\vs-expandedfoods\Expanded Foods 1.5.0.zip" />
     <None Include="mods\vs-expandedfoods\modinfo.json" />
   </ItemGroup>
   <ItemGroup>
