@@ -16,7 +16,6 @@ namespace ExpandedFoods
     public class BlockBottle : BlockLiquidContainerTopOpened
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
-
         public new MeshData GenMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
         {
             Shape shape = null;

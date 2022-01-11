@@ -647,11 +647,6 @@ namespace ExpandedFoods
             renderer = null;
         }
 
-        public override void OnBlockBroken(IPlayer player)
-        {
-            base.OnBlockBroken();
-        }
-
         ~BlockEntityMixingBowl()
         {
             if (ambientSound != null) ambientSound.Dispose();
