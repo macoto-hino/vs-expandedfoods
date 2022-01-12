@@ -149,7 +149,7 @@ namespace ExpandedFoods
         }
 
 
-        protected override void translateMesh(MeshData mesh, int index)
+        public override void TranslateMesh(MeshData mesh, int index)
         {
             float x = (index % 2 == 0) ? 5 / 16f : 11 / 16f;
             float y = 1.01f / 16f;
