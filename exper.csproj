@@ -78,7 +78,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BEMixingBowl.cs" />
-    <Compile Include="src\ExpandedFoods\Block Entity\BEScrewPress.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntityBottleRack.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntityMeatHooks.cs" />
     <Compile Include="src\ExpandedFoods\Block Entity\BlockEntitySpile.cs" />
@@ -89,7 +88,6 @@
     <Compile Include="src\ExpandedFoods\Block\BlockBottle.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockSaucepan.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockMeatHooks.cs" />
-    <Compile Include="src\ExpandedFoods\Block\BlockScrewPress.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockSpile.cs" />
     <Compile Include="src\ExpandedFoods\Block\BlockMixingBowl.cs" />
     <Compile Include="src\ExpandedFoods\ExpandedFoods.cs" />

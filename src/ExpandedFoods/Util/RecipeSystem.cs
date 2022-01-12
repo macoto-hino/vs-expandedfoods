@@ -10,6 +10,7 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
 using Vintagestory.ServerMods;
+using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {

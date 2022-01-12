@@ -13,14 +13,15 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class BlockBottle : BlockLiquidContainerTopOpened
+    public class BlockBottle : BlockBucket
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
+
         public new MeshData GenMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
         {
             Shape shape = null;
             MeshData bucketmesh = null;
-            
+
 
             if (contentStack != null)
             {
@@ -46,57 +47,13 @@ namespace ExpandedFoods
                 {
                     shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottle.json").ToObject<Shape>();
                 }
-                
+
                 capi.Tesselator.TesselateShape("bucket", shape, out bucketmesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
             }
 
-            return bucketmesh;
-        }
-
-
-
-
-        public MeshData GenMeshSideways(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
-        {
-            Shape shape = null;
-            MeshData bucketmesh = null;
-            
-
-            if (contentStack != null)
-            {
-                WaterTightContainableProps props = GetContainableProps(contentStack);
-
-                BottleTextureSource contentSource = new BottleTextureSource(capi, contentStack, props.Texture, this);
-
-                float level = contentStack.StackSize / props.ItemsPerLitre;
-
-                if (level <= 0.25f)
-                {
-                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-1.json").ToObject<Shape>();
-                }
-                else if (level <= 0.5f)
-                {
-                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-2.json").ToObject<Shape>();
-                }
-                else if (level < 1)
-                {
-                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-3.json").ToObject<Shape>();
-                }
-                else
-                {
-                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottle.json").ToObject<Shape>();
-                }
-                
-                capi.Tesselator.TesselateShape("bucket", shape, out bucketmesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
-            }
 
             return bucketmesh;
         }
-
-
-
-
-
 
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {
@@ -284,45 +241,9 @@ namespace ExpandedFoods
             }
         }
 
-        public override int TryPutLiquid(ItemStack containerStack, ItemStack liquidStack, float desiredLitres)
-        {
-            if (liquidStack == null) return 0;
+        
 
-            var props = GetContainableProps(liquidStack);
-            if (props == null) return 0;
-            
-            int desiredItems = (int)(props.ItemsPerLitre * desiredLitres);
-            int availItems = liquidStack.StackSize;
-
-            ItemStack stack = GetContent(containerStack);
-            ILiquidSink sink = containerStack.Collectible as ILiquidSink;
-
-            if (stack == null)
-            {
-                if (!props.Containable) return 0;
-
-
-                int placeableItems = (int)(sink.CapacityLitres * props.ItemsPerLitre);
-
-                ItemStack placedstack = liquidStack.Clone();
-                placedstack.StackSize = GameMath.Min(availItems, desiredItems, placeableItems);
-                SetContent(containerStack, placedstack);
-
-                return Math.Min(desiredItems, placeableItems);
-            }
-            else
-            {
-                if (!stack.Equals(api.World, liquidStack, GlobalConstants.IgnoredStackAttributes)) return 0;
-
-                float maxItems = sink.CapacityLitres * props.ItemsPerLitre;
-                int placeableItems = (int)(maxItems - stack.StackSize);
-
-                stack.StackSize += Math.Min(placeableItems, desiredItems);
-
-                return Math.Min(placeableItems, desiredItems);
-            }
-        }
-		public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
+        public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
             ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
@@ -341,79 +262,66 @@ namespace ExpandedFoods
             bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
             bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
 
-            if (obj is ILiquidSource objLso && !singleTake)
+            if (obj is ILiquidSource && !singleTake)
             {
-                if (!objLso.AllowHeldLiquidTransfer) return false; 
-
-                var contentStackToMove = objLso.GetContent(hotbarSlot.Itemstack);
-
-                float litres = singlePut ? objLso.TransferSizeLitres : objLso.CapacityLitres;
-                int moved = TryPutLiquid(blockSel.Position, contentStackToMove, litres);
+                int moved = TryPutLiquid(blockSel.Position, hotbarSlot.Itemstack, singlePut ? 1 : 9999);
 
                 if (moved > 0)
                 {
-                    splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) =>
-                    {
-                        objLso.TryTakeContent(stack, moved);
-                        return moved;
-                    });
-                    DoLiquidMovedEffects(byPlayer, contentStackToMove, moved, EnumLiquidDirection.Pour);
+                    TryTakeContent(hotbarSlot.Itemstack, moved);
+                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
 
                     return true;
                 }
             }
 
-            if (obj is ILiquidSink objLsi && !singlePut)
+            if (obj is ILiquidSink && !singlePut)
             {
-                if (!objLsi.AllowHeldLiquidTransfer) return false;
-
                 ItemStack owncontentStack = GetContent(blockSel.Position);
+                int moved = 0;
 
-                if (owncontentStack == null) return base.OnBlockInteractStart(world, byPlayer, blockSel);
+                if (hotbarSlot.Itemstack.StackSize == 1)
+                {
+                    moved = TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
+                }
+                else
+                {
+                    ItemStack containerStack = hotbarSlot.Itemstack.Clone();
+                    containerStack.StackSize = 1;
+                    moved = TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
 
-                var liquidStackForParticles = owncontentStack.Clone();
+                    if (moved > 0)
+                    {
+                        hotbarSlot.TakeOut(1);
+                        if (!byPlayer.InventoryManager.TryGiveItemstack(containerStack, true))
+                        {
+                            api.World.SpawnItemEntity(containerStack, byPlayer.Entity.SidedPos.XYZ);
+                        }
+                    }
+                }
 
-                float litres = singleTake ? objLsi.TransferSizeLitres : objLsi.CapacityLitres;
-
-                int moved = splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) => objLsi.TryPutLiquid(stack, owncontentStack, litres));
                 if (moved > 0)
                 {
                     TryTakeContent(blockSel.Position, moved);
-                    DoLiquidMovedEffects(byPlayer, liquidStackForParticles, moved, EnumLiquidDirection.Fill);
+                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
                     return true;
                 }
             }
 
-            return base.OnBlockInteractStart(world, byPlayer, blockSel);
+            return true;
         }
 
         public override void OnGroundIdle(EntityItem entityItem)
         {
             base.OnGroundIdle(entityItem);
 
-            IWorldAccessor world = entityItem.World;
-            if (world.Side != EnumAppSide.Server) return;
+            if (!entityItem.Swimming || entityItem.World.Side != EnumAppSide.Server) return;
 
-            if (entityItem.Swimming && world.Rand.NextDouble() < 0.03)
+            ItemStack contents = GetContent(entityItem.Itemstack);
+            if (contents != null && contents.Collectible.Code.Path == "rot")
             {
-                TryFillFromBlock(entityItem, entityItem.SidedPos.AsBlockPos);
-            }
-
-            if (entityItem.Swimming && world.Rand.NextDouble() < 0.01)
-            {
-                ItemStack[] stacks = GetContents(world, entityItem.Itemstack);
-                if (MealMeshCache.ContentsRotten(stacks))
-                {
-                    for (int i = 0; i < stacks.Length; i++)
-                    {
-                        if (stacks[i] != null && stacks[i].StackSize > 0 && stacks[i].Collectible.Code.Path == "rot")
-                        {
-                            world.SpawnItemEntity(stacks[i], entityItem.ServerPos.XYZ);
-                        }
-                    }
-
-                    SetContent(entityItem.Itemstack, null);
-                }
+                entityItem.World.SpawnItemEntity(contents, entityItem.ServerPos.XYZ);
+                SetContent(entityItem.Itemstack, null);
             }
         }
 
@@ -504,7 +412,6 @@ namespace ExpandedFoods
             return dsc.ToString();
         }
     }
-
 
     public class BlockEntityBottle : BlockEntityContainer
     {
