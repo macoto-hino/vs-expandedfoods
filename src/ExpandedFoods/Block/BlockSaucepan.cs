@@ -73,7 +73,7 @@ namespace ExpandedFoods
 
         public override bool CanSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemStack inputStack, ItemStack outputStack)
         {
-            if (outputStack != null || GetContent(world, inputStack) != null) return false;
+            if (outputStack != null || GetContent(inputStack) != null) return false;
             List<ItemStack> stacks = new List<ItemStack>();
 
             foreach (ItemSlot slot in cookingSlotsProvider.Slots)
@@ -253,7 +253,7 @@ namespace ExpandedFoods
         
             if (contentStack == null) return 0;
 
-            ItemStack stack = GetContent(world, containerStack);
+            ItemStack stack = GetContent(containerStack);
 
             int availItems = contentStack.StackSize;
 
@@ -261,7 +261,7 @@ namespace ExpandedFoods
 
             if (stack == null)
             {
-                WaterTightContainableProps props = GetInContainerProps(contentStack);
+                WaterTightContainableProps props = GetContainableProps(contentStack);
                 if (props == null || !props.Containable) return 0;
 
 
@@ -277,7 +277,7 @@ namespace ExpandedFoods
             {
                 if (!stack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes)) return 0;
 
-                WaterTightContainableProps props = GetContentProps(world, containerStack);
+                WaterTightContainableProps props = GetContainableProps(containerStack);
 
                 float maxItems = sink.CapacityLitres * props.ItemsPerLitre;
                 int placeableItems = (int)(maxItems - stack.StackSize);
@@ -343,7 +343,7 @@ namespace ExpandedFoods
 
                 if (moved > 0)
                 {
-                    TryTakeContent(world, hotbarSlot.Itemstack, moved);
+                    TryTakeContent(hotbarSlot.Itemstack, moved);
                     (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
 
                     return true;
@@ -352,7 +352,7 @@ namespace ExpandedFoods
 
             if (obj is ILiquidSink && !singlePut)
             {
-                ItemStack owncontentStack = GetContent(world, blockSel.Position);
+                ItemStack owncontentStack = GetContent(blockSel.Position);
                 int moved = 0;
 
                 if (hotbarSlot.Itemstack.StackSize == 1)
@@ -377,7 +377,7 @@ namespace ExpandedFoods
 
                 if (moved > 0)
                 {
-                    TryTakeContent(world, blockSel.Position, moved);
+                    TryTakeContent(blockSel.Position, moved);
                     (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
                     return true;
                 }
@@ -408,7 +408,7 @@ namespace ExpandedFoods
                 capi.ObjectCache[(Variant["metal"]) + "MeshRefs"] = meshrefs = new Dictionary<int, MeshRef>();
             }
 
-            ItemStack contentStack = GetContent(capi.World, itemstack);
+            ItemStack contentStack = GetContent(itemstack);
             if (contentStack == null) return;
 
             int hashcode = GetSaucepanHashCode(capi.World, contentStack, isSealed);
@@ -484,7 +484,7 @@ namespace ExpandedFoods
 
             if (contentStack != null)
             {
-                WaterTightContainableProps props = GetInContainerProps(contentStack);
+                WaterTightContainableProps props = GetContainableProps(contentStack);
 
                 ContainerTextureSource contentSource = new ContainerTextureSource(capi, contentStack, props.Texture);
                 shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();

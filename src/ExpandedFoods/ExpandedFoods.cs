@@ -51,9 +51,6 @@ namespace ExpandedFoods
             api.RegisterBlockClass("BlockSaucepan", typeof(BlockSaucepan));
             api.RegisterBlockEntityClass("Saucepan", typeof(BlockEntitySaucepan));
 
-            api.RegisterBlockClass("BlockScrewPress", typeof(BlockScrewPress));
-            api.RegisterBlockEntityClass("BEScrewPress", typeof(BEScrewPress));
-
             api.RegisterBlockClass("BlockExpandedClayOven", typeof(BlockExpandedClayOven));
             api.RegisterBlockEntityClass("ExpandedOven", typeof(BlockEntityExpandedOven));
 
