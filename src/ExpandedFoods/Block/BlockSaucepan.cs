@@ -41,7 +41,7 @@ namespace ExpandedFoods
 
             foreach (CollectibleObject obj in api.World.Collectibles)
             {
-                if ((obj is BlockBowl && obj.LastCodePart() != "raw") || obj is ILiquidSource || obj is ILiquidSink || obj is BlockWateringCan)
+                if (obj is BlockLiquidContainerTopOpened || obj is ILiquidSource || obj is ILiquidSink || obj is BlockWateringCan)
                 {
                     List<ItemStack> stacks = obj.GetHandBookStacks((ICoreClientAPI)api);
                     if (stacks != null) liquidContainerStacks.AddRange(stacks);
