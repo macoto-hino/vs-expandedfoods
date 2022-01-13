@@ -171,7 +171,7 @@ namespace ExpandedFoods
 
                 outputSlot.Itemstack = inputSlot.TakeOut(1);
 
-                (outputSlot.Itemstack.Collectible as BlockLiquidContainerBase).TryPutContent(world, outputSlot.Itemstack, product, product.StackSize);
+                (outputSlot.Itemstack.Collectible as BlockLiquidContainerBase).TryPutLiquid(outputSlot.Itemstack, product, product.StackSize);
 
             }
             else
@@ -248,26 +248,26 @@ namespace ExpandedFoods
             return temp;
         }
 
-        public override int TryPutContent(IWorldAccessor world, ItemStack containerStack, ItemStack contentStack, int desiredItems)
+        public virtual int TryPutLiquid(ItemStack containerStack, ItemStack liquidStack, float desiredLitres)
         {
-        
-            if (contentStack == null) return 0;
+            if (liquidStack == null) return 0;
+
+            var props = GetContainableProps(liquidStack);
+            if (props == null) return 0;
+
+            int desiredItems = (int)(props.ItemsPerLitre * desiredLitres);
+            int availItems = liquidStack.StackSize;
 
             ItemStack stack = GetContent(containerStack);
-
-            int availItems = contentStack.StackSize;
-
             ILiquidSink sink = containerStack.Collectible as ILiquidSink;
 
             if (stack == null)
             {
-                WaterTightContainableProps props = GetContainableProps(contentStack);
-                if (props == null || !props.Containable) return 0;
-
+                if (!props.Containable) return 0;
 
                 int placeableItems = (int)(sink.CapacityLitres * props.ItemsPerLitre);
 
-                ItemStack placedstack = contentStack.Clone();
+                ItemStack placedstack = liquidStack.Clone();
                 placedstack.StackSize = GameMath.Min(availItems, desiredItems, placeableItems);
                 SetContent(containerStack, placedstack);
 
@@ -275,12 +275,11 @@ namespace ExpandedFoods
             }
             else
             {
-                if (!stack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes)) return 0;
-
-                WaterTightContainableProps props = GetContainableProps(containerStack);
+                if (!stack.Equals(api.World, liquidStack, GlobalConstants.IgnoredStackAttributes)) return 0;
 
                 float maxItems = sink.CapacityLitres * props.ItemsPerLitre;
-                int placeableItems = (int)(maxItems - stack.StackSize);
+                int placeableItems = (int)(maxItems - (float)stack.StackSize);
+
                 stack.StackSize += Math.Min(placeableItems, desiredItems);
 
                 return Math.Min(placeableItems, desiredItems);
@@ -339,7 +338,7 @@ namespace ExpandedFoods
 
             if (obj is ILiquidSource && !singleTake)
             {
-                int moved = TryPutContent(world, blockSel.Position, (obj as ILiquidSource).GetContent(world, hotbarSlot.Itemstack), singlePut ? 1 : 9999);
+                int moved = TryPutLiquid(blockSel.Position, hotbarSlot.Itemstack, singlePut ? 1: 9999);
 
                 if (moved > 0)
                 {
@@ -357,13 +356,13 @@ namespace ExpandedFoods
 
                 if (hotbarSlot.Itemstack.StackSize == 1)
                 {
-                    moved = TryPutContent(world, hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
                 }
                 else
                 {
                     ItemStack containerStack = hotbarSlot.Itemstack.Clone();
                     containerStack.StackSize = 1;
-                    moved = TryPutContent(world, containerStack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
 
                     if (moved > 0)
                     {
