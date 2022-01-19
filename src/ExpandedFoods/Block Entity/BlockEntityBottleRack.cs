@@ -171,7 +171,7 @@ namespace ExpandedFoods
                     }
                     else
                     {
-                        ItemStack content = (this.inventory[i].Itemstack.Collectible as BlockBottle).GetContent(Api.World, this.inventory[i].Itemstack);
+                        ItemStack content = (this.inventory[i].Itemstack.Collectible as BlockBottle).GetContent(this.inventory[i].Itemstack);
                         if (content != null) //glass bottle with contents
                         {
                             mesh = (this.inventory[i].Itemstack.Collectible as BlockBottle).GenMeshSideways(Api as ICoreClientAPI, content, null);

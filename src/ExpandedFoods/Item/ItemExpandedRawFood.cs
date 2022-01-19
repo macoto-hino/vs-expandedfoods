@@ -14,7 +14,7 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class ItemExpandedRawFood : Item, IExpandedFood
+    public class ItemExpandedRawFood : Item, IExpandedFood //, IContainedMeshSource, IContainedCustomName
     {
         public float SatMult
         {
@@ -602,7 +602,7 @@ namespace ExpandedFoods
 
             return "";
         }
-
+/*
         public override RichTextComponentBase[] GetHandbookInfo(ItemSlot inSlot, ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable<string> openDetailPageFor)
         {
             ItemStack stack = inSlot.Itemstack;
@@ -939,7 +939,8 @@ namespace ExpandedFoods
 
             List<ItemStack> recipestacks = new List<ItemStack>();
 
-            /*foreach (var recval in capi.World.GridRecipes)
+            // COMMENT THIS OUT
+            foreach (var recval in capi.World.GridRecipes)
             {
                 foreach (var val in recval.resolvedIngredients)
                 {
@@ -969,7 +970,7 @@ namespace ExpandedFoods
                     }
                 }
 
-            }*/
+            }
 
             foreach (var recval in capi.World.GridRecipes)
             {
@@ -1366,7 +1367,8 @@ namespace ExpandedFoods
 
                 if (grecipes.Count > 0)
                 {
-                    /*if (knappable) - whats this for? o.O */
+                    
+                    // COMMENT THIS LINE OUT ONLY if (knappable) - whats this for? o.O 
                     components.Add(new RichTextComponent(capi, "• " + Lang.Get("Crafting") + "\n", CairoFont.WhiteSmallText()));
 
                     components.Add(new SlideshowGridRecipeTextComponent(capi, grecipes.ToArray(), 40, EnumFloat.None, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)), allStacks));
@@ -1413,6 +1415,7 @@ namespace ExpandedFoods
             return components.ToArray();
         }
 
+        */
         class ExtraSection { public string Title = null; public string Text = null; }
 
         public override TransitionState[] UpdateAndGetTransitionStates(IWorldAccessor world, ItemSlot inslot)
@@ -1438,7 +1441,7 @@ namespace ExpandedFoods
 
             ITreeAttribute attr = (ITreeAttribute)itemstack.Attributes["transitionstate"];
 
-            //TransitionableProperties[] props = itemstack.Collectible.TransitionableProps; - WTF is this here for? we already have propsm
+            //TransitionableProperties[] props = itemstack.Collectible.TransitionableProps; - WTF is this here for? we already have props
 
             float[] transitionedHours;
             float[] freshHours;

@@ -16,7 +16,6 @@ namespace ExpandedFoods
         {
             base.Initialize(api);
 
-
             ownBlock = Block as BlockSaucepan;
      
 
@@ -81,8 +80,8 @@ namespace ExpandedFoods
 
         public override bool OnTesselation(ITerrainMeshPool mesher, ITesselatorAPI tesselator)
         {
-            mesher.AddMeshData(currentRightMesh.Clone().Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, MeshAngle, 0));
-            return true;
+			mesher.AddMeshData(currentRightMesh);
+			return true;
         }
 
         public void RedoMesh()

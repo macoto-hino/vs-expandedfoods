@@ -2,11 +2,12 @@ using System;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
+using Vintagestory.GameContent;
 //using System.Diagnostics;
 
 namespace ExpandedFoods
 {
-    public class BlockBottleRack : Block
+    public class BlockBottleRack : Block//, IContainedMeshSource, IContainedCustomName
     {
         public MeshData GenMesh(ICoreClientAPI capi, string shapePath, ITexPositionSource texture, ITesselatorAPI tesselator = null)
         {

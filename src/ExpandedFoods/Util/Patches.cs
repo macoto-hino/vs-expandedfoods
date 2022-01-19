@@ -76,6 +76,7 @@ namespace ExpandedFoods
             return true;
         }
 
+        /*
         [HarmonyPrefix]
         [HarmonyPatch("genMesh")]
         static bool displayFix(ItemStack stack, int index, ref MeshData __result, BlockEntityShelf __instance, ref Item ___nowTesselatingItem, ref Matrixf ___mat)
@@ -102,7 +103,7 @@ namespace ExpandedFoods
             }
             if (stack.Collectible is BlockBottle && !stack.Collectible.Code.Path.Contains("clay"))
             {
-                ItemStack content = (stack.Collectible as BlockBottle).GetContent(__instance.Api.World, stack);
+                ItemStack content = (stack.Collectible as BlockBottle).GetContent(stack);
                 if (content == null) return true;
                 __result = (stack.Collectible as BlockBottle).GenMesh(__instance.Api as ICoreClientAPI, content);
                 //__result.RenderPasses.Fill((short)EnumChunkRenderPass.BlendNoCull);
@@ -119,7 +120,7 @@ namespace ExpandedFoods
 
                 return true;
         }
-
+        */
         [HarmonyPrefix]
         [HarmonyPatch("GetBlockInfo")]
         static bool descFix(IPlayer forPlayer, StringBuilder sb, ref BlockEntityShelf __instance)

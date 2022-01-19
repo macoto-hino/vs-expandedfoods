@@ -1,5 +1,9 @@
 Changelog
 
+1.5.4
+Updated to VS 1.16
+Screw press removed, recipes moved to fruit press
+
 1.5.3
 Peanuts visible in meals without needing Acorns
 Fixed cauldron & mini cauldron contents issue

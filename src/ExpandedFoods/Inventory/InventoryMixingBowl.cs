@@ -168,13 +168,13 @@ namespace ExpandedFoods
 
             if (bucketblock != null)
             {
-                ItemStack bucketContents = bucketblock.GetContent(world, sourceSlot.Itemstack);
+                ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
                 bool stackable = !Empty && itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
 
                 if ((Empty || stackable) && bucketContents != null && !machine.invLocked)
                 {
                     ItemStack bucketStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = bucketblock.TryTakeContent(world, bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
+                    ItemStack takenContent = bucketblock.TryTakeContent(bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
                     sourceSlot.Itemstack = bucketStack;
                     takenContent.StackSize += StackSize;
                     this.itemstack = takenContent;
@@ -230,18 +230,18 @@ namespace ExpandedFoods
             {
                 if (Empty) return;
 
-                ItemStack bucketContents = bucketblock.GetContent(world, sourceSlot.Itemstack);
+                ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
 
                 if (bucketContents == null)
                 {
-                    TakeOut(bucketblock.TryPutContent(world, sourceSlot.Itemstack, Itemstack, 1));
+                    TakeOut(bucketblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
                     MarkDirty();
                 }
                 else
                 {
                     if (itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes))
                     {
-                        TakeOut(bucketblock.TryPutContent(world, sourceSlot.Itemstack, bucketblock.GetContent(world, sourceSlot.Itemstack), 1));
+                        TakeOut(bucketblock.TryPutLiquid(sourceSlot.Itemstack, bucketblock.GetContent(sourceSlot.Itemstack), 1));
                         MarkDirty();
                         return;
                     }

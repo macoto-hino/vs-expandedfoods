@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Common.Entities;
 using Vintagestory.API.Config;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Util;
+using Vintagestory.API.Server;
 using Vintagestory.GameContent;
 using Vintagestory.API.Datastructures;
 
 namespace ExpandedFoods
 {
-    public class BlockSaucepan : BlockBucket
+    public class BlockSaucepan : BlockBucket, IContainedMeshSource, IContainedCustomName
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(5f) ?? 5f;
 
@@ -248,7 +250,7 @@ namespace ExpandedFoods
             return temp;
         }
 
-        public virtual int TryPutLiquid(ItemStack containerStack, ItemStack liquidStack, float desiredLitres)
+        public override int TryPutLiquid(ItemStack containerStack, ItemStack liquidStack, float desiredLitres)
         {
             if (liquidStack == null) return 0;
 
@@ -336,17 +338,27 @@ namespace ExpandedFoods
                 return true;
             }
 
-            if (obj is ILiquidSource && !singleTake)
+            if (obj is ILiquidSource objLso && !singleTake)
             {
-                int moved = TryPutLiquid(blockSel.Position, hotbarSlot.Itemstack, singlePut ? 1: 9999);
+                if (!objLso.AllowHeldLiquidTransfer) return false;
+
+                var contentStackToMove = objLso.GetContent(hotbarSlot.Itemstack);
+
+                float litres = singlePut ? objLso.TransferSizeLitres : objLso.CapacityLitres;
+                int moved = TryPutLiquid(blockSel.Position, contentStackToMove, litres);
 
                 if (moved > 0)
                 {
-                    TryTakeContent(hotbarSlot.Itemstack, moved);
-                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+                    splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) =>
+                    {
+                        objLso.TryTakeContent(stack, moved);
+                        return moved;
+                    });
+                    DoLiquidMovedEffects(byPlayer, contentStackToMove, moved, EnumLiquidDirection.Pour);
 
                     return true;
                 }
+                
             }
 
             if (obj is ILiquidSink && !singlePut)

@@ -43,7 +43,7 @@ namespace ExpandedFoods
 
                 ItemStack drip = new ItemStack(Api.World.GetItem(new AssetLocation(xylem.sap)));
 
-                bucket.TryPutContent(Api.World, bucketpos, drip, xylem.dripCount);
+                bucket.TryPutLiquid(bucketpos, drip, xylem.dripCount);
             }
         }
 

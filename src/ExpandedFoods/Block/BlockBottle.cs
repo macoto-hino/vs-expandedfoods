@@ -13,7 +13,7 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class BlockBottle : BlockBucket
+    public class BlockBottle : BlockBucket, IContainedMeshSource, IContainedCustomName
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
 
@@ -54,6 +54,44 @@ namespace ExpandedFoods
 
             return bucketmesh;
         }
+
+        public MeshData GenMeshSideways(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
+        {
+            Shape shape = null;
+            MeshData bucketmesh = null;
+
+
+            if (contentStack != null)
+            {
+                WaterTightContainableProps props = GetContainableProps(contentStack);
+
+                BottleTextureSource contentSource = new BottleTextureSource(capi, contentStack, props.Texture, this);
+
+                float level = contentStack.StackSize / props.ItemsPerLitre;
+
+                if (level <= 0.25f)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-1.json").ToObject<Shape>();
+                }
+                else if (level <= 0.5f)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-2.json").ToObject<Shape>();
+                }
+                else if (level < 1)
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottleracked-3.json").ToObject<Shape>();
+                }
+                else
+                {
+                    shape = capi.Assets.TryGet("expandedfoods:shapes/block/glassbottle.json").ToObject<Shape>();
+                }
+
+                capi.Tesselator.TesselateShape("bucket", shape, out bucketmesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
+            }
+
+            return bucketmesh;
+        }
+
 
         public override void OnBeforeRender(ICoreClientAPI capi, ItemStack itemstack, EnumItemRenderTarget target, ref ItemRenderInfo renderinfo)
         {
@@ -241,7 +279,7 @@ namespace ExpandedFoods
             }
         }
 
-        
+
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
