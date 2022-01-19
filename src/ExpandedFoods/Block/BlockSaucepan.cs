@@ -361,40 +361,40 @@ namespace ExpandedFoods
                 
             }
 
-            if (obj is ILiquidSink && !singlePut)
+            if (obj is ILiquidSink objLsi && !singlePut)
             {
+                if (!objLsi.AllowHeldLiquidTransfer) return false;
+
                 ItemStack owncontentStack = GetContent(blockSel.Position);
-                int moved = 0;
 
-                if (hotbarSlot.Itemstack.StackSize == 1)
-                {
-                    moved = TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
-                }
-                else
-                {
-                    ItemStack containerStack = hotbarSlot.Itemstack.Clone();
-                    containerStack.StackSize = 1;
-                    moved = TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
+                if (owncontentStack == null) return base.OnBlockInteractStart(world, byPlayer, blockSel);
 
-                    if (moved > 0)
-                    {
-                        hotbarSlot.TakeOut(1);
-                        if (!byPlayer.InventoryManager.TryGiveItemstack(containerStack, true))
-                        {
-                            api.World.SpawnItemEntity(containerStack, byPlayer.Entity.SidedPos.XYZ);
-                        }
-                    }
-                }
+                var liquidStackForParticles = owncontentStack.Clone();
 
+                float litres = singleTake ? objLsi.TransferSizeLitres : objLsi.CapacityLitres;
+
+                int moved = splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) => objLsi.TryPutLiquid(stack, owncontentStack, litres));
                 if (moved > 0)
                 {
                     TryTakeContent(blockSel.Position, moved);
-                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+                    DoLiquidMovedEffects(byPlayer, liquidStackForParticles, moved, EnumLiquidDirection.Fill);
                     return true;
                 }
             }
 
-            return true;
+            return base.OnBlockInteractStart(world, byPlayer, blockSel);
+        }
+        public enum EnumLiquidDirection { Fill, Pour }
+        public void DoLiquidMovedEffects(IPlayer player, ItemStack contentStack, int moved, EnumLiquidDirection dir)
+        {
+            if (player == null) return;
+
+            WaterTightContainableProps props = GetContainableProps(contentStack);
+            float litresMoved = (float)moved / props.ItemsPerLitre;
+
+            (player as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
+            api.World.PlaySoundAt(dir == EnumLiquidDirection.Fill ? props.FillSound : props.PourSound, player.Entity, player, true, 16, GameMath.Clamp(litresMoved / 5f, 0.35f, 1f));
+            api.World.SpawnCubeParticles(player.Entity.Pos.AheadCopy(0.25).XYZ.Add(0, player.Entity.SelectionBox.Y2 / 2, 0), contentStack, 0.75f, (int)litresMoved * 2, 0.45f);
         }
 
         public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
@@ -437,6 +437,81 @@ namespace ExpandedFoods
             }
 
             renderinfo.ModelRef = meshRef;
+        }
+
+        private bool SpillContents(ItemSlot containerSlot, EntityAgent byEntity, BlockSelection blockSel)
+        {
+            BlockPos pos = blockSel.Position;
+            IPlayer byPlayer = (byEntity as EntityPlayer)?.Player;
+            IBlockAccessor blockAcc = byEntity.World.BlockAccessor;
+            BlockPos secondPos = blockSel.Position.AddCopy(blockSel.Face);
+            var contentStack = GetContent(containerSlot.Itemstack);
+
+            WaterTightContainableProps props = GetContentProps(containerSlot.Itemstack);
+
+            if (props == null || !props.AllowSpill || props.WhenSpilled == null) return false;
+
+            if (!byEntity.World.Claims.TryAccess(byPlayer, secondPos, EnumBlockAccessFlags.BuildOrBreak))
+            {
+                return false;
+            }
+
+            var action = props.WhenSpilled.Action;
+            float currentlitres = GetCurrentLitres(containerSlot.Itemstack);
+
+            if (currentlitres > 0 && currentlitres < 10)
+            {
+                action = WaterTightContainableProps.EnumSpilledAction.DropContents;
+            }
+
+            if (action == WaterTightContainableProps.EnumSpilledAction.PlaceBlock)
+            {
+                Block waterBlock = byEntity.World.GetBlock(props.WhenSpilled.Stack.Code);
+
+                if (props.WhenSpilled.StackByFillLevel != null)
+                {
+                    JsonItemStack fillLevelStack;
+                    props.WhenSpilled.StackByFillLevel.TryGetValue((int)currentlitres, out fillLevelStack);
+                    if (fillLevelStack != null) waterBlock = byEntity.World.GetBlock(fillLevelStack.Code);
+                }
+
+                Block currentblock = blockAcc.GetBlock(pos);
+                if (currentblock.Replaceable >= 6000)
+                {
+                    blockAcc.SetBlock(waterBlock.BlockId, pos);
+                    blockAcc.TriggerNeighbourBlockUpdate(pos);
+                    blockAcc.MarkBlockDirty(pos);
+                }
+                else
+                {
+                    if (blockAcc.GetBlock(secondPos).Replaceable >= 6000)
+                    {
+                        blockAcc.SetBlock(waterBlock.BlockId, secondPos);
+                        blockAcc.TriggerNeighbourBlockUpdate(pos);
+                        blockAcc.MarkBlockDirty(secondPos);
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            if (action == WaterTightContainableProps.EnumSpilledAction.DropContents)
+            {
+                props.WhenSpilled.Stack.Resolve(byEntity.World, "liquidcontainerbasespill");
+
+                ItemStack stack = props.WhenSpilled.Stack.ResolvedItemstack.Clone();
+                stack.StackSize = contentStack.StackSize;
+
+                byEntity.World.SpawnItemEntity(stack, blockSel.Position.ToVec3d().Add(blockSel.HitPosition));
+            }
+
+
+            int moved = splitStackAndPerformAction(byEntity, containerSlot, (stack) => { SetContent(stack, null); return contentStack.StackSize; } );
+
+            DoLiquidMovedEffects(byPlayer, contentStack, moved, EnumLiquidDirection.Pour);
+            return true;
         }
 
         public string GetOutputText(IWorldAccessor world, InventorySmelting inv)
@@ -552,6 +627,59 @@ namespace ExpandedFoods
             return s.GetHashCode();
         }
 
+        private int splitStackAndPerformAction(Entity byEntity, ItemSlot slot, System.Func<ItemStack, int> action)
+        {
+            if (slot.Itemstack.StackSize == 1)
+            {
+                int moved = action(slot.Itemstack);
+
+                if (moved > 0)
+                {
+                    int maxstacksize = slot.Itemstack.Collectible.MaxStackSize;
+
+                    (byEntity as EntityPlayer)?.WalkInventory((pslot) =>
+                    {
+                        if (pslot.Empty || pslot is ItemSlotCreative || pslot.StackSize == pslot.Itemstack.Collectible.MaxStackSize) return true;
+                        int mergableq = slot.Itemstack.Collectible.GetMergableQuantity(slot.Itemstack, pslot.Itemstack, EnumMergePriority.DirectMerge);
+                        if (mergableq == 0) return true;
+
+                        var selfLiqBlock = slot.Itemstack.Collectible as BlockLiquidContainerBase;
+                        var invLiqBlock = pslot.Itemstack.Collectible as BlockLiquidContainerBase;
+
+                        if ((selfLiqBlock?.GetContent(slot.Itemstack)?.StackSize ?? 0) != (invLiqBlock?.GetContent(pslot.Itemstack)?.StackSize ?? 0)) return true;
+
+                        slot.Itemstack.StackSize += mergableq;
+                        pslot.TakeOut(mergableq);
+
+                        slot.MarkDirty();
+                        pslot.MarkDirty();
+                        return true;
+                    });
+                }
+
+                return moved;
+            }
+            else
+            {
+                ItemStack containerStack = slot.Itemstack.Clone();
+                containerStack.StackSize = 1;
+
+                int moved = action(containerStack);
+
+                if (moved > 0)
+                {
+                    slot.TakeOut(1);
+                    if ((byEntity as EntityPlayer)?.Player.InventoryManager.TryGiveItemstack(containerStack, true) != true)
+                    {
+                        api.World.SpawnItemEntity(containerStack, byEntity.SidedPos.XYZ);
+                    }
+
+                    slot.MarkDirty();
+                }
+
+                return moved;
+            }
+        }
 
         public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
         {

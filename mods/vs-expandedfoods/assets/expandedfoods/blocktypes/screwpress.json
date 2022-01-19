@@ -3,8 +3,6 @@
 	creativeinventory: {
 		"general": ["*"]
 	},
-	class: "BlockScrewPress",
-	entityclass: "BEScrewPress",
 	entityBehaviors: [{ name: "Animatable" }],
 	drawtype: "JSON",
 	replaceable: 1,
