@@ -90,11 +90,6 @@ namespace ExpandedFoods
             {
                 currentRightMesh = GenRightMesh();
             }
-
-            //if (currentRightMesh == null && isSealed == true)
-            //{
-            //    Api.World.PlaySoundAt(new AssetLocation("game:sounds/block/metaldoor-place.ogg"), Pos.X, Pos.Y, Pos.Z);
-            //}
         }
 
         public override float GetPerishRate()

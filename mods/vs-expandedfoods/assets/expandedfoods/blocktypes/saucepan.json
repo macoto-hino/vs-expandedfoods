@@ -40,6 +40,7 @@
 			canSeal: true,
 			lidPerishRate: 0.9,
 			storageType: 1,
+			maxFillLevel: 2,
 			maxContainerSlotStackSize: 4,
 			cookingContainerSlots: 4,
 			liquidcontainer: true,
