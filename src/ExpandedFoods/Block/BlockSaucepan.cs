@@ -12,7 +12,7 @@ using Vintagestory.API.Datastructures;
 
 namespace ExpandedFoods
 {
-    public class BlockSaucepan : BlockBucket, IContainedMeshSource, IContainedCustomName
+    public class BlockSaucepan : BlockLiquidContainerBase
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(5f) ?? 5f;
 
@@ -288,7 +288,19 @@ namespace ExpandedFoods
             }
         }
 
-
+        public static WaterTightContainableProps GetInContainerProps(ItemStack stack)
+        {
+            try
+            {
+                JsonObject obj = stack?.ItemAttributes?["waterTightContainerProps"];
+                if (obj != null && obj.Exists) return obj.AsObject<WaterTightContainableProps>(null, stack.Collectible.Code.Domain);
+                return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
 
         public override bool OnBlockInteractStart(IWorldAccessor world, IPlayer byPlayer, BlockSelection blockSel)
         {
@@ -310,7 +322,6 @@ namespace ExpandedFoods
             }
 
             if (sp?.isSealed == true) return false;
-
             ItemSlot hotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
 
             if (!hotbarSlot.Empty && hotbarSlot.Itemstack.Collectible.Attributes?.IsTrue("handleLiquidContainerInteract") == true)
@@ -328,37 +339,17 @@ namespace ExpandedFoods
             bool singleTake = byPlayer.WorldData.EntityControls.Sneak;
             bool singlePut = byPlayer.WorldData.EntityControls.Sprint;
 
-            if (obj is BlockBarrel && !singleTake)
+            if (obj is ILiquidSource && !singleTake)
             {
-                return true;
-            }
-
-            if (obj is BlockBarrel && !singlePut)
-            {
-                return true;
-            }
-
-            if (obj is ILiquidSource objLso && !singleTake)
-            {
-                if (!objLso.AllowHeldLiquidTransfer) return false;
-
-                var contentStackToMove = objLso.GetContent(hotbarSlot.Itemstack);
-
-                float litres = singlePut ? objLso.TransferSizeLitres : objLso.CapacityLitres;
-                int moved = TryPutLiquid(blockSel.Position, contentStackToMove, litres);
+                int moved = TryPutLiquid(blockSel.Position, (obj as ILiquidSource).GetContent(hotbarSlot.Itemstack), singlePut ? 1 : 9999);
 
                 if (moved > 0)
                 {
-                    splitStackAndPerformAction(byPlayer.Entity, hotbarSlot, (stack) =>
-                    {
-                        objLso.TryTakeContent(stack, moved);
-                        return moved;
-                    });
-                    DoLiquidMovedEffects(byPlayer, contentStackToMove, moved, EnumLiquidDirection.Pour);
+                    (obj as ILiquidSource).TryTakeContent(hotbarSlot.Itemstack, moved);
+                    (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
 
                     return true;
                 }
-                
             }
 
             if (obj is ILiquidSink && !singlePut)
@@ -368,13 +359,13 @@ namespace ExpandedFoods
 
                 if (hotbarSlot.Itemstack.StackSize == 1)
                 {
-                    moved = TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = (obj as ILiquidSink).TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
                 }
                 else
                 {
                     ItemStack containerStack = hotbarSlot.Itemstack.Clone();
                     containerStack.StackSize = 1;
-                    moved = TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = (obj as ILiquidSink).TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
 
                     if (moved > 0)
                     {
@@ -394,12 +385,31 @@ namespace ExpandedFoods
                 }
             }
 
-            return true;
+            return base.OnBlockInteractStart(world, byPlayer, blockSel);
         }
 
         public override void OnHeldInteractStart(ItemSlot itemslot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handHandling)
         {
             if (itemslot.Itemstack?.Attributes.GetBool("isSealed") == true) return;
+
+            if (blockSel == null || byEntity.Controls.Sneak)
+            {
+                base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);
+                return;
+            }
+
+            IPlayer byPlayer = (byEntity as EntityPlayer)?.Player;
+
+            if (!byEntity.World.Claims.TryAccess(byPlayer, blockSel.Position, EnumBlockAccessFlags.BuildOrBreak))
+            {
+                byEntity.World.BlockAccessor.MarkBlockDirty(blockSel.Position.AddCopy(blockSel.Face));
+                byPlayer?.InventoryManager.ActiveHotbarSlot?.MarkDirty();
+                return;
+            }
+
+            // Prevent placing on normal use
+            handHandling = EnumHandHandling.PreventDefaultAction;
+
 
             base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);
         }
@@ -485,26 +495,99 @@ namespace ExpandedFoods
 
         public MeshData GenRightMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null, bool isSealed = false)
         {
-
-          
-
             Shape shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/" + (isSealed && Attributes.IsTrue("canSeal") ? "lid" : "empty") + ".json").ToObject<Shape>();
-            ITesselatorAPI mesher = ((ICoreClientAPI)api).Tesselator;
             MeshData bucketmesh;
             capi.Tesselator.TesselateShape(this, shape, out bucketmesh);
 
             if (contentStack != null)
             {
-                WaterTightContainableProps props = GetContainableProps(contentStack);
+                WaterTightContainableProps props = GetInContainerProps(contentStack);
 
                 ContainerTextureSource contentSource = new ContainerTextureSource(capi, contentStack, props.Texture);
-                shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();
+
                 MeshData contentMesh;
-                capi.Tesselator.TesselateShape("saucepan", shape, out contentMesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
-                float maxLevel = Attributes["maxFillLevel"].AsFloat(3f);
+
+                if (props.Texture == null) return null;
+
+                //shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();
+   
+                float maxLevel = Attributes["maxFillLevel"].AsFloat();
                 float fullness = contentStack.StackSize / (props.ItemsPerLitre * CapacityLitres);
 
-                contentMesh.Translate(0, GameMath.Min(maxLevel / 16f, (maxLevel * fullness) / 16f), 0);
+                #region Normal Cauldron
+
+                if (maxLevel is 13f)
+                {
+                    if (fullness <= 0.2f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.4f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.6f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.8f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 1f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f + ".json").ToObject<Shape>();
+                    }
+                }
+
+                #endregion  Normal Cauldron
+
+                #region Small Cauldron
+
+                if (maxLevel is 8f)
+                {
+                    if (fullness <= 0.2f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.4f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.6f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 0.8f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 1f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f + ".json").ToObject<Shape>();
+                    }
+                }
+
+                #endregion Small Cauldron
+
+                #region Saucepan
+
+                if (maxLevel is 2f)
+                {
+                    if (fullness <= 0.5f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f + ".json").ToObject<Shape>();
+                    }
+                    else if (fullness <= 1f % maxLevel)
+                    {
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                    }
+                }
+
+                #endregion Saucepan
+
+
+                capi.Tesselator.TesselateShape("saucepan", shape, out contentMesh, contentSource, new Vec3f(Shape.rotateX, Shape.rotateY, Shape.rotateZ));
 
                 if (props.ClimateColorMap != null)
                 {
