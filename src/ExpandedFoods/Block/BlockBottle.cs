@@ -13,7 +13,7 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class BlockBottle : BlockBucket, IContainedMeshSource, IContainedCustomName
+    public class BlockBottle : BlockBucket, IContainedMeshSource
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
 
