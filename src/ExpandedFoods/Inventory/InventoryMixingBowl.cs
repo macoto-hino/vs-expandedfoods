@@ -184,17 +184,17 @@ namespace ExpandedFoods
                 return;
             }
 
-            BlockSaucepan saucepanblock = sourceSlot.Itemstack?.Block as BlockSaucepan;
-            if (saucepanblock != null)
+            BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
+            if (liquidcontainerbaseblock != null)
             {
-                ItemStack saucepanContents = saucepanblock.GetContent(sourceSlot.Itemstack);
-                bool stackable = !Empty && itemstack.Equals(world, saucepanContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
+                ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
+                bool stackable = !Empty && itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
 
-                if ((Empty || stackable) && saucepanContents != null && !machine.invLocked)
+                if ((Empty || stackable) && liquidcontainerbaseContents != null && !machine.invLocked)
                 {
-                    ItemStack saucepanStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = saucepanblock.TryTakeContent(saucepanStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
-                    sourceSlot.Itemstack = saucepanStack;
+                    ItemStack liquidcontainerbaseStack = sourceSlot.Itemstack;
+                    ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
+                    sourceSlot.Itemstack = liquidcontainerbaseStack;
                     takenContent.StackSize += StackSize;
                     this.itemstack = takenContent;
                     MarkDirty();
@@ -269,23 +269,23 @@ namespace ExpandedFoods
                 return;
             }
 
-            BlockSaucepan saucepanblock = sourceSlot.Itemstack?.Block as BlockSaucepan;
-            if (saucepanblock != null)
+            BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
+            if (liquidcontainerbaseblock != null)
             {
                 if (Empty) return;
 
-                ItemStack saucepanContents = saucepanblock.GetContent(sourceSlot.Itemstack);
+                ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
 
-                if (saucepanContents == null)
+                if (liquidcontainerbaseContents == null)
                 {
-                    TakeOut(saucepanblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
+                    TakeOut(liquidcontainerbaseblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
                     MarkDirty();
                 }
                 else
                 {
-                    if (itemstack.Equals(world, saucepanContents, GlobalConstants.IgnoredStackAttributes))
+                    if (itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes))
                     {
-                        TakeOut(saucepanblock.TryPutLiquid(sourceSlot.Itemstack, saucepanblock.GetContent(sourceSlot.Itemstack), 1));
+                        TakeOut(liquidcontainerbaseblock.TryPutLiquid(sourceSlot.Itemstack, liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack), 1));
                         MarkDirty();
                         return;
                     }
