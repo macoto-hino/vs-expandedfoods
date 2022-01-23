@@ -165,7 +165,6 @@ namespace ExpandedFoods
         {
             IWorldAccessor world = inventory.Api.World;
             BlockBucket bucketblock = sourceSlot.Itemstack?.Block as BlockBucket;
-
             if (bucketblock != null)
             {
                 ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
@@ -176,6 +175,26 @@ namespace ExpandedFoods
                     ItemStack bucketStack = sourceSlot.Itemstack;
                     ItemStack takenContent = bucketblock.TryTakeContent(bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
                     sourceSlot.Itemstack = bucketStack;
+                    takenContent.StackSize += StackSize;
+                    this.itemstack = takenContent;
+                    MarkDirty();
+                    return;
+                }
+
+                return;
+            }
+
+            BlockSaucepan saucepanblock = sourceSlot.Itemstack?.Block as BlockSaucepan;
+            if (saucepanblock != null)
+            {
+                ItemStack saucepanContents = saucepanblock.GetContent(sourceSlot.Itemstack);
+                bool stackable = !Empty && itemstack.Equals(world, saucepanContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
+
+                if ((Empty || stackable) && saucepanContents != null && !machine.invLocked)
+                {
+                    ItemStack saucepanStack = sourceSlot.Itemstack;
+                    ItemStack takenContent = saucepanblock.TryTakeContent(saucepanStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
+                    sourceSlot.Itemstack = saucepanStack;
                     takenContent.StackSize += StackSize;
                     this.itemstack = takenContent;
                     MarkDirty();
@@ -250,6 +269,30 @@ namespace ExpandedFoods
                 return;
             }
 
+            BlockSaucepan saucepanblock = sourceSlot.Itemstack?.Block as BlockSaucepan;
+            if (saucepanblock != null)
+            {
+                if (Empty) return;
+
+                ItemStack saucepanContents = saucepanblock.GetContent(sourceSlot.Itemstack);
+
+                if (saucepanContents == null)
+                {
+                    TakeOut(saucepanblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
+                    MarkDirty();
+                }
+                else
+                {
+                    if (itemstack.Equals(world, saucepanContents, GlobalConstants.IgnoredStackAttributes))
+                    {
+                        TakeOut(saucepanblock.TryPutLiquid(sourceSlot.Itemstack, saucepanblock.GetContent(sourceSlot.Itemstack), 1));
+                        MarkDirty();
+                        return;
+                    }
+                }
+
+                return;
+            }
 
             if (itemstack != null && sourceSlot.Itemstack?.ItemAttributes?["contentItem2BlockCodes"].Exists == true)
             {
