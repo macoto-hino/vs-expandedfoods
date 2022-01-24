@@ -187,14 +187,14 @@ namespace ExpandedFoods
 
         [HarmonyPrefix]
         [HarmonyPatch("genMesh")]
-        static bool displayFix(ItemStack stack, int index, ref MeshData __result, BlockEntityDisplay __instance, ref Item ___nowTesselatingItem)
+        static bool displayFix(ItemStack stack, ref MeshData __result, BlockEntityDisplay __instance, ref Item ___nowTesselatingShape)
         {
             if (!(stack.Collectible is ItemExpandedRawFood)) return true;
             string[] ings = (stack.Attributes?["madeWith"] as StringArrayAttribute)?.value;
             if (ings == null || ings.Length <= 0) return true;
 
-            ___nowTesselatingItem = stack.Item;
-            //nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
+            //___nowTesselatingItem = stack.Item;
+            ___nowTesselatingShape = stack.Item;
 
             __result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, __instance, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
             if (__result != null) __result.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull); else return true;
@@ -349,8 +349,8 @@ namespace ExpandedFoods
         }
 
         [HarmonyPrefix]
-        [HarmonyPatch("GetContentNutritionProperties", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float))]
-        static bool nutriFix(IWorldAccessor world, ItemSlot inSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref FoodNutritionProperties[] __result, bool mulWithStacksize = false, float nutritionMul = 1f)
+        [HarmonyPatch("GetContentNutritionProperties", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float), typeof(float))]
+        static bool nutriFix(IWorldAccessor world, ItemSlot inSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref FoodNutritionProperties[] __result, bool mulWithStacksize = false, float nutritionMul = 1, float healthMul = 1)
         {
             List<FoodNutritionProperties> foodProps = new List<FoodNutritionProperties>();
             if (contentStacks == null) return true;
@@ -389,7 +389,7 @@ namespace ExpandedFoods
                 float satLossMul = GlobalConstants.FoodSpoilageSatLossMul(spoilState, slot.Itemstack, forEntity);
                 float healthLoss = GlobalConstants.FoodSpoilageHealthLossMul(spoilState, slot.Itemstack, forEntity);
                 props.Satiety *= satLossMul * nutritionMul * mul;
-                props.Health *= healthLoss * mul;
+                props.Health *= healthLoss * healthMul * mul;
 
                 foodProps.Add(props);
 
@@ -402,7 +402,7 @@ namespace ExpandedFoods
                     foreach (FoodNutritionProperties exProp in exProps)
                     {
                         exProp.Satiety *= satLossMul * mul * nutritionMul;
-                        exProp.Health *= healthLoss * mul;
+                        exProp.Health *= healthLoss * healthMul * mul;
 
                         foodProps.Add(exProp);
                     }
@@ -415,10 +415,10 @@ namespace ExpandedFoods
 
 
         [HarmonyPrefix]
-        [HarmonyPatch("GetContentNutritionFacts", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float))]
-        static bool nutriFactsFix(IWorldAccessor world, ItemSlot inSlotorFirstSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref string __result, bool mulWithStacksize = false, float nutritionMul = 1f)
+        [HarmonyPatch("GetContentNutritionFacts", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float), typeof(float))]
+        static bool nutriFactsFix(IWorldAccessor world, ItemSlot inSlotorFirstSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref string __result, bool mulWithStacksize = false, float nutritionMul = 1, float healthMul = 1)
         {
-            FoodNutritionProperties[] props = BlockMeal.GetContentNutritionProperties(world, inSlotorFirstSlot, contentStacks, forEntity, mulWithStacksize, nutritionMul);
+            FoodNutritionProperties[] props = BlockMeal.GetContentNutritionProperties(world, inSlotorFirstSlot, contentStacks, forEntity, mulWithStacksize, nutritionMul, healthMul);
 
             Dictionary<EnumFoodCategory, float> totalSaturation = new Dictionary<EnumFoodCategory, float>();
             float totalHealth = 0;
@@ -431,9 +431,9 @@ namespace ExpandedFoods
                 float sat = 0;
                 totalSaturation.TryGetValue(prop.FoodCategory, out sat);
 
-                DummySlot slot = new DummySlot(contentStacks[0], inSlotorFirstSlot.Inventory);
+                DummySlot slot = new DummySlot(contentStacks[i], inSlotorFirstSlot.Inventory);
 
-                TransitionState state = contentStacks[0].Collectible.UpdateAndGetTransitionState(world, slot, EnumTransitionType.Perish);
+                TransitionState state = contentStacks[i].Collectible.UpdateAndGetTransitionState(world, slot, EnumTransitionType.Perish);
                 float spoilState = state != null ? state.TransitionLevel : 0;
 
                 float satLossMul = GlobalConstants.FoodSpoilageSatLossMul(spoilState, slot.Itemstack, forEntity);

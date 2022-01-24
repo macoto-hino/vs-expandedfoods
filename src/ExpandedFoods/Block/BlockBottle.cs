@@ -16,6 +16,9 @@ namespace ExpandedFoods
     public class BlockBottle : BlockBucket, IContainedMeshSource
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
+        protected override string meshRefsCacheKey => "meshrefs";
+        protected override AssetLocation emptyShapeLoc => new AssetLocationAndSource("expandedfoods:glassbottle.json"); // doesn't work... try the shape too..
+        protected override AssetLocation contentShapeLoc => new AssetLocationAndSource("expandedfoods:glassbottle.json"); // doesn't work... try the shape too.
 
         public new MeshData GenMesh(ICoreClientAPI capi, ItemStack contentStack, BlockPos forBlockPos = null)
         {
@@ -302,11 +305,11 @@ namespace ExpandedFoods
 
             if (obj is ILiquidSource && !singleTake)
             {
-                int moved = TryPutLiquid(blockSel.Position, hotbarSlot.Itemstack, singlePut ? 1 : 9999);
+                int moved = TryPutLiquid(blockSel.Position, (obj as ILiquidSource).GetContent(hotbarSlot.Itemstack), singlePut ? 1 : 9999);
 
                 if (moved > 0)
                 {
-                    TryTakeContent(hotbarSlot.Itemstack, moved);
+                    (obj as ILiquidSource).TryTakeContent(hotbarSlot.Itemstack, moved);
                     (byPlayer as IClientPlayer)?.TriggerFpAnimation(EnumHandInteract.HeldItemInteract);
 
                     return true;
@@ -320,13 +323,13 @@ namespace ExpandedFoods
 
                 if (hotbarSlot.Itemstack.StackSize == 1)
                 {
-                    moved = TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = (obj as ILiquidSink).TryPutLiquid(hotbarSlot.Itemstack, owncontentStack, singleTake ? 1 : 9999);
                 }
                 else
                 {
                     ItemStack containerStack = hotbarSlot.Itemstack.Clone();
                     containerStack.StackSize = 1;
-                    moved = TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
+                    moved = (obj as ILiquidSink).TryPutLiquid(containerStack, owncontentStack, singleTake ? 1 : 9999);
 
                     if (moved > 0)
                     {
