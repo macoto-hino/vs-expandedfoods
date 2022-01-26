@@ -1,10 +1,6 @@
 Changelog
 
-1.5.4
-Updated to VS 1.16
-Screw press removed, recipes moved to fruit press
-
-1.5.3
+1.6.0
 Peanuts visible in meals without needing Acorns
 Fixed cauldron & mini cauldron contents issue
 Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
@@ -26,6 +22,11 @@ Added VanVar compatibility for more mixing bowl variants
 Fixed meat rack cure timer?
 Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone
+
+1.5.3
+Updated to VS 1.16
+Screw press removed, recipes moved to fruit press
+Regular bread now has satMult applied to it
 
 1.5.2
 Fixed further compatibility issues
