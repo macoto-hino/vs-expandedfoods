@@ -10,8 +10,8 @@
 		"handbook": { "groupBy": [ "sausagefish-*" ] },
 		meathookable: true,
 		meatHookTransform: {
-  			translation: { x: 0.01, y: -0.67, z: 0.03 },
-  			rotation: { x: 0, y: 0, z: 0 },
+  			translation: { x: 0.03, y: -0.295, z: 0.03 },
+  			rotation: { x: 0, y: 90, z: 0 },
   			origin: { x: 0.5, y: 0, z: 0.5 },
   			scale: .75
 		},
