@@ -36,14 +36,14 @@
     "path": "/attributes/meatHookTransform",
     "value": {
       "translation": {
-        "x": 0.08,
-        "y": -0.63,
-        "z": 0.48
+        "x": 0.70,
+        "y": 0.13,
+        "z": -0.23
       },
       "rotation": {
         "x": 0,
-        "y": 90,
-        "z": 90
+        "y": 0,
+        "z": -90
       },
       "origin": {
         "x": 0,

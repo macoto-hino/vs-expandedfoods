@@ -172,16 +172,16 @@ namespace ExpandedFoods
                 if (index == 0 || index == 1)
                 {
                     rotY = 180 * GameMath.DEG2RAD;
-                }
-            }
+				}
+			}
 
-            mesh.Scale(new Vec3f(0.5f, 0, 0.5f), 0.75f, 0.75f, 0.75f);
+			mesh.Scale(new Vec3f(0.5f, 0, 0.5f), 0.75f, 0.75f, 0.75f);
             mesh.Rotate(new Vec3f(0.5f, 0, 0.5f), 0, rotY, 0);
-            mesh.Translate(x - 0.5f, y + 0.5f, z - 0.5f);
+			mesh.Translate(x - 0.5f, y + 0.5f, z - 0.5f);
 
-        }
+		}
 
-        public string PerishableInfoCompact(ICoreAPI Api, ItemSlot contentSlot, float ripenRate, bool withStackName = true)
+		public string PerishableInfoCompact(ICoreAPI Api, ItemSlot contentSlot, float ripenRate, bool withStackName = true)
         {
             if (contentSlot.Empty) return "";
 
