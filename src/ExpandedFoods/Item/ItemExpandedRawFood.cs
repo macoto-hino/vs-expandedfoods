@@ -602,8 +602,8 @@ namespace ExpandedFoods
 
             return "";
         }
-/*
-        public override RichTextComponentBase[] GetHandbookInfo(ItemSlot inSlot, ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable<string> openDetailPageFor)
+
+        public virtual RichTextComponentBase[] GetHandbookInfo(ItemSlot inSlot, ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable<string> openDetailPageFor)
         {
             ItemStack stack = inSlot.Itemstack;
 
@@ -1415,7 +1415,7 @@ namespace ExpandedFoods
             return components.ToArray();
         }
 
-        */
+        
         class ExtraSection { public string Title = null; public string Text = null; }
 
         public override TransitionState[] UpdateAndGetTransitionStates(IWorldAccessor world, ItemSlot inslot)

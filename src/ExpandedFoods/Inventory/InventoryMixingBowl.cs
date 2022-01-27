@@ -135,9 +135,11 @@ namespace ExpandedFoods
     {
         BlockEntityMixingBowl machine;
         int stackNum;
+        public int CapacityLitres { get; set;} = 6;
 
         public ItemSlotMixingBowl(InventoryBase inventory, BlockEntityMixingBowl bowl, int itemNumber) : base(inventory)
         {
+            CapacityLitres = 600;
             MaxSlotStackSize = 6;
             machine = bowl;
             stackNum = itemNumber;
@@ -168,12 +170,12 @@ namespace ExpandedFoods
             if (bucketblock != null)
             {
                 ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
-                bool stackable = !Empty && itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
+                bool stackable = !Empty && itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes) && StackSize < CapacityLitres;
 
                 if ((Empty || stackable) && bucketContents != null && !machine.invLocked)
                 {
                     ItemStack bucketStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = bucketblock.TryTakeContent(bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
+                    ItemStack takenContent = bucketblock.TryTakeContent(bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 1);
                     sourceSlot.Itemstack = bucketStack;
                     takenContent.StackSize += StackSize;
                     this.itemstack = takenContent;
@@ -188,12 +190,12 @@ namespace ExpandedFoods
             if (liquidcontainerbaseblock != null)
             {
                 ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
-                bool stackable = !Empty && itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes) && StackSize < MaxSlotStackSize;
+                bool stackable = !Empty && itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes) && StackSize < CapacityLitres;
 
                 if ((Empty || stackable) && liquidcontainerbaseContents != null && !machine.invLocked)
                 {
                     ItemStack liquidcontainerbaseStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? MaxSlotStackSize - StackSize : 1);
+                    ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 1);
                     sourceSlot.Itemstack = liquidcontainerbaseStack;
                     takenContent.StackSize += StackSize;
                     this.itemstack = takenContent;

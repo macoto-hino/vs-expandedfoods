@@ -571,7 +571,8 @@
     "path": "/attributesByType/*-partbaked",
     "value": {
 		displaycaseable: true,
-		shelvable: true,
+        shelvable: true,
+        "satMult": 0.9,
 		bakingProperties: {
 			temp: 160,
 			levelFrom: 0.25,
@@ -599,6 +600,7 @@
     "value": {
 		displaycaseable: true,
 		shelvable: true,
+        "satMult": 1.0,
 		bakingProperties: {
 			temp: 160,
 			levelFrom: 0.5,
@@ -626,6 +628,7 @@
     "value": {
 		displaycaseable: true,
 		shelvable: true,
+        "satMult": 0.8,
 		bakingProperties: {
 			temp: 160,
 			levelFrom: 0.75,
