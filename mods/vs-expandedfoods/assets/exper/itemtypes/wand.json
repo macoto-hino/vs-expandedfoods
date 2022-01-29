@@ -1,6 +1,5 @@
 {
 	code: "wand",
-	class: "test",
 	creativeinventory: { "general": ["*"] },
 	attackpower: 1,
 	maxstacksize: 64,

@@ -166,25 +166,6 @@ namespace ExpandedFoods
         protected override void ActivateSlotLeftClick(ItemSlot sourceSlot, ref ItemStackMoveOperation op)
         {
             IWorldAccessor world = inventory.Api.World;
-            BlockBucket bucketblock = sourceSlot.Itemstack?.Block as BlockBucket;
-            if (bucketblock != null)
-            {
-                ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
-                bool stackable = !Empty && itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes) && StackSize < CapacityLitres;
-
-                if ((Empty || stackable) && bucketContents != null && !machine.invLocked)
-                {
-                    ItemStack bucketStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = bucketblock.TryTakeContent(bucketStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 1);
-                    sourceSlot.Itemstack = bucketStack;
-                    takenContent.StackSize += StackSize;
-                    this.itemstack = takenContent;
-                    MarkDirty();
-                    return;
-                }
-
-                return;
-            }
 
             BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
             if (liquidcontainerbaseblock != null)
@@ -195,10 +176,20 @@ namespace ExpandedFoods
                 if ((Empty || stackable) && liquidcontainerbaseContents != null && !machine.invLocked)
                 {
                     ItemStack liquidcontainerbaseStack = sourceSlot.Itemstack;
-                    ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 1);
-                    sourceSlot.Itemstack = liquidcontainerbaseStack;
-                    takenContent.StackSize += StackSize;
-                    this.itemstack = takenContent;
+                    if ( op.CtrlDown ) 
+                    { 
+                        ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 5);
+                        sourceSlot.Itemstack = liquidcontainerbaseStack;
+                        takenContent.StackSize += StackSize;
+                        this.itemstack = takenContent;
+                    } 
+                    else 
+                    {
+                        ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 50);
+                        sourceSlot.Itemstack = liquidcontainerbaseStack;
+                        takenContent.StackSize += StackSize;
+                        this.itemstack = takenContent;
+                    }
                     MarkDirty();
                     return;
                 }
@@ -245,31 +236,6 @@ namespace ExpandedFoods
         protected override void ActivateSlotRightClick(ItemSlot sourceSlot, ref ItemStackMoveOperation op)
         {
             IWorldAccessor world = inventory.Api.World;
-            BlockBucket bucketblock = sourceSlot.Itemstack?.Block as BlockBucket;
-
-            if (bucketblock != null)
-            {
-                if (Empty) return;
-
-                ItemStack bucketContents = bucketblock.GetContent(sourceSlot.Itemstack);
-
-                if (bucketContents == null)
-                {
-                    TakeOut(bucketblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
-                    MarkDirty();
-                }
-                else
-                {
-                    if (itemstack.Equals(world, bucketContents, GlobalConstants.IgnoredStackAttributes))
-                    {
-                        TakeOut(bucketblock.TryPutLiquid(sourceSlot.Itemstack, bucketblock.GetContent(sourceSlot.Itemstack), 1));
-                        MarkDirty();
-                        return;
-                    }
-                }
-
-                return;
-            }
 
             BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
             if (liquidcontainerbaseblock != null)

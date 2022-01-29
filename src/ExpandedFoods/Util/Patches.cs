@@ -175,7 +175,7 @@ namespace ExpandedFoods
 
     }
 
-
+/*
     [HarmonyPatch(typeof(BlockEntityDisplay))]
     class DisplayPatches
     {
@@ -213,6 +213,7 @@ namespace ExpandedFoods
             return false;
         }
     }
+*/
 
     [HarmonyPatch(typeof(BlockEntityCookedContainer))]
     class BECookedContainerPatches
