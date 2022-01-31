@@ -26,7 +26,7 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 1.5.3
 Updated to VS 1.16
 Screw press & redundant liquids removed, recipes moved to fruit press
-Mixing bowl & saucepan now require specific liquid amounts
+Mixing bowl & saucepan now require specific liquid amounts; CTRL+Click to dispense 1/10th of container into slot
 Regular bread now has satMult applied to it - DONE!!!
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files

@@ -19,8 +19,6 @@ namespace ExpandedFoods
         protected override string meshRefsCacheKey => "meshrefs";
         protected override AssetLocation emptyShapeLoc => new AssetLocationAndSource("expandedfoods:glassbottle.json"); // doesn't work... try the shape too..
         protected override AssetLocation contentShapeLoc => new AssetLocationAndSource("expandedfoods:glassbottle.json"); // doesn't work... try the shape too.
-
-        public override float TransferSizeLitres => 1;
         public override bool CanDrinkFrom => true;
         public override bool AllowHeldLiquidTransfer => true;
 

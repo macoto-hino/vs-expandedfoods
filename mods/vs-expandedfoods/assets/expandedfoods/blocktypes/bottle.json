@@ -17,7 +17,7 @@
 		"shelvable": true,
 		"bottlerackable": true,
 		"perishRate": 0.1,
-		handbook: { "groupBy": ["bottle-*"] },
+		"handbook": { "groupBy": ["bottle-*"] },
 		"bottleRackTransformByType": {
 			"*-burned": {
 				"translation": {
@@ -37,6 +37,10 @@
 				},
 				"scale": 1
 			}
+		},
+	"liquidContainerProps": {
+			"capacityLitres": 1,
+			"transferSizeLitres": 0.1,
 		}
 	},
 	"skipVariants": [

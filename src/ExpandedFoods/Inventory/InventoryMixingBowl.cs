@@ -139,7 +139,7 @@ namespace ExpandedFoods
 
         public ItemSlotMixingBowl(InventoryBase inventory, BlockEntityMixingBowl bowl, int itemNumber) : base(inventory)
         {
-            CapacityLitres = 600;
+            CapacityLitres = 6;
             MaxSlotStackSize = 6;
             machine = bowl;
             stackNum = itemNumber;
@@ -165,30 +165,49 @@ namespace ExpandedFoods
 
         protected override void ActivateSlotLeftClick(ItemSlot sourceSlot, ref ItemStackMoveOperation op)
         {
+            if (sourceSlot.Empty)
+            {
+                base.ActivateSlotLeftClick(sourceSlot, ref op);
+                return;
+            }
+
             IWorldAccessor world = inventory.Api.World;
 
-            BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
-            if (liquidcontainerbaseblock != null)
+            if (sourceSlot.Itemstack.Collectible is ILiquidSource source && source.AllowHeldLiquidTransfer)
             {
-                ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
-                bool stackable = !Empty && itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes) && StackSize < CapacityLitres;
+                ItemSlotMixingBowl mixingSlot = inventory[1] as ItemSlotMixingBowl;
+    
+                ItemStack liquidcontainerbaseContents = source.GetContent(sourceSlot.Itemstack);
+                bool stackable = !this.Empty && this.Itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes);
 
                 if ((Empty || stackable) && liquidcontainerbaseContents != null && !machine.invLocked)
                 {
                     ItemStack liquidcontainerbaseStack = sourceSlot.Itemstack;
-                    if ( op.CtrlDown ) 
-                    { 
-                        ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 5);
-                        sourceSlot.Itemstack = liquidcontainerbaseStack;
-                        takenContent.StackSize += StackSize;
-                        this.itemstack = takenContent;
-                    } 
-                    else 
+
+                    var lprops = BlockLiquidContainerBase.GetContainableProps(liquidcontainerbaseContents);
+
+                    float toMoveLitres = op.CtrlDown ? source.TransferSizeLitres : source.CapacityLitres;
+                    float curSourceLitres = liquidcontainerbaseContents.StackSize / lprops.ItemsPerLitre * liquidcontainerbaseStack.StackSize;
+                    float curDestLitres = this.StackSize / lprops.ItemsPerLitre;
+                    // Cap by source amount
+                    toMoveLitres = Math.Min(toMoveLitres, curSourceLitres);
+                    // Cap by target capacity
+                    toMoveLitres = Math.Min(toMoveLitres, this.CapacityLitres - curDestLitres);
+
+                    if (toMoveLitres > 0)
                     {
-                        ItemStack takenContent = liquidcontainerbaseblock.TryTakeContent(liquidcontainerbaseStack, op.ActingPlayer?.Entity?.Controls.Sneak == true ? CapacityLitres - StackSize : 50);
-                        sourceSlot.Itemstack = liquidcontainerbaseStack;
-                        takenContent.StackSize += StackSize;
-                        this.itemstack = takenContent;
+                        int moveQuantity = (int)(toMoveLitres * lprops.ItemsPerLitre);
+                        ItemStack takenContentStack = source.TryTakeContent(liquidcontainerbaseStack, moveQuantity / liquidcontainerbaseStack.StackSize);
+
+                        takenContentStack.StackSize *= liquidcontainerbaseStack.StackSize;
+                        takenContentStack.StackSize += this.StackSize;
+                        
+                        this.Itemstack = takenContentStack;
+                        this.MarkDirty();
+                        op.MovedQuantity = moveQuantity;
+
+                        var pos = op.ActingPlayer?.Entity?.Pos;
+                        if (pos != null) op.World.PlaySoundAt(lprops.FillSound, pos.X, pos.Y, pos.Z);
                     }
                     MarkDirty();
                     return;
@@ -200,15 +219,16 @@ namespace ExpandedFoods
             string contentItemCode = sourceSlot.Itemstack?.ItemAttributes?["contentItemCode"].AsString();
             if (contentItemCode != null && !machine.invLocked)
             {
+                ItemSlot mixingSlot = inventory[1];
                 ItemStack contentStack = new ItemStack(world.GetItem(AssetLocation.Create(contentItemCode, sourceSlot.Itemstack.Collectible.Code.Domain)));
-                bool stackable = !Empty && itemstack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes);
+                bool stackable = !mixingSlot.Empty && mixingSlot.Itemstack.Equals(world, contentStack, GlobalConstants.IgnoredStackAttributes);
 
-                if ((Empty || stackable) && contentStack != null)
+                if ((mixingSlot.Empty || stackable) && contentStack != null)
                 {
-                    if (stackable) this.itemstack.StackSize++;
-                    else this.itemstack = contentStack;
+                    if (stackable) mixingSlot.Itemstack.StackSize++;
+                    else mixingSlot.Itemstack = contentStack;
 
-                    MarkDirty();
+                    mixingSlot.MarkDirty();
                     ItemStack bowlStack = new ItemStack(world.GetBlock(AssetLocation.Create(sourceSlot.Itemstack.ItemAttributes["emptiedBlockCode"].AsString(), sourceSlot.Itemstack.Collectible.Code.Domain)));
                     if (sourceSlot.StackSize == 1)
                     {
@@ -235,27 +255,43 @@ namespace ExpandedFoods
 
         protected override void ActivateSlotRightClick(ItemSlot sourceSlot, ref ItemStackMoveOperation op)
         {
+            ItemSlotMixingBowl mixingSlot = inventory[1] as ItemSlotMixingBowl;
             IWorldAccessor world = inventory.Api.World;
 
             BlockLiquidContainerBase liquidcontainerbaseblock = sourceSlot.Itemstack?.Block as BlockLiquidContainerBase;
-            if (liquidcontainerbaseblock != null)
+            if (sourceSlot?.Itemstack?.Collectible is ILiquidSink sink && !this.Empty && sink.AllowHeldLiquidTransfer)
             {
-                if (Empty) return;
+                ItemStack mixSlotStack = this.Itemstack;
+                var curTargetLiquidStack = sink.GetContent(sourceSlot.Itemstack);
 
-                ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
+                bool liquidstackable = curTargetLiquidStack==null || mixSlotStack.Equals(world, curTargetLiquidStack, GlobalConstants.IgnoredStackAttributes);
 
-                if (liquidcontainerbaseContents == null)
+                //if (Empty) return;
+                //ItemStack liquidcontainerbaseContents = liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack);
+
+                if (liquidstackable)
                 {
-                    TakeOut(liquidcontainerbaseblock.TryPutLiquid(sourceSlot.Itemstack, Itemstack, 1));
-                    MarkDirty();
-                }
-                else
-                {
-                    if (itemstack.Equals(world, liquidcontainerbaseContents, GlobalConstants.IgnoredStackAttributes))
+                    var lprops = BlockLiquidContainerBase.GetContainableProps(mixSlotStack);
+
+                    float curSourceLitres = mixSlotStack.StackSize / lprops.ItemsPerLitre;
+                    float curTargetLitres = sink.GetCurrentLitres(sourceSlot.Itemstack);
+
+                    float toMoveLitres = op.CtrlDown ? sink.TransferSizeLitres : (sink.CapacityLitres - curTargetLitres);
+
+                    toMoveLitres *= sourceSlot.StackSize;
+                    toMoveLitres = Math.Min(curSourceLitres, toMoveLitres);
+
+                    if (toMoveLitres > 0)
                     {
-                        TakeOut(liquidcontainerbaseblock.TryPutLiquid(sourceSlot.Itemstack, liquidcontainerbaseblock.GetContent(sourceSlot.Itemstack), 1));
-                        MarkDirty();
-                        return;
+                        op.MovedQuantity = sink.TryPutLiquid(sourceSlot.Itemstack, mixSlotStack, toMoveLitres / sourceSlot.StackSize);
+
+                        this.Itemstack.StackSize -= op.MovedQuantity * sourceSlot.StackSize;
+                        if (this.Itemstack.StackSize <= 0) this.Itemstack = null;
+                        this.MarkDirty();
+                        sourceSlot.MarkDirty();
+
+                        var pos = op.ActingPlayer?.Entity?.Pos;
+                        if (pos != null) op.World.PlaySoundAt(lprops.PourSound, pos.X, pos.Y, pos.Z);
                     }
                 }
 
@@ -290,7 +326,7 @@ namespace ExpandedFoods
                 return;
             }
 
-            if (sourceSlot.Itemstack?.ItemAttributes?["contentItem2BlockCodes"].Exists == true || sourceSlot.Itemstack?.ItemAttributes?["contentItemCode"].AsString() != null) return;
+            //if (sourceSlot.Itemstack?.ItemAttributes?["contentItem2BlockCodes"].Exists == true || sourceSlot.Itemstack?.ItemAttributes?["contentItemCode"].AsString() != null) return;
 
             base.ActivateSlotRightClick(sourceSlot, ref op);
         }
