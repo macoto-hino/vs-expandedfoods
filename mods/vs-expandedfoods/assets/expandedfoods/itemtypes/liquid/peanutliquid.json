@@ -6,11 +6,13 @@
 		{ code: "type", states: ["paste", "butter", "sauce"] },
 	],
 	attributes: {
-		inContainerTexture: { base: "item/food/peanut/{type}" },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
 		inBowlShape: { base: "game:block/meal/liquid" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 16,
+			itemsPerLitre: 100,
 			texture: { base: "item/food/peanut/{type}" },
 			allowSpill: true,
 			whenSpilled: {
@@ -19,6 +21,10 @@
 					type: "item",
 					code: "expandedfoods:peanutliquid-{type}"
 				}
+			},
+			nutritionPropsPerLitreByType: {
+				"*-paste":  {	saturation: 3200, foodcategory: "Protein" },
+				"*":  {	saturation: 0, foodcategory: "Protein" },
 			}
 		},
 		"expandedNutritionPropsByType": {
@@ -46,11 +52,11 @@
 	},
 	shape: { base: "game:item/liquid" },
 	texture: { base: "item/food/peanut/{type}" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:peanutliquid-{type}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	nutritionPropsByType: {
-		"*-paste": { saturation: 200, foodcategory: "Protein" },
+		"*-paste": { saturation: 32, foodcategory: "Protein" },
 		"*": { saturation: 0, foodcategory: "Protein" }
 	},
 	transitionablePropsByType: {

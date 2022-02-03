@@ -43,8 +43,10 @@
 			maxFillLevel: 2,
 			maxContainerSlotStackSize: 4,
 			cookingContainerSlots: 4,
-			liquidcontainer: true,
-			capacityLitres: 5,
+			"liquidContainerProps": {
+				"capacityLitres": 5,
+				"transferSizeLitres": 0.5,
+			},
 			canhold: [
 				"water-*"
 			],
@@ -54,7 +56,7 @@
 						{
 							type: "item",
 							code: "waterportion",
-							quantity: 2
+							quantity: 200
 						},
 						{
 							type: "item",

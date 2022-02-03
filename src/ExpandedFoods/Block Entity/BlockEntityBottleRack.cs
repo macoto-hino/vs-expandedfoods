@@ -6,11 +6,12 @@ using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.Config;
+using Vintagestory.API.Util;
 //using System.Diagnostics;
 
 namespace ExpandedFoods
 {
-    public class BlockEntityBottleRack : BlockEntityShelf
+    public class BlockEntityBottleRack : BlockEntityDisplay, ITexPositionSource
     {
         private readonly int maxSlots = 16;
         public override string InventoryClassName => "bottlerack";
@@ -111,9 +112,93 @@ namespace ExpandedFoods
             if (this.Api != null)
             {
                 if (this.Api.Side == EnumAppSide.Client)
-                { this.Api.World.BlockAccessor.MarkBlockDirty(this.Pos); }
+                {
+                    this.UpdateMeshes();
+                    this.Api.World.BlockAccessor.MarkBlockDirty(this.Pos);
+                }
             }
         }
+
+
+        public virtual void UpdateMeshes()
+        {
+            for (int i = 0; i < meshes.Length; i++)
+            {
+                UpdateMesh(i);
+            }
+        }
+
+        protected virtual void UpdateMesh(int index)
+        {
+            if (Api == null || Api.Side == EnumAppSide.Server)
+                return;
+            if (Inventory[index].Empty)
+            {
+                meshes[index] = null;
+                return;
+            }
+
+            MeshData mesh = GenMesh(Inventory[index].Itemstack);
+            TranslateMesh(mesh, index);
+            meshes[index] = mesh;
+        }
+
+
+        protected virtual MeshData GenMesh(ItemStack stack)
+        {
+            MeshData mesh;
+            var dynBlock = stack.Collectible as IContainedMeshSource;
+
+            if (dynBlock != null)
+            {
+                mesh = dynBlock.GenMesh(stack, capi.BlockTextureAtlas, Pos);
+                mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, Block.Shape.rotateY * GameMath.DEG2RAD, 0);
+            }
+            else
+            {
+                ICoreClientAPI capi = Api as ICoreClientAPI;
+                if (stack.Class == EnumItemClass.Block)
+                {
+                    mesh = capi.TesselatorManager.GetDefaultBlockMesh(stack.Block).Clone();
+                }
+                else
+                {
+                    nowTesselatingObj = stack.Collectible;
+                    nowTesselatingShape = null;
+                    if (stack.Item.Shape != null)
+                    {
+                        nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
+                    }
+                    capi.Tesselator.TesselateItem(stack.Item, out mesh, this);
+
+                    mesh.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull);
+                }
+            }
+
+            if (stack.Collectible.Attributes?[AttributeTransformCode].Exists == true)
+            {
+                ModelTransform transform = stack.Collectible.Attributes?[AttributeTransformCode].AsObject<ModelTransform>();
+                transform.EnsureDefaultValues();
+                mesh.ModelTransform(transform);
+
+                transform.Rotation.X = 0;
+                transform.Rotation.Y = Block.Shape.rotateY;
+                transform.Rotation.Z = 0;
+                mesh.ModelTransform(transform);
+            }
+
+            if (stack.Class == EnumItemClass.Item && (stack.Item.Shape == null || stack.Item.Shape.VoxelizeTexture))
+            {
+                mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), GameMath.PIHALF, 0, 0);
+                mesh.Scale(new Vec3f(0.5f, 0.5f, 0.5f), 0.33f, 0.5f, 0.33f);
+                mesh.Translate(0, -7.5f / 16f, 0f);
+            }
+
+            return mesh;
+        }
+
+
+
 
         public MeshData TransformBottleMesh(MeshData mesh, int slot, string type, string direction)
         {

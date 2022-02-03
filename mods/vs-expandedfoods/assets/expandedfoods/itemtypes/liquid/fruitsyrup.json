@@ -3,18 +3,26 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "mix", "saguaro", "pineapple"] },
+		{
+			code: "type",
+			loadFromProperties: "block/fruit",
+			states: [ "apple" ]
+		},
 	],
+	skipVariants: ["*-pinkapple", "*-redapple", "*-yellowapple", "*-olive"],
 	attributes: {
-		"handbook": { "groupBy": [ "fruitsyrupportion-*" ] },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		nutritionPropsWhenInMealByType: { 
-			"*-mix": { satiety: 315, health: 4, foodcategory: "Fruit" },
-			"*-saguaro": { satiety: 270, health: 3, foodcategory: "Fruit" },
-			"*": { satiety: 270, health: 2, foodcategory: "Fruit" },
+			"*-mix": { satiety: 4.5, health: 0.03, foodcategory: "Fruit" },
+			"*-saguaro": { satiety: 3.75, health: 0.02, foodcategory: "Fruit" },
+			"*": { satiety: 3.75, health: 0.01, foodcategory: "Fruit" },
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 8,
+			itemsPerLitre: 100,
 			textureByType: { 
 				"*-mix": {
 					base: "game:item/liquid/fruitmix",
@@ -29,6 +37,11 @@
 			whenSpilled: {
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:fruitsyrupportion-{type}" }
+			},
+			nutritionPropsPerLitreByType: {
+				"*-mix":  {	saturation: 300, "health": 3, foodcategory: "Fruit" },
+				"*-saguaro":  {	saturation: 250, "health": 2, foodcategory: "Fruit" },
+				"*":  {	saturation: 250, "health": 1, foodcategory: "Fruit" },
 			}
 		}
 	},
@@ -50,13 +63,8 @@
     		transitionedStack: { type: "item", code: "game:rot" },
     		transitionRatio: 0.25
   	}],
-	nutritionPropsByType: {
-		"*-mix": { saturation: 210, health: 4, foodcategory: "Fruit" },
-		"*-saguaro": { saturation: 180, health: 3, foodcategory: "Fruit" },
-		"*": { saturation: 180, health: 2, foodcategory: "Fruit" },
-	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:fruitsyrupportion-{type}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

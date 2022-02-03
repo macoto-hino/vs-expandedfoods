@@ -3,19 +3,28 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		inBowlShape: { base: "game:block/meal/liquid" },
 		nutritionPropsWhenInMealByType: {
 			"*-edible": { satiety: 30, health: 0.2, foodcategory: "Dairy" },
 		},
 		waterTightContainerPropsByType: {
 			"*-edible": {
 				containable: true,
-				itemsPerLitre: 1,
+				itemsPerLitre: 100,
 				isopaque: true,
 				texture: { base: "game:block/liquid/slakedlime" },
 				allowSpill: true,
 				whenSpilled: { 
 					action: "DropContents",
 					stack: { type: "item", code: "expandedfoods:soymilk-edible" } 
+				},
+				nutritionPropsPerLitre: {
+					saturation: 75,
+					health: 0.2,
+					foodcategory: "Dairy"
 				}
 			},			
 			"*-raw": {
@@ -52,8 +61,8 @@
       			"requiresContainer": true
     			},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soymilk-{state}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	transitionablePropsByType: {
 		"*-edible": [{
@@ -72,7 +81,7 @@
   		}],
 	},
 	nutritionPropsByType: {
-		"*-edible": { saturation: 20, health: 0.2, foodcategory: "Dairy" },
+		"*-edible": { saturation: 0.75, health: 0.002, foodcategory: "Dairy" },
 	},
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

@@ -13,7 +13,8 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class BlockBottle : BlockBucket, IContainedMeshSource, ILiquidSink
+    //public class BlockBottle : BlockBucket, IContainedMeshSource, ILiquidSink
+    public class BlockBottle : BlockLiquidContainerTopOpened
     {
         public override float CapacityLitres => Attributes?["capacityLitres"]?.AsFloat(1f) ?? 1f;
         protected override string meshRefsCacheKey => "meshrefs";
@@ -758,7 +759,16 @@ namespace ExpandedFoods
                         BitmapRef bmp = capi.Assets.TryGet(contentTexture.Base.Clone().WithPathPrefixOnce("textures/").WithPathAppendixOnce(".png"))?.ToBitmap(capi);
                         if (bmp != null)
                         {
-                            capi.BlockTextureAtlas.InsertTexture(bmp, out id, out texPos);
+                            if (contentTexture.Alpha != 255)
+                            {
+                                bmp.MulAlpha(contentTexture.Alpha);
+                            }
+                            try
+                            {
+                                capi.BlockTextureAtlas.InsertTexture(bmp, out id, out texPos);
+                            }
+                            catch
+                            { }
                             bmp.Dispose();
                         }
 

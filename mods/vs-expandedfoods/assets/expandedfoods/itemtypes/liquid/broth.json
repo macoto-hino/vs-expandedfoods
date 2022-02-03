@@ -6,10 +6,14 @@
 		{ code: "type", states: ["bone"] },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 25, health: 1, foodcategory: "Protein" },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 1, health: 0.04, foodcategory: "Protein" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 4,
+			itemsPerLitre: 100,
 			texture: { base: "game:item/liquid/{type}broth" },
 			allowSpill: true,
 			whenSpilled: {
@@ -27,8 +31,8 @@
   	}],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/{type}broth" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:brothportion-{type}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

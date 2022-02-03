@@ -6,11 +6,14 @@
 		{ code: "type", states: ["flax", "rice", "seed", "soy", "sunflower", "peanut"] },
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "foodoilportion-*" ] },
-		nutritionPropsWhenInMeal: { satiety: 100, health: 0.5, foodcategory: "Vegetable" },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 16, health: 0.08, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 16,
+			itemsPerLitre: 100,
 			texture: { base: "game:item/liquid/foodoil" },
 			allowSpill: true,
 			whenSpilled: {
@@ -21,8 +24,8 @@
 	},
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/foodoil" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:foodoilportion-{type}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	transitionableProps: [{
     		type: "Perish",

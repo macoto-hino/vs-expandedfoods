@@ -7,7 +7,7 @@
 		"*-liquid": "liquid",
 	},
 	variantgroups: [
-		{ code: "type", states: ["liquid", "raw", "plain", "blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "fruitmix", "vegetablemix", "saguaro", "birch", "maple", "soy", "honey", "pineapple", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+		{ code: "type", loadFromProperties: "block/fruit", states: ["liquid", "raw", "plain", "carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "birch", "maple", "soy", "honey", "cassava", "bellpepper", "huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
 	],
 	attributes: {
 		"handbook": { "groupBy": [ "gelatin-*" ] },

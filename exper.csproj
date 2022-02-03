@@ -869,12 +869,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\breadstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\broth.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\foodoil.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\fruitjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\fruitsyrup.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\fruitwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\lard.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\maplesap.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\mixjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\pasteruizedmilk.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\peanutliquid.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentwine.json" />

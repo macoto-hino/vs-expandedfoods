@@ -3,10 +3,14 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
-		nutritionPropsWhenInMeal: { satiety: 120, health: 1, foodcategory: "Protein" },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		inBowlShape: { base: "game:block/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 19.2, health: 0.16, foodcategory: "Protein" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 16,
+			itemsPerLitre: 100,
 			texture: { base: "game:item/liquid/fishsauce" },
 			allowSpill: true,
 			whenSpilled: { 
@@ -17,8 +21,8 @@
 	},
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/fishsauce" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:soysauce", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	transitionableProps: [{
     		type: "Perish",

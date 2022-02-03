@@ -6,11 +6,14 @@
 		{ code: "type", states: ["birch", "maple",] },
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "treesyrupportion-*" ] },
-		nutritionPropsWhenInMeal: { satiety: 120, health: 1, foodcategory: "Fruit" },
+		handbook: {
+			ignoreCreativeInvStacks: true
+		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 9.6, health: 0.015, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 8,
+			itemsPerLitre: 100,
 			textureByType: {
 				"*-birch": {
 					base: "game:block/liquid/weaktannin" 
@@ -23,6 +26,10 @@
 			whenSpilled: {
 				action: "DropContents",
 				stack: { type: "item", code: "expandedfoods:treesyrupportion-{type}" }
+			},
+			nutritionPropsPerLitre: {
+				saturation: 640,
+				foodcategory: "Fruit"
 			}
 		}
 	},
@@ -35,9 +42,9 @@
 			base: "game:block/liquid/strongtannin" 
 		},
 	},
-	nutritionProps: { saturation: 80, health: 1, foodcategory: "Fruit" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	nutritionProps: { saturation: 6.4, health: 0.01, foodcategory: "Fruit" },
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:treesyrupportion-{type}", makefull: true } ] } } ] } ],
+	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },
