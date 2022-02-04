@@ -162,6 +162,46 @@
     "file": "itemtypes/food/vegetable.json"
   },
 
+  {
+    "op": "add",
+    "path": "/attributesByType/@*-(onion|bellpepper)",
+    "value": {
+      	"inContainerTexture": {
+        	"base": "block/wood/barrel/raw-{type}"
+      	},
+	    "juiceableProperties": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:vegetablejuiceportion-{type}",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-{type}",
+                "stacksize": 1
+            }
+        },
+      	"nutritionPropsWhenInMeal": {
+        	"satiety": 150,
+        	"foodcategory": "Vegetable"
+      	},
+	    inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
+	    bakingProperties: {
+		    temp: 100,
+		    levelFrom: 0.0,
+		    levelTo: 0.25,
+        	startScaleY: 1.0,
+       		endScaleY: 1.0,
+		    resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
+	    },
+	    onDisplayTransform: { 
+		    translation: { x: 0, y: 0, z: 0 },
+		    scale: 1 
+	    }
+    },
+    "file": "game:itemtypes/food/vegetable.json"
+  },
 
   {
     "op": "add",
@@ -170,8 +210,19 @@
       	"inContainerTexture": {
         	"base": "block/wood/barrel/raw-{type}"
       	},
-	"squeezeInto": "expandedfoods:vegetablejuiceportion-carrot",
-	"squeezeRatio": 4,
+	    "juiceableProperties": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:vegetablejuiceportion-carrot",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-carrot",
+                "stacksize": 1
+            }
+        },
       	"nutritionPropsWhenInMeal": {
         	"satiety": 150,
         	"foodcategory": "Vegetable"
@@ -211,8 +262,19 @@
       "inContainerTexture": {
         "base": "block/wood/barrel/raw-{type}"
       },
-	"squeezeInto": "expandedfoods:vegetablejuiceportion-parsnip",
-	"squeezeRatio": 4,
+	    "juiceableProperties": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:vegetablejuiceportion-parsnip",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-parsnip",
+                "stacksize": 1
+            }
+        },
       "nutritionPropsWhenInMeal": {
         "satiety": 150,
         "foodcategory": "Vegetable"
@@ -252,8 +314,19 @@
       "inContainerTexture": {
         "base": "block/wood/barrel/raw-{type}"
       },
-	"squeezeInto": "expandedfoods:vegetablejuiceportion-turnip",
-	"squeezeRatio": 4,
+	    "juiceableProperties": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:vegetablejuiceportion-turnip",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-turnip",
+                "stacksize": 1
+            }
+        },
       "nutritionPropsWhenInMeal": {
         "satiety": 150,
         "foodcategory": "Vegetable"
@@ -323,8 +396,6 @@
     "file": "game:itemtypes/food/vegetable.json",
     "value": {
 	inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
-	squeezeInto: "expandedfoods:vegetablejuiceportion-{type}",
-	squeezeRatio: 4,
 	nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 	inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
 	bakingProperties: {

@@ -1,38 +1,56 @@
 [
   {
     "op": "add",
-    "path": "/attributesByType/*-cassava/squeezeInto",
-    "value": "expandedfoods:vegetablejuiceportion-cassava",
+    "path": "/attributesByType/*-cassava/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.3125,
+        "liquidStack": {
+            "type": "item",
+            "code": "expandedfoods:vegetablejuiceportion-cassava",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "pressedmash-cassava",
+            "stacksize": 1
+        },
+    },
     "file": "game:itemtypes/food/vegetable.json"
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-cassava/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType/*-cabbage/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.3125,
+        "liquidStack": {
+            "type": "item",
+            "code": "expandedfoods:vegetablejuiceportion-cabbage",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "pressedmash-cabbage",
+            "stacksize": 1
+        },
+    },
     "file": "game:itemtypes/food/vegetable.json"
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-cabbage/squeezeInto",
-    "value": "expandedfoods:vegetablejuiceportion-cabbage",
-    "file": "game:itemtypes/food/vegetable.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-cabbage/squeezeRatio",
-    "value": 4,
-    "file": "game:itemtypes/food/vegetable.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-pumpkin/squeezeInto",
-    "value": "expandedfoods:vegetablejuiceportion-pumpkin",
-    "file": "game:itemtypes/food/vegetable.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-pumpkin/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType/*-pumpkin/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.3125,
+        "liquidStack": {
+            "type": "item",
+            "code": "expandedfoods:vegetablejuiceportion-pumpkin",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "pressedmash-pumpkin",
+            "stacksize": 1
+        },
+    },
     "file": "game:itemtypes/food/vegetable.json"
   },
   {

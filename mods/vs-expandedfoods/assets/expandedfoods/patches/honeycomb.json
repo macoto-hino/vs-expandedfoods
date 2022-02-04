@@ -1,14 +1,14 @@
 [
   {
     "op": "add",
-    "path": "/attributes/squeezeInto",
-    "value": "honeyportion",
-    "file": "game:itemtypes/resource/honeycomb.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributes/squeezeRatio",
-    "value": 1,
+    "path": "/attributes",
+    "value": {
+      juiceableProperties: {
+			litresPerItem: 0.2,
+			liquidStack: { type: "item", code: "honeyportion", stacksize: 1 },
+			pressedStack: { type: "item", code: "pressedmash-honey", stacksize: 1 }
+		},
+    },
     "file": "game:itemtypes/resource/honeycomb.json"
   }
 ]

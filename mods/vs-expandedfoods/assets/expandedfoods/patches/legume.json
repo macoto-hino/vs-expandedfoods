@@ -4,12 +4,34 @@
     "path": "/attributesByType",
     "value": {
       "*-soybean": {
-        "squeezeInto": "expandedfoods:foodoilportion-soy",
-        "squeezeRatio": 4
+        "juiceableProperties": {
+            "litresPerItem": 0.078125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-soy",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-soybean",
+                "stacksize": 1
+            }
+        }
       },
       "*-peanut": {
-        "squeezeInto": "expandedfoods:foodoilportion-peanut",
-        "squeezeRatio": 2,
+        "juiceableProperties": {
+            "litresPerItem": 0.078125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-peanut",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "pressedmash-peanut",
+                "stacksize": 1
+            },
+        },
         "bakingProperties":  {
 			temp: 175,
 			levelFrom: 0.0,

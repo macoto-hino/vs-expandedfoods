@@ -602,9 +602,14 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\meal\pickledegg.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-bugs.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-egg.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-flax.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-honey.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-mushroomwhite.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-rice.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-roots.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-seaweed.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-seed.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-sunflower.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\herbalacorn1.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\herbalacorn2.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\herbalacorn3.png" />
@@ -918,7 +923,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildfarming\wildseeds.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\fat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\flower.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\fruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\grain.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\honeycomb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\legume.json" />
@@ -939,6 +943,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\meatnugget.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\pasta.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\agedmeat.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\beeswax.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\bottlerack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\bottlerackcorner.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\blocks\glassbottle.json" />
@@ -1755,7 +1760,6 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\dough.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\egg.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\fruit.json" />
-    <None Include="mods\vs-expandedfoods\assets\game\patches\game-entities-humanoid-player.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\honeyportion.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\insect.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\meatystewrecipe.json" />
@@ -1777,6 +1781,8 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\seaweed.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\soup.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\soupshape.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\cider.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\rawjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill1.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill2.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill3.json" />

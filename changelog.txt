@@ -25,12 +25,12 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 
 1.5.3
 Updated to VS 1.16
-Liquids changed to match new standardization; redundant juices/wines removed
+Liquids changed to match new standardization; redundant juices/wines removed; remapped old juice/wine to vanilla versions
 Liquid recipes updated to new amounts
 Mixed juice removed (for now?)
 Screw press & redundant liquids removed, recipes moved to fruit press
 Mixing bowl & saucepan now require specific liquid amounts
-Spile output adjusted to reflect new liquid amounts
+Spile output adjusted to reflect new liquid amounts - DONE!!!
 Regular bread now has satMult applied to it - DONE!!!
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files

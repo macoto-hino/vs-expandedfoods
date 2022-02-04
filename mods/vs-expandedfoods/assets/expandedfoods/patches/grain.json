@@ -1,28 +1,4 @@
-[
-  {
-    "op": "add",
-    "path": "/attributesByType/*-flax/squeezeInto",
-    "value": "expandedfoods:foodoilportion-flax",
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-flax/squeezeRatio",
-    "value": 4,
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-rice/squeezeInto",
-    "value": "expandedfoods:foodoilportion-rice",
-    "file": "game:itemtypes/food/grain.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-rice/squeezeRatio",
-    "value": 4,
-    "file": "game:itemtypes/food/grain.json"
-  },
+﻿[
   {
     "op": "add",
     "path": "/attributesByType/*-sunflower",
@@ -31,9 +7,68 @@
         "satiety": 240,
         "foodcategory": "Grain"
       },
-      "squeezeInto": "expandedfoods:foodoilportion-sunflower",
-      "squeezeRatio": 4
+      "juiceableProperties": {
+        "litresPerItem": 0.078125,
+        "liquidStack": {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-sunflower",
+          "stacksize": 1
+        },
+        "pressedStack": {
+          "type": "item",
+          "code": "pressedmash-sunflower",
+          "stacksize": 1
+        }
+      }
     },
     "file": "game:itemtypes/food/grain.json"
-  }
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-flax/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.078125,
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-flax",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "pressedmash-flax",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rice/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.078125,
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-rice",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "pressedmash-rice",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "frompath": "/attributesByType/*",
+    "file": "game:itemtypes/food/grain.json"
+  },
+  {
+    "op": "move",
+    "path": "/attributesByType/*",
+    "frompath": "/temp",
+    "file": "game:itemtypes/food/grain.json"
+  },
 ]

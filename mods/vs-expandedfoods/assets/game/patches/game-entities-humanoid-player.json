@@ -1,8 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/sounds/drink",
-    "value": "expandedfoods:player/gulp",
-    "file": "entities/humanoid/player.json"
-  }
-]

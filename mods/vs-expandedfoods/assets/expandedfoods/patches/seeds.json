@@ -3,8 +3,11 @@
     "op": "add",
     "path": "/attributes",
     "value": {
-      "squeezeInto": "expandedfoods:foodoilportion-seed",
-      "squeezeRatio": 4
+      juiceableProperties: {
+			litresPerItem: 0.078125,
+			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
+			pressedStack: { type: "item", code: "pressedmash-seed", stacksize: 1 }
+		},
     },
     "file": "game:itemtypes/resource/seeds.json"
   }
