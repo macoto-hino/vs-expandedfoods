@@ -1,5 +1,7 @@
-﻿using Vintagestory.API.Client;
+﻿using System.Text;
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
@@ -7,7 +9,7 @@ using Vintagestory.GameContent;
 namespace ExpandedFoods
 {
     public class BlockEntitySaucepan : BlockEntityBucket
-    {
+    { 
         MeshData currentRightMesh;
         BlockSaucepan ownBlock;
         public bool isSealed;
@@ -91,6 +93,7 @@ namespace ExpandedFoods
                 currentRightMesh = GenRightMesh();
             }
         }
+
 
         public override float GetPerishRate()
         {

@@ -55,6 +55,7 @@ namespace ExpandedFoods
         // For how long the current ore has been mixing
         public float inputMixTime;
         public float prevInputMixTime;
+        public int CapacityLitres { get; set; }
 
         //For automation
         public bool invLocked;
@@ -160,6 +161,11 @@ namespace ExpandedFoods
 
             RegisterGameTickListener(Every100ms, 100);
             RegisterGameTickListener(Every500ms, 500);
+
+            if (Block.Attributes["capacityLitres"].Exists == true)
+            {
+                CapacityLitres = Block.Attributes["capacityLitres"].AsInt(CapacityLitres);
+            }
 
             if (ambientSound == null && api.Side == EnumAppSide.Client)
             {
