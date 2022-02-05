@@ -14,6 +14,16 @@ namespace ExpandedFoods
 {
     public class BlockMixingBowl : BlockMPBase
     {
+        public int CapacityLitres { get; set; }
+
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
+            if (Attributes?["capacityLitres"].Exists == true)
+            {
+                CapacityLitres = Attributes["capacityLitres"].AsInt(CapacityLitres);
+            }
+        }
 
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {

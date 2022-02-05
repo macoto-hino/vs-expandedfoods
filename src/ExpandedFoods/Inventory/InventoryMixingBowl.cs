@@ -135,11 +135,9 @@ namespace ExpandedFoods
     {
         BlockEntityMixingBowl machine;
         int stackNum;
-        public int CapacityLitres { get; set;} = 6;
 
         public ItemSlotMixingBowl(InventoryBase inventory, BlockEntityMixingBowl bowl, int itemNumber) : base(inventory)
         {
-            CapacityLitres = 6;
             MaxSlotStackSize = 6;
             machine = bowl;
             stackNum = itemNumber;
@@ -192,7 +190,7 @@ namespace ExpandedFoods
                     // Cap by source amount
                     toMoveLitres = Math.Min(toMoveLitres, curSourceLitres);
                     // Cap by target capacity
-                    toMoveLitres = Math.Min(toMoveLitres, this.CapacityLitres - curDestLitres);
+                    toMoveLitres = Math.Min(toMoveLitres, machine.CapacityLitres - curDestLitres);
 
                     if (toMoveLitres > 0)
                     {

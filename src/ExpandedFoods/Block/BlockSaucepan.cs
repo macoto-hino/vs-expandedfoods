@@ -30,7 +30,7 @@ namespace ExpandedFoods
                 simmerRecipes = Attributes["simmerRecipes"].AsObject<SimmerRecipe[]>();
                 if (simmerRecipes != null)
                 {
-                    foreach(SimmerRecipe rec in simmerRecipes)
+                    foreach (SimmerRecipe rec in simmerRecipes)
                     {
                         rec.Resolve(api.World, "saucepan");
                     }
@@ -67,9 +67,23 @@ namespace ExpandedFoods
                     },
                     new WorldInteraction()
                     {
-                        ActionLangCode = "expandedfoods:blockhelp-lid", // json lang file. 
+                        ActionLangCode = "expandedfoods:blockhelp-open", // json lang file. 
                         HotKeyCodes = new string[] { "sneak", "sprint" },
-                        MouseButton = EnumMouseButton.Right
+                        MouseButton = EnumMouseButton.Right,
+                        ShouldApply = (wi, bs, es) => {
+                            BlockEntitySaucepan Besaucepan = world.BlockAccessor.GetBlockEntity(bs.Position) as BlockEntitySaucepan;
+                            return Besaucepan != null && Besaucepan.isSealed;
+                        }
+                    },
+                    new WorldInteraction()
+                    {
+                        ActionLangCode = "expandedfoods:blockhelp-close", // json lang file. 
+                        HotKeyCodes = new string[] { "sneak", "sprint" },
+                        MouseButton = EnumMouseButton.Right,
+                        ShouldApply = (wi, bs, es) => {
+                            BlockEntitySaucepan Besaucepan = world.BlockAccessor.GetBlockEntity(bs.Position) as BlockEntitySaucepan;
+                            return Besaucepan != null && !Besaucepan.isSealed;
+                        }
                     }
             };
         }
@@ -140,7 +154,7 @@ namespace ExpandedFoods
                 product = match.Simmering.SmeltedStack.ResolvedItemstack.Clone();
 
                 product.StackSize *= amount;
-                
+
                 if (product.Collectible is IExpandedFood)
                 {
                     List<KeyValuePair<ItemSlot, CraftingRecipeIngredient>> input = new List<KeyValuePair<ItemSlot, CraftingRecipeIngredient>>();
@@ -158,7 +172,7 @@ namespace ExpandedFoods
                             }
                         }
                     }
-                    
+
                     (product.Collectible as IExpandedFood).OnCreatedByKneading(input, product);
                 }
             }
@@ -452,20 +466,20 @@ namespace ExpandedFoods
                 handHandling = EnumHandHandling.PreventDefaultAction;
             }
 
-           /* IPlayer byPlayer = (byEntity as EntityPlayer)?.Player;
+            /* IPlayer byPlayer = (byEntity as EntityPlayer)?.Player;
 
-            if (!byEntity.World.Claims.TryAccess(byPlayer, blockSel.Position, EnumBlockAccessFlags.BuildOrBreak))
-            {
-                byEntity.World.BlockAccessor.MarkBlockDirty(blockSel.Position.AddCopy(blockSel.Face));
-                byPlayer?.InventoryManager.ActiveHotbarSlot?.MarkDirty();
-                return;
-            }
+             if (!byEntity.World.Claims.TryAccess(byPlayer, blockSel.Position, EnumBlockAccessFlags.BuildOrBreak))
+             {
+                 byEntity.World.BlockAccessor.MarkBlockDirty(blockSel.Position.AddCopy(blockSel.Face));
+                 byPlayer?.InventoryManager.ActiveHotbarSlot?.MarkDirty();
+                 return;
+             }
 
-            // Prevent placing on normal use
-            handHandling = EnumHandHandling.PreventDefaultAction;
+             // Prevent placing on normal use
+             handHandling = EnumHandHandling.PreventDefaultAction;
 
 
-            base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);*/
+             base.OnHeldInteractStart(itemslot, byEntity, blockSel, entitySel, firstEvent, ref handHandling);*/
         }
 
         private bool SpillContents(ItemSlot containerSlot, EntityAgent byEntity, BlockSelection blockSel)
@@ -537,7 +551,7 @@ namespace ExpandedFoods
             }
 
 
-            int moved = splitStackAndPerformAction(byEntity, containerSlot, (stack) => { SetContent(stack, null); return contentStack.StackSize; } );
+            int moved = splitStackAndPerformAction(byEntity, containerSlot, (stack) => { SetContent(stack, null); return contentStack.StackSize; });
 
             DoLiquidMovedEffects(byPlayer, contentStack, moved, EnumLiquidDirection.Pour);
             return true;
@@ -637,7 +651,7 @@ namespace ExpandedFoods
             List<ItemStack> contents = new List<ItemStack>();
             ItemStack product = null;
 
-            foreach (ItemSlot slot in new ItemSlot[] { inv[3], inv[4], inv[5], inv[6]})
+            foreach (ItemSlot slot in new ItemSlot[] { inv[3], inv[4], inv[5], inv[6] })
             {
                 if (!slot.Empty) contents.Add(slot.Itemstack);
             }
@@ -693,7 +707,7 @@ namespace ExpandedFoods
                 if (props.Texture == null) return null;
 
                 //shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents.json").ToObject<Shape>();
-   
+
                 float maxLevel = Attributes["maxFillLevel"].AsFloat();
                 float fullness = contentStack.StackSize / (props.ItemsPerLitre * CapacityLitres);
 
@@ -818,13 +832,12 @@ namespace ExpandedFoods
             return s.GetHashCode();
         }
 
-
         public override ItemStack OnPickBlock(IWorldAccessor world, BlockPos pos)
         {
-            ItemStack drop =  base.OnPickBlock(world, pos);
+            ItemStack drop = base.OnPickBlock(world, pos);
 
             BlockEntitySaucepan sp = world.BlockAccessor.GetBlockEntity(pos) as BlockEntitySaucepan;
-
+          
             if (sp != null)
             {
                 drop.Attributes.SetBool("isSealed", sp.isSealed);
