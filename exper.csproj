@@ -609,6 +609,8 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-roots.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-seaweed.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-seed.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-soyblend.png" />
+    <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-soyslurry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\fill-sunflower.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\herbalacorn1.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\block\food\pie\herbalacorn2.png" />
@@ -930,6 +932,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\milk.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\remap.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\seeds.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\pressedmash.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\vegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bighookmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bottle.json" />

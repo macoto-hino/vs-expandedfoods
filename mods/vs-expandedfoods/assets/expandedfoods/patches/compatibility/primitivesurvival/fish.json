@@ -1,141 +1,191 @@
 [
   {
     "op": "add",
-    "path": "/attributes/squeezeInto",
-    "value": "game:fishsauce",
+    "path": "/attributes/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.0625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
-    "path": "/attributes/squeezeRatio",
-    "value": 6,
-    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-bass*/squeezeInto",
-    "value": "game:fishsauce",
+    "path": "/attributesByType/*-bass*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.078125,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-bass*/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType/*-bluegill*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.078125,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-bluegill*/squeezeInto",
-    "value": "game:fishsauce",
+    "path": "/attributesByType/*-mutant*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.078125,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-bluegill*/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType/*-arcticchar*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-mutant*/squeezeInto",
-    "value": "game:fishsauce",
+    "path": "/attributesByType/*-carp*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-mutant*/squeezeRatio",
-    "value": 4,
+    "path": "/attributesByType/*-perch*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-arcticchar*/squeezeInto",
-    "value": "game:fishsauce",
+    "path": "/attributesByType/*-pike*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-arcticchar*/squeezeRatio",
-    "value": 2,
+    "path": "/attributesByType/*-trout*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.15625,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-carp*/squeezeInto",
-    "value": "game:fishsauce",
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-carp*/squeezeRatio",
-    "value": 2,
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-perch*/squeezeInto",
-    "value": "game:fishsauce",
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-perch*/squeezeRatio",
-    "value": 2,
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-pike*/squeezeInto",
-    "value": "game:fishsauce",
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-pike*/squeezeRatio",
-    "value": 2,
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-trout*/squeezeInto",
-    "value": "game:fishsauce",
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-trout*/squeezeRatio",
-    "value": 2,
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-catfish*/squeezeInto",
-    "value": "game:fishsauce",
-    "file": "primitivesurvival:itemtypes/fishing/psfish.json",
-    dependsOn: [ {"modid": "primitivesurvival"} ]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-catfish*/squeezeRatio",
-    "value": 1,
+    "path": "/attributesByType/*-catfish*/juiceableProperties",
+    "value": {
+        "litresPerItem": 0.3125,
+        "liquidStack": {
+            "type": "item",
+            "code": "game:fishsauce",
+            "stacksize": 1
+        },
+        "pressedStack": {
+            "type": "item",
+            "code": "game:pressedmash-fish",
+            "stacksize": 1
+        }
+    },
     "file": "primitivesurvival:itemtypes/fishing/psfish.json",
     dependsOn: [ {"modid": "primitivesurvival"} ]
   },

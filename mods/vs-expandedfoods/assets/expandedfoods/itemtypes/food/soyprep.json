@@ -1,23 +1,43 @@
 {
 	code: "soyprep",
-	maxstacksize: 40,
+	maxstacksize: 64,
 	variantgroups: [
 		{ code: "type", states: ["soaked", "roasted", "powdered", "cultured", "slurry",
 												"shelled", "wetshell", "blended"] },
 	],
 	attributes: {
-		inContainerTextureByType: { 
+		inContainerTextureByType: {
 			"*-slurry": { base: "block/wood/barrel/raw-soybean" },
 			"*-cultured": { base: "block/wood/barrel/raw-soybean" },
 			"*-soaked": { base: "block/wood/barrel/raw-soybean" },
 		},
-		squeezeIntoByType: {
-			"*-slurry": "expandedfoods:soysauce",
-			"*-blended": "expandedfoods:soymilk-raw",
-		},
-		squeezeRatioByType: {
-			"*-slurry": 2,
-			"*-blended": 4,
+		"juiceablePropertiesByType": {
+			"*-slurry": {
+				"litresPerItem": 0.15625,
+				"liquidStack": {
+					"type": "item",
+					"code": "expandedfoods:soysauce",
+					"stacksize": 1
+				},
+				"pressedStack": {
+					"type": "item",
+					"code": "game:pressedmash-soyslurry",
+					"stacksize": 1
+				},
+			},
+			"*-blended": {
+				"litresPerItem": 0.078125,
+				"liquidStack": {
+					"type": "item",
+					"code": "expandedfoods:soymilk-raw",
+					"stacksize": 1
+				},
+				"pressedStack": {
+					"type": "item",
+					"code": "game:pressedmash-soyblend",
+					"stacksize": 1
+				},
+			},
 		},
 		bakingPropertiesByType: {
 			"*-soaked": {

@@ -5,8 +5,8 @@
     "value": {
       juiceableProperties: {
 			litresPerItem: 0.2,
-			liquidStack: { type: "item", code: "honeyportion", stacksize: 1 },
-			pressedStack: { type: "item", code: "pressedmash-honey", stacksize: 1 }
+			liquidStack: { type: "item", code: "game:honeyportion", stacksize: 1 },
+			pressedStack: { type: "item", code: "game:pressedmash-honey", stacksize: 1 }
 		},
     },
     "file": "game:itemtypes/resource/honeycomb.json"

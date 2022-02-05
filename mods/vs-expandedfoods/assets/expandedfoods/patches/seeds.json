@@ -6,7 +6,7 @@
       juiceableProperties: {
 			litresPerItem: 0.078125,
 			liquidStack: { type: "item", code: "expandedfoods:foodoilportion-seed", stacksize: 1 },
-			pressedStack: { type: "item", code: "pressedmash-seed", stacksize: 1 }
+			pressedStack: { type: "item", code: "game:pressedmash-seed", stacksize: 1 }
 		},
     },
     "file": "game:itemtypes/resource/seeds.json"

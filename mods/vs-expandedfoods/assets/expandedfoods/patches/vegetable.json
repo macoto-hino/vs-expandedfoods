@@ -11,7 +11,7 @@
         },
         "pressedStack": {
             "type": "item",
-            "code": "pressedmash-cassava",
+            "code": "game:pressedmash-cassava",
             "stacksize": 1
         },
     },
@@ -29,7 +29,7 @@
         },
         "pressedStack": {
             "type": "item",
-            "code": "pressedmash-cabbage",
+            "code": "game:pressedmash-cabbage",
             "stacksize": 1
         },
     },
@@ -47,7 +47,7 @@
         },
         "pressedStack": {
             "type": "item",
-            "code": "pressedmash-pumpkin",
+            "code": "game:pressedmash-pumpkin",
             "stacksize": 1
         },
     },

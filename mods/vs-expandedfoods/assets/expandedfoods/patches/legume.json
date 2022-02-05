@@ -13,7 +13,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-soybean",
+                "code": "game:pressedmash-soybean",
                 "stacksize": 1
             }
         }
@@ -28,7 +28,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-peanut",
+                "code": "game:pressedmash-peanut",
                 "stacksize": 1
             },
         },

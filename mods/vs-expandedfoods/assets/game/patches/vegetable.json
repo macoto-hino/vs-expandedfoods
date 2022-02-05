@@ -178,7 +178,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-{type}",
+                "code": "game:pressedmash-{type}",
                 "stacksize": 1
             }
         },
@@ -219,7 +219,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-carrot",
+                "code": "game:pressedmash-carrot",
                 "stacksize": 1
             }
         },
@@ -271,7 +271,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-parsnip",
+                "code": "game:pressedmash-parsnip",
                 "stacksize": 1
             }
         },
@@ -323,7 +323,7 @@
             },
             "pressedStack": {
                 "type": "item",
-                "code": "pressedmash-turnip",
+                "code": "game:pressedmash-turnip",
                 "stacksize": 1
             }
         },

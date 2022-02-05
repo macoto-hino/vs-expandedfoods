@@ -16,7 +16,7 @@
         },
         "pressedStack": {
           "type": "item",
-          "code": "pressedmash-sunflower",
+          "code": "game:pressedmash-sunflower",
           "stacksize": 1
         }
       }
@@ -35,7 +35,7 @@
       },
       "pressedStack": {
         "type": "item",
-        "code": "pressedmash-flax",
+        "code": "game:pressedmash-flax",
         "stacksize": 1
       }
     },
@@ -53,7 +53,7 @@
       },
       "pressedStack": {
         "type": "item",
-        "code": "pressedmash-rice",
+        "code": "game:pressedmash-rice",
         "stacksize": 1
       }
     },
