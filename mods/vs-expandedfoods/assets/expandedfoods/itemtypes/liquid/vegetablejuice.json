@@ -10,7 +10,7 @@
 			ignoreCreativeInvStacks: true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 14.4, health: 0.12, foodcategory: "Vegetable" },
+		nutritionPropsWhenInMeal: { satiety: 3, foodcategory: "Vegetable" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
@@ -21,9 +21,8 @@
 				stack: { type: "item", code: "expandedfoods:vegetablejuiceportion-{type}" }
 			},
 			nutritionPropsPerLitre: {
-				saturation: 960,
-				health: 8,
-				foodcategory: "Fruit"
+				saturation: 200,
+				foodcategory: "Vegetable"
 			}
 		}
 	},
@@ -37,7 +36,7 @@
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/{type}" },
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:vegetablejuiceportion-{type}", makefull: true } ] } } ] } ],
-	nutritionProps: { saturation: 9.6, health: 0.08, foodcategory: "Vegetable" },
+	nutritionProps: { saturation: 2, foodcategory: "Vegetable" },
 	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {

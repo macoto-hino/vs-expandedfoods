@@ -20,7 +20,7 @@
 				}
 			},
 			nutritionPropsPerLitre: {
-				saturation: 640,
+				saturation: 160,
 				foodcategory: "Fruit"
 			}
 		}
@@ -30,7 +30,7 @@
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:birchsapportion", makefull: true } ] } } ] } ],
 	maxstacksize: 5000,
 	materialDensity: 200,
-	nutritionProps: { saturation: 6.4, foodcategory: "Fruit" },
+	nutritionProps: { saturation: 1.6, foodcategory: "Fruit" },
 	combustibleProps: {
 		meltingPoint: 150,
 		meltingDuration: 5,

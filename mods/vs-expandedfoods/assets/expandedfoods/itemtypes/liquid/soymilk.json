@@ -8,7 +8,7 @@
 		},
 		inBowlShape: { base: "game:block/meal/liquid" },
 		nutritionPropsWhenInMealByType: {
-			"*-edible": { satiety: 30, health: 0.2, foodcategory: "Dairy" },
+			"*-edible": { satiety: 1.125, health: 0.01, foodcategory: "Dairy" },
 		},
 		waterTightContainerPropsByType: {
 			"*-edible": {
@@ -23,7 +23,7 @@
 				},
 				nutritionPropsPerLitre: {
 					saturation: 75,
-					health: 0.2,
+					health: 1,
 					foodcategory: "Dairy"
 				}
 			},			
@@ -81,7 +81,7 @@
   		}],
 	},
 	nutritionPropsByType: {
-		"*-edible": { saturation: 0.75, health: 0.002, foodcategory: "Dairy" },
+		"*-edible": { saturation: 0.75, health: 0.01, foodcategory: "Dairy" },
 	},
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

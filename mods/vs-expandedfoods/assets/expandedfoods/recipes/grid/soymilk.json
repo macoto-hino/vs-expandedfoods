@@ -17,11 +17,11 @@
 			code: "game:woodbucket"
 		},
 		"S": { type: "item", code: "expandedfoods:soyprep-shelled"  },
-	},
-		attributes: {
+		},
+	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "game:waterportion" },
-			requiresQuantity: 1
+			requiresLitres: 1
 		}
 	},
 	width: 1,
@@ -42,7 +42,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "game:waterportion" },
-			requiresQuantity: 1
+			requiresLitres: 1
 		}
 	},
 	width: 1,

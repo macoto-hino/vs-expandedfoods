@@ -121,61 +121,50 @@ namespace ExpandedFoods
                 return true;
         }
         */
+
         [HarmonyPrefix]
         [HarmonyPatch("GetBlockInfo")]
         static bool descFix(IPlayer forPlayer, StringBuilder sb, ref BlockEntityShelf __instance)
         {
-            float rate = __instance.GetPerishRate();
-
+            var rate = __instance.GetPerishRate();
             sb.AppendLine(Lang.Get("Stored food perish speed: {0}x", Math.Round(rate, 2)));
 
-            float ripenRate = GameMath.Clamp(((1 - rate) - 0.5f) * 3, 0, 1);
+            var ripenRate = GameMath.Clamp((1 - rate - 0.5f) * 3, 0, 1);
             if (ripenRate > 0)
-            {
-                sb.Append("Suitable spot for food ripening.");
-            }
-
+            { sb.AppendLine("Suitable spot for food ripening."); }
 
             sb.AppendLine();
+            var up = forPlayer.CurrentBlockSelection != null && forPlayer.CurrentBlockSelection.SelectionBoxIndex > 1;
 
-            bool up = forPlayer.CurrentBlockSelection != null && forPlayer.CurrentBlockSelection.SelectionBoxIndex > 1;
-
-            for (int j = 3; j >= 0; j--)
+            for (var j = 3; j >= 0; j--)
             {
-                int i = j + (up ? 4 : 0);
+                var i = j + (up ? 4 : 0);
                 i ^= 2;   //Display shelf contents text for items from left-to-right, not right-to-left
+                if (__instance.Inventory[i].Empty)
+                { continue; }
 
-                if (__instance.Inventory[i].Empty) continue;
-
-                ItemStack stack = __instance.Inventory[i].Itemstack;
-
+                var stack = __instance.Inventory[i].Itemstack;
                 if (stack.Collectible is BlockCrock)
-                {
-                    sb.Append(__instance.CrockInfoCompact(__instance.Inventory[i]));
-                }
+                { sb.Append(__instance.CrockInfoCompact(__instance.Inventory[i])); }
                 else if (stack.Collectible is BlockBottle)
                 {
-                    (stack.Collectible as BlockBottle).GetShelfInfo(__instance.Inventory[i], sb, __instance.Api.World);
+                    sb.Append("Bottle (");
+                    (__instance.Inventory[i].Itemstack.Collectible as BlockBottle).GetContentInfo(__instance.Inventory[i], sb, __instance.Api.World);
+                    sb.AppendLine(")");
                 }
                 else
                 {
                     if (stack.Collectible.TransitionableProps != null && stack.Collectible.TransitionableProps.Length > 0)
-                    {
-                        sb.Append(BlockEntityShelf.PerishableInfoCompact(__instance.Api, __instance.Inventory[i], ripenRate));
-                    }
+                    { sb.Append(BlockEntityShelf.PerishableInfoCompact(__instance.Api, __instance.Inventory[i], ripenRate)); }
                     else
-                    {
-                        sb.AppendLine(stack.GetName());
-                    }
+                    { sb.AppendLine(stack.GetName()); }
                 }
             }
-
             return false;
         }
-
     }
 
-/*
+    /*
     [HarmonyPatch(typeof(BlockEntityDisplay))]
     class DisplayPatches
     {
@@ -213,8 +202,7 @@ namespace ExpandedFoods
             return false;
         }
     }
-*/
-
+    */
     [HarmonyPatch(typeof(BlockEntityCookedContainer))]
     class BECookedContainerPatches
     {

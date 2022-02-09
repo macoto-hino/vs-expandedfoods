@@ -18,12 +18,7 @@
 				stack: { type: "item", code: "expandedfoods:breadstarter" }
 			}
 		},
-		nutritionPropsPerLitre: {
-			saturation: 400,
-			"health":  16,
-			foodcategory: "Fruit"
-		},
-		nutritionPropsWhenInMeal: { satiety: 4, health: 0.16, foodcategory: "Grain" }
+		nutritionPropsWhenInMeal: { satiety: 2, health: 0.16, foodcategory: "Grain" }
 	},
 	variantgroups: [
 		{ code: "type", states: ["wild"] },

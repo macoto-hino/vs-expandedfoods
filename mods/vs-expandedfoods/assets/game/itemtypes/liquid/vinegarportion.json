@@ -7,7 +7,7 @@
 			ignoreCreativeInvStacks: true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 24, health: 0.08, foodcategory: "Fruit" },
+		nutritionPropsWhenInMeal: { satiety: 3, health: 0.005, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
@@ -26,7 +26,7 @@
     		transitionedStack: { type: "item", code: "game:waterportion" },
     		transitionRatio: 0.5
   	}],
-	nutritionProps: { satiety: 12, health: 0.08, foodcategory: "Fruit" },
+	nutritionProps: { satiety: 1.5, health: 0.005, foodcategory: "Fruit" },
 	shape: { base: "game:item/liquid" },
 	texture: { base: "block/liquid/vinegarmod" },
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "woodbucket", attributes: { ucontents: [ { type:"item", code: "vinegarportion", makefull: true } ] } } ] } ],

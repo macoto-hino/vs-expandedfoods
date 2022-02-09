@@ -16,9 +16,8 @@
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		nutritionPropsWhenInMealByType: { 
-			"*-mix": { satiety: 4.5, health: 0.03, foodcategory: "Fruit" },
-			"*-saguaro": { satiety: 3.75, health: 0.02, foodcategory: "Fruit" },
-			"*": { satiety: 3.75, health: 0.01, foodcategory: "Fruit" },
+			"*-saguaro": { satiety: 12, health: 0.02, foodcategory: "Fruit" },
+			"*": { satiety: 12, health: 0.01, foodcategory: "Fruit" },
 		},
 		waterTightContainerProps: {
 			containable: true,
@@ -39,9 +38,8 @@
 				stack: { type: "item", code: "expandedfoods:fruitsyrupportion-{type}" }
 			},
 			nutritionPropsPerLitreByType: {
-				"*-mix":  {	saturation: 300, "health": 3, foodcategory: "Fruit" },
-				"*-saguaro":  {	saturation: 250, "health": 2, foodcategory: "Fruit" },
-				"*":  {	saturation: 250, "health": 1, foodcategory: "Fruit" },
+				"*-saguaro":  {	saturation: 800, "health": 2, foodcategory: "Fruit" },
+				"*":  {	saturation: 800, "health": 1, foodcategory: "Fruit" },
 			}
 		}
 	},

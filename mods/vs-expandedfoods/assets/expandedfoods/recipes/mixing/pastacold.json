@@ -463,7 +463,8 @@
 				{ type: "item", code: "expandedfoods:lard",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "lard"] }, 
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			portionSizeLitres: 1,
 		},
   		{
       			code: "nuts-extra1",

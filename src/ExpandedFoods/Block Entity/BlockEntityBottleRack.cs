@@ -1,16 +1,16 @@
-using System;
-using System.Text;
-using Vintagestory.API.Client;
-using Vintagestory.API.Common;
-using Vintagestory.API.MathTools;
-using Vintagestory.GameContent;
-using Vintagestory.API.Datastructures;
-using Vintagestory.API.Config;
-using Vintagestory.API.Util;
-//using System.Diagnostics;
-
 namespace ExpandedFoods
 {
+    using System;
+    using System.Text;
+    using Vintagestory.API.Client;
+    using Vintagestory.API.Common;
+    using Vintagestory.API.MathTools;
+    using Vintagestory.GameContent;
+    using Vintagestory.API.Datastructures;
+    using Vintagestory.API.Config;
+    using Vintagestory.API.Util;
+    //using System.Diagnostics;
+
     public class BlockEntityBottleRack : BlockEntityDisplay, ITexPositionSource
     {
         private readonly int maxSlots = 16;
@@ -45,7 +45,7 @@ namespace ExpandedFoods
                         {
                             var sound = this.Block?.Sounds?.Place;
                             this.Api.World.PlaySoundAt(sound ?? new AssetLocation("game:sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
-                            return true; 
+                            return true;
                         }
                     }
                     return false;
@@ -119,55 +119,52 @@ namespace ExpandedFoods
             }
         }
 
-
         public virtual void UpdateMeshes()
         {
-            for (int i = 0; i < meshes.Length; i++)
+            for (var i = 0; i < this.meshes.Length; i++)
             {
-                UpdateMesh(i);
+                this.UpdateMesh(i);
             }
         }
 
         protected virtual void UpdateMesh(int index)
         {
-            if (Api == null || Api.Side == EnumAppSide.Server)
+            if (this.Api == null || this.Api.Side == EnumAppSide.Server)
                 return;
-            if (Inventory[index].Empty)
+            if (this.Inventory[index].Empty)
             {
-                meshes[index] = null;
+                this.meshes[index] = null;
                 return;
             }
 
-            MeshData mesh = GenMesh(Inventory[index].Itemstack);
-            TranslateMesh(mesh, index);
-            meshes[index] = mesh;
+            var mesh = this.GenMesh(this.Inventory[index].Itemstack);
+            this.TranslateMesh(mesh, index);
+            this.meshes[index] = mesh;
         }
-
 
         protected virtual MeshData GenMesh(ItemStack stack)
         {
             MeshData mesh;
-            var dynBlock = stack.Collectible as IContainedMeshSource;
 
-            if (dynBlock != null)
+            if (stack.Collectible is IContainedMeshSource dynBlock)
             {
-                mesh = dynBlock.GenMesh(stack, capi.BlockTextureAtlas, Pos);
-                mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, Block.Shape.rotateY * GameMath.DEG2RAD, 0);
+                mesh = dynBlock.GenMesh(stack, this.capi.BlockTextureAtlas, this.Pos);
+                mesh.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0, this.Block.Shape.rotateY * GameMath.DEG2RAD, 0);
             }
             else
             {
-                ICoreClientAPI capi = Api as ICoreClientAPI;
+                var capi = this.Api as ICoreClientAPI;
                 if (stack.Class == EnumItemClass.Block)
                 {
                     mesh = capi.TesselatorManager.GetDefaultBlockMesh(stack.Block).Clone();
                 }
                 else
                 {
-                    nowTesselatingObj = stack.Collectible;
-                    nowTesselatingShape = null;
+                    this.nowTesselatingObj = stack.Collectible;
+                    this.nowTesselatingShape = null;
                     if (stack.Item.Shape != null)
                     {
-                        nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
+                        this.nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
                     }
                     capi.Tesselator.TesselateItem(stack.Item, out mesh, this);
 
@@ -175,14 +172,14 @@ namespace ExpandedFoods
                 }
             }
 
-            if (stack.Collectible.Attributes?[AttributeTransformCode].Exists == true)
+            if (stack.Collectible.Attributes?[this.AttributeTransformCode].Exists == true)
             {
-                ModelTransform transform = stack.Collectible.Attributes?[AttributeTransformCode].AsObject<ModelTransform>();
+                var transform = stack.Collectible.Attributes?[this.AttributeTransformCode].AsObject<ModelTransform>();
                 transform.EnsureDefaultValues();
                 mesh.ModelTransform(transform);
 
                 transform.Rotation.X = 0;
-                transform.Rotation.Y = Block.Shape.rotateY;
+                transform.Rotation.Y = this.Block.Shape.rotateY;
                 transform.Rotation.Z = 0;
                 mesh.ModelTransform(transform);
             }
@@ -193,7 +190,6 @@ namespace ExpandedFoods
                 mesh.Scale(new Vec3f(0.5f, 0.5f, 0.5f), 0.33f, 0.5f, 0.33f);
                 mesh.Translate(0, -7.5f / 16f, 0f);
             }
-
             return mesh;
         }
 
@@ -208,6 +204,7 @@ namespace ExpandedFoods
                 case "east": rot = 1.57f; break;
                 case "south": rot = 3.14f; break;
                 case "west": rot = 4.71f; break;
+                default: break;
             }
             double col = slot % 4;
             var x = (float)col / 4 - 0.38f;
@@ -218,15 +215,15 @@ namespace ExpandedFoods
                 if (col == 1 || col == 2)
                 { mesh.Translate(0f, 0.2f, 0.2f); }
             }
-            
+
             mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 1.57f, 0f, rot);
             mesh.Scale(new Vec3f(0.5f, 0.5f, 0.5f), 0.99f, 0.99f, 0.99f);
             if (type == "bottlerackcorner")
-            { 
-                if ( col == 1 || col == 2) 
+            {
+                if (col == 1 || col == 2)
                 {
                     mesh.Translate(0f, 0.2f, 0f);
-                    mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 0f, -0.785f, 0f); 
+                    mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 0f, -0.785f, 0f);
                 }
                 else if (col == 3) //far right column
                 { mesh.Rotate(new Vec3f(0.5f, y, 0.5f), 0f, -1.57f, 0f); }
@@ -239,7 +236,7 @@ namespace ExpandedFoods
             MeshData mesh;
             var shapeBase = "expandedfoods:shapes/";
             var block = this.Api.World.BlockAccessor.GetBlock(this.Pos) as BlockBottleRack;
-            mesh = capi.TesselatorManager.GetDefaultBlockMesh(block); //add bottle rack
+            mesh = this.capi.TesselatorManager.GetDefaultBlockMesh(block); //add bottle rack
             mesher.AddMeshData(mesh);
             for (var i = 0; i <= 15; i++)
             {
@@ -250,25 +247,25 @@ namespace ExpandedFoods
                     {
                         var bottleBlock = this.Api.World.GetBlock(block.CodeWithPath(blockPath));
                         var texture = ((ICoreClientAPI)this.Api).Tesselator.GetTexSource(bottleBlock);
-                        mesh = block.GenMesh(this.Api as ICoreClientAPI, shapeBase + "block/bottle", texture, tesselator);
-                        mesh = TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
+                        mesh = block.GenMesh(this.Api as ICoreClientAPI, shapeBase + "block/bottle/bottle", texture, tesselator);
+                        mesh = this.TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
                         mesher.AddMeshData(mesh);
                     }
                     else
                     {
-                        ItemStack content = (this.inventory[i].Itemstack.Collectible as BlockBottle).GetContent(this.inventory[i].Itemstack);
+                        var content = (this.inventory[i].Itemstack.Collectible as BlockBottle).GetContent(this.inventory[i].Itemstack);
                         if (content != null) //glass bottle with contents
                         {
-                            mesh = (this.inventory[i].Itemstack.Collectible as BlockBottle).GenMeshSideways(Api as ICoreClientAPI, content, null);
-                            mesh = TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
+                            mesh = (this.inventory[i].Itemstack.Collectible as BlockBottle).GenMeshSideways(this.Api as ICoreClientAPI, content, null);
+                            mesh = this.TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
                             mesher.AddMeshData(mesh);
                         }
                         else //glass bottle
                         {
                             var bottleBlock = this.inventory[i].Itemstack.Block as BlockBottle;
                             var texture = tesselator.GetTexSource(bottleBlock);
-                            mesh = block.GenMesh(this.Api as ICoreClientAPI, shapeBase + "block/glassbottleempty", texture, tesselator);
-                            mesh = TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
+                            mesh = block.GenMesh(this.Api as ICoreClientAPI, shapeBase + "block/bottle/glassbottleempty", texture, tesselator);
+                            mesh = this.TransformBottleMesh(mesh, i, block.FirstCodePart(), block.LastCodePart());
                             mesher.AddMeshData(mesh);
                         }
                     }
@@ -276,6 +273,7 @@ namespace ExpandedFoods
             }
             return true;
         }
+
 
         public override void GetBlockInfo(IPlayer forPlayer, StringBuilder sb)
         {
@@ -289,7 +287,7 @@ namespace ExpandedFoods
                 var blockPath = this.inventory[index].Itemstack.Block.Code.Path;
                 if (!blockPath.Contains("-clay-"))
                 {
-                    (this.inventory[index].Itemstack.Collectible as BlockBottle).GetShelfInfo(this.Inventory[index], sb, Api.World);
+                    (this.inventory[index].Itemstack.Collectible as BlockBottle).GetContentInfo(this.inventory[index], sb, Api.World);
                 }
                 else
                 {

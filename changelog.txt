@@ -25,8 +25,9 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 
 1.5.3
-Recipes updated for new fruit
 Updated to VS 1.16
+Recipes updated for new fruit
+Potent wine changed to potent alcohol
 Liquids changed to match new standardization; redundant juices/wines removed; remapped old juice/wine to vanilla versions
 Liquid recipes updated to new amounts
 Mixed juice removed (for now?)

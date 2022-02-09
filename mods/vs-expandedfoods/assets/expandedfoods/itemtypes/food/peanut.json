@@ -93,7 +93,8 @@
 		"*-kernels": {
 			grindedStack: {
 				type: "item",
-				code: "expandedfoods:peanutliquid-paste"
+				code: "expandedfoods:peanutliquid-paste",
+				"quantity":  5
 			}
 		},
 	},
