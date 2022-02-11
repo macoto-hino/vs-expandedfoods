@@ -802,7 +802,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\mixingbowl.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\mixingbowlmini.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\saucepan.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\screwpress.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\spile.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\config\handbook\25-expandedfoodsguide.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\config\handbook\26-expandedfoodsguide2.json" />
@@ -1763,7 +1762,6 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\dough.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\egg.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\fruit.json" />
-    <None Include="mods\vs-expandedfoods\assets\game\patches\honeyportion.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\insect.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\meatystewrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\meatystewshape.json" />

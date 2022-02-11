@@ -10,7 +10,7 @@
     "path": "/attributes/expandedNutritionProps",
     "value": {
       "game:milkportion": {
-        "saturation": 60,
+        "saturation": 1.5,
         "foodcategory": "Dairy"
       },
       "game:flour-rice": {

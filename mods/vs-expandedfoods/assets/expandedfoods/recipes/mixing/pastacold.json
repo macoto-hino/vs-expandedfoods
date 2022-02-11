@@ -464,7 +464,7 @@
 			],
 			minQuantity: 0,
 			maxQuantity: 1,
-			portionSizeLitres: 1,
+			portionSizeLitres: 0.1,
 		},
   		{
       			code: "nuts-extra1",

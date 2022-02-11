@@ -31,19 +31,13 @@
 				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 				},
 			"*-syruppartbaked": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			"*-syrups": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			"*-syrupcharred": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			},
 		renderIngredientsByType: {

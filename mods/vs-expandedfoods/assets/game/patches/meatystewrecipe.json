@@ -3120,7 +3120,8 @@
         },
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
     },
     "file": "recipes/cooking/meatystew.json"
   },
@@ -3455,7 +3456,8 @@
         }
       ],
       "minQuantity": 0,
-      "maxQuantity": 1
+        "maxQuantity": 1,
+        "portionSizeLitres": 1,
     },
     "file": "recipes/cooking/meatystew.json"
   },

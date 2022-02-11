@@ -1176,8 +1176,9 @@
 	 ]
         },
       ],
-      "minQuantity": 0,
-      "maxQuantity": 1
+        "minQuantity": 0,
+        "maxQuantity": 1,
+        "portionSizeLitres": 0.1,
     },
     "file": "recipes/cooking/vegetablestew.json"
   },

@@ -490,7 +490,8 @@
 				{ type: "item", code: "expandedfoods:fruitsyrupportion-saguaro",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "saguarosyrup"] }, 
 			],
 			minQuantity: 0,
-			maxQuantity: 1
+			maxQuantity: 1,
+			portionSizeLitres: 0.1,
 		},
 		{
 			code: "cheese-extra1", 

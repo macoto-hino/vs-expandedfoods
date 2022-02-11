@@ -34,19 +34,13 @@
 				"expandedfoods:breadcrumbs-sunflower": {saturation: 150, foodcategory: "Grain"},
 				},
 			"*-syruppartbaked": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			"*-syrupcooked": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			"*-syrupcharred": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-    				"expandedfoods:soysauce" : { saturation: 240, foodcategory: "Protein" },
+      				"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 				},
 			},
 		bakingPropertiesByType: {

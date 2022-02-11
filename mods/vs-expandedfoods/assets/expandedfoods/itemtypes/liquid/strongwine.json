@@ -14,7 +14,7 @@
 			ignoreCreativeInvStacks: true
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		nutritionPropsWhenInMeal: { satiety: 2.7, health: 0.005, foodcategory: "Fruit" },
+		nutritionPropsWhenInMeal: { satiety: 270, health: 0.5, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,

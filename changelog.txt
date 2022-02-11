@@ -30,7 +30,8 @@ Recipes updated for new fruit
 Potent wine changed to potent alcohol
 Liquids changed to match new standardization; redundant juices/wines removed; remapped old juice/wine to vanilla versions
 Liquid recipes updated to new amounts
-Mixed juice removed (for now?)
+Mixed juice removed (for now?) - DONE!!!
+Bottles updated (thanks to SpearAndFang) - DONE!!!
 Screw press removed, recipes moved to fruit press - DONE!!!
 Mixing bowl & saucepan now require specific liquid amounts
 Spile output adjusted to reflect new liquid amounts - DONE!!!

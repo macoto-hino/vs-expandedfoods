@@ -335,8 +335,14 @@ namespace ExpandedFoods
                 inventory[0].MarkDirty();
                 for (int i = 0; i < IngredSlots.Length; i++)
                 {
-                    IngredSlots[i].TakeOut(servings);
-                    IngredSlots[i].MarkDirty();
+                    if (IngredSlots[i].Itemstack != null)
+                    {
+                        if (IngredSlots[i].Itemstack.Collectible.IsLiquid())
+                        { IngredSlots[i].TakeOut(servings * 10); }
+                        else
+                        { IngredSlots[i].TakeOut(servings); }
+                        IngredSlots[i].MarkDirty();
+                    }
                 }
 
             }
