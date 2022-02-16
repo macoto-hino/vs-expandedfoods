@@ -17,7 +17,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 8,
+			itemsPerLitre: 100,
 			texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/syrup"] },
 			allowSpill: true,
 			whenSpilled: {
@@ -161,7 +161,7 @@
 		"*": { saturation: 180, health: 2, foodcategory: "Fruit" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	maxstacksize: 5000,
 	materialDensity: 200,
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },

@@ -36,6 +36,7 @@ Screw press removed, recipes moved to fruit press - DONE!!!
 Mixing bowl & saucepan now require specific liquid amounts
 Spile output adjusted to reflect new liquid amounts - DONE!!!
 Regular bread now has satMult applied to it - DONE!!!
+Spile gets soft resin from Acacia trees
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 

@@ -17,7 +17,7 @@
 		},
 		waterTightContainerProps: {
 			containable: true,
-			itemsPerLitre: 8,
+			itemsPerLitre: 100,
 	        texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/syrup"]},
 			allowSpill: true,
 			whenSpilled: {
@@ -143,7 +143,7 @@
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/syrup"]},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	maxstacksize: 5000,
 	materialDensity: 200,
 	nutritionPropsByType: {
 		"*-cloudberry": { saturation: 270, health: 2, foodcategory: "Fruit" },

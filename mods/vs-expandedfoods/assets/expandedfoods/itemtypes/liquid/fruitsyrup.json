@@ -22,15 +22,8 @@
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
-			textureByType: { 
-				"*-mix": {
-					base: "game:item/liquid/fruitmix",
-					overlays: ["game:item/liquid/syrup"],
-				},
-				"*": {
-					base: "game:item/liquid/{type}",
-					overlays: ["game:item/liquid/syrup"],
-				},
+			texturebytype: {
+				"*": { base: "game:block/food/pie/fill-{type}", overlays: ["game:item/liquid/syrup"] }
 			},
 			allowSpill: true,
 			whenSpilled: {
@@ -44,15 +37,8 @@
 		}
 	},
 	shape: { base: "game:item/liquid" },
-	textureByType: { 
-		"*-mix": {
-			base: "game:item/liquid/fruitmix",
-			overlays: ["game:item/liquid/syrup"],
-		},
-		"*": {
-			base: "game:item/liquid/{type}",
-			overlays: ["game:item/liquid/syrup"],
-		},
+	texturebytype: {
+		"*": { base: "game:block/food/pie/fill-{type}", overlays: ["game:item/liquid/syrup"] }
 	},
 	transitionableProps: [{
     		type: "Perish",

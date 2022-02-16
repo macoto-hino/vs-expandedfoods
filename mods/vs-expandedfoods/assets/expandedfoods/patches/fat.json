@@ -20,7 +20,7 @@
   {
     "op": "add",
     "path": "/combustibleProps/smeltedRatio",
-    "value": 1,
+    "value": 10,
     "file": "game:itemtypes/resource/fat.json"
   },
   {

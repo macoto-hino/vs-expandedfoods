@@ -14,7 +14,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -36,7 +36,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -58,7 +58,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -80,7 +80,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -102,7 +102,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -124,7 +124,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -146,7 +146,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -168,7 +168,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -190,7 +190,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -212,7 +212,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -234,7 +234,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -256,7 +256,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -278,7 +278,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -300,7 +300,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -322,7 +322,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -344,7 +344,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -366,7 +366,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -388,7 +388,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -410,7 +410,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -432,7 +432,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -454,7 +454,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -476,7 +476,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -498,7 +498,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -520,7 +520,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -542,7 +542,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -564,7 +564,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -586,7 +586,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,
@@ -608,7 +608,7 @@
 		attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 3,

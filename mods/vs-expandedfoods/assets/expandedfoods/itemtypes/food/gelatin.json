@@ -14,7 +14,7 @@
 		waterTightContainerPropsByType: {
 			"*-liquid": {
 				containable: true,
-				itemsPerLitre: 4,
+				itemsPerLitre: 100,
 				texture: { base: "game:item/gelatin/plain" },
 				allowSpill: true,
 				whenSpilled: {
@@ -110,7 +110,10 @@
 		"*-raspberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
-	maxstacksize: 16,
+	maxstacksizeByType: {
+		"*-liquid": 5000,
+		"*": 16, 
+	},
 	materialDensity: 200,
 	guiTransformByType: {
 		"*-liquid": {

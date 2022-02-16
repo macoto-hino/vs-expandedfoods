@@ -2,8 +2,8 @@
 	code: "wildyeast",
 	sealHours: 96,
 	ingredients: [
-		{ type: "item", code: "game:waterportion",  quantity: 1 },
+		{ type: "item", code: "game:waterportion",  litres: 1 },
 		{ type: "item", code: "expandedfoods:dryfruit-*", quantity: 6, name:"fruit", allowedVariants: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "pineapple"]}
 	],
-	output: { type: "item", code: "expandedfoods:yeastwaterportion", stackSize: 1 }
+	output: { type: "item", code: "expandedfoods:yeastwaterportion", litres: 1 }
 }

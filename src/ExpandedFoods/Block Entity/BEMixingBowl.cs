@@ -332,8 +332,17 @@ namespace ExpandedFoods
                 ((BlockCookedContainer)cooked).SetContents(recipe.Code, servings, mixedStack, IngredStacks);
 
                 inventory[0].TakeOut(1);
-                inventory[0].MarkDirty();
-                for (int i = 0; i < IngredSlots.Length; i++)
+				inventory[0].MarkDirty();
+                for (var i = 0; i < this.IngredSlots.Length; i++)
+                {
+                    //the recipe must be valid at this point, so can't we just take out everything? Like so
+                    if (this.IngredSlots[i].Itemstack != null)
+                    {
+                        this.IngredSlots[i].TakeOut(this.IngredSlots[i].Itemstack.StackSize);
+                        IngredSlots[i].MarkDirty();
+                    }
+                }
+				/*for (int i = 0; i < IngredSlots.Length; i++)
                 {
                     if (IngredSlots[i].Itemstack != null)
                     {
@@ -343,10 +352,10 @@ namespace ExpandedFoods
                         { IngredSlots[i].TakeOut(servings); }
                         IngredSlots[i].MarkDirty();
                     }
-                }
+                }*/
 
-            }
-            else if (drecipe != null)
+			}
+			else if (drecipe != null)
             {
                 mixedStack = drecipe.TryCraftNow(Api, IngredSlots);
             }

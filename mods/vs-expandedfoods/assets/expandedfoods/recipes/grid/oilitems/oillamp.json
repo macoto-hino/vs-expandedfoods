@@ -8,12 +8,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -29,12 +29,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-flax" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -50,12 +50,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -71,12 +71,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-rice" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -92,12 +92,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -113,12 +113,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-seed" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -134,12 +134,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -155,12 +155,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-soy" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -176,12 +176,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -197,12 +197,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-sunflower" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -218,12 +218,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -239,12 +239,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:foodoilportion-peanut" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -260,12 +260,12 @@
 			code: "game:woodbucket"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
@@ -281,12 +281,12 @@
 			code: "expandedfoods:bottle-*-burned"
 			},
 		"P": { type: "block", code: "game:peatbrick" },
-		"B": { type: "block", code: "game:bowl-burned" }
+		"B": { type: "block", code: "game:bowl-fired" }
 	},
 	attributes: {
 		liquidContainerProps: {
 			requiresContent: { type: "item", code: "expandedfoods:lard" },
-			requiresQuantity: 1
+			requiresLitres: 0.1
 		}
 	},
 	width: 1,
