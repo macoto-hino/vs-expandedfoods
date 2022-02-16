@@ -164,7 +164,7 @@ namespace ExpandedFoods
         }
     }
 
-    /*
+    
     [HarmonyPatch(typeof(BlockEntityDisplay))]
     class DisplayPatches
     {
@@ -176,16 +176,17 @@ namespace ExpandedFoods
 
         [HarmonyPrefix]
         [HarmonyPatch("genMesh")]
-        static bool displayFix(ItemStack stack, ref MeshData __result, BlockEntityDisplay __instance, ref Item ___nowTesselatingItem)
+        static bool displayFix(ItemStack stack, BlockEntityDisplay __instance, ref MeshData __result)
+        //static bool displayFix(ItemStack stack, ref MeshData __result, BlockEntityDisplay __instance, ref Item ___nowTesselatingItem)
         {
             if (!(stack.Collectible is ItemExpandedRawFood)) return true;
             string[] ings = (stack.Attributes?["madeWith"] as StringArrayAttribute)?.value;
             if (ings == null || ings.Length <= 0) return true;
 
-            ___nowTesselatingItem = stack.Item;
-            //___nowTesselatingShape = stack.Item;
+            //___nowTesselatingItem = stack.Item;
 
-            __result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, __instance, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
+            __result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, stack, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
+            //__result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, __instance, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
             if (__result != null) __result.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull); else return true;
 
 
@@ -202,7 +203,9 @@ namespace ExpandedFoods
             return false;
         }
     }
-    */
+
+
+
     [HarmonyPatch(typeof(BlockEntityCookedContainer))]
     class BECookedContainerPatches
     {

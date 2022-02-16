@@ -14,7 +14,7 @@ using Vintagestory.GameContent;
 
 namespace ExpandedFoods
 {
-    public class ItemExpandedRawFood : Item, IExpandedFood //, IContainedMeshSource, IContainedCustomName
+    public class ItemExpandedRawFood : Item, IExpandedFood
     {
         public float SatMult
         {
@@ -31,23 +31,27 @@ namespace ExpandedFoods
 
             foreach (ItemSlot slot in allInputslots)
             {
-                if (slot.Itemstack == null) continue;
+                if (slot.Itemstack == null)
+                    continue;
 
                 CraftingRecipeIngredient match = null;
-                if (byRecipe?.Ingredients != null) { foreach (var val in byRecipe.Ingredients) { if (val.Value.SatisfiesAsIngredient(slot.Itemstack)) { match = val.Value; break; } } }
+                if (byRecipe?.Ingredients != null)
+                { foreach (var val in byRecipe.Ingredients) { if (val.Value.SatisfiesAsIngredient(slot.Itemstack)) { match = val.Value; break; } } }
 
                 if (slot.Itemstack.Collectible is ItemExpandedRawFood)
                 {
                     string[] addIngs = (slot.Itemstack.Attributes["madeWith"] as StringArrayAttribute)?.value;
                     float[] addSat = (slot.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
 
-                    if (addSat != null && addSat.Length == 6) sat = sat.Zip(addSat, (x, y) => x + (y * match?.Quantity ?? 1)).ToArray();
+                    if (addSat != null && addSat.Length == 6)
+                        sat = sat.Zip(addSat, (x, y) => x + (y * match?.Quantity ?? 1)).ToArray();
 
                     if (addIngs != null && addIngs.Length > 0)
                     {
                         foreach (string aL in addIngs)
                         {
-                            if (ingredients.Contains(aL)) continue;
+                            if (ingredients.Contains(aL))
+                                continue;
 
                             ingredients.Add(aL);
                         }
@@ -57,7 +61,8 @@ namespace ExpandedFoods
                 {
                     GetNutrientsFromIngredient(ref sat, slot.Itemstack.Collectible, match?.Quantity ?? 1);
                     string aL = slot.Itemstack.Collectible.Code.Domain + ":" + slot.Itemstack.Collectible.Code.Path;
-                    if (ingredients.Contains(aL)) continue;
+                    if (ingredients.Contains(aL))
+                        continue;
 
                     ingredients.Add(aL);
                 }
@@ -81,13 +86,15 @@ namespace ExpandedFoods
                     string[] addIngs = (val.Key.Itemstack.Attributes["madeWith"] as StringArrayAttribute)?.value;
                     float[] addSat = (val.Key.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
 
-                    if (addSat != null && addSat.Length == 6) sat = sat.Zip(addSat, (x, y) => x + (y * val.Value.Quantity)).ToArray();
+                    if (addSat != null && addSat.Length == 6)
+                        sat = sat.Zip(addSat, (x, y) => x + (y * val.Value.Quantity)).ToArray();
 
                     if (addIngs != null && addIngs.Length > 0)
                     {
                         foreach (string aL in addIngs)
                         {
-                            if (ingredients.Contains(aL)) continue;
+                            if (ingredients.Contains(aL))
+                                continue;
 
                             ingredients.Add(aL);
                         }
@@ -98,7 +105,8 @@ namespace ExpandedFoods
                     GetNutrientsFromIngredient(ref sat, val.Key.Itemstack.Collectible, val.Value.Quantity);
 
                     string aL = val.Key.Itemstack.Collectible.Code.Domain + ":" + val.Key.Itemstack.Collectible.Code.Path;
-                    if (ingredients.Contains(aL)) continue;
+                    if (ingredients.Contains(aL))
+                        continue;
 
                     ingredients.Add(aL);
                 }
@@ -112,21 +120,28 @@ namespace ExpandedFoods
 
         public override bool CanSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemStack inputStack, ItemStack outputStack)
         {
-            if (inputStack.Collectible.CombustibleProps == null) return false;
-            if (outputStack == null) return true;
+            if (inputStack.Collectible.CombustibleProps == null)
+                return false;
+            if (outputStack == null)
+                return true;
 
-            if (!inputStack.Collectible.CombustibleProps.SmeltedStack.ResolvedItemstack.Equals(world, outputStack, GlobalConstants.IgnoredStackAttributes.Concat(new string[] { "madeWith", "expandedSats" }).ToArray())) return false;
-            if (outputStack.StackSize >= outputStack.Collectible.MaxStackSize) return false;
+            if (!inputStack.Collectible.CombustibleProps.SmeltedStack.ResolvedItemstack.Equals(world, outputStack, GlobalConstants.IgnoredStackAttributes.Concat(new string[] { "madeWith", "expandedSats" }).ToArray()))
+                return false;
+            if (outputStack.StackSize >= outputStack.Collectible.MaxStackSize)
+                return false;
 
-            if (outputStack.Attributes["madeWith"] == null || !inputStack.Attributes["madeWith"].Equals(world, outputStack.Attributes["madeWith"])) return false;
-            if (outputStack.Attributes["expandedSats"] == null || !inputStack.Attributes["expandedSats"].Equals(world, outputStack.Attributes["expandedSats"])) return false;
-            
+            if (outputStack.Attributes["madeWith"] == null || !inputStack.Attributes["madeWith"].Equals(world, outputStack.Attributes["madeWith"]))
+                return false;
+            if (outputStack.Attributes["expandedSats"] == null || !inputStack.Attributes["expandedSats"].Equals(world, outputStack.Attributes["expandedSats"]))
+                return false;
+
             return true;
         }
 
         public override void DoSmelt(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemSlot inputSlot, ItemSlot outputSlot)
         {
-            if (!CanSmelt(world, cookingSlotsProvider, inputSlot.Itemstack, outputSlot.Itemstack)) return;
+            if (!CanSmelt(world, cookingSlotsProvider, inputSlot.Itemstack, outputSlot.Itemstack))
+                return;
 
             ItemStack smeltedStack = inputSlot.Itemstack.Collectible.CombustibleProps.SmeltedStack.ResolvedItemstack.Clone();
 
@@ -148,8 +163,10 @@ namespace ExpandedFoods
             float[] satieties = (inputSlot.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
 
 
-            if (ingredients != null) smeltedStack.Attributes["madeWith"] = new StringArrayAttribute(ingredients);
-            if (satieties != null) smeltedStack.Attributes["expandedSats"] = new FloatArrayAttribute(satieties);
+            if (ingredients != null)
+                smeltedStack.Attributes["madeWith"] = new StringArrayAttribute(ingredients);
+            if (satieties != null)
+                smeltedStack.Attributes["expandedSats"] = new FloatArrayAttribute(satieties);
 
             if (outputSlot.Itemstack == null)
             {
@@ -184,9 +201,12 @@ namespace ExpandedFoods
             float[] xNutr = (slot.Itemstack.Attributes["expandedSats"] as FloatArrayAttribute)?.value;
 
             ItemStack org = base.OnTransitionNow(slot, props);
-            if (org == null || !(org.Collectible is ItemExpandedRawFood)) return org;
-            if (ings != null) org.Attributes["madeWith"] = new StringArrayAttribute(ings);
-            if (xNutr != null && xNutr.Length > 0) org.Attributes["expandedSats"] = new FloatArrayAttribute(xNutr);
+            if (org == null || !(org.Collectible is ItemExpandedRawFood))
+                return org;
+            if (ings != null)
+                org.Attributes["madeWith"] = new StringArrayAttribute(ings);
+            if (xNutr != null && xNutr.Length > 0)
+                org.Attributes["expandedSats"] = new FloatArrayAttribute(xNutr);
             return org;
         }
 
@@ -194,15 +214,22 @@ namespace ExpandedFoods
         {
             TreeAttribute check = Attributes?["expandedNutritionProps"].ToAttribute() as TreeAttribute;
             List<string> chk = new List<string>();
-            if (check != null) foreach (var val in check) chk.Add(val.Key);
+            if (check != null)
+                foreach (var val in check)
+                    chk.Add(val.Key);
 
             FoodNutritionProperties ingProps = null;
-            if (chk.Count > 0) ingProps = Attributes["expandedNutritionProps"][FindMatch(ing.Code.Domain + ":" + ing.Code.Path, chk.ToArray())].AsObject<FoodNutritionProperties>();
-            if (ingProps == null) ingProps = ing.Attributes?["nutritionPropsWhenInMeal"].AsObject<FoodNutritionProperties>();
-            if (ingProps == null) ingProps = ing.NutritionProps;
-            if (ingProps == null) return;
+            if (chk.Count > 0)
+                ingProps = Attributes["expandedNutritionProps"][FindMatch(ing.Code.Domain + ":" + ing.Code.Path, chk.ToArray())].AsObject<FoodNutritionProperties>();
+            if (ingProps == null)
+                ingProps = ing.Attributes?["nutritionPropsWhenInMeal"].AsObject<FoodNutritionProperties>();
+            if (ingProps == null)
+                ingProps = ing.NutritionProps;
+            if (ingProps == null)
+                return;
 
-            if (ingProps.Health != 0) satHolder[(int)EnumNutritionMatch.Hp] += ingProps.Health * mult;
+            if (ingProps.Health != 0)
+                satHolder[(int)EnumNutritionMatch.Hp] += ingProps.Health * mult;
 
             switch (ingProps.FoodCategory)
             {
@@ -245,7 +272,8 @@ namespace ExpandedFoods
                 AssetLocation obj = new AssetLocation(ings[i]);
                 Block block = world.GetBlock(obj);
                 string ingInfo = Lang.GetIfExists("recipeingredient-" + (block != null ? "block-" : "item-") + obj.Path);
-                if (ingInfo != null && !readable.Contains(ingInfo)) readable.Add(ingInfo);
+                if (ingInfo != null && !readable.Contains(ingInfo))
+                    readable.Add(ingInfo);
             }
 
             ings = readable.ToArray();
@@ -289,8 +317,10 @@ namespace ExpandedFoods
 
             string descLangCode = Code?.Domain + AssetLocation.LocationSeparator + ItemClass.ToString().ToLowerInvariant() + "desc-" + Code?.Path;
             string descText = Lang.GetMatching(descLangCode);
-            if (descText == descLangCode) descText = "";
-            else descText = descText + "\n";
+            if (descText == descLangCode)
+                descText = "";
+            else
+                descText = descText + "\n";
 
             dsc.Append((withDebugInfo ? "Id: " + Id + "\n" : ""));
             dsc.Append((withDebugInfo ? "Code: " + Code + "\n" : ""));
@@ -311,9 +341,11 @@ namespace ExpandedFoods
                 int i = 0;
                 foreach (var val in MiningSpeed)
                 {
-                    if (val.Value < 1.1) continue;
+                    if (val.Value < 1.1)
+                        continue;
 
-                    if (i > 0) dsc.Append(", ");
+                    if (i > 0)
+                        dsc.Append(", ");
                     dsc.Append(Lang.Get(val.Key.ToString()) + " " + val.Value.ToString("#.#") + "x");
                     i++;
                 }
@@ -432,7 +464,8 @@ namespace ExpandedFoods
                 }
             }
 
-            if (descText.Length > 0 && dsc.Length > 0) dsc.Append("\n");
+            if (descText.Length > 0 && dsc.Length > 0)
+                dsc.Append("\n");
             dsc.Append(descText);
 
             if (Attributes?["pigment"]?["color"].Exists == true)
@@ -465,7 +498,8 @@ namespace ExpandedFoods
         {
             RenderAlphaTest = 0.5f;
             string[] ings = (itemstack.Attributes?["madeWith"] as StringArrayAttribute)?.value;
-            if (ings == null || ings.Length <= 0) return;
+            if (ings == null || ings.Length <= 0)
+                return;
 
             Dictionary<string, MeshRef> meshrefs = ObjectCacheUtil.GetOrCreate(capi, "expandedFoodGuiMeshRefs", () =>
             {
@@ -477,34 +511,44 @@ namespace ExpandedFoods
             if (!meshrefs.TryGetValue(key, out meshref))
             {
                 MeshData mesh = GenMesh(capi, ings, new Vec3f(0, 0, 0));
-                if (mesh == null) return;
-                
+                if (mesh == null)
+                    return;
+
                 meshrefs[key] = meshref = capi.Render.UploadMesh(mesh);
             }
 
-            if (meshref != null) renderinfo.ModelRef = meshref;
+            if (meshref != null)
+                renderinfo.ModelRef = meshref;
         }
 
         public MeshData GenMesh(ICoreClientAPI capi, string[] ings, Vec3f rot = null, ITesselatorAPI tesselator = null)
         {
-            if (tesselator == null) tesselator = capi.Tesselator;
+            if (tesselator == null)
+                tesselator = capi.Tesselator;
 
             List<AssetLocation> addShapes = new List<AssetLocation>();
 
             TreeAttribute check = Attributes?["renderIngredients"].ToAttribute() as TreeAttribute;
             List<string> chk = new List<string>();
-            if (check != null) foreach (var val in check) chk.Add(val.Key); else return null;
+            if (check != null)
+                foreach (var val in check)
+                    chk.Add(val.Key);
+            else
+                return null;
 
             for (int i = 0; i < ings.Length; i++)
             {
                 string path = null;
                 path = Attributes?["renderIngredients"]?[FindMatch(ings[i], chk.ToArray())]?.AsString();
-                if (path == null) continue;
+                if (path == null)
+                    continue;
                 AssetLocation shape = new AssetLocation(path);
-                if (shape != null) addShapes.Add(shape);
+                if (shape != null)
+                    addShapes.Add(shape);
             }
 
-            if (addShapes.Count <= 0) return null;
+            if (addShapes.Count <= 0)
+                return null;
 
             MeshData mesh = null;
 
@@ -514,14 +558,16 @@ namespace ExpandedFoods
                 {
                     MeshData addIng;
                     Shape addShape;
-                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null) continue;
+                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
+                        continue;
                     tesselator.TesselateShape(this, addShape, out addIng, rot);
                     mesh.AddMeshData(addIng);
                 }
                 else
                 {
                     Shape addShape;
-                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null) continue;
+                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
+                        continue;
                     tesselator.TesselateShape(this, addShape, out mesh, rot);
                 }
             }
@@ -529,29 +575,57 @@ namespace ExpandedFoods
             return mesh;
         }
 
-        public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ITexPositionSource tex, Vec3f rot = null, ITesselatorAPI tesselator = null)
+        public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ItemStack stack, Vec3f rot = null, ITesselatorAPI tesselator = null)
+        //public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ITexPositionSource tex, Vec3f rot = null, ITesselatorAPI tesselator = null)
         {
-            if (tesselator == null) tesselator = capi.Tesselator;
+            if (tesselator == null)
+                tesselator = capi.Tesselator;
 
             List<AssetLocation> addShapes = new List<AssetLocation>();
 
             TreeAttribute check = Attributes?["renderIngredients"].ToAttribute() as TreeAttribute;
             List<string> chk = new List<string>();
-            if (check != null) foreach (var val in check) chk.Add(val.Key); else return null;
+            if (check != null)
+                foreach (var val in check)
+                    chk.Add(val.Key);
+            else
+                return null;
 
             for (int i = 0; i < ings.Length; i++)
             {
                 string path = null;
                 path = Attributes?["renderIngredients"]?[FindMatch(ings[i], chk.ToArray())]?.AsString();
-                if (path == null) continue;
+                if (path == null)
+                    continue;
                 AssetLocation shape = new AssetLocation(path);
-                if (shape != null) addShapes.Add(shape);
+                if (shape != null)
+                    addShapes.Add(shape);
             }
 
-            if (addShapes.Count <= 0) return new MeshData();
+            if (addShapes.Count <= 0)
+                return new MeshData();
 
             MeshData mesh = null;
+            MeshData addIng;
 
+            for (int i = 0; i < addShapes.Count; i++)
+            {
+                Shape addShape;
+                if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
+                    continue;
+
+                var tt = addShape.Textures.Keys.First();
+                CompositeTexture tex2;
+                stack.Item.Textures.TryGetValue(tt, out tex2);
+                var contentSource = new EFTextureSource(capi, stack, tex2);
+
+                tesselator.TesselateShape("expandedfood", addShape, out addIng, contentSource, rot);
+                if (mesh == null)
+                    mesh = addIng;
+                else
+                    mesh.AddMeshData(addIng);
+            }
+            /*
             for (int i = 0; i < addShapes.Count; i++)
             {
                 if (mesh != null)
@@ -569,35 +643,46 @@ namespace ExpandedFoods
                     tesselator.TesselateShape("expandedfood", addShape, out mesh, tex, rot);
                 }
             }
+            */
 
-            if (mesh == null) return null;
+            if (mesh == null)
+                return null;
             return mesh;
         }
 
         public FoodNutritionProperties[] GetPropsFromArray(float[] satieties)
         {
-            if (satieties == null || satieties.Length < 6) return null;
+            if (satieties == null || satieties.Length < 6)
+                return null;
 
             List<FoodNutritionProperties> props = new List<FoodNutritionProperties>();
 
-            if (satieties[(int)EnumNutritionMatch.Fruit] != 0) props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Fruit, Satiety = satieties[(int)EnumNutritionMatch.Fruit] * SatMult });
-            if (satieties[(int)EnumNutritionMatch.Grain] != 0) props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Grain, Satiety = satieties[(int)EnumNutritionMatch.Grain] * SatMult });
-            if (satieties[(int)EnumNutritionMatch.Vegetable] != 0) props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Vegetable, Satiety = satieties[(int)EnumNutritionMatch.Vegetable] * SatMult });
-            if (satieties[(int)EnumNutritionMatch.Protein] != 0) props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Protein, Satiety = satieties[(int)EnumNutritionMatch.Protein] * SatMult });
-            if (satieties[(int)EnumNutritionMatch.Dairy] != 0) props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Dairy, Satiety = satieties[(int)EnumNutritionMatch.Dairy] * SatMult });
+            if (satieties[(int)EnumNutritionMatch.Fruit] != 0)
+                props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Fruit, Satiety = satieties[(int)EnumNutritionMatch.Fruit] * SatMult });
+            if (satieties[(int)EnumNutritionMatch.Grain] != 0)
+                props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Grain, Satiety = satieties[(int)EnumNutritionMatch.Grain] * SatMult });
+            if (satieties[(int)EnumNutritionMatch.Vegetable] != 0)
+                props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Vegetable, Satiety = satieties[(int)EnumNutritionMatch.Vegetable] * SatMult });
+            if (satieties[(int)EnumNutritionMatch.Protein] != 0)
+                props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Protein, Satiety = satieties[(int)EnumNutritionMatch.Protein] * SatMult });
+            if (satieties[(int)EnumNutritionMatch.Dairy] != 0)
+                props.Add(new FoodNutritionProperties() { FoodCategory = EnumFoodCategory.Dairy, Satiety = satieties[(int)EnumNutritionMatch.Dairy] * SatMult });
 
-            if (satieties[0] != 0 && props.Count > 0) props[0].Health = satieties[0] * SatMult;
+            if (satieties[0] != 0 && props.Count > 0)
+                props[0].Health = satieties[0] * SatMult;
 
             return props.ToArray();
         }
 
         public string FindMatch(string needle, string[] haystack)
         {
-            if (needle == null || haystack == null || haystack.Length <= 0) return "";
+            if (needle == null || haystack == null || haystack.Length <= 0)
+                return "";
 
             foreach (string hay in haystack)
-            { 
-                if (hay == needle || WildcardUtil.Match(hay, needle)) return hay;
+            {
+                if (hay == needle || WildcardUtil.Match(hay, needle))
+                    return hay;
             }
 
             return "";
@@ -625,10 +710,12 @@ namespace ExpandedFoods
 
             foreach (var blockStack in allStacks)
             {
-                if (blockStack.Block == null) continue;
+                if (blockStack.Block == null)
+                    continue;
 
                 BlockDropItemStack[] droppedStacks = blockStack.Block.GetDropsForHandbook(blockStack, capi.World.Player);
-                if (droppedStacks == null) continue;
+                if (droppedStacks == null)
+                    continue;
 
                 for (int i = 0; i < droppedStacks.Length; i++)
                 {
@@ -668,7 +755,8 @@ namespace ExpandedFoods
                         {
                             ItemStack dstack = dropsStacks[0];
                             dropsStacks.RemoveAt(0);
-                            if (dstack == null) continue;
+                            if (dstack == null)
+                                continue;
 
                             SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, dropsStacks, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                             components.Add(comp);
@@ -688,7 +776,8 @@ namespace ExpandedFoods
 
             foreach (var val in capi.World.EntityTypes)
             {
-                if (val.Drops == null) continue;
+                if (val.Drops == null)
+                    continue;
 
                 for (int i = 0; i < val.Drops.Length; i++)
                 {
@@ -719,7 +808,8 @@ namespace ExpandedFoods
                 {
                     ItemStack dstack = breakBlocks[0];
                     breakBlocks.RemoveAt(0);
-                    if (dstack == null) continue;
+                    if (dstack == null)
+                        continue;
 
                     SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, breakBlocks, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                     components.Add(comp);
@@ -904,7 +994,8 @@ namespace ExpandedFoods
                 if (val.Output.ResolvedItemstack.Equals(capi.World, stack, GlobalConstants.IgnoredStackAttributes))
                 {
                     List<MetalAlloyIngredient> ingreds = new List<MetalAlloyIngredient>();
-                    foreach (var ing in val.Ingredients) ingreds.Add(ing);
+                    foreach (var ing in val.Ingredients)
+                        ingreds.Add(ing);
                     alloyableFrom[val.Output.ResolvedItemstack.Collectible.Code] = ingreds.ToArray();
                 }
             }
@@ -958,7 +1049,8 @@ namespace ExpandedFoods
                             {
                                 CraftingRecipeIngredient inIngred = recval.GetElementInGrid(y, x, recval.resolvedIngredients, recval.Width);
                                 ItemStack ingredStack = inIngred?.ResolvedItemstack?.Clone();
-                                if (inIngred == val) ingredStack = maxstack;
+                                if (inIngred == val)
+                                    ingredStack = maxstack;
 
                                 inSlots[y * recval.Width + x] = new DummySlot(ingredStack);
                             }
@@ -990,7 +1082,8 @@ namespace ExpandedFoods
                             {
                                 CraftingRecipeIngredient inIngred = recval.GetElementInGrid(y, x, recval.resolvedIngredients, recval.Width);
                                 ItemStack ingredStack = inIngred?.ResolvedItemstack?.Clone();
-                                if (inIngred == val) ingredStack = maxstack;
+                                if (inIngred == val)
+                                    ingredStack = maxstack;
 
                                 inSlots[y * recval.Width + x] = new DummySlot(ingredStack);
                             }
@@ -1053,7 +1146,8 @@ namespace ExpandedFoods
                 {
                     ItemStack dstack = recipestacks[0];
                     recipestacks.RemoveAt(0);
-                    if (dstack == null) continue;
+                    if (dstack == null)
+                        continue;
 
                     SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, recipestacks, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                     components.Add(comp);
@@ -1285,7 +1379,8 @@ namespace ExpandedFoods
                     {
                         ItemStack dstack = grindables[0];
                         grindables.RemoveAt(0);
-                        if (dstack == null) continue;
+                        if (dstack == null)
+                            continue;
 
                         SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, grindables, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                         components.Add(comp);
@@ -1302,7 +1397,8 @@ namespace ExpandedFoods
                     {
                         ItemStack dstack = crushables[0];
                         crushables.RemoveAt(0);
-                        if (dstack == null) continue;
+                        if (dstack == null)
+                            continue;
 
                         SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, crushables, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                         components.Add(comp);
@@ -1320,7 +1416,8 @@ namespace ExpandedFoods
                     {
                         ItemStack dstack = curables[0];
                         curables.RemoveAt(0);
-                        if (dstack == null) continue;
+                        if (dstack == null)
+                            continue;
 
                         SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, curables, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                         components.Add(comp);
@@ -1337,7 +1434,8 @@ namespace ExpandedFoods
                     {
                         ItemStack dstack = ripenables[0];
                         ripenables.RemoveAt(0);
-                        if (dstack == null) continue;
+                        if (dstack == null)
+                            continue;
 
                         SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, ripenables, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                         components.Add(comp);
@@ -1355,7 +1453,8 @@ namespace ExpandedFoods
                     {
                         ItemStack dstack = bakables[0];
                         bakables.RemoveAt(0);
-                        if (dstack == null) continue;
+                        if (dstack == null)
+                            continue;
 
                         SlideshowItemstackTextComponent comp = new SlideshowItemstackTextComponent(capi, dstack, bakables, 40, EnumFloat.Inline, (cs) => openDetailPageFor(GuiHandbookItemStackPage.PageCodeForStack(cs)));
                         components.Add(comp);
@@ -1367,7 +1466,7 @@ namespace ExpandedFoods
 
                 if (grecipes.Count > 0)
                 {
-                    
+
                     // COMMENT THIS LINE OUT ONLY if (knappable) - whats this for? o.O 
                     components.Add(new RichTextComponent(capi, "• " + Lang.Get("Crafting") + "\n", CairoFont.WhiteSmallText()));
 
@@ -1415,7 +1514,7 @@ namespace ExpandedFoods
             return components.ToArray();
         }
 
-        
+
         class ExtraSection { public string Title = null; public string Text = null; }
 
         public override TransitionState[] UpdateAndGetTransitionStates(IWorldAccessor world, ItemSlot inslot)
@@ -1486,7 +1585,8 @@ namespace ExpandedFoods
             for (int i = 0; i < propsm.Length; i++)
             {
                 TransitionableProperties prop = propsm[i];
-                if (prop == null || i >= freshHours.Length) continue;
+                if (prop == null || i >= freshHours.Length)
+                    continue;
 
                 float transitionRateMul = GetTransitionRateMul(world, inslot, prop.Type);
 
@@ -1513,7 +1613,8 @@ namespace ExpandedFoods
                     }
                     else
                     {
-                        if (nowSpoiling) continue;
+                        if (nowSpoiling)
+                            continue;
                     }
                 }
 
@@ -1562,12 +1663,15 @@ namespace ExpandedFoods
         {
             TransitionState[] states = UpdateAndGetTransitionStates(world, inslot);
             TransitionableProperties[] propsm = GetTransitionableProperties(world, inslot.Itemstack, null);
-            if (propsm == null) return null;
+            if (propsm == null)
+                return null;
 
             for (int i = 0; i < propsm.Length; i++)
             {
-                if (i >= states.Length) break;
-                if (propsm[i].Type == type) return states[i];
+                if (i >= states.Length)
+                    break;
+                if (propsm[i].Type == type)
+                    return states[i];
             }
 
             return null;
@@ -1588,5 +1692,67 @@ namespace ExpandedFoods
         Vegetable,
         Protein,
         Dairy
+    }
+
+
+
+    /*************************************************************************************************************/
+    public class EFTextureSource : ITexPositionSource
+    {
+        public ItemStack forContents;
+        private readonly ICoreClientAPI capi;
+        private TextureAtlasPosition contentTextPos;
+        private readonly TextureAtlasPosition blockTextPos;
+        private readonly TextureAtlasPosition corkTextPos;
+        private readonly CompositeTexture contentTexture;
+
+        public EFTextureSource(ICoreClientAPI capi, ItemStack forContents, CompositeTexture contentTexture)
+        {
+            this.capi = capi;
+            this.forContents = forContents;
+            this.contentTexture = contentTexture;
+        }
+
+
+        ITextureAtlasAPI curAtlas;
+        Shape nowTesselatingShape;
+
+        public Size2i AtlasSize => this.capi.BlockTextureAtlas.Size;
+        public virtual TextureAtlasPosition this[string textureCode]
+        {
+            get
+            {
+                AssetLocation texturePath = null;
+                CompositeTexture tex;
+
+                if (this.contentTextPos == null)
+                {
+                    int textureSubId;
+                    textureSubId = ObjectCacheUtil.GetOrCreate<int>(this.capi, "efcontenttexture-" + this.contentTexture.ToString(), () =>
+                    {
+                        var id = 0;
+                        var bmp = this.capi.Assets.TryGet(this.contentTexture.Base.Clone().WithPathPrefixOnce("textures/").WithPathAppendixOnce(".png"))?.ToBitmap(this.capi);
+
+                        if (bmp != null)
+                        {
+                            //if (contentTexture.Alpha != 255)
+                            //{ bmp.MulAlpha(contentTexture.Alpha); }
+
+                            // for now, a try catch will have to suffice - barf
+                            try
+                            {
+                                this.capi.BlockTextureAtlas.InsertTexture(bmp, out id, out var texPos);
+                            }
+                            catch
+                            { }
+                            bmp.Dispose();
+                        }
+                        return id;
+                    });
+                    this.contentTextPos = this.capi.BlockTextureAtlas.Positions[textureSubId];
+                }
+                return this.contentTextPos;
+            }
+        }
     }
 }
