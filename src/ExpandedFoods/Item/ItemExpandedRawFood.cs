@@ -575,6 +575,66 @@ namespace ExpandedFoods
             return mesh;
         }
 
+        /*
+        public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ITexPositionSource tex, Vec3f rot = null, ITesselatorAPI tesselator = null)
+        {
+            if (tesselator == null)
+                tesselator = capi.Tesselator;
+
+            List<AssetLocation> addShapes = new List<AssetLocation>();
+
+            TreeAttribute check = Attributes?["renderIngredients"].ToAttribute() as TreeAttribute;
+            List<string> chk = new List<string>();
+            if (check != null)
+                foreach (var val in check)
+                    chk.Add(val.Key);
+            else
+                return null;
+
+            for (int i = 0; i < ings.Length; i++)
+            {
+                string path = null;
+                path = Attributes?["renderIngredients"]?[FindMatch(ings[i], chk.ToArray())]?.AsString();
+                if (path == null)
+                    continue;
+                AssetLocation shape = new AssetLocation(path);
+                if (shape != null)
+                    addShapes.Add(shape);
+            }
+
+            if (addShapes.Count <= 0)
+                return new MeshData();
+
+            MeshData mesh = null;
+
+            for (int i = 0; i < addShapes.Count; i++)
+            {
+                if (mesh != null)
+                {
+                    MeshData addIng;
+                    Shape addShape;
+                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
+                        continue;
+                    tesselator.TesselateShape("expandedfood", addShape, out addIng, tex, rot);
+                    mesh.AddMeshData(addIng);
+                }
+                else
+                {
+                    Shape addShape;
+                    if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
+                        continue;
+                    tesselator.TesselateShape("expandedfood", addShape, out mesh, tex, rot);
+                }
+            }
+
+            if (mesh == null)
+                return null;
+            return mesh;
+        }
+
+        */
+
+
         public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ItemStack stack, Vec3f rot = null, ITesselatorAPI tesselator = null)
         //public MeshData GenMesh(ICoreClientAPI capi, string[] ings, ITexPositionSource tex, Vec3f rot = null, ITesselatorAPI tesselator = null)
         {
@@ -614,17 +674,20 @@ namespace ExpandedFoods
                 if (!addShapes[i].Valid || (addShape = capi.Assets.TryGet(addShapes[i]).ToObject<Shape>()) == null)
                     continue;
 
-                var tt = addShape.Textures.Keys.First();
-                CompositeTexture tex2;
-                stack.Item.Textures.TryGetValue(tt, out tex2);
-                var contentSource = new EFTextureSource(capi, stack, tex2);
-
-                tesselator.TesselateShape("expandedfood", addShape, out addIng, contentSource, rot);
-                if (mesh == null)
-                    mesh = addIng;
-                else
-                    mesh.AddMeshData(addIng);
+                if (addShape.Textures != null)
+                {
+                    var tt = addShape.Textures.Keys.First();
+                    CompositeTexture tex2;
+                    stack.Item.Textures.TryGetValue(tt, out tex2);
+                    var contentSource = new EFTextureSource(capi, stack, tex2);
+                    tesselator.TesselateShape("expandedfood", addShape, out addIng, contentSource, rot);
+                    if (mesh == null)
+                        mesh = addIng;
+                    else
+                        mesh.AddMeshData(addIng);
+                }
             }
+
             /*
             for (int i = 0; i < addShapes.Count; i++)
             {

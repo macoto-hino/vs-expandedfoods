@@ -102,6 +102,160 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:dryfruit-redapple",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-redapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-yellowapple",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-yellowapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pinkapple",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pinkapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-cherry",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-cherry"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-peach",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-peach"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pear",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pear"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-orange",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-orange"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-mango",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-mango"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-breadfruit",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-breadfruit"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-lychee",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-lychee"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pomegranate",
+      "shapeElement": "bowl/fruit 1/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pomegranate"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:wilddryfruit-elderberry",
       "shapeElement": "bowl/fruit 1/*",
       "textureMapping": [
@@ -341,6 +495,160 @@
       "textureMapping": [
         "fruit",
         "group7"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-redapple",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-redapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-yellowapple",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-yellowapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pinkapple",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pinkapple"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-cherry",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-cherry"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-peach",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-peach"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pear",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pear"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-orange",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-orange"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-mango",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-mango"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-breadfruit",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-breadfruit"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-lychee",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-lychee"
+      ]
+    },
+    "file": "recipes/cooking/porridge.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:dryfruit-pomegranate",
+      "shapeElement": "bowl/fruit 2/*",
+      "textureMapping": [
+        "fruit",
+        "fruit-pomegranate"
       ]
     },
     "file": "recipes/cooking/porridge.json"

@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -189,7 +189,7 @@ namespace ExpandedFoods
             //__result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, __instance, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
             if (__result != null) __result.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull); else return true;
 
-
+             
             if (stack.Collectible.Attributes?[__instance.AttributeTransformCode].Exists == true)
             {
                 ModelTransform transform = stack.Collectible.Attributes?[__instance.AttributeTransformCode].AsObject<ModelTransform>();
@@ -383,7 +383,6 @@ namespace ExpandedFoods
                 props.Satiety *= satLossMul * nutritionMul * mul;
                 props.Health *= healthLoss * healthMul * mul;
 
-                foodProps.Add(props);
 
                 if (obj is ItemExpandedRawFood && (contentStacks[i].Attributes["expandedSats"] as FloatArrayAttribute)?.value?.Length == 6)
                 {
@@ -398,6 +397,10 @@ namespace ExpandedFoods
 
                         foodProps.Add(exProp);
                     }
+                }
+                else
+                {
+                    foodProps.Add(props);
                 }
             }
 

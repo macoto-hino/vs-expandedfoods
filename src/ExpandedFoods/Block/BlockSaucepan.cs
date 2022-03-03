@@ -12,7 +12,7 @@ using Vintagestory.API.Datastructures;
 
 namespace ExpandedFoods
 {
-    public class BlockSaucepan : BlockLiquidContainerBase, ILiquidSource, ILiquidSink
+    public class BlockSaucepan : BlockLiquidContainerBase, ILiquidSource, ILiquidSink, IInFirepitRendererSupplier
     {
         public override bool CanDrinkFrom => true;
         public override bool IsTopOpened => true;
@@ -37,7 +37,15 @@ namespace ExpandedFoods
                 }
             }
         }
+        public IInFirepitRenderer GetRendererWhenInFirepit(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
+            {
+                return new SaucepanInFirepitRenderer(api as ICoreClientAPI, stack, firepit.Pos, forOutputSlot);
+            }
 
+        public EnumFirepitModel GetDesiredFirepitModel(ItemStack stack, BlockEntityFirepit firepit, bool forOutputSlot)
+            {
+                return EnumFirepitModel.Wide;
+            }
         public override WorldInteraction[] GetPlacedBlockInteractionHelp(IWorldAccessor world, BlockSelection selection, IPlayer forPlayer)
         {
             List<ItemStack> liquidContainerStacks = new List<ItemStack>();
@@ -846,6 +854,8 @@ namespace ExpandedFoods
             return drop;
         }
     }
+
+
 
     public class SimmerRecipe
     {

@@ -947,7 +947,7 @@
     "op": "add",
     "path": "/texturesByType/*/blueberrywine",
     "value": {
-      "base": "item/liquid/blueberrywine"
+      "base": "game:block/food/pie/fill-blueberry"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -955,7 +955,7 @@
     "op": "add",
     "path": "/texturesByType/*/cranberrywine",
     "value": {
-      "base": "item/liquid/cranberrywine"
+      "base": "game:block/food/pie/fill-cranberry"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -963,7 +963,7 @@
     "op": "add",
     "path": "/texturesByType/*/redcurrantwine",
     "value": {
-      "base": "item/liquid/redcurrantwine"
+      "base": "game:block/food/pie/fill-redcurrant"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -971,7 +971,7 @@
     "op": "add",
     "path": "/texturesByType/*/whitecurrantwine",
     "value": {
-      "base": "item/liquid/whitecurrantwine"
+      "base": "game:block/food/pie/fill-whitecurrant"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -979,15 +979,87 @@
     "op": "add",
     "path": "/texturesByType/*/pineapplewine",
     "value": {
-      "base": "item/liquid/pineapplewine"
+      "base": "game:block/food/pie/fill-pineapple"
     },
     "file": "blocktypes/clay/pot.json"
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/mixwine",
+    "path": "/texturesByType/*/saguarowine",
     "value": {
-      "base": "item/liquid/mixwine"
+      "base": "game:block/food/pie/fill-saguaro"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/applewine",
+    "value": {
+      "base": "game:block/food/pie/fill-apple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cherrywine",
+    "value": {
+      "base": "game:block/food/pie/fill-cherry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/peachwine",
+    "value": {
+      "base": "game:block/food/pie/fill-peach"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pearwine",
+    "value": {
+      "base": "game:block/food/pie/fill-pear"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/orangewine",
+    "value": {
+      "base": "game:block/food/pie/fill-orange"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/mangowine",
+    "value": {
+      "base": "game:block/food/pie/fill-mango"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breadfruitwine",
+    "value": {
+      "base": "game:block/food/pie/fill-breadfruit"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lycheewine",
+    "value": {
+      "base": "game:block/food/pie/fill-lychee"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pomegranatewine",
+    "value": {
+      "base": "game:block/food/pie/fill-pomegranate"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -995,7 +1067,7 @@
     "op": "add",
     "path": "/texturesByType/*/saguarosyrup",
     "value": {
-      "base": "item/liquid/saguaro"
+      "base": "game:block/food/pie/fill-saguaro"
     },
     "file": "blocktypes/clay/pot.json"
   },

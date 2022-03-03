@@ -3,7 +3,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-blueberry", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-blueberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -11,7 +11,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-cranberry", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-cranberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -19,7 +19,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-blackcurrant", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-redcurrant", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -27,7 +27,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-redcurrant", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-whitecurrant", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -35,7 +35,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-whitecurrant", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-blackcurrant", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -43,7 +43,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-pineapple", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-saguaro", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -51,7 +51,79 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:fruitwineportion-mix", litres: 0.1 },
+    { type: "item", code: "game:ciderportion-pineapple", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-apple", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-cherry", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-peach", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-pear", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-orange", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-mango", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-breadfruit", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-lychee", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "game:ciderportion-pomegranate", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -107,7 +179,79 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:strongwineportion-mix", litres: 0.1 },
+    { type: "item", code: "expandedfoods:strongwineportion-saguaro", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-apple", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-cherry", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-peach", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-pear", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-orange", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-mango", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-breadfruit", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-lychee", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:strongwineportion-pomegranate", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -163,7 +307,79 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:potentwineportion-mix", litres: 0.1 },
+    { type: "item", code: "expandedfoods:potentwineportion-saguaro", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-apple", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-cherry", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-peach", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-pear", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-orange", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-mango", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-breadfruit", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-lychee", litres: 0.1 },
+  ],
+  output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
+ },
+ {
+  code: "winevinegar",
+  sealHours: 336,
+  ingredients: [
+    { type: "item", code: "expandedfoods:potentwineportion-pomegranate", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  }

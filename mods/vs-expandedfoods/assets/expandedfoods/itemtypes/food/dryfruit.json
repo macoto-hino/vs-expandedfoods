@@ -2,7 +2,7 @@
 	code: "dryfruit",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "saguaro", "pineapple"] },
+		{ "code": "fruit",  loadFromProperties: "block/fruit" }
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {
@@ -21,33 +21,120 @@
 			levelTo: 1.0,
 			startScaleY: 0.8,
 			endScaleY: 0.8,
-			initialCode: "game:fruit-{type}",
+			initialCode: "game:fruit-{fruit}",
 		},
-    		inPieProperties: { texture: "game:block/food/pie/fill-{type}", partType: 'Filling' },
+		inPiePropertiesByType: {
+			"*-pinkapple": { texture: "game:block/food/pie/fill-apple", partType: 'Filling' },
+			"*-redapple": { texture: "game:block/food/pie/fill-apple", partType: 'Filling' },
+			"*-yellowapple": { texture: "game:block/food/pie/fill-apple", partType: 'Filling' },
+			"*": { texture: "game:block/food/pie/fill-{fruit}", partType: 'Filling' },
+		},
 		onDisplayTransformByType: {
-			"*-pineapple": { 
-				translation: { x: 0.0, y: -0.25, z: 0.1 },
-				scale: 0.5 
+			"@*-(redcurrant|whitecurrant|blackcurrant|blueberry|cranberry)": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.1,
+				"z": 0.05
+				},
+				"scale": 0.8
 			},
-			"*": { 
-				translation: { x: 0.0, y: 0.0, z: 0.05 },
-				rotation: { x: 0, y: 0, z: 90 },
-				scale: 0.8 
+			"*-breadfruit": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.1,
+				"z": -0.05
+				},
+				"rotation": {
+				"x": 0,
+				"y": 45,
+				"z": 0
+				},
+				"scale": 0.8
+			},
+			"*-saguaro": {
+				"translation": {
+				"x": 0,
+				"y": -0.15,
+				"z": 0
+				},
+				"scale": 0.7
+			},
+			"*-pomegranate": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.15,
+				"z": 0.05
+				},
+				"rotation": {
+				"x": 0,
+				"y": -45,
+				"z": 0
+				},
+				"scale": 0.7
+			},
+			"*-lychee": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.175,
+				"z": 0.0
+				},
+				"scale": 0.65
+			},
+			"*-mango": {
+				"rotation": {
+				"x": 0,
+				"y": 45,
+				"z": 0
+				},
+				"translation": {
+				"x": 0.0,
+				"y": -0.11,
+				"z": 0.0
+				},
+				"scale": 0.8
+			},
+			"*-pineapple": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.15,
+				"z": 0.0
+				},
+				"scale": 0.7
+			},
+			"*-cherry": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.1,
+				"z": 0.05
+				},
+				"rotation": {
+				"x": 0,
+				"y": 45,
+				"z": 0
+				},
+				"scale": 0.8
+			},
+			"*": {
+				"translation": {
+				"x": 0.0,
+				"y": -0.1,
+				"z": 0.05
+				},
+				"scale": 0.8
 			},
 		},
-		inContainerTexture: { base: "game:block/barrel/{type}fruit" },
-	},
-	texturesByType: {
-		"*-pineapple": { "pineapple":  { base: "item/food/dryfruit/pineapple"} },
-		"*": { all:  { base: "item/food/dryfruit/{type}"} },
+		inContainerTexture: { base: "game:block/barrel/{fruit}fruit" },
 	},
 	shapebytype: { 
-		"*-pineapple": { base: "game:item/food/fruit/pineapple-slice" }
+		"*": { base: "item/food/dryfruit/{fruit}" }
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-saguaro": { satiety: 50, health: 1, foodcategory: "Fruit" },
 		"*-cranberry": { satiety: 50, foodcategory: "Fruit" },
+		"*-cherry": { satiety: 35, foodcategory: "Fruit" },
+		"*-lychee": { satiety: 35, foodcategory: "Fruit" },
+		"*-breadfruit": { satiety: 105, foodcategory: "Fruit" },
 		"*": { satiety: 70, foodcategory: "Fruit" }
 	},
 	transitionablePropsByType: {
@@ -67,35 +154,233 @@
 		}]
 	},
 	guiTransformByType: {
+		"*-pomegranate": {
+			translation: { x: 3, y: 3, z: 0 },
+			rotation: { x: 180, y: -86, z: 36 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
+		"*-lychee": {
+			translation: { x: 3, y: 3, z: 0 },
+			rotation: { x: 151, y: 31, z: -14 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.8
+		},
+		"*-breadfruit": {
+			translation: { x: 4, y: 3, z: 0 },
+			rotation: { x: 172, y: -63, z: 33 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.6
+		},
 		"*-pineapple": {
 			translation: { x: 2, y: 3, z: 0 },
 			rotation: { x: 127, y: 180, z: 23 },
 			origin: { x: 0.55, y: 0.05, z: 0.5 },
-			scale: 1.54
+			scale: 2.04
+		},
+		"*-blueberry": {
+			rotation: { x: -56, y: 17, z: 26 },
+			origin: { x: 0.55, y: 0.0, z: 0.58 },
+			scale: 2.6
+		},
+		"@*-(redcurrant|whitecurrant|blackcurrant)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 83, y: -103, z: -55 },
+			origin: { x: 0.53, y: 0.17, z: 0.53 },
+			scale: 2.6
+		},
+		"*-cranberry": {
+			rotation: { x: 67, y: -106, z: -59 },
+			origin: { x: 0.5299, y: 0.02, z: 0.5299 },
+			scale: 2.6
+		},
+		"*-saguaro": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -59, y: -112, z: 180 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 2.2
+		},
+		"@*(-redapple|-yellowapple|-pinkapple|-cherry|-orange|-mango)": {
+			translation: { x: 0, y: 3, z: 0 },
+			rotation: { x: 171, y: -63, z: 33 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.6
+		},
+		"*-mango": {
+			translation: { x: 3, y: 3, z: 0 },
+			rotation: { x: 171, y: -63, z: 33 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.5
+		},
+		"*-cherry": {
+			translation: { x: 2, y: 6, z: 0 },
+			rotation: { x: 159, y: -2, z: 28 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.6
+		},
+		"*-peach": {
+			translation: { x: 3, y: 3, z: 0 },
+			rotation: { x: 171, y: -63, z: 33 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.6
+		},
+		"*-pear": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 171, y: -63, z: 33 },
+			origin: { x: 0.5, y: 0.05, z: 0.55 },
+			scale: 2.6
 		}
 	},
 	fpHandTransformByType: {
+		"*-pomegranate": {
+			rotation: { x: 180, y: -90, z: 180 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 1.8
+		},
+		"*-lychee": {
+			translation: { x: 0, y: 0.12, z: 0 },
+			rotation: { x: 0, y: 47, z: 2 },
+			origin: { x: 0.6, y: 0.1, z: 0.5 },
+			scale: 1.2
+		},
+		"*-breadfruit": {
+			translation: { x: 0.3, y: -0.1, z: 0 },
+			rotation: { x: 0, y: 85, z: 0 },
+			origin: { x: 0.5, y: 1.2, z: 0.5 },
+			scale: 2
+		},
 		"*-pineapple": {
 			translation: { x: 0, y: 0.22, z: 0 },
 			rotation: { x: 31, y: 10, z: 2 },
 			origin: { x: 0.7, y: 0.1, z: 0.5 },
-			scale: 1.24
+			scale: 1.74
+		},
+		"@*-(blueberry|cranberry)": {
+			rotation: { x: -1, y: -1, z: 0 },
+			origin: { x: 0.2, y: 0.3, z: 0.7 }
+		},
+		"@*-saguaro": {
+			translation: { x: 0, y: 0.24, z: 0.3 },
+			rotation: { x: 15, y: 0, z: 0 },
+			scale: 1.5
+		},
+		"@*-(redcurrant|whitecurrant|blackcurrant)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 13, y: 24, z: 0 },
+			origin: { x: 0.3, y: 0.2, z: 0.3 }
+		},
+		"@*(-redapple|-yellowapple|-pinkapple|-cherry|-peach|-pear|-orange|-mango)": {
+			translation: { x: 0, y: -0.05, z: 0 },
+			rotation: { x: 33, y: 90, z: -32 },
+			origin: { x: 0.5, y: 1.2, z: 0.5 },
+			scale: 2
+		},
+		"*-cherry": {
+			translation: { x: 0, y: -0.05, z: 0 },
+			rotation: { x: 3, y: 12, z: 9 },
+			origin: { x: 0.5, y: 2, z: 0.5 },
+			scale: 2
 		}
 	},
 	tpHandTransformByType: {
+		"*-pomegranate": {
+			translation: { x: -1.28, y: -0.2, z: -1.24 },
+			rotation: { x: -13, y: -62, z: 10 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.4
+		},
+		"*-lychee": {
+			translation: { x: -1.6, y: -0.43, z: -1.65 },
+			rotation: { x: 103, y: -90, z: 78 },
+			origin: { x: 0.7, y: 0.1, z: 0.7 },
+			scale: 0.38
+		},
+		"*-breadfruit": {
+			translation: { x: -1.75, y: -0.43, z: -1.51 },
+			rotation: { x: 7, y: 3, z: -180 },
+			origin: { x: 0.8, y: 0.1, z: 0.6 },
+			scale: 0.42
+		},
 		"*-pineapple": {
-			translation: { x: -1.85, y: -0.23, z: -1.61 },
-			rotation: { x: 124, y: -42, z: -65 },
+			translation: { x: -1.25, y: -0.3, z: -1.41 },
+			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.21
+			scale: 0.4
+		},
+		"*-saguaro": {
+			translation: { x: -1.3, y: -0.6, z: -1.3 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 0.4
+		},
+		"*-blueberry": {
+			translation: { x: -1.5, y: -1.3, z: -1.5 },
+			rotation: { x: 19, y: -62, z: 15 },
+		},
+		"@*-(cranberry|redcurrant|whitecurrant|blackcurrant)": {
+			translation: { x: -1.5, y: -1.2, z: -1.5 }
+		},
+		"@*-(redcurrant|whitecurrant|blackcurrant)": {
+			translation: { x: -1.5, y: -1.25, z: -1.5 },
+			rotation: { x: -21, y: -58, z: -2 }
+		},
+		"@*(-redapple|-yellowapple|-pinkapple|-cherry|-peach|-pear|-orange|-mango)": {
+			translation: { x: -1.28, y: -0.97, z: -1.24 },
+			rotation: { x: -13, y: -62, z: 10 },
+			scale: 0.4
 		}
 	},
 	groundTransformByType: {
+		"*-pomegranate": {
+			translation: { x: 0, y: 0.07, z: 0 },
+			rotation: { x: 90, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0.5, z: 0.53 },
+			scale: 1.8
+		},
+		"*-lychee": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: -3 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-breadfruit": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: -3 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
 		"*-pineapple": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: -3 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 1.75
+			scale: 2.35
+		},
+		"*-saguaro": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
+		"@*-(redapple|yellowapple|pinkapple|cherry|peach|pear|orange|mango)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.4
+		},
+		"@*-(redcurrant|whitecurrant|blackcurrant|breadfruit)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
+		"@*-(blueberry|cranberry)": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 2.3
+		},
+		"*": { 
+			scale: 2.3
 		}
 	}
 }

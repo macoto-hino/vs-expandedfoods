@@ -2652,7 +2652,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-blueberry",
+          "code": "game:ciderportion-blueberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2661,7 +2661,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-cranberry",
+          "code": "game:ciderportion-cranberry",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2670,7 +2670,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-blackcurrant",
+          "code": "game:ciderportion-blackcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2679,7 +2679,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-redcurrant",
+          "code": "game:ciderportion-redcurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2688,7 +2688,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-whitecurrant",
+          "code": "game:ciderportion-whitecurrant",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2697,7 +2697,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-pineapple",
+          "code": "game:ciderportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
@@ -2706,11 +2706,92 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitwineportion-mix",
+          "code": "game:ciderportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
-            "mixwine"
+            "saguarowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-apple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "applewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-cherry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cherrywine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-peach",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "peachwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-pear",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pearwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-orange",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "orangewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-mango",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "mangowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-breadfruit",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "breadfruitwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-lychee",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "lycheewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "game:ciderportion-pomegranate",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pomegranatewine"
           ]
         },
         {
@@ -2760,20 +2841,101 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:strongwineportion-mix",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "mixwine"
-          ]
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:strongwineportion-pineapple",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
             "pineapplewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-saguaro",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "saguarowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-apple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "applewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-cherry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cherrywine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-peach",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "peachwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-pear",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pearwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-orange",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "orangewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-mango",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "mangowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-breadfruit",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "breadfruitwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-lychee",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "lycheewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:strongwineportion-pomegranate",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pomegranatewine"
           ]
         },
         {
@@ -2832,11 +2994,92 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:potentwineportion-mix",
+          "code": "expandedfoods:potentwineportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
-            "mixwine"
+            "saguarowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-apple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "applewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-cherry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cherrywine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-peach",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "peachwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-pear",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pearwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-orange",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "orangewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-mango",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "mangowine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-breadfruit",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "breadfruitwine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-lychee",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "lycheewine"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:potentwineportion-pomegranate",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pomegranatewine"
           ]
         },
         {
@@ -3203,6 +3446,105 @@
           "textureMapping": [
             "fruit",
             "group7"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-redapple",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-redapple"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-pinkapple",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-pinkapple"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-yellowapple",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-yellowapple"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-cherry",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-cherry"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-peach",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-peach"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-pear",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-pear"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-orange",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-orange"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-mango",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-mango"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-breadfruit",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-breadfruit"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-lychee",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-lychee"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:dryfruit-pomegranate",
+          "shapeElement": "bowl/fruit 1/*",
+          "textureMapping": [
+            "fruit",
+            "fruit-pomegranate"
           ]
         },
       ],

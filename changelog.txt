@@ -16,6 +16,7 @@ Added lime eggs
 Added herbal bread crumbs
 Added cured aged meat
 Added Garum
+Added Roux & Gumbo meal
 Added preserves, jelly & jam - jam, but in the mixing bowl
 Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
 Added VanVar compatibility for more mixing bowl variants
@@ -26,19 +27,25 @@ Complicated fish sauce recipe
 
 1.5.3
 Updated to VS 1.16
-Recipes updated for new fruit
+Dried fruit is now 3D - DONE!!!
+Recipes updated for new fruit (dried fruits - meals, barrel recipes, mixing meals)
 Potent wine changed to potent alcohol
 Liquids changed to match new standardization; redundant juices/wines removed; remapped old juice/wine to vanilla versions
-Liquid recipes updated to new amounts
+Liquid recipes updated to new amounts - DONE????
 Mixed juice removed (for now?) - DONE!!!
 Bottles updated (thanks to SpearAndFang) - DONE!!!
+Cauldrons/Saucepan have boiling animation (thanks to Mister_Andy_Dandy) - DONE!!!
 Screw press removed, recipes moved to fruit press - DONE!!!
 Mixing bowl & saucepan now require specific liquid amounts
 Spile output adjusted to reflect new liquid amounts - DONE!!!
 Regular bread now has satMult applied to it - DONE!!!
-Spile gets soft resin from Acacia trees
+Spile gets soft resin from Acacia trees - DONE!!!
+Herbal stuff updated for Wildcraft; Wild Farming compatibility removed
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
+Japanese language files added (thanks to macoto_hino) - DONE!!!
+Fixed bread nutrition values
+Part-baked & charred nutrition multipliers nerfed 
 
 1.5.2
 Fixed further compatibility issues

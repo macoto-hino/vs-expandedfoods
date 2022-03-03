@@ -572,7 +572,7 @@
     "value": {
 		displaycaseable: true,
         shelvable: true,
-        "satMult": 0.9,
+        "satMult": 0.5,
 		bakingProperties: {
 			temp: 160,
 			levelFrom: 0.25,
@@ -628,7 +628,7 @@
     "value": {
 		displaycaseable: true,
 		shelvable: true,
-        "satMult": 0.8,
+        "satMult": 0.75,
 		bakingProperties: {
 			temp: 160,
 			levelFrom: 0.75,

@@ -36,57 +36,125 @@
       "game:flour-sunflower": {
         "saturation": 140,
         "foodcategory": "Grain"
-      }
+      },
+      "expandedfoods:lard": {
+        "saturation": 16,
+        "health": 0.01,
+        "foodcategory": "Protein"
+      },
+      "expandedfoods:pasteurizedmilk": {
+        "saturation": 1.15,
+        "health": 0.01,
+        "foodcategory": "Dairy"
+      },
+      "expandedfoods:bonebroth": {
+        "saturation": 1,
+        "health": 0.01,
+        "foodcategory": "Protein"
+      },
+      "expandedfoods:soymilk-edible": {
+        "saturation": 1.125,
+        "health": 0.01,
+        "foodcategory": "Dairy"
+      },
     },
     "file": "itemtypes/food/dough.json"
   },
-  {
-    "op": "add",
-    "path": "/attributes/renderIngredientsByType",
-    "value": {
-      "*-spelt": {
-        "game:flour-spelt": "game:shapes/item/food/bread/speltbread-dough.json"
-      },
-      "*-rye": {
-        "game:flour-rye": "game:shapes/item/food/bread/ryebread-dough.json"
-      },
-      "*-flax": {
-        "game:flour-flax": "game:shapes/item/food/bread/flaxbread-dough.json"
-      },
-      "*-rice": {
-        "game:flour-rice": "game:shapes/item/food/bread/ricebread-dough.json"
-      },
-      "*-cassava": {
-        "game:flour-cassava": "game:shapes/item/food/bread/cassavabread-dough.json"
-      },
-      "*-amaranth": {
-        "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread-dough.json"
-      },
-      "*-sunflower": {
-        "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread-dough.json"
-      },
-      "*-acornspelt": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread-dough.json"
-      },
-      "*-acornrye": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread-dough.json"
-      },
-      "*-acornflax": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread-dough.json"
-      },
-      "*-acornrice": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread-dough.json"
-      },
-      "*-acorncassava": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread-dough.json"
-      },
-      "*-acornamaranth": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread-dough.json"
-      },
-      "*-acornsunflower": {
-        "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json"
-      }
+    {
+        "op": "add",
+        "path": "/attributes/renderIngredientsByType",
+        "value": {
+            "*-spelt": {
+                "game:flour-spelt": "game:shapes/item/food/bread/speltbread-dough.json"
+            },
+            "*-rye": {
+                "game:flour-rye": "game:shapes/item/food/bread/ryebread-dough.json"
+            },
+            "*-flax": {
+                "game:flour-flax": "game:shapes/item/food/bread/flaxbread-dough.json"
+            },
+            "*-rice": {
+                "game:flour-rice": "game:shapes/item/food/bread/ricebread-dough.json"
+            },
+            "*-cassava": {
+                "game:flour-cassava": "game:shapes/item/food/bread/cassavabread-dough.json"
+            },
+            "*-amaranth": {
+                "game:flour-amaranth": "game:shapes/item/food/bread/amaranthbread-dough.json"
+            },
+            "*-sunflower": {
+                "game:flour-sunflower": "game:shapes/item/food/bread/sunflowerbread-dough.json"
+            },
+            "*-acornspelt": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornspeltbread-dough.json"
+            },
+            "*-acornrye": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornryebread-dough.json"
+            },
+            "*-acornflax": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornflaxbread-dough.json"
+            },
+            "*-acornrice": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornricebread-dough.json"
+            },
+            "*-acorncassava": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acorncassavabread-dough.json"
+            },
+            "*-acornamaranth": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornamaranthbread-dough.json"
+            },
+            "*-acornsunflower": {
+                "acorns:flour-acorn": "game:shapes/item/food/bread/acornsunflowerbread-dough.json"
+            }
+        },
+        "file": "itemtypes/food/dough.json"
     },
-    "file": "itemtypes/food/dough.json"
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-charred",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-partbaked",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-flax-perfect",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-charred",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-partbaked",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "remove",
+    "path": "/nutritionPropsByType/*-rice-perfect",
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-charred/saturation",
+    "value": 100,
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-partbaked/saturation",
+    "value": 70,
+    "file": "itemtypes/food/bread.json"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-perfect/saturation",
+    "value": 160,
+    "file": "itemtypes/food/bread.json"
   }
 ]
