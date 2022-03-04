@@ -44,9 +44,10 @@
 				foodcategory: "Fruit"
 			},
 		},
-		handbook: {
-			exclude: true
-		}
+		distillationProps: {
+			distilledStack: { type: "item", code: "game:alcoholportion" },
+			ratio: 0.5
+		},
 	},
 	transitionableProps: [{
     		type: "Perish",
