@@ -1607,6 +1607,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\primitivesurvival\fish-smash.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\primitivesurvival\fish-tender.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\amaranth.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\apple.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\bellpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\blackcurrant.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\blueberry.json" />
@@ -1614,6 +1615,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\bluespread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\bolete.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\brambleberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\breadfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\bushmeat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cabbage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cactifruit.json" />
@@ -1622,6 +1624,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cassavagrain.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cheddar.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cheddarmelt.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cherry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cloudberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cottagecheese.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\cottagespread.json" />
@@ -1636,9 +1639,15 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\gooseberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\honeysuckle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\huckleberry.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\lychee.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\mango.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\onion.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\orange.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\parsnip.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\peach.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\pear.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\pineapple.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\pomegranate.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\poultry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\pumpkin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\item\food\stuffedbellpepper\raspberry.json" />

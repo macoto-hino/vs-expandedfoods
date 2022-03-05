@@ -107,9 +107,9 @@
 			},
 		},
 		satMultByType: {
-			"*-partbaked": 0.9,
+			"*-partbaked": 0.5,
 			"*-bread": 1,
-			"*-charred": 0.8
+			"*-charred": 0.75
 		},
 	},
   	textures: {

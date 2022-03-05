@@ -70,9 +70,9 @@
 		},
 		satMultByType: {
 			"*-bake1": 1,
-			"*-bake2": 0.9,
-			"*-bake3": 0.8,
-			"*-bake4": 0.7
+			"*-bake2": 0.8,
+			"*-bake3": 0.6,
+			"*-bake4": 0.4
 		},
 	},
 	shapebytype: {

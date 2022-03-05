@@ -188,12 +188,12 @@
 			scale: 1 
 		},
 		satMultByType: {
-			"*-partbaked": 0.9,
+			"*-partbaked": 0.5,
 			"*-cooked": 1,
-			"*-charred": 0.8,
-			"*-syruppartbaked": 0.9,
+			"*-charred": 0.75,
+			"*-syruppartbaked": 0.5,
 			"*-syrups": 1,
-			"*-syrupcharred": 0.8
+			"*-syrupcharred": 0.75
 		},
 	},
 	shapebytype:	{

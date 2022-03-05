@@ -104,9 +104,9 @@
 			translation: { x: 0.1, y: 0, z: 0 },
 		},
 		satMultByType: {
-			"*-partbaked": 0.9,
+			"*-partbaked": 0.5,
 			"*-cooked": 1,
-			"*-charred": 0.8
+			"*-charred": 0.75
 		},
 	},
 	shape: { base: "expandedfoods:item/food/dumpling/flaxraw" },

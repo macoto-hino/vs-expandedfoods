@@ -116,20 +116,17 @@
 			},
 		},
 		satMultByType: {
-			"*-partbaked": 0.9,
+			"*-partbaked": 0.5,
 			"*-cooked": 1,
-			"*-charred": 0.8,
-			"*-driedpartbaked": 0.9,
+			"*-charred": 0.75,
+			"*-driedpartbaked": 0.5,
 			"*-driedcooked": 1,
-			"*-driedcharred": 0.8
+			"*-driedcharred": 0.75
 		},
 		onDisplayTransform: {
-			
 			translation: { x: 0, y: -0.465, z: 0 },
-
 			rotation: { x: 90, y: 0, z: 0 },
 			scale: 0.5
-		
 		},
 	},
 	shapeByType: {

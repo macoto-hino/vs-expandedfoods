@@ -134,10 +134,10 @@
 			},
 		},
 		satMultByType: {
-			"*-raw": 0.7,
-			"*-partbaked": 0.9,
+			"*-raw": 0.4,
+			"*-partbaked": 0.5,
 			"*-cooked": 1,
-			"*-charred": 0.8
+			"*-charred": 0.75
 		},
 	},
   	texturesByType: {
