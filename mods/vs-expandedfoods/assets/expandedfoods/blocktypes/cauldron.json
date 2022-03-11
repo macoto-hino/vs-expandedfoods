@@ -18,6 +18,7 @@
 			"maxFillLevel": 13,
 			"storageType": 1,
 			"maxContainerSlotStackSize": 50,
+			"cookingSlotCapacityLitres": 50,
 			"cookingContainerSlots": 4,
 			"liquidcontainer": true,
 			"capacityLitres": 50,

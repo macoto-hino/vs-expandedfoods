@@ -1848,6 +1848,7 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-half.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-quarter.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-threefourths.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-item-food-meat-red.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\trough-large.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\trough-small.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\vegetable.json" />

@@ -6,6 +6,7 @@ using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
+using System.Diagnostics;
 
 namespace ExpandedFoods
 {
@@ -148,40 +149,42 @@ namespace ExpandedFoods
             }
         }
 
-
         public override void TranslateMesh(MeshData mesh, int index)
         {
             float x = (index % 2 == 0) ? 5 / 16f : 11 / 16f;
-            float y = 1.01f / 16f;
+            float y = 1 / 16f;
             float z = (index > 1) ? 11 / 16f : 5 / 16f;
             float rotY = 0;
-
-            if (Block.Shape.rotateY == 90 || Block.Shape.rotateY == 270)
+            if (Block.Shape.rotateY == 0)
+            {
+                if (index == 2 || index == 3)
+                {
+                    rotY = 180 * GameMath.DEG2RAD;
+				}
+			}
+            else if (Block.Shape.rotateY == 90 || Block.Shape.rotateY == 270)
             {
                 if (index == 0 || index == 2)
                 {
-                    rotY = -90 * GameMath.DEG2RAD;
+                    rotY = 180 * GameMath.DEG2RAD;
                 }
                 else
                 {
-                    rotY = 90 * GameMath.DEG2RAD;
+                    rotY = 0 * GameMath.DEG2RAD;
                 }
             }
-            else
+            else if (Block.Shape.rotateY == 180)
             {
                 if (index == 0 || index == 1)
                 {
                     rotY = 180 * GameMath.DEG2RAD;
 				}
 			}
-
-			mesh.Scale(new Vec3f(0.5f, 0, 0.5f), 0.75f, 0.75f, 0.75f);
             mesh.Rotate(new Vec3f(0.5f, 0, 0.5f), 0, rotY, 0);
-			mesh.Translate(x - 0.5f, y + 0.5f, z - 0.5f);
+            mesh.Translate(x - 0.5f, 0, z - 0.5f);
+        }
 
-		}
-
-		public string PerishableInfoCompact(ICoreAPI Api, ItemSlot contentSlot, float ripenRate, bool withStackName = true)
+        public string PerishableInfoCompact(ICoreAPI Api, ItemSlot contentSlot, float ripenRate, bool withStackName = true)
         {
             if (contentSlot.Empty) return "";
 
