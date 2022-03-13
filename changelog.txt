@@ -27,7 +27,7 @@ Complicated fish sauce recipe
 
 1.5.3-pre.4
 Updated to VS 1.16
-Recipes updated for new fruit (dried fruits - meals, barrel recipes, mixing meals; berry bread; muffins)
+Recipes updated for new fruit (fruit syrups fully updated; gelatin; yogurt)
 Remapped old juice/wine to vanilla versions
 Herbal stuff updated for Wildcraft; Wild Farming compatibility removed
 Patches now use forEach function
@@ -35,6 +35,9 @@ RenderIngredients now uses selectiveElements to cut down on files
 Saucepan recipes fixed
 Meat hook renderer fixed - DONE!!!
 Cauldron/mini-cauldron/saucepan use `cookingSlotCapacityLitres` now - DONE!!!
+Wilcraft compatibility updated
+More Chopped Mushrooms added
+Expanded Foods tab added, contains everything from this mod
 
 1.5.3-pre.3
 Updated to VS 1.16

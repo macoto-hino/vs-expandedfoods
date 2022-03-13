@@ -304,6 +304,87 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-apple",
+    "value": [
+      "topping",
+      "applesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-breadfruit",
+    "value": [
+      "topping",
+      "breadfruitsyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-cherry",
+    "value": [
+      "topping",
+      "cherrysyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-lychee",
+    "value": [
+      "topping",
+      "lycheesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-mango",
+    "value": [
+      "topping",
+      "mangosyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-orange",
+    "value": [
+      "topping",
+      "orangesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-peach",
+    "value": [
+      "topping",
+      "peachsyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pear",
+    "value": [
+      "topping",
+      "pearsyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:fruitsyrupportion-pomegrante",
+    "value": [
+      "topping",
+      "pomegranatesyrup"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:treesyrupportion-birch",
     "value": [
       "topping",
@@ -330,30 +411,6 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/blackcurrantsyrup",
-    "value": {
-      "base": "item/liquid/blackcurrant"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/blueberrysyrup",
-    "value": {
-      "base": "item/liquid/blueberry"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/cranberrysyrup",
-    "value": {
-      "base": "item/liquid/cranberry"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
     "path": "/texturesByType/*/maplesyrup",
     "value": {
       "base": "block/liquid/strongtannin"
@@ -362,9 +419,33 @@
   },
   {
     "op": "add",
+    "path": "/texturesByType/*/blackcurrantsyrup",
+    "value": {
+      "base": "item/gelatin/blackcurrant"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/blueberrysyrup",
+    "value": {
+      "base": "item/gelatin/blueberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cranberrysyrup",
+    "value": {
+      "base": "item/gelatin/cranberry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/redcurrantsyrup",
     "value": {
-      "base": "item/liquid/redcurrant"
+      "base": "item/gelatin/redcurrant"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -372,7 +453,7 @@
     "op": "add",
     "path": "/texturesByType/*/whitecurrantsyrup",
     "value": {
-      "base": "item/liquid/whitecurrant"
+      "base": "item/gelatin/whitecurrant"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -380,7 +461,79 @@
     "op": "add",
     "path": "/texturesByType/*/pineapplesyrup",
     "value": {
-      "base": "item/liquid/pineapple"
+      "base": "item/gelatin/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/applesyrup",
+    "value": {
+      "base": "item/gelatin/apple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/breadfruitsyrup",
+    "value": {
+      "base": "item/gelatin/breadfruit"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/cherrysyrup",
+    "value": {
+      "base": "item/gelatin/cherry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/lycheesyrup",
+    "value": {
+      "base": "item/gelatin/lychee"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/mangosyrup",
+    "value": {
+      "base": "item/gelatin/mango"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/orangesyrup",
+    "value": {
+      "base": "item/gelatin/orange"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/peachsyrup",
+    "value": {
+      "base": "item/gelatin/peach"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pearsyrup",
+    "value": {
+      "base": "item/gelatin/pear"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/pomegranatesyrup",
+    "value": {
+      "base": "item/gelatin/pomegranate"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1125,15 +1278,6 @@
   },
   {
     "op": "add",
-    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-fruitmix",
-    "value": [
-      "topping",
-      "gelatinfruitmix"
-    ],
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-honey",
     "value": [
       "topping",
@@ -1192,6 +1336,87 @@
     "value": [
       "topping",
       "gelatinpineapple"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-apple",
+    "value": [
+      "topping",
+      "gelatinapple"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-breadfruit",
+    "value": [
+      "topping",
+      "gelatinbreadfruit"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-cherry",
+    "value": [
+      "topping",
+      "gelatincherry"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-lychee",
+    "value": [
+      "topping",
+      "gelatinlychee"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-mango",
+    "value": [
+      "topping",
+      "gelatinmango"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-orange",
+    "value": [
+      "topping",
+      "gelatinorange"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-peach",
+    "value": [
+      "topping",
+      "gelatinpeach"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pear",
+    "value": [
+      "topping",
+      "gelatinpear"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:gelatin-pomegranate",
+    "value": [
+      "topping",
+      "gelatinpomegranate"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -1338,14 +1563,6 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/gelatinfruitmix",
-    "value": {
-      "base": "item/gelatin/fruitmix"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
     "path": "/texturesByType/*/gelatinhoney",
     "value": {
       "base": "item/gelatin/honey"
@@ -1486,10 +1703,81 @@
     "op": "add",
     "path": "/texturesByType/*/gelatinpineapple",
     "value": {
-      "base": "item/gelatin/raspberry"
+      "base": "item/gelatin/pineapple"
     },
     "file": "blocktypes/clay/pot.json",
-    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinapple",
+    "value": {
+      "base": "item/gelatin/apple"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinbreadfruit",
+    "value": {
+      "base": "item/gelatin/breadfruit"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatincherry",
+    "value": {
+      "base": "item/gelatin/cherry"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinlychee",
+    "value": {
+      "base": "item/gelatin/lychee"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinmango",
+    "value": {
+      "base": "item/gelatin/mango"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinorange",
+    "value": {
+      "base": "item/gelatin/orange"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpeach",
+    "value": {
+      "base": "item/gelatin/peach"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpear",
+    "value": {
+      "base": "item/gelatin/pear"
+    },
+    "file": "blocktypes/clay/pot.json",
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/gelatinpomegranate",
+    "value": {
+      "base": "item/gelatin/pomegranate"
+    },
+    "file": "blocktypes/clay/pot.json",
   },
   {
     "op": "add",
@@ -1585,14 +1873,6 @@
   },
   {
     "op": "add",
-    "path": "/texturesByType/*/yogurtmix",
-    "value": {
-      "base": "item/liquid/yogurt/mix"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
     "path": "/texturesByType/*/yogurtredcurrant",
     "value": {
       "base": "item/liquid/yogurt/redcurrant"
@@ -1620,6 +1900,78 @@
     "path": "/texturesByType/*/yogurtpineapple",
     "value": {
       "base": "item/liquid/yogurt/pineapple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtapple",
+    "value": {
+      "base": "item/liquid/yogurt/apple"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtcherry",
+    "value": {
+      "base": "item/liquid/yogurt/cherry"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpeach",
+    "value": {
+      "base": "item/liquid/yogurt/peach"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpear",
+    "value": {
+      "base": "item/liquid/yogurt/pear"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtorange",
+    "value": {
+      "base": "item/liquid/yogurt/orange"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtmango",
+    "value": {
+      "base": "item/liquid/yogurt/mango"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtbreadfruit",
+    "value": {
+      "base": "item/liquid/yogurt/breadfruit"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtlychee",
+    "value": {
+      "base": "item/liquid/yogurt/lychee"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/yogurtpomegranate",
+    "value": {
+      "base": "item/liquid/yogurt/pomegranate"
     },
     "file": "blocktypes/clay/pot.json"
   },

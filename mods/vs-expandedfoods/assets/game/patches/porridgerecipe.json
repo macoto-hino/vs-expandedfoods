@@ -1356,20 +1356,92 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:fruitsyrupportion-mix",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "mixwine"
-          ]
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:fruitsyrupportion-saguaro",
           "shapeElement": "bowl/topping/*",
           "textureMapping": [
             "topping",
             "saguarosyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-apple",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "applesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-breadfruit",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "breadfruitsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-cherry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cherrysyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-lychee",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "lycheesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-mango",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "mangosyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-orange",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "orangesyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-peach",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "peachsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-pear",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pearsyrup"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:fruitsyrupportion-pomegranate",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "pomegranatesyrup"
           ]
         },
         {

@@ -1577,6 +1577,63 @@ namespace ExpandedFoods
             return components.ToArray();
         }
 
+       // Get Nutrition Properties for a SINGLE STACK
+        // SPANG - March 13, 2022
+        public static FoodNutritionProperties[] GetExpandedContentNutritionProperties(IWorldAccessor world, ItemSlot inSlot, ItemStack contentStack, EntityAgent forEntity, bool mulWithStacksize = false, float nutritionMul = 1f, float healthMul = 1f)
+        {
+            List<FoodNutritionProperties> foodProps = new List<FoodNutritionProperties>();
+
+            CollectibleObject obj = contentStack.Collectible;
+            FoodNutritionProperties stackProps;
+
+            if (obj.CombustibleProps != null && obj.CombustibleProps.SmeltedStack != null)
+            {
+                stackProps = obj.CombustibleProps.SmeltedStack.ResolvedItemstack.Collectible.GetNutritionProperties(world, obj.CombustibleProps.SmeltedStack.ResolvedItemstack, forEntity);
+            }
+            else
+            {
+                stackProps = obj.GetNutritionProperties(world, contentStack, forEntity);
+            }
+
+            if (obj.Attributes?["nutritionPropsWhenInMeal"].Exists == true)
+            {
+                stackProps = obj.Attributes?["nutritionPropsWhenInMeal"].AsObject<FoodNutritionProperties>();
+            }
+            float satLossMul = 1.0f;
+            float healthLoss = 1.0f;
+            float mul = mulWithStacksize ? contentStack.StackSize : 1;
+
+            if (obj is ItemExpandedRawFood && (contentStack.Attributes["expandedSats"] as FloatArrayAttribute)?.value?.Length == 6)
+            {
+                FoodNutritionProperties[] exProps = (obj as ItemExpandedRawFood).GetPropsFromArray((contentStack.Attributes["expandedSats"] as FloatArrayAttribute).value);
+
+                if (exProps != null || exProps.Length > 0)
+                {
+                    foreach (FoodNutritionProperties exProp in exProps)
+                    {
+                        exProp.Satiety *= satLossMul * mul * nutritionMul;
+                        exProp.Health *= healthLoss * healthMul * mul;
+
+                        foodProps.Add(exProp);
+                    }
+                }
+            }
+            else if (stackProps != null)
+            {
+                FoodNutritionProperties props = stackProps.Clone();
+
+                DummySlot slot = new DummySlot(contentStack, inSlot.Inventory);
+                TransitionState state = contentStack.Collectible.UpdateAndGetTransitionState(world, slot, EnumTransitionType.Perish);
+                float spoilState = state != null ? state.TransitionLevel : 0;
+
+                satLossMul = GlobalConstants.FoodSpoilageSatLossMul(spoilState, slot.Itemstack, forEntity);
+                healthLoss = GlobalConstants.FoodSpoilageHealthLossMul(spoilState, slot.Itemstack, forEntity);
+                props.Satiety *= satLossMul * nutritionMul * mul;
+                props.Health *= healthLoss * healthMul * mul;
+                foodProps.Add(props);
+            }
+            return foodProps.ToArray(); 
+        }
 
         class ExtraSection { public string Title = null; public string Text = null; }
 
