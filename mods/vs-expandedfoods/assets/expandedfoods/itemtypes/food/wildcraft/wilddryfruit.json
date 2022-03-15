@@ -47,7 +47,7 @@
 	texturesByType: {
 		"*": { all:  { base: "item/food/dryfruit/{type}"} },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-cloudberry": { satiety: 105, foodcategory: "Fruit" },
 		"*-brambleberry": { satiety: 70, foodcategory: "Fruit" },

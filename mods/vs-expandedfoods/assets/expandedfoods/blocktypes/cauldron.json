@@ -43,7 +43,8 @@
 	],
 	"creativeinventory": {
 		"general": [ "*" ],
-		"decorative": [ "*" ]
+		"decorative": [ "*" ],
+		"expandedfoods": ["*"]
 	},
 	"shape": { "base": "block/cauldron/empty" },
 	"sidesolid": {

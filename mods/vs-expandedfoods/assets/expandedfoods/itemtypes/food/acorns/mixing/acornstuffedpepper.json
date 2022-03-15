@@ -471,7 +471,7 @@
 		"*-syrupcharred": { satiety: 70, foodcategory: "Vegetable" },
 
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
 		"*-oiled": [{

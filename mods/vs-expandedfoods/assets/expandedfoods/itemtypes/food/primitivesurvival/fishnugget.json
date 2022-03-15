@@ -121,15 +121,12 @@
 	},
 	texturesByType: {
 		"*-cookedpartbaked": {
-
 			"cooked": {base: "item/food/fillet-partbaked" },
 		},
 		"*-cookedcharred": {
-
 			"cooked": {base: "item/food/fillet-charred" },
 		},
 		"*": {
-
 			"partbaked": {base: "item/food/fillet-partbaked" },
 			"cooked": {base: "primitivesurvival:item/fishing/fillet-cooked" },
 			"charred": {base: "item/food/fillet-charred" },
@@ -137,7 +134,7 @@
 			"raw": {base: "primitivesurvival:item/fishing/fillet-raw" },
 		},
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 			"fishnugget-cookedpartbaked": {satiety: 112, foodcategory: "Protein"},
 			"fishnugget-tenderpartbaked": {satiety: 95, foodcategory: "Protein"},

@@ -572,7 +572,7 @@
 			"raspberry" : {base: "expandedfoods:item/food/grain/overlays/raspberry" },
 		},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-partbaked": {saturation: 145, foodcategory: "Grain" },
 		"*-syruppartbaked": {saturation: 145, foodcategory: "Grain" },

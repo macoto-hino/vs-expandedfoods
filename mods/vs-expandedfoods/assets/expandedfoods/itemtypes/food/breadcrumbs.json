@@ -16,7 +16,7 @@
 		{ code: "type", states: ["spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ] },
 	],
 	shape: { base: "item/food/bread/crumbs/breadcrumbs-{type}" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-flax": { saturation: 40, foodcategory: "Grain" },
 		"*-rice": { saturation: 80, foodcategory: "Grain" },

@@ -142,7 +142,7 @@
 	},
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/{type}" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"]  },
 	maxstacksize: 5000,
 	materialDensity: 200,
 	combustibleProps: {

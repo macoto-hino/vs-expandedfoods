@@ -11,7 +11,8 @@
 	},
 	"creativeinventory": {
 		"general": [ "*" ],
-		"terrain": [ "*" ]
+		"terrain": [ "*" ],
+		"expandedfoods": [ "*" ]
 	},
 	"shape": { "base": "expandedfoods:block/mixingbowlmini/complete" },
 	"blockmaterial": "Wood",

@@ -12,7 +12,7 @@
   ],
   "classByType": { "*-burned": "BlockBottle" },
   "entityClassByType": { "*-burned": "Bottle" },
-  "creativeinventory": { "general": [ "*" ] },
+  "creativeinventory": { "general": [ "*" ], "expandedfoods": ["*"] },
   "attributes": {
     "shelvable": true,
     "bottlerackable": true,

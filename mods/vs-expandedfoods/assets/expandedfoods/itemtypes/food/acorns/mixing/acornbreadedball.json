@@ -166,211 +166,117 @@
 
 	},
 
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
-
 	transitionablePropsByType: {
-
-		"*-raw": [
-{
-		
+		"*-raw": [{
 			type: "Perish",
-
 			freshHours: { avg: 24 },
-	
 			transitionHours: { avg: 48 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 		}],
-
-		"*-oiled": [
-{
-		
+		"*-oiled": [{		
 			type: "Perish",
-
 			freshHours: { avg: 24 },
-	
 			transitionHours: { avg: 48 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 		}],
-
 		"*-charred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 200 },
-
 			transitionHours: { avg: 144 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-syrupcharred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 200 },
-
 			transitionHours: { avg: 144 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 100 },
-
 			transitionHours: { avg: 72 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 	},
-
 	materialDensity: 600,
-
 	guiTransform: {
 			translation: { x: 0, y: 0, z: 0 },
- 
 			rotation: { x: 180, y: -31, z: 17 },
 			origin: { x: 0.43, y: 0.2, z: 0.4799 },
-
 			scale: 2
 	},
 	fpHandTransform: {
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: 0, z: 0 },
-
 			origin: { x: 0, y: 0, z: 1 },
-
 			scale: 1.5
 	},
-
 	tpHandTransformByType: {
 			translation: { x: 0.05, y: -0.05, z: 0.1 },
-
 			rotation: { x: 0, y: 0, z: -7 },
-
 			origin: { x: 0.17, y: -0.2, z: 0.15 },
-
 			scale: 0.4
 	},
-
 	groundTransformByType: {
 			translation: { x: 0, y: 0, z: 0 },
-
 			rotation: { x: 180, y: 33, z: -180 },
-
 			origin: { x: 0.5, y: 0, z: 0.5 },
-
 			scale: 1.5
 	},
-
 	combustiblePropsByType: {
-
 		"acornbreadedball-raw": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedball-oiled": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedball-partbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedball-cooked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedball-syruppartbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedball-syrup": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedball-syrupcharred" },
-
 			requiresContainer: false
 
 		},

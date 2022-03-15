@@ -126,7 +126,7 @@
 		"*-strawberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
 		"*-raspberry": { saturation: 200, health: 3, foodcategory: "Fruit" },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	maxstacksizeByType: {
 		"*-liquid": 5000,
 		"*": 16, 

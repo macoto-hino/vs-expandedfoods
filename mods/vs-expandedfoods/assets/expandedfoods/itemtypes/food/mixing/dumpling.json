@@ -145,7 +145,7 @@
 		"*-cooked": { saturation: 300, foodcategory: "Grain"},
 		"*-charred": { saturation: 240, foodcategory: "Grain"},
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
 		"*-raw": [{
 			type: "Perish",

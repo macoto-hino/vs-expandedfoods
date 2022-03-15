@@ -29,7 +29,7 @@
 	},
 	shape: { base: "expandedfoods:item/food/trailmix" },
 	textures: { "mix": { base: "item/food/trailmix/{type}" } },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-fruity": { satiety: 150, foodcategory: "Fruit" },
 		"*-nutty": { satiety: 150, foodcategory: "Vegetable" },

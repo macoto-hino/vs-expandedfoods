@@ -91,7 +91,7 @@
     			"acornbread": {base: "item/food/grain/herbal/acornbread" },
 		},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-flax-bake1": { saturation: 220, foodcategory: "Grain" },
 		"*-rice-bake1": { saturation: 440, foodcategory: "Grain" },

@@ -29,7 +29,7 @@
 	materialDensity: 300,
 	shape: { base: "expandedfoods:item/food/trailmix" },
 	textures: { "mix": { base: "item/food/trailmix/vegetarian/{type}" }},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-fruity": { satiety: 150, foodcategory: "Fruit" },
 		"*-nutty": { satiety: 150, foodcategory: "Vegetable" },
@@ -46,29 +46,25 @@
 		}]
 	},
 	guiTransform: {
-		
 		translation: { x: 0, y: 0, z: 0 },
-		
 		rotation: { x: -90, y: 90, z: 0 },
-		
 		origin: { x: 0.5, y: 0, z: 0.45 },
-		
 		scale: 1.5
-
 	},
-	fpHandTransform: { rotation: { x: 90, y: 90, z: -30 }
- },
+	fpHandTransform: {
+		rotation: {
+			x: 90,
+			y: 90,
+			z: -30
+		}
+	},
 	tpHandTransform: {
- origin: { x: 0.5, y: 0.77, z: 0.5 }
+		origin: { x: 0.5, y: 0.77, z: 0.5 }
  },
 	groundTransform: {
-		
 		translation: { x: 0, y: 0, z: 0 },
-		
 		rotation: { x: 0, y: 0, z: 0 },
-		
 		origin: { x: 0, y: 0, z: 0.0299 },
-
 		scale: 2
 	}
 }

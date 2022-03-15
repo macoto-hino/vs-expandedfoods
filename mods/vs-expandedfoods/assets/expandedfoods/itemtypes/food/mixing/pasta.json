@@ -86,7 +86,7 @@
 		"*-cut": { base: "expandedfoods:item/food/bread/pasta/flax-pastacut" },
 		"*-cooked": { base: "expandedfoods:item/food/bread/pasta/flax-pastacooked" },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,
 	nutritionPropsByType: {
 		"*-cooked": { satiety: 180, foodcategory: "Grain" },

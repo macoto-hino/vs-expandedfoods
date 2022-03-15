@@ -103,7 +103,7 @@
 		"sunflowerbread2": {base: "item/food/grain/herbal/sunflowerbread2" },
    		"bread": {base: "item/food/grain/herbal/flaxbread" },
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-flax-bake1": { saturation: 140, foodcategory: "Grain" },
 		"*-rice-bake1": { saturation: 300, foodcategory: "Grain"},

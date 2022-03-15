@@ -215,7 +215,7 @@
 
 	},
 
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 
 	transitionablePropsByType: {

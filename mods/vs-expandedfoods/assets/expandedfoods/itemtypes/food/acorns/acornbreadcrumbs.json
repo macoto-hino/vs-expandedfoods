@@ -18,7 +18,7 @@
 	shapebytype: { 
 		"acornbreadcrumbs-*": { base: "item/food/bread/crumbs/breadcrumbs-acorn" },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-acornflax": { saturation: 60, foodcategory: "Grain" },
 		"*-acornrice": { saturation: 120, foodcategory: "Grain" },

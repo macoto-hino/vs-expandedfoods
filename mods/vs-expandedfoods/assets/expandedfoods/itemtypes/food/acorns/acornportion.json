@@ -13,7 +13,7 @@
 		},
 	},
 	texture: { base: "item/food/acornportion" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 60,
 	nutritionProps: {satiety: 70, foodcategory: "Protein" },
 	transitionableProps: [{

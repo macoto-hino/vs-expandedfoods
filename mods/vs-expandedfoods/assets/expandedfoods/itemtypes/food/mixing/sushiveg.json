@@ -261,7 +261,7 @@
 			sushiroll: {base: "expandedfoods:item/food/sushi/sushiroll"},
 		},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionProps: { satiety: 50, foodcategory: "Vegetable" },
 	guiTransform: {
 		translation: { x: 3, y: 0, z: 0 },

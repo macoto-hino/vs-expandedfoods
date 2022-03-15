@@ -77,7 +77,7 @@
 			"raw": {base: "primitivesurvival:item/crab/crabmeat-raw" },
 		},
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 			"crabnugget-partbaked": {satiety: 125, foodcategory: "Protein"},
 			"crabnugget-cooked": {satiety: 140, foodcategory: "Protein"},

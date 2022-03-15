@@ -341,7 +341,7 @@
 			requiresContainer: false
 		}
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-cabbage-partbaked": { satiety: 400, foodcategory: "Vegetable" },
 		"*-pumpkin-partbaked": { satiety: 160, foodcategory: "Vegetable" },

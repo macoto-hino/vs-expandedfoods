@@ -96,7 +96,7 @@
     			"acorncooked": {base: "item/food/dumpling/acorncooked" },
 		},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 	 "*-partbaked": { saturation: 270, foodcategory: "Grain" },
 	 "*-cooked": { saturation: 300, foodcategory: "Grain" },

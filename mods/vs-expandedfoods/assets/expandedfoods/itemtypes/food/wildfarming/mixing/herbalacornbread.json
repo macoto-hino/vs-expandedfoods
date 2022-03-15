@@ -164,7 +164,7 @@
     			"acornbread": {base: "item/food/grain/herbal/acornbread" },
 		},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-partbaked": {saturation: 145, foodcategory: "Grain" },
 		"*-syruppartbaked": {saturation: 145, foodcategory: "Grain" },

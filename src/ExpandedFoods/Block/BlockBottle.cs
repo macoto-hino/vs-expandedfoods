@@ -430,7 +430,7 @@
                     {
                         byEntity.ReceiveDamage(new DamageSource() { Source = EnumDamageSource.Internal, Type = healthChange > 0 ? EnumDamageType.Heal : EnumDamageType.Poison }, Math.Abs(healthChange));
                     }
-                    this.SetCurrentLitres(slot.Itemstack, litres - litresToDrink);
+                    //this.SetCurrentLitres(slot.Itemstack, litres - litresToDrink);
                     //base.OnHeldInteractStop(secondsUsed, slot, byEntity, blockSel, entitySel);
                     slot.MarkDirty();
                     player.InventoryManager.BroadcastHotbarSlot();

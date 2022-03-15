@@ -49,7 +49,7 @@
 	texturesByType: {
 		"*": { "peanut": { base: "item/food/peanut/cooked" }, },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionablePropsByType: {
 		"*-cooked": [
 			{

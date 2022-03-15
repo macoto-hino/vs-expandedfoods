@@ -43,7 +43,8 @@
   "blockmaterial": "Ceramic",
   "creativeinventory": {
     "general": ["*"],
-    "construction": ["*"]
+    "construction": ["*"],
+    "expandedfoods": ["*"],
   },
   "replaceable": 700,
   "resistance": 1.5,

@@ -204,7 +204,7 @@
 		"strongtannin": { base: "game:block/liquid/strongtannin"},
 		"honey": { base: "game:block/liquid/honey"},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-partbaked": {saturation: 145, foodcategory: "Grain" },
 		"*-cooked": {saturation: 160, foodcategory: "Grain" },

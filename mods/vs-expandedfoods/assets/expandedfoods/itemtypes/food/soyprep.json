@@ -75,7 +75,7 @@
 	materialDensity: 600,
 	shape: { base: "game:item/food/pickledvegetable/soypile" },
 	textures: { soypile: {base: "item/food/soyprep/{type}"} },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	transitionableProps: [{
 			type: "Perish",
 			freshHours: { avg: 1170 },

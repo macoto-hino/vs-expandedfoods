@@ -15,7 +15,7 @@
 		"*-south": { base: "expandedfoods:block/meathooks", rotateY: 180 },
 		"*-west": { base: "expandedfoods:block/meathooks", rotateY: 90 }
 	},
-	creativeinventory: { "general": ["*-east"], "terrain": ["*-east"] },
+	creativeinventory: { "general": ["*-east"], "terrain": ["*-east"], "expandedfoods": ["*-east"] },
 	textures: {
 		pine: {base: "game:block/wood/planks/{wood}1"},
 		copper: {base: "game:block/metal/ingot/{metal}"}

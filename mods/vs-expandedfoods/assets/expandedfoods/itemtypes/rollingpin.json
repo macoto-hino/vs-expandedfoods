@@ -55,7 +55,7 @@
 		"*-steel": 5,
 		"*": 1,
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"], "expandedfoods": ["*"] },
 	combustiblePropsByType: {
 		"*-acacia": {
 			burnTemperature: 600,

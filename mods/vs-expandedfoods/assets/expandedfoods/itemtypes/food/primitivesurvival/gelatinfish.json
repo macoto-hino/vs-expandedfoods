@@ -10,7 +10,7 @@
 	shape: { base: "item/food/gelatinsolid" },
 	textures: { "plain": { base: "game:item/gelatin/fishgelatin" } },
 	nutritionProps: { saturation: 200, health: 4, foodcategory: "Protein" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	maxstacksize: 16,
 	materialDensity: 200,
 	guiTransformByType: {

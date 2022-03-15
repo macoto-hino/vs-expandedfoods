@@ -8469,12 +8469,9 @@
 		}
 	],
 	creativeinventory: {
-		general: [
-			"*"
-		],
-		decorative: [
-			"*"
-		]
+		general: ["*"],
+		decorative: ["*"],
+		"expandedfoods": ["*"]
 	},
 	shape: {
 		base: "block/saucepan/empty"

@@ -116,7 +116,7 @@
 		"*-cooked": { saturation: 100, foodcategory: "Protein" },
 		"*-charred": { saturation: 80, foodcategory: "Protein" },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,
 	fpHandTransform: {
 		translation: { x: 0, y: -0.1, z: 0 },

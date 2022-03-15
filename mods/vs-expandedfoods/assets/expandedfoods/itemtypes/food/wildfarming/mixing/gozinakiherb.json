@@ -102,7 +102,7 @@
 		"saguaro": { base: "game:item/liquid/saguaro"},
 		"peanutbutter": { base: "item/food/peanut/butter"},
   	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-cooked": {saturation: 30, health: 0.5, foodcategory: "Fruit" },
 		"*-syrup": {saturation: 30, health: 0.5, foodcategory: "Fruit" },

@@ -47,7 +47,8 @@ namespace ExpandedFoods
         [HarmonyPatch("GetMatchingStack")]
         static bool displayFix(ItemStack inputStack, ref CookingRecipeStack __result, CookingRecipeIngredient __instance)
         {
-            if (inputStack == null) { __result = null; return false; }
+            if (inputStack == null)
+            { __result = null; return false; }
 
             for (int i = 0; i < __instance.ValidStacks.Length; i++)
             {
@@ -58,7 +59,8 @@ namespace ExpandedFoods
                     || (__instance.ValidStacks[i].CookedStack?.ResolvedItemstack != null && inputStack.Equals(__instance.world, __instance.ValidStacks[i].ResolvedItemstack, GlobalConstants.IgnoredStackAttributes.Concat(new string[] { "madeWith", "expandedSats" }).ToArray()))
                 ;
 
-                if (found) { __result = __instance.ValidStacks[i]; return false; }
+                if (found)
+                { __result = __instance.ValidStacks[i]; return false; }
             }
 
 
@@ -164,7 +166,7 @@ namespace ExpandedFoods
         }
     }
 
-    
+
     [HarmonyPatch(typeof(BlockEntityDisplay))]
     class DisplayPatches
     {
@@ -179,17 +181,22 @@ namespace ExpandedFoods
         static bool displayFix(ItemStack stack, BlockEntityDisplay __instance, ref MeshData __result)
         //static bool displayFix(ItemStack stack, ref MeshData __result, BlockEntityDisplay __instance, ref Item ___nowTesselatingItem)
         {
-            if (!(stack.Collectible is ItemExpandedRawFood)) return true;
+            if (!(stack.Collectible is ItemExpandedRawFood))
+                return true;
             string[] ings = (stack.Attributes?["madeWith"] as StringArrayAttribute)?.value;
-            if (ings == null || ings.Length <= 0) return true;
+            if (ings == null || ings.Length <= 0)
+                return true;
 
             //___nowTesselatingItem = stack.Item;
 
             __result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, stack, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
             //__result = (stack.Collectible as ItemExpandedRawFood).GenMesh(__instance.Api as ICoreClientAPI, ings, __instance, new Vec3f(0, __instance.Block.Shape.rotateY, 0));
-            if (__result != null) __result.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull); else return true;
+            if (__result != null)
+                __result.RenderPassesAndExtraBits.Fill((short)EnumChunkRenderPass.BlendNoCull);
+            else
+                return true;
 
-             
+
             if (stack.Collectible.Attributes?[__instance.AttributeTransformCode].Exists == true)
             {
                 ModelTransform transform = stack.Collectible.Attributes?[__instance.AttributeTransformCode].AsObject<ModelTransform>();
@@ -227,7 +234,8 @@ namespace ExpandedFoods
         [HarmonyPatch("FromRecipe", MethodType.Getter)]
         static void recipeFix(ref CookingRecipe __result, BlockEntityCookedContainer __instance)
         {
-            if (__result == null) __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.RecipeCode);
+            if (__result == null)
+                __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.RecipeCode);
         }
 
         [HarmonyPrefix]
@@ -236,12 +244,15 @@ namespace ExpandedFoods
         {
             ItemStack[] contentStacks = __instance.GetNonEmptyContentStacks();
             CookingRecipe recipe = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.RecipeCode);
-            if (recipe == null) return true;
+            if (recipe == null)
+                return true;
 
             float servings = __instance.QuantityServings;
-            int temp = (int)contentStacks[0].Collectible.GetTemperature(__instance.Api.World, contentStacks[0]); ;
+            int temp = (int)contentStacks[0].Collectible.GetTemperature(__instance.Api.World, contentStacks[0]);
+            ;
             string temppretty = Lang.Get("{0}°C", temp);
-            if (temp < 20) temppretty = "Cold";
+            if (temp < 20)
+                temppretty = "Cold";
 
             BlockMeal mealblock = __instance.Api.World.GetBlock(new AssetLocation("bowl-meal")) as BlockMeal;
             string nutriFacts = mealblock.GetContentNutritionFacts(__instance.Api.World, __instance.Inventory[0], contentStacks, forPlayer.Entity);
@@ -259,7 +270,8 @@ namespace ExpandedFoods
 
             foreach (var slot in __instance.Inventory)
             {
-                if (slot.Empty) continue;
+                if (slot.Empty)
+                    continue;
 
                 TransitionableProperties[] propsm = slot.Itemstack.Collectible.GetTransitionableProperties(__instance.Api.World, slot.Itemstack, null);
                 if (propsm != null && propsm.Length > 0)
@@ -294,7 +306,8 @@ namespace ExpandedFoods
         [HarmonyPatch("FromRecipe", MethodType.Getter)]
         static void recipeFix(ref CookingRecipe __result, BlockEntityMeal __instance)
         {
-            if (__result == null) __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.RecipeCode);
+            if (__result == null)
+                __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.RecipeCode);
         }
     }
 
@@ -312,14 +325,16 @@ namespace ExpandedFoods
         [HarmonyPatch("GetCookingRecipe")]
         static void recipeFix(ref CookingRecipe __result, ItemStack containerStack, IWorldAccessor world, BlockCookedContainerBase __instance)
         {
-            if (__result == null) __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
+            if (__result == null)
+                __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
         }
 
         [HarmonyPostfix]
         [HarmonyPatch("GetMealRecipe")]
         static void mealFix(ref CookingRecipe __result, ItemStack containerStack, IWorldAccessor world, BlockCookedContainerBase __instance)
         {
-            if (__result == null) __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
+            if (__result == null)
+                __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
         }
     }
 
@@ -337,19 +352,26 @@ namespace ExpandedFoods
         [HarmonyPatch("GetCookingRecipe")]
         static void recipeFix(ref CookingRecipe __result, ItemStack containerStack, IWorldAccessor world, BlockCookedContainerBase __instance)
         {
-            if (__result == null) __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
+            if (__result == null)
+                __result = MixingRecipeRegistry.Loaded.MixingRecipes.FirstOrDefault(rec => rec.Code == __instance.GetRecipeCode(world, containerStack));
         }
 
+        /*
+         SPANG - March 13, 2022
+         Don't call this shit
+         Replaced with GetExpandedContentNutritionProperties in ItemExpandedRawFood.cs
         [HarmonyPrefix]
         [HarmonyPatch("GetContentNutritionProperties", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float), typeof(float))]
         static bool nutriFix(IWorldAccessor world, ItemSlot inSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref FoodNutritionProperties[] __result, bool mulWithStacksize = false, float nutritionMul = 1, float healthMul = 1)
         {
             List<FoodNutritionProperties> foodProps = new List<FoodNutritionProperties>();
-            if (contentStacks == null) return true;
+            if (contentStacks == null)
+                return true;
 
             for (int i = 0; i < contentStacks.Length; i++)
             {
-                if (contentStacks[i] == null) continue;
+                if (contentStacks[i] == null)
+                    continue;
 
                 CollectibleObject obj = contentStacks[i].Collectible;
                 FoodNutritionProperties stackProps;
@@ -368,7 +390,8 @@ namespace ExpandedFoods
                     stackProps = obj.Attributes?["nutritionPropsWhenInMeal"].AsObject<FoodNutritionProperties>();
                 }
 
-                if (stackProps == null) continue;
+                if (stackProps == null)
+                    continue;
 
                 float mul = mulWithStacksize ? contentStacks[i].StackSize : 1;
 
@@ -388,7 +411,8 @@ namespace ExpandedFoods
                 {
                     FoodNutritionProperties[] exProps = (obj as ItemExpandedRawFood).GetPropsFromArray((contentStacks[i].Attributes["expandedSats"] as FloatArrayAttribute).value);
 
-                    if (exProps == null || exProps.Length <= 0) continue;
+                    if (exProps == null || exProps.Length <= 0)
+                        continue;
 
                     foreach (FoodNutritionProperties exProp in exProps)
                     {
@@ -407,35 +431,41 @@ namespace ExpandedFoods
             __result = foodProps.ToArray();
             return false;
         }
-
+        */
 
         [HarmonyPrefix]
         [HarmonyPatch("GetContentNutritionFacts", typeof(IWorldAccessor), typeof(ItemSlot), typeof(ItemStack[]), typeof(EntityAgent), typeof(bool), typeof(float), typeof(float))]
         static bool nutriFactsFix(IWorldAccessor world, ItemSlot inSlotorFirstSlot, ItemStack[] contentStacks, EntityAgent forEntity, ref string __result, bool mulWithStacksize = false, float nutritionMul = 1, float healthMul = 1)
         {
-            FoodNutritionProperties[] props = BlockMeal.GetContentNutritionProperties(world, inSlotorFirstSlot, contentStacks, forEntity, mulWithStacksize, nutritionMul, healthMul);
+            FoodNutritionProperties[] props;
 
             Dictionary<EnumFoodCategory, float> totalSaturation = new Dictionary<EnumFoodCategory, float>();
             float totalHealth = 0;
+            float satLossMul = 1;
+            float healthLossMul = 1;
 
-            for (int i = 0; i < props.Length; i++)
+            for (int i = 0; i < contentStacks.Length; i++)
             {
-                FoodNutritionProperties prop = props[i];
-                if (prop == null) continue;
-
-                float sat = 0;
-                totalSaturation.TryGetValue(prop.FoodCategory, out sat);
-
+                if (contentStacks[i] == null)
+                    continue;
                 DummySlot slot = new DummySlot(contentStacks[i], inSlotorFirstSlot.Inventory);
-
                 TransitionState state = contentStacks[i].Collectible.UpdateAndGetTransitionState(world, slot, EnumTransitionType.Perish);
                 float spoilState = state != null ? state.TransitionLevel : 0;
 
-                float satLossMul = GlobalConstants.FoodSpoilageSatLossMul(spoilState, slot.Itemstack, forEntity);
-                float healthLossMul = GlobalConstants.FoodSpoilageHealthLossMul(spoilState, slot.Itemstack, forEntity);
+                satLossMul = GlobalConstants.FoodSpoilageSatLossMul(spoilState, slot.Itemstack, forEntity);
+                healthLossMul = GlobalConstants.FoodSpoilageHealthLossMul(spoilState, slot.Itemstack, forEntity);
 
-                totalHealth += prop.Health * healthLossMul;
-                totalSaturation[prop.FoodCategory] = sat + prop.Satiety * satLossMul;
+                props = ItemExpandedRawFood.GetExpandedContentNutritionProperties(world, inSlotorFirstSlot, contentStacks[i], forEntity, mulWithStacksize, nutritionMul, healthMul);
+                for (int j = 0; j < props.Length; j++)
+                {
+                    FoodNutritionProperties prop = props[j];
+                    if (prop == null)
+                        continue;
+                    float sat = 0;
+                    totalSaturation.TryGetValue(prop.FoodCategory, out sat);
+                    totalHealth += prop.Health * healthLossMul;
+                    totalSaturation[prop.FoodCategory] = sat + prop.Satiety * satLossMul;
+                }
             }
 
             StringBuilder sb = new StringBuilder();
@@ -445,7 +475,6 @@ namespace ExpandedFoods
             {
                 sb.AppendLine("- " + Lang.Get("" + val.Key) + ": " + Math.Round(val.Value) + " sat.");
             }
-
             if (totalHealth != 0)
             {
                 sb.AppendLine("- " + Lang.Get("Health: {0}{1} hp", totalHealth > 0 ? "+" : "", totalHealth));
@@ -455,7 +484,9 @@ namespace ExpandedFoods
             return false;
         }
     }
-        [HarmonyPatch(typeof(BlockCrock))]
+
+
+    [HarmonyPatch(typeof(BlockCrock))]
     class BlockCrockContainerPatches
     {
         //This is for the cooking pot entity
@@ -470,7 +501,8 @@ namespace ExpandedFoods
         static bool infoFix(IWorldAccessor world, BlockPos pos, IPlayer forPlayer, BlockCrock __instance, ref string __result)
         {
             BlockEntityCrock becrock = world.BlockAccessor.GetBlockEntity(pos) as BlockEntityCrock;
-            if (becrock == null) return true;
+            if (becrock == null)
+                return true;
 
             BlockMeal mealblock = world.GetBlock(new AssetLocation("bowl-meal")) as BlockMeal;
 
@@ -545,20 +577,23 @@ namespace ExpandedFoods
             var pieProps = slot.Itemstack.ItemAttributes?["inPieProperties"]?.AsObject<InPieProperties>(null, slot.Itemstack.Collectible.Code.Domain);
             if (pieProps == null)
             {
-                if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "notpieable", Lang.Get("This item can not be added to pies"));
+                if (byPlayer != null && capi != null)
+                    capi.TriggerIngameError(__instance, "notpieable", Lang.Get("This item can not be added to pies"));
                 __result = false;
                 return false;
             }
 
             if (slot.StackSize < 2)
             {
-                if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "notpieable", Lang.Get("Need at least 2 items each"));
+                if (byPlayer != null && capi != null)
+                    capi.TriggerIngameError(__instance, "notpieable", Lang.Get("Need at least 2 items each"));
                 __result = false;
                 return false;
             }
 
             var pieBlock = (inv[0].Itemstack.Block as BlockPie);
-            if (pieBlock == null) { __result = false; return false; }
+            if (pieBlock == null)
+            { __result = false; return false; }
 
             ItemStack[] cStacks = pieBlock.GetContents(__instance.Api.World, inv[0].Itemstack);
 
@@ -582,14 +617,16 @@ namespace ExpandedFoods
                     __result = true;
                     return false;
                 }
-                if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("Can't add more filling - already completely filled pie"));
+                if (byPlayer != null && capi != null)
+                    capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("Can't add more filling - already completely filled pie"));
                 __result = false;
                 return false;
             }
 
             if (pieProps.PartType != EnumPiePartType.Filling)
             {
-                if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "pieneedsfilling", Lang.Get("Need to add a filling next"));
+                if (byPlayer != null && capi != null)
+                    capi.TriggerIngameError(__instance, "pieneedsfilling", Lang.Get("Need to add a filling next"));
                 __result = false;
                 return false;
             }
@@ -614,7 +651,8 @@ namespace ExpandedFoods
 
             for (int i = 1; equal && i < cStacks.Length - 1; i++)
             {
-                if (cstack == null) continue;
+                if (cstack == null)
+                    continue;
 
                 equal &= cStacks[i] == null || cstack.Equals(__instance.Api.World, cStacks[i], GlobalConstants.IgnoredStackAttributes);
                 foodCatEquals &= cStacks[i] == null || foodCats[i] == foodCat;
@@ -635,7 +673,8 @@ namespace ExpandedFoods
 
             if (inv.Count < 0)
             {
-                if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("Can't mix fillings from different food categories"));
+                if (byPlayer != null && capi != null)
+                    capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("Can't mix fillings from different food categories"));
                 __result = false;
                 return false;
             }
@@ -643,7 +682,8 @@ namespace ExpandedFoods
             {
                 if (!stackprops[1].AllowMixing)
                 {
-                    if (byPlayer != null && capi != null) capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("You really want to mix these to ingredients?! That would taste horrible!"));
+                    if (byPlayer != null && capi != null)
+                        capi.TriggerIngameError(__instance, "piefullfilling", Lang.Get("You really want to mix these to ingredients?! That would taste horrible!"));
                     __result = false;
                     return false;
                 }
@@ -656,3 +696,5 @@ namespace ExpandedFoods
         }
     }
 }
+
+

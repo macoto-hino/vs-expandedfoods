@@ -136,7 +136,7 @@
     		"sunflowerbread2": {base: "game:item/food/grain/sunflowerbread2" },
   	},
 	shape: { base: "expandedfoods:item/food/bread/flaxbread-doughball" },
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 200,
 	nutritionPropsByType: {
 		"*-partbaked": { satiety: 145, foodcategory: "Grain" },

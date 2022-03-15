@@ -198,7 +198,7 @@
     "*-driedcooked": { saturation: 125, foodcategory: "Protein"},
     "*-driedcharred": { saturation: 100, foodcategory: "Protein"},
   },
-  creativeinventory: { "general": ["*"], "items": ["*"] },
+  creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
   transitionablePropsByType: {
     "*-raw": [
                 {

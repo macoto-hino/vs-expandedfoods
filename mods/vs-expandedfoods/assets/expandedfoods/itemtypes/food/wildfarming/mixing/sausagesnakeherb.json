@@ -111,12 +111,9 @@
       "*-driedcharred": 0.8
     },
     onDisplayTransform: {
-      
       translation: { x: 0, y: -0.465, z: 0 },
-
       rotation: { x: 90, y: 0, z: 0 },
       scale: 0.5
-    
     },
   },
   shape: { base: "expandedfoods:item/food/meat/sausage-poultry" },
@@ -198,7 +195,7 @@
     "*-driedcooked": { saturation: 125, foodcategory: "Protein"},
     "*-driedcharred": { saturation: 100, foodcategory: "Protein"},
   },
-  creativeinventory: { "general": ["*"], "items": ["*"] },
+  creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
   transitionablePropsByType: {
     "*-raw": [
                 {

@@ -204,38 +204,30 @@
 	},
 	texturesbytype: {
 		"*-partbaked":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-partbaked" },
 		},
 		"*-charred":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-charred" },
 		},
 		"*-oiled":	{
-
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-oiled" },
 		},
 		"*-syruppartbaked":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
 		},
 		"*-syrups":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
 		},
 		"*-syrupcharred":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-fish" },
 		},
 		"*":	{
-
 			"cooked": {base: "expandedfoods:item/food/grain/breading/acorn-cooked" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/acorn-raw" },
 		},
 	},
-
 	nutritionPropsByType: {
 		"*-syruppartbaked": { satiety: 80, foodcategory: "Protein" },
 		"*-partbaked": { satiety: 80, foodcategory: "Protein" },
@@ -244,236 +236,129 @@
 		"*-syrupcharred": { satiety: 70, foodcategory: "Protein" },
 		"*-charred": { satiety: 70, foodcategory: "Protein" },
 	},
-
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
-
 	transitionablePropsByType: {
-
-		"*-oiled": [
-{
-		
+		"*-oiled": [{
 			type: "Perish",
-
 			freshHours: { avg: 24 },
-	
 			transitionHours: { avg: 48 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 			}
-
 		],
-
-		"*-smashed": [
-{
-		
+		"*-smashed": [{
 			type: "Perish",
-
 			freshHours: { avg: 24 },
-	
 			transitionHours: { avg: 48 },
-	
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-
 			}
-
 		],
-
 		"*-charred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 200 },
-
 			transitionHours: { avg: 144 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*-syrupcharred": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 200 },
-
 			transitionHours: { avg: 144 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 		"*": [{
-
 			type: "Perish",
-
 			freshHours: { avg: 100 },
-
 			transitionHours: { avg: 72 },
-
 			transitionedStack: { type: "item", code: "game:rot" },
-
 			transitionRatio: 1
-		
 		}],
 	},
-
 	materialDensity: 600,
-
 	guiTransformByType: {
-
 		"*": {
-
 			rotate: false,
-
 			translation: { x: 0, y: 0, z: 0 },
-
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.5, y: 0.04, z: 0.56 },
-
 			scale: 5
 		}
-
 	},
-
 	fpHandTransformByType: {
 		"*": {
-
 			translation: { x: -0.06, y: 0.36, z: 0.23 },
-
 			rotation: { x: 0, y: -81, z: -74 },
-
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-
 			scale: 2.5
 		},
 	},
-
 	tpHandTransformByType: {
 		"*": {
-
 			translation: { x: 0, y: 0, z: 0 },
-
 			rotation: { x: 0, y: 27, z: -14 },
-
 			origin: { x: 0.28, y: -0.2, z: 0.13 },
-
 			scale: 0.75
 		},
 	},
-
 	groundTransformByType: {
 		"*": {
-
 			translation: { x: 0, y: 0, z: 0 },
-
 			rotation: { x: 180, y: 33, z: -180 },
-
 			origin: { x: 0.5, y: 0, z: 0.5 },
-
 			scale: 5
 		},
-
 	},
-
 	combustiblePropsByType: {
-
 		"acornbreadedmeatnugget-*-smashed": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedmeatnugget-*-oiled": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedmeatnugget-*-partbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedmeatnugget-*-tender": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-charred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedmeatnugget-*-syruppartbaked": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-syrupcharred" },
-
 			requiresContainer: false
-
 		},
 		"acornbreadedmeatnugget-*-syrups": {
-
 			meltingPoint: 150,
-
 			meltingDuration: 30,
-
 			smeltedRatio: 1,
-
 			smeltingType: "cook",
-
 			smeltedStack: { type: "item", code: "acornbreadedmeatnugget-{meat}-syrupcharred" },
-
 			requiresContainer: false
-
 		},
 	}
 }

@@ -240,7 +240,7 @@
 	],
 	shape: { base: "item/food/veggies/chopped/{type}"
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-cassavadried": { foodcategory: "Vegetable" },
 		"*-cattailroot": { foodcategory: "Vegetable" },

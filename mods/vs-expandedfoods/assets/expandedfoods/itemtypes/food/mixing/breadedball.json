@@ -166,7 +166,7 @@
 		"*-syrup": { satiety: 50, foodcategory: "Grain" },
 		"*-syrupcharred": { satiety: 40, foodcategory: "Grain" },
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	materialDensity: 600,
 	transitionablePropsByType: {
 		"*-raw": [{

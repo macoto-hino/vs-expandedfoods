@@ -37,7 +37,8 @@
     ],
     "creativeinventory": {
         "general": [ "*-north" ],
-        "terrain": [ "*-north" ]
+        "terrain": [ "*-north" ],
+        "expandedfoods": ["*-north"]
     },
     "textures": {
         "woodframe": { "base": "game:block/wood/planks/{woodframe}1" },

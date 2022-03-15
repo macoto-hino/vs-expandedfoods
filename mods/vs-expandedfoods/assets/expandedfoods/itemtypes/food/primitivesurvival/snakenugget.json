@@ -78,7 +78,7 @@
 			"raw": {base: "primitivesurvival:item/snake/snakemeat-raw" },
 		},
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 			"snakenugget-partbaked": {satiety: 145, foodcategory: "Protein"},
 			"snakenugget-cooked": {satiety: 160, foodcategory: "Protein"},

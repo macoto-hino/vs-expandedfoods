@@ -79,7 +79,7 @@
 		"acornhardtack-*-bake3": { base: "item/food/hardtack/hardtack-acorn-baked"},
 		"acornhardtack-*-bake4": { base: "item/food/hardtack/hardtack-acorn-charred"},
 	},
-	creativeinventory: { "general": ["*"], "items": ["*"] },
+	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
 		"*-flax-bake1": { saturation: 220, foodcategory: "Grain" },
 		"*-rice-bake1": { saturation: 440, foodcategory: "Grain" },

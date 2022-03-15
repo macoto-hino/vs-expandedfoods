@@ -18,6 +18,7 @@
     "creativeinventory": {
         "general": [ "*" ],
         "items": [ "*" ],
+        "expandedfoods": [ "*" ],
     },
     "materialDensityByType": {
         "*-copper": 8960,
