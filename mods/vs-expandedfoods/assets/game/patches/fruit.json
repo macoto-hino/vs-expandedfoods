@@ -115,5 +115,18 @@
       },
     },
     "file": "itemtypes/food/fruit.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/inContainerTextureByType",
+    "value": {
+      "@*-(redapple|pinkapple|yellowapple)": {
+        "base": "game:block/barrel/apple"
+      },
+      "*": {
+        "base": "game:block/barrel/{fruit}"
+      }
+    },
+    "file": "itemtypes/food/fruit.json"
   }
 ]

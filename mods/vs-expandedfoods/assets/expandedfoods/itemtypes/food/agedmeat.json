@@ -7,22 +7,22 @@
 		shelvable: true,
 		meatHookTransformByType: {
 			"*-poultry-normal": {
-  				translation: { x: 0.99, y: 0.29, z: 0.5 },
-  				rotation: { x: 0, y: -90, z: -90 },
-  				origin: { x: 0, y: 0, z: 0 },
-  				scale: 1
+				"translation": { "x": 0, "y": 0.175, "z": 0	},
+				"rotation": { "x": -90, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
 			},
 			"*-bushmeat-normal": {
-  				translation: { x: -0.0, y: -0.69, z: 0.49 },
-  				rotation: { x: 0, y: 90, z: 90 },
-  				origin: { x: 0, y: 0, z: 0 },
-  				scale: 1
+				"translation": { "x": 0, "y": 0.2, "z": 0 },
+				"rotation": { "x": 0, "y": -90, "z": 90 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
 			},
 			"*-redmeat-normal": {
-    				translation: { x: 0.08, y: -0.63, z: 0.48 },
-  				rotation: { x: 0, y: 90, z: 90 },
-  				origin: { x: 0, y: 0, z: 0 },
-  				scale: 1
+				"translation": {  "x": 0, "y": 0.175, "z": 0 },
+				"rotation": { "x": -90, "y": 90, "z": 0 },
+				"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+				"scale": 1
 			},
 		},
 		bakingPropertiesByType: {
@@ -325,35 +325,35 @@
 		},
 		"*-redmeat-normal": {
 			rotate: false,
-			translation: { x: 0.5, y: 0, z: 0 },
+			translation: { x: 10.5, y: 5, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.4, y: 0.08, z: 0.5 },
 			scale: 4.72
 		},
 		"*-redmeat-cut": {
 			rotate: false,
-			translation: { x: 0.5, y: 0, z: 0 },
+			translation: { x: 10.5, y: 5, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.4, y: 0.08, z: 0.5 },
 			scale: 4.72
 		},
 		"*-redmeat-tenderpartbaked": {
 			rotate: false,
-			translation: { x: 0.5, y: 0, z: 0 },
+			translation: { x: 10.5, y: 5, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.4, y: 0.08, z: 0.5 },
 			scale: 4.72
 		},
 		"*-redmeat-tender": {
 			rotate: false,
-			translation: { x: 0.5, y: 0, z: 0 },
+			translation: { x: 10.5, y: 5, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.4, y: 0.08, z: 0.5 },
 			scale: 4.72
 		},
 		"*-redmeat-tendercharred": {
 			rotate: false,
-			translation: { x: 0.5, y: 0, z: 0 },
+			translation: { x: 10.5, y: 5, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.4, y: 0.08, z: 0.5 },
 			scale: 4.72

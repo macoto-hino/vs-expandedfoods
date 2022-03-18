@@ -8,12 +8,14 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
+//using System.Diagnostics;
 
 namespace ExpandedFoods
 {
     public class GuiDialogBlockEntityMixingBowl : GuiDialogBlockEntity
     {
         long lastRedrawMs;
+        string globalOutputText;
 
         protected override double FloatyDialogPosition => 0.75;
 
@@ -67,13 +69,19 @@ namespace ExpandedFoods
                 .WithFixedAlignmentOffset(-GuiStyle.DialogToScreenPadding, 0);
 
             ClearComposers();
+
+            // I may or may not have added this shit
+            string ot = "";
+            if (globalOutputText != null)
+            { ot = globalOutputText; }
+
             SingleComposer = capi.Gui
                 .CreateCompo("blockentitymixingbowl" + BlockEntityPosition, dialogBounds)
                 .AddShadedDialogBG(bgBounds)
                 .AddDialogTitleBar(DialogTitle, OnTitleBarClose)
                 .BeginChildElements(bgBounds)
                     .AddDynamicCustomDraw(quernBounds, OnBgDraw, "symbolDrawer")
-                    .AddDynamicText("", CairoFont.WhiteDetailText(), EnumTextOrientation.Left, ElementBounds.Fixed(0, 30, 210, 45), "outputText")
+                    .AddDynamicText(ot, CairoFont.WhiteDetailText(), EnumTextOrientation.Left, ElementBounds.Fixed(0, 30, 210, 45), "outputText")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 1, new int[] { 0 }, inputSlotBounds, "inputSlot")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 6, new int[] { 2, 3, 4, 5, 6, 7 }, ingredSlotBounds, "ingredSlots")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 1, new int[] { 1 }, outputSlotBounds, "outputslot")
@@ -97,7 +105,6 @@ namespace ExpandedFoods
             this.maxGrindTime = maxGrindTime;
 
             if (!IsOpened()) return;
-
             SingleComposer.GetDynamicText("outputText").SetNewText(outputText);
 
             if (capi.ElapsedMilliseconds - lastRedrawMs > 500)
@@ -105,6 +112,8 @@ namespace ExpandedFoods
                 if (SingleComposer != null) SingleComposer.GetCustomDraw("symbolDrawer").Redraw();
                 lastRedrawMs = capi.ElapsedMilliseconds;
             }
+            // don't ask, don't tell
+            globalOutputText = outputText;
         }
 
 

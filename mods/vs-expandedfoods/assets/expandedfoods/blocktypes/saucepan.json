@@ -194,7 +194,37 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-blueberry",
+							code: "juiceportion-apple",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-apple"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-blueberry",
 							quantity: 100
 						},
 						{
@@ -224,7 +254,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-cranberry",
+							code: "juiceportion-cranberry",
 							quantity: 100
 						},
 						{
@@ -254,7 +284,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-blackcurrant",
+							code: "juiceportion-blackcurrant",
 							quantity: 100
 						},
 						{
@@ -284,7 +314,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-redcurrant",
+							code: "juiceportion-redcurrant",
 							quantity: 100
 						},
 						{
@@ -314,7 +344,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-whitecurrant",
+							code: "juiceportion-whitecurrant",
 							quantity: 100
 						},
 						{
@@ -344,7 +374,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:fruitjuiceportion-pineapple",
+							code: "juiceportion-pineapple",
 							quantity: 100
 						},
 						{
@@ -361,6 +391,276 @@
 						smeltedStack: {
 							type: "item",
 							code: "expandedfoods:gelatin-pineapple"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-saguaro",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-saguaro"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-cherry",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-cherry"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-peach",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-peach"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-pear",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-pear"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-orange",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-orange"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-mango",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-mango"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-breadfruit",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-breadfruit"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-lychee",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-lychee"
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "juiceportion-pomegranate",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-pomegranate"
 						},
 						requiresContainer: false
 					}
@@ -650,6 +950,42 @@
 						},
 						{
 							type: "item",
+							code: "expandedfoods:fruitsyrupportion-apple",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-apple",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
 							code: "expandedfoods:fruitsyrupportion-blueberry",
 							quantity: 100
 						},
@@ -852,6 +1188,294 @@
 						smeltedStack: {
 							type: "item",
 							code: "expandedfoods:gelatin-pineapple",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-cherry",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-cherry",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-peach",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-peach",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-pear",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-pear",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-orange",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-orange",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-mango",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-mango",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-breadfruit",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-breadfruit",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-lychee",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-lychee",
+							quantity: 2
+						},
+						requiresContainer: false
+					}
+				},
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "expandedfoods:gelatin-raw",
+							quantity: 1
+						},
+						{
+							type: "item",
+							code: "expandedfoods:fruitsyrupportion-pomegranate",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 100
+						},
+					],
+					Simmering: {
+						meltingPoint: 200,
+						meltingDuration: 45,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:gelatin-pomegranate",
 							quantity: 2
 						},
 						requiresContainer: false

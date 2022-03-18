@@ -311,7 +311,7 @@
 	guiTransformByType: {
 		"*": {
 			rotate: false,
-			translation: { x: -10, y: -2, z: 0 },
+			translation: { x: -2, y: 0, z: 0 },
 			rotation: { x: 171, y: -122, z: 33 },
 			origin: { x: 0.5, y: 0.04, z: 0.56 },
 			scale: 5

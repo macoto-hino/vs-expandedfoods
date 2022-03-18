@@ -123,7 +123,10 @@
 				"scale": 0.8
 			},
 		},
-		inContainerTexture: { base: "game:block/barrel/{fruit}fruit" },
+		inContainerTextureByType: {
+			"@*-(redapple|pinkapple|yellowapple)": { base: "game:block/barrel/apple" },
+			"*": { base: "game:block/barrel/{fruit}" },
+		},
 	},
 	shapebytype: { 
 		"*": { base: "item/food/dryfruit/{fruit}" }

@@ -13,9 +13,9 @@
 	"elements": [
 		{
 			"name": "origin",
-			"from": [ 8.0, 0.0, 8.0 ], 
-			"to": [ 8.0, 0.0, 8.0 ], 
-			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"from": [ 8.0, 0.1, 8.0 ], 
+			"to": [ 8.0, 0.1, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.1, 8.0 ],
 			"faces": {
 				"north": { "texture": "#metal", "uv": [ 12.0, 0.5, 12.5, 1.0 ] },
 				"east": { "texture": "#metal", "uv": [ 13.5, 12.5, 14.0, 13.0 ] },
@@ -27,9 +27,9 @@
 			"children": [
 				{
 					"name": "contents",
-					"from": [ -6.25, 1.0, -6.15 ], 
-					"to": [ 6.25, 2.0, 6.35 ], 
-					"rotationOrigin": [ -6.25, 1.0, -6.15 ],
+					"from": [ -6.25, 0.0, -6.15 ], 
+					"to": [ 6.25, 1.0, 6.35 ], 
+					"rotationOrigin": [ -6.25, 0.0, -6.15 ],
 					"faces": {
 						"north": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },
 						"east": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },

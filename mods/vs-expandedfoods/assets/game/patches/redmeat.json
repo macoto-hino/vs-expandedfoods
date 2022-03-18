@@ -249,7 +249,7 @@
   },
   {
     "op": "replace",
-    "path": "/guiTransformByType/*/translation/z",
+    "path": "/guiTransformByType/*/translation/y",
     "value": 5,
     "file": "itemtypes/food/redmeat.json"
   }
