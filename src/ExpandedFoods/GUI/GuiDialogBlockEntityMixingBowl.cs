@@ -81,7 +81,7 @@ namespace ExpandedFoods
                 .AddDialogTitleBar(DialogTitle, OnTitleBarClose)
                 .BeginChildElements(bgBounds)
                     .AddDynamicCustomDraw(quernBounds, OnBgDraw, "symbolDrawer")
-                    .AddDynamicText(ot, CairoFont.WhiteDetailText(), EnumTextOrientation.Left, ElementBounds.Fixed(0, 30, 210, 45), "outputText")
+                    .AddDynamicText(ot, CairoFont.WhiteDetailText().WithOrientation(EnumTextOrientation.Left), ElementBounds.Fixed(0, 30, 210, 45), "outputText")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 1, new int[] { 0 }, inputSlotBounds, "inputSlot")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 6, new int[] { 2, 3, 4, 5, 6, 7 }, ingredSlotBounds, "ingredSlots")
                     .AddItemSlotGrid(Inventory, SendInvPacket, 1, new int[] { 1 }, outputSlotBounds, "outputslot")

@@ -162,7 +162,25 @@ namespace ExpandedFoods
                     rotY = 180 * GameMath.DEG2RAD;
 				}
 			}
-            else if (Block.Shape.rotateY == 90 || Block.Shape.rotateY == 270)
+            else if (Block.Shape.rotateY == 90)
+            {
+                if (index == 0 || index == 2)
+                {
+                    rotY = 0 * GameMath.DEG2RAD;
+                }
+                else
+                {
+                    rotY = 180 * GameMath.DEG2RAD;
+                }
+            }
+            else if (Block.Shape.rotateY == 180)
+            {
+                if (index == 0 || index == 1)
+                {
+                    rotY = 180 * GameMath.DEG2RAD;
+				}
+			}
+            else if (Block.Shape.rotateY == 270 )
             {
                 if (index == 0 || index == 2)
                 {
@@ -173,13 +191,6 @@ namespace ExpandedFoods
                     rotY = 0 * GameMath.DEG2RAD;
                 }
             }
-            else if (Block.Shape.rotateY == 180)
-            {
-                if (index == 0 || index == 1)
-                {
-                    rotY = 180 * GameMath.DEG2RAD;
-				}
-			}
             mesh.Rotate(new Vec3f(0.5f, 0, 0.5f), 0, rotY, 0);
             mesh.Translate(x - 0.5f, 0, z - 0.5f);
         }

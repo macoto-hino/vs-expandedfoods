@@ -26,25 +26,27 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
 
-1.5.3-pre.4
+1.5.3-pre.5
 Updated to VS 1.16
-Recipes updated for new fruit (fruit syrups fully updated (including bread & muffin syrup swirls; gelatin; yogurt) - DONE!!!
-Meat hook renderer fixed - DONE!!!
-Cauldron/mini-cauldron/saucepan use `cookingSlotCapacityLitres` now - DONE!!!
-Fixed bottle multi-stack liquid splitting issue - DONE!!!
-Expanded Foods tab added, contains everything from this mod - DONE!!!
-Berry Bread changed to Fruit Bread - DONE!!!
-Pie crashing stopped (still has nutrition issues) - DONE!!!
-Non-Wildcraft Saucepan recipes fixed - DONE!!!
-Saucepan/Cauldron liquid gradient shapes refined - DONE!!!
-Dried fruit has barrel textures - DONE!!!
-Mixing Bowl GUI text fixed (thanks to SpearAndFang!) - DONE!!!
 Remapped old juice/wine to vanilla versions
 Herbal stuff updated for Wildcraft; Wild Farming compatibility removed
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
+
+1.5.3-pre.4
+Recipes FULLY updated for new fruit!
+Meat hook renderer fixed
+Cauldron/mini-cauldron/saucepan use `cookingSlotCapacityLitres` now
+Fixed bottle multi-stack liquid splitting issue 
+Expanded Foods tab added, contains everything from this mod
+Pie crashing stopped (still has nutrition issues)
+Non-Wildcraft Saucepan recipes fixed
+Saucepan/Cauldron liquid gradient shapes refined
+Dried fruit has barrel textures
+Berry Bread changed to Fruit Bread
+Mixing Bowl GUI text fixed (thanks to SpearAndFang!)
 
 1.5.3-pre.3
 Updated to VS 1.16
