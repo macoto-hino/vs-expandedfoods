@@ -30,7 +30,7 @@ The cauldron has all the same functions of a bucket except it cannot be used to 
 
 combustibleProps: {
   meltingPoint: 200,
-  meltingDuration: 15,
+  meltingDuration: 150, (this needs to be 10 times higher than what you want the output to be, in seconds)
   smeltedRatio: 4,
   smeltingType: "cook",
   smeltedStack: { type: "item", code: "expandedfoods:birchsyrupportion" },

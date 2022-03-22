@@ -214,12 +214,13 @@ namespace ExpandedFoods
         public override float GetMeltingDuration(IWorldAccessor world, ISlotProvider cookingSlotsProvider, ItemSlot inputSlot)
         {
             float dur = 0f;
+            float speed = 10f;
             List<ItemStack> contents = new List<ItemStack>();
             foreach (ItemSlot slot in cookingSlotsProvider.Slots)
             {
                 if (!slot.Empty) contents.Add(slot.Itemstack);
             }
-            if (contents.Count == 1 && contents[0].Collectible.CombustibleProps != null) return contents[0].Collectible.CombustibleProps.MeltingDuration * contents[0].StackSize;
+            if (contents.Count == 1 && contents[0].Collectible.CombustibleProps != null) return contents[0].Collectible.CombustibleProps.MeltingDuration * contents[0].StackSize / speed;
             else if (simmerRecipes != null && contents.Count > 1)
             {
                 SimmerRecipe match = null;
@@ -236,7 +237,7 @@ namespace ExpandedFoods
 
                 if (match == null) return 0;
 
-                return match.Simmering.MeltingDuration * amount;
+                return match.Simmering.MeltingDuration * amount / speed;
             }
 
             return dur;

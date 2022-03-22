@@ -36,6 +36,20 @@
   	"/iir remapq expandedfoods:cookedveggie-pickledturnip-perfect expandedfoods:cookedveggie-pickledturnip force",
   	"/iir remapq expandedfoods:cookedveggie-pickledparsnip-perfect expandedfoods:cookedveggie-pickledparsnip force",
   	"/iir remapq expandedfoods:cookedveggie-pickledpumpkin-perfect expandedfoods:cookedveggie-pickledpumpkin force",
-	]
+    
+  	"/iir remapq game:juiceportion-blueberry expandedfoods:fruitjuiceportion-blueberry force",
+  	"/iir remapq game:juiceportion-cranberry expandedfoods:fruitjuiceportion-cranberry force",
+  	"/iir remapq game:juiceportion-redcurrant expandedfoods:fruitjuiceportion-redcurrant force",
+  	"/iir remapq game:juiceportion-whitecurrant expandedfoods:fruitjuiceportion-whitecurrant force",
+  	"/iir remapq game:juiceportion-blackcurrant expandedfoods:fruitjuiceportion-blackcurrant force",
+    "/iir remapq game:juiceportion-pineapple expandedfoods:fruitjuiceportion-pineapple force",
+
+  	"/iir remapq game:ciderportion-blueberry expandedfoods:fruitwineportion-blueberry force",
+  	"/iir remapq game:ciderportion-cranberry expandedfoods:fruitwineportion-cranberry force",
+  	"/iir remapq game:ciderportion-redcurrant expandedfoods:fruitwineportion-redcurrant force",
+  	"/iir remapq game:ciderportion-whitecurrant expandedfoods:fruitwineportion-whitecurrant force",
+  	"/iir remapq game:ciderportion-blackcurrant expandedfoods:fruitwineportion-blackcurrant force",
+  	"/iir remapq game:ciderportion-pineapple expandedfoods:fruitwineportion-pineapple force",
+    ]
   }
 ]

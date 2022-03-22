@@ -68,7 +68,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -94,7 +94,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -120,7 +120,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -150,7 +150,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -175,7 +175,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -205,7 +205,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -235,7 +235,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -265,7 +265,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -295,7 +295,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -325,7 +325,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -355,7 +355,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -385,7 +385,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -415,7 +415,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -445,7 +445,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -475,7 +475,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -505,7 +505,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -535,7 +535,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -565,7 +565,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -595,7 +595,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -625,7 +625,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -655,7 +655,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -685,7 +685,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -715,7 +715,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -745,7 +745,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -775,7 +775,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -805,7 +805,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -835,7 +835,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -865,7 +865,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -895,7 +895,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -930,7 +930,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -966,7 +966,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1002,7 +1002,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1038,7 +1038,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1074,7 +1074,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1110,7 +1110,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1146,7 +1146,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1182,7 +1182,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1218,7 +1218,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1254,7 +1254,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1290,7 +1290,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1326,7 +1326,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1362,7 +1362,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1398,7 +1398,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1434,7 +1434,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1470,7 +1470,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1506,7 +1506,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1542,7 +1542,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1573,7 +1573,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1603,7 +1603,7 @@
 					],
 					Simmering: {
 						meltingPoint: 200,
-						meltingDuration: 45,
+						meltingDuration: 450,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1628,7 +1628,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 15,
+						meltingDuration: 150,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1653,7 +1653,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1678,7 +1678,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1703,7 +1703,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1728,7 +1728,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1753,7 +1753,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1778,7 +1778,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1803,7 +1803,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1828,7 +1828,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1853,7 +1853,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1878,7 +1878,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1903,7 +1903,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1928,7 +1928,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1953,7 +1953,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -1978,7 +1978,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2003,7 +2003,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2028,7 +2028,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2053,7 +2053,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2078,7 +2078,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2103,7 +2103,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2128,7 +2128,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2153,7 +2153,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2178,7 +2178,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2203,7 +2203,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2228,7 +2228,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2253,7 +2253,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2278,7 +2278,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2303,7 +2303,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2328,7 +2328,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2353,7 +2353,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2378,7 +2378,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2403,7 +2403,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2428,7 +2428,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2453,7 +2453,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2478,7 +2478,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2503,7 +2503,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2528,7 +2528,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2553,7 +2553,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2578,7 +2578,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2603,7 +2603,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2628,7 +2628,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2653,7 +2653,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2678,7 +2678,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2703,7 +2703,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2728,7 +2728,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2753,7 +2753,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2778,7 +2778,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2803,7 +2803,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2828,7 +2828,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2853,7 +2853,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2878,7 +2878,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2903,7 +2903,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2928,7 +2928,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2953,7 +2953,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -2978,7 +2978,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3003,7 +3003,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3028,7 +3028,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3053,7 +3053,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3078,7 +3078,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3103,7 +3103,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3128,7 +3128,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3153,7 +3153,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3178,7 +3178,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3203,7 +3203,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3228,7 +3228,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3253,7 +3253,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3278,7 +3278,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3303,7 +3303,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3328,7 +3328,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3353,7 +3353,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3378,7 +3378,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3403,7 +3403,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3428,7 +3428,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3453,7 +3453,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3478,7 +3478,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3503,7 +3503,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3528,7 +3528,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3553,7 +3553,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3578,7 +3578,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3603,7 +3603,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3628,7 +3628,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3653,7 +3653,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3678,7 +3678,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3703,7 +3703,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3728,7 +3728,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3753,7 +3753,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3778,7 +3778,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3803,7 +3803,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3828,7 +3828,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3853,7 +3853,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3878,7 +3878,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3903,7 +3903,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3928,7 +3928,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3953,7 +3953,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -3978,7 +3978,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4003,7 +4003,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4028,7 +4028,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4053,7 +4053,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4078,7 +4078,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4103,7 +4103,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4128,7 +4128,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4153,7 +4153,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4178,7 +4178,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4203,7 +4203,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4228,7 +4228,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4253,7 +4253,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4278,7 +4278,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4303,7 +4303,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4328,7 +4328,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4353,7 +4353,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4378,7 +4378,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4403,7 +4403,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4428,7 +4428,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4453,7 +4453,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4478,7 +4478,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4503,7 +4503,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4528,7 +4528,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4553,7 +4553,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4578,7 +4578,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4603,7 +4603,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4628,7 +4628,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4653,7 +4653,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4678,7 +4678,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4703,7 +4703,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4728,7 +4728,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4753,7 +4753,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4778,7 +4778,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4803,7 +4803,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4829,7 +4829,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4854,7 +4854,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4879,7 +4879,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4904,7 +4904,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4929,7 +4929,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4954,7 +4954,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -4979,7 +4979,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5004,7 +5004,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5029,7 +5029,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5054,7 +5054,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5079,7 +5079,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5104,7 +5104,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5129,7 +5129,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5154,7 +5154,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5180,7 +5180,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5205,7 +5205,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5230,7 +5230,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5255,7 +5255,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5280,7 +5280,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5305,7 +5305,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5330,7 +5330,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5355,7 +5355,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5380,7 +5380,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5405,7 +5405,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5430,7 +5430,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5455,7 +5455,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5480,7 +5480,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5505,7 +5505,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5531,7 +5531,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5556,7 +5556,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5581,7 +5581,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5606,7 +5606,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5631,7 +5631,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5656,7 +5656,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5681,7 +5681,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5706,7 +5706,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5731,7 +5731,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5756,7 +5756,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5781,7 +5781,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5806,7 +5806,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5831,7 +5831,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5856,7 +5856,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5882,7 +5882,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5907,7 +5907,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5932,7 +5932,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5957,7 +5957,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -5982,7 +5982,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6007,7 +6007,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6032,7 +6032,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6057,7 +6057,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6082,7 +6082,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6107,7 +6107,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6132,7 +6132,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6157,7 +6157,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6182,7 +6182,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6207,7 +6207,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6233,7 +6233,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6258,7 +6258,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6283,7 +6283,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6308,7 +6308,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6333,7 +6333,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6358,7 +6358,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6383,7 +6383,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6408,7 +6408,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6433,7 +6433,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6458,7 +6458,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6483,7 +6483,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6508,7 +6508,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6533,7 +6533,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6558,7 +6558,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6584,7 +6584,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6609,7 +6609,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6634,7 +6634,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6659,7 +6659,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6684,7 +6684,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6709,7 +6709,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6734,7 +6734,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6759,7 +6759,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6784,7 +6784,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6809,7 +6809,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6834,7 +6834,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6859,7 +6859,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6884,7 +6884,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6909,7 +6909,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6935,7 +6935,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6960,7 +6960,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -6985,7 +6985,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7010,7 +7010,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7035,7 +7035,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7060,7 +7060,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7085,7 +7085,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7110,7 +7110,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7135,7 +7135,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7160,7 +7160,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7185,7 +7185,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7210,7 +7210,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7235,7 +7235,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7260,7 +7260,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7286,7 +7286,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7311,7 +7311,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7336,7 +7336,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7361,7 +7361,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7386,7 +7386,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7411,7 +7411,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7436,7 +7436,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7461,7 +7461,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7486,7 +7486,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7511,7 +7511,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7536,7 +7536,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7561,7 +7561,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7586,7 +7586,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7611,7 +7611,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7637,7 +7637,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7662,7 +7662,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7687,7 +7687,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7712,7 +7712,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7737,7 +7737,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7762,7 +7762,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7787,7 +7787,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7812,7 +7812,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7837,7 +7837,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7862,7 +7862,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7887,7 +7887,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7912,7 +7912,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7937,7 +7937,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7962,7 +7962,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -7987,7 +7987,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8012,7 +8012,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8037,7 +8037,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8062,7 +8062,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8087,7 +8087,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8112,7 +8112,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8137,7 +8137,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8162,7 +8162,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8187,7 +8187,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8212,7 +8212,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8237,7 +8237,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8262,7 +8262,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8287,7 +8287,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8312,7 +8312,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8337,7 +8337,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8362,7 +8362,7 @@
 					],
 					Simmering: {
 						meltingPoint: 150,
-						meltingDuration: 10,
+						meltingDuration: 100,
 						smeltedRatio: 1,
 						smeltingType: "bake",
 						smeltedStack: {
@@ -8387,7 +8387,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 150,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8417,7 +8417,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8452,7 +8452,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8483,7 +8483,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8518,7 +8518,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8549,7 +8549,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8584,7 +8584,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8615,7 +8615,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8650,7 +8650,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8681,7 +8681,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8716,7 +8716,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8747,7 +8747,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8782,7 +8782,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8813,7 +8813,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8848,7 +8848,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8879,7 +8879,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8914,7 +8914,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8945,7 +8945,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -8980,7 +8980,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -9011,7 +9011,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -9046,7 +9046,7 @@
 					],
 					"Simmering": {
 						"meltingPoint": 200,
-						"meltingDuration": 45,
+						"meltingDuration": 450,
 						"smeltedRatio": 1,
 						"smeltingType": "bake",
 						"smeltedStack": {
@@ -9122,7 +9122,7 @@
 	combustiblePropsByType: {
 		"saucepan-raw": {
 			meltingPoint: 600,
-			meltingDuration: 45,
+			meltingDuration: 450,
 			smeltedRatio: 1,
 			smeltingType: "fire",
 			smeltedStack: {
