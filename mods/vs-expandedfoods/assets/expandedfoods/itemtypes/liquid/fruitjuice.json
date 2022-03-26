@@ -1,0 +1,55 @@
+{
+	code: "fruitjuiceportion",
+	class: "TransLiquid",
+	matterState: "liquid",
+	variantgroups: [
+		{ code: "type", states: ["blueberry", "cranberry", "redcurrant", "whitecurrant", "blackcurrant", "pineapple"] },
+	],
+	attributes: {
+		"handbook": { "groupBy": [ "fruitjuiceportion-*" ] },
+		nutritionPropsWhenInMeal: { satiety: 180, health: 1, foodcategory: "Fruit" },
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 8,
+			texture: { base: "game:item/liquid/{type}" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "item", code: "expandedfoods:fruitjuiceportion-{type}" }
+			}
+		}
+	},
+	transitionableProps: [{
+    		type: "Cure",
+    		freshHours: { avg: 0 },
+    		transitionHours: { avg: 0.01 },
+    		transitionedStack: { type: "item", code: "game:juiceportion-{type}" },
+    		transitionRatio: 1
+  	}],
+	shape: { base: "game:item/liquid" },
+	texture: { base: "game:item/liquid/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200,
+	combustibleProps: {
+		meltingPoint: 150,
+		meltingDuration: 5,
+		smeltedRatio: 4,
+		smeltingType: "cook",
+		smeltedStack: { type: "item", code: "expandedfoods:fruitsyrupportion-{type}" },
+		requiresContainer: true
+	},
+	nutritionProps: { saturation: 120, health: 1, foodcategory: "Fruit" },
+	guiTransform: {
+		rotation: { x: 128, y: 40, z: 7 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.4
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 42, y: 129, z: -30 }
+	},
+	tpHandTransform: {
+		translation: { x: -1.5, y: -1, z: -1.4 },
+	},
+}

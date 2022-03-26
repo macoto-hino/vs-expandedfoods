@@ -129,6 +129,60 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-raw",
+    "value": [
+      "meatnugget",
+      "redmeat-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-poultry-raw",
+    "value": [
+      "meatnugget",
+      "poultry-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-redmeat-raw",
+    "value": [
+      "meatnugget",
+      "redmeat-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-cut",
+    "value": [
+      "meatnugget",
+      "redmeat-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-poultry-cut",
+    "value": [
+      "meatnugget",
+      "poultry-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-redmeat-cut",
+    "value": [
+      "meatnugget",
+      "redmeat-raw"
+    ],
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
     "path": "/texturesByType/*/poultry-raw",
     "value": {
       "base": "block/food/meal/group3-millet-bolete-cranberry-poultry"

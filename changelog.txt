@@ -28,14 +28,18 @@ Healing over time added
 
 1.5.3-pre.5
 Updated to VS 1.16
-Remapped old juice/wine to vanilla versions
-Herbal stuff updated for Wildcraft; Wild Farming compatibility removed
+Remapped old juice/wine to vanilla versions - KIND OF!!!
+Herbal stuff updated for Wildcraft; Wild Farming compatibility removed - DONE???
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
 Meat hooks fixed harder - DONE!!!
 Cauldron/Saucepan boil non-simmer recipes faster - DONE!!!
+Mini cauldron recipe added lol
+Salad allows pickled cabbage
+Gozinaki no longer requires Acorns
+Acorns compatibility reviewed & refined
 
 1.5.3-pre.4
 Recipes FULLY updated for new fruit!

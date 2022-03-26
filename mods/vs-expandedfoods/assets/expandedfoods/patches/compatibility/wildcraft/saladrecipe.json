@@ -61,6 +61,21 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "wildcraft:herbs-*",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group10"
+      ]
+    },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "wildcraft:fruit-elderberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group16"] },
     "file": "recipes/mixing/salad.json",
@@ -413,6 +428,258 @@
     "op": "add",
     "path": "/ingredients/8/validStacks/-",
     "value": { type: "item", code: "expandedfoods:wildfruitsyrupportion-raspberry",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "raspberrysyrup"] }, 
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-partbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-driedpartbaked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-cooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-driedcooked",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultry-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-charred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
+    "file": "recipes/mixing/salad.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-driedcharred",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"]  },
     "file": "recipes/mixing/salad.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
