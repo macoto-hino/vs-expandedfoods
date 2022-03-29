@@ -39,7 +39,7 @@
 			"lidSound": "game:sounds/block/planks",
 			canSeal: true,
 			lidPerishRate: 0.9,
-			"maxTemperature": 250,
+			"maxTemperature": 400,
 			storageType: 1,
 			maxFillLevel: 2,
 			maxContainerSlotStackSize: 4,
@@ -53,6 +53,32 @@
 				"water-*"
 			],
 			simmerRecipes: [
+				{
+					Ingredients: [
+						{
+							type: "item",
+							code: "waterportion",
+							quantity: 10
+						},
+						{
+							type: "item",
+							code: "game:fat",
+							quantity: 1
+						}
+					],
+					Simmering: {
+						meltingPoint: 400,
+						meltingDuration: 450,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: {
+							type: "item",
+							code: "expandedfoods:lard",
+							"quantity":  10
+						},
+						requiresContainer: false
+					}
+				},
 				{
 					Ingredients: [
 						{

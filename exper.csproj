@@ -946,7 +946,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\foodpatches.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildseeds.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\fat.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\flower.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\grain.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\honeycomb.json" />
