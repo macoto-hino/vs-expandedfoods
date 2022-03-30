@@ -61,5 +61,5 @@
     path: "/2/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
- },
+ }
 ]
