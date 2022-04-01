@@ -26,21 +26,23 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
 
-1.5.3-pre.5
+1.5.3-pre.6
 Updated to VS 1.16
-Remapped old juice/wine to vanilla versions - KIND OF!!!
-Herbal stuff updated for Wildcraft; Wild Farming compatibility removed - DONE???
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
-Meat hooks fixed harder - DONE!!!
-Cauldron/Saucepan boil non-simmer recipes faster - DONE!!!
-Mini cauldron mold recipe added lol
-Salad allows pickled cabbage - DONE!!!
 Gozinaki no longer requires Acorns
 Acorns compatibility reviewed & refined
-Lard recipe requires water - DONE!!!
+
+1.5.3-pre.5
+Mini cauldron mold recipe added
+Old juice/wine cures into vanilla versions
+Herbal stuff updated for Wildcraft; Wild Farming compatibility removed
+Meat hooks fixed harder
+Cauldron/Saucepan boil non-simmer recipes faster
+Salad allows pickled cabbage
+Lard recipe requires water (0.1 L per unit of fat)
 
 1.5.3-pre.4
 Recipes FULLY updated for new fruit!

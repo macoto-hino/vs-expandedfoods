@@ -959,7 +959,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bighookmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bottle4.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\cauldronmoldrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\cauldronminimold.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\cauldronmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\saucepan.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\acornbreadcrumbs.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\acorns\acornhardtack.json" />
