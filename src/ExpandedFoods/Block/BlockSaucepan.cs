@@ -726,43 +726,43 @@ namespace ExpandedFoods
                 {
                     if (fullness <= 0.1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.2f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.3f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.4f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.5f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.6f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.7f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.8f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.9f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                 }
 
@@ -774,43 +774,43 @@ namespace ExpandedFoods
                 {
                     if (fullness <= 0.1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     if (fullness <= 0.2f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.3f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.4f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.5f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.6f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.7f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.8f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.9f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                 }
 
@@ -822,43 +822,43 @@ namespace ExpandedFoods
                 {
                     if (fullness <= 0.1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.2f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.2f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.3f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.3f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.4f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.4f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.5f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.5f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.6f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.6f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.7f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.7f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.8f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.8f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 0.9f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 0.9f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                     else if (fullness <= 1f % maxLevel)
                     {
-                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f + ".json").ToObject<Shape>();
+                        shape = capi.Assets.TryGet("expandedfoods:shapes/block/" + FirstCodePart() + "/contents" + "-" + 1f.ToString().Replace(",", ".") + ".json").ToObject<Shape>();
                     }
                 }
 

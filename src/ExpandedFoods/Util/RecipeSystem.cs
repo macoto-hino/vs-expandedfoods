@@ -57,6 +57,7 @@ namespace ExpandedFoods
         private static MixingRecipeRegistry loaded;
         private List<CookingRecipe> mixingRecipes = new List<CookingRecipe>();
         private List<DoughRecipe> kneadingRecipes = new List<DoughRecipe>();
+        private List<SimmerRecipe> simmerRecipes = new List<SimmerRecipe>();
         public List<CookingRecipe> MixingRecipes
         {
             get
@@ -79,6 +80,18 @@ namespace ExpandedFoods
                 kneadingRecipes = value;
             }
         }
+        public List<SimmerRecipe> SimmerRecipes
+        {
+            get
+            {
+                return simmerRecipes;
+            }
+            set
+            {
+                simmerRecipes = value;
+            }
+        }
+
         public static MixingRecipeRegistry Create()
         {
             if (loaded == null)
@@ -388,6 +401,7 @@ namespace ExpandedFoods
         {
             LoadMixingRecipes();
             LoadKneadingRecipes();
+            //LoadSimmeringRecipes();
         }
 
         public void LoadMixingRecipes()
@@ -456,6 +470,37 @@ namespace ExpandedFoods
             api.World.Logger.Event("{0} kneading recipes loaded", recipeQuantity);
             api.World.Logger.StoryEvent(Lang.Get("expandedfoods:The butter and the bread..."));
         }
+
+        /*public void LoadSimmeringRecipes()
+        {
+            Dictionary<AssetLocation, JToken> files = api.Assets.GetMany<JToken>(api.Server.Logger, "recipes/simmering");
+            int recipeQuantity = 0;
+            int ignored = 0;
+
+            foreach (var val in files)
+            {
+                if (val.Value is JObject)
+                {
+                    SimmerRecipe rec = val.Value.ToObject<SimmerRecipe>();
+                    if (!rec.Enabled) continue;
+
+                    LoadSimmeringRecipe(val.Key, rec, ref recipeQuantity, ref ignored);
+                }
+                if (val.Value is JArray)
+                {
+                    foreach (var token in (val.Value as JArray))
+                    {
+                        SimmerRecipe rec = token.ToObject<SimmerRecipe>();
+                        if (!rec.Enabled) continue;
+
+                        LoadSimmeringRecipe(val.Key, rec, ref recipeQuantity, ref ignored);
+                    }
+                }
+            }
+
+            api.World.Logger.Event("{0} simmering recipes loaded", recipeQuantity);
+            api.World.Logger.StoryEvent(Lang.Get("expandedfoods:The syrup and lard..."));
+        */
 
         void LoadKneadingRecipe(AssetLocation path, DoughRecipe recipe, ref int quantityRegistered, ref int quantityIgnored)
         {

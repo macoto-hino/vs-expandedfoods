@@ -29,7 +29,7 @@
 			},			
 			"*-raw": {
 				containable: true,
-				itemsPerLitre: 1,
+				itemsPerLitre: 100,
 				isopaque: true,
 				texture: { base: "game:block/liquid/milkportion" },
 				allowSpill: true,

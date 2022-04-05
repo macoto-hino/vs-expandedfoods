@@ -1164,6 +1164,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\mixing\pastacold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\mixing\salad.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\mixing\yogurtmeal.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\simmering\lard.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\smithing\bighook.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\smithing\bighook4.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\smithing\rollingpinsmith.json" />
