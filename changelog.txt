@@ -26,17 +26,20 @@ Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
 
-1.5.3-pre.6
+1.5.3-pre.7
 Updated to VS 1.16
-Saucepan crashing due to different decimal systems fixed? - DONE!!!
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
 Gozinaki no longer requires Acorns
 Acorns compatibility reviewed & refined
+
+1.5.3-pre.6
+Saucepan crashing due to different decimal systems fixed?
 Herbal tea recipe re-added
-Soy milk/sauce pressing fixed  - DONE!!!
+Soy milk/sauce pressing fixed 
+Japanese translation updated 
 
 1.5.3-pre.5
 Mini cauldron mold recipe added
