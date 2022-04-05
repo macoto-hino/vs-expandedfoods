@@ -1,6 +1,6 @@
 {
 	code: "tea",
-	class: "ExpandedLiquid",
+	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	attributes: {
 		handbook: {
@@ -8,19 +8,6 @@
 		},
 		inContainerTexture: { base: "game:item/liquid/tea" },
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-		expandedNutritionPropsByType: {
-			"*-herb": {
-      				"game:herbbundle-sage" : { saturation: 19, health: 0.35, foodcategory: "Vegetable" },
-      				"game:herbbundle-cilantro" : { saturation: 14, health: 0.15, foodcategory: "Vegetable" },
-      				"game:herbbundle-lavender" : { saturation: 14, health: 0.15, foodcategory: "Vegetable" },
-      				"game:herbbundle-mint" : { saturation: 14, health: 0.15, foodcategory: "Vegetable" },
-      				"game:herbbundle-basil" : { saturation: 9, health: 0.1, foodcategory: "Vegetable" },
-      				"game:herbbundle-chamomile" : { saturation: 9, health: 0.1, foodcategory: "Vegetable" },
-      				"game:herbbundle-marjoram" : { saturation: 9, health: 0.1, foodcategory: "Vegetable" },
-      				"game:herbbundle-saffron" : { saturation: 9, health: 0.1, foodcategory: "Vegetable" },
-      				"game:herbbundle-thyme" : { saturation: 9, health: 0.1, foodcategory: "Vegetable" },
-			},
-		},
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
@@ -30,7 +17,8 @@
 			whenSpilled: { 
 				action: "DropContents",
 				stack: { type: "item", code: "tea" } 
-			}
+			},
+			nutritionPropsPerLitre: { saturation: 300, "health": 1, foodcategory: "Vegetable" },
 		}
 	},
 	variantgroups: [
@@ -49,9 +37,6 @@
     			transitionedStack: { type: "item", code: "game:rot" },
     			transitionRatio: 0.25
   		}],
-	},
-	nutritionPropsByType: {
-		"*-herb": { saturation: 1, Health: 0.1, foodcategory: "Vegetable" }
 	},
 	guiTransform: {
 		rotation: { x: 123, y: -33, z: -13 },
