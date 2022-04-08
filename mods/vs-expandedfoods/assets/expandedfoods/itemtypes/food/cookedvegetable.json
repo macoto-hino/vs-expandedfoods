@@ -16,10 +16,10 @@
 		"*": { base: "item/food/veggies/{type}"},
 	},
 	texturesByType: {
-		"*-bolete-partbaked": {
-			"cap": {base: "item/food/veggie/partbaked/bolete/cap"},
-			"stipe": {base: "item/food/veggie/partbaked/bolete/stipe"},
-			"pores": {base: "item/food/veggie/partbaked/bolete/pores"},
+		"*-kingbolete-partbaked": {
+			"cap": {base: "item/food/veggie/partbaked/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/partbaked/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/partbaked/kingbolete/pores"},
 		},
 		"*-fieldmushroom-partbaked": {
 			"cap": {base: "item/food/veggie/partbaked/fieldmushroom/cap"},
@@ -49,10 +49,10 @@
 			"reeds": {base: "item/food/veggie/partbaked/reeds"},
 			"bellpepper": {base: "item/food/veggie/partbaked/bellpepper"},
 		},
-		"*-bolete-perfect": {
-			"cap": {base: "item/food/veggie/perfect/bolete/cap"},
-			"stipe": {base: "item/food/veggie/perfect/bolete/stipe"},
-			"pores": {base: "item/food/veggie/perfect/bolete/pores"},
+		"*-kingbolete-perfect": {
+			"cap": {base: "item/food/veggie/perfect/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/perfect/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/perfect/kingbolete/pores"},
 		},
 		"*-fieldmushroom-perfect": {
 			"cap": {base: "item/food/veggie/perfect/fieldmushroom/cap"},
@@ -82,10 +82,10 @@
 			"reeds": {base: "game:item/resource/reeds"},
 			"bellpepper": {base: "item/food/veggie/perfect/bellpepper"},
 		},
-		"*-bolete-charred": {
-			"cap": {base: "item/food/veggie/charred/bolete/cap"},
-			"stipe": {base: "item/food/veggie/charred/bolete/stipe"},
-			"pores": {base: "item/food/veggie/charred/bolete/pores"},
+		"*-kingbolete-charred": {
+			"cap": {base: "item/food/veggie/charred/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/charred/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/charred/kingbolete/pores"},
 		},
 		"*-fieldmushroom-charred": {
 			"cap": {base: "item/food/veggie/charred/fieldmushroom/cap"},
@@ -149,7 +149,7 @@
 				scale: 0.5 
 			}
 		},
-		"*-bolete-partbaked": {
+		"*-kingbolete-partbaked": {
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -157,8 +157,8 @@
 				levelTo: 0.5,
 				startScaleY: 1.0,
 				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedveggie-bolete-perfect",
-				initialCode: "game:mushroom-bolete-normal-free"
+				resultCode: "expandedfoods:cookedveggie-kingbolete-perfect",
+				initialCode: "game:mushroom-kingbolete-normal-free"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.25, z: 0 },
@@ -397,7 +397,7 @@
 				scale: 0.5 
 			}
 		},
-		"*-bolete-perfect": {
+		"*-kingbolete-perfect": {
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -405,8 +405,8 @@
 				levelTo: 0.75,
 				startScaleY: 0.9,
 				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedveggie-bolete-charred",
-				initialCode: "expandedfoods:cookedveggie-bolete-partbaked"
+				resultCode: "expandedfoods:cookedveggie-kingbolete-charred",
+				initialCode: "expandedfoods:cookedveggie-kingbolete-partbaked"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.25, z: 0 },
@@ -643,7 +643,7 @@
 				scale: 0.5 
 			}
 		},
-		"*-bolete-charred": {
+		"*-kingbolete-charred": {
 			"handbook": { "groupBy": [ "cookedveggie-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -651,7 +651,7 @@
 				levelTo: 1,
 				startScaleY: 0.8,
 				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedveggie-bolete-perfect"
+				initialCode: "expandedfoods:cookedveggie-kingbolete-perfect"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.25, z: 0 },
@@ -870,7 +870,7 @@
 	nutritionPropsByType: {
 		"*-cabbage-partbaked": { satiety: 325, foodcategory: "Vegetable" },
 		"*-pumpkin-partbaked": { satiety: 150, foodcategory: "Vegetable" },
-		"*-bolete-partbaked": { satiety: 90, foodcategory: "Vegetable" },
+		"*-kingbolete-partbaked": { satiety: 90, foodcategory: "Vegetable" },
 		"*-fieldmushroom-partbaked": { satiety: 90, foodcategory: "Vegetable" },
 		"*-flyagaric-partbaked": { satiety: 90, health: -7, foodcategory: "Vegetable" },
 		"*-pickledcarrot-partbaked": { satiety: 90, foodcategory: "Vegetable" },
@@ -882,7 +882,7 @@
 
 		"*-cabbage-perfect": { satiety: 400, foodcategory: "Vegetable" },
 		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
-		"*-bolete-perfect": { satiety: 120, foodcategory: "Vegetable" },
+		"*-kingbolete-perfect": { satiety: 120, foodcategory: "Vegetable" },
 		"*-fieldmushroom-perfect": { satiety: 120, foodcategory: "Vegetable" },
 		"*-flyagaric-perfect": { satiety: 120, health: -5, foodcategory: "Vegetable" },
 		"*-pickledcarrot-partbaked": { satiety: 120, foodcategory: "Vegetable" },
@@ -894,7 +894,7 @@
 
 		"*-cabbage-charred": { satiety: 350, foodcategory: "Vegetable" },
 		"*-pumpkin-charred": { satiety: 175, foodcategory: "Vegetable" },
-		"*-bolete-charred": { satiety: 100, foodcategory: "Vegetable" },
+		"*-kingbolete-charred": { satiety: 100, foodcategory: "Vegetable" },
 		"*-fieldmushroom-charred": { satiety: 100, foodcategory: "Vegetable" },
 		"*-flyagaric-charred": { satiety: 100, health: -3, foodcategory: "Vegetable" },
 		"*-pickledcarrot-partbaked": { satiety: 100, foodcategory: "Vegetable" },
@@ -976,7 +976,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
 		},
-		"*-bolete-*": {
+		"*-kingbolete-*": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -1082,7 +1082,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
 		},
-		"*-bolete-*": {
+		"*-kingbolete-*": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1188,7 +1188,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
 		},	
-		"*-bolete-*": {
+		"*-kingbolete-*": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1294,7 +1294,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
 		},	
-		"*-bolete-*": {
+		"*-kingbolete-*": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
 		},	
@@ -1336,7 +1336,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-bolete-partbaked": [{
+		"*-kingbolete-partbaked": [{
 			type: "Perish",
 			freshHours: { avg: 216 },
 			transitionHours: { avg: 36 },
@@ -1427,7 +1427,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-bolete-perfect": [{
+		"*-kingbolete-perfect": [{
 			type: "Perish",
 			freshHours: { avg: 216 },
 			transitionHours: { avg: 36 },
@@ -1518,7 +1518,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-bolete-charred": [{
+		"*-kingbolete-charred": [{
 			type: "Perish",
 			freshHours: { avg: 756 },
 			transitionHours: { avg: 60 },

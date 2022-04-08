@@ -2,15 +2,15 @@
 	code: "cookedchoppedvegetable",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
 		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
 	],
 	shape: { base: "item/food/veggies/chopped/cooked/{type}"},
 	texturesByType: {
 		"*-partbaked": {
-			"cap": {base: "item/food/veggie/partbaked/bolete/cap"},
-			"stipe": {base: "item/food/veggie/partbaked/bolete/stipe"},
-			"pores": {base: "item/food/veggie/partbaked/bolete/pores"},
+			"cap": {base: "item/food/veggie/partbaked/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/partbaked/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/partbaked/kingbolete/pores"},
 			"capfield": {base: "item/food/veggie/partbaked/fieldmushroom/cap"},
 			"stipefield": {base: "item/food/veggie/partbaked/fieldmushroom/stipe"},
 			"poresfield": {base: "item/food/veggie/partbaked/fieldmushroom/pores"},
@@ -34,9 +34,9 @@
 			"pickledbellpepper": {base: "item/food/veggie/partbaked/pickledbellpepper"},
 		},
 		"*-perfect": {
-			"cap": {base: "item/food/veggie/perfect/bolete/cap"},
-			"stipe": {base: "item/food/veggie/perfect/bolete/stipe"},
-			"pores": {base: "item/food/veggie/perfect/bolete/pores"},
+			"cap": {base: "item/food/veggie/perfect/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/perfect/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/perfect/kingbolete/pores"},
 			"capfield": {base: "item/food/veggie/perfect/fieldmushroom/cap"},
 			"stipefield": {base: "item/food/veggie/perfect/fieldmushroom/stipe"},
 			"poresfield": {base: "item/food/veggie/perfect/fieldmushroom/pores"},
@@ -60,9 +60,9 @@
 			"pickledbellpepper": {base: "item/food/veggie/perfect/pickledbellpepper"},
 		},
 		"*-charred": {
-			"cap": {base: "item/food/veggie/charred/bolete/cap"},
-			"stipe": {base: "item/food/veggie/charred/bolete/stipe"},
-			"pores": {base: "item/food/veggie/charred/bolete/pores"},
+			"cap": {base: "item/food/veggie/charred/kingbolete/cap"},
+			"stipe": {base: "item/food/veggie/charred/kingbolete/stipe"},
+			"pores": {base: "item/food/veggie/charred/kingbolete/pores"},
 			"capfield": {base: "item/food/veggie/charred/fieldmushroom/cap"},
 			"stipefield": {base: "item/food/veggie/charred/fieldmushroom/stipe"},
 			"poresfield": {base: "item/food/veggie/charred/fieldmushroom/pores"},
@@ -119,7 +119,7 @@
 				scale: 0.35 
 			}
 		},
-		"*-bolete-partbaked": {
+		"*-kingbolete-partbaked": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -127,8 +127,8 @@
 				levelTo: 0.5,
 				startScaleY: 1.0,
 				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-bolete-perfect",
-				initialCode: "expandedfoods:choppedvegetable-bolete"
+				resultCode: "expandedfoods:cookedchoppedvegetable-kingbolete-perfect",
+				initialCode: "expandedfoods:choppedvegetable-kingbolete"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.325, z: 0 },
@@ -199,7 +199,7 @@
 				scale: 0.35 
 			}
 		},
-		"*-bolete-perfect": {
+		"*-kingbolete-perfect": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -207,8 +207,8 @@
 				levelTo: 0.75,
 				startScaleY: 0.9,
 				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-bolete-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-bolete-partbaked"
+				resultCode: "expandedfoods:cookedchoppedvegetable-kingbolete-charred",
+				initialCode: "expandedfoods:cookedchoppedvegetable-kingbolete-partbaked"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.325, z: 0 },
@@ -277,7 +277,7 @@
 				scale: 0.35 
 			}
 		},
-		"*-bolete-charred": {
+		"*-kingbolete-charred": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -285,7 +285,7 @@
 				levelTo: 1,
 				startScaleY: 0.8,
 				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-bolete-perfect"
+				initialCode: "expandedfoods:cookedchoppedvegetable-kingbolete-perfect"
 			},
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.325, z: 0 },
@@ -346,7 +346,7 @@
 		"*-cabbage-partbaked": { satiety: 400, foodcategory: "Vegetable" },
 		"*-pumpkin-partbaked": { satiety: 160, foodcategory: "Vegetable" },
 		"*-flyagaric-partbaked": { saturation: 105, foodcategory: "Vegetable" },
-		"*-bolete-partbaked": { saturation: 105, foodcategory: "Vegetable" },
+		"*-kingbolete-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-fieldmushroom-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledcarrot-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledonion-partbaked": { saturation: 105, foodcategory: "Vegetable" },
@@ -359,7 +359,7 @@
 		"*-cabbage-perfect": { satiety: 520, foodcategory: "Vegetable" },
 		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
 		"*-flyagaric-perfect": { saturation: 140, foodcategory: "Vegetable" },
-		"*-bolete-perfect": { saturation: 140, foodcategory: "Vegetable" },
+		"*-kingbolete-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-fieldmushroom-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledcarrot-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledonion-perfect": { saturation: 140, foodcategory: "Vegetable" },
@@ -372,7 +372,7 @@
 		"*-cabbage-charred": { satiety: 450, foodcategory: "Vegetable" },
 		"*-pumpkin-charred": { satiety: 180, foodcategory: "Vegetable" },
 		"*-flyagaric-charred": { saturation: 120, foodcategory: "Vegetable" },
-		"*-bolete-charred": { saturation: 120, foodcategory: "Vegetable" },
+		"*-kingbolete-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-fieldmushroom-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledcarrot-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledonion-charred": { saturation: 120, foodcategory: "Vegetable" },
@@ -397,7 +397,7 @@
       			transitionedStack: { type: "item", code: "game:rot" },
       			transitionRatio: 1
     		}],
-    		"*-bolete-partbaked": [{
+    		"*-kingbolete-partbaked": [{
       			type: "Perish",
       			freshHours: { avg: 216 },
       			transitionHours: { avg: 36 },
@@ -481,7 +481,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-bolete-perfect": [{
+		"*-kingbolete-perfect": [{
 			type: "Perish",
 			freshHours: { avg: 216 },
 			transitionHours: { avg: 36 },
@@ -565,7 +565,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-bolete-charred": [{
+		"*-kingbolete-charred": [{
 			type: "Perish",
 			freshHours: { avg: 756 },
 			transitionHours: { avg: 60 },

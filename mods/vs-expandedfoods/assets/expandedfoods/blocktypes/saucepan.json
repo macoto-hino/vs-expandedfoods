@@ -4849,7 +4849,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-flax-bolete-raw",
+							code: "expandedfoods:breadedvegetable-flax-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4860,7 +4860,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-flax-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-flax-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4874,7 +4874,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-flax-bolete-raw",
+							code: "expandedfoods:breadedvegetable-flax-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4885,7 +4885,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-flax-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-flax-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4899,7 +4899,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rice-bolete-raw",
+							code: "expandedfoods:breadedvegetable-rice-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4910,7 +4910,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rice-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-rice-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4924,7 +4924,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rice-bolete-raw",
+							code: "expandedfoods:breadedvegetable-rice-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4935,7 +4935,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rice-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-rice-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4949,7 +4949,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rye-bolete-raw",
+							code: "expandedfoods:breadedvegetable-rye-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4960,7 +4960,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rye-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-rye-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4974,7 +4974,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rye-bolete-raw",
+							code: "expandedfoods:breadedvegetable-rye-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -4985,7 +4985,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-rye-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-rye-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -4999,7 +4999,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-spelt-bolete-raw",
+							code: "expandedfoods:breadedvegetable-spelt-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5010,7 +5010,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-spelt-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-spelt-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5024,7 +5024,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-spelt-bolete-raw",
+							code: "expandedfoods:breadedvegetable-spelt-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5035,7 +5035,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-spelt-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-spelt-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5049,7 +5049,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-cassava-bolete-raw",
+							code: "expandedfoods:breadedvegetable-cassava-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5060,7 +5060,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-cassava-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-cassava-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5074,7 +5074,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-cassava-bolete-raw",
+							code: "expandedfoods:breadedvegetable-cassava-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5085,7 +5085,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-cassava-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-cassava-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5099,7 +5099,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-amaranth-bolete-raw",
+							code: "expandedfoods:breadedvegetable-amaranth-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5110,7 +5110,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-amaranth-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-amaranth-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5124,7 +5124,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-amaranth-bolete-raw",
+							code: "expandedfoods:breadedvegetable-amaranth-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5135,7 +5135,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-amaranth-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-amaranth-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5149,7 +5149,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-sunflower-bolete-raw",
+							code: "expandedfoods:breadedvegetable-sunflower-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5160,7 +5160,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-sunflower-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-sunflower-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}
@@ -5174,7 +5174,7 @@
 						},
 						{
 							type: "item",
-							code: "expandedfoods:breadedvegetable-sunflower-bolete-raw",
+							code: "expandedfoods:breadedvegetable-sunflower-kingbolete-raw",
 							quantity: 1
 						},
 					],
@@ -5185,7 +5185,7 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:breadedvegetable-sunflower-bolete-cooked"
+							code: "expandedfoods:breadedvegetable-sunflower-kingbolete-cooked"
 						},
 						requiresContainer: false
 					}

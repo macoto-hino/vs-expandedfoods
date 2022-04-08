@@ -30,11 +30,12 @@ Healing over time added
 Updated to VS 1.16
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
+Acorns compatibility updated - DONE!!!
+Primitive Survival compatibility updated
 Wildcraft compatibility updated
 More Chopped Mushrooms added
-Gozinaki & Trail Mix no longer requires Acorns
-Acorns compatibility reviewed & refined
-Gozinaki, breaded ball & fish display models enlargened
+Gozinaki & Trail Mix no longer requires Acorns - DONE!!!
+Gozinaki, breaded ball & fish display models enlargened - DONE!!!
 Fixed breaded ball crash in handbook
 Breaded meat oven crashing fixed
 

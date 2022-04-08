@@ -4,7 +4,7 @@
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
+		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
 	attributes: {
@@ -37,9 +37,9 @@
 		renderIngredientsByType: {
 			"*": 
 				{
-				"game:mushroom-bolete-normal-free": "expandedfoods:shapes/item/food/veggies/bolete.json",
+				"game:mushroom-kingbolete-normal-free": "expandedfoods:shapes/item/food/veggies/kingbolete.json",
 				"game:mushroom-fieldmushroom-normal-free": "expandedfoods:shapes/item/food/veggies/fieldmushroom.json",
-				"game:mushroom-bolete-flyagaric-free": "expandedfoods:shapes/item/food/veggies/flyagaric.json",
+				"game:mushroom-flyagaric-normal-free": "expandedfoods:shapes/item/food/veggies/flyagaric.json",
 				"game:pickledvegetable-carrot": "expandedfoods:shapes/item/food/veggies/carrot.json",
 				"game:pickledvegetable-onion": "expandedfoods:shapes/item/food/veggies/onion.json",
 				"game:pickledvegetable-turnip": "expandedfoods:shapes/item/food/veggies/turnip.json",
@@ -128,7 +128,7 @@
 				translation: { x: 0, y: -0.25, z: 0 },
 				scale: 0.5 
 			},
-			"*-bolete-*": {
+			"*-kingbolete-*": {
 				translation: { x: 0, y: -0.25, z: 0 },
 				scale: 0.5 
 			},
@@ -353,7 +353,7 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-    		"*-bolete-syruppartbaked": {
+    		"*-kingbolete-syruppartbaked": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -368,7 +368,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-syrupv": {
+    		"*-kingbolete-syrupv": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -383,7 +383,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-syrupcharred": {
+    		"*-kingbolete-syrupcharred": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -398,7 +398,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-partbaked": {
+    		"*-kingbolete-partbaked": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -413,7 +413,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-cooked": {
+    		"*-kingbolete-cooked": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -428,7 +428,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-charred": {
+    		"*-kingbolete-charred": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -443,7 +443,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-raw": {
+    		"*-kingbolete-raw": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -458,7 +458,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
     		},
-    		"*-bolete-oiled": {
+    		"*-kingbolete-oiled": {
 			rotation: { x: -22, y: 107, z: 180 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
 			scale: 3
@@ -1065,7 +1065,7 @@
 		},
 	},
 	fpHandTransformByType: {
-   		"*-bolete-syruppartbaked": {
+   		"*-kingbolete-syruppartbaked": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1080,7 +1080,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-   		"*-bolete-syrupv": {
+   		"*-kingbolete-syrupv": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1095,7 +1095,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-   		"*-bolete-syrupcharred": {
+   		"*-kingbolete-syrupcharred": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1110,7 +1110,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-    		"*-bolete-partbaked": {
+    		"*-kingbolete-partbaked": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1125,7 +1125,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-    		"*-bolete-cooked": {
+    		"*-kingbolete-cooked": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1140,7 +1140,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-    		"*-bolete-charred": {
+    		"*-kingbolete-charred": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1155,7 +1155,7 @@
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
     		},
-    		"*-bolete-raw": {
+    		"*-kingbolete-raw": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1625,7 +1625,7 @@
 			rotation: { x: -87, y: 138, z: 60 },
 			scale: 1.26
 		},
-   		"*-bolete-oiled": {
+   		"*-kingbolete-oiled": {
 			translation: { x: 0, y: -0.25, z: 0 },
 			rotation: { x: 0, y: 90, z: -30 },
 			scale: 1.33
@@ -1749,7 +1749,7 @@
 		},
 	},
 	tpHandTransformByType: {
-    		"*-bolete-syruppartbaked": {
+    		"*-kingbolete-syruppartbaked": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1767,7 +1767,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-    		"*-bolete-syrupv": {
+    		"*-kingbolete-syrupv": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1785,7 +1785,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-    		"*-bolete-syrupcharred": {
+    		"*-kingbolete-syrupcharred": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1803,7 +1803,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-    		"*-bolete-partbaked": {
+    		"*-kingbolete-partbaked": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1821,7 +1821,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-   		"*-bolete-cooked": {
+   		"*-kingbolete-cooked": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1839,7 +1839,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-   		"*-bolete-charred": {
+   		"*-kingbolete-charred": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -1857,7 +1857,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 0.58
     		},
-    		"*-bolete-raw": {
+    		"*-kingbolete-raw": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -2330,7 +2330,7 @@
 			rotation: { x: -55, y: -78, z: 56 },
 			scale: 0.36
 		},
-    		"*-bolete-oiled": {
+    		"*-kingbolete-oiled": {
 			translation: { x: -0.93, y: -0.17, z: -0.8 },
 			rotation: { x: 15, y: -10, z: -114 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
@@ -2457,7 +2457,7 @@
 		},
 	},
 	groundTransformByType: {
-    		"*-bolete-syruppartbaked": {
+    		"*-kingbolete-syruppartbaked": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2469,7 +2469,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-syrupv": {
+    		"*-kingbolete-syrupv": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2481,7 +2481,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-syrupcharred": {
+    		"*-kingbolete-syrupcharred": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2493,7 +2493,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-partbaked": {
+    		"*-kingbolete-partbaked": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2505,7 +2505,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-cooked": {
+    		"*-kingbolete-cooked": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2517,7 +2517,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-charred": {
+    		"*-kingbolete-charred": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -2529,7 +2529,7 @@
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
-    		"*-bolete-raw": {
+    		"*-kingbolete-raw": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},
@@ -3003,7 +3003,7 @@
 			origin: { x: 0.5, y: 0.5, z: 0.5299 },
 			scale: 2.8
 		},
-    		"*-bolete-oiled": {
+    		"*-kingbolete-oiled": {
 			origin: { x: 0.5, y: 0, z: 0.5 },
 			scale: 2.5
     		},

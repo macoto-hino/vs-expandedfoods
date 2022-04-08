@@ -31,7 +31,7 @@
       "V": {
         type: "block",
         code: "game:mushroom-*-normal-free",
-	allowedVariants: ["flyagaric", "bolete", "fieldmushroom"],
+	allowedVariants: ["flyagaric", "kingbolete", "fieldmushroom"],
 	name: "type"
       }
     },
@@ -92,7 +92,7 @@
       "V": {
         type: "block",
         code: "game:mushroom-*-normal-free",
-	allowedVariants: ["flyagaric", "bolete", "fieldmushroom"],
+	allowedVariants: ["flyagaric", "kingbolete", "fieldmushroom"],
 	name: "type"
       }
     },

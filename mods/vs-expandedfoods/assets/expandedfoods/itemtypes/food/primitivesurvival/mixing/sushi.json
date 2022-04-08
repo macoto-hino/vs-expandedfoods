@@ -12,7 +12,7 @@
 			"game:pickledvegetable-cabbage": {saturation: 310, foodcategory: "Vegetable"},
 			"expandedfoods:driedseaweed": {saturation: 100, foodcategory: "Vegetable"},
 			"expandedfoods:choppedvegetable-cabbage": {saturation: 460, foodcategory: "Vegetable"},
-			"expandedfoods:choppedvegetable-bolete": {saturation: 125, foodcategory: "Vegetable"},
+			"expandedfoods:choppedvegetable-kingbolete": {saturation: 125, foodcategory: "Vegetable"},
 			"expandedfoods:choppedvegetable-fieldmushroom": {saturation: 125, foodcategory: "Vegetable"},
 			"expandedfoods:choppedvegetable-pickledcarrot": {saturation: 125, foodcategory: "Vegetable"},
 			"expandedfoods:choppedvegetable-pickledonion": {saturation: 125, foodcategory: "Vegetable"},
@@ -28,7 +28,7 @@
 				"game:pickledlegume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean.json",
 				"expandedfoods:choppedvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage.json",
 				"game:pickledvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage.json",
-				"expandedfoods:choppedvegetable-bolete": "expandedfoods:shapes/item/food/sushi/sushi-bolete.json",
+				"expandedfoods:choppedvegetable-kingbolete": "expandedfoods:shapes/item/food/sushi/sushi-kingbolete.json",
 				"expandedfoods:choppedvegetable-fieldmushroom": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom.json",
 				"expandedfoods:choppedvegetable-carrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot.json",
 				"expandedfoods:choppedvegetable-pickledcarrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot.json",
@@ -47,7 +47,7 @@
 				"game:pickledlegume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-sauce.json",
 				"expandedfoods:choppedvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-sauce.json",
 				"game:pickledvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-sauce.json",
-				"expandedfoods:choppedvegetable-bolete": "expandedfoods:shapes/item/food/sushi/sushi-bolete-sauce.json",
+				"expandedfoods:choppedvegetable-kingbolete": "expandedfoods:shapes/item/food/sushi/sushi-kingbolete-sauce.json",
 				"expandedfoods:choppedvegetable-fieldmushroom": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-sauce.json",
 				"expandedfoods:choppedvegetable-carrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-sauce.json",
 				"expandedfoods:choppedvegetable-pickledcarrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-sauce.json",
@@ -67,7 +67,7 @@
 				"game:pickledlegume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-honey.json",
 				"expandedfoods:choppedvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-honey.json",
 				"game:pickledvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-honey.json",
-				"expandedfoods:choppedvegetable-bolete": "expandedfoods:shapes/item/food/sushi/sushi-bolete-honey.json",
+				"expandedfoods:choppedvegetable-kingbolete": "expandedfoods:shapes/item/food/sushi/sushi-kingbolete-honey.json",
 				"expandedfoods:choppedvegetable-fieldmushroom": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-honey.json",
 				"expandedfoods:choppedvegetable-carrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-honey.json",
 				"expandedfoods:choppedvegetable-pickledcarrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-honey.json",
@@ -87,7 +87,7 @@
 				"game:pickledlegume-soybean": "expandedfoods:shapes/item/food/sushi/sushi-soybean-peanut.json",
 				"expandedfoods:choppedvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-peanut.json",
 				"game:pickledvegetable-cabbage": "expandedfoods:shapes/item/food/sushi/sushi-cabbage-peanut.json",
-				"expandedfoods:choppedvegetable-bolete": "expandedfoods:shapes/item/food/sushi/sushi-bolete-peanut.json",
+				"expandedfoods:choppedvegetable-kingbolete": "expandedfoods:shapes/item/food/sushi/sushi-kingbolete-peanut.json",
 				"expandedfoods:choppedvegetable-fieldmushroom": "expandedfoods:shapes/item/food/sushi/sushi-fieldmushroom-peanut.json",
 				"expandedfoods:choppedvegetable-carrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-peanut.json",
 				"expandedfoods:choppedvegetable-pickledcarrot": "expandedfoods:shapes/item/food/sushi/sushi-carrot-peanut.json",
@@ -105,7 +105,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "bolete", "fieldmushroom", "soybean", "turnip", "cassava", "bellpepper", "noveggie", "minerslettuce"] },
+		{ code: "veggie", states: ["cabbage", "carrot", "onion", "parsnip", "kingbolete", "fieldmushroom", "soybean", "turnip", "cassava", "bellpepper", "noveggie", "minerslettuce"] },
 		{ code: "oiled", states: ["nooil", "oil", "honey", "peanut"]},
 	],
 	materialDensity: 150,
@@ -200,17 +200,17 @@
 		"*-bellpepper-peanut": {
 			sushibellpepperpeanut: { base: "expandedfoods:item/food/sushi/sushibellpepperpeanut"},
 		},
-		"*-bolete-nooil": {
-			sushibolete: { base: "expandedfoods:item/food/sushi/sushibolete"},
+		"*-kingbolete-nooil": {
+			sushibolete: { base: "expandedfoods:item/food/sushi/sushikingbolete"},
 		},
-		"*-bolete-oil": {
-			sushiboletesauce: { base: "expandedfoods:item/food/sushi/sushiboletesauce"},
+		"*-kingbolete-oil": {
+			sushiboletesauce: { base: "expandedfoods:item/food/sushi/sushikingboletesauce"},
 		},
-		"*-bolete-honey": {
-			sushiboletehoney: { base: "expandedfoods:item/food/sushi/sushiboletehoney"},
+		"*-kingbolete-honey": {
+			sushiboletehoney: { base: "expandedfoods:item/food/sushi/sushikingboletehoney"},
 		},
-		"*-bolete-peanut": {
-			sushiricepeanut: { base: "expandedfoods:item/food/sushi/sushiboletepeanut"},
+		"*-kingbolete-peanut": {
+			sushiboletepeanut: { base: "expandedfoods:item/food/sushi/sushikingboletepeanut"},
 		},
 		"*-fieldmushroom-nooil": {
 			sushifieldmushroom: { base: "expandedfoods:item/food/sushi/sushifieldmushroom"},

@@ -124,7 +124,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-bolete",
+          "code": "expandedfoods:choppedvegetable-kingbolete",
           "shapeElement": "bowl/vegetable 1/*",
           "textureMapping": [
             "vegetable",
@@ -358,7 +358,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-bolete",
+          "code": "expandedfoods:choppedvegetable-kingbolete",
           "shapeElement": "bowl/vegetable 2/*",
           "textureMapping": [
             "vegetable",

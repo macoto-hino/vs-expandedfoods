@@ -56,7 +56,7 @@
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
 		},
-		"*-bolete": {
+		"*-kingbolete": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
 			bakingProperties: {
@@ -236,7 +236,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "bolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
 	],
 	shape: { base: "item/food/veggies/chopped/{type}"
 	},
@@ -248,7 +248,7 @@
 		"*-cabbage": { satiety: 375, foodcategory: "Vegetable" },
 		"*-pumpkin": { satiety: 150, foodcategory: "Vegetable" },
 		"*-flyagaric": { saturation: 100, health: -5, foodcategory: "Vegetable" },
-		"*-bolete": { saturation: 100, foodcategory: "Vegetable" },
+		"*-kingbolete": { saturation: 100, foodcategory: "Vegetable" },
 		"*-fieldmushroom": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledcarrot": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledonion": { saturation: 100, foodcategory: "Vegetable" },
@@ -286,7 +286,7 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
-		"*-bolete": [{
+		"*-kingbolete": [{
 			type: "Perish",
 			freshHours: { avg: 216 },
 			transitionHours: { avg: 36 },

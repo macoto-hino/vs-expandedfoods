@@ -205,7 +205,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-bolete",
+      "code": "expandedfoods:choppedvegetable-kingbolete",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
@@ -485,7 +485,7 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-bolete",
+      "code": "expandedfoods:choppedvegetable-kingbolete",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
@@ -765,7 +765,7 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-bolete",
+      "code": "expandedfoods:choppedvegetable-kingbolete",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",

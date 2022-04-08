@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
-      "*-bolete-normal-free": {
+      "*-kingbolete-normal-free": {
         "texture": "game:block/food/pie/fill-mushroombrown",
         "partType": "Filling"
       },
