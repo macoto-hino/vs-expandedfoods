@@ -32,8 +32,11 @@ Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
-Gozinaki no longer requires Acorns
+Gozinaki & Trail Mix no longer requires Acorns
 Acorns compatibility reviewed & refined
+Gozinaki, breaded ball & fish display models enlargened
+Fixed breaded ball crash in handbook
+Breaded meat oven crashing fixed
 
 1.5.3-pre.6
 Saucepan crashing due to different decimal systems fixed?

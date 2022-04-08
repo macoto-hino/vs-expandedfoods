@@ -9,16 +9,14 @@
 		"handbook": { "groupBy": [ "gozinaki-*" ] },
 		displaycaseable: true,
 		shelvable: true,
-		expandedNutritionPropsByType: {
-			"*-syrup": {
-      				"game:honeyportion" : { saturation: 60, health: 0.5, foodcategory: "Fruit" },
-      				"expandedfoods:fruitsyrupportion-mix" : { saturation: 210, health: 4, foodcategory: "Fruit" },
-      				"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 180, health: 3, foodcategory: "Fruit" },
-      				"expandedfoods:fruitsyrupportion-*" : { saturation: 180, health: 2, foodcategory: "Fruit" },
-      				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
-			},
+		expandedNutritionProps: {
+			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Fruit"},
+      		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
+      		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.02, foodcategory: "Fruit" }, 
+      		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, foodcategory: "Fruit" },
+      		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.01, foodcategory: "Fruit" },
 		},
-    		renderIngredientsByType: {
+    	renderIngredientsByType: {
 			"*-cooked": {
       				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
       				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
@@ -65,12 +63,12 @@
 				scale: 1.0 
 			},
 			"*-cooked": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			},
 			"*-syrup": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			},
 		},
 		bakingPropertiesByType: {
@@ -98,7 +96,7 @@
 		"*-syrup": { base: "expandedfoods:item/food/gozinaki/gozinakicooked" },
 	},
   	textures: {
-    		"gozinaki": {base: "expandedfoods:item/food/gozinaki" },
+    	"gozinaki": {base: "expandedfoods:item/food/gozinaki" },
 		"cranberry" : {base: "expandedfoods:item/food/grain/overlays/cranberry" },
 		"blueberry" : {base: "expandedfoods:item/food/grain/overlays/blueberry" },
 		"redcurrant" : {base: "expandedfoods:item/food/grain/overlays/redcurrant" },

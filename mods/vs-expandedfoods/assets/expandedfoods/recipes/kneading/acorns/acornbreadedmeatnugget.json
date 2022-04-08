@@ -1,7 +1,7 @@
 [
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-smashed", quantity: 1, name: "meat" }]},
@@ -10,7 +10,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-smashed", quantity: 1, name: "meat"  }]},
@@ -20,7 +20,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }]},
@@ -29,7 +29,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }]},
@@ -39,7 +39,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }]},
@@ -48,7 +48,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }]},
@@ -58,7 +58,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }]},
@@ -67,7 +67,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }]},
@@ -77,7 +77,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-smashed", quantity: 1, name: "meat"  }]},
@@ -86,7 +86,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "expandedfoods:meatnugget-*-smashed", quantity: 1, name: "meat"  }]},
@@ -96,7 +96,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }]},
@@ -105,7 +105,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:bushmeat-cured", quantity: 1 }]},
@@ -115,7 +115,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }]},
@@ -124,7 +124,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:poultry-cured", quantity: 1 }]},
@@ -134,7 +134,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }]},
@@ -143,7 +143,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     	{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "game:redmeat-cured", quantity: 1 }]},
@@ -154,7 +154,7 @@
 
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:agedmeat-*-cut", quantity: 1, name: "meat" }]},
@@ -163,7 +163,7 @@
  },
  {
 	ingredients: [
-		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornbreadcrumbs-*", quantity: 1  }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }, { type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:agedmeat-*-cut", quantity: 1, name: "meat" }]},
@@ -173,7 +173,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "expandedfoods:agedmeat-*-cut", quantity: 1, name: "meat" }]},
@@ -182,7 +182,7 @@
  },
  {
   	ingredients: [
-    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 1 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 1 }, { type: "item", code: "expandedfoods:lard",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 1 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 1 },]},
+    		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }, { type: "item", code: "game:egg-chicken-raw",  quantity: 1 }, { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:treesyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:fruitsyrupportion-*",  quantity: 10 }, { type: "item", code: "expandedfoods:lard",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-butter",  quantity: 10 }, { type: "item", code: "expandedfoods:peanutliquid-sauce",  quantity: 10 },]},
     		{inputs: [{ type: "item", code: "expandedfoods:breadcrumbs-*", quantity: 1, name: "grain"  }]},
     		{inputs: [{ type: "item", code: "acorns:flour-acorn", quantity: 1 }]},
     		{inputs: [{ type: "item", code: "expandedfoods:agedmeat-*-cut", quantity: 1, name: "meat" }]},

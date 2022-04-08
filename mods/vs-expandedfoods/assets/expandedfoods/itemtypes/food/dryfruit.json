@@ -11,6 +11,9 @@
 			satietyByType:  { 
 				"*-saguaro": 90, 
 				"*-cranberry": 90,
+				"*-cherry":  60,
+				"*-lychee":  60, 
+				"*-breadfruit": 180,
 				"*":  120 
 			},
 			foodcategory: "Fruit" 
@@ -203,7 +206,7 @@
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
 			scale: 2.2
 		},
-		"@*(-redapple|-yellowapple|-pinkapple|-cherry|-orange|-mango)": {
+		"@*(-redapple|-yellowapple|-pinkapple|-cherry|-orange)": {
 			translation: { x: 0, y: 3, z: 0 },
 			rotation: { x: 171, y: -63, z: 33 },
 			origin: { x: 0.5, y: 0, z: 0.5 },

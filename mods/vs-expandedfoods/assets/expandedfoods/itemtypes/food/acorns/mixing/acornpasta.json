@@ -13,10 +13,9 @@
 		nutritionPropsWhenInMealByType: { 
 			"*-cut": { satiety: 240, foodcategory: "Grain" },
 		},
-
-    		"expandedNutritionPropsByType": {
+    	"expandedNutritionPropsByType": {
 			"*-dough": {
-      				"acorns:flour-acorn" : { saturation: 155, foodcategory: "Grain" },
+      			"acorns:flour-acorn" : { saturation: 155, foodcategory: "Grain" },
 				"game:egg-chicken-raw": { saturation: 165, foodcategory: "Protein"}
 			},
 		},

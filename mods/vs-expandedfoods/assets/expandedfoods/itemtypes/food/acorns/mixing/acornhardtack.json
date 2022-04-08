@@ -8,11 +8,13 @@
 	],
 	attributes: {
 		"handbook": { "groupBy": [ "acornhardtack-*" ] },
-		expandedNutritionPropsByType: {
-			"*-raw": {
-      				"game:salt" : { saturation: 0, foodcategory: "Grain" },
-				"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
-			}
+		expandedNutritionProps: {
+      		"game:salt" : { saturation: 0, foodcategory: "Grain" },
+			"expandedfoods:lard": { saturation: 16, "health":  0.01, foodcategory: "Protein"},
+			"expandedfoods:pasteurizedmilk": { saturation: 1.15, "health":  0.01, foodcategory: "Dairy"},
+			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.01, foodcategory: "Protein"},
+			"expandedfoods:soymilk-edible": { saturation: 1.125, "health": 0.01, foodcategory: "Dairy"},
+			"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
 		},
 		bakingPropertiesByType: {
 			"*-raw": {
@@ -61,15 +63,15 @@
 		},
 		onDisplayTransformByType: { 
 			"*": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75
 			},
 		},
 		satMultByType: {
 			"*-bake1": 1,
-			"*-bake2": 0.9,
-			"*-bake3": 0.8,
-			"*-bake4": 0.7
+			"*-bake2": 0.8,
+			"*-bake3": 0.6,
+			"*-bake4": 0.4
 		},
 	},
 	shapebytype: {
