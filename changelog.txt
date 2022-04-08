@@ -36,6 +36,10 @@ Wildcraft compatibility updated
 More Chopped Mushrooms added
 Gozinaki & Trail Mix no longer requires Acorns - DONE!!!
 Gozinaki, breaded ball & fish display models enlargened - DONE!!!
+Bolete updated to King Bolete - DONE!!!
+Dried Sausage & Trail Mix extra nutrients buffed - DONE!!!
+Fish Sauce nutrients douibled - DONE!!!
+Sausage oven display fixed - DONE!!!
 Fixed breaded ball crash in handbook
 Breaded meat oven crashing fixed
 

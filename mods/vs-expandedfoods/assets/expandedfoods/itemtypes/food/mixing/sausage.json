@@ -15,13 +15,14 @@
   			origin: { x: 0.5, y: 0, z: 0.5 },
   			scale: .75
 		},
-    		"expandedNutritionPropsByType": {
+    	"expandedNutritionPropsByType": {
 			"*-raw": {
 				"expandedfoods:meatnugget-poultry-raw": {saturation: 240, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-redmeat-raw": {saturation: 340, foodcategory: "Protein"},
 				"expandedfoods:meatnugget-bushmeat-raw": {saturation: 140, foodcategory: "Protein"},
 				"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
 				"game:fat": {saturation: 200, foodcategory: "Protein"},
+				"expandedfoods:lard" : {saturation: 8, "health":  0.005, foodcategory: "Protein"},
 				"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
 				"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
 			},
@@ -119,14 +120,14 @@
 			"*-partbaked": 0.5,
 			"*-cooked": 1,
 			"*-charred": 0.75,
-			"*-driedpartbaked": 0.5,
-			"*-driedcooked": 1,
-			"*-driedcharred": 0.75
+			"*-driedpartbaked": 0.625,
+			"*-driedcooked": 1.25,
+			"*-driedcharred": 0.9375
 		},
 		onDisplayTransform: {
-			translation: { x: 0, y: -0.465, z: 0 },
-			rotation: { x: 90, y: 0, z: 0 },
-			scale: 0.5
+			translation: { x: 0, y: -0.29, z: 0 },
+			rotation: { x: 90, y: 0, z: 45 },
+			scale: 0.65
 		},
 	},
 	shapeByType: {

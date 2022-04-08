@@ -10,22 +10,16 @@
 		"handbook": { "groupBy": [ "trailmix-*" ] },
 		displaycaseable: true,
 		shelvable: true,
-		expandedNutritionProps: {
-			"expandedfoods:dryfruit-cranberry" : { saturation: 75, foodcategory: "Fruit" },
-			"expandedfoods:dryfruit-blueberry" : { saturation: 105, foodcategory: "Fruit" },
-			"expandedfoods:dryfruit-redcurrant" : { saturation: 105, foodcategory: "Fruit" },
-			"expandedfoods:dryfruit-whitecurrant" : { saturation: 105, foodcategory: "Fruit" },
-			"expandedfoods:dryfruit-blackcurrant" : { saturation: 105, foodcategory: "Fruit" },
-			"expandedfoods:dryfruit-pineapple" : { saturation: 105, foodcategory: "Fruit" },
-			"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
-			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
-		},
 		renderIngredients: {
 			"game:legume-peanut": "expandedfoods:shapes/item/food/trailmix.json",
 			"expandedfoods:acornportion": "expandedfoods:shapes/item/food/trailmix.json",
       		"expandedfoods:peanut-cooked" : "expandedfoods:shapes/item/food/trailmix.json",
       		"expandedfoods:peanut-kernels" : "expandedfoods:shapes/item/food/trailmix.json",
 		},
+		"onDisplayTransform": {
+			"translation": {"x": 0, "y": -0.175, "z": 0},
+			"scale":  0.66,
+		}
 	},
 	shape: { base: "expandedfoods:item/food/trailmix" },
 	textures: { "mix": { base: "item/food/trailmix/{type}" } },
@@ -52,10 +46,10 @@
 		scale: 1.5
 	},
 	fpHandTransform: { rotation: { x: 90, y: 90, z: -30 }
- },
+	},
 	tpHandTransform: {
- origin: { x: 0.5, y: 0.77, z: 0.5 }
- },
+		origin: { x: 0.5, y: 0.77, z: 0.5 }
+	},
 	groundTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 0, y: 0, z: 0 },
