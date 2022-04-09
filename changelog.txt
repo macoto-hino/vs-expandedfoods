@@ -25,23 +25,26 @@ Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
+Added kettle; smaller saucepan - saucepan buffed to compensate
 
-1.5.3-pre.7
+1.5.3-pre.8
 Updated to VS 1.16
 Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
-Acorns compatibility updated - DONE!!!
-Primitive Survival compatibility updated
 Wildcraft compatibility updated
 More Chopped Mushrooms added
-Gozinaki & Trail Mix no longer requires Acorns - DONE!!!
-Gozinaki, breaded ball & fish display models enlargened - DONE!!!
-Bolete updated to King Bolete - DONE!!!
-Dried Sausage & Trail Mix extra nutrients buffed - DONE!!!
-Fish Sauce nutrients douibled - DONE!!!
-Sausage oven display fixed - DONE!!!
-Fixed breaded ball crash in handbook
+Fixed breaded ball (part-baked) crash in handbook
 Breaded meat oven crashing fixed
+
+1.5.3-pre.7
+Acorns compatibility updated
+Primitive Survival compatibility updated
+Gozinaki & Trail Mix no longer requires Acorns
+Gozinaki, breaded ball & fish display models enlargened
+Bolete updated to King Bolete
+Dried Sausage & Trail Mix extra nutrients buffed
+Fish Sauce nutrients douibled
+Sausage oven display fixed
 
 1.5.3-pre.6
 Saucepan crashing due to different decimal systems fixed?
