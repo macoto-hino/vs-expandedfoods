@@ -43,7 +43,7 @@ Gozinaki & Trail Mix no longer requires Acorns
 Gozinaki, breaded ball & fish display models enlargened
 Bolete updated to King Bolete
 Dried Sausage & Trail Mix extra nutrients buffed
-Fish Sauce nutrients douibled
+Fish Sauce nutrients doubled
 Sausage oven display fixed
 
 1.5.3-pre.6
