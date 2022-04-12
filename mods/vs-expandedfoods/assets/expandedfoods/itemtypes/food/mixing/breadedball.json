@@ -7,7 +7,7 @@
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred","syruppartbaked", "syrup", "syrupcharred", "oiled"] },
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "breadedball-*" ] },
+		"handbook": { "exclude":  true },
   		"expandedNutritionProps": {
 			"game:flour-flax": {saturation: 80, foodcategory: "Grain"},
 			"game:flour-rye": {saturation: 150, foodcategory: "Grain"},

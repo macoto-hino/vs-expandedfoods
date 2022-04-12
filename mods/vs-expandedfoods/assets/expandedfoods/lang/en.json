@@ -2703,7 +2703,7 @@
   "item-breadedvegetable-sunflower-pickledpumpkin-syrupcharred": "Deluxe Sunflower Pickled Pumpkin (charred)",
   "item-breadedvegetable-sunflower-cassava-syrupcharred": "Deluxe Sunflower Cassava (charred)",
 
-  "item-brothportion-bone": "Bone Broth Portion (250 mL)",
+  "item-brothportion-bone": "Bone Broth Portion",
 
   "blockdesc-bottle-*-raw": "Could probably use some heat.",
   "blockdesc-bottle-*-burned": "Fill me!",
@@ -4402,7 +4402,7 @@
   "itemdesc-breadedvegetable-*-cooked": "A fried vegetable. Soft on the inside!",
   "itemdesc-breadedvegetable-*-charred": "An overly fried vegetable, crunchy and mushy.",
 
-  "item-pasteurizedmilkportion": "Pasteurized milk portion (1 L)",
+  "item-pasteurizedmilkportion": "Pasteurized milk portion",
   "incontainer-item-pasteurizedmilkportion": "pasteurized milk",
   "game:incontainer-item-pasteurizedmilkportion": "pasteurized milk",
   "game:recipeingredient-item-pasteurizedmilkportion": "pasteurized milk",
@@ -5452,8 +5452,8 @@
   "item-soyprep-shelled": "Shelled Soybeans",
   "item-soyprep-wetshell": "Wet Shelled Soybeans",
   "item-soyprep-blended": "Blended Soybean Mixture",
-  "item-soymilk-raw": "Raw Soy Milk (1 L)",
-  "item-soymilk-edible": "Soy Milk (1 L)",
+  "item-soymilk-raw": "Raw Soy Milk",
+  "item-soymilk-edible": "Soy Milk",
   "incontainer-item-soymilk-raw" : "raw soy milk",
   "game:incontainer-item-soymilk-raw" : "raw soy milk",
   "incontainer-item-soymilk-edible" : "soy milk",

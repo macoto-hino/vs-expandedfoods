@@ -7,7 +7,7 @@
 		{code: "state", states: ["mashed", "cooked", "syrup"]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "gozinakiherb-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionPropsByType: {
@@ -19,7 +19,7 @@
       				"expandedfoods:treesyrupportion-*" : { saturation: 80, health: 1, foodcategory: "Fruit" },
 			},
 		},
-    		renderIngredientsByType: {
+    	renderIngredientsByType: {
 			"*-cooked": {
       				"game:legume-peanut" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",
       				"expandedfoods:acornportion" : "expandedfoods:shapes/item/food/gozinaki/gozinakicooked.json",

@@ -3,7 +3,7 @@
 	maxstacksize: 32,
   	class: "ExpandedFood",
 	attributes: {
-		"handbook": { "groupBy": [ "sushi-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionProps: {

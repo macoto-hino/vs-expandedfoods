@@ -6,7 +6,7 @@
 		{ code: "type", states: ["raw", "partbaked", "cooked", "charred"]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "snakepemmican-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
     		"expandedNutritionPropsByType": {

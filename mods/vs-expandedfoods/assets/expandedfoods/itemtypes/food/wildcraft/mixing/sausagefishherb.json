@@ -8,7 +8,7 @@
 		{ code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "sausagefishherb-*" ] },
+		"handbook": { "exclude":  true },
 		meathookable: true,
 		meatHookTransform: {
   			translation: { x: 0.03, y: -0.295, z: 0.03 },

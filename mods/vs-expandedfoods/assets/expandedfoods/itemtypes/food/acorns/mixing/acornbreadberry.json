@@ -6,7 +6,7 @@
 		{code: "state", states: ["dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred"]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "acornberrybread-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionPropsByType: {

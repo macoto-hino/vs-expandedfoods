@@ -102,13 +102,18 @@
             renderinfo.ModelRef = meshRef;
         }
 
-
         public override bool TryPlaceBlock(IWorldAccessor world, IPlayer byPlayer, ItemStack itemstack, BlockSelection blockSel, ref string failureCode)
         {
             // This is a little odd - you have to sneak place but if there's something in a quadrant then you don't
             // Seems to be a vanilla thing (see bowl) - let's leave it as is for now
             if (byPlayer.Entity.Controls.Sneak) //sneak place only
             { return base.TryPlaceBlock(world, byPlayer, itemstack, blockSel, ref failureCode); }
+
+            // Apr11 2022 - added these three lines to prevent bottle disappearing when interacting
+            // with another bottle in the bottle rack - SPANG
+            var targetBlock = byPlayer.Entity.World.BlockAccessor.GetBlock(blockSel.Position);
+            if (targetBlock.Id == 0)
+            { return false; }
 
             // not a fan of returning true here - if there's a problem this might be the cause
             return true;

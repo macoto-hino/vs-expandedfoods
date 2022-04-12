@@ -33,8 +33,10 @@ Patches now use forEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
-Fixed breaded ball (part-baked) crash in handbook
+Expanded Foods excluded from handbook - DONE!!!
 Breaded meat oven crashing fixed
+Bottle disappearing fixed (thanks to SpearAndFang) - DONE!!!
+New powered mixing bowl shape
 
 1.5.3-pre.7
 Acorns compatibility updated

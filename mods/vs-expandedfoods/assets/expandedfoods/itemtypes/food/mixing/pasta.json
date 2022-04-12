@@ -6,7 +6,7 @@
 		{code: "type", states: ["dough", "flat", "cut", "cooked"]},
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "pasta-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		inContainerTexture: { base: "item/food/pasta/ricepasta" },

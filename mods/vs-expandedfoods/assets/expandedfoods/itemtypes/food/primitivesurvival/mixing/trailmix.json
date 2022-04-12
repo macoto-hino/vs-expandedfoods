@@ -7,7 +7,7 @@
 	],
 	materialDensity: 300,
 	attributes: {
-		"handbook": { "groupBy": [ "trailmix-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		renderIngredients: {

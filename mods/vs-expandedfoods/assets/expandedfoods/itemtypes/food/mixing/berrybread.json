@@ -6,7 +6,7 @@
 		{code: "state", states: ["dough", "partbaked", "cooked", "charred", "syruppartbaked", "syrup", "syrupcharred"]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "berrybread-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionPropsByType: {
@@ -31,7 +31,7 @@
       				"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.01, foodcategory: "Fruit" },
 			},
 		},
-    		renderIngredientsByType: {
+    	renderIngredientsByType: {
 			"*-partbaked": {
       				"game:flour-flax" : "expandedfoods:shapes/item/food/bread/berrybread/flax-partbaked.json",
         			"game:flour-rye" : "expandedfoods:shapes/item/food/bread/berrybread/rye-partbaked.json",
@@ -699,7 +699,6 @@
 		"weaktannin": { base: "game:block/liquid/weaktannin"},
 		"strongtannin": { base: "game:block/liquid/strongtannin"},
 		"honey": { base: "game:block/liquid/honey"},
-		"mixwine": { base: "game:item/liquid/mixwine"},
 		"saguaro": { base: "game:item/liquid/saguaro"},
 		"peanutbutter": { base: "item/food/peanut/butter"},
 		"huckleberry" : {base: "expandedfoods:item/food/grain/overlays/huckleberry" },

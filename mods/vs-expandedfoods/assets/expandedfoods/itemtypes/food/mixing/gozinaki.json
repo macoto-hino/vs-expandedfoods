@@ -6,7 +6,7 @@
 		{code: "state", states: ["mashed", "cooked", "syrup"]}
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "gozinaki-*" ] },
+		"handbook": { "exclude":  true },
 		displaycaseable: true,
 		shelvable: true,
 		expandedNutritionProps: {

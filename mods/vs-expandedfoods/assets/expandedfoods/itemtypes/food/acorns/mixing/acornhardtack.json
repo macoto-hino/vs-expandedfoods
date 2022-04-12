@@ -7,7 +7,7 @@
 		{ code: "state", states: ["raw", "bake1", "bake2", "bake3", "bake4"] },
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "acornhardtack-*" ] },
+		"handbook": { "exclude":  true },
 		expandedNutritionProps: {
       		"game:salt" : { saturation: 0, foodcategory: "Grain" },
 			"expandedfoods:lard": { saturation: 16, "health":  0.01, foodcategory: "Protein"},
