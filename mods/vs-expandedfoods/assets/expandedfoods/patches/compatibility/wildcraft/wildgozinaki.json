@@ -11,6 +11,6 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "wildfarming" }, { "modid": "acorns" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
 ]

@@ -53,13 +53,13 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }, { "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" },{ "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildherbacornbreadedfishnugget.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }, { "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
 ]

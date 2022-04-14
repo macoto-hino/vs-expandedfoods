@@ -25,14 +25,14 @@
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildherbsushi.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "wildfarming" }, { "modid": "primitivesurvival" }]
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
 
 ]

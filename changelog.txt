@@ -29,14 +29,16 @@ Added kettle; smaller saucepan - saucepan buffed to compensate
 
 1.5.3-pre.8
 Updated to VS 1.16
-Patches now use forEach function
+Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Wildcraft compatibility updated
 More Chopped Mushrooms added
 Expanded Foods excluded from handbook - DONE!!!
-Breaded meat oven crashing fixed
+Fried meat oven crashing fixed
 Bottle disappearing fixed (thanks to SpearAndFang) - DONE!!!
 New powered mixing bowl shape
+Liquid gelatin recipe fixed
+Candy extra nutrition fixed
 
 1.5.3-pre.7
 Acorns compatibility updated

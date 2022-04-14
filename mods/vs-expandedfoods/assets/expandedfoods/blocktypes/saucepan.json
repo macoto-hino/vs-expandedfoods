@@ -151,7 +151,8 @@
 						smeltingType: "bake",
 						smeltedStack: {
 							type: "item",
-							code: "expandedfoods:gelatin-liquid"
+							code: "expandedfoods:gelatin-liquid",
+							"quantity": 50
 						},
 						requiresContainer: false
 					}
