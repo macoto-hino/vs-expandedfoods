@@ -136,7 +136,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:brothportion-bone",
-							quantity: 200
+							quantity: 100
 						},
 						{
 							type: "item",
@@ -152,7 +152,7 @@
 						smeltedStack: {
 							type: "item",
 							code: "expandedfoods:gelatin-liquid",
-							"quantity": 50
+							"quantity": 25
 						},
 						requiresContainer: false
 					}

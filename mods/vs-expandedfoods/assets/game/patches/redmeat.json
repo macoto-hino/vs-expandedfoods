@@ -243,6 +243,18 @@
   },
   {
     "op": "replace",
+    "path": "/guiTransformByType/*-cured/translation/x",
+    "value": 10.5,
+    "file": "itemtypes/food/redmeat.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType/*-cured/translation/y",
+    "value": 5,
+    "file": "itemtypes/food/redmeat.json"
+  },
+  {
+    "op": "replace",
     "path": "/guiTransformByType/*/translation/x",
     "value": 10.5,
     "file": "itemtypes/food/redmeat.json"
