@@ -24,7 +24,7 @@
     		freshHours: { avg: 4320 },
     		transitionHours: { avg: 1440 },
     		transitionedStack: { type: "item", code: "game:waterportion" },
-    		transitionRatio: 0.5
+			transitionRatio: 0.005
   	}],
 	nutritionProps: { satiety: 1.5, health: 0.5, foodcategory: "Fruit" },
 	shape: { base: "game:item/liquid" },

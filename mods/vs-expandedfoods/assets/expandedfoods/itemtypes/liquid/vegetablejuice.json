@@ -31,7 +31,7 @@
     		freshHours: { avg: 144 },
     		transitionHours: { avg: 24 },
     		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 0.25
+			transitionRatio: 0.005
   	}],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:item/liquid/{type}" },

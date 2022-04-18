@@ -65,14 +65,14 @@
 				freshHours: { avg: 4380 },
 				transitionHours: { avg: 438 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+				transitionRatio: 0.005
   		}],
 		"*":[{
     			type: "Perish",
 				freshHours: { avg: 2190 },
 				transitionHours: { avg: 220 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+				transitionRatio: 0.005
   		}],
 	},
 	guiTransform: {

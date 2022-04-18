@@ -33,7 +33,7 @@
     			freshHours: { avg: 96 },
     			transitionHours: { avg: 96 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+				transitionRatio: 0.005
   		},
 		{
     			type: "Cure",
@@ -47,14 +47,14 @@
     			freshHours: { avg: 96 },
     			transitionHours: { avg: 96 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+				transitionRatio: 0.005
   		}],
 		"*":[{
     			type: "Perish",
     			freshHours: { avg: 120 },
     			transitionHours: { avg: 120 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+				transitionRatio: 0.005
   		},
 		{
     			type: "Cure",

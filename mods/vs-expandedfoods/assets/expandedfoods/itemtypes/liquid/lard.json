@@ -29,7 +29,7 @@
             freshHours: { avg: 4320 },
             transitionHours: { avg: 4320 },
             transitionedStack: { type: "item", code: "game:rot" },
-            transitionRatio: 0.25
+		    transitionRatio: 0.005
       }],
     guiTransform: {
         rotation: { x: 128, y: 40, z: 7 },

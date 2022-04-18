@@ -110,8 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="changelog.txt" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\fruitjuice.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\fruitwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\lang\ja.json" />
@@ -763,6 +761,7 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\starter.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\strawberry.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\whitecurrant.png" />
+    <Content Include="mods\vs-expandedfoods\assets\wildcraft\textures\item\liquid\syrup.png" />
     <Content Include="mods\vs-expandedfoods\exper.dll" />
     <Content Include="mods\vs-expandedfoods\exper.pdb" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\primitivesurvival\sausage.json" />
@@ -910,9 +909,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\treesyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\vegetablejuice.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitsyrup.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\tea.json" />

@@ -23,7 +23,7 @@
     		freshHours: { avg: 96 },
     		transitionHours: { avg: 24 },
     		transitionedStack: { type: "item", code: "game:rot" },
-    		transitionRatio: 1
+			transitionRatio: 0.005
   	}],
 	shape: { base: "game:item/liquid" },
 	texture: { base: "game:block/liquid/vinegarmod" },

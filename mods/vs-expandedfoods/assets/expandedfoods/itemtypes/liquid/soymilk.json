@@ -70,14 +70,14 @@
     			freshHours: { avg: 768 },
     			transitionHours: { avg: 192 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.1
+				transitionRatio: 0.002
   		}],
 		"*-raw": [{
     			type: "Perish",
     			freshHours: { avg: 96 },
     			transitionHours: { avg: 96 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.1
+				transitionRatio: 0.002
   		}],
 	},
 	nutritionPropsByType: {

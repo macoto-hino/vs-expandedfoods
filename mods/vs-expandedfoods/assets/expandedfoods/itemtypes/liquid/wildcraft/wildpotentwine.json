@@ -32,7 +32,7 @@
     			freshHours: { avg: 1568 },
     			transitionHours: { avg: 672 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -46,7 +46,7 @@
     			freshHours: { avg: 1176 },
     			transitionHours: { avg: 504 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -60,7 +60,7 @@
     			freshHours: { avg: 336 },
     			transitionHours: { avg: 144 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -74,7 +74,7 @@
     			freshHours: { avg: 4704 },
     			transitionHours: { avg: 2016 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -88,7 +88,7 @@
     			freshHours: { avg: 1176 },
     			transitionHours: { avg: 504 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		        transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -102,7 +102,7 @@
     			freshHours: { avg: 336 },
     			transitionHours: { avg: 144 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		        transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -116,7 +116,7 @@
     			freshHours: { avg: 336 },
     			transitionHours: { avg: 144 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		        transitionRatio: 0.005
 			},
 			{
     			type: "Cure",
@@ -130,7 +130,7 @@
     			freshHours: { avg: 672 },
     			transitionHours: { avg: 288 },
     			transitionedStack: { type: "item", code: "game:rot" },
-    			transitionRatio: 0.25
+		        transitionRatio: 0.005
 			},
 			{
     			type: "Cure",

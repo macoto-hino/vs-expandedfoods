@@ -54,7 +54,7 @@
     		freshHours: { avg: 672 },
     		transitionHours: { avg: 288 },
     		transitionedStack: { type: "item", code: "game:vinegarportion" },
-    		transitionRatio: 1
+			transitionRatio: 0.005
   	},
 	{
     		type: "Cure",

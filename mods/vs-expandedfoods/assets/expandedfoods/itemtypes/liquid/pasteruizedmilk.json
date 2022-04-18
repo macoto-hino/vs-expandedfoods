@@ -34,7 +34,7 @@
 		freshHours: { avg: 96 },
 		transitionHours: { avg: 96 },
 		transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.1
+		transitionRatio: 0.002
 	}],
 	nutritionProps: {
 		saturation: 1.15, health: 0.01, foodcategory: "Dairy"
