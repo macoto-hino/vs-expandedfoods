@@ -112,6 +112,8 @@
     <Content Include="changelog.txt" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspiritportion.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\lang\ja.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornbreadberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornbreadcrumbs.json" />
@@ -770,11 +772,14 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\acornstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\augratinrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\barrelrecipes.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\cider.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\gelatin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastacoldrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastahot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\rawjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\riceandbeansrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\saladrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\spirit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\stuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\sushi.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\sushiveg.json" />
@@ -1876,6 +1881,7 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\soupshape.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\cider.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\rawjuice.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\spirit.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill1.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill2.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\survival-shapes-block-food-pie-full-fill3.json" />

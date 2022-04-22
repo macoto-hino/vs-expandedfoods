@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "op": "add",
     "path": "/combustibleProps",
@@ -9,11 +9,11 @@
       "smeltingType": "cook",
       "smeltedStack": {
         "type": "item",
-        "code": "expandedfoods:fruitsyrupportion-{fruit}"
+        "code": "expandedfoods:wildfruitsyrupportion-{fruit}"
       },
       "requiresContainer": true
     },
-    "file": "itemtypes/liquid/rawjuice.json"
+    "file": "wildcraft:itemtypes/liquid/alcohol/rawjuice.json"
   },
   {
     "op": "add",
@@ -43,11 +43,11 @@
         },
         "transitionedStack": {
           "type": "item",
-          "code": "ciderportion-{fruit}"
+          "code": "wildcraft:ciderportion-{fruit}"
         },
         "transitionRatio": 1
       }
     ],
-    "file": "itemtypes/liquid/rawjuice.json"
+    "file": "wildcraft:itemtypes/liquid/alcohol/rawjuice.json"
   }
 ]

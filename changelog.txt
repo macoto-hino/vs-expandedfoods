@@ -25,7 +25,8 @@ Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
-Added kettle; smaller saucepan - saucepan buffed to compensate
+Added industrial mixing bowl (works much faster, higher storage capacity)
+
 
 1.5.3-pre.9
 Updated to VS 1.16
@@ -36,7 +37,14 @@ Some dried berry models updated (thanks to Lan for inspiration!)
 More Chopped Mushrooms added
 Fried meat oven crashing fixed
 New powered mixing bowl shape
-Liquid rotting fixed
+Liquid rotting fixed - DONE!!!
+Fruit juice & wine/cider spoils into vinegar - DONE!!!
+Brandy actually cures now - DONE!!!
+Bread liquid nutrition values fixed - DONE!!!
+Peanut butter/sauce nutrition values fixed - DONE!!!
+Peanut butter/sauce recipes altered (it's more tedious now, I have a plan to fix this later) - DONE!!!
+Racks & meat hooks coalesced into single block ID using attribute typing
+Pasteurized milk & soy milk perish timers increased
 
 1.5.3-pre.8
 Bottle disappearing fixed (thanks to SpearAndFang)

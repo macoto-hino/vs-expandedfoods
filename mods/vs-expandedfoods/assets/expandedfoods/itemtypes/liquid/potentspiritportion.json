@@ -51,8 +51,8 @@
 	},
 	transitionableProps: [{
     	type: "Cure",
-    	freshHours: { avg: 672 },
-    	transitionHours: { avg: 2016 },
+    	freshHours: { avg: 1344 },
+    	transitionHours: { avg: 4032 },
     	transitionedStack: { type: "item", code: "expandedfoods:potentspiritportion-{type}" },
     	transitionRatio: 1
   	}],

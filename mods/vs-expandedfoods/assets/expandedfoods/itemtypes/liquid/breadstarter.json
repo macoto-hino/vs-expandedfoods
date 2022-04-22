@@ -18,7 +18,7 @@
 				stack: { type: "item", code: "expandedfoods:breadstarter" }
 			}
 		},
-		nutritionPropsWhenInMeal: { satiety: 2, health: 0.16, foodcategory: "Grain" }
+		nutritionPropsWhenInMeal: { satiety: 2, health: 0.15, foodcategory: "Grain" }
 	},
 	variantgroups: [
 		{ code: "type", states: ["wild"] },

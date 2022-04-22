@@ -2166,7 +2166,7 @@
     "op": "add",
     "path": "/texturesByType/*/huckleberrysyrup",
     "value": {
-      "base": "item/liquid/huckleberry"
+      "base": "wildcraft:block/food/pie/fill-huckleberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2185,7 +2185,7 @@
     "op": "add",
     "path": "/texturesByType/*/snowberrysyrup",
     "value": {
-      "base": "item/liquid/snowberry"
+      "base": "wildcraft:block/food/pie/fill-snowberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2204,7 +2204,7 @@
     "op": "add",
     "path": "/texturesByType/*/brambleberrysyrup",
     "value": {
-      "base": "item/liquid/brambleberry"
+      "base": "wildcraft:block/food/pie/fill-brambleberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2223,7 +2223,7 @@
     "op": "add",
     "path": "/texturesByType/*/cloudberrysyrup",
     "value": {
-      "base": "item/liquid/cloudberry"
+      "base": "wildcraft:block/food/pie/fill-cloudberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2242,7 +2242,7 @@
     "op": "add",
     "path": "/texturesByType/*/dogrosesyrup",
     "value": {
-      "base": "item/liquid/dogrose"
+      "base": "wildcraft:block/food/pie/fill-dogrose"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2261,7 +2261,7 @@
     "op": "add",
     "path": "/texturesByType/*/elderberrysyrup",
     "value": {
-      "base": "item/liquid/elderberry"
+      "base": "wildcraft:block/food/pie/fill-elderberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2280,7 +2280,7 @@
     "op": "add",
     "path": "/texturesByType/*/gooseberrysyrup",
     "value": {
-      "base": "item/liquid/gooseberry"
+      "base": "wildcraft:block/food/pie/fill-gooseberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2299,7 +2299,7 @@
     "op": "add",
     "path": "/texturesByType/*/honeysucklesyrup",
     "value": {
-      "base": "item/liquid/honeysuckle"
+      "base": "wildcraft:block/food/pie/fill-honeysuckle"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2318,7 +2318,7 @@
     "op": "add",
     "path": "/texturesByType/*/strawberrysyrup",
     "value": {
-      "base": "item/liquid/strawberry"
+      "base": "wildcraft:block/food/pie/fill-strawberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2337,7 +2337,7 @@
     "op": "add",
     "path": "/texturesByType/*/raspberrysyrup",
     "value": {
-      "base": "item/liquid/raspberry"
+      "base": "wildcraft:block/food/pie/fill-raspberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2346,7 +2346,7 @@
     "op": "add",
     "path": "/texturesByType/*/huckleberrywine",
     "value": {
-      "base": "item/liquid/huckleberrywine"
+      "base": "wildcraft:block/food/pie/fill-huckleberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2364,7 +2364,7 @@
     "op": "add",
     "path": "/texturesByType/*/brambleberrywine",
     "value": {
-      "base": "item/liquid/brambleberrywine"
+      "base": "wildcraft:block/food/pie/fill-brambleberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2373,7 +2373,7 @@
     "op": "add",
     "path": "/texturesByType/*/cloudberrywine",
     "value": {
-      "base": "item/liquid/cloudberrywine"
+      "base": "wildcraft:block/food/pie/fill-cloudberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2382,7 +2382,7 @@
     "op": "add",
     "path": "/texturesByType/*/dogrosewine",
     "value": {
-      "base": "item/liquid/dogrosewine"
+      "base": "wildcraft:block/food/pie/fill-dogrose"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2391,7 +2391,7 @@
     "op": "add",
     "path": "/texturesByType/*/elderberrywine",
     "value": {
-      "base": "item/liquid/elderberrywine"
+      "base": "wildcraft:block/food/pie/fill-elderberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2400,7 +2400,7 @@
     "op": "add",
     "path": "/texturesByType/*/gooseberrywine",
     "value": {
-      "base": "item/liquid/gooseberrywine"
+      "base": "wildcraft:block/food/pie/fill-gooseberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2409,7 +2409,7 @@
     "op": "add",
     "path": "/texturesByType/*/honeysucklewine",
     "value": {
-      "base": "item/liquid/honeysucklewine"
+      "base": "wildcraft:block/food/pie/fill-honeysuckle"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2418,7 +2418,7 @@
     "op": "add",
     "path": "/texturesByType/*/strawberrywine",
     "value": {
-      "base": "item/liquid/strawberrywine"
+      "base": "wildcraft:block/food/pie/fill-strawberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]
@@ -2427,7 +2427,7 @@
     "op": "add",
     "path": "/texturesByType/*/raspberrywine",
     "value": {
-      "base": "item/liquid/raspberrywine"
+      "base": "wildcraft:block/food/pie/fill-raspberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]

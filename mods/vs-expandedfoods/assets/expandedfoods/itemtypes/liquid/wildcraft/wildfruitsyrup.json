@@ -3,7 +3,7 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "fruit", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+		{ code: "fruit", "loadFromProperties": "wildcraft:block/fruit" },
 	],
 	attributes: {
 		handbook: {

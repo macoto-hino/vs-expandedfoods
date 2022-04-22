@@ -47,7 +47,7 @@
         "health": 0.01,
         "foodcategory": "Dairy"
       },
-      "expandedfoods:bonebroth": {
+      "expandedfoods:brothportion-bone": {
         "saturation": 1,
         "health": 0.01,
         "foodcategory": "Protein"
@@ -56,6 +56,11 @@
         "saturation": 1.125,
         "health": 0.01,
         "foodcategory": "Dairy"
+      },
+      "expandedfoods:foodoilportion-*": {
+        "saturation": 6,
+        "health": 0.01,
+        "foodcategory": "Vegetable"
       },
     },
     "file": "itemtypes/food/dough.json"

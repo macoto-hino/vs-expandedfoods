@@ -2,7 +2,7 @@
 	code: "wilddryfruit",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+		{ code: "type", "loadFromProperties": "wildcraft:block/fruit" },
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {

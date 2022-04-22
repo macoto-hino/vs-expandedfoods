@@ -1005,168 +1005,168 @@
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-poultrycheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { type: "item", code: "expandedfoods:sausageherb-redmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
@@ -1383,168 +1383,168 @@
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 1/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/6/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 1/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagefishherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "poultry-raw" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagecrabherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "crabmeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-normal-dried", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-raw", "shapeElement": "bowl/meatnugget 2/*", "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",
     "path": "/ingredients/7/validStacks/-",
     "value": { "type": "item", "code": "expandedfoods:sausagesnakeherb-cheese-dried", "shapeElement": "bowl/meatnugget 2/*",  "textureMapping": [ "meatnugget", "snakemeat" ] },
     "file": "recipes/cooking/scrambledeggs.json",
-    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildfarming" }]
+    dependsOn: [{ "modid": "primitivesurvival" }, { "modid": "wildcraft" }]
   },
  {
     "op": "add",

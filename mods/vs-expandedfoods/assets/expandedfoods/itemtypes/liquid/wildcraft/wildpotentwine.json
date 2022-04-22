@@ -3,156 +3,51 @@
 	class: "TransLiquid",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["huckleberry", "snowberry", "brambleberry", "cloudberry", "dogrose", "elderberry", "gooseberry", "honeysuckle", "strawberry", "raspberry"] },
+		{ code: "fruit", "loadFromProperties": "wildcraft:block/fruit" },
 	],
 	attributes: {
-		"handbook": { "groupBy": [ "wildpotentwineportion-*" ] },
-		nutritionPropsWhenInMealByType: {
-			"*-cloudberry": { saturation: 370, health: 2.5, foodcategory: "Fruit" },
-			"*-snowberry": { saturation: 250, health: 0, foodcategory: "Fruit" },
-			"*-huckleberry": { saturation: 250, health: 2.5, foodcategory: "Fruit" },
-			"*-dogrose": { saturation: 90, health: 2.5, foodcategory: "Fruit" },
-			"*-elderberry": { saturation: 250, health: 1.25, foodcategory: "Fruit" },
-			"*": { satiety: 315, health: 3.75, foodcategory: "Fruit" },
+		handbook: {
+			ignoreCreativeInvStacks: true
 		},
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+		nutritionPropsWhenInMeal: { satiety: 300, health: 1, foodcategory: "Fruit" },
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 100,
-			texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/potentwine"] },
+	        texture: { base: "wildcraft:block/food/pie/fill-{fruit}", "alpha":  140, overlays: ["game:item/liquid/syrup"] },
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
-				stack: { type: "item", code: "expandedfoods:wildpotentwineportion-{type}" }
-			}
+				stack: { type: "item", code: "expandedfoods:wildpotentwineportion-{fruit}" }
+			},
+			nutritionPropsPerLitre: {
+				saturation: 200,
+				"intoxication":  0.45,
+				"health": 1,
+				foodcategory: "Fruit"
+			},
 		}
 	},
-	transitionablePropsByType: {
-		"*-huckleberry": [{
-    			type: "Perish",
-    			freshHours: { avg: 1568 },
-    			transitionHours: { avg: 672 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 1568 },
-    			transitionHours: { avg: 4704 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-huckleberry" },
-    			transitionRatio: 1
-  			}],
-		"*-snowberry": [{
-    			type: "Perish",
-    			freshHours: { avg: 1176 },
-    			transitionHours: { avg: 504 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 1176 },
-    			transitionHours: { avg: 3528 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-snowberry" },
-    			transitionRatio: 1
-  			}],
-		"*-cloudberry": [{
-    			type: "Perish",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 144 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 1008 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-cloudberry" },
-    			transitionRatio: 1
-  			}],
-		"*-dogrose": [{
-    			type: "Perish",
-    			freshHours: { avg: 4704 },
-    			transitionHours: { avg: 2016 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 4704 },
-    			transitionHours: { avg: 14112 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-dogrose" },
-    			transitionRatio: 1
-  			}],
-		"*-elderberry": [{
-    			type: "Perish",
-    			freshHours: { avg: 1176 },
-    			transitionHours: { avg: 504 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		        transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 1176 },
-    			transitionHours: { avg: 3528 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-elderberry" },
-    			transitionRatio: 1
-  			}],
-		"*-honeysuckle": [{
-    			type: "Perish",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 144 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		        transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 1008 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-honeysuckle" },
-    			transitionRatio: 1
-  			}],
-		"*-strawberry": [{
-    			type: "Perish",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 144 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		        transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 336 },
-    			transitionHours: { avg: 1008 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-strawberry" },
-    			transitionRatio: 1
-  			}],
-		"*": [{
-    			type: "Perish",
-    			freshHours: { avg: 672 },
-    			transitionHours: { avg: 288 },
-    			transitionedStack: { type: "item", code: "game:rot" },
-		        transitionRatio: 0.005
-			},
-			{
-    			type: "Cure",
-    			freshHours: { avg: 672 },
-    			transitionHours: { avg: 2016 },
-    			transitionedStack: { type: "item", code: "wildpotentwineportion-{type}" },
-    			transitionRatio: 1
-  			}],
-	},
+	transitionableProps: [{
+    		type: "Perish",
+    		freshHours: { avg: 672 },
+    		transitionHours: { avg: 288 },
+    		transitionedStack: { type: "item", code: "game:vinegarportion" },
+			transitionRatio: 0.005
+  	},
+	{
+    		type: "Cure",
+    		freshHours: { avg: 672 },
+    		transitionHours: { avg: 2016 },
+    		transitionedStack: { type: "item", code: "expandedfoods:wildpotentwineportion-{fruit}" },
+    		transitionRatio: 1
+  	}],
 	shape: { base: "game:item/liquid" },
-	texture: { base: "game:item/liquid/{type}wine", overlays: ["game:item/liquid/potentwine"] },
-	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
+	"texture": { "base": "wildcraft:block/food/pie/fill-{fruit}", "alpha": 140, overlays: ["game:item/liquid/syrup"] },
+	creativeinventoryStacks: [ { tabs: ["general", "liquids", "expandedfoods"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "expandedfoods:wildpotentwineportion-{fruit}", makefull: true } ] } } ] } ],
 	maxstacksize: 5000,
 	materialDensity: 200,
-	nutritionPropsByType: {
-		"*-cloudberry": { saturation: 315, health: 2.5, foodcategory: "Fruit" },
-		"*-snowberry": { saturation: 165, health: 0, foodcategory: "Fruit" },
-		"*-huckleberry": { saturation: 165, health: 2.5, foodcategory: "Fruit" },
-		"*-dogrose": { saturation: 60, health: 2.5, foodcategory: "Fruit" },
-		"*-elderberry": { saturation: 165, health: 1.25, foodcategory: "Fruit" },
-		"*": { saturation: 210, health: 2.5, foodcategory: "Fruit" },
-	},
+	nutritionProps: { saturation: 2, health: 0.01, foodcategory: "Fruit" },
 	guiTransform: {
 		rotation: { x: 128, y: 40, z: 7 },
 		origin: { x: 0.5, y: 0, z: 0.5 },

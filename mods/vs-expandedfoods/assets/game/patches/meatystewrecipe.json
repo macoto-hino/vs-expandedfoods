@@ -659,7 +659,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -674,7 +674,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -689,7 +689,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -704,7 +704,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -719,7 +719,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -734,7 +734,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -749,7 +749,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -764,7 +764,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -779,7 +779,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -794,7 +794,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -809,7 +809,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -824,7 +824,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1510,7 +1510,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1525,7 +1525,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1540,7 +1540,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1555,7 +1555,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1570,7 +1570,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1585,7 +1585,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1600,7 +1600,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1615,7 +1615,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1630,7 +1630,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1645,7 +1645,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1660,7 +1660,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -1675,7 +1675,7 @@
       ]
     },
     "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildfarming" } ]
+    dependsOn: [ { "modid": "wildcraft" } ]
   },
   {
     "op": "add",
@@ -3516,7 +3516,7 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-huckleberry",
+            "code": "wildcraft:ciderportion-huckleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3543,7 +3543,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-snowberry",
+            "code": "wildcraft:spiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-snowberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3570,7 +3597,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-brambleberry",
+            "code": "wildcraft:spiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-brambleberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3597,7 +3651,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-cloudberry",
+            "code": "wildcraft:spiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-cloudberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3624,7 +3705,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-dogrose",
+            "code": "wildcraft:spiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-dogrose",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3651,7 +3759,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-elderberry",
+            "code": "wildcraft:spiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-elderberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3678,7 +3813,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-gooseberry",
+            "code": "wildcraft:spiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-gooseberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3705,7 +3867,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-honeysuckle",
+            "code": "wildcraft:spiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-honeysuckle",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3732,7 +3921,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-strawberry",
+            "code": "wildcraft:spiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-strawberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3759,7 +3975,34 @@
         },
         {
             "type": "item",
-            "code": "expandedfoods:wildfruitwineportion-raspberry",
+            "code": "wildcraft:spiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-raspberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
@@ -3778,6 +4021,33 @@
         {
             "type": "item",
             "code": "expandedfoods:wildpotentwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-raspberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
