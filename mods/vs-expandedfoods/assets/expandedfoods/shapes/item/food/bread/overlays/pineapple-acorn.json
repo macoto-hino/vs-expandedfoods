@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"pineapple": "item/food/grain/overlays/pineapple"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#pineapple", "uv": [ 5.0, 8.0, 7.0, 14.0 ], "rotation": 270 },
 				"south": { "texture": "#pineapple", "uv": [ 3.0, 4.0, 6.0, 6.0 ], "rotation": 180 },
 				"west": { "texture": "#pineapple", "uv": [ 3.0, 7.5, 9.0, 9.5 ] },
-				"up": { "texture": "#pineapple", "uv": [ 7.0, 5.5, 10.0, 11.5 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#pineapple", "uv": [ 1.5, 4.0, 7.5, 7.0 ], "rotation": 90 },
 				"down": { "texture": "#pineapple", "uv": [ 6.5, 11.0, 12.5, 14.0 ], "rotation": 270 }
 			},
 			"children": [

@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"pear": "item/food/grain/overlays/pear"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#pear", "uv": [ 7.0, 7.5, 13.0, 9.5 ] },
 				"south": { "texture": "#pear", "uv": [ 7.5, 12.5, 9.5, 15.5 ], "rotation": 270 },
 				"west": { "texture": "#pear", "uv": [ 1.5, 8.0, 7.5, 10.0 ], "rotation": 180 },
-				"up": { "texture": "#pear", "uv": [ 3.0, 6.0, 6.0, 12.0 ], "autoUv": false },
+				"up": { "texture": "#pear", "uv": [ 3.0, 6.0, 6.0, 12.0 ] },
 				"down": { "texture": "#pear", "uv": [ 12.0, 0.5, 15.0, 6.5 ], "rotation": 180 }
 			},
 			"children": [

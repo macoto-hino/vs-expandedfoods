@@ -33,10 +33,10 @@ Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Racks & meat hooks coalesced into single block ID using attribute typing
-Wildcraft compatibility updated (liquid stuff, mostly)
+Wildcraft compatibility updated (liquid stuff, mostly; berry bread/muffin & gozinaki Wildcraft visuals updated)
 Some dried berry models updated (thanks to Lan for inspiration!) - DONE!!!
 More Chopped Mushrooms added
-Fried meat oven crashing fixed
+Fried meat / acorn fruit bread oven crashing fixed
 New powered mixing bowl shape
 Liquid rotting fixed - DONE!!!
 Fruit juice & wine/cider spoils into vinegar - DONE!!!

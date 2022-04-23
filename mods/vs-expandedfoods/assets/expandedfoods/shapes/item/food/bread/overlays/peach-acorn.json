@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"peach": "item/food/grain/overlays/peach"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#peach", "uv": [ 8.5, 11.0, 14.5, 13.0 ] },
 				"south": { "texture": "#peach", "uv": [ 2.0, 7.5, 4.0, 10.5 ], "rotation": 270 },
 				"west": { "texture": "#peach", "uv": [ 3.5, 12.5, 9.5, 14.5 ], "rotation": 180 },
-				"up": { "texture": "#peach", "uv": [ 8.0, 9.5, 11.0, 15.5 ], "autoUv": false },
+				"up": { "texture": "#peach", "uv": [ 8.0, 9.5, 11.0, 15.5 ] },
 				"down": { "texture": "#peach", "uv": [ 8.5, 2.5, 11.5, 8.5 ], "rotation": 180 }
 			},
 			"children": [

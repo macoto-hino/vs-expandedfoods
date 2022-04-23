@@ -21,7 +21,7 @@
 				"east": { "texture": "#cranberry", "uv": [ 4.5, 0.5, 10.5, 2.5 ], "rotation": 180 },
 				"south": { "texture": "#cranberry", "uv": [ 6.5, 0.0, 9.5, 2.0 ] },
 				"west": { "texture": "#cranberry", "uv": [ 12.0, 4.0, 14.0, 10.0 ], "rotation": 90 },
-				"up": { "texture": "#cranberry", "uv": [ 6.5, 8.0, 9.5, 14.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#cranberry", "uv": [ 6.5, 8.0, 12.5, 11.0 ], "rotation": 90 },
 				"down": { "texture": "#cranberry", "uv": [ 3.5, 10.5, 9.5, 13.5 ], "rotation": 270 }
 			},
 			"children": [

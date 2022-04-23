@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"blueberry": "item/food/grain/overlays/blueberry"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#blueberry", "uv": [ 7.5, 5.0, 9.5, 11.0 ], "rotation": 90 },
 				"south": { "texture": "#blueberry", "uv": [ 4.0, 3.0, 7.0, 5.0 ] },
 				"west": { "texture": "#blueberry", "uv": [ 3.5, 9.0, 9.5, 11.0 ] },
-				"up": { "texture": "#blueberry", "uv": [ 7.0, 2.0, 10.0, 8.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#blueberry", "uv": [ 7.0, 2.0, 13.0, 5.0 ], "rotation": 90 },
 				"down": { "texture": "#blueberry", "uv": [ 3.0, 1.5, 6.0, 7.5 ] }
 			},
 			"children": [

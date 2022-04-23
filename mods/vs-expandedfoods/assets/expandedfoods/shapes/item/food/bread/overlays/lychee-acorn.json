@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"lychee": "item/food/grain/overlays/lychee"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#lychee", "uv": [ 9.5, 13.5, 15.5, 15.5 ], "rotation": 180 },
 				"south": { "texture": "#lychee", "uv": [ 3.0, 7.5, 6.0, 9.5 ] },
 				"west": { "texture": "#lychee", "uv": [ 5.5, 0.5, 7.5, 6.5 ], "rotation": 90 },
-				"up": { "texture": "#lychee", "uv": [ 9.5, 0.0, 12.5, 6.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#lychee", "uv": [ 2.0, 1.5, 8.0, 4.5 ], "rotation": 90 },
 				"down": { "texture": "#lychee", "uv": [ 3.5, 3.0, 9.5, 6.0 ], "rotation": 270 }
 			},
 			"children": [

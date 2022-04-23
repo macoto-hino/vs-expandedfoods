@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"mango": "item/food/grain/overlays/mango"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#mango", "uv": [ 4.0, 0.0, 10.0, 2.0 ] },
 				"south": { "texture": "#mango", "uv": [ 6.0, 10.0, 8.0, 13.0 ], "rotation": 270 },
 				"west": { "texture": "#mango", "uv": [ 1.5, 0.0, 7.5, 2.0 ], "rotation": 180 },
-				"up": { "texture": "#mango", "uv": [ 8.5, 5.5, 11.5, 11.5 ], "autoUv": false },
+				"up": { "texture": "#mango", "uv": [ 8.5, 5.5, 11.5, 11.5 ] },
 				"down": { "texture": "#mango", "uv": [ 8.0, 7.0, 11.0, 13.0 ], "rotation": 180 }
 			},
 			"children": [

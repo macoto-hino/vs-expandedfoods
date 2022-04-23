@@ -8,7 +8,6 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"apple": "item/food/grain/overlays/apple"
 	},
 	"elements": [
 		{
@@ -21,7 +20,7 @@
 				"east": { "texture": "#apple", "uv": [ 6.5, 0.0, 12.5, 2.0 ] },
 				"south": { "texture": "#apple", "uv": [ 12.5, 6.5, 15.5, 8.5 ] },
 				"west": { "texture": "#apple", "uv": [ 9.5, 4.0, 15.5, 6.0 ] },
-				"up": { "texture": "#apple", "uv": [ 4.0, 7.5, 7.0, 13.5 ], "autoUv": false },
+				"up": { "texture": "#apple", "uv": [ 4.0, 7.5, 7.0, 13.5 ] },
 				"down": { "texture": "#apple", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
 			},
 			"children": [
