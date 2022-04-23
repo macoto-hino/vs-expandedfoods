@@ -31,8 +31,8 @@
 	materialDensity: 200,
 	transitionableProps: [{
 		type: "Perish",
-		freshHours: { avg: 96 },
-		transitionHours: { avg: 96 },
+		freshHours: { avg: 120 },
+		transitionHours: { avg: 120 },
 		transitionedStack: { type: "item", code: "game:rot" },
 		transitionRatio: 0.002
 	}],
