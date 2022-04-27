@@ -84,7 +84,7 @@
 						{
 							type: "item",
 							code: "waterportion",
-							quantity: 200
+							quantity: 100
 						},
 						{
 							type: "item",
@@ -100,7 +100,7 @@
 						smeltedStack: {
 							type: "item",
 							code: "expandedfoods:brothportion-bone",
-							"quantity":  100
+							"quantity":  50
 						},
 						requiresContainer: false
 					}
@@ -162,7 +162,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:gelatin-liquid",
-							quantity: 1
+							quantity: 10
 						},
 						{
 							type: "item",

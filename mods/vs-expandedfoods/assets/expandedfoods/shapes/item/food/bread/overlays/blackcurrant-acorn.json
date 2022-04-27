@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"blackcurrant": "item/food/grain/overlays/blackcurrant"
 	},
 	"elements": [
 		{

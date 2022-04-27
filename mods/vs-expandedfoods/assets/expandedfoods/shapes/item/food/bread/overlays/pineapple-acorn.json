@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"pineapple": "item/food/grain/overlays/pineapple"
 	},
 	"elements": [
 		{

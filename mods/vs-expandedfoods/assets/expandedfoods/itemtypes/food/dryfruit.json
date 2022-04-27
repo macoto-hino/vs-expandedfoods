@@ -151,6 +151,20 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.25
 		}],
+        "@*-(orange|mango|lychee|pomegranate)": [{
+            type: "Perish",
+            freshHours: { avg: 1800 },
+            transitionHours: { avg: 48 },
+            transitionedStack: { type: "item", code: "rot" },
+            transitionRatio: 0.25
+        }],
+        "@*-(pinkapple|redapple|yellowapple|pear|breadfruit)": [{
+            type: "Perish",
+            freshHours: { avg: 4800 },
+            transitionHours: { avg: 48 },
+            transitionedStack: { type: "item", code: "rot" },
+            transitionRatio: 0.25
+        }],
 		"*": [{
 			type: "Perish",
 			freshHours: { avg: 480 },

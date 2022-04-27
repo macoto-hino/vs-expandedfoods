@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"mango": "item/food/grain/overlays/mango"
 	},
 	"elements": [
 		{

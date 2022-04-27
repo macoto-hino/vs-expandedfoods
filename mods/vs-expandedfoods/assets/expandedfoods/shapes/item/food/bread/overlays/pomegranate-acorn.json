@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"pomegranate": "item/food/grain/overlays/pomegranate"
 	},
 	"elements": [
 		{

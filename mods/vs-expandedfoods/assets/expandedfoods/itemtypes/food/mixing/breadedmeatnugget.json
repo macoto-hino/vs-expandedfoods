@@ -38,80 +38,6 @@
     		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Grain"},
 		},
-		renderIngredientsByType: {
-			"*-oiled": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-tender": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-partbaked": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-smashed": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-charred": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-smash.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-smash.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-smash.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syruppartbaked": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syrups": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-			"*-syrupcharred": 
-				{
-				"expandedfoods:meatnugget-poultry-smashed": "expandedfoods:shapes/item/food/meat/poultry-tender.json",
-				"expandedfoods:meatnugget-redmeat-smashed": "expandedfoods:shapes/item/food/meat/redmeat-tender.json",
-				"expandedfoods:meatnugget-bushmeat-smashed": "expandedfoods:shapes/item/food/meat/bushmeat-tender.json",
-				"expandedfoods:agedmeat-poultry-cut": "game:shapes/item/food/meat/poultry.json",
-				"expandedfoods:agedmeat-redmeat-cut": "game:shapes/item/food/meat/red.json",
-				"expandedfoods:agedmeat-bushmeat-cut": "game:shapes/item/food/meat/bushmeat.json",
-			},
-		},
 		bakingPropertiesByType: {
 			"*-smashed": {
 				temp: 150,
@@ -205,6 +131,22 @@
 		"*-oiled": {base: "item/food/meat/{meat}-smash"},
 	},
 	texturesbytype: {
+		"*-smashed":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-raw" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-raw" },
+		},
+		"*-partbaked":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },
+		},
+		"*-tender":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-cooked" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-cooked" },
+		},
+		"*-charred":	{
+			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-charred" },
+			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-charred" },
+		},
 		"*-oiled":	{
 			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
@@ -221,20 +163,7 @@
 			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
 			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-fish" },
 		},
-		"*-partbaked":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },
-		},
-		"*-charred":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-charred" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-charred" },
-		},
-		"*":	{
-			"cooked": {base: "expandedfoods:item/food/grain/breading/{type}-cooked" },
-			"meat": {base: "expandedfoods:item/food/grain/breading/{type}-raw" },
-		},
 	},
-
 	nutritionPropsByType: {
 		"*-syrups": { satiety: 90, foodcategory: "Protein" },
 		"*-tender": { satiety: 90, foodcategory: "Protein" },

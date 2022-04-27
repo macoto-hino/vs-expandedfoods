@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"lychee": "item/food/grain/overlays/lychee"
 	},
 	"elements": [
 		{

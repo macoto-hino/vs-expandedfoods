@@ -19,6 +19,7 @@ Added Garum
 Added Roux & Gumbo meal
 Added preserves, jelly & jam - jam, but in the mixing bowl
 Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
+Added candied apples
 Added VanVar compatibility for more mixing bowl variants
 Fixed meat rack cure timer?
 Remove smashed meat variants?
@@ -36,7 +37,7 @@ Racks & meat hooks coalesced into single block ID using attribute typing
 Wildcraft compatibility updated (liquid stuff, mostly; berry bread/muffin & gozinaki Wildcraft visuals updated)
 Some dried berry models updated (thanks to Lan for inspiration!) - DONE!!!
 More Chopped Mushrooms added
-Fried meat / acorn fruit bread oven crashing fixed
+Fried meat / acorn fruit bread oven crashing fixed - DONE!!!
 New powered mixing bowl shape
 Liquid rotting fixed - DONE!!!
 Fruit juice & wine/cider spoils into vinegar - DONE!!!
@@ -45,6 +46,8 @@ Bread liquid nutrition values fixed - DONE!!!
 Peanut butter/sauce nutrition values fixed - DONE!!!
 Peanut butter/sauce recipes altered (it's more tedious now, I have a plan to fix this later) - DONE!!!
 Pasteurized milk & raw soy milk perish timers increased by 25% - DONE!!!
+Raw gelatin recipe fixed - DONE!!!
+Dried fruit timers revised - DONE!!!
 
 1.5.3-pre.8
 Bottle disappearing fixed (thanks to SpearAndFang)

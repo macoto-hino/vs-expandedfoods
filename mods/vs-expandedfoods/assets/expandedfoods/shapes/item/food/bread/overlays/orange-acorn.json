@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"orange": "item/food/grain/overlays/orange"
 	},
 	"elements": [
 		{

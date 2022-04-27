@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"apple": "item/food/grain/overlays/apple"
 	},
 	"elements": [
 		{

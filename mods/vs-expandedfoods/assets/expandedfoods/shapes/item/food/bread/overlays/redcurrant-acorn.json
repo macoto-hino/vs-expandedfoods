@@ -8,6 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
+		"redcurrant": "item/food/grain/overlays/redcurrant"
 	},
 	"elements": [
 		{
