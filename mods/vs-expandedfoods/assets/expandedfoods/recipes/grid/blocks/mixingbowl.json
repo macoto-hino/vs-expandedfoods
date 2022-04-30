@@ -24,8 +24,8 @@
 		},
 		"T": { 
 			type: "block", 
-			code: "game:table-normal",
-			name: "type"
+			code: "game:table-*",
+			name: "material"
 		},
 		"S": { 
 			type: "item", 
@@ -39,32 +39,6 @@
 	},
 	width: 2,
 	height: 3,
-	output: { type: "block", code: "mixingbowl-normal"  }
-},
-{
-	ingredientPattern: "M_,TS,A_",
-	ingredients: {
-		"M": { 
-			type: "block", 
-			code: "mixingbowlmini"
-		},
-		"T": { 
-			type: "block", 
-			code: "game:table-aged",
-			name: "type"
-		},
-		"S": { 
-			type: "item", 
-			code: "game:saw-*",
-			istool: "true",
-		},
-		"A": { 
-			type: "block", 
-			code: "game:woodenaxle-ud"
-		},
-	},
-	width: 2,
-	height: 3,
-	output: { type: "block", code: "mixingbowl-aged"  }
+	output: { type: "block", code: "mixingbowl-{material}"  }
 },
 ]

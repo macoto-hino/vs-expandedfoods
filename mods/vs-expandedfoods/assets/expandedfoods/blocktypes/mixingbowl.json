@@ -8,12 +8,12 @@
 		"capacityLitres": 6,
 		"handbook": {
 			"groupBy": [ "mixingbowl-*" ]
-		}
+		},
 	},
 	"variantgroups": [
 		{
 			"code": "material",
-			"states": [ "normal", "aged" ]
+			"states": [ "normal", "aged", "whitemarble", "redmarble", "greenmarble" ]
 		}
 	],
 	"creativeinventory": {
@@ -24,14 +24,59 @@
 	"shape": { "base": "expandedfoods:block/mixingbowl/complete" },
 	"blockmaterial": "Wood",
 	"texturesByType": {
+		"*-whitemarble": {
+			"top": { "base": "game:block/stone/polishedrock/whitemarble-inside" },
+			"sides": { "base": "game:block/wood/table/normal/sides-whitemarble" },
+			"sides2": { "base": "game:block/wood/table/normal/sides-whitemarble" },
+			"legs": { "base": "game:block/wood/table/normal/legs" },
+			"bottom": { "base": "game:block/wood/table/normal/bottom" },
+			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
+			"churnsides2": { "base": "game:block/wood/churnsides2" },
+			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
+			"bowl": { "base": "game:block/clay/ceramic" }
+		},
+		"*-redmarble": {
+			"top": { "base": "game:block/stone/polishedrock/redmarble-inside" },
+			"sides": { "base": "game:block/wood/table/normal/sides-redmarble" },
+			"sides2": { "base": "game:block/wood/table/normal/sides-redmarble" },
+			"legs": { "base": "game:block/wood/table/normal/legs" },
+			"bottom": { "base": "game:block/wood/table/normal/bottom" },
+			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
+			"churnsides2": { "base": "game:block/wood/churnsides2" },
+			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
+			"bowl": { "base": "game:block/clay/ceramic" }
+		},
+		"*-greenmarble": {
+			"top": { "base": "game:block/stone/polishedrock/greenmarble-inside" },
+			"sides": { "base": "game:block/wood/table/normal/sides-greenmarble" },
+			"sides2": { "base": "game:block/wood/table/normal/sides-greenmarble" },
+			"legs": { "base": "game:block/wood/table/normal/legs" },
+			"bottom": { "base": "game:block/wood/table/normal/bottom" },
+			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
+			"churnsides2": { "base": "game:block/wood/churnsides2" },
+			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
+			"bowl": { "base": "game:block/clay/ceramic" }
+		},
 		"*-aged": {
-			"material": { "base": "game:block/wood/table/aged/legs" },
-			"generic": { "base": "game:block/wood/planks/generic" },
+			"top": { "base": "game:block/wood/table/aged/top" },
+			"sides": { "base": "game:block/wood/table/aged/sides" },
+			"sides2": { "base": "game:block/wood/table/aged/sides" },
+			"legs": { "base": "game:block/wood/table/aged/legs" },
+			"bottom": { "base": "game:block/wood/table/aged/bottom" },
+			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
+			"churnsides2": { "base": "game:block/wood/churnsides2" },
+			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
 			"bowl": { "base": "game:block/clay/ceramic" }
 		},
 		"*-normal": {
-			"material": { "base": "game:block/wood/planks/generic" },
-			"generic": { "base": "game:block/wood/planks/generic" },
+			"top": { "base": "game:block/wood/table/normal/top" },
+			"sides": { "base": "game:block/wood/table/normal/sides" },
+			"sides2": { "base": "game:block/wood/table/normal/sides" },
+			"legs": { "base": "game:block/wood/table/normal/legs" },
+			"bottom": { "base": "game:block/wood/table/normal/bottom" },
+			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
+			"churnsides2": { "base": "game:block/wood/churnsides2" },
+			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
 			"bowl": { "base": "game:block/clay/ceramic" }
 		}
 	},

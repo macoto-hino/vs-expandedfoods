@@ -27,7 +27,7 @@
       		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.02, foodcategory: "Fruit" }, 
       		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.01, foodcategory: "Fruit" },
       		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.01, foodcategory: "Fruit" }, 
-      		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, foodcategory: "Fruit" },
+      		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.01, foodcategory: "Fruit" },
 		},
     	renderIngredientsByType: {
 			"*-partbaked": {
@@ -328,7 +328,7 @@
       				"expandedfoods:fruitsyrupportion-breadfruit": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornbreadfruitsyrup.json",
       				"expandedfoods:fruitsyrupportion-lychee": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornlycheesyrup.json",
       				"expandedfoods:fruitsyrupportion-pomegranate": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornpomegranatesyrup.json",
-				"game:honeyportion": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornhoney.json",
+					"game:honeyportion": "expandedfoods:shapes/item/food/bread/overlays/syrup/acornhoney.json",
 					"wildcraft:fruit-huckleberry" : "expandedfoods:shapes/item/food/bread/overlays/huckleberry-acorn.json",
 					"wildcraft:fruit-snowberry" : "expandedfoods:shapes/item/food/bread/overlays/snowberry-acorn.json",
 					"wildcraft:fruit-brambleberry" : "expandedfoods:shapes/item/food/bread/overlays/brambleberry-acorn.json",

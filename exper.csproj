@@ -112,8 +112,8 @@
     <Content Include="changelog.txt" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspiritportion.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongspiritportion.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspirit.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongspirit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\lang\ja.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornbreadberry.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornbreadcrumbs.json" />
@@ -1214,6 +1214,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowlmini\top.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowl\base.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowl\complete.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowl\completeOG.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\mixingbowl\top.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\saucepan\contents-0.1.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\shapes\block\saucepan\contents-0.2.json" />

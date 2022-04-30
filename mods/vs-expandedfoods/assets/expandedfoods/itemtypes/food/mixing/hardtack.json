@@ -8,15 +8,10 @@
 	],
 	attributes: {
 		"handbook": { "exclude":  true },
-		expandedNutritionPropsByType: {
-			"*-raw": {
-      				"game:salt" : { saturation: 0, foodcategory: "Grain" },
-					"expandedfoods:lard": { saturation: 16, "health":  0.01, foodcategory: "Protein"},
-					"expandedfoods:pasteurizedmilk": { saturation: 1.15, "health":  0.01, foodcategory: "Dairy"},
-					"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.01, foodcategory: "Protein"},
-					"expandedfoods:soymilk-edible": { saturation: 1.125, "health": 0.01, foodcategory: "Dairy"},
-					"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
-			}
+		expandedNutritionProps: {
+      		"game:salt" : { saturation: 0, foodcategory: "Grain" },
+			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.01, foodcategory: "Protein"},
+			"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
 		},
 		bakingPropertiesByType: {
 			"*-raw": {
@@ -63,11 +58,9 @@
 				initialCode: "expandedfoods:hardtack-{type}-bake3",
 			},
 		},
-		onDisplayTransformByType: { 
-			"*": {
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75
-			},
+		onDisplayTransform: { 
+			translation: { x: 0, y: -0.125, z: 0 },
+			scale: 0.75
 		},
 		satMultByType: {
 			"*-bake1": 1,
@@ -148,8 +141,8 @@
 		scale: 2
 	},
 	tpHandTransform: {
-		translation: { x: -0.3, y: -0.2, z: 0.6 },
-		rotation: { x: 10, y: -83, z: 2 },
+		translation: { x: -0.5, y: -0.22, z: 0.6 },
+		rotation: { x: 0, y: -83, z: 0 },
 		origin: { x: 0, y: 0, z: 0 },
 		scale: 0.25
 	},
@@ -157,7 +150,7 @@
 		translation: { x: 0, y: 0.24, z: 0.3 },
 		rotation: { x: 0, y: 0, z: 59 },
 		origin: { x: 0.5, y: 0.1, z: 0.5 },
-		scale: 2
+		scale: 1.5
 	}
 
 	

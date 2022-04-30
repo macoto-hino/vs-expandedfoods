@@ -28,26 +28,30 @@ Complicated fish sauce recipe
 Healing over time added 
 Added industrial mixing bowl (works much faster, higher storage capacity)
 
-
-1.5.3-pre.9
+1.5.3-pre.10
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 Racks & meat hooks coalesced into single block ID using attribute typing
-Wildcraft compatibility updated (liquid stuff, mostly; berry bread/muffin & gozinaki Wildcraft visuals updated)
-Some dried berry models updated (thanks to Lan for inspiration!) - DONE!!!
+Wildcraft compatibility updated 
 More Chopped Mushrooms added
-Fried meat / acorn fruit bread oven crashing fixed - DONE!!!
-New powered mixing bowl shape
-Liquid rotting fixed - DONE!!!
-Fruit juice & wine/cider spoils into vinegar - DONE!!!
-Brandy actually cures now - DONE!!!
-Bread liquid nutrition values fixed - DONE!!!
-Peanut butter/sauce nutrition values fixed - DONE!!!
-Peanut butter/sauce recipes altered (it's more tedious now, I have a plan to fix this later) - DONE!!!
-Pasteurized milk & raw soy milk perish timers increased by 25% - DONE!!!
-Raw gelatin recipe fixed - DONE!!!
-Dried fruit timers revised - DONE!!!
+Wildcraft herb recipes more specialized
+Hardtack Transforms tweaked
+
+1.5.3-pre.9
+Wildcraft compatibility updated (liquid stuff; berry bread/muffin & gozinaki Wildcraft visuals updated)
+Some dried berry models updated (thanks to Lan for inspiration!)
+Fried meat / acorn fruit bread oven crashing fixed
+New powered mixing bowl shape & visuals (thanks to EreticKB!)
+Liquid rotting fixed
+Fruit juice & wine/cider spoils into vinegar
+Brandy actually cures now
+Bread liquid nutrition values fixed
+Peanut butter/sauce nutrition values fixed
+Peanut butter/sauce & flavored yogurt recipes altered (it's more tedious now, I have a plan to fix this later)
+Pasteurized milk & raw soy milk perish timers increased by 25%
+Raw gelatin recipe fixed
+Dried fruit timers revised
 
 1.5.3-pre.8
 Bottle disappearing fixed (thanks to SpearAndFang)

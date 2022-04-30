@@ -34,4 +34,18 @@
     value: "false",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
+ {
+    "file": "expandedfoods:itemtypes/liquid/wildcraft/wildpotentspirit.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
+ {
+    "file": "expandedfoods:itemtypes/liquid/wildcraft/wildstrongspirit.json",
+    op: "add", 
+    path: "/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft", "invert": true }]
+ },
 ]
