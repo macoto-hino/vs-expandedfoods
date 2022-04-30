@@ -7,27 +7,26 @@
     { code: "type", states: ["normal", "cheese" ]},
     { code: "state", states: ["raw", "dried", "partbaked", "cooked", "charred", "driedpartbaked", "driedcooked", "driedcharred" ]}
   ],
-  attributes: {
+    attributes: {
 		"handbook": { "exclude":  true },
-    meathookable: true,
-    meatHookTransform: {
-        translation: { x: 0.03, y: -0.295, z: 0.03 },
-  		rotation: { x: 0, y: 90, z: 0 },
-        origin: { x: 0.5, y: 0, z: 0.5 },
-        scale: .75
-    },
-        "expandedNutritionPropsByType": {
-      "*-raw": {
-        "expandedfoods:crabnugget-raw": {saturation: 90, foodcategory: "Protein"},
-        "game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
-        "game:fat": {saturation: 200, foodcategory: "Protein"},
-        "game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
-        "game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
-      },
-    },
+        meathookable: true,
+		meatHookTransform: {
+  			translation: { x: 0.0, y: 0.035, z: 0.0 },
+  			rotation: { x: 0, y: 0, z: 0 },
+  			origin: { x: 0.5, y: 0, z: 0.5 },
+  			scale: .75
+		},
+        "expandedNutritionProps": {
+			"expandedfoods:crabnugget-raw": {saturation: 140, foodcategory: "Protein"},
+			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Protein"},
+			"game:fat": {saturation: 200, foodcategory: "Protein"},
+			"expandedfoods:lard" : {saturation: 8, "health":  0.005, foodcategory: "Protein"},
+			"game:cheese-cheddar-1slice" : { saturation: 240, foodcategory: "Dairy" },
+			"game:cheese-blue-1slice" : {saturation: 200, foodcategory: "Dairy" },
+        },
         renderIngredients: {
-        "expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
-    },
+            "expandedfoods:crabnugget-raw": "expandedfoods:shapes/item/food/meat/sausage-poultry.json",
+        },
         inPiePropertiesByType: {
             "*-raw": { texture: "game:block/food/pie/fill-crab", partType: 'Filling' },
             "*-dried": { texture: "game:block/food/pie/fill-crab", partType: 'Filling' },
@@ -102,24 +101,21 @@
         initialCode: "expandedfoods:sausagecrabherb-{type}-driedcooked"
       },
     },
-    satMultByType: {
-      "*-partbaked": 0.9,
-      "*-cooked": 1,
-      "*-charred": 0.8,
-      "*-driedpartbaked": 0.9,
-      "*-driedcooked": 1,
-      "*-driedcharred": 0.8
-    },
-    onDisplayTransform: {
-      
-      translation: { x: 0, y: -0.465, z: 0 },
-
-      rotation: { x: 90, y: 0, z: 0 },
-      scale: 0.5
-    
-    },
+	satMultByType: {
+		"*-partbaked": 0.5,
+		"*-cooked": 1,
+		"*-charred": 0.75,
+		"*-driedpartbaked": 0.625,
+		"*-driedcooked": 1.25,
+		"*-driedcharred": 0.9375
+	},
+	onDisplayTransform: {
+		translation: { x: 0, y: -0.29, z: 0 },
+		rotation: { x: 90, y: 0, z: 45 },
+		scale: 0.65
+	},
   },
-  shape: { base: "expandedfoods:item/food/meat/sausage-poultry" },
+    shape: { base: "expandedfoods:item/food/meat/sausage-poultry" },
     texturesByType: {
     "*-normal-partbaked": {
           "white1": {base: "game:block/cloth/wool/white1" },
@@ -200,22 +196,19 @@
   },
   creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
   transitionablePropsByType: {
-    "*-raw": [
-                {
-              type: "Cure",
-              freshHours: { avg: 350 },
-              transitionHours: { avg: 6 },
-              transitionedStack: { type: "item", code: "expandedfoods:sausagecrabherb-{type}-dried" },
-              transitionRatio: 1
-            },
-                {
-              type: "Perish",
-              freshHours: { avg: 48 },
-              transitionHours: { avg: 24 },
-              transitionedStack: { type: "item", code: "game:rot" },
-              transitionRatio: 1
-            },
-    ],
+    "*-raw": [{
+        type: "Cure",
+        freshHours: { avg: 350 },
+        transitionHours: { avg: 6 },
+        transitionedStack: { type: "item", code: "expandedfoods:sausagecrabherb-{type}-dried" },
+        transitionRatio: 1
+        },{
+        type: "Perish",
+        freshHours: { avg: 48 },
+        transitionHours: { avg: 24 },
+        transitionedStack: { type: "item", code: "game:rot" },
+        transitionRatio: 1
+    }],
     "*-dried": [{
       type: "Perish",
       freshHours: { avg: 48 },

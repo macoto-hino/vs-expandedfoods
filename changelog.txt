@@ -20,6 +20,7 @@ Added Roux & Gumbo meal
 Added preserves, jelly & jam - jam, but in the mixing bowl
 Added egg cracking - eggs now must be cracked into a liquid container; makes yolks & shells
 Added candied apples
+Added mushroom ketchup/juice
 Added VanVar compatibility for more mixing bowl variants
 Fixed meat rack cure timer?
 Remove smashed meat variants?
