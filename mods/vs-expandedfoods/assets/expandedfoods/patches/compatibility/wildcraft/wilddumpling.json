@@ -14,14 +14,14 @@
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/wildherbdumpling.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/wildherbdumpling.json",
     op: "add", 
     path: "/0/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraft", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/wildherbdumpling.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/wildherbdumpling.json",
     op: "add", 
     path: "/1/enabled", 
     value: "false",

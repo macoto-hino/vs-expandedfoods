@@ -38,7 +38,7 @@ More Chopped Mushrooms added
 Wildcraft herb recipes more specialized
 Hardtack Transforms tweaked - DONE!!!
 All nutrition values re-examined
-Brine to Salt recipe nerfed - DONE!!!
+Brine to Salt barrel recipe nerfed; Brine to Salt simmer recipe added - DONE!!!
 
 
 1.5.3-pre.9

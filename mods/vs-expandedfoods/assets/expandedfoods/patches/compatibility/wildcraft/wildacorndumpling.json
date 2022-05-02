@@ -14,14 +14,14 @@
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/wildherbacorndumpling.json",
+   file: "expandedfoods:recipes/kneading/wildcraft//herbstuff/wildherbacorndumpling.json",
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/wildherbacorndumpling.json",
+   file: "expandedfoods:recipes/kneading/wildcraft//herbstuff/wildherbacorndumpling.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",

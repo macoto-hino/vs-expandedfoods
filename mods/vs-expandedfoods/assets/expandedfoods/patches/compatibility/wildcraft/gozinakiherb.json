@@ -21,7 +21,7 @@
     dependsOn: [{ "modid": "wildcraft" , "invert": true}]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinak.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinaki.json",
     op: "add", 
     path: "/0/enabled", 
     value: "false",

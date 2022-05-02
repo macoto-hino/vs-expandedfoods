@@ -7,7 +7,7 @@
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/wildherbgozinakisyrup.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/wildherbgozinakisyrup.json",
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
