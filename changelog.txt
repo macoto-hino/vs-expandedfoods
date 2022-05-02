@@ -33,12 +33,13 @@ Added industrial mixing bowl (works much faster, higher storage capacity)
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
-Wildcraft compatibility updated (herbal bread, hardtack, & sausage) - DONE!?!!?
+Wildcraft compatibility updated (herbal bread, hardtack, & sausage; EF meals) - DONE!?!!?
 More Chopped Mushrooms added
-Wildcraft herb recipes more specialized
+Wildcraft herb recipes more specialized - DONE!!!
 Hardtack Transforms tweaked - DONE!!!
 All nutrition values re-examined
 Brine to Salt barrel recipe nerfed; Brine to Salt simmer recipe added - DONE!!!
+Au gratin requires 0.1 L of milk instead of 1 L - DONE!!!
 
 
 1.5.3-pre.9

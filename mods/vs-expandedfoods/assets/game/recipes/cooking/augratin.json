@@ -27,7 +27,7 @@
 			],
 			minQuantity: 1,
 			maxQuantity: 1,
-			portionSizeLitres: 1,
+			portionSizeLitres: 0.1,
 		},
 		{
 			code: "vegetable-base", 

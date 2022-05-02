@@ -1,31 +1,137 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/0/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "wildcraft:minerslettuce",
-      "shapeElement": "bowl/vegetable 1/*",
-      "textureMapping": [
-        "vegetable",
-        "group10"
-      ]
-    },
+    "value": [
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-bearleek",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-burdock",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-celery",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-chicory",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-dock",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-leek",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-minerslettuce",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-mustard",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-stingingnettle",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-sedge",
+            "shapeElement": "bowl/vegetable 1/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+    ],
     "file": "recipes/mixing/salad.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
   {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/1/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "wildcraft:minerslettuce",
-      "shapeElement": "bowl/vegetable 2/*",
-      "textureMapping": [
-        "vegetable",
-        "group10"
-      ]
-    },
+    "value": [
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-bearleek",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-burdock",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-celery",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-chicory",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-dock",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-leek",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-minerslettuce",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-mustard",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-stingingnettle",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:herbs-sedge",
+            "shapeElement": "bowl/vegetable 2/*",
+            "textureMapping": [ "vegetable", "group10" ]
+        },
+    ],
     "file": "recipes/mixing/salad.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
@@ -34,23 +140,8 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "wildcraft:minerslettuce",
+      "code": "wildcraft:herbs-*",
       "shapeElement": "bowl/vegetable 3/*",
-      "textureMapping": [
-        "vegetable",
-        "group10"
-      ]
-    },
-    "file": "recipes/mixing/salad.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "wildcraft:minerslettuce",
-      "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group10"
