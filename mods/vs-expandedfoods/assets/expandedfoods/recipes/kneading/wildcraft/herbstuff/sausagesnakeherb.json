@@ -3,7 +3,7 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
  },
@@ -11,8 +11,8 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
  },
@@ -20,9 +20,9 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
  },
@@ -30,10 +30,10 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
  },
@@ -41,7 +41,7 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
@@ -50,8 +50,8 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
@@ -60,9 +60,9 @@
   ingredients: [
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-normal-raw", stackSize: 1}
@@ -72,7 +72,7 @@
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-cheese-raw", stackSize: 1}
@@ -82,8 +82,8 @@
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-cheese-raw", stackSize: 1}
@@ -93,9 +93,9 @@
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-cheese-raw", stackSize: 1}
@@ -105,7 +105,7 @@
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-cheese-raw", stackSize: 1}
@@ -115,8 +115,8 @@
   	{inputs: [{ type: "item", code: "game:fat",  quantity: 1 }, { type: "item", code: "expandedfoods:lard", quantity: 10 }]},
     {inputs: [{ type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:cheese-cheddar-1slice", quantity: 1 }, { type: "item", code: "game:cheese-blue-1slice", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
-    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*",  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
+    {inputs: [{ type: "item", code: "game:herbbundle-*",  quantity: 1 }, { type: "item", code: "wildcraft:herbs-*", allowedVariants: ["basil", "bearleek", "blackpepper", "celery", "cilantro", "dill", "dock", "lavender", "leek", "marjoram", "mint", "mugwort", "mustard", "rosemary", "saffron", "sage", "thyme"],  quantity: 1 }]},
     {inputs: [{ type: "item", code: "game:salt",  quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sausagesnakeherb-cheese-raw", stackSize: 1}

@@ -13,6 +13,6 @@
   ingredients: [
     { type: "item", code: "brineportion",  litres: 1 }
   ],
-  output: { type: "item", code: "salt", stackSize: 2 }
+  output: { type: "item", code: "salt", stackSize: 1 }
 },
 ]

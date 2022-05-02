@@ -33,11 +33,13 @@ Added industrial mixing bowl (works much faster, higher storage capacity)
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
-Racks & meat hooks coalesced into single block ID using attribute typing
-Wildcraft compatibility updated 
+Wildcraft compatibility updated (herbal bread, hardtack, & sausage) - DONE!?!!?
 More Chopped Mushrooms added
 Wildcraft herb recipes more specialized
-Hardtack Transforms tweaked
+Hardtack Transforms tweaked - DONE!!!
+All nutrition values re-examined
+Brine to Salt recipe nerfed - DONE!!!
+
 
 1.5.3-pre.9
 Wildcraft compatibility updated (liquid stuff; berry bread/muffin & gozinaki Wildcraft visuals updated)
