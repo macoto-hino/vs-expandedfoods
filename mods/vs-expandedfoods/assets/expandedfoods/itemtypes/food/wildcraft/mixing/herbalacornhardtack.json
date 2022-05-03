@@ -11,7 +11,7 @@
 		"handbook": { "exclude":  true },
 		expandedNutritionProps: {
       		"game:salt" : { saturation: 0, foodcategory: "Grain" },
-			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.01, foodcategory: "Protein"},
+			"expandedfoods:brothportion-bone": { saturation: 1, "health": 0.1, foodcategory: "Protein"},
 			"game:egg-chicken-raw": { saturation: 150, foodcategory: "Protein"},
 		},
 		bakingPropertiesByType: {

@@ -12,10 +12,10 @@
 		expandedNutritionProps: {
 			"game:salt": {saturation: 10, health: 0.5, foodcategory: "Fruit"},
       		"game:honeyportion" : { saturation: 4, foodcategory: "Fruit" },
-      		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.02, foodcategory: "Fruit" }, 
-      		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.01, foodcategory: "Fruit" },
-      		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.01, foodcategory: "Fruit" },
-      		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.01, foodcategory: "Fruit" },
+      		"expandedfoods:fruitsyrupportion-saguaro" : { saturation: 12, "health": 0.2, foodcategory: "Fruit" }, 
+      		"expandedfoods:fruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"expandedfoods:wildfruitsyrupportion-*" : { saturation: 12, "health": 0.1, foodcategory: "Fruit" },
+      		"expandedfoods:treesyrupportion-*" : { saturation: 9.6, "health": 0.1, foodcategory: "Fruit" },
 		},
     	renderIngredientsByType: {
 			"*-cooked": {
