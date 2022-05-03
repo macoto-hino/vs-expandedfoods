@@ -1,9 +1,0 @@
-﻿[
- {
-   file: "expandedfoods:itemtypes/liquid/wildcraft/tea.json",
-    op: "add", 
-    path: "/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
- },
-]

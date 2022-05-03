@@ -40,6 +40,10 @@ Hardtack Transforms tweaked - DONE!!!
 All nutrition values re-examined
 Brine to Salt barrel recipe nerfed; Brine to Salt simmer recipe added - DONE!!!
 Au gratin requires 0.1 L of milk instead of 1 L - DONE!!!
+Alcohol can be added to veggie stews
+Chopped mushroom recipes fixed - DONE!!!
+Handbook finally updated
+Herbal tea removed (will be taken over by Wildcraft) - DONE!!!
 
 
 1.5.3-pre.9

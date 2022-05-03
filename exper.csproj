@@ -814,7 +814,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbalhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\sausage.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\simmerrecipe.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\tea.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bighookmold.json" />
@@ -918,7 +917,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildfruitsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentwine.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildstrongwine.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\tea.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yeastwater.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\yogurt.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\rollingpin.json" />

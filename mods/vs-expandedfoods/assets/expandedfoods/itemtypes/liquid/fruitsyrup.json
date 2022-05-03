@@ -16,8 +16,8 @@
 		},
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
 		nutritionPropsWhenInMealByType: { 
-			"*-saguaro": { satiety: 120, health: 0.2, foodcategory: "Fruit" },
-			"*": { satiety: 120, health: 0.1, foodcategory: "Fruit" },
+			"*-saguaro": { satiety: 120, health: 2, foodcategory: "Fruit" },
+			"*": { satiety: 120, health: 1, foodcategory: "Fruit" },
 		},
 		waterTightContainerProps: {
 			containable: true,

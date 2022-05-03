@@ -30,9 +30,9 @@
       },
       "V": {
         type: "block",
-        code: "game:mushroom-*-normal-free",
-	allowedVariants: ["flyagaric", "kingbolete", "fieldmushroom"],
-	name: "type"
+        code: "game:mushroom-*-normal",
+	    allowedVariants: ["flyagaric", "kingbolete", "fieldmushroom"],
+	    name: "type"
       }
     },
     "width": 2,
@@ -51,7 +51,7 @@
       "V": {
         type: "item",
         code: "game:pickledvegetable-*",
-	allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
+	    allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
         name: "type",
       }
     },
@@ -72,7 +72,7 @@
       "V": {
         type: "item",
         code: "game:vegetable-*",
-	allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
+	    allowedVariants: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "cassava", "bellpepper"],
         name: "type",
       }
     },
@@ -91,7 +91,7 @@
       },
       "V": {
         type: "block",
-        code: "game:mushroom-*-normal-free",
+        code: "game:mushroom-*-normal",
 	allowedVariants: ["flyagaric", "kingbolete", "fieldmushroom"],
 	name: "type"
       }
@@ -112,7 +112,7 @@
       "V": {
         type: "item",
         code: "game:pickledvegetable-*",
-	allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
+	    allowedVariants: ["carrot", "onion", "turnip", "parsnip", "pumpkin"],
         name: "type",
       }
     },
