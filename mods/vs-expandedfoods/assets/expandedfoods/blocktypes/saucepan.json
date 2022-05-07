@@ -222,7 +222,7 @@
 						{
 							type: "item",
 							code: "juiceportion-apple",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -252,7 +252,7 @@
 						{
 							type: "item",
 							code: "juiceportion-blueberry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -282,7 +282,7 @@
 						{
 							type: "item",
 							code: "juiceportion-cranberry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -312,7 +312,7 @@
 						{
 							type: "item",
 							code: "juiceportion-blackcurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -342,7 +342,7 @@
 						{
 							type: "item",
 							code: "juiceportion-redcurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -372,7 +372,7 @@
 						{
 							type: "item",
 							code: "juiceportion-whitecurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -402,7 +402,7 @@
 						{
 							type: "item",
 							code: "juiceportion-pineapple",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -432,7 +432,7 @@
 						{
 							type: "item",
 							code: "juiceportion-saguaro",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -462,7 +462,7 @@
 						{
 							type: "item",
 							code: "juiceportion-cherry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -492,7 +492,7 @@
 						{
 							type: "item",
 							code: "juiceportion-peach",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -522,7 +522,7 @@
 						{
 							type: "item",
 							code: "juiceportion-pear",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -552,7 +552,7 @@
 						{
 							type: "item",
 							code: "juiceportion-orange",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -582,7 +582,7 @@
 						{
 							type: "item",
 							code: "juiceportion-mango",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -612,7 +612,7 @@
 						{
 							type: "item",
 							code: "juiceportion-breadfruit",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -642,7 +642,7 @@
 						{
 							type: "item",
 							code: "juiceportion-lychee",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -672,7 +672,7 @@
 						{
 							type: "item",
 							code: "juiceportion-pomegranate",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -702,7 +702,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-carrot",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -732,7 +732,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-cabbage",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -762,7 +762,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-onion",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -792,7 +792,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-turnip",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -822,7 +822,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-parsnip",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -852,7 +852,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-pumpkin",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -882,7 +882,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-cassava",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -912,7 +912,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:vegetablejuiceportion-bellpepper",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -942,7 +942,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-saguaro",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -978,7 +978,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-apple",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1014,7 +1014,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-blueberry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1050,7 +1050,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-cranberry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1086,7 +1086,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-blackcurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1122,7 +1122,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-redcurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1158,7 +1158,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-whitecurrant",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1194,7 +1194,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-pineapple",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1230,7 +1230,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-cherry",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1266,7 +1266,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-peach",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1302,7 +1302,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-pear",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1338,7 +1338,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-orange",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1374,7 +1374,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-mango",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1410,7 +1410,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-breadfruit",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1446,7 +1446,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-lychee",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1482,7 +1482,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:fruitsyrupportion-pomegranate",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1518,7 +1518,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:treesyrupportion-birch",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1554,7 +1554,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:treesyrupportion-maple",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1590,7 +1590,7 @@
 						{
 							type: "item",
 							code: "expandedfoods:soysauce",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",
@@ -1620,7 +1620,7 @@
 						{
 							type: "item",
 							code: "game:honeyportion",
-							quantity: 100
+							quantity: 10
 						},
 						{
 							type: "item",

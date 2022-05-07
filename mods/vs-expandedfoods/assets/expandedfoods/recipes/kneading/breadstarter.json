@@ -21,7 +21,7 @@
 		{inputs: [{ type: "item", code: "game:waterportion", quantity: 100 }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
 		{inputs: [{ type: "item", code: "game:flour-*", quantity: 1 }]},
-		{inputs: [{ type: "item", code: "expandedfoods:breadstarter-wild", quantity: 1 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:breadstarter-wild", quantity: 100 }]},
 	],
 	output: { type: "item", code: "expandedfoods:breadstarter-wild", stackSize: 300}
  },

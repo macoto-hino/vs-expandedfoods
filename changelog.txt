@@ -29,22 +29,27 @@ Complicated fish sauce recipe
 Healing over time added 
 Added industrial mixing bowl (works much faster, higher storage capacity)
 
-1.5.3-pre.10
+1.5.3-pre.11
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
-Wildcraft compatibility updated (herbal bread, hardtack, & sausage; EF meals) - DONE!?!!?
 More Chopped Mushrooms added
-Wildcraft herb recipes more specialized - DONE!!!
-Hardtack Transforms tweaked - DONE!!!
-All nutrition values re-examined
-Brine to Salt barrel recipe nerfed; Brine to Salt simmer recipe added - DONE!!!
-Au gratin requires 0.1 L of milk instead of 1 L - DONE!!!
-Alcohol can be added to veggie stews
-Chopped mushroom recipes fixed - DONE!!!
-Handbook finally updated
-Herbal tea removed (will be taken over by Wildcraft) - DONE!!!
 
+1.5.3-pre.10
+Wildcraft compatibility fully updated (herbal bread, hardtack, & sausage; EF meals)
+Handbook finally updated
+Wildcraft herb recipes more specialized
+Hardtack Transforms tweaked
+All liquid nutrition values re-examined
+Brine to Salt barrel recipe nerfed; Brine to Salt simmer recipe added
+Au gratin requires 0.1 L of milk instead of 1 L
+Alcohol can be added to veggie stews
+Chopped mushroom recipes fixed
+Herbal tea removed (will be taken over by Wildcraft)
+Yogurt nutrition revised
+New yogurt textures added
+Yogurt recipe fixed; now makes 10 mL at a time (sorry)
+Flavored gelatin requires less juice to make
 
 1.5.3-pre.9
 Wildcraft compatibility updated (liquid stuff; berry bread/muffin & gozinaki Wildcraft visuals updated)
