@@ -3,7 +3,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-huckleberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-huckleberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -27,7 +27,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-snowberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-snowberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -51,7 +51,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-brambleberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-brambleberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -75,7 +75,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-cloudberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-cloudberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -99,7 +99,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-dogrose", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-dogrose", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -123,7 +123,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-elderberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-elderberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -147,7 +147,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-gooseberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-gooseberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -171,7 +171,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-honeysuckle", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-honeysuckle", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -195,7 +195,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-strawberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-strawberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },
@@ -219,7 +219,7 @@
   code: "winevinegar",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitwineportion-raspberry", litres: 0.1 },
+    { type: "item", code: "wildcraft:ciderportion-raspberry", litres: 0.1 },
   ],
   output: { type: "item", code: "game:vinegarportion", litres: 0.1 }
  },

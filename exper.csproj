@@ -815,7 +815,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbalbread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbalhardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\sausage.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\simmerrecipe.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\blocktypes\bighookmold.json" />

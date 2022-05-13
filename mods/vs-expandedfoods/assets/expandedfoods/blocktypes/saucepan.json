@@ -8433,7 +8433,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-huckleberry",
+							"code": "wildcraft:juiceportion-huckleberry",
 							"quantity": 100
 						},
 						{
@@ -8499,7 +8499,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-snowberry",
+							"code": "wildcraft:juiceportion-snowberry",
 							"quantity": 10
 						},
 						{
@@ -8565,7 +8565,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-brambleberry",
+							"code": "wildcraft:juiceportion-brambleberry",
 							"quantity": 100
 						},
 						{
@@ -8631,7 +8631,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-cloudberry",
+							"code": "wildcraft:juiceportion-cloudberry",
 							"quantity": 100
 						},
 						{
@@ -8697,7 +8697,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-dogrose",
+							"code": "wildcraft:juiceportion-dogrose",
 							"quantity": 100
 						},
 						{
@@ -8763,7 +8763,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-elderberry",
+							"code": "wildcraft:juiceportion-elderberry",
 							"quantity": 100
 						},
 						{
@@ -8829,7 +8829,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-gooseberry",
+							"code": "wildcraft:juiceportion-gooseberry",
 							"quantity": 100
 						},
 						{
@@ -8895,7 +8895,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-honeysuckle",
+							"code": "wildcraft:juiceportion-honeysuckle",
 							"quantity": 100
 						},
 						{
@@ -8961,7 +8961,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-strawberry",
+							"code": "wildcraft:juiceportion-strawberry",
 							"quantity": 100
 						},
 						{
@@ -9027,7 +9027,7 @@
 						},
 						{
 							"type": "item",
-							"code": "expandedfoods:wildfruitjuiceportion-raspberry",
+							"code": "wildcraft:juiceportion-raspberry",
 							"quantity": 100
 						},
 						{
