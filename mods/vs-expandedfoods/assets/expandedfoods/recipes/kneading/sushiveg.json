@@ -35,7 +35,7 @@
   ingredients: [
     {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-kingbolete", quantity: 1 }]}, 
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-kingbolete", quantity: 1 }]}, 
     {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sushiveg-kingbolete-nooil", stackSize: 1}
@@ -44,7 +44,7 @@
   ingredients: [
     {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-kingbolete", quantity: 1 }]}, 
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-kingbolete", quantity: 1 }]}, 
   ],
   output: { type: "item", code: "expandedfoods:sushiveg-kingbolete-nooil", stackSize: 1}
  },
@@ -52,7 +52,7 @@
   ingredients: [
     {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-fieldmushroom", quantity: 1 }]},  
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-fieldmushroom", quantity: 1 }]},  
     {inputs: [{ type: "item", code: "game:salt", quantity: 1 }]},
   ],
   output: { type: "item", code: "expandedfoods:sushiveg-fieldmushroom-nooil", stackSize: 1}
@@ -61,7 +61,7 @@
   ingredients: [
     {inputs: [{ type: "item", code: "game:grain-rice",  quantity: 1 }]},
     {inputs: [{ type: "item", code: "expandedfoods:driedseaweed-edible", quantity: 1 }]},
-    {inputs: [{ type: "item", code: "expandedfoods:choppedvegetable-fieldmushroom", quantity: 1 }]},  
+    {inputs: [{ type: "item", code: "expandedfoods:choppedmushroom-fieldmushroom", quantity: 1 }]},  
   ],
   output: { type: "item", code: "expandedfoods:sushiveg-fieldmushroom-nooil", stackSize: 1}
  },

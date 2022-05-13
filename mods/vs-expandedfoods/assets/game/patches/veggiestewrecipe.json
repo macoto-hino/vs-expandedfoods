@@ -32,7 +32,7 @@
     "path": "/ingredients/0/validStacks/13",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
@@ -46,11 +46,25 @@
     "path": "/ingredients/0/validStacks/14",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-kingbolete",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -135,20 +149,6 @@
       "textureMapping": [
         "vegetable",
         "group6"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/21",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-fieldmushroom",
-      "shapeElement": "bowl/vegetable 1/*",
-      "textureMapping": [
-        "vegetable",
-        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -298,7 +298,7 @@
     "path": "/ingredients/1/validStacks/13",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
@@ -312,11 +312,25 @@
     "path": "/ingredients/1/validStacks/14",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-kingbolete",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -401,20 +415,6 @@
       "textureMapping": [
         "vegetable",
         "group6"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/21",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-fieldmushroom",
-      "shapeElement": "bowl/vegetable 2/*",
-      "textureMapping": [
-        "vegetable",
-        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -583,7 +583,7 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
@@ -597,11 +597,25 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-kingbolete",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -686,20 +700,6 @@
       "textureMapping": [
         "vegetable",
         "group6"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-fieldmushroom",
-      "shapeElement": "bowl/vegetable 3/*",
-      "textureMapping": [
-        "vegetable",
-        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -868,7 +868,7 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-flyagaric",
+      "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
@@ -882,11 +882,25 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedvegetable-kingbolete",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -971,20 +985,6 @@
       "textureMapping": [
         "vegetable",
         "group6"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedvegetable-fieldmushroom",
-      "shapeElement": "bowl/vegetable 4/*",
-      "textureMapping": [
-        "vegetable",
-        "group7"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"

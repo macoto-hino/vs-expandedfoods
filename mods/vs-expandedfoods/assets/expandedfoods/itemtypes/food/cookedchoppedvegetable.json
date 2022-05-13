@@ -2,21 +2,12 @@
 	code: "cookedchoppedvegetable",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "bellpepper", "pickledbellpepper"] },
 		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
 	],
 	shape: { base: "item/food/veggies/chopped/cooked/{type}"},
 	texturesByType: {
 		"*-partbaked": {
-			"cap": {base: "item/food/veggie/partbaked/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/partbaked/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/partbaked/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/partbaked/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/partbaked/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/partbaked/fieldmushroom/pores"},
-    			"capfly": {base: "item/food/veggie/partbaked/flyagaric/cap"},
-    			"stipefly": {base: "item/food/veggie/partbaked/flyagaric/stipe"},
-    			"poresfly": {base: "item/food/veggie/partbaked/flyagaric/pores"},
 			"cabbage": {base: "item/food/veggie/partbaked/chopped/cabbage"},
 			"carrot": {base: "item/food/veggie/partbaked/carrot"},
 			"pickledcarrot": {base: "item/food/veggie/partbaked/pickledcarrot"},
@@ -34,15 +25,6 @@
 			"pickledbellpepper": {base: "item/food/veggie/partbaked/pickledbellpepper"},
 		},
 		"*-perfect": {
-			"cap": {base: "item/food/veggie/perfect/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/perfect/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/perfect/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/perfect/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/perfect/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/perfect/fieldmushroom/pores"},
-    			"capfly": {base: "item/food/veggie/perfect/flyagaric/cap"},
-    			"stipefly": {base: "item/food/veggie/perfect/flyagaric/stipe"},
-    			"poresfly": {base: "item/food/veggie/perfect/flyagaric/pores"},
 			"cabbage": {base: "item/food/veggie/perfect/chopped/cabbage"},
 			"carrot": {base: "item/food/veggie/perfect/carrot"},
 			"pickledcarrot": {base: "item/food/veggie/perfect/pickledcarrot"},
@@ -60,15 +42,6 @@
 			"pickledbellpepper": {base: "item/food/veggie/perfect/pickledbellpepper"},
 		},
 		"*-charred": {
-			"cap": {base: "item/food/veggie/charred/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/charred/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/charred/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/charred/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/charred/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/charred/fieldmushroom/pores"},
-    			"capfly": {base: "item/food/veggie/charred/flyagaric/cap"},
-    			"stipefly": {base: "item/food/veggie/charred/flyagaric/stipe"},
-    			"poresfly": {base: "item/food/veggie/charred/flyagaric/pores"},
 			"cabbage": {base: "item/food/veggie/charred/chopped/cabbage"},
 			"carrot": {base: "item/food/veggie/charred/carrot"},
 			"pickledcarrot": {base: "item/food/veggie/charred/pickledcarrot"},
@@ -103,54 +76,6 @@
 				scale: 0.5 
 			}
 		},
-		"*-flyagaric-partbaked": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-flyagaric-perfect",
-				initialCode: "expandedfoods:choppedvegetable-flyagaric"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-kingbolete-partbaked": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-kingbolete-perfect",
-				initialCode: "expandedfoods:choppedvegetable-kingbolete"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-fieldmushroom-partbaked": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.25,
-				levelTo: 0.5,
-				startScaleY: 1.0,
-				endScaleY: 0.9,
-				resultCode: "expandedfoods:cookedchoppedvegetable-fieldmushroom-perfect",
-				initialCode: "expandedfoods:choppedvegetable-fieldmushroom"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
 		"*-partbaked": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
@@ -183,54 +108,6 @@
 				scale: 0.5 
 			}
 		},
-		"*-flyagaric-perfect": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-flyagaric-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-flyagaric-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-kingbolete-perfect": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-kingbolete-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-kingbolete-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-fieldmushroom-perfect": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.5,
-				levelTo: 0.75,
-				startScaleY: 0.9,
-				endScaleY: 0.8,
-				resultCode: "expandedfoods:cookedchoppedvegetable-fieldmushroom-charred",
-				initialCode: "expandedfoods:cookedchoppedvegetable-fieldmushroom-partbaked"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
 		"*-perfect": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
 			bakingProperties: {
@@ -260,51 +137,6 @@
 			onDisplayTransform: { 
 				translation: { x: 0, y: -0.25, z: 0 },
 				scale: 0.5 
-			}
-		},
-		"*-flyagaric-charred": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-flyagaric-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-kingbolete-charred": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-kingbolete-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			}
-		},
-		"*-fieldmushroom-charred": {
-			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.75,
-				levelTo: 1,
-				startScaleY: 0.8,
-				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedvegetable-fieldmushroom-perfect"
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
 			}
 		},
 		"*-charred": {
@@ -345,9 +177,6 @@
 	nutritionPropsByType: {
 		"*-cabbage-partbaked": { satiety: 400, foodcategory: "Vegetable" },
 		"*-pumpkin-partbaked": { satiety: 160, foodcategory: "Vegetable" },
-		"*-flyagaric-partbaked": { saturation: 105, foodcategory: "Vegetable" },
-		"*-kingbolete-partbaked": { saturation: 105, foodcategory: "Vegetable" },
-		"*-fieldmushroom-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledcarrot-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledonion-partbaked": { saturation: 105, foodcategory: "Vegetable" },
 		"*-pickledparsnip-partbaked": { saturation: 105, foodcategory: "Vegetable" },
@@ -358,9 +187,6 @@
 
 		"*-cabbage-perfect": { satiety: 520, foodcategory: "Vegetable" },
 		"*-pumpkin-perfect": { satiety: 200, foodcategory: "Vegetable" },
-		"*-flyagaric-perfect": { saturation: 140, foodcategory: "Vegetable" },
-		"*-kingbolete-perfect": { saturation: 140, foodcategory: "Vegetable" },
-		"*-fieldmushroom-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledcarrot-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledonion-perfect": { saturation: 140, foodcategory: "Vegetable" },
 		"*-pickledparsnip-perfect": { saturation: 140, foodcategory: "Vegetable" },
@@ -371,9 +197,6 @@
 
 		"*-cabbage-charred": { satiety: 450, foodcategory: "Vegetable" },
 		"*-pumpkin-charred": { satiety: 180, foodcategory: "Vegetable" },
-		"*-flyagaric-charred": { saturation: 120, foodcategory: "Vegetable" },
-		"*-kingbolete-charred": { saturation: 120, foodcategory: "Vegetable" },
-		"*-fieldmushroom-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledcarrot-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledonion-charred": { saturation: 120, foodcategory: "Vegetable" },
 		"*-pickledparsnip-charred": { saturation: 120, foodcategory: "Vegetable" },
@@ -394,27 +217,6 @@
       			type: "Perish",
       			freshHours: { avg: 336 },
       			transitionHours: { avg: 60 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
-    		}],
-    		"*-kingbolete-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 216 },
-      			transitionHours: { avg: 36 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
-    		}],
-    		"*-fieldmushroom-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 216 },
-      			transitionHours: { avg: 36 },
-      			transitionedStack: { type: "item", code: "game:rot" },
-      			transitionRatio: 1
-    		}],
-    		"*-flyagaric-partbaked": [{
-      			type: "Perish",
-      			freshHours: { avg: 216 },
-      			transitionHours: { avg: 36 },
       			transitionedStack: { type: "item", code: "game:rot" },
       			transitionRatio: 1
     		}],
@@ -481,27 +283,6 @@
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
-		"*-kingbolete-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-fieldmushroom-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-flyagaric-perfect": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
 		"*-pickledcarrot-perfect": [{
 			type: "Perish",
 			freshHours: { avg: 900 },
@@ -562,27 +343,6 @@
 			type: "Perish",
 			freshHours: { avg: 1176 },
 			transitionHours: { avg: 100 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-kingbolete-charred": [{
-			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 60 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-fieldmushroom-charred": [{
-			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 60 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-flyagaric-charred": [{
-			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 60 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],

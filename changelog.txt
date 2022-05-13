@@ -33,7 +33,8 @@ Added industrial mixing bowl (works much faster, higher storage capacity)
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
-More Chopped Mushrooms added
+New Chopped Mushroom item
+Sausage meal names refined - DONE!!!
 
 1.5.3-pre.10
 Wildcraft compatibility fully updated (herbal bread, hardtack, & sausage; EF meals)

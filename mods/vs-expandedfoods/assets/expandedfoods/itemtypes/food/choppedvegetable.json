@@ -39,57 +39,6 @@
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
-		"*-flyagaric": {
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
-		},
-		"*-kingbolete": {
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
-		},
-		"*-fieldmushroom": {
-			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
-			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
-			},
-    			inPieProperties: { texture: "game:block/food/pie/fill-mushroomwhite", partType: 'Filling' },
-		},
 		"*-pickledcarrot": {
 			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
 			"handbook": { "groupBy": [ "choppedvegetable-*" ] },
@@ -236,7 +185,7 @@
 		},
 	},
 	variantgroups: [
-		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
+		{ code: "type", states: ["carrot", "cabbage", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "papyrusroot", "cattailroot", "cassavadried", "bellpepper"] },
 	],
 	shape: { base: "item/food/veggies/chopped/{type}"
 	},
@@ -247,9 +196,6 @@
 		"*-papyrusroot": { foodcategory: "Vegetable" },
 		"*-cabbage": { satiety: 375, foodcategory: "Vegetable" },
 		"*-pumpkin": { satiety: 150, foodcategory: "Vegetable" },
-		"*-flyagaric": { saturation: 100, health: -5, foodcategory: "Vegetable" },
-		"*-kingbolete": { saturation: 100, foodcategory: "Vegetable" },
-		"*-fieldmushroom": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledcarrot": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledonion": { saturation: 100, foodcategory: "Vegetable" },
 		"*-pickledparsnip": { saturation: 100, foodcategory: "Vegetable" },
@@ -285,27 +231,6 @@
 			transitionHours: { avg: 60 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
-		}],
-		"*-kingbolete": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-fieldmushroom": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
-		}],
-		"*-flyagaric": [{
-			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
-			transitionedStack: { type: "item", code: "game:rot" },
-			transitionRatio: 1
 		}],
 		"*-pickledcarrot": [{
 			type: "Perish",

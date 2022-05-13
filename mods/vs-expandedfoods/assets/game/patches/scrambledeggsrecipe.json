@@ -115,7 +115,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-flyagaric",
+          "code": "expandedfoods:choppedmushroom-flyagaric",
           "shapeElement": "bowl/vegetable 1/*",
           "textureMapping": [
             "vegetable",
@@ -124,11 +124,20 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-kingbolete",
+          "code": "expandedfoods:choppedmushroom-kingbolete",
           "shapeElement": "bowl/vegetable 1/*",
           "textureMapping": [
             "vegetable",
             "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedmushroom-fieldmushroom",
+          "shapeElement": "bowl/vegetable 1/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
           ]
         },
         {
@@ -183,15 +192,6 @@
           "textureMapping": [
             "vegetable",
             "group6"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:choppedvegetable-fieldmushroom",
-          "shapeElement": "bowl/vegetable 1/*",
-          "textureMapping": [
-            "vegetable",
-            "group7"
           ]
         },
         {
@@ -349,7 +349,7 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-flyagaric",
+          "code": "expandedfoods:choppedmushroom-flyagaric",
           "shapeElement": "bowl/vegetable 2/*",
           "textureMapping": [
             "vegetable",
@@ -358,11 +358,20 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedvegetable-kingbolete",
+          "code": "expandedfoods:choppedmushroom-kingbolete",
           "shapeElement": "bowl/vegetable 2/*",
           "textureMapping": [
             "vegetable",
             "group3"
+          ]
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:choppedmushroom-fieldmushroom",
+          "shapeElement": "bowl/vegetable 2/*",
+          "textureMapping": [
+            "vegetable",
+            "group7"
           ]
         },
         {
@@ -417,15 +426,6 @@
           "textureMapping": [
             "vegetable",
             "group6"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:choppedvegetable-fieldmushroom",
-          "shapeElement": "bowl/vegetable 2/*",
-          "textureMapping": [
-            "vegetable",
-            "group7"
           ]
         },
         {
