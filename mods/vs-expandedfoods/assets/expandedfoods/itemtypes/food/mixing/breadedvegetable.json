@@ -5,7 +5,7 @@
 	variantgroups: [
 	
 		{ code: "type", states: ["flax", "rice", "rye", "spelt", "cassava", "amaranth", "sunflower"]},
-		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
+		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
 	attributes: {

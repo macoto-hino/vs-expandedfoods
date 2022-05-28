@@ -5,40 +5,141 @@
 		{ code: "type", loadFromProperties: "block/mushroom" },
 		{ code: "state", states: ["partbaked", "perfect", "charred" ] }
 	],
-	shape: { base: "item/food/veggies/chopped/cooked/mushroom/{type}"},
+	shape: { base: "item/food/mushroom/chopped/cooked/{type}"},
 	texturesByType: {
 		"*-partbaked": {
-			"cap": {base: "item/food/veggie/partbaked/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/partbaked/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/partbaked/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/partbaked/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/partbaked/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/partbaked/fieldmushroom/pores"},
-    		"capfly": {base: "item/food/veggie/partbaked/flyagaric/cap"},
-    		"stipefly": {base: "item/food/veggie/partbaked/flyagaric/stipe"},
-    		"poresfly": {base: "item/food/veggie/partbaked/flyagaric/pores"},
+    		"almondmushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"beardedtooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"bitterbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"blacktrumpet": {base: "item/food/mushroom/{state}/{type}"},
+    		"bolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"chanterelle": {base: "item/food/mushroom/{state}/{type}"},
+    		"chickenofthewoods": {base: "item/food/mushroom/{state}/{type}"},
+			"commonmorel": { base: "item/food/mushroom/{state}/{type}" },
+    		"deathcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"deerear": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilstooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"dryadsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"earthball": {base: "item/food/mushroom/{state}/{type}"},
+    		"elfinsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"funeralbell": {base: "item/food/mushroom/{state}/{type}"},
+    		"golddropmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"greencrackedrussula": {base: "item/food/mushroom/{state}/{type}"},
+    		"indigomilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"jackolantern": {base: "item/food/mushroom/{state}/{type}"},
+			"kingbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"livermushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"lobster": {base: "item/food/mushroom/{state}/{type}"},
+    		"orangeoakbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"paddystraw": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkbonnet": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"puffball": {base: "item/food/mushroom/{state}/{type}"},
+    		"redwinecap": {base: "item/food/mushroom/{state}/{type}"},
+    		"saffronmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"shiitake": {base: "item/food/mushroom/{state}/{type}"},
+    		"reishi": {base: "item/food/mushroom/{state}/{type}"},
+    		"tinderhoof": {base: "item/food/mushroom/{state}/{type}"},
+    		"violetwbcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"whiteoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"witchhat": {base: "item/food/mushroom/{state}/{type}"},
+			"capfield": {base: "item/food/mushroom/{state}/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/mushroom/{state}/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/mushroom/{state}/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipefly": {base: "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/mushroom/{state}/flyagaric/pores"},
 		},
 		"*-perfect": {
-			"cap": {base: "item/food/veggie/perfect/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/perfect/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/perfect/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/perfect/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/perfect/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/perfect/fieldmushroom/pores"},
-    		"capfly": {base: "item/food/veggie/perfect/flyagaric/cap"},
-    		"stipefly": {base: "item/food/veggie/perfect/flyagaric/stipe"},
-    		"poresfly": {base: "item/food/veggie/perfect/flyagaric/pores"},
+    		"almondmushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"beardedtooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"bitterbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"blacktrumpet": {base: "item/food/mushroom/{state}/{type}"},
+    		"bolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"chanterelle": {base: "item/food/mushroom/{state}/{type}"},
+    		"chickenofthewoods": {base: "item/food/mushroom/{state}/{type}"},
+			"commonmorel": { base: "item/food/mushroom/{state}/{type}" },
+    		"deathcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"deerear": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilstooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"dryadsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"earthball": {base: "item/food/mushroom/{state}/{type}"},
+    		"elfinsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"funeralbell": {base: "item/food/mushroom/{state}/{type}"},
+    		"golddropmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"greencrackedrussula": {base: "item/food/mushroom/{state}/{type}"},
+    		"indigomilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"jackolantern": {base: "item/food/mushroom/{state}/{type}"},
+			"kingbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"livermushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"lobster": {base: "item/food/mushroom/{state}/{type}"},
+    		"orangeoakbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"paddystraw": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkbonnet": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"puffball": {base: "item/food/mushroom/{state}/{type}"},
+    		"redwinecap": {base: "item/food/mushroom/{state}/{type}"},
+    		"saffronmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"shiitake": {base: "item/food/mushroom/{state}/{type}"},
+    		"reishi": {base: "item/food/mushroom/{state}/{type}"},
+    		"tinderhoof": {base: "item/food/mushroom/{state}/{type}"},
+    		"violetwbcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"whiteoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"witchhat": {base: "item/food/mushroom/{state}/{type}"},
+			"capfield": {base: "item/food/mushroom/{state}/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/mushroom/{state}/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/mushroom/{state}/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipefly": {base: "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/mushroom/{state}/flyagaric/pores"},
 		},
 		"*-charred": {
-			"cap": {base: "item/food/veggie/charred/kingbolete/cap"},
-			"stipe": {base: "item/food/veggie/charred/kingbolete/stipe"},
-			"pores": {base: "item/food/veggie/charred/kingbolete/pores"},
-			"capfield": {base: "item/food/veggie/charred/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/veggie/charred/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/veggie/charred/fieldmushroom/pores"},
-    		"capfly": {base: "item/food/veggie/charred/flyagaric/cap"},
-    		"stipefly": {base: "item/food/veggie/charred/flyagaric/stipe"},
-    		"poresfly": {base: "item/food/veggie/charred/flyagaric/pores"},
+    		"almondmushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"beardedtooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"bitterbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"blacktrumpet": {base: "item/food/mushroom/{state}/{type}"},
+    		"bolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"chanterelle": {base: "item/food/mushroom/{state}/{type}"},
+    		"chickenofthewoods": {base: "item/food/mushroom/{state}/{type}"},
+			"commonmorel": { base: "item/food/mushroom/{state}/{type}" },
+    		"deathcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"deerear": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"devilstooth": {base: "item/food/mushroom/{state}/{type}"},
+    		"dryadsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"earthball": {base: "item/food/mushroom/{state}/{type}"},
+    		"elfinsaddle": {base: "item/food/mushroom/{state}/{type}"},
+    		"funeralbell": {base: "item/food/mushroom/{state}/{type}"},
+    		"golddropmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"greencrackedrussula": {base: "item/food/mushroom/{state}/{type}"},
+    		"indigomilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"jackolantern": {base: "item/food/mushroom/{state}/{type}"},
+			"kingbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"livermushroom": {base: "item/food/mushroom/{state}/{type}"},
+    		"lobster": {base: "item/food/mushroom/{state}/{type}"},
+    		"orangeoakbolete": {base: "item/food/mushroom/{state}/{type}"},
+    		"paddystraw": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkbonnet": {base: "item/food/mushroom/{state}/{type}"},
+    		"pinkoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"puffball": {base: "item/food/mushroom/{state}/{type}"},
+    		"redwinecap": {base: "item/food/mushroom/{state}/{type}"},
+    		"saffronmilkcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"shiitake": {base: "item/food/mushroom/{state}/{type}"},
+    		"reishi": {base: "item/food/mushroom/{state}/{type}"},
+    		"tinderhoof": {base: "item/food/mushroom/{state}/{type}"},
+    		"violetwbcap": {base: "item/food/mushroom/{state}/{type}"},
+    		"whiteoyster": {base: "item/food/mushroom/{state}/{type}"},
+    		"witchhat": {base: "item/food/mushroom/{state}/{type}"},
+			"capfield": {base: "item/food/mushroom/{state}/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/mushroom/{state}/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/mushroom/{state}/fieldmushroom/pores"},
+    		"capfly": {base: "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipefly": {base: "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/mushroom/{state}/flyagaric/pores"},
+		},
+		"*": {
 		},
 	},
 	attributesByType: {
@@ -54,8 +155,8 @@
 				initialCode: "expandedfoods:choppedmushroom-{type}"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
 		"*-perfect": {
@@ -70,11 +171,11 @@
 				initialCode: "expandedfoods:cookedchoppedmushroom-{type}-partbaked"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
-		"*-flyagaric-charred": {
+		"*-charred": {
 			"handbook": { "groupBy": [ "cookedchoppedmushroom-*" ] },
 			bakingProperties: {
 				temp: 100,
@@ -82,11 +183,11 @@
 				levelTo: 1,
 				startScaleY: 0.8,
 				endScaleY: 0.7,
-				initialCode: "expandedfoods:cookedchoppedmushroom-flyagaric-perfect"
+				initialCode: "expandedfoods:cookedchoppedmushroom-{type}-perfect"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.325, z: 0 },
-				scale: 0.35 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
 	},
@@ -161,11 +262,47 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-		"*": {
-			translation: { x: 3, y: 4, z: 0 },
+		"@*-(pinkbonnet|witchhat)-(partbaked|perfect|charred)": {
+			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.8
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 3
+		},
+		"@*-(deerear|livermushroom)-(partbaked|perfect|charred)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.75
+		},
+		"*-shiitake-*": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.5
+		},
+		"@*-(elfinsaddle|golddropmill|greencrackedrussula|indigomilkcap|redwinecap|saffronmilkcap|violetwebcap|whiteoyster)-(partbaked|perfect|charred)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.5
+		},
+		"@*-(beardedtooth|earthball|puffball|tinderhoof)-(partbaked|perfect|charred)": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 1.9
+		},
+		"@*-(almondmushroom|blacktrumpet|chanterelle|commonmorel|deathcap|devilstooth|lobster|paddystraw|funeralbell)-(partbaked|perfect|charred)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.25
+		},
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2
 		},
 	},
 	fpHandTransformByType: {
@@ -173,15 +310,21 @@
 			translation: { x: 0.05, y: -0.1, z: 0 },
 			rotation: { x: 45, y: 180, z: -17 },
 			origin: { x: 0.5, y: 0.5, z: 0.5 },
-			scale: 1
+			scale: 1.5
+		},
+		"@*-(beardedtooth|earthball|puffball|tinderhoof)-*": {
+			translation: { x: 0.05, y: -0.1, z: 0 },
+			rotation: { x: 45, y: 180, z: -17 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 1.25
 		},
 	},
 	tpHandTransformByType: {
 		"*": {
-			translation: { x: -1.73, y: -0.42, z: -2 },
+			translation: { x: -2.13, y: -0.5, z: -2 },
 			rotation: { x: 1, y: -10, z: 0 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.25
+			scale: 0.5
 		},		
 	},
 	groundTransformByType: {
@@ -189,7 +332,7 @@
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.5
+			scale: 2
 		},
 	}
 }

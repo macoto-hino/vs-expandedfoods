@@ -5,23 +5,19 @@
 		{ code: "type", loadFromProperties: "block/mushroom" },
 	],
 	attributes: {
-		nutritionPropsWhenInMeal: {
-			satiety: 150,
-			foodcategory: "Vegetable",
-			healthByType: {
-				"*-earthball-*": -4,
-				"*-deathcap-*": -25,
-				"*-funerallbell-*": -20,
-				"*-elfinsaddle-*": -3.5,
-				"*-jackolantern-*": -3,
-				"*-devilsbolete-*": -5,
-				"*-pinkbonnet-*": -5,
-				"*-flyagaric-*": -3.25,
-				"*-bitterbolete-*": -1.5,
-				"*-devilstooth-*": -1,
-				"*-golddropmilkcap-*": -1.25,
-				"*": 0
-			}
+		nutritionPropsWhenInMealByType: {
+			"*-earthball":		{ satiety: 150, foodcategory: "Vegetable", health: -4 },
+			"*-deathcap":		{ satiety: 150, foodcategory: "Vegetable", health: -25 },
+			"*-funeralbell":	{ satiety: 150, foodcategory: "Vegetable", health: -20 },
+			"*-elfinsaddle":	{ satiety: 150, foodcategory: "Vegetable", health: -3.5 },
+			"*-jackolantern":	{ satiety: 150, foodcategory: "Vegetable", health: -3 },
+			"*-devilsbolete":	{ satiety: 150, foodcategory: "Vegetable", health: -5 },
+			"*-pinkbonnet":		{ satiety: 150, foodcategory: "Vegetable", health: -5 },
+			"*-flyagaric":		{ satiety: 150, foodcategory: "Vegetable", health: -3.25 },
+			"*-bitterbolete":	{ satiety: 150, foodcategory: "Vegetable", health: -1.5 },
+			"*-devilstooth":	{ satiety: 150, foodcategory: "Vegetable", health: -1 },
+			"*-golddropmilkcap":{ satiety: 150, foodcategory: "Vegetable", health: -1.25 },
+			"*":				{ satiety: 150, foodcategory: "Vegetable" },
 		},
 		"handbook": { "groupBy": [ "choppedmushroom-*" ] },
 		bakingProperties: {
@@ -33,16 +29,26 @@
 			resultCode: "expandedfoods:cookedchoppedmushroom-{type}-partbaked",
 		},
 		onDisplayTransform: { 
-			translation: { x: 0, y: -0.325, z: 0 },
-			scale: 0.35 
+			translation: { x: 0, y: -0.125, z: 0 },
+			scale: 0.75 
 		},
 		inPiePropertiesByType: {
-			"*-flyagaric": { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
-			"*-kingbolete": { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
-			"*-fieldmushroom": { texture: "game:block/food/pie/fill-mushroomwhite", partType: 'Filling' },
+			"*-blacktrumpet": { texture: "game:block/food/pie/fill-mushroomblack", partType: 'Filling' },
+			"@*-(chanterelle|chickenofthewoods|golddropmilkcap|jackolantern|saffronmilkcap)": { texture: "game:block/food/pie/fill-mushroomyellow", partType: 'Filling' },
+			"@*-(beardedtooth|deathcap|livermushroom|puffball|whiteoyster)": { texture: "game:block/food/pie/fill-mushroomoffwhite", partType: 'Filling' },
+			"@*-(deerear|devilbolete|funeralbell|orangeoakbolete)": { texture: "game:block/food/pie/fill-mushroomorange", partType: 'Filling' },
+			"*-devilstooth": { texture: "game:block/food/pie/fill-mushroomdevilstooth", partType: 'Filling' },
+			"@*-(elfinsaddle|flyagaric|redwinecap|witchhat)": { texture: "game:block/food/pie/fill-mushroomred", partType: 'Filling' },
+			"*-greencrackedrussula": { texture: "game:block/food/pie/fill-mushroomgreen", partType: 'Filling' },
+			"@*-(indigomilkcap|tinderhoof)": { texture: "game:block/food/pie/fill-mushroomblue", partType: 'Filling' },
+			"*-lobster": { texture: "game:block/food/pie/fill-mushroomlobster", partType: 'Filling' },
+			"@*-(pinkbonnet|pinkoyster)": { texture: "game:block/food/pie/fill-mushroompink", partType: 'Filling' },
+			"@*-(bitterbolete|blackmushroom|bolete|commonmorel|dryadsaddle|earthball|kingbolete|sagemushroom)": { texture: "game:block/food/pie/fill-mushroombrown", partType: 'Filling' },
+			"@*-(almondmushroom|fieldmushroom|paddystraw)": { texture: "game:block/food/pie/fill-mushroomwhite", partType: 'Filling' },
+			"*-violetwebcap": { texture: "game:block/food/pie/fill-mushroompurple", partType: 'Filling' },
 		},
 	},
-	shape: { base: "item/food/veggies/chopped/mushroom/{type}"
+	shape: { base: "item/food/mushroom/chopped/{type}"
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
@@ -79,11 +85,47 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-		"*": {
-			translation: { x: 3, y: 4, z: 0 },
+		"@*-(pinkbonnet|witchhat)": {
+			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.8
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 3
+		},
+		"@*-(deerear|livermushroom)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.75
+		},
+		"*-shiitake": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.5
+		},
+		"@*-(elfinsaddle|golddropmill|greencrackedrussula|indigomilkcap|redwinecap|saffronmilkcap|violetwebcap|whiteoyster)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.5
+		},
+		"@*-(beardedtooth|earthball|puffball|tinderhoof)": {
+			translation: { x: 6, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 1.9
+		},
+		"@*-(almondmushroom|blacktrumpet|chanterelle|commonmorel|deathcap|devilstooth|lobster|paddystraw|funeralbell)": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2.25
+		},
+		"*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -44, y: 180, z: 2 },
+			origin: { x: 0.5, y: 0.05, z: 0.5 },
+			scale: 2
 		},
 	},
 	fpHandTransformByType: {
@@ -91,15 +133,21 @@
 			translation: { x: 0.05, y: -0.1, z: 0 },
 			rotation: { x: 45, y: 180, z: -17 },
 			origin: { x: 0.5, y: 0.5, z: 0.5 },
-			scale: 1
+			scale: 1.5
+		},
+		"@*-(beardedtooth|earthball|puffball|tinderhoof)": {
+			translation: { x: 0.05, y: -0.1, z: 0 },
+			rotation: { x: 45, y: 180, z: -17 },
+			origin: { x: 0.5, y: 0.5, z: 0.5 },
+			scale: 1.25
 		},
 	},
 	tpHandTransformByType: {
 		"*": {
-			translation: { x: -1.73, y: -0.42, z: -2 },
+			translation: { x: -2.13, y: -0.5, z: -2 },
 			rotation: { x: 1, y: -10, z: 0 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.25
+			scale: 0.5
 		},		
 	},
 	groundTransformByType: {
@@ -107,7 +155,7 @@
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
 			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 1.5
+			scale: 2
 		},
 	}
 }

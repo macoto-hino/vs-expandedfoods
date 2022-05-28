@@ -4,7 +4,7 @@
   	class: "ExpandedFood",
 	maxstacksize: 64,
 	variantgroups: [
-		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "kingbolete", "fieldmushroom", "flyagaric", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
+		{ code: "veggie", states: ["carrot", "onion", "turnip", "parsnip", "pumpkin", "pickledcarrot", "pickledonion", "pickledturnip", "pickledparsnip", "pickledpumpkin", "cassava", "bellpepper"]},	
 		{ code: "state", states: ["raw", "partbaked", "cooked", "charred", "syruppartbaked", "syrupv", "syrupcharred", "oiled"] },
 	],
 	attributes: {
