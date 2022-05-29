@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/11",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
@@ -15,7 +15,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/12",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
@@ -29,7 +29,217 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/13",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
@@ -37,20 +247,6 @@
       "textureMapping": [
         "vegetable",
         "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/14",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedmushroom-kingbolete",
-      "shapeElement": "bowl/vegetable 1/*",
-      "textureMapping": [
-        "vegetable",
-        "group3"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -71,7 +267,301 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/15",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
@@ -85,7 +575,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/16",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
@@ -99,7 +589,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/17",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
@@ -113,7 +603,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/18",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
@@ -127,7 +617,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/19",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
@@ -141,7 +631,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/20",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
@@ -155,7 +645,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/22",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
@@ -169,7 +659,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/23",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
@@ -183,7 +673,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/0/validStacks/24",
+    "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
@@ -267,7 +757,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/11",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
@@ -281,7 +771,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/12",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
@@ -295,7 +785,217 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/13",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
@@ -303,20 +1003,6 @@
       "textureMapping": [
         "vegetable",
         "group2"
-      ]
-    },
-    "file": "recipes/cooking/vegetablestew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/1/validStacks/14",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:choppedmushroom-kingbolete",
-      "shapeElement": "bowl/vegetable 2/*",
-      "textureMapping": [
-        "vegetable",
-        "group3"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -337,7 +1023,301 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/15",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-kingbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
@@ -351,7 +1331,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/16",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
@@ -365,7 +1345,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/17",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
@@ -379,7 +1359,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/18",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
@@ -393,7 +1373,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/19",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
@@ -407,7 +1387,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/20",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
@@ -421,7 +1401,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/22",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
@@ -435,7 +1415,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/23",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
@@ -449,7 +1429,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/1/validStacks/24",
+    "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
@@ -533,7 +1513,7 @@
   },
  {
     "op": "add",
-    "path": "/ingredients/2/validStacks/11",
+    "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
@@ -542,7 +1522,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/2/validStacks/12",
+    "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
@@ -583,11 +1563,305 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -611,7 +1885,203 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
@@ -818,7 +2288,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/11",
+    "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
@@ -827,7 +2297,7 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/3/validStacks/12",
+    "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:acorndumpling-raw"
@@ -868,11 +2338,305 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
       ]
     },
     "file": "recipes/cooking/vegetablestew.json"
@@ -896,7 +2660,203 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 4/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/vegetablestew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 4/*",
       "textureMapping": [
         "vegetable",
@@ -2604,7 +4564,7 @@
   },
  {
     "op": "add",
-    "path": "/ingredients/5/validStacks/1",
+    "path": "/ingredients/5/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:acornbreadcrumbs-*"
@@ -2667,7 +4627,7 @@
   },
  {
     "op": "add",
-    "path": "/ingredients/8/validStacks/1",
+    "path": "/ingredients/8/validStacks/-",
     "value": 
         { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
     "file": "recipes/cooking/vegetablestew.json",

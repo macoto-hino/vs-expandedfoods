@@ -108,18 +108,6 @@
 			}
 		},
 		onDisplayTransformByType: {
-			"*-flyagaric-*": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
-			},
-			"*-kingbolete-*": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
-			},
-			"*-fieldmushroom-*": {
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
-			},
 			"*-carrot-*": {
 				rotation: { x: 90, y: 0, z: 0 },
 				translation: { x: 0, y: -0.45, z: 0.25 },
@@ -157,9 +145,6 @@
 		},
 		renderIngredientsByType: {
 			"*": {
-				"game:mushroom-kingbolete-normal-free": "expandedfoods:shapes/item/food/veggies/kingbolete.json",
-				"game:mushroom-fieldmushroom-normal-free": "expandedfoods:shapes/item/food/veggies/fieldmushroom.json",
-				"game:mushroom-flyagaric-normal-free": "expandedfoods:shapes/item/food/veggies/flyagaric.json",
 				"game:pickledvegetable-carrot": "expandedfoods:shapes/item/food/veggies/carrot.json",
 				"game:pickledvegetable-onion": "expandedfoods:shapes/item/food/veggies/onion.json",
 				"game:pickledvegetable-turnip": "expandedfoods:shapes/item/food/veggies/turnip.json",
@@ -193,9 +178,6 @@
 	},
 	texturesByType: { 
 		"*-syruppartbaked": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },
@@ -207,9 +189,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-syrupv": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },
@@ -221,9 +200,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-syrupcharred": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-fish" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-fish" },
@@ -235,9 +211,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-fish"},				
 		},
 		"*-partbaked": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-partbaked" },
@@ -249,9 +222,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-partbaked"},				
 		},
 		"*-cooked": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-cooked" },
@@ -263,9 +233,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-cooked"},				
 		},
 		"*-charred": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-charred" },  
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-charred" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-charred" },
@@ -277,9 +244,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-charred"},				
 		},
 		"*-oiled": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-oiled" },
@@ -291,9 +255,6 @@
 			"bellpepper": {base: "expandedfoods:item/food/grain/breading/{type}-oiled"},	 				
 		},
 		"*-raw": {
-			"stipe": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
-			"cap": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
-			"pores": { base: "expandedfoods:item/food/grain/breading/{type}-raw" },
 			"carrot": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
 			"onion": { base: "expandedfoods:item/food/grain/breading/{type}-raw" }, 
 			"turnip": { base: "expandedfoods:item/food/grain/breading/{type}-raw" },
@@ -382,126 +343,6 @@
 	},
 	materialDensity: 600,
 	guiTransformByType: {
-    		"*-kingbolete-syruppartbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-syruppartbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-syruppartbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-syrupv": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-syrupv": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-syrupv": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-syrupcharred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-syrupcharred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-syrupcharred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-partbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-partbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-partbaked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-cooked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-cooked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-cooked": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-charred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-charred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-charred": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-raw": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-raw": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-raw": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-    		"*-kingbolete-oiled": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-fieldmushroom-oiled": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
-   		"*-flyagaric-oiled": {
-			rotation: { x: -22, y: 107, z: 180 },
-			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 3
-    		},
     		"*-pickledcarrot-syruppartbaked": {
       			translation: { x: 2, y: 1, z: 0 },
       			rotation: { x: 180, y: 44, z: 56 },
@@ -1080,111 +921,6 @@
 		},
 	},
 	fpHandTransformByType: {
-   		"*-kingbolete-syruppartbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-syruppartbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-syruppartbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-kingbolete-syrupv": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-syrupv": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-syrupv": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-kingbolete-syrupcharred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-syrupcharred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-syrupcharred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-    		"*-kingbolete-partbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-partbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-partbaked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-    		"*-kingbolete-cooked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-cooked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-cooked": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-    		"*-kingbolete-charred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-charred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-charred": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-    		"*-kingbolete-raw": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-raw": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-raw": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
     		"*-pickledcarrot-syruppartbaked": {
       			translation: { x: 0, y: 0, z: 0 },
       			rotation: { x: 45, y: 47, z: -30 },
@@ -1640,21 +1376,6 @@
 			rotation: { x: -87, y: 138, z: 60 },
 			scale: 1.26
 		},
-   		"*-kingbolete-oiled": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-fieldmushroom-oiled": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
-   		"*-flyagaric-oiled": {
-			translation: { x: 0, y: -0.25, z: 0 },
-			rotation: { x: 0, y: 90, z: -30 },
-			scale: 1.33
-    		},
    		"*-pickledcarrot-oiled": {
       			translation: { x: 0, y: 0, z: 0 },
       			rotation: { x: 45, y: 47, z: -30 },
@@ -1764,132 +1485,6 @@
 		},
 	},
 	tpHandTransformByType: {
-    		"*-kingbolete-syruppartbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-syruppartbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-syruppartbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-    		"*-kingbolete-syrupv": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-syrupv": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-syrupv": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-    		"*-kingbolete-syrupcharred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-syrupcharred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-syrupcharred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-    		"*-kingbolete-partbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-partbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-partbaked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-kingbolete-cooked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-cooked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-cooked": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-kingbolete-charred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-charred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-charred": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-    		"*-kingbolete-raw": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-raw": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-raw": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
     		"*-pickledcarrot-syruppartbaked": {
       			translation: { x: -0.6, y: -0.22, z: -0.61 },
       			rotation: { x: 0, y: 0, z: -42 },
@@ -2345,24 +1940,6 @@
 			rotation: { x: -55, y: -78, z: 56 },
 			scale: 0.36
 		},
-    		"*-kingbolete-oiled": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-fieldmushroom-oiled": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
-   		"*-flyagaric-oiled": {
-			translation: { x: -0.93, y: -0.17, z: -0.8 },
-			rotation: { x: 15, y: -10, z: -114 },
-			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 0.58
-    		},
    		"*-pickledcarrot-oiled": {
       			translation: { x: -0.6, y: -0.22, z: -0.61 },
       			rotation: { x: 0, y: 0, z: -42 },
@@ -2472,90 +2049,6 @@
 		},
 	},
 	groundTransformByType: {
-    		"*-kingbolete-syruppartbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-syruppartbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-syruppartbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-syrupv": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-syrupv": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-syrupv": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-syrupcharred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-syrupcharred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-syrupcharred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-partbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-partbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-partbaked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-cooked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-cooked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-cooked": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-charred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-charred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-charred": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-    		"*-kingbolete-raw": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-raw": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-raw": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
 		"*-pickledcarrot-syruppartbaked": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 83 },
@@ -3018,18 +2511,6 @@
 			origin: { x: 0.5, y: 0.5, z: 0.5299 },
 			scale: 2.8
 		},
-    		"*-kingbolete-oiled": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-fieldmushroom-oiled": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
-   		"*-flyagaric-oiled": {
-			origin: { x: 0.5, y: 0, z: 0.5 },
-			scale: 2.5
-    		},
 		"*-pickledcarrot-oiled": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 0, y: 0, z: 83 },

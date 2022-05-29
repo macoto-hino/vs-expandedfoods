@@ -177,11 +177,305 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
       ]
     },
     "file": "recipes/cooking/soup.json"
@@ -205,7 +499,203 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 1/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 1/*",
       "textureMapping": [
         "vegetable",
@@ -457,11 +947,305 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
       ]
     },
     "file": "recipes/cooking/soup.json"
@@ -485,7 +1269,203 @@
     "path": "/ingredients/2/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkbonnet",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 2/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
@@ -737,11 +1717,305 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
+      "code": "expandedfoods:choppedmushroom-almondmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-beardedtooth",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bitterbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-blacktrumpet",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-bolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chanterelle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-chickenofthewoods",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-commonmorel",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deathcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-deerear",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-devilstooth",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-dryadsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-earthball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-elfinsaddle",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",
         "group2"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-funeralbell",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-golddropmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-greencrackedrussula",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-indigomilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-jackolantern",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
       ]
     },
     "file": "recipes/cooking/soup.json"
@@ -765,7 +2039,189 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-fieldmushroom",
+      "code": "expandedfoods:choppedmushroom-livermushroom",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-lobster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-orangeoakbolete",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-paddystraw",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-pinkoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-puffball",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-redwinecap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-reishi",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-saffronmilkcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-shiitake",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-tinderhoof",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-violetwebcap",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group3"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-whiteoyster",
+      "shapeElement": "bowl/vegetable 3/*",
+      "textureMapping": [
+        "vegetable",
+        "group7"
+      ]
+    },
+    "file": "recipes/cooking/soup.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 3/*",
       "textureMapping": [
         "vegetable",

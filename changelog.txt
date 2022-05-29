@@ -42,6 +42,8 @@ Spiles renamed
 Dried mushrooms added
 Cooked mushrooms added
 Breaded mushrooms added
+handbook fixed to mention pre-gelatin, not liquid gelatin
+Added displayTransform to Alchemy herbs
 
 1.5.3-pre.10
 Wildcraft compatibility fully updated (herbal bread, hardtack, & sausage; EF meals)
