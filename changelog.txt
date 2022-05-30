@@ -34,13 +34,13 @@ Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 New Chopped Mushroom item (add to recipes)
+Cooked mushrooms added - DONE!!!
 Old chopped mushroom models reworked - DONE!!!
 Sausage meal names refined - DONE!!!
 Cattail Roots oven display fixed 
 More Animals Compatibility added
 Spiles renamed
 Dried mushrooms added
-Cooked mushrooms added
 Breaded mushrooms added
 handbook fixed to mention pre-gelatin, not liquid gelatin
 Added displayTransform to Alchemy herbs
