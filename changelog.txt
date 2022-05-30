@@ -42,6 +42,7 @@ More Animals Compatibility added
 Spiles renamed
 Dried mushrooms added
 Breaded mushrooms added
+Mushrooms variants added to sushi
 handbook fixed to mention pre-gelatin, not liquid gelatin
 Added displayTransform to Alchemy herbs
 
