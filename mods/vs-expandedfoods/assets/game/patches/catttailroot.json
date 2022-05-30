@@ -17,14 +17,14 @@
     "path": "/attributes/onDisplayTransform",
     "value": {
       "translation": {
-        "x": 0,
-        "y": -0.45,
-        "z": 0
+        "x": 0.05,
+        "y": -0.25,
+        "z": 0.05
       },
       "rotation": {
         "x": 90,
         "y": 180,
-        "z": 134
+        "z": 100
       },
       "scale": 0.75
     },
