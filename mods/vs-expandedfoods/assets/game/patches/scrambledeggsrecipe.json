@@ -160,15 +160,6 @@
         },
         {
           "type": "item",
-          "code": "expandedfoods:choppedmushroom-bolete",
-          "shapeElement": "bowl/vegetable 1/*",
-          "textureMapping": [
-            "vegetable",
-            "group3"
-          ]
-        },
-        {
-          "type": "item",
           "code": "expandedfoods:choppedmushroom-chanterelle",
           "shapeElement": "bowl/vegetable 1/*",
           "textureMapping": [
@@ -710,15 +701,6 @@
         {
           "type": "item",
           "code": "expandedfoods:choppedmushroom-chanterelle",
-          "shapeElement": "bowl/vegetable 2/*",
-          "textureMapping": [
-            "vegetable",
-            "group3"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:choppedmushroom-bolete",
           "shapeElement": "bowl/vegetable 2/*",
           "textureMapping": [
             "vegetable",

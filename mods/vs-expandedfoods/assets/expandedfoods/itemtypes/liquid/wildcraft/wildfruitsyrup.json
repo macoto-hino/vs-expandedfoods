@@ -15,7 +15,7 @@
 			containable: true,
 			itemsPerLitre: 100,
 			texturebytype: {
-				"*": { base: "wildcraft:block/food/pie/fill-{fruit}", overlays: ["game:item/liquid/syrup"] }
+				"*": { base: "wildcraft:block/food/pie/fill-{fruit}", overlays: ["expandedfoods:item/liquid/syrup"] }
 			},
 			allowSpill: true,
 			whenSpilled: {
@@ -26,7 +26,7 @@
 		}
 	},
 	"shape": { "base": "game:item/liquid" },
-	"texture": { "base": "wildcraft:block/food/pie/fill-{fruit}", overlays: ["game:item/liquid/syrup"] },
+	"texture": { "base": "wildcraft:block/food/pie/fill-{fruit}", overlays: ["expandedfoods:item/liquid/syrup"] },
     transitionableProps: [
         {
             type: "Perish",

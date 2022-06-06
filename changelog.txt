@@ -29,22 +29,27 @@ Complicated fish sauce recipe
 Healing over time added 
 Added industrial mixing bowl (works much faster, higher storage capacity)
 
-1.5.3-pre.11
+1.5.3-pre.12
 Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
-New Chopped Mushroom item - DONE!!!
-Cooked mushrooms added - DONE!!!
-Old chopped mushroom models reworked - DONE!!!
-Sausage meal names refined - DONE!!!
-Cattail Roots oven display fixed - DONE!!!
 More Animals Compatibility added
-Spiles renamed - DONE!!!
+New sushi mushroom variants - DONE!!!
 Dried mushrooms added
 Breaded mushrooms added
 Mushrooms variants added to sushi
-Handbook fixed to mention pre-gelatin, not liquid gelatin - DONE!!!
-Added displayTransform to Alchemy herbs
+Mushroom visuals added for stuffed pepper
+Fixed visual issues with Alchemy herbs & racks
+Fixed pie crashing
+
+1.5.3-pre.11
+New Chopped Mushroom item
+Cooked mushrooms added
+Old chopped mushroom models reworked
+Cattail Roots oven display fixed
+Sausage meal names refined
+Spiles renamed 
+Handbook fixed to mention pre-gelatin, not liquid gelatin
 
 1.5.3-pre.10
 Wildcraft compatibility fully updated (herbal bread, hardtack, & sausage; EF meals)
