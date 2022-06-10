@@ -150,7 +150,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -164,7 +164,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -178,7 +178,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-almondmushroom",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -192,7 +192,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-beardedtooth",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -206,7 +206,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bitterbolete",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -220,7 +220,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-blacktrumpet",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -234,7 +234,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -248,7 +248,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chickenofthewoods",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -262,7 +262,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-commonmorel",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -276,7 +276,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deathcap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -290,7 +290,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deerear",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -304,7 +304,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilbolete",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -318,7 +318,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilstooth",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -332,7 +332,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-dryadsaddle",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -346,7 +346,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-earthball",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -360,7 +360,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-elfinsaddle",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -374,7 +374,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group2"
@@ -388,7 +388,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-fieldmushroom",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -402,7 +402,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-funeralbell",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -416,7 +416,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-golddropmilkcap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -430,7 +430,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-greencrackedrussula",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -444,7 +444,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-indigomilkcap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -458,7 +458,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-jackolantern",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -472,7 +472,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-kingbolete",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -486,7 +486,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-livermushroom",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -500,7 +500,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-lobster",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -514,7 +514,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-orangeoakbolete",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -528,7 +528,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-paddystraw",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -542,7 +542,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkbonnet",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -556,7 +556,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkoyster",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -570,7 +570,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-puffball",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -584,7 +584,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-redwinecap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -598,7 +598,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-reishi",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -612,7 +612,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-saffronmilkcap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -626,7 +626,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-shiitake",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -640,7 +640,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-tinderhoof",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -654,7 +654,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-violetwebcap",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -668,7 +668,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-whiteoyster",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -682,7 +682,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-witchhat",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -696,7 +696,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -710,7 +710,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -724,7 +724,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -738,7 +738,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -752,7 +752,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -766,7 +766,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -780,7 +780,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -794,7 +794,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -808,7 +808,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group10"
@@ -831,7 +831,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cassava",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -845,7 +845,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "fruit",
         "group8"
@@ -859,7 +859,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -873,7 +873,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-papyrusroot",
-      "shapeElement": "bowl/vegetable 1/*",
+      "shapeElement": "bowl/vegetable base 1/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -906,7 +906,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -920,7 +920,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -934,7 +934,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-almondmushroom",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -948,7 +948,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-beardedtooth",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -962,7 +962,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bitterbolete",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -976,7 +976,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-blacktrumpet",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -990,7 +990,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1004,7 +1004,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chickenofthewoods",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1018,7 +1018,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-commonmorel",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1032,7 +1032,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deathcap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1046,7 +1046,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deerear",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1060,7 +1060,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilbolete",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1074,7 +1074,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilstooth",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1088,7 +1088,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-dryadsaddle",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1102,7 +1102,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-earthball",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1116,7 +1116,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-elfinsaddle",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1130,7 +1130,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group2"
@@ -1144,7 +1144,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-fieldmushroom",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1158,7 +1158,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-funeralbell",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1172,7 +1172,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-golddropmilkcap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1186,7 +1186,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-greencrackedrussula",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1200,7 +1200,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-indigomilkcap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1214,7 +1214,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-jackolantern",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1228,7 +1228,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-kingbolete",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1242,7 +1242,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-livermushroom",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1256,7 +1256,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-lobster",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1270,7 +1270,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-orangeoakbolete",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1284,7 +1284,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-paddystraw",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1298,7 +1298,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkbonnet",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1312,7 +1312,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkoyster",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1326,7 +1326,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-puffball",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1340,7 +1340,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-redwinecap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1354,7 +1354,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-reishi",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1368,7 +1368,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-saffronmilkcap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1382,7 +1382,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-shiitake",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1396,7 +1396,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-tinderhoof",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1410,7 +1410,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-violetwebcap",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1424,7 +1424,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-whiteoyster",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1438,7 +1438,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-witchhat",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1452,7 +1452,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -1466,7 +1466,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -1480,7 +1480,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -1494,7 +1494,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -1508,7 +1508,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -1522,7 +1522,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -1536,7 +1536,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -1550,7 +1550,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -1564,7 +1564,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group10"
@@ -1587,7 +1587,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cassava",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -1601,7 +1601,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "fruit",
         "group8"
@@ -1615,7 +1615,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -1629,7 +1629,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-papyrusroot",
-      "shapeElement": "bowl/vegetable 2/*",
+      "shapeElement": "bowl/vegetable base 2/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -1662,7 +1662,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -1676,7 +1676,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group1"
@@ -1690,7 +1690,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-almondmushroom",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1704,7 +1704,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-beardedtooth",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1718,7 +1718,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bitterbolete",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1732,7 +1732,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-blacktrumpet",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1746,7 +1746,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bolete",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1760,7 +1760,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1774,7 +1774,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chickenofthewoods",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1788,7 +1788,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-commonmorel",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1802,7 +1802,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deathcap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1816,7 +1816,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deerear",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1830,7 +1830,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilbolete",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1844,7 +1844,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilstooth",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1858,7 +1858,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-dryadsaddle",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1872,7 +1872,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-earthball",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1886,7 +1886,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-elfinsaddle",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1900,7 +1900,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group2"
@@ -1914,7 +1914,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-fieldmushroom",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1928,7 +1928,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-funeralbell",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -1942,7 +1942,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-golddropmilkcap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1956,7 +1956,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-greencrackedrussula",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1970,7 +1970,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-indigomilkcap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1984,7 +1984,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-jackolantern",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -1998,7 +1998,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-kingbolete",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2012,7 +2012,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-livermushroom",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2026,7 +2026,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-lobster",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2040,7 +2040,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-orangeoakbolete",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2054,7 +2054,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-paddystraw",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2068,7 +2068,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkoyster",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2082,7 +2082,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-puffball",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2096,7 +2096,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-redwinecap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2110,7 +2110,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-reishi",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2124,7 +2124,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-saffronmilkcap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2138,7 +2138,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-shiitake",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2152,7 +2152,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-tinderhoof",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2166,7 +2166,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-violetwebcap",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group3"
@@ -2180,7 +2180,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-whiteoyster",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2194,7 +2194,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-witchhat",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group7"
@@ -2208,7 +2208,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -2222,7 +2222,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group4"
@@ -2236,7 +2236,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -2250,7 +2250,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group5"
@@ -2264,7 +2264,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -2278,7 +2278,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group6"
@@ -2292,7 +2292,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -2306,7 +2306,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group8"
@@ -2320,7 +2320,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group10"
@@ -2334,7 +2334,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cassava",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -2348,7 +2348,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "fruit",
         "group8"
@@ -2371,7 +2371,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group11"
@@ -2385,7 +2385,7 @@
     "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-papyrusroot",
-      "shapeElement": "bowl/vegetable 3/*",
+      "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [
         "vegetable",
         "group11"

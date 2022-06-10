@@ -112,6 +112,7 @@
     <Content Include="changelog.txt" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\choppedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedchoppedmushroom.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspirit.json" />

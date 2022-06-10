@@ -34,13 +34,19 @@ Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 More Animals Compatibility added
-New sushi mushroom variants - DONE!!!
 Dried mushrooms added
 Breaded mushrooms added
-Mushrooms variants added to sushi
-Mushroom visuals added for stuffed pepper
+Mushrooms variants added to sushi - DONE!!!
+Mushroom visuals added for stuffed pepper - DONE!!!
+Wildcraft berries visible in stuffed bellpeppers - DONE!!!
 Fixed visual issues with Alchemy herbs & racks
 Fixed pie crashing
+Soup mushroom visuals fixed - DONE!!!
+Soup veggie liquid textures made transparent - DONE!!!
+Fruit tree yogurt nutrition fixed - DONE!!!
+Dried seaweed oven visuals fixed - DONE!!!
+Many items rotate in the GUI now :)
+DisplayTransforms reviewed
 
 1.5.3-pre.11
 New Chopped Mushroom item

@@ -1,6 +1,24 @@
 [
   {
     "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*": {
+        "meltingPoint": 150,
+        "meltingDuration": 30,
+        "smeltedRatio": 1,
+        "smeltingType": "cook",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:cookedmushroom-{mushroom}-charred"
+        },
+        "requiresContainer": false
+      },
+    },
+    "file": "blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
     "path": "/attributes/inPiePropertiesByType",
     "value": {
       "*-kingbolete-normal-free": {
