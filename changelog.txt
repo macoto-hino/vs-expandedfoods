@@ -35,6 +35,7 @@ Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 More Animals Compatibility added
 Dried mushrooms added
+Cooked mushrooms added - DONE!!!
 Breaded mushrooms added
 Mushrooms variants added to sushi - DONE!!!
 Mushroom visuals added for stuffed pepper - DONE!!!
