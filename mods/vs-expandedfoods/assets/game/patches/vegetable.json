@@ -1,4 +1,26 @@
 [
+ {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "file": "game:itemtypes/food/vegetable.json",
+    "value": {
+	inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
+	nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+	inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
+	bakingProperties: {
+		temp: 100,
+		levelFrom: 0.0,
+		levelTo: 0.25,
+        startScaleY: 1.0,
+       	endScaleY: 1.0,
+		resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
+	},
+    onDisplayTransformByType: {
+        "@*-(carrot|parsnip|turnip)": { "rotation": { "x": 0, "y": -45, "z": 90}, translation: { x: -0.2, y: -0.225, z: 0 }, scale: 1 },
+        "*": { translation: { x: 0, y: 0, z: 0 }, scale: 1 },
+        }
+     }
+  },
   {
     "op": "add",
     "path": "/combustiblePropsByType",
@@ -89,21 +111,9 @@
     "value": {
       "transform": {
         "scale": 0.85,
-        "origin": {
-          "x": 0.5,
-          "y": 0.0625,
-          "z": 0.5
-        },
-        "translation": {
-          "x": 0,
-          "y": 0.125,
-          "z": -0.1
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
+        "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+        "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
       },
       "useFirepitModel": "Spit"
     },
@@ -115,249 +125,71 @@
     "value": {
       "transform": {
         "scale": 0.85,
-        "origin": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0.65,
-          "y": 0.6,
-          "z": 0.1
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 90
-        }
+        "origin": { "x": 0, "y": 0, "z": 0 },
+        "translation": { "x": 0.65, "y": 0.6, "z": 0.1 },
+        "rotation": { "x": 0, "y": 0, "z": 90 }
       },
       "useFirepitModel": "Spit"
     },
     "file": "itemtypes/food/vegetable.json"
   },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-pumpkin/inFirePitProps",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": -0.02125, "y": 0.125, "z": 0 },
+                "rotation": { "x": 0, "y": 0, "z": 90 }
+            },
+            "useFirepitModel": "Spit"
+        },
+        "file": "itemtypes/food/vegetable.json"
+    },
   {
     "op": "add",
-    "path": "/attributesByType/*-pumpkin/inFirePitProps",
+    "path": "/attributesByType/*-cabbage/bakingProperties",
     "value": {
-      "transform": {
-        "scale": 0.85,
-        "origin": {
-          "x": 0.5,
-          "y": 0.0625,
-          "z": 0.5
-        },
-        "translation": {
-          "x": -0.02125,
-          "y": 0.125,
-          "z": 0
-        },
-        "rotation": {
-          "x": 0,
-          "y": 0,
-          "z": 90
-        }
-      },
-      "useFirepitModel": "Spit"
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-cabbage-partbaked"
     },
     "file": "itemtypes/food/vegetable.json"
   },
-
   {
     "op": "add",
-    "path": "/attributesByType/@*-(onion|bellpepper)",
+    "path": "/attributesByType/*-cabbage/juiceableProperties",
     "value": {
-      	"inContainerTexture": {
-        	"base": "block/wood/barrel/raw-{type}"
-      	},
-	    "juiceableProperties": {
-            "litresPerItem": 0.3125,
-            "liquidStack": {
-                "type": "item",
-                "code": "expandedfoods:vegetablejuiceportion-{type}",
-                "stacksize": 1
-            },
-            "pressedStack": {
-                "type": "item",
-                "code": "game:pressedmash-{type}",
-                "stacksize": 1
-            }
-        },
-      	"nutritionPropsWhenInMeal": {
-        	"satiety": 150,
-        	"foodcategory": "Vegetable"
-      	},
-	    inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
-	    bakingProperties: {
-		    temp: 100,
-		    levelFrom: 0.0,
-		    levelTo: 0.25,
-        	startScaleY: 1.0,
-       		endScaleY: 1.0,
-		    resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
-	    },
-	    onDisplayTransform: { 
-		    translation: { x: 0, y: 0, z: 0 },
-		    scale: 1 
-	    }
-    },
-    "file": "game:itemtypes/food/vegetable.json"
-  },
-
-  {
-    "op": "add",
-    "path": "/attributesByType/*-carrot",
-    "value": {
-      	"inContainerTexture": {
-        	"base": "block/wood/barrel/raw-{type}"
-      	},
-	    "juiceableProperties": {
-            "litresPerItem": 0.3125,
-            "liquidStack": {
-                "type": "item",
-                "code": "expandedfoods:vegetablejuiceportion-carrot",
-                "stacksize": 1
-            },
-            "pressedStack": {
-                "type": "item",
-                "code": "game:pressedmash-carrot",
-                "stacksize": 1
-            }
-        },
-      	"nutritionPropsWhenInMeal": {
-        	"satiety": 150,
-        	"foodcategory": "Vegetable"
-      	},
-      	"inPieProperties": {
-        	"texture": "block/food/pie/fill-{type}",
-        	"partType": "Filling"
-      	},
-     	"bakingProperties": {
-       		"temp": 100,
-       		"levelFrom": 0.0,
-       		"levelTo": 0.25,
-        	"startScaleY": 1.0,
-       		"endScaleY": 1.0,
-        	"resultCode": "expandedfoods:cookedveggie-carrot-partbaked"
-      	},
-     	"onDisplayTransform": {
-       		"rotation": {
-         		"x": 90,
-        		"y": 0,
-        		"z": 0
-        	},
-        	"translation": {
-          		"x": 0,
-          		"y": -0.45,
-          		"z": 0.25
-        	},
-        	"scale": 1
-      	}
-    },
-    "file": "game:itemtypes/food/vegetable.json"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-parsnip",
-    "value": {
-      "inContainerTexture": {
-        "base": "block/wood/barrel/raw-{type}"
+      "litresPerItem": 0.3125,
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-cabbage",
+        "stacksize": 1
       },
-	    "juiceableProperties": {
-            "litresPerItem": 0.3125,
-            "liquidStack": {
-                "type": "item",
-                "code": "expandedfoods:vegetablejuiceportion-parsnip",
-                "stacksize": 1
-            },
-            "pressedStack": {
-                "type": "item",
-                "code": "game:pressedmash-parsnip",
-                "stacksize": 1
-            }
-        },
-      "nutritionPropsWhenInMeal": {
-        "satiety": 150,
-        "foodcategory": "Vegetable"
-      },
-      "inPieProperties": {
-        "texture": "block/food/pie/fill-{type}",
-        "partType": "Filling"
-      },
-      "bakingProperties": {
-        "temp": 100,
-        "levelFrom": 0.0,
-        "levelTo": 0.25,
-        "startScaleY": 1.0,
-       	"endScaleY": 1.0,
-        "resultCode": "expandedfoods:cookedveggie-parsnip-partbaked"
-      },
-      "onDisplayTransform": {
-        "rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0,
-          "y": -0.45,
-          "z": 0.25
-        },
-        "scale": 1
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-cabbage",
+        "stacksize": 1
       }
     },
-    "file": "game:itemtypes/food/vegetable.json"
+    "file": "itemtypes/food/vegetable.json"
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-turnip",
+    "path": "/attributesByType/*-cabbage/onDisplayTransform",
     "value": {
-      "inContainerTexture": {
-        "base": "block/wood/barrel/raw-{type}"
+      "translation": {
+        "x": 0,
+        "y": -0.125,
+        "z": 0
       },
-	    "juiceableProperties": {
-            "litresPerItem": 0.3125,
-            "liquidStack": {
-                "type": "item",
-                "code": "expandedfoods:vegetablejuiceportion-turnip",
-                "stacksize": 1
-            },
-            "pressedStack": {
-                "type": "item",
-                "code": "game:pressedmash-turnip",
-                "stacksize": 1
-            }
-        },
-      "nutritionPropsWhenInMeal": {
-        "satiety": 150,
-        "foodcategory": "Vegetable"
-      },
-      "inPieProperties": {
-        "texture": "block/food/pie/fill-{type}",
-        "partType": "Filling"
-      },
-      "bakingProperties": {
-        "temp": 100,
-        "levelFrom": 0.0,
-        "levelTo": 0.25,
-        "startScaleY": 1.0,
-       	"endScaleY": 1.0,
-        "resultCode": "expandedfoods:cookedveggie-turnip-partbaked"
-      },
-      "onDisplayTransform": {
-        "rotation": {
-          "x": 90,
-          "y": 0,
-          "z": 0
-        },
-        "translation": {
-          "x": 0,
-          "y": -0.4,
-          "z": 0.25
-        },
-        "scale": 1
-      }
+      "scale": 0.75
     },
-    "file": "game:itemtypes/food/vegetable.json"
+    "file": "itemtypes/food/vegetable.json"
   },
   {
     "op": "add",
@@ -374,7 +206,56 @@
   },
   {
     "op": "add",
-    "path": "/attributesByType/*-cassava/onDisplayTransform",
+    "path": "/attributesByType/*-cassava/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-cassava",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-cassava",
+        "stacksize": 1
+      }
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/bakingProperties",
+    "value": {
+      "temp": 100,
+      "levelFrom": 0.0,
+      "levelTo": 0.25,
+      "startScaleY": 1.0,
+      "endScaleY": 1.0,
+      "resultCode": "expandedfoods:cookedveggie-pumpkin-partbaked"
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/juiceableProperties",
+    "value": {
+      "litresPerItem": 0.3125,
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:vegetablejuiceportion-pumpkin",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "game:pressedmash-pumpkin",
+        "stacksize": 1
+      }
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-pumpkin/onDisplayTransform",
     "value": {
       "translation": {
         "x": 0,
@@ -384,33 +265,6 @@
       "scale": 1
     },
     "file": "itemtypes/food/vegetable.json"
-  },
- {
-    "op": "remove",
-    "path": "/attributesByType/*",
-    "file": "game:itemtypes/food/vegetable.json"
-  },
- {
-    "op": "add",
-    "path": "/attributesByType/*",
-    "file": "game:itemtypes/food/vegetable.json",
-    "value": {
-	inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
-	nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
-	inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
-	bakingProperties: {
-		temp: 100,
-		levelFrom: 0.0,
-		levelTo: 0.25,
-        	startScaleY: 1.0,
-       		endScaleY: 1.0,
-		resultCode: "expandedfoods:cookedveggie-{type}-partbaked",
-	},
-	onDisplayTransform: { 
-		translation: { x: 0, y: 0, z: 0 },
-		scale: 1 
-	}
-     }
   },
   {
     "op": "remove",

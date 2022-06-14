@@ -823,11 +823,8 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\parsnip.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\potentwine.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\pumpkin.png" />
-    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\saguaro.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\syrup.png" />
-    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\tea.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\turnip.png" />
-    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\vinegarportion.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\apple.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\birch.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\blackcurrant.png" />
@@ -847,7 +844,6 @@
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\lychee.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\mango.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\maple.png" />
-    <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\mix.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\orange.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\peach.png" />
     <Content Include="mods\vs-expandedfoods\assets\game\textures\item\liquid\yogurt\pear.png" />
@@ -1052,7 +1048,6 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\remaps.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\seeds.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\pressedmash.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\vegetable.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bighookmold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bottle.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\clayforming\bottle4.json" />

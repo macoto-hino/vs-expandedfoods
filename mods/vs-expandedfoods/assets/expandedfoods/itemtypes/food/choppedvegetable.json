@@ -17,8 +17,8 @@
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-cabbage", partType: 'Filling' },
 		},
@@ -33,10 +33,6 @@
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
 		"*-pickledcarrot": {
@@ -49,10 +45,6 @@
 				startScaleY: 1.0,
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-carrot", partType: 'Filling' },
 		},
@@ -67,10 +59,6 @@
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
     			inPieProperties: { texture: "game:block/food/pie/fill-onion", partType: 'Filling' },
 		},
 		"*-pickledparsnip": {
@@ -83,18 +71,6 @@
 				startScaleY: 1.0,
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			bakingProperties: {
-				temp: 100,
-				levelFrom: 0.0,
-				levelTo: 0.25,
-				startScaleY: 1.0,
-				endScaleY: 1.0,
-				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-parsnip", partType: 'Filling' },
 		},
@@ -109,10 +85,6 @@
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
     			inPieProperties: { texture: "game:block/food/pie/fill-turnip", partType: 'Filling' },
 		},
 		"*-pickledpumpkin": {
@@ -125,10 +97,6 @@
 				startScaleY: 1.0,
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-pumpkin", partType: 'Filling' },
 		},
@@ -143,10 +111,6 @@
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
     			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
 		},
 		"*-cattailroot": {
@@ -160,10 +124,6 @@
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			},
     			inPieProperties: { texture: "game:block/food/pie/fill-roots", partType: 'Filling' },
 		},
 		"*": {
@@ -176,10 +136,6 @@
 				startScaleY: 1.0,
 				endScaleY: 1.0,
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked",
-			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
 			},
     			inPieProperties: { texture: "game:block/food/pie/fill-{type}", partType: 'Filling' },
 		},

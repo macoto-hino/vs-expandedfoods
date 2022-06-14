@@ -72,8 +72,8 @@
 				initialCode: "expandedfoods:choppedvegetable-cabbage"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
 		"*-partbaked": {
@@ -87,10 +87,6 @@
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect",
 				initialCode: "expandedfoods:choppedvegetable-{type}"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			}
 		},
 		"*-cabbage-perfect": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
@@ -104,8 +100,8 @@
 				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-partbaked"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
 		"*-perfect": {
@@ -119,10 +115,6 @@
 				resultCode: "expandedfoods:cookedchoppedvegetable-{type}-charred",
 				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-partbaked"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			}
 		},
 		"*-cabbage-charred": {
 			"handbook": { "groupBy": [ "cookedchoppedvegetable-*" ] },
@@ -135,8 +127,8 @@
 				initialCode: "expandedfoods:cookedchoppedvegetable-cabbage-perfect"
 			},
 			onDisplayTransform: { 
-				translation: { x: 0, y: -0.25, z: 0 },
-				scale: 0.5 
+				translation: { x: 0, y: -0.125, z: 0 },
+				scale: 0.75 
 			}
 		},
 		"*-charred": {
@@ -149,10 +141,6 @@
 				endScaleY: 0.7,
 				initialCode: "expandedfoods:cookedchoppedvegetable-{type}-perfect"
 			},
-			onDisplayTransform: { 
-				translation: { x: 0, y: -0.125, z: 0 },
-				scale: 0.75 
-			}
 		}
 	},
 	combustiblePropsByType: {

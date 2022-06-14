@@ -6,6 +6,7 @@ Fixed cauldron & mini cauldron contents issue
 Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
 Added Acorn "Coffee" & Roasted Acorns
 Honey can be added to teas
+Added Dried Mushrooms
 Added Stuffing
 Added Walnut Jam
 Added mayo - useable in salads, veggie stews, au gratin, and porridge
@@ -27,6 +28,7 @@ Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone
 Complicated fish sauce recipe
 Healing over time added 
+Olives integrated
 Added industrial mixing bowl (works much faster, higher storage capacity)
 
 1.5.3-pre.12
@@ -34,7 +36,6 @@ Updated to VS 1.16
 Patches now use addEach function
 RenderIngredients now uses selectiveElements to cut down on files
 More Animals Compatibility added
-Dried mushrooms added
 Cooked mushrooms added - DONE!!!
 Breaded mushrooms added
 Mushrooms variants added to sushi - DONE!!!
@@ -48,6 +49,7 @@ Fruit tree yogurt nutrition fixed - DONE!!!
 Dried seaweed oven visuals fixed - DONE!!!
 Many items rotate in the GUI now :)
 DisplayTransforms reviewed
+Breadfruit buffed for 1.17
 
 1.5.3-pre.11
 New Chopped Mushroom item
