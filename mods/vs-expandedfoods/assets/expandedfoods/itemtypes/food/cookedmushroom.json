@@ -162,7 +162,6 @@
 		"*-golddropmilkcap-charred": { saturation: 100, health: -0.625, foodcategory: "Vegetable" },
 		"*-charred": { satiety: 100, foodcategory: "Vegetable" },
 	},
-	randomizeRotations: true,
 	guiTransformByType: {
 		"*": {
 			rotation: { x: 158, y: 107, z: 0 },

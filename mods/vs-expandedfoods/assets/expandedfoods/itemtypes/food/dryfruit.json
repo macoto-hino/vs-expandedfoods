@@ -13,7 +13,7 @@
 				"*-cranberry": 90,
 				"*-cherry":  60,
 				"*-lychee":  60, 
-				"*-breadfruit": 180,
+				"*-breadfruit": 260,
 				"*":  120 
 			},
 			foodcategory: "Fruit" 
@@ -140,7 +140,7 @@
 		"*-cranberry": { satiety: 50, foodcategory: "Fruit" },
 		"*-cherry": { satiety: 35, foodcategory: "Fruit" },
 		"*-lychee": { satiety: 35, foodcategory: "Fruit" },
-		"*-breadfruit": { satiety: 105, foodcategory: "Fruit" },
+		"*-breadfruit": { satiety: 175, foodcategory: "Fruit" },
 		"*": { satiety: 70, foodcategory: "Fruit" }
 	},
 	transitionablePropsByType: {

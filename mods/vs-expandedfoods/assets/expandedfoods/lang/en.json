@@ -3777,10 +3777,15 @@
   "itemdesc-acornbreadedfishnugget-oiled": "Ready for frying!",
 
   "item-soyprep-soaked": "Soaked Soybeans",
+  "itemdesc-soyprep-soaked": "Cook in a firepit to roast the beans (for soy sauce) or de-shell in the crafting grid (for soy milk).",
   "item-soyprep-roasted": "Roasted Soybeans",
+  "itemdesc-soyprep-roasted": "Grind in a quern to powderize.",
   "item-soyprep-powdered": "Powdered Roasted Soybeans",
+  "itemdesc-soyprep-powdered": "Mix with grain to culture.",
   "item-soyprep-cultured": "Cultured Soybeans",
+  "itemdesc-soyprep-cultured": "Seal in a barrel with 1 L of brine.",
   "item-soyprep-slurry": "Soybean Slurry",
+  "itemdesc-soyprep-slurry": "Squeeze in a fruit press to make soy sauce.",
 
   "item-foodoilportion-soy": "Soybean Oil Portion",
 
@@ -5401,10 +5406,15 @@
   "itemdesc-herbalacornhardtack-*-bake4": "It's like eating burnt oak bark...",
 
   "item-soyprep-shelled": "Shelled Soybeans",
+  "itemdesc-soyprep-shelled": "Mix with 1 L of water.",
   "item-soyprep-wetshell": "Wet Shelled Soybeans",
+  "itemdesc-soyprep-wetshell": "Grind in a quern to blend.",
   "item-soyprep-blended": "Blended Soybean Mixture",
+  "itemdesc-soyprep-blended": "Squeeze in a fruit press to make raw soy milk.",
   "item-soymilk-raw": "Raw Soy Milk",
+  "itemdesc-soymilk-raw": "Boil in a saucepan/cauldron to make edible.",
   "item-soymilk-edible": "Soy Milk",
+  "itemdesc-soymilk-edible": "Dairy-free dairy!",
   "incontainer-item-soymilk-raw" : "raw soy milk",
   "game:incontainer-item-soymilk-raw" : "raw soy milk",
   "incontainer-item-soymilk-edible" : "soy milk",

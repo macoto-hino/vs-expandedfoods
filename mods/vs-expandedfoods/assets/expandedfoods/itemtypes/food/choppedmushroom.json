@@ -90,43 +90,50 @@
 			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"@*-(deerear|livermushroom)": {
 			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.75
+			scale: 2.75,
+			"rotate":  true,
 		},
 		"*-shiitake": {
 			translation: { x: 6, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.5
+			scale: 2.5,
+			"rotate":  true,
 		},
 		"@*-(elfinsaddle|golddropmill|greencrackedrussula|indigomilkcap|redwinecap|saffronmilkcap|violetwebcap|whiteoyster)": {
 			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.5
+			scale: 2.5,
+			"rotate":  true,
 		},
 		"@*-(beardedtooth|earthball|puffball|tinderhoof)": {
 			translation: { x: 6, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 1.9
+			scale: 1.9,
+			"rotate":  true,
 		},
 		"@*-(almondmushroom|blacktrumpet|chanterelle|commonmorel|deathcap|devilstooth|lobster|paddystraw|funeralbell)": {
 			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2.25
+			scale: 2.25,
+			"rotate":  true,
 		},
 		"*": {
 			translation: { x: 3, y: 0, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 2
+			scale: 2,
+			"rotate":  true,
 		},
 	},
 	fpHandTransformByType: {

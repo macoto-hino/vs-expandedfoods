@@ -390,109 +390,127 @@
 			translation: { x: 2.5, y: 1, z: 0 },
 			rotation: { x: 137, y: 131, z: 0 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.38
+			scale: 1.38,
+			"rotate":  true,
 		},
 		"*-carrot-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-onion-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-parsnip-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-turnip-*": {
 			translation: { x: 2, y: 2, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"*-pumpkin-*": {
 			translation: { x: 5, y: 1, z: 0 },
 			rotation: { x: 110, y: 169, z: 23 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5
+			scale: 3.5,
+			"rotate":  true,
 		},
 		"*-pickledcarrot-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-pickledonion-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-pickledparsnip-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 4
+			scale: 4,
+			"rotate":  true,
 		},
 		"*-pickledturnip-*": {
 			translation: { x: 2, y: 2, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"*-pickledpumpkin-*": {
 			translation: { x: 5, y: 1, z: 0 },
 			rotation: { x: 110, y: 169, z: 23 },
 			origin: { x: 0.5, y: 0.05, z: 0.5 },
-			scale: 3.5
+			scale: 3.5,
+			"rotate":  true,
 		},
 		"*-pickledbellpepper-*": {
 			translation: { x: -7, y: 5, z: 0 },
 			rotation: { x: -37, y: 135, z: -155 },
 			origin: { x: 0.5, y: 0.1, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"*-cassava-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"*-cassavadried-*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.47, y: 0, z: 0.5 },
-			scale: 3
+			scale: 3,
+			"rotate":  true,
 		},
 		"*-cattailroot-*": {
 			translation: { x: -3.3, y: -3, z: 0 },
 			rotation: { x: 87, y: -28, z: 0 },
 			origin: { x: 0.47, y: 0.43, z: 0.6 },
-			scale: 2.5
+			scale: 2.5,
+			"rotate":  true,
 		},
 		"*-papyrusroot-*": {
 			translation: { x: -3.3, y: -3, z: 0 },
 			rotation: { x: 87, y: -28, z: 0 },
 			origin: { x: 0.47, y: 0.43, z: 0.6 },
-			scale: 2.5
+			scale: 2.5,
+			"rotate":  true,
 		},
 		"*-bellpepper-*": {
 			translation: { x: -2, y: 0, z: 0 },
 			rotation: { x: -60, y: 29, z: 0 },
 			origin: { x: 0.45, y: 0, z: 0.6 },
-			scale: 2.5
+			scale: 2.5,
+			"rotate":  true,
 		},
 		"*": {
 			translation: { x: 3, y: 4, z: 0 },
 			rotation: { x: -44, y: 180, z: 2 },
 			origin: { x: 0.5, y: 0.2, z: 0.5 },
-			scale: 1.8
+			scale: 1.8,
+			"rotate":  true,
 		},
 	},
 	fpHandTransformByType: {

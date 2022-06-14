@@ -106,7 +106,8 @@
 		translation: { x: 2.5, y: 1, z: 0 },
 		rotation: { x: 137, y: 131, z: 0 },
 		origin: { x: 0.5, y: 0.2, z: 0.5 },
-		scale: 1.38
+		scale: 1.38,
+		rotate: true,
 	},
 	fpHandTransform: {
 		translation: { x: 0, y: 0, z: 0 },

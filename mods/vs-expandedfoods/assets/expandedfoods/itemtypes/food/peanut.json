@@ -126,7 +126,7 @@
 					y: 0.1,
 					z: 0.5
 				},
-				scale: 2.01
+				scale: 2.0
 			}
 	},
 	fpHandTransformByType: {
