@@ -1745,20 +1745,6 @@
     "path": "/ingredients/3/validStacks/-",
     "value": {
       "type": "item",
-      "code": "expandedfoods:choppedmushroom-bolete",
-      "shapeElement": "bowl/vegetable base 3/*",
-      "textureMapping": [
-        "vegetable",
-        "group3"
-      ]
-    },
-    "file": "recipes/cooking/soup.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
       "shapeElement": "bowl/vegetable base 3/*",
       "textureMapping": [

@@ -147,20 +147,6 @@
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "add", 
-    path: "/20/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
-   file: "expandedfoods:recipes/kneading/primitivesurvival/sushi.json",
-    op: "add", 
-    path: "/21/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
- },
- {
    file: "expandedfoods:recipes/kneading/primitivesurvival/sushioil.json",
     op: "replace", 
     path: "/0/enabled", 

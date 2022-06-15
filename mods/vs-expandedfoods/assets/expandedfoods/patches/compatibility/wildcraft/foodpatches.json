@@ -378,34 +378,6 @@
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acornbreadedvegetableherb.json",
-    op: "replace", 
-    path: "/8/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acornbreadedvegetableherb.json",
-    op: "replace", 
-    path: "/9/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acornbreadedvegetableherb.json",
-    op: "replace", 
-    path: "/10/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acornbreadedvegetableherb.json",
-    op: "replace", 
-    path: "/11/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns" }]
- },
- {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorndumplingherb.json",
     op: "replace", 
     path: "/0/enabled", 

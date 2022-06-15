@@ -3,8 +3,8 @@
   code: "wineWILD",
   sealHours: 336,
   ingredients: [
-    { type: "item", code: "expandedfoods:wildfruitjuiceportion-*", name: "fruit", litres: 0.1 },
+    { type: "item", code: "wildcraft:juiceportion-*", name: "fruit", litres: 0.1 },
   ],
-  output: { type: "item", code: "expandedfoods:wildfruitwineportion-{fruit}", litres: 0.1 }
+  output: { type: "item", code: "wildcraft:ciderportion-{fruit}", litres: 0.1 }
  }
 ]

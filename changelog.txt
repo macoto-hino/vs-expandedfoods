@@ -51,6 +51,7 @@ Some items rotate in the GUI now - DONE!!!
 DisplayTransforms reviewed - DONE!!!
 Breadfruit buffed for 1.17 (enjoy) - DONE!!!
 Soybean items explain how to cook them - DONE!!!
+Log spam reduced
 
 1.5.3-pre.11
 New Chopped Mushroom item
