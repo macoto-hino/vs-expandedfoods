@@ -24,7 +24,7 @@
 			containable: true,
 			itemsPerLitre: 100,
 			texturebytype: {
-				"*-mead": { base: "game:block/liquid/honey", alpha: 120, overlays: ["game:item/liquid/syrup"] },
+				"*-mead": { base: "game:block/liquid/honey", alpha: 120, overlays: ["game:item/liquid/syrupmead"] },
 				"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 120, overlays: ["game:item/liquid/syrup"] },
 				"*-rice": { base: "game:block/food/dairy/milk", alpha: 120, overlays: ["game:item/liquid/syrup"] },
 				"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 120, overlays: ["game:item/liquid/syrup"] },
@@ -55,7 +55,7 @@
   	}],
 	shape: { base: "game:item/liquid" },
 	texturebytype: {
-		"*-mead": { base: "game:block/liquid/honey", alpha: 120, overlays: ["game:item/liquid/syrup"] },
+		"*-mead": { base: "game:block/liquid/honey", alpha: 120, overlays: ["game:item/liquid/syrupmead"] },
 		"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 120, overlays: ["game:item/liquid/syrup"] },
 		"*-rice": { base: "game:block/food/dairy/milk", alpha: 120, overlays: ["game:item/liquid/syrup"] },
 		"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 120, overlays: ["game:item/liquid/syrup"] },

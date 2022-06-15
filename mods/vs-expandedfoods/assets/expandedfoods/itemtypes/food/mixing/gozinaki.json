@@ -106,7 +106,7 @@
 		"pineapple" : {base: "expandedfoods:item/food/grain/overlays/pineapple" },
 		"weaktannin": { base: "game:block/liquid/weaktannin"},
 		"strongtannin": { base: "game:block/liquid/strongtannin"},
-		"saguaro": { base: "game:item/liquid/saguaro"},
+		"saguaro": { base: "expandedfoods:item/food/grain/overlays/saguaro"},
 		"peanutbutter": { base: "item/food/peanut/butter"},
 		"huckleberry" : {base: "expandedfoods:item/food/grain/overlays/huckleberry" },
 		"snowberry" : {base: "expandedfoods:item/food/grain/overlays/snowberry" },

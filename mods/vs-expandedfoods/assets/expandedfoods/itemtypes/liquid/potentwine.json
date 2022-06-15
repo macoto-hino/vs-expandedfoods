@@ -20,7 +20,7 @@
 			containable: true,
 			itemsPerLitre: 100,
 			texturebytype: {
-				"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
+				"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentmead"] },
 				"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
 				"*-rice": { base: "game:block/food/dairy/milk", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
 				"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
@@ -65,7 +65,7 @@
   	}],
 	shape: { base: "game:item/liquid" },
 	texturebytype: {
-		"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
+		"*-mead": { base: "game:block/liquid/honey", alpha: 140, overlays: ["game:item/liquid/potentmead"] },
 		"*-spelt": { base: "game:block/food/pie/fill-fish", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
 		"*-rice": { base: "game:block/food/dairy/milk", alpha: 140, overlays: ["game:item/liquid/potentwine"] },
 		"*-rye": { base: "game:block/food/pie/fill-gooseberry", alpha: 140, overlays: ["game:item/liquid/potentwine"] },

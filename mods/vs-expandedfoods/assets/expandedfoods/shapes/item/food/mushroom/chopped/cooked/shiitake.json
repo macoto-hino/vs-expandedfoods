@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"shiitake": "food/mushroom/partbaked/shiitake"
+		"shiitake": "item/food/mushroom/partbaked/shiitake"
 	},
 	"elements": [
 		{

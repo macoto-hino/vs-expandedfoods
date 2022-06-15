@@ -1146,7 +1146,7 @@
     "op": "add",
     "path": "/texturesByType/*/blackcurrantwine",
     "value": {
-      "base": "item/liquid/blackcurrantwine"
+      "base": "game:block/food/pie/fill-blackcurrant"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -1283,14 +1283,6 @@
     "path": "/texturesByType/*/bonebroth",
     "value": {
       "base": "item/liquid/bonebroth"
-    },
-    "file": "blocktypes/clay/pot.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*/vegetablemix",
-    "value": {
-      "base": "item/liquid/vegetablemix"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -2355,7 +2347,7 @@
     "op": "add",
     "path": "/texturesByType/*/snowberrywine",
     "value": {
-      "base": "item/liquid/snowberrywine"
+      "base": "wildcraft:block/food/pie/fill-snowberry"
     },
     "file": "blocktypes/clay/pot.json",
     dependsOn: [{ "modid": "wildcraft" }]

@@ -7,6 +7,16 @@
 	],
 	shape: { base: "item/food/mushroom/chopped/cooked/{type}"},
 	texturesByType: {
+		"*-fieldmushroom-*": {
+			"capfield": {base: "item/food/mushroom/{state}/fieldmushroom/cap"},
+			"stipefield": {base: "item/food/mushroom/{state}/fieldmushroom/stipe"},
+			"poresfield": {base: "item/food/mushroom/{state}/fieldmushroom/pores"},
+		},
+		"*-flyagaric-*": {
+    		"capfly": {base: "item/food/mushroom/{state}/flyagaric/cap"},
+    		"stipefly": {base: "item/food/mushroom/{state}/flyagaric/stipe"},
+    		"poresfly": {base: "item/food/mushroom/{state}/flyagaric/pores"},
+		},
 		"*": {
     		"almondmushroom": {base: "item/food/mushroom/{state}/{type}"},
     		"beardedtooth": {base: "item/food/mushroom/{state}/{type}"},
@@ -44,12 +54,6 @@
     		"violetwbcap": {base: "item/food/mushroom/{state}/{type}"},
     		"whiteoyster": {base: "item/food/mushroom/{state}/{type}"},
     		"witchhat": {base: "item/food/mushroom/{state}/{type}"},
-			"capfield": {base: "item/food/mushroom/{state}/fieldmushroom/cap"},
-			"stipefield": {base: "item/food/mushroom/{state}/fieldmushroom/stipe"},
-			"poresfield": {base: "item/food/mushroom/{state}/fieldmushroom/pores"},
-    		"capfly": {base: "item/food/mushroom/{state}/flyagaric/cap"},
-    		"stipefly": {base: "item/food/mushroom/{state}/flyagaric/stipe"},
-    		"poresfly": {base: "item/food/mushroom/{state}/flyagaric/pores"},
 		},
 	},
 	attributesByType: {
