@@ -2073,105 +2073,15 @@
             "topping",
             "pomegranatesyrup"
           ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-huckleberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "huckleberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-snowberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "snowberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-brambleberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "brambleberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-cloudberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "cloudberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-dogrose",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "dogrosesyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-elderberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "elderberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-gooseberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "gooseberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-honeysuckle",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "honeysucklesyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-strawberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "strawberrysyrup"
-          ]
-        },
-        {
-          "type": "item",
-          "code": "expandedfoods:wildfruitsyrupportion-raspberry",
-          "shapeElement": "bowl/topping/*",
-          "textureMapping": [
-            "topping",
-            "raspberrysyrup"
-          ]
-        },
+        },        
         {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "lard"
-	 ]
+	        "textureMapping": [
+	            "topping",
+	            "lard"
+	        ]
         },
         {
           "type": "item",
@@ -2258,6 +2168,156 @@
     },
     "file": "recipes/cooking/porridge.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-huckleberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "huckleberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-snowberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "snowberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-brambleberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "brambleberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-cloudberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "cloudberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-dogrose",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "dogrosesyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-elderberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "elderberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-gooseberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "gooseberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-honeysuckle",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "honeysucklesyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-strawberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "strawberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/6/validStacks/-",
+    "value": {
+          "type": "item",
+          "code": "expandedfoods:wildfruitsyrupportion-raspberry",
+          "shapeElement": "bowl/topping/*",
+          "textureMapping": [
+            "topping",
+            "raspberrysyrup"
+          ]
+        },
+    "file": "recipes/cooking/porridge.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
   {
     "op": "add",

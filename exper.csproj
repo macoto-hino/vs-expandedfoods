@@ -972,6 +972,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\rawjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\riceandbeansrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\saladrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\simmerrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\spirit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\stuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\sushi.json" />

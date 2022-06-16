@@ -3570,10 +3570,10 @@
           "type": "item",
           "code": "expandedfoods:foodoilportion-seed",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+	        "textureMapping": [
+	            "topping",
+	            "foodoil"
+	        ]
         },
         {
             "type": "item",
@@ -3597,10 +3597,10 @@
           "type": "item",
           "code": "expandedfoods:foodoilportion-peanut",
           "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+	        "textureMapping": [
+	            "topping",
+	            "foodoil"
+	        ]
         },
         {
           "type": "item",
@@ -4467,546 +4467,6 @@
           ]
         },
         {
-            "type": "item",
-            "code": "wildcraft:ciderportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:ciderportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "wildcraft:spiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-        {
           "type": "item",
           "code": "expandedfoods:lard",
           "shapeElement": "bowl/topping/*",
@@ -5032,6 +4492,891 @@
     },
     "file": "recipes/cooking/meatystew.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:ciderportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:spiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+    },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "wildcraft:wildstrongspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+    },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+       "type": "item",
+       "code": "expandedfoods:wildpotentspiritportion-raspberry",
+       "shapeElement": "bowl/topping/*",
+       "textureMapping": [
+           "topping",
+           "raspberrywine"
+       ]
+    },
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
