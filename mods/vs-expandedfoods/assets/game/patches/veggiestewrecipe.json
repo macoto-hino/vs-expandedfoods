@@ -4810,13 +4810,28 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
             "type": "item",
-            "code": "wildcraft:wildstrongspiritportion-raspberry",
+            "code": "expandedfoods:wildstrongspiritportion-raspberry",
             "shapeElement": "bowl/topping/*",
             "textureMapping": [
                 "topping",
                 "raspberrywine"
             ]
-    },
+        },
+    "file": "recipes/cooking/vegetablestew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },
     "file": "recipes/cooking/vegetablestew.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },

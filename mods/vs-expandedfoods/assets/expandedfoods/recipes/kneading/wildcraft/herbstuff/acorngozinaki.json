@@ -1,5 +1,6 @@
 ﻿[
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion", quantity: 3 }]},
@@ -8,6 +9,7 @@
 	output: { type: "item", code: "expandedfoods:gozinakiherb-mashed", stackSize: 1}
  },
  {
+	"enabled":  false,
 	ingredients: [
 		{inputs: [{ type: "item", code: "game:honeyportion",  quantity: 10 }]},
 		{inputs: [{ type: "item", code: "expandedfoods:acornportion", quantity: 3 }]},

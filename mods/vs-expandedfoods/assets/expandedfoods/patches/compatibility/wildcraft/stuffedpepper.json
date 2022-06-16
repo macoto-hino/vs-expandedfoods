@@ -717,64 +717,64 @@
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/2/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/3/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/5/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/6/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/7/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildfishstuffedpepper.json",
     op: "add", 
     path: "/8/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft", "invert": true }, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/wildherbstuffedpepper.json",

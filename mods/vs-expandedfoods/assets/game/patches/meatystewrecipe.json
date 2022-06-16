@@ -5352,13 +5352,13 @@
     "op": "add",
     "path": "/ingredients/8/validStacks/-",
     "value": {
-            "type": "item",
-            "code": "wildcraft:wildstrongspiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
+       "type": "item",
+       "code": "expandedfoods:wildstrongspiritportion-raspberry",
+       "shapeElement": "bowl/topping/*",
+       "textureMapping": [
+           "topping",
+           "raspberrywine"
+       ]
     },
     "file": "recipes/cooking/meatystew.json",
     dependsOn: [{ "modid": "wildcraft" }]

@@ -10,28 +10,28 @@
    file: "expandedfoods:recipes/kneading/wildcraft/gozinakiherb.json",
     op: "add", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/gozinakiherb.json",
     op: "add", 
     path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "wildcraft" , "invert": true}]
+    value: "true",
+    dependsOn: [{ "modid": "wildcraft" }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinaki.json",
     op: "add", 
     path: "/0/enabled", 
-    value: "false",
+    value: "true",
     dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "acorns", "invert": true }]
  },
  {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinaki.json",
     op: "add", 
     path: "/1/enabled", 
-    value: "false",
+    value: "true",
     dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "acorns", "invert": true }]
  },
  {
