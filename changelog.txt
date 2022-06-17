@@ -23,6 +23,7 @@ Added egg cracking - eggs now must be cracked into a liquid container; makes yol
 Added candied apples
 Added mushroom ketchup/juice
 Added VanVar compatibility for more mixing bowl variants
+Added vegetable broth
 Fixed meat rack cure timer?
 Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone

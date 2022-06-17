@@ -964,12 +964,15 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\primitivesurvival\sushi.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\primitivesurvival\trailmix.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\acornstuffedpepper.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\acorns\herbalstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\augratinrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\barrelrecipes.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\cider.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\gelatin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastacoldrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastahot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pemmicanherb.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\primitivesurvival\herbalstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\rawjuice.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\riceandbeansrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\saladrecipe.json" />
