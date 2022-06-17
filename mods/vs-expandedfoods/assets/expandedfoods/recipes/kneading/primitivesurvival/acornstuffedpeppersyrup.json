@@ -1,0 +1,27 @@
+﻿[
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:fishsauce",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-partbaked"  }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornstuffedpepper-syruppartbaked", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:fishsauce",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-cooked" }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornstuffedpepper-syrupcooked", stackSize: 1}
+ },
+ {
+	"enabled":  false,
+	ingredients: [
+		{inputs: [{ type: "item", code: "game:fishsauce",  quantity: 10 }]},
+		{inputs: [{ type: "item", code: "expandedfoods:acornstuffedpepper-charred" }]},
+	],
+	output: { type: "item", code: "expandedfoods:acornstuffedpepper-syrupcharred", stackSize: 1}
+ }
+]
+

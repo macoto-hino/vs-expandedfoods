@@ -132,6 +132,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\acornstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\augratinrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\breadstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\candy.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\gozinaki.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\malletstuff.json" />
@@ -1214,7 +1215,18 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpeppersyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acorngozinaki.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acorntrailmix.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\breadstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\gozinakisyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\acornbreadedball.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\acornbreadedballsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\acornbreadedmeatnuggetsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\acornbreadedvegetablesyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\acornstuffedpeppersyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedballsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedmeatnuggetsyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\breadedvegetablesyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\stuffedpeppersyrup.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\primitivesurvival\sushivegoil.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\trailmixvegetarian.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\berrydough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\breadberrysyrup.json" />

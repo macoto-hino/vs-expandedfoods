@@ -63,44 +63,9 @@
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/8/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/9/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/10/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/11/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetableoiled.json",
     op: "add", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetableoiled.json",
-    op: "add", 
-    path: "/1/enabled", 
     value: "false",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
@@ -126,24 +91,24 @@
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetablesyrup.json",
-    op: "add", 
-    path: "/3/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedvegetablesyrup.json",
+    op: "replace", 
+    path: "/0/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetablesyrup.json",
-    op: "add", 
-    path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedvegetablesyrup.json",
+    op: "replace", 
+    path: "/1/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetablesyrup.json",
-    op: "add", 
-    path: "/5/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
+    "file": "expandedfoods:recipes/kneading/primitivesurvival/acornbreadedvegetablesyrup.json",
+    op: "replace", 
+    path: "/2/enabled", 
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
 ]

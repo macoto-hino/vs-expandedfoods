@@ -854,6 +854,34 @@
     dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
  },
  {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
     op: "add", 
     path: "/0/enabled", 
@@ -906,6 +934,34 @@
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
     op: "add", 
     path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+    op: "add", 
+    path: "/11/enabled", 
     value: "false",
     dependsOn: [{ "modid": "wildcraft" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
  },

@@ -36,30 +36,30 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetoiled.json",
-    op: "add", 
+    op: "replace", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    op: "add", 
+    op: "replace", 
     path: "/0/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    op: "add", 
+    op: "replace", 
     path: "/1/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetsyrup.json",
-    op: "add", 
+    op: "replace", 
     path: "/2/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns" , "invert": true}, { "modid": "primitivesurvival", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
 ]

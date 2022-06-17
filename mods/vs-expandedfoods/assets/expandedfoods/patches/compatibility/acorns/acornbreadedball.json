@@ -86,13 +86,6 @@
  {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
     op: "add", 
-    path: "/11/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
-    op: "add", 
     path: "/12/enabled", 
     value: "false",
     dependsOn: [{ "modid": "acorns", "invert": true }]
@@ -171,34 +164,6 @@
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
     op: "add", 
     path: "/23/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
-    op: "add", 
-    path: "/24/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
-    op: "add", 
-    path: "/26/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
-    op: "add", 
-    path: "/26/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedball.json",
-    op: "add", 
-    path: "/27/enabled", 
     value: "false",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },

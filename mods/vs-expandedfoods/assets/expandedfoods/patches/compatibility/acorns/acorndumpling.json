@@ -36,10 +36,10 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
-    op: "add", 
+    op: "replace", 
     path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
@@ -71,9 +71,9 @@
  },
  {
     "file": "expandedfoods:recipes/kneading/acorns/acorndumpling.json",
-    op: "add", 
+    op: "replace", 
     path: "/9/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
+    value: "true",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
 ]

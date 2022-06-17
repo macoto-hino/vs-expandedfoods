@@ -77,7 +77,7 @@
 					}
 				},
     "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
   },
   {
     "op": "add",
@@ -97,7 +97,7 @@
 					}
 				},
     "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
   },
   {
     "op": "add",

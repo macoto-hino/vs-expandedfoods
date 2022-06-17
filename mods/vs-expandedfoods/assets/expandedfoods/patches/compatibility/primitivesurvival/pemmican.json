@@ -1,6 +1,6 @@
 ﻿[
  {
-   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/fishpemmican.json",
+   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/pemmicanfish.json",
     op: "add", 
     path: "/enabled", 
     value: "false",
@@ -63,7 +63,35 @@
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
-   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/crabpemmican.json",
+   file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/fishpemmican.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/pemmicancrab.json",
     op: "add", 
     path: "/enabled", 
     value: "false",
@@ -126,7 +154,35 @@
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
  {
-   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/snakepemmican.json",
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/11/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:itemtypes/food/primitivesurvival/mixing/pemmicansnake.json",
     op: "add", 
     path: "/enabled", 
     value: "false",
@@ -185,6 +241,34 @@
    file: "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
     op: "add", 
     path: "/7/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+    op: "add", 
+    path: "/8/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+    op: "add", 
+    path: "/9/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+    op: "add", 
+    path: "/10/enabled", 
+    value: "false",
+    dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/snakepemmican.json",
+    op: "add", 
+    path: "/11/enabled", 
     value: "false",
     dependsOn: [{ "modid": "primitivesurvival", "invert": true }]
  },
