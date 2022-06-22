@@ -35,34 +35,6 @@
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/4/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/5/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/6/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetable.json",
-    op: "add", 
-    path: "/7/enabled", 
-    value: "false",
-    dependsOn: [{ "modid": "acorns", "invert": true }]
- },
- {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedvegetableoiled.json",
     op: "add", 
     path: "/0/enabled", 

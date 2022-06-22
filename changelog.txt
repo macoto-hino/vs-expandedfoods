@@ -32,31 +32,32 @@ Healing over time added
 Olives integrated
 Added industrial mixing bowl (works much faster, higher storage capacity)
 
-1.5.3-pre.12
-Updated to VS 1.16
+1.5.4?
 Patches now use addEach function
-RenderIngredients now uses selectiveElements to cut down on files
 More Animals Compatibility added
-Cooked mushrooms added - DONE!!!
+Ancient Tools Compatibility added
+RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
-Mushrooms variants added to sushi - DONE!!!
-Mushroom visuals added for stuffed pepper - DONE!!!
-Wildcraft berries visible in stuffed bellpeppers - DONE!!!
 Fixed visual issues with Alchemy herbs & racks
 Fixed pie crashing
-Soup mushroom visuals fixed - DONE!!!
-Soup veggie liquid textures made transparent - DONE!!!
-Fruit tree yogurt nutrition fixed - DONE!!!
-Dried seaweed oven visuals fixed - DONE!!!
-Some items rotate in the GUI now - DONE!!!
-DisplayTransforms reviewed - DONE!!!
-Breadfruit buffed for 1.17 (enjoy) - DONE!!!
-Soybean items explain how to cook them - DONE!!!
-Log spam reduced
+
+1.5.3
+Updated to VS 1.16!!
+Cooked mushrooms added
+Mushrooms variants added to sushi
+Mushroom visuals added for stuffed pepper
+Wildcraft berries visible in stuffed bellpeppers
+Soup mushroom visuals fixed
+Soup veggie liquid textures made transparent
+Fruit tree yogurt nutrition fixed
+Dried seaweed oven visuals fixed 
+Some items rotate in the GUI now
+DisplayTransforms reviewed
+Breadfruit buffed for 1.17 (enjoy)
+Soybean items explain how to cook them
 
 1.5.3-pre.11
-New Chopped Mushroom item
-Cooked mushrooms added
+New Chopped Mushroom ite
 Old chopped mushroom models reworked
 Cattail Roots oven display fixed
 Sausage meal names refined
@@ -143,25 +144,25 @@ Mixing Bowl GUI text fixed (thanks to SpearAndFang!)
 
 1.5.3-pre.3
 Updated to VS 1.16
-Dried fruit is now 3D - DONE!!!
-Berry bread & muffins now use overlays instead of shapes - DONE!!!
-Added pumpkin to berry bread & muffins - DONE!!!
+Dried fruit is now 3D
+Berry bread & muffins now use overlays instead of shapes
+Added pumpkin to berry bread & muffins
 Recipes updated for new fruit (dried fruits - meals, barrel recipes, mixing meals; berry bread; muffins)
-Potent & strong brandy added - DONE!!!
-Liquids changed to match new standardization - DONE!!!
-Redundant juices/wines removed - DONE!!!
-Liquid recipes updated to new amounts - DONE????
-Mixed juice removed (for now?) - DONE!!!
-Bottles updated (thanks to SpearAndFang) - DONE!!!
-Cauldrons/Saucepan have boiling animation (thanks to Mister_Andy_Dandy) - DONE!!!
-Screw press removed, recipes moved to fruit press - DONE!!!
-Mixing bowl & saucepan now require specific liquid amounts - DONE????
-Spile output adjusted to reflect new liquid amounts - DONE!!!
-Regular bread now has satMult applied to it - DONE!!!
-Spile gets soft resin from Acacia trees - DONE!!!
-Japanese language files added (thanks to macoto_hino) - DONE!!!
-Fixed bread nutrition values - DONE!!!
-Part-baked & charred nutrition multipliers nerfed - DONE!!!
+Potent & strong brandy added
+Liquids changed to match new standardization
+Redundant juices/wines removed
+Liquid recipes updated to new amounts 
+Mixed juice removed (for now?)
+Bottles updated (thanks to SpearAndFang)
+Cauldrons/Saucepan have boiling animation (thanks to Mister_Andy_Dandy)
+Screw press removed, recipes moved to fruit press
+Mixing bowl & saucepan now require specific liquid amounts
+Spile output adjusted to reflect new liquid amounts 
+Regular bread now has satMult applied to it
+Spile gets soft resin from Acacia trees 
+Japanese language files added (thanks to macoto_hino)
+Fixed bread nutrition values
+Part-baked & charred nutrition multipliers nerfed
 
 1.5.2
 Fixed further compatibility issues

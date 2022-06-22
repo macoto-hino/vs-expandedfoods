@@ -1,7 +1,8 @@
 {
   "type": "code",
+  "texturesize": 32,
   "name": "Expanded Foods",
-  "version": "1.5.3-pre.11",
+  "version": "1.5.3",
   "networkVersion": null,
   "description": "New recipes for existing food types.",
   "modID": "expandedfoods",
