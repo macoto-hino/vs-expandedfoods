@@ -7,16 +7,16 @@
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/candy.json",
+    "file": "expandedfoods:recipes/kneading/acorns/candy.json",
     op: "add", 
-    path: "/4/enabled", 
+    path: "/0/enabled", 
     value: "false",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/candy.json",
+    "file": "expandedfoods:recipes/kneading/acorns/candy.json",
     op: "add", 
-    path: "/5/enabled", 
+    path: "/1/enabled", 
     value: "false",
     dependsOn: [{ "modid": "acorns", "invert": true }]
  },

@@ -134,7 +134,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\meals\augratin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\breadstarter.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\candy.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\malletstuff.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\malletstuff.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\meals\pastacold.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\meals\pastahot.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\breadedball.json" />
@@ -1236,7 +1236,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpepperoiled.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornstuffedpeppersyrup.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\breadstarter.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\candy.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\gozinakisyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\trailmixvegetarian.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\berrydough.json" />
