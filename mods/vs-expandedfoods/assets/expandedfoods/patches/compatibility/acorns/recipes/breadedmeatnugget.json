@@ -41,18 +41,4 @@
     value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
     dependsOn: [{ "modid": "acorns" }]
  },
- {
-   file: "expandedfoods:recipes/kneading/breadedmeatnugget.json",
-    op: "add", 
-    path: "/6/ingredients/2/inputs/-", 
-    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
-    dependsOn: [{ "modid": "acorns" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/breadedmeatnugget.json",
-    op: "add", 
-    path: "/7/ingredients/2/inputs/-", 
-    value: { type: "item", code: "acorns:flour-acorn", quantity: 1 },
-    dependsOn: [{ "modid": "acorns" }]
- },
 ]

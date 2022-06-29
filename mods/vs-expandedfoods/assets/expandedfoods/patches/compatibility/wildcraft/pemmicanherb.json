@@ -1,153 +1,41 @@
 ﻿[
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/fishpemmicanherb.json",
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/fishpemmicanherb.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/fishpemmicanherb.json",
-    op: "replace", 
-    path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/crabpemmicanherb.json",
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/crabpemmicanherb.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/4/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/5/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/6/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/7/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/8/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/9/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/10/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/crabpemmicanherb.json",
-    op: "replace", 
-    path: "/11/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/snakepemmicanherb.json",
     op: "replace", 
     path: "/0/enabled", 
     value: "true",
     dependsOn: [{ "modid": "wildcraft" }, { "modid": "primitivesurvival" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/snakepemmicanherb.json",
+   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/primitivesurvival/snakepemmicanherb.json",
     op: "replace", 
     path: "/1/enabled", 
     value: "true",

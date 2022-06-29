@@ -21,20 +21,6 @@
     dependsOn: [{ "modid": "wildcraft" }]
  },
  {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinaki.json",
-    op: "replace", 
-    path: "/0/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns"}]
- },
- {
-   file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/acorngozinaki.json",
-    op: "replace", 
-    path: "/1/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "wildcraft" }, { "modid": "acorns"}]
- },
- {
    file: "expandedfoods:recipes/kneading/wildcraft/herbstuff/gozinakiherbsyrup.json",
     op: "add", 
     path: "/0/enabled", 

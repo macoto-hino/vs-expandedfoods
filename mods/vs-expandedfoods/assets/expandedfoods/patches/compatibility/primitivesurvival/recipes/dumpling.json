@@ -17,7 +17,7 @@
    file: "expandedfoods:recipes/kneading/dumpling.json",
     op: "add", 
     path: "/1/ingredients/1/inputs/-", 
-    value: { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1},
+    value: { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},
     dependsOn: [{ "modid": "primitivesurvival" }]
  },
  {
@@ -38,7 +38,7 @@
    file: "expandedfoods:recipes/kneading/dumpling.json",
     op: "add", 
     path: "/3/ingredients/1/inputs/-", 
-    value: { type: "item", code: "expandedfoods:crabnugget-raw", quantity: 1},
+    value: { type: "item", code: "expandedfoods:snakenugget-raw", quantity: 1},
     dependsOn: [{ "modid": "primitivesurvival" }]
  },
 ]

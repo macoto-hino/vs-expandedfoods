@@ -31,6 +31,7 @@ Complicated fish sauce recipe
 Healing over time added 
 Olives integrated
 Added industrial mixing bowl (works much faster, higher storage capacity)
+Added 'tenderized' attribute to meat
 
 1.5.4?
 Patches now use addEach function
@@ -40,6 +41,13 @@ RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
 Fixed visual issues with Alchemy herbs & racks
 Fixed pie crashing
+Chopped food perish timers reviewed
+Salad visuals fixed
+Recipes completely re-factored
+Gozinaki syrup fixed
+Dried berries can be made by curing berry mash (must break it up first)
+Japanese translation updated - DONE!!!
+Deluxe fried veggies given proper names
 
 1.5.3
 Updated to VS 1.16!!

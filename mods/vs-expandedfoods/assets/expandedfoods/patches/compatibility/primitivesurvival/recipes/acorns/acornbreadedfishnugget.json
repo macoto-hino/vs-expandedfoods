@@ -21,20 +21,6 @@
     dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
  },
  {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
-    op: "replace", 
-    path: "/2/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
- },
- {
-    "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnugget.json",
-    op: "replace", 
-    path: "/3/enabled", 
-    value: "true",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
- },
- {
     "file": "expandedfoods:recipes/kneading/acorns/acornbreadedfishnuggetoiled.json",
     op: "replace", 
     path: "/0/enabled", 
