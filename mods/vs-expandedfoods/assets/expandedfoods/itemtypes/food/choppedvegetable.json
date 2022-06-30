@@ -176,92 +176,92 @@
 	transitionablePropsByType: {
 		"*-pumpkin": [{
 			type: "Perish",
-			freshHours: { avg: 108 },
-			transitionHours: { avg: 36 },
+			freshHours: { avg: 216 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.55
 		}],
 		"*-onion": [{
 			type: "Perish",
-			freshHours: { avg: 336 },
-			transitionHours: { avg: 60 },
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 120 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-pickledcarrot": [{
 			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-pickledonion": [{
 			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-pickledparsnip": [{
 			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-pickledturnip": [{
 			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-pickledpumpkin": [{
 			type: "Perish",
-			freshHours: { avg: 900 },
-			transitionHours: { avg: 120 },
+			freshHours: { avg: 1800 },
+			transitionHours: { avg: 240 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-cattailroot": [{
 			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 9 },
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 18 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-papyrusroot": [{
 			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 9 },
+			freshHours: { avg: 48 },
+			transitionHours: { avg: 18 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*-cassava": [{
 			type: "Dry",
-			freshHours: { avg:  3 },
-			transitionHours: { avg: 24 },
+			freshHours: { avg:  6 },
+			transitionHours: { avg: 48 },
 			transitionedStack: { type: "item", code: "expandedfoods:choppedvegetable-cassavadried" },
 			transitionRatio: 1
 		}],
 		"*-cassavadried": [{
       		  	type: "Perish",
-        		freshHours: { avg: 1344 },
-        		transitionHours: { avg: 60 },
+        		freshHours: { avg: 2688 },
+        		transitionHours: { avg: 120 },
         		transitionedStack: { type: "item", code: "game:rot" },
         		transitionRatio: 0.5
 		}],
 		"*-bellpepper": [{
 			type: "Perish",
-			freshHours: { avg: 144 },
-			transitionHours: { avg: 36 },
+			freshHours: { avg: 288 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}],
 		"*": [{
 			type: "Perish",
-			freshHours: { avg:  252 },
-			transitionHours: { avg: 48 },
+			freshHours: { avg:  504 },
+			transitionHours: { avg: 96 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.5
 		}]

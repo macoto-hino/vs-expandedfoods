@@ -191,64 +191,64 @@
 	transitionablePropsByType: {
 		"*-raw": [{
 			type: "Perish",
-			freshHours: { avg: 18 },
-			transitionHours: { avg: 72 },
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 24 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-smashed": [{
 			type: "Perish",
-			freshHours: { avg: 24 },
-			transitionHours: { avg: 48 },
+			freshHours: { avg: 36 },
+			transitionHours: { avg: 24 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-cured": [{
 			type: "Perish",
-			freshHours: { avg: 4380 },
-			transitionHours: { avg: 2190 },
+			freshHours: { avg: 8760 },
+			transitionHours: { avg: 4380 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-tenderpartbaked": [{
 			type: "Perish",
 			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
+			transitionHours: { avg: 24 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-tender": [{
 			type: "Perish",
-			freshHours: { avg: 100 },
-			transitionHours: { avg: 72 },
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-tendercharred": [{
 			type: "Perish",
 			freshHours: { avg: 300 },
-			transitionHours: { avg: 144 },
+			transitionHours: { avg: 60 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-cookedpartbaked": [{
 			type: "Perish",
-			freshHours: { avg: 60 },
-			transitionHours: { avg: 96 },
+			freshHours: { avg: 100 },
+			transitionHours: { avg: 24 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-cooked": [{
 			type: "Perish",
-			freshHours: { avg: 60 },
-			transitionHours: { avg: 96 },
+			freshHours: { avg: 120 },
+			transitionHours: { avg: 36 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-cookedcharred": [{
 			type: "Perish",
-			freshHours: { avg: 180 },
-			transitionHours: { avg: 192 },
+			freshHours: { avg: 300 },
+			transitionHours: { avg: 60 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		

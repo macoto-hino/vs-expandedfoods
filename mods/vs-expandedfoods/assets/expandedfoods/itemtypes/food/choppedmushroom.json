@@ -78,8 +78,8 @@
 	transitionablePropsByType: {
 		"*": [{
 			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
+			freshHours: { avg: 432 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],

@@ -188,22 +188,22 @@
 	transitionablePropsByType: {
 		"*-partbaked": [{
 			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
+			freshHours: { avg: 432 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-perfect": [{
 			type: "Perish",
-			freshHours: { avg: 216 },
-			transitionHours: { avg: 36 },
+			freshHours: { avg: 432 },
+			transitionHours: { avg: 72 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}],
 		"*-charred": [{
 			type: "Perish",
-			freshHours: { avg: 756 },
-			transitionHours: { avg: 72 },
+			freshHours: { avg: 1512 },
+			transitionHours: { avg: 144 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 1
 		}]
