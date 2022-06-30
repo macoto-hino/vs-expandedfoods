@@ -43,7 +43,7 @@ Fixed visual issues with Alchemy herbs & racks
 Fixed pie crashing
 Chopped food perish timers reviewed
 Salad visuals fixed
-Recipes completely re-factored
+Recipes completely re-factored - DONE!!!
 Gozinaki syrup fixed
 Dried berries can be made by curing berry mash (must break it up first)
 Japanese translation updated - DONE!!!
