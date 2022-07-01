@@ -2446,6 +2446,48 @@
         "path": "/ingredients/4/validStacks/-",
         "value": {
             "type": "item",
+   	    "code": "expandedfoods:meatnugget-bushmeat-smashed",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "expandedfoods:meatnugget-redmeat-smashed",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group6"
+     	 ]
+        }
+  },
+  {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
+   	    "code": "expandedfoods:meatnugget-poultry-smashed",
+     	    "shapeElement": "bowl/meatnugget 1/*",
+     	    "textureMapping": [
+       		"meatnugget",
+        	"group5"
+     	 ]
+        }
+  },
+   {
+        "file": "recipes/cooking/soup.json",
+        "op": "add",
+        "path": "/ingredients/4/validStacks/-",
+        "value": {
+            "type": "item",
    	    "code": "expandedfoods:agedmeat-bushmeat-raw",
      	    "shapeElement": "bowl/meatnugget 1/*",
      	    "textureMapping": [

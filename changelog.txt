@@ -35,17 +35,18 @@ Added 'tenderized' attribute to meat
 
 1.5.4?
 Patches now use addEach function
-More Animals Compatibility added
+More Animals Compatibility added (Boiled/pickled egg variants added) - DONE!!!
 Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
 Fixed visual issues with Alchemy herbs & racks
 Chopped food perish timers reviewed; now match base food timers - DONE!!!
 Recipes completely re-factored - DONE!!!
-Smashed meat can be added to any meal that regular meat can
+Smashed meat can be added to soup & scrambled eggs - DONE!!
 Dried berries can be made by curing berry mash (must break it up first)
 Japanese translation updated - DONE!!!
 Deluxe fried veggies given proper names - DONE!!!
+Boiled eggs can be added to dumplings - DONE!!!
 
 1.5.3
 Updated to VS 1.16!!

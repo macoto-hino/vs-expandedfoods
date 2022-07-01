@@ -1,0 +1,9 @@
+﻿[
+ {
+   file: "expandedfoods:recipes/kneading/pasta.json",
+    op: "add", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "moreanimals:egg-*-raw", quantity: 1},
+    dependsOn: [{ "modid": "moreanimals" }]
+ },
+]

@@ -1,25 +1,25 @@
-[
+﻿[
   {
     "op": "add",
     "path": "/variantgroups/1/states/1",
     "value": "boiled",
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
     "path": "/variantgroups/1/states/2",
     "value": "pickled",
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/texture",
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/transitionableProps",
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
@@ -27,16 +27,16 @@
     "value": {
       "*-pickled": {
         "all": {
-          "base": "item/food/egg/pickled"
+          "base": "game:item/food/egg/pickled"
         }
       },
       "*": {
         "all": {
-          "base": "item/food/egg/chicken"
+          "base": "game:item/food/egg/chicken"
         }
       }
     },
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
@@ -53,7 +53,7 @@
           },
           "transitionedStack": {
             "type": "item",
-            "code": "rot"
+            "code": "game:rot"
           },
           "transitionRatio": 0.5
         }
@@ -69,42 +69,42 @@
           },
           "transitionedStack": {
             "type": "item",
-            "code": "rot"
+            "code": "game:rot"
           },
           "transitionRatio": 0.5
         }
       ]
     },
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "remove",
     "path": "/attributes/nutritionPropsWhenInMeal",
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
     "path": "/attributes/nutritionPropsWhenInMealByType",
     "value": {
       "*-pickled": {
-        "saturation": 175,
+        "saturation": 235,
         "foodcategory": "Protein"
       },
       "*": {
-        "saturation": 200,
+        "saturation": 280,
         "foodcategory": "Protein"
       }
     },
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
     "path": "/nutritionPropsByType/*-pickled",
     "value": {
-      "saturation": 140,
+      "saturation": 215,
       "foodcategory": "Protein"
     },
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   },
   {
     "op": "add",
@@ -119,6 +119,6 @@
         "partType": "Filling"
       }
     },
-    "file": "itemtypes/food/egg.json"
+    "file": "moreanimals:itemtypes/egg.json"
   }
 ]
