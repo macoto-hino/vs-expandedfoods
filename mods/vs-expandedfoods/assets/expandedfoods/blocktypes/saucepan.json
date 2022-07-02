@@ -10307,6 +10307,7 @@
 		all: false
 	},
 	blockmaterial: "Ceramic",
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock", 
 	texturesbyType: {
 		"*-raw": {
 			ceramic: {
@@ -10361,16 +10362,16 @@
 	materialDensity: 400,
 	tpHandTransform: {
 		translation: {
-			x: -0.86,
-			y: -0.73,
-			z: -1.14
+			x: -1.1,
+			y: -0.6,
+			z: -0.265
 		},
 		rotation: {
-			x: 0,
-			y: 0,
-			z: 0
+			x: 100,
+			y: -15,
+			z: -75
 		},
-		scale: 0.55
+		scale: 0.8
 	},
 	guiTransform: {
 		origin: {

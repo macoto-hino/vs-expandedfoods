@@ -47,6 +47,9 @@ Dried berries can be made by curing berry mash (must break it up first)
 Japanese translation updated - DONE!!!
 Deluxe fried veggies given proper names - DONE!!!
 Boiled eggs can be added to dumplings - DONE!!!
+Saucepan clayforming recipe updated 
+Simplified cauldron/saucepan models?
+Cauldron/saucepan holding animations updated
 
 1.5.3
 Updated to VS 1.16!!

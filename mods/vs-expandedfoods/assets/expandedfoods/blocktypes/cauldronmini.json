@@ -55,6 +55,7 @@
 	},
 	"drawtype": "JSON",
 	"blockmaterial": "Metal",
+	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock", 
 	"texturesbyType": {
 		"*-copper": {
             "metal": { "base": "game:block/metal/sheet/copper1" },
@@ -152,16 +153,16 @@
 	"materialDensity": 7870,
 	"tpHandTransform": {
 		"translation": {
-			"x": -0.86,
-			"y": -0.73,
-			"z": -1.14
+			"x": -0.95,
+			"y": -0.6,
+			"z": -0.325
 		},
 		"rotation": {
-			"x": 0,
-			"y": 0,
-			"z": 0
+			"x": 100,
+			"y": -16,
+			"z": -75
 		},
-		"scale": 0.55
+		"scale": 0.75
 	},
 	"fpHandTransform": {
 		"scale": 1.5
