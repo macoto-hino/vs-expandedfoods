@@ -35,6 +35,7 @@ Added 'tenderized' attribute to meat
 
 1.5.4?
 Patches now use addEach function
+Added Dehydrated Berries, made by breaking up berry mash and drying; usable in everything dried berries can be used for
 More Animals Compatibility added (Boiled/pickled egg variants added) - DONE!!!
 Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
@@ -43,13 +44,13 @@ Fixed visual issues with Alchemy herbs & racks
 Chopped food perish timers reviewed; now match base food timers - DONE!!!
 Recipes completely re-factored - DONE!!!
 Smashed meat can be added to soup & scrambled eggs - DONE!!
-Dried berries can be made by curing berry mash (must break it up first)
 Japanese translation updated - DONE!!!
 Deluxe fried veggies given proper names - DONE!!!
 Boiled eggs can be added to dumplings - DONE!!!
 Saucepan clayforming recipe updated 
 Simplified cauldron/saucepan models?
-Cauldron/saucepan holding animations updated
+Cauldron/saucepan holding animations updated - DONE!!!
+Dried fruit perish timers updated - DONE!!!
 
 1.5.3
 Updated to VS 1.16!!

@@ -113,6 +113,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\choppedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedchoppedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedmushroom.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\dehydratedfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspirit.json" />
@@ -1294,6 +1295,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\breadcrumbs.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\choppedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\choppedvegetable.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\dehydratedfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\destroycauldron.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\hardtack.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\meatnugget2.json" />

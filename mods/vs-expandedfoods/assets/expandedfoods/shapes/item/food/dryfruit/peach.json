@@ -9,10 +9,6 @@
 		"peach": [8,8],
 		"fill-peach": [16,16]
 	},
-	"textures": {
-		"peach": "item/food/dryfruit/peach",
-		"fill-peach": "item/food/dryfruit/fill-peach"
-	},
 	"elements": [
 		{
 			"name": "origin",

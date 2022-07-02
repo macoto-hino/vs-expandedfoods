@@ -9,10 +9,6 @@
 		"fill-saguaro": [16,16],
 		"saguaro": [8,8]
 	},
-	"textures": {
-		"fill-saguaro": "item/food/dryfruit/fill-saguaro",
-		"saguaro": "item/food/dryfruit/saguaro"
-	},
 	"elements": [
 		{
 			"name": "origin",

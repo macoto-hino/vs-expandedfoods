@@ -5,10 +5,6 @@
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
-	"textures": {
-		"fill-breadfruit": "item/food/dryfruit/fill-breadfruit",
-		"breadfruit": "item/food/dryfruit/breadfruit"
-	},
 	"elements": [
 		{
 			"name": "origin",

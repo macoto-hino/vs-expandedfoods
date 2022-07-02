@@ -5,9 +5,6 @@
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
-	"textures": {
-		"lychee": "item/food/dryfruit/lychee"
-	},
 	"elements": [
 		{
 			"name": "Cube2",

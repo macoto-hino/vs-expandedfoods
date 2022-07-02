@@ -7,10 +7,6 @@
 	"textureHeight": 16,
 	"textureSizes": {
 	},
-	"textures": {
-		"orange": "item/food/dryfruit/orange",
-		"fill-orange": "item/food/dryfruit/fill-orange"
-	},
 	"elements": [
 		{
 			"name": "origin",

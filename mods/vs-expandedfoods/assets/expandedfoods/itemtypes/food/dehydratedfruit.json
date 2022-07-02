@@ -1,12 +1,12 @@
-{
-	code: "dryfruit",
+﻿{
+	code: "dehydratedfruit",
 	maxstacksize: 64,
 	variantgroups: [
 		{ "code": "fruit",  loadFromProperties: "block/fruit" }
 	],
 	materialDensityByType: {"*": 600},
 	attributes: {
-		"handbook": { "groupBy": [ "dryfruit-*" ] },
+		"handbook": { "groupBy": [ "dehydratedfruit-*" ] },
 		nutritionPropsWhenInMeal: { 
 			satietyByType:  { 
 				"*-saguaro": 90, 
@@ -17,14 +17,6 @@
 				"*":  120 
 			},
 			foodcategory: "Fruit" 
-		},
-		bakingProperties: {
-			temp: 100,
-			levelFrom: 0.5,
-			levelTo: 1.0,
-			startScaleY: 0.8,
-			endScaleY: 0.8,
-			initialCode: "game:fruit-{fruit}",
 		},
 		inPiePropertiesByType: {
 			"*-pinkapple": { texture: "game:block/food/pie/fill-apple", partType: 'Filling' },
@@ -131,20 +123,27 @@
 			"*": { base: "game:block/barrel/{fruit}" },
 		},
 	},
-	shapebytype: { 
+	shapebytype: {
 		"*": { base: "item/food/dryfruit/{fruit}" }
 	},
 	"textures": {
-		"currant": { "base": "item/food/dryfruit/currant" },
-		"fill-apple": { "base": "item/food/dryfruit/fill-apple" },
-		"fill-breadfruit": { "base": "item/food/dryfruit/fill-breadfruit" },
-		"fill-mango": { "base": "item/food/dryfruit/fill-mango" },
-		"fill-orange": { "base": "item/food/dryfruit/fill-orange" },
-		"fill-peach": { "base": "item/food/dryfruit/fill-peach" },
-		"fill-pear": { "base": "item/food/dryfruit/fill-pear" },
-		"fill-pomegranate": { "base": "item/food/dryfruit/fill-pomegranate" },
-		"fill-saguaro": { "base": "item/food/dryfruit/fill-saguaro" },
-		"all": { "base": "item/food/dryfruit/{fruit}" },
+		"currant": { "base": "game:item/food/fruit/currant" },
+		"breadfruit": { "base": "game:block/plant/fruittree/breadfruit/ripe" },
+		"lychee": { "base": "game:block/food/dairy/milk" },
+		"orange": { "base": "game:block/plant/fruittree/orange/ripe" },
+		"pomegranate": { "base": "game:block/plant/fruittree/pomegranate/ripe" },
+		"pinkapple": { "base": "game:block/plant/fruittree/pinkapple/ripe" },
+		"redapple": { "base": "game:block/plant/fruittree/redapple/ripe" },
+		"yellowapple": { "base": "game:block/plant/fruittree/yellowapple/ripe" },
+		"fill-apple": { "base": "game:block/food/pie/fill-apple" },
+		"fill-breadfruit": { "base": "game:block/food/pie/fill-breadfruit" },
+		"fill-mango": { "base": "game:block/food/pie/fill-mango" },
+		"fill-orange": { "base": "game:block/food/pie/fill-orange" },
+		"fill-peach": { "base": "game:block/food/pie/fill-peach" },
+		"fill-pear": { "base": "game:block/food/pie/fill-pear" },
+		"fill-pomegranate": { "base": "game:block/food/pie/fill-pomegranate" },
+		"fill-saguaro": { "base": "game:block/food/pie/fill-saguaro" },
+		"all": { "base": "game:item/food/fruit/{fruit}" },
 	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "expandedfoods": ["*"] },
 	nutritionPropsByType: {
@@ -158,32 +157,60 @@
 	transitionablePropsByType: {
 		"*-cranberry": [{
 			type: "Perish",
-			freshHours: { avg: 960 },
+			freshHours: { avg: 96 },
 			transitionHours: { avg: 12 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.25
-		}],
-        "@*-(orange|mango|lychee|pomegranate)": [{
+		},{
+			type: "Dry",
+			freshHours: { avg: 0 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "expandedfoods:dryfruit-cranberry" },
+			transitionRatio: 0.25
+		},
+        ],
+		"@*-(orange|mango|lychee|pomegranate)": [{
             type: "Perish",
-            freshHours: { avg: 3600 },
+            freshHours: { avg: 360 },
             transitionHours: { avg: 48 },
             transitionedStack: { type: "item", code: "game:rot" },
             transitionRatio: 0.25
-        }],
+        },{
+			type: "Dry",
+			freshHours: { avg: 0 },
+			transitionHours: { avg: 240 },
+			transitionedStack: { type: "item", code: "expandedfoods:dryfruit-{fruit}" },
+			transitionRatio: 0.25
+		},
+        ],
         "@*-(pinkapple|redapple|yellowapple|pear|breadfruit)": [{
             type: "Perish",
-            freshHours: { avg: 9600 },
+            freshHours: { avg: 960 },
             transitionHours: { avg: 48 },
             transitionedStack: { type: "item", code: "game:rot" },
             transitionRatio: 0.25
-        }],
+        },{
+			type: "Dry",
+			freshHours: { avg: 0 },
+			transitionHours: { avg: 720 },
+			transitionedStack: { type: "item", code: "expandedfoods:dryfruit-{fruit}" },
+			transitionRatio: 0.25
+		},
+        ],
 		"*": [{
 			type: "Perish",
-			freshHours: { avg: 480 },
+			freshHours: { avg: 48 },
 			transitionHours: { avg: 12 },
 			transitionedStack: { type: "item", code: "game:rot" },
 			transitionRatio: 0.25
-		}]
+		},{
+			type: "Dry",
+			freshHours: { avg: 0 },
+			transitionHours: { avg: 36 },
+			transitionedStack: { type: "item", code: "expandedfoods:dryfruit-{fruit}" },
+			transitionRatio: 0.25
+		},
+        ]
 	},
 	guiTransformByType: {
 		"*-pomegranate": {

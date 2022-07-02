@@ -9,10 +9,6 @@
 		"pear": [8,8],
 		"fill-pear": [16,16]
 	},
-	"textures": {
-		"pear": "item/food/dryfruit/pear",
-		"fill-pear": "item/food/dryfruit/fill-pear"
-	},
 	"elements": [
 		{
 			"name": "origin",

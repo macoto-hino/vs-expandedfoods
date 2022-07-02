@@ -7,9 +7,6 @@
 	"textureHeight": 8,
 	"textureSizes": {
 	},
-	"textures": {
-		"currant": "item/food/dryfruit/currant"
-	},
 	"elements": [
 		{
 			"name": "origin",

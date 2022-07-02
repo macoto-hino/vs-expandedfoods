@@ -7,9 +7,6 @@
 	"textureHeight": 8,
 	"textureSizes": {
 	},
-	"textures": {
-		"blueberry": "item/food/dryfruit/blueberry"
-	},
 	"elements": [
 		{
 			"name": "origin",

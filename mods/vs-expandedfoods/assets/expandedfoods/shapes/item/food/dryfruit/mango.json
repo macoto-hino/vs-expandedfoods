@@ -9,10 +9,6 @@
 		"fill-mango": [16,16],
 		"mango": [8,8]
 	},
-	"textures": {
-		"fill-mango": "item/food/dryfruit/fill-mango",
-		"mango": "item/food/dryfruit/mango"
-	},
 	"elements": [
 		{
 			"name": "origin",

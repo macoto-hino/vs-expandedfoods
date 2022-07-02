@@ -7,9 +7,6 @@
 	"textureHeight": 8,
 	"textureSizes": {
 	},
-	"textures": {
-		"cranberry": "item/food/dryfruit/cranberry"
-	},
 	"elements": [
 		{
 			"name": "origin",

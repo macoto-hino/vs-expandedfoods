@@ -7,10 +7,6 @@
 	"textureHeight": 16,
 	"textureSizes": {
 	},
-	"textures": {
-		"yellowapple": "item/food/dryfruit/yellowapple",
-		"fill-apple": "item/food/dryfruit/fill-apple"
-	},
 	"elements": [
 		{
 			"name": "origin",
