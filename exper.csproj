@@ -2306,7 +2306,7 @@
     <None Include="mods\vs-expandedfoods\assets\game\patches\scrambledeggsrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\scrambledeggsshape.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\seaweed.json" />
-    <None Include="mods\vs-expandedfoods\assets\game\patches\soup.json" />
+    <None Include="mods\vs-expandedfoods\assets\game\patches\souprecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\soupshape.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\cider.json" />
     <None Include="mods\vs-expandedfoods\assets\game\patches\rawjuice.json" />

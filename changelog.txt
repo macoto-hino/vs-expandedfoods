@@ -32,10 +32,11 @@ Healing over time added
 Olives integrated
 Added industrial mixing bowl (works much faster, higher storage capacity)
 Added 'tenderized' attribute to meat
+Fruit leather added?
 
 1.5.4?
 Patches now use addEach function
-Added Dehydrated Berries, made by breaking up berry mash and drying; usable in everything dried berries can be used for
+Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later)
 More Animals Compatibility added (Boiled/pickled egg variants added) - DONE!!!
 Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
@@ -51,6 +52,7 @@ Saucepan clayforming recipe updated
 Simplified cauldron/saucepan models?
 Cauldron/saucepan holding animations updated - DONE!!!
 Dried fruit perish timers updated - DONE!!!
+Meat dries instead of curing now?
 
 1.5.3
 Updated to VS 1.16!!
