@@ -52,7 +52,7 @@ Smashed meat can be added to soup & scrambled eggs - DONE!!
 Japanese translation updated - DONE!!!
 Deluxe fried veggies given proper names - DONE!!!
 Boiled eggs can be added to dumplings - DONE!!!
-Saucepan clayforming recipe updated 
+Saucepan clayforming recipe updated - DONE!!!
 Cauldron/saucepan holding animations updated - DONE!!!
 Dried fruit perish timers updated - DONE!!!
 
