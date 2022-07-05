@@ -211,6 +211,76 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-elderberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group16"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-snowberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group17"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-cloudberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group18"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-raspberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group19"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-dogrose",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group20"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-brambleberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group21"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-honeysuckle",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group22"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-gooseberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group23"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-huckleberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group24"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-strawberry",  shapeElement: "bowl/fruit 1/*", textureMapping: ["fruit", "group25"] },
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/ingredients/2/validStacks/-",
     "value": { type: "item", code: "wildcraft:fruit-elderberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group16"] },
     "file": "recipes/mixing/yogurtmeal.json",
@@ -346,6 +416,76 @@
     "op": "add",
     "path": "/ingredients/2/validStacks/-",
     "value": { type: "item", code: "expandedfoods:wilddryfruit-strawberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group25"] },
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-elderberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group16"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-snowberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group17"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-cloudberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group18"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-raspberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group19"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-dogrose",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group20"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-brambleberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group21"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-honeysuckle",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group22"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-gooseberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group23"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-huckleberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group24"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-strawberry",  shapeElement: "bowl/fruit 2/*", textureMapping: ["fruit", "group25"] },
     "file": "recipes/mixing/yogurtmeal.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },
@@ -491,6 +631,76 @@
   },
   {
     "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-elderberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group16"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-snowberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group17"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-cloudberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group18"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-raspberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group19"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-dogrose",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group20"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-brambleberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group21"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-honeysuckle",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group22"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-gooseberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group23"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-huckleberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group24"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/3/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-strawberry",  shapeElement: "bowl/fruit 3/*", textureMapping: ["fruit", "group25"] },
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
     "path": "/ingredients/4/validStacks/-",
     "value": { type: "item", code: "wildcraft:fruit-elderberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group16"] },
     "file": "recipes/mixing/yogurtmeal.json",
@@ -626,6 +836,76 @@
     "op": "add",
     "path": "/ingredients/4/validStacks/-",
     "value": { type: "item", code: "expandedfoods:wilddryfruit-strawberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group25"] },
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-elderberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group16"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-snowberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group17"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-cloudberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group18"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-raspberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group19"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-dogrose",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group20"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-brambleberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group21"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-honeysuckle",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group22"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-gooseberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group23"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-huckleberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group24"] }, 
+    "file": "recipes/mixing/yogurtmeal.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/4/validStacks/-",
+    "value": { type: "item", code: "expandedfoods:wilddehydratedfruit-strawberry",  shapeElement: "bowl/fruit 4/*", textureMapping: ["fruit", "group25"] },
     "file": "recipes/mixing/yogurtmeal.json",
     dependsOn: [{ "modid": "wildcraft" }]
   },

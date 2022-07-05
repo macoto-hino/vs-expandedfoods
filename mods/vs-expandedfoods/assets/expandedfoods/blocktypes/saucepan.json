@@ -10362,9 +10362,9 @@
 	materialDensity: 400,
 	tpHandTransform: {
 		translation: {
-			x: -1.1,
+			x: -1.175,
 			y: -0.6,
-			z: -0.265
+			z: -0.25
 		},
 		rotation: {
 			x: 100,

@@ -16,6 +16,13 @@
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
     op: "add", 
+    path: "/0/ingredients/1/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },
+    dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "wildcraft:fruit-*",  quantity: 1 },
     dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
@@ -25,6 +32,13 @@
     op: "add", 
     path: "/0/ingredients/2/inputs/-", 
     value: { type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 },
+    dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/0/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },
     dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
  },
  {
@@ -44,6 +58,13 @@
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
     op: "add", 
+    path: "/0/ingredients/3/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },
+    dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
     path: "/1/ingredients/2/inputs/-", 
     value: { type: "item", code: "wildcraft:fruit-*",  quantity: 1 },
     dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
@@ -58,6 +79,13 @@
  {
    file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
     op: "add", 
+    path: "/1/ingredients/2/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },
+    dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
     path: "/1/ingredients/3/inputs/-", 
     value: { type: "item", code: "wildcraft:fruit-*",  quantity: 1 },
     dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
@@ -67,6 +95,13 @@
     op: "add", 
     path: "/1/ingredients/3/inputs/-", 
     value: { type: "item", code: "expandedfoods:wilddryfruit-*",  quantity: 1 },
+    dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
+ },
+ {
+   file: "expandedfoods:recipes/kneading/primitivesurvival/crabpemmican.json",
+    op: "add", 
+    path: "/1/ingredients/3/inputs/-", 
+    value: { type: "item", code: "expandedfoods:wilddehydratedfruit-*",  quantity: 1 },
     dependsOn: [{ "modid": "primitivesurvival"}, { "modid": "wildcraft" }]
  },
 ]

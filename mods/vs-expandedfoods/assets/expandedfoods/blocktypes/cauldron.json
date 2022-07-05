@@ -185,9 +185,9 @@
 	"materialDensity": 7870,
 	"tpHandTransform": {
 		"translation": {
-			"x": -0.95,
-			"y": -0.6,
-			"z": -0.3
+			"x": -1.125,
+			"y": -0.7,
+			"z": -0.275
 		},
 		"rotation": {
 			"x": 100,

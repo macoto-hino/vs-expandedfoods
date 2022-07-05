@@ -114,6 +114,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedchoppedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\cookedmushroom.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\dehydratedfruit.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\food\wildcraft\wilddehydratedfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\potentspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\strongspiritportion.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\itemtypes\liquid\wildcraft\wildpotentspirit.json" />
@@ -1046,7 +1047,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\acorns\acorngozinakiherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\acorns\acornstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\acorns\recipes\wildcraft\herbalstuffedpepper.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\augratinrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\augratin.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\barrelrecipes.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\cider.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\gelatin.json" />
@@ -1059,8 +1060,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\primitivesurvival\sausagefishherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\primitivesurvival\sausagesnakeherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\primitivesurvival\sushiherb.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastacoldrecipe.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pastahot.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\pastacold.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\pastahot.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\pemmicanherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\primitivesurvival\herbalstuffedpepper.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\rawjuice.json" />
@@ -1095,8 +1096,9 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\primitivesurvival\breadedfishnuggetsyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\breadedmeatnugget.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\stuffedpeppersyrup.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\riceandbeansrecipe.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\saladrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wilddehydratedfruit.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\riceandbeans.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\salad.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\simmerrecipe.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\spirit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\stuffedpepper.json" />
@@ -1125,7 +1127,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildpeanutliquid.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildpemmican.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\yogurt.json" />
-    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\yogurtmealrecipe.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\recipes\meals\yogurtmeal.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\gozinakiherb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\acorns\herbalacornbread.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\herbrecipes\acorns\herbalacornhardtack.json" />
@@ -1312,6 +1314,7 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\soyculture.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\soymilk.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\superfuel\firelog.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\grid\wildcraft\wilddehydratedfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornberrydough.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornbreadberrysyrup.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\recipes\kneading\acorns\acornbreadedball.json" />
