@@ -3,9 +3,7 @@ Changelog
 1.6.0
 Peanuts visible in meals without needing Acorns
 Fixed cauldron & mini cauldron contents issue
-Vegetarian trail mix & Gozinaki moved from Acorns to vanilla
 Added Acorn "Coffee" & Roasted Acorns
-Honey can be added to teas
 Added Dried Mushrooms
 Added Stuffing
 Added Walnut Jam
@@ -42,19 +40,22 @@ Breaded mushrooms added
 Fixed visual issues with Alchemy herbs & racks
 Simplified cauldron/saucepan models?
 Meat dries instead of curing now?
+Mushrooms in sushi are appropriately deadly - DONE!!!
+Veggie juicing error corrected - DONE!!!
+Olive oil added
 
-1.5.4?
-Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later) - DONE!!!
-More Animals Compatibility added (Boiled/pickled egg variants added) - DONE!!!
-Chopped food perish timers reviewed; now match base food timers - DONE!!!
-Recipes completely re-factored - DONE!!!
-Smashed meat can be added to soup & scrambled eggs - DONE!!
-Japanese translation updated - DONE!!!
-Deluxe fried veggies given proper names - DONE!!!
-Boiled eggs can be added to dumplings - DONE!!!
-Saucepan clayforming recipe updated - DONE!!!
-Cauldron/saucepan holding animations updated - DONE!!!
-Dried fruit perish timers updated - DONE!!!
+1.5.4
+Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later)
+More Animals Compatibility added (Boiled/pickled egg variants added)
+Chopped food perish timers reviewed; now match base food timers
+Dried fruit perish timers updated
+Recipes completely re-factored
+Smashed meat can be added to soup & scrambled eggs
+Boiled eggs can be added to dumplings
+Saucepan clayforming recipe updated 
+Cauldron/saucepan holding animations updated 
+Deluxe fried veggies given proper names 
+Japanese translation updated 
 
 1.5.3
 Updated to VS 1.16!!

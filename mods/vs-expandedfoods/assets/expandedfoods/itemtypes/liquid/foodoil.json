@@ -3,7 +3,7 @@
 	class: "ItemLiquidPortion",
 	matterState: "liquid",
 	variantgroups: [
-		{ code: "type", states: ["flax", "rice", "seed", "soy", "sunflower", "peanut"] },
+		{ code: "type", states: ["flax", "rice", "seed", "soy", "sunflower", "peanut", "olive"] },
 	],
 	attributes: {
 		handbook: {

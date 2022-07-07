@@ -121,6 +121,39 @@
   },
   {
     "op": "add",
+    "path": "/attributesByType/*/juiceablePropertiesByType",
+    "value": {
+        "*-olive": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:foodoilportion-olive",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "game:pressedmash-olive",
+                "stacksize": 1
+            }
+        },
+        "*": {
+            "litresPerItem": 0.3125,
+            "liquidStack": {
+                "type": "item",
+                "code": "expandedfoods:vegetablejuiceportion-{type}",
+                "stacksize": 1
+            },
+            "pressedStack": {
+                "type": "item",
+                "code": "game:pressedmash-{type}",
+                "stacksize": 1
+            }
+        },
+    },
+    "file": "itemtypes/food/vegetable.json"
+  },
+  {
+    "op": "add",
     "path": "/attributesByType/*-cabbage/inFirePitProps",
     "value": {
       "transform": {

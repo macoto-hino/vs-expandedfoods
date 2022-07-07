@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/attributes/contentConfig/14",
+    "path": "/attributes/contentConfig/-",
     "value": {
       "code": "peanutskins",
       "content": {

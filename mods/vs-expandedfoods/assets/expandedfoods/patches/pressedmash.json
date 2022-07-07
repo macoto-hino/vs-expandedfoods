@@ -119,111 +119,134 @@
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
+    "op": "replace",
+    "path": "/attributes/juiceablePropertiesByType/*-olive",
+    "value": {
+      "liquidStack": {
+        "type": "item",
+        "code": "expandedfoods:foodoilportion-olive",
+        "stacksize": 1
+      },
+      "pressedStack": {
+        "type": "item",
+        "code": "pressedmash-olive",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
     "op": "add",
-    "path": "/variantgroups/0/states/1",
+    "path": "/variantgroups/0/states/-",
     "value": "flax",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/2",
+    "path": "/variantgroups/0/states/-",
     "value": "rice",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/3",
+    "path": "/variantgroups/0/states/-",
     "value": "sunflower",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/4",
+    "path": "/variantgroups/0/states/-",
     "value": "seed",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/5",
+    "path": "/variantgroups/0/states/-",
     "value": "honey",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/6",
+    "path": "/variantgroups/0/states/-",
     "value": "soybean",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/7",
+    "path": "/variantgroups/0/states/-",
     "value": "peanut",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/8",
+    "path": "/variantgroups/0/states/-",
     "value": "carrot",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/9",
+    "path": "/variantgroups/0/states/-",
     "value": "cabbage",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/10",
+    "path": "/variantgroups/0/states/-",
     "value": "onion",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/11",
+    "path": "/variantgroups/0/states/-",
     "value": "turnip",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/12",
+    "path": "/variantgroups/0/states/-",
     "value": "parsnip",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/13",
+    "path": "/variantgroups/0/states/-",
     "value": "pumpkin",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/14",
+    "path": "/variantgroups/0/states/-",
     "value": "bellpepper",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/15",
+    "path": "/variantgroups/0/states/-",
     "value": "cassava",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/16",
+    "path": "/variantgroups/0/states/-",
     "value": "fish",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/17",
+    "path": "/variantgroups/0/states/-",
     "value": "soyslurry",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/0/states/18",
+    "path": "/variantgroups/0/states/-",
     "value": "soyblend",
+    "file": "game:itemtypes/resource/pressedmash.json"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "olive",
     "file": "game:itemtypes/resource/pressedmash.json"
   },
   {
