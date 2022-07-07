@@ -43,6 +43,7 @@ Meat dries instead of curing now?
 Mushrooms in sushi are appropriately deadly - DONE!!!
 Veggie juicing error corrected - DONE!!!
 Olive oil added
+Pickled eggs & boiled eggs can be used interchangeably
 
 1.5.4
 Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later)
