@@ -1,13 +1,13 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addeach",
     "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
+    "value": [
 				{
 					Ingredients: [
 						{ type: "item", code: "expandedfoods:gelatin-raw",  quantity: 1 },
-						{ type: "item", code: "game:fishsauce", quantity: 1 },
-						{ type: "item", code: "waterportion", quantity: 1 },
+						{ type: "item", code: "game:fishsauce", quantity: 10 },
+						{ type: "item", code: "waterportion", quantity: 100 },
 					],
 					Simmering: {
 						meltingPoint: 200,
@@ -18,16 +18,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-flax-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -39,16 +32,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-flax-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -60,16 +46,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-rice-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -81,15 +60,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value":  	{
+				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-rice-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -101,16 +74,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-rye-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -122,16 +88,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-rye-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -143,16 +102,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-spelt-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -164,16 +116,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-spelt-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -185,16 +130,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-cassava-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -206,16 +144,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-cassava-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -227,16 +158,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-amaranth-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -248,16 +172,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-amaranth-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -269,16 +186,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-sunflower-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -290,16 +200,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 
 				{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:breadedfishnugget-sunflower-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -311,7 +214,8 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
+		],
+	"file": "blocktypes/saucepan.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
-   },
+  },
 ]
