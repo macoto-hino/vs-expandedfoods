@@ -1,10 +1,11 @@
 ﻿[
   {
-    "op": "add",
+    "op": "addeach",
     "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    "value": [
+ 	            {
 					Ingredients: [
-						{ type: "item", code: "waterportion",  quantity: 1 },
+						{ type: "item", code: "waterportion",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornpasta-cut", quantity: 1 },
 					],
 					Simmering: {
@@ -16,15 +17,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedball-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -36,15 +31,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedball-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -56,55 +45,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
-						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
-						requiresContainer: false
-					}
-				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
-						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
-					],
-					Simmering: {
-						meltingPoint: 150,
-						meltingDuration: 10,
-						smeltedRatio: 1,
-						smeltingType: "bake",
-						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
-						requiresContainer: false
-					}
-				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
-					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -116,15 +59,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-bushmeat-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -136,15 +73,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -156,15 +87,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-poultry-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -176,15 +101,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -196,15 +115,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedmeatnugget-redmeat-smashed", quantity: 1 },
 					],
 					Simmering: {
@@ -216,15 +129,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -236,15 +143,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornbreadedvegetable-carrot-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -256,55 +157,37 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
+                    Ingredients: [
+                        { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
+                        { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
+                    ],
+                    Simmering: {
+                        meltingPoint: 150,
+                        meltingDuration: 10,
+                        smeltedRatio: 1,
+                        smeltingType: "bake",
+                        smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
+                        requiresContainer: false
+                    }
+                },
+    	        {
+                    Ingredients: [
+                        { type: "item", code: "expandedfoods:lard",  quantity: 10 },
+                        { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
+                    ],
+                    Simmering: {
+                        meltingPoint: 150,
+                        meltingDuration: 10,
+                        smeltedRatio: 1,
+                        smeltingType: "bake",
+                        smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
+                        requiresContainer: false
+                    }
+                },
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
-            requiresContainer: false
-          }
-        },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
-            { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-raw", quantity: 1 },
-          ],
-          Simmering: {
-            meltingPoint: 150,
-            meltingDuration: 10,
-            smeltedRatio: 1,
-            smeltingType: "bake",
-            smeltedStack: { type: "item", code: "expandedfoods:acornbreadedvegetable-onion-cooked" },
-            requiresContainer: false
-          }
-        },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
-          Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -316,15 +199,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-turnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -336,15 +213,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -356,15 +227,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-parsnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -376,15 +241,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-raw", quantity: 1 },
           ],
           Simmering: {
@@ -396,15 +255,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pumpkin-raw", quantity: 1 },
           ],
           Simmering: {
@@ -416,15 +269,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-raw", quantity: 1 },
           ],
           Simmering: {
@@ -436,15 +283,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledcarrot-raw", quantity: 1 },
           ],
           Simmering: {
@@ -456,15 +297,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-raw", quantity: 1 },
           ],
           Simmering: {
@@ -476,15 +311,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledonion-raw", quantity: 1 },
           ],
           Simmering: {
@@ -496,15 +325,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -516,15 +339,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledturnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -536,15 +353,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -556,15 +367,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledparsnip-raw", quantity: 1 },
           ],
           Simmering: {
@@ -576,15 +381,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-raw", quantity: 1 },
           ],
           Simmering: {
@@ -596,15 +395,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-pickledpumpkin-raw", quantity: 1 },
           ],
           Simmering: {
@@ -616,15 +409,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+            { type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-raw", quantity: 1 },
           ],
           Simmering: {
@@ -636,15 +423,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+     	{
           Ingredients: [
-            { type: "item", code: "expandedfoods:lard",  quantity: 1 },
+            { type: "item", code: "expandedfoods:lard",  quantity: 10 },
             { type: "item", code: "expandedfoods:acornbreadedvegetable-cassava-raw", quantity: 1 },
           ],
           Simmering: {
@@ -656,15 +437,9 @@
             requiresContainer: false
           }
         },
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	{
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornstuffedpepper-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -676,15 +451,9 @@
 						requiresContainer: false
 					}
 				},
-    "file": "blocktypes/saucepan.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
-    "value": 	{
+    	        {
 					Ingredients: [
-						{ type: "item", code: "expandedfoods:lard",  quantity: 1 },
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
 						{ type: "item", code: "expandedfoods:acornstuffedpepper-raw", quantity: 1 },
 					],
 					Simmering: {
@@ -696,7 +465,44 @@
 						requiresContainer: false
 					}
 				},
+    ],
     "file": "blocktypes/saucepan.json",
     dependsOn: [{ "modid": "acorns" }]
+  },
+  {
+    "op": "addeach",
+    "path": "/attributesByType/saucepan-burned/simmerRecipes/-",
+    "value": [
+	            {
+					Ingredients: [
+						{ type: "item", code: "expandedfoods:foodoilportion-*",  quantity: 10 },
+						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
+					],
+					Simmering: {
+						meltingPoint: 150,
+						meltingDuration: 10,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
+						requiresContainer: false
+					}
+				},
+     	        {
+					Ingredients: [
+						{ type: "item", code: "expandedfoods:lard",  quantity: 10 },
+						{ type: "item", code: "expandedfoods:acornbreadedfishnugget-smashed", quantity: 1 },
+					],
+					Simmering: {
+						meltingPoint: 150,
+						meltingDuration: 10,
+						smeltedRatio: 1,
+						smeltingType: "bake",
+						smeltedStack: { type: "item", code: "expandedfoods:acornbreadedfishnugget-tender" },
+						requiresContainer: false
+					}
+				},
+    ],
+    "file": "blocktypes/saucepan.json",
+    dependsOn: [{ "modid": "acorns" }, { "modid": "primitivesurvival" }]
   },
 ]
