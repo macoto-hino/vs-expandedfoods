@@ -1,5 +1,41 @@
 [
   {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-raw",
+        "value": [ "meat", "group6" ]
+  },
+  {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-raw",
+        "value": [ "meat", "group6" ]
+  },
+  {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-raw",
+        "value": [ "meat", "group5" ]
+  },
+  {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-cured",
+        "value": [ "meat", "group6" ]
+  },
+  {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-cured",
+        "value": [ "meat", "group6" ]
+  },
+  {
+        "file": "game:blocktypes/clay/pot",
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-cured",
+        "value": [ "meat", "group5" ]
+  },
+  {
     "op": "add",
     "path": "/attributesByType/claypot-cooked/textureMapping/cheese-blue-1slice",
     "value": [

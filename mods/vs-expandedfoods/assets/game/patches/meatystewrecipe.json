@@ -1,22 +1,18 @@
 [
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/5",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:meatnugget-bushmeat-smashed",
-      "shapeElement": "bowl/meat stew/*",
-      "textureMapping": [
-        "meat",
-        "group2"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/6",
-    "value": {
+   {
+        "op": "addeach",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [
+        {
+            "type": "item",
+            "code": "expandedfoods:meatnugget-bushmeat-smashed",
+            "shapeElement": "bowl/meat stew/*",
+            "textureMapping": [
+                "meat",
+                "group2"
+            ]
+        },
+        {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -24,13 +20,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/7",
-    "value": {
+        },
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-smashed",
       "shapeElement": "bowl/meat stew/*",
@@ -39,12 +30,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
   {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/8",
-    "value": {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -52,13 +38,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/9",
-    "value": {
+    },       
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-smashed",
       "shapeElement": "bowl/meat stew/*",
@@ -66,13 +47,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/10",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -80,73 +56,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/0/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-raw",
-            "shapeElement": "bowl/meat stew/*",
-	    "textureMapping": [
-      		"meat",
-        	"fishfillet-raw"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival"}]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/0/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:crabnugget-raw",
-            "shapeElement": "bowl/meat stew/*",
-	    "textureMapping": [
-      		"meat",
-        	"crabmeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival"}]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/0/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:snakenugget-raw",
-            "shapeElement": "bowl/meat stew/*",
-	    "textureMapping": [
-      		"meat",
-        	"snakemeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival"}]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/0/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-smashed",
-            "shapeElement": "bowl/meat stew/*",
-	    "textureMapping": [
-      		"meat",
-        	"fishfillet-raw"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
+    },        
   {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-cured",
       "shapeElement": "bowl/meat stew/*",
@@ -154,13 +65,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },       
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-cured",
       "shapeElement": "bowl/meat stew/*",
@@ -168,13 +74,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-cured",
       "shapeElement": "bowl/meat stew/*",
@@ -182,13 +83,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-cut",
       "shapeElement": "bowl/meat stew/*",
@@ -196,13 +92,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+  {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-cut",
       "shapeElement": "bowl/meat stew/*",
@@ -210,13 +101,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },       
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-cut",
       "shapeElement": "bowl/meat stew/*",
@@ -224,13 +110,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -238,13 +119,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -252,13 +128,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-raw",
       "shapeElement": "bowl/meat stew/*",
@@ -266,13 +137,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "insect-grub",
       "shapeElement": "bowl/meat stew/*",
@@ -280,13 +146,8 @@
         "meat",
         "bugs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "insect-termite",
       "shapeElement": "bowl/meat stew/*",
@@ -294,13 +155,8 @@
         "meat",
         "bugs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
+    },        
+ {
       "type": "item",
       "code": "insect-termite-stick",
       "shapeElement": "bowl/meat stew/*",
@@ -309,6 +165,7 @@
         "bugs"
       ]
     },
+    ],
     "file": "recipes/cooking/meatystew.json"
   },
   {
@@ -322,9 +179,10 @@
     "file": "recipes/cooking/meatystew.json"
   },
   {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/6",
-    "value": {
+    "op": "addeach",
+    "path": "/ingredients/2/validStacks/-",
+    "value": [
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-smashed",
       "shapeElement": "bowl/red meat/*",
@@ -332,13 +190,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/7",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -347,12 +200,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/8",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-smashed",
       "shapeElement": "bowl/poultry/*",
@@ -361,12 +209,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/9",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -375,12 +218,7 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/10",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-smashed",
       "shapeElement": "bowl/red meat/*",
@@ -389,12 +227,7 @@
         "group2"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -403,85 +236,11 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/2/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-            "textureMapping": ["meatnugget", "fishfillet-raw"]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/2/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:crabnugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-	    "textureMapping": [
-      		"meat",
-        	"crabmeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/2/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:snakenugget-raw",
-            "shapeElement": "bowl/meatnugget 1/*",
-	    "textureMapping": [
-      		"meat",
-        	"snakemeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-   {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/2/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-smashed",
-            "shapeElement": "bowl/fish/*",
-            "textureMapping": [ "normal", "fishfillet-raw" ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -490,12 +249,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-dried",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -504,12 +258,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeatcheese-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -518,12 +267,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeatcheese-dried",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -532,12 +276,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultry-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -546,12 +285,7 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultry-dried",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -560,12 +294,7 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultrycheese-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -574,12 +303,7 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultrycheese-dried",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -588,12 +312,7 @@
         "group5"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -602,12 +321,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeat-dried",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -616,12 +330,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeatcheese-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -630,26 +339,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausage-redmeatcheese-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:sausageherb-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -658,346 +348,25 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeat-dried",
+      "code": "expandedfoods:sausage-redmeatcheese-dried",
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeatcheese-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeatcheese-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultry-raw",
+      "code": "expandedfoods:meatnugget-poultry-cured",
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultry-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultrycheese-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultrycheese-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeat-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeat-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeatcheese-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeatcheese-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefish-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefish-*-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefishherb-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-      "op": "add",
-      "path": "/ingredients/2/validStacks/-",
-      "value": {
-          "type": "item",
-          "code": "expandedfoods:sausagefishherb-*-dried",
-          "shapeElement": "bowl/meatnugget 1/*",
-          "textureMapping": [
-              "meatnugget",
-              "fishfillet-raw"
-          ]
-      },
-      "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrab-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrab-*-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrabherb-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-      "op": "add",
-      "path": "/ingredients/2/validStacks/-",
-      "value": {
-          "type": "item",
-          "code": "expandedfoods:sausagecrabherb-*-dried",
-          "shapeElement": "bowl/meatnugget 1/*",
-          "textureMapping": [
-              "meatnugget",
-              "crabmeat"
-          ]
-      },
-      "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnake-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnake-*-dried",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnakeherb-*-raw",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-      "op": "add",
-      "path": "/ingredients/2/validStacks/-",
-      "value": {
-          "type": "item",
-          "code": "expandedfoods:sausagesnakeherb-*-dried",
-          "shapeElement": "bowl/meatnugget 1/*",
-          "textureMapping": [
-              "meatnugget",
-              "snakemeat"
-          ]
-      },
-      "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-cured",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -1006,26 +375,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:meatnugget-poultry-cured",
-      "shapeElement": "bowl/meatnugget 1/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-cured",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -1033,13 +383,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -1047,13 +392,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -1061,13 +401,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-raw",
       "shapeElement": "bowl/meatnugget 1/*",
@@ -1075,13 +410,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-cut",
       "shapeElement": "bowl/red meat/*",
@@ -1089,13 +419,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-cut",
       "shapeElement": "bowl/poultry/*",
@@ -1103,13 +428,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-cut",
       "shapeElement": "bowl/red meat/*",
@@ -1117,13 +437,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-grub",
       "shapeElement": "bowl/bugs 1/*",
@@ -1131,13 +446,8 @@
         "grubs",
         "grubs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-termite",
       "shapeElement": "bowl/termites 1/*",
@@ -1145,13 +455,8 @@
         "grubs",
         "grubs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-termite-stick",
       "shapeElement": "bowl/termites 1/*",
@@ -1159,23 +464,20 @@
         "grubs",
         "grubs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/2/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "egg-chicken-pickled",
       "shapeElement": "bowl/egg2/*"
-    },
+    },    
+    ],
     "file": "recipes/cooking/meatystew.json"
   },
   {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/5",
-    "value": {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+    {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-smashed",
       "shapeElement": "bowl/red meat 2/*",
@@ -1184,12 +486,7 @@
         "group2"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/6",
-    "value": {
+    {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1197,13 +494,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/7",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-smashed",
       "shapeElement": "bowl/poultry 2/*",
@@ -1211,13 +503,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/8",
-    "value": {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1225,13 +512,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/9",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-smashed",
       "shapeElement": "bowl/red meat 2/*",
@@ -1239,13 +521,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/10",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1253,86 +530,12 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
- {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+    {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/3/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-            "textureMapping": ["meatnugget", "fishfillet-raw"]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/3/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:crabnugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-	    "textureMapping": [
-      		"meat",
-        	"crabmeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-    {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/3/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:snakenugget-raw",
-            "shapeElement": "bowl/meatnugget 2/*",
-	    "textureMapping": [
-      		"meat",
-        	"snakemeat"
-      	  ]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-   {
-        "file": "recipes/cooking/meatystew.json",
-        "op": "add",
-        "path": "/ingredients/3/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "expandedfoods:fishnugget-smashed",
-            "shapeElement": "bowl/fish 2/*",
-            "textureMapping": ["normal", "fishfillet-raw"]
-        },
-        dependsOn: [{ "modid": "primitivesurvival" }]
-    },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1340,13 +543,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeat-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1354,13 +552,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeatcheese-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1368,13 +561,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-bushmeatcheese-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1382,13 +570,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultry-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1396,13 +579,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultry-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1410,13 +588,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultrycheese-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1424,13 +597,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-poultrycheese-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1438,13 +606,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1452,13 +615,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeat-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1466,13 +624,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeatcheese-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1480,13 +633,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:sausage-redmeatcheese-dried",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1495,362 +643,7 @@
         "group6"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeat-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeat-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeatcheese-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-bushmeatcheese-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultry-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultry-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultrycheese-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-poultrycheese-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group5"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeat-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeat-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeatcheese-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausageherb-redmeatcheese-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [ { "modid": "wildcraft" } ]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefish-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefish-*-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagefishherb-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "fishfillet-raw"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-      "op": "add",
-      "path": "/ingredients/3/validStacks/-",
-      "value": {
-          "type": "item",
-          "code": "expandedfoods:sausagefishherb-*-dried",
-          "shapeElement": "bowl/meatnugget 2/*",
-          "textureMapping": [
-              "meatnugget",
-              "fishfillet-raw"
-          ]
-      },
-     "file": "recipes/cooking/meatystew.json"
-
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrab-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrab-*-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrabherb-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagecrabherb-*-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "crabmeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnake-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnake-*-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnakeherb-*-raw",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:sausagesnakeherb-*-dried",
-      "shapeElement": "bowl/meatnugget 2/*",
-      "textureMapping": [
-        "meatnugget",
-        "snakemeat"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-bushmeat-cured",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1858,13 +651,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-poultry-cured",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1872,13 +660,8 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:meatnugget-redmeat-cured",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1886,13 +669,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1900,13 +678,8 @@
         "meatnugget",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-raw",
       "shapeElement": "bowl/meatnugget 2/*",
@@ -1914,27 +687,17 @@
         "meatnugget",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-raw",
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
         "group6"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+      ]    
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-bushmeat-cut",
       "shapeElement": "bowl/red meat 2/*",
@@ -1942,13 +705,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-poultry-cut",
       "shapeElement": "bowl/poultry 2/*",
@@ -1956,13 +714,8 @@
         "meat",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-    {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:agedmeat-redmeat-cut",
       "shapeElement": "bowl/red meat 2/*",
@@ -1970,13 +723,8 @@
         "meat",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-grub",
       "shapeElement": "bowl/bugs 2/*",
@@ -1984,13 +732,8 @@
         "grubs",
         "grubs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-termite",
       "shapeElement": "bowl/termites 2/*",
@@ -1998,13 +741,8 @@
         "grubs",
         "grubs"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/3/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "insect-termite-stick",
       "shapeElement": "bowl/termites 2/*",
@@ -2012,32 +750,19 @@
         "grubs",
         "grubs"
       ]
-    },
+    },    
+    ],
     "file": "recipes/cooking/meatystew.json"
   },
  {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/4/validStacks/-",
-    "value": {
+    "value": [
+    {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2046,12 +771,7 @@
         "group1"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2060,12 +780,7 @@
         "group1"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2074,12 +789,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2088,12 +798,7 @@
         "group7"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bitterbolete",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2102,12 +807,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-blacktrumpet",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2116,12 +816,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2130,12 +825,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chickenofthewoods",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2143,13 +833,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+{
       "type": "item",
       "code": "expandedfoods:choppedmushroom-commonmorel",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2157,13 +842,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deathcap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2171,13 +851,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deerear",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2185,13 +860,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilbolete",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2199,13 +869,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilstooth",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2213,13 +878,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-dryadsaddle",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2227,13 +887,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-earthball",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2241,13 +896,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-elfinsaddle",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2255,13 +905,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2269,13 +914,8 @@
         "vegetable",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-fieldmushroom",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2283,13 +923,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-funeralbell",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2297,13 +932,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-golddropmilkcap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2311,13 +941,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },   
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-greencrackedrussula",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2325,13 +950,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-indigomilkcap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2339,13 +959,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-jackolantern",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2353,13 +968,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2367,13 +977,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-livermushroom",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2381,13 +986,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-lobster",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2395,13 +995,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-orangeoakbolete",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2409,13 +1004,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-paddystraw",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2423,13 +1013,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkbonnet",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2437,13 +1022,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkoyster",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2451,13 +1031,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-puffball",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2465,13 +1040,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-redwinecap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2479,13 +1049,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-reishi",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2493,13 +1058,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-saffronmilkcap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2507,13 +1067,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-shiitake",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2521,13 +1076,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-tinderhoof",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2535,13 +1085,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-violetwebcap",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2549,13 +1094,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-whiteoyster",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2563,13 +1103,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2577,13 +1112,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2591,13 +1121,8 @@
         "vegetable",
         "group4"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2605,13 +1130,8 @@
         "vegetable",
         "group4"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2619,13 +1139,8 @@
         "vegetable",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2633,13 +1148,8 @@
         "vegetable",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2647,13 +1157,8 @@
         "vegetable",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2661,13 +1166,8 @@
         "vegetable",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2675,13 +1175,8 @@
         "vegetable",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2689,13 +1184,8 @@
         "vegetable",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2703,13 +1193,8 @@
         "vegetable",
         "group10"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2717,13 +1202,8 @@
         "vegetable",
         "group10"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2731,13 +1211,8 @@
         "vegetable",
         "group11"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2745,13 +1220,8 @@
         "fruit",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2759,13 +1229,8 @@
         "vegetable",
         "group11"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 1/*",
@@ -2773,32 +1238,19 @@
         "vegetable",
         "group11"
       ]
-    },
+    }, 
+    ],
     "file": "recipes/cooking/meatystew.json"
   },
   {
-    "op": "add",
+    "op": "addeach",
     "path": "/ingredients/5/validStacks/-",
-    "value": {
+    "value": [
+    {
       "type": "item",
       "code": "expandedfoods:dumpling-raw"
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "expandedfoods:acorndumpling-raw"
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-carrot",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2807,12 +1259,7 @@
         "group1"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledcarrot",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2821,12 +1268,7 @@
         "group1"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-almondmushroom",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2835,12 +1277,7 @@
         "group3"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-beardedtooth",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2849,12 +1286,7 @@
         "group7"
       ]
     },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-bitterbolete",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2862,13 +1294,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-blacktrumpet",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2876,13 +1303,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chanterelle",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2890,13 +1312,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-chickenofthewoods",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2904,13 +1321,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-commonmorel",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2918,13 +1330,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deathcap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2932,13 +1339,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-deerear",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2946,13 +1348,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilbolete",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2960,13 +1357,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-devilstooth",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2974,13 +1366,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-dryadsaddle",
       "shapeElement": "bowl/vegetable 2/*",
@@ -2988,13 +1375,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-earthball",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3002,13 +1384,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-elfinsaddle",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3016,13 +1393,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-flyagaric",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3030,13 +1402,8 @@
         "vegetable",
         "group2"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-fieldmushroom",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3044,13 +1411,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-funeralbell",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3058,13 +1420,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-golddropmilkcap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3072,13 +1429,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-greencrackedrussula",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3086,13 +1438,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-indigomilkcap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3100,13 +1447,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-jackolantern",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3114,13 +1456,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-kingbolete",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3128,13 +1465,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-livermushroom",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3142,13 +1474,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-lobster",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3156,27 +1483,17 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-orangeoakbolete",
       "shapeElement": "bowl/vegetable 2/*",
       "textureMapping": [
         "vegetable",
         "group3"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+      ]   
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-paddystraw",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3184,13 +1501,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkbonnet",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3198,13 +1510,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-pinkoyster",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3212,13 +1519,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-puffball",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3226,13 +1528,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-redwinecap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3240,13 +1537,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-reishi",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3254,13 +1546,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-saffronmilkcap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3268,13 +1555,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-shiitake",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3282,13 +1564,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-tinderhoof",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3296,13 +1573,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-violetwebcap",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3310,13 +1582,8 @@
         "vegetable",
         "group3"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-whiteoyster",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3324,13 +1591,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedmushroom-witchhat",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3338,13 +1600,8 @@
         "vegetable",
         "group7"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-parsnip",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3352,13 +1609,8 @@
         "vegetable",
         "group4"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledparsnip",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3366,13 +1618,8 @@
         "vegetable",
         "group4"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-turnip",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3380,13 +1627,8 @@
         "vegetable",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
+    },    
   {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledturnip",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3394,13 +1636,8 @@
         "vegetable",
         "group5"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },   
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-onion",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3408,13 +1645,8 @@
         "vegetable",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledonion",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3422,13 +1654,8 @@
         "vegetable",
         "group6"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pumpkin",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3436,13 +1663,8 @@
         "vegetable",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-pickledpumpkin",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3450,13 +1672,8 @@
         "vegetable",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cabbage",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3464,13 +1681,8 @@
         "vegetable",
         "group10"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:driedseaweed-edible",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3478,13 +1690,8 @@
         "vegetable",
         "group10"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cassava",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3492,13 +1699,8 @@
         "vegetable",
         "group11"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-bellpepper",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3506,13 +1708,8 @@
         "fruit",
         "group8"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-cattailroot",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3520,13 +1717,8 @@
         "vegetable",
         "group11"
       ]
-    },
-    "file": "recipes/cooking/meatystew.json"
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/5/validStacks/-",
-    "value": {
+    },    
+ {
       "type": "item",
       "code": "expandedfoods:choppedvegetable-papyrusroot",
       "shapeElement": "bowl/vegetable 2/*",
@@ -3534,7 +1726,8 @@
         "vegetable",
         "group11"
       ]
-    },
+    },    
+    ],
     "file": "recipes/cooking/meatystew.json"
   },
  {
@@ -3548,23 +1741,23 @@
           "code": "expandedfoods:soysauce",
           "shapeElement": "bowl/topping/*"
         },
-       {
-          "type": "item",
-          "code": "expandedfoods:foodoilportion-flax",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+        {
+            "type": "item",
+            "code": "expandedfoods:foodoilportion-flax",
+            "shapeElement": "bowl/topping/*",
+	        "textureMapping": [
+	        "topping",
+	        "foodoil"
+	        ]
         },
         {
-          "type": "item",
-          "code": "expandedfoods:foodoilportion-rice",
-          "shapeElement": "bowl/topping/*",
-	  "textureMapping": [
-	    "topping",
-	    "foodoil"
-	 ]
+            "type": "item",
+            "code": "expandedfoods:foodoilportion-rice",
+            "shapeElement": "bowl/topping/*",
+	        "textureMapping": [
+	            "topping",
+	            "foodoil"
+	        ]
         },
         {
           "type": "item",
@@ -4483,6 +2676,545 @@
     "file": "recipes/cooking/meatystew.json"
   },
  {
+    "op": "addeach",
+    "path": "/ingredients/8/validStacks/-",
+    "value": [
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "huckleberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },  
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-snowberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "snowberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },  
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "brambleberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "cloudberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-dogrose",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "dogrosewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },  
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-elderberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "elderberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "gooseberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },    
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "honeysucklewine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-strawberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "strawberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:ciderportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentwineportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "wildcraft:spiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildstrongspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+        {
+            "type": "item",
+            "code": "expandedfoods:wildpotentspiritportion-raspberry",
+            "shapeElement": "bowl/topping/*",
+            "textureMapping": [
+                "topping",
+                "raspberrywine"
+            ]
+        },   
+    ],
+    "file": "recipes/cooking/meatystew.json",
+    dependsOn: [{ "modid": "wildcraft" }]
+  },
+ {
     "op": "add",
     "path": "/ingredients/8/validStacks/-",
     "value": {
@@ -4492,891 +3224,6 @@
     },
     "file": "recipes/cooking/meatystew.json",
     dependsOn: [{ "modid": "primitivesurvival" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-huckleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "huckleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-snowberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "snowberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-brambleberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "brambleberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-cloudberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "cloudberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-dogrose",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "dogrosewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-elderberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "elderberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-gooseberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "gooseberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-honeysuckle",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "honeysucklewine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongspiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentspiritportion-strawberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "strawberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:ciderportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildstrongwineportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "expandedfoods:wildpotentwineportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-        },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-            "type": "item",
-            "code": "wildcraft:spiritportion-raspberry",
-            "shapeElement": "bowl/topping/*",
-            "textureMapping": [
-                "topping",
-                "raspberrywine"
-            ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-       "type": "item",
-       "code": "expandedfoods:wildstrongspiritportion-raspberry",
-       "shapeElement": "bowl/topping/*",
-       "textureMapping": [
-           "topping",
-           "raspberrywine"
-       ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
-  },
- {
-    "op": "add",
-    "path": "/ingredients/8/validStacks/-",
-    "value": {
-       "type": "item",
-       "code": "expandedfoods:wildpotentspiritportion-raspberry",
-       "shapeElement": "bowl/topping/*",
-       "textureMapping": [
-           "topping",
-           "raspberrywine"
-       ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft" }]
   },
  {
     "op": "add",
@@ -5716,156 +3563,6 @@
   },
   {
     "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-elderberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group16"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-snowberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group17"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-cloudberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group18"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-raspberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group19"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-dogrose",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group20"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-brambleberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group21"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-honeysuckle",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group22"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-gooseberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group23"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-huckleberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group24"
-          ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
-    "path": "/ingredients/7/validStacks/-",
-    "value": {
-      "type": "item",
-          "code": "expandedfoods:wilddryfruit-strawberry",
-          "shapeElement": "bowl/fruit 1/*",
-          "textureMapping": [
-            "fruit",
-            "group25"
-      ]
-    },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "wildcraft"}]
-  },
-  {
-    "op": "add",
     "path": "/ingredients/9",
     "value": {
       "code": "breadcrumbs-extra",
@@ -5882,49 +3579,13 @@
   },
  {
     "op": "add",
-    "path": "/ingredients/9/validStacks/1",
+    "path": "/ingredients/9/validStacks/-",
     "value": {
       "type": "item",
       "code": "expandedfoods:acornbreadcrumbs-*"
     },
     "file": "recipes/cooking/meatystew.json",
     dependsOn: [{ "modid": "acorns" }]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-raw",
-        "value": [ "meat", "group6" ]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-raw",
-        "value": [ "meat", "group6" ]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-raw",
-        "value": [ "meat", "group5" ]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-redmeat-cured",
-        "value": [ "meat", "group6" ]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-cured",
-        "value": [ "meat", "group6" ]
-  },
-  {
-        "file": "game:blocktypes/clay/pot",
-        "op": "add",
-        "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-poultry-cured",
-        "value": [ "meat", "group5" ]
   },
   {
     "op": "add",
@@ -5979,14 +3640,6 @@
     },
     "file": "recipes/cooking/meatystew.json"
   },
- {
-    "op": "add",
-    "path": "/ingredients/12/validStacks/-",
-    "value":
-        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 1/*", "textureMapping": [ "acorns", "acorns" ] },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
-  },
   {
     "op": "add",
     "path": "/ingredients/13",
@@ -6001,13 +3654,5 @@
       "maxQuantity": 1
     },
     "file": "recipes/cooking/meatystew.json"
-  },
- {
-    "op": "add",
-    "path": "/ingredients/13/validStacks/1",
-    "value": 
-        { "type": "item", "code": "expandedfoods:acornportion", "shapeElement": "bowl/nuts 2/*", "textureMapping": [ "acorns", "acorns" ] },
-    "file": "recipes/cooking/meatystew.json",
-    dependsOn: [{ "modid": "acorns" }]
   },
 ]

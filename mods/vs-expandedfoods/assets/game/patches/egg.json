@@ -1,13 +1,13 @@
 [
   {
     "op": "add",
-    "path": "/variantgroups/1/states/1",
+    "path": "/variantgroups/1/states/-",
     "value": "boiled",
     "file": "itemtypes/food/egg.json"
   },
   {
     "op": "add",
-    "path": "/variantgroups/1/states/2",
+    "path": "/variantgroups/1/states/-",
     "value": "pickled",
     "file": "itemtypes/food/egg.json"
   },
