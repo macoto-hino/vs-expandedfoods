@@ -1600,6 +1600,11 @@
         },
         {
             "type": "item",
+            "code": "egg-chicken-boiled",
+            "shapeElement": "bowl/meat/*"
+        },
+        {
+            "type": "item",
             "code": "egg-chicken-pickled",
             "shapeElement": "bowl/meat/*"
         },

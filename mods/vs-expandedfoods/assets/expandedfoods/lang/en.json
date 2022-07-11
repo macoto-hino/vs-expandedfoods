@@ -8202,5 +8202,13 @@
   "pie-single-expandedfoods:wilddehydratedfruit-huckleberry-charred": "Dehydrated huckleberry pie (charred)",
   "pie-single-expandedfoods:wilddehydratedfruit-raspberry-charred": "Dehydrated raspberry pie (charred)",
   "pie-single-expandedfoods:wilddehydratedfruit-snowberry-charred": "Dehydrated snowberry pie (charred)",
-  "pie-single-expandedfoods:wilddehydratedfruit-strawberry-charred": "Dehydrated strawberry pie (charred)",
+    "pie-single-expandedfoods:wilddehydratedfruit-strawberry-charred": "Dehydrated strawberry pie (charred)",
+
+  "game:recipeingredient-item-egg-chicken-boiled-insturmentalcase": "boiled chicken eggs",
+  "recipeingredient-item-egg-chicken-boiled": "boiled chicken eggs",
+  "recipeingredient-item-egg-chicken-boiled-insturmentalcase": "boiled chicken eggs",
+  "game:meal-ingredient-stew-primary-egg-chicken-boiled": "Boiled chicken eggs",
+  "game:meal-ingredient-stew-secondary-egg-chicken-boiled": "Boiled chicken eggs",
+  "game:meal-ingredient-soup-primary-egg-chicken-boiled": "Boiled chicken eggs",
+  "game:meal-ingredient-soup-secondary-egg-chicken-boiled": "Boiled chicken eggs",
 }
