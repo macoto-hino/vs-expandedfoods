@@ -34,7 +34,7 @@ Fruit leather added?
 Fixed pies?
 
 1.5.5
-Patches now use addEach function
+Patches now use addEach function; load times improved - DONE!!!
 Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
@@ -46,6 +46,7 @@ Veggie juicing error corrected - DONE!!!
 Olive oil added
 Pickled eggs & boiled eggs can be used interchangeably
 Wildcraft berry nutrition reviewed
+Bushmeat in meals has proper textures - DONE!!!
 
 1.5.4
 Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later)

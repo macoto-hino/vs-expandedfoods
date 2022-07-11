@@ -9,7 +9,7 @@
         "file": "game:blocktypes/clay/pot",
         "op": "add",
         "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-raw",
-        "value": [ "meat", "group6" ]
+        "value": [ "meat", "group8" ]
   },
   {
         "file": "game:blocktypes/clay/pot",
@@ -27,7 +27,7 @@
         "file": "game:blocktypes/clay/pot",
         "op": "add",
         "path": "/attributesByType/claypot-cooked/textureMapping/meatnugget-bushmeat-cured",
-        "value": [ "meat", "group6" ]
+        "value": [ "meat", "group8" ]
   },
   {
         "file": "game:blocktypes/clay/pot",
@@ -141,7 +141,7 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-raw",
     "value": [
       "meatnugget",
-      "redmeat-raw"
+      "bushmeat-raw"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -168,7 +168,7 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-raw",
     "value": [
       "meatnugget",
-      "redmeat-raw"
+      "bushmeat-raw"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -195,7 +195,7 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:agedmeat-bushmeat-cut",
     "value": [
       "meatnugget",
-      "redmeat-raw"
+      "bushmeat-raw"
     ],
     "file": "blocktypes/clay/pot.json"
   },
@@ -230,6 +230,14 @@
     "path": "/texturesByType/*/redmeat-raw",
     "value": {
       "base": "block/food/meal/group2-soup-flyagaric-cactifruit-redmeat"
+    },
+    "file": "blocktypes/clay/pot.json"
+  },
+  {
+    "op": "add",
+    "path": "/texturesByType/*/bushmeat-raw",
+    "value": {
+      "base": "block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
     },
     "file": "blocktypes/clay/pot.json"
   },
@@ -883,7 +891,7 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/expandedfoods:meatnugget-bushmeat-tender",
     "value": [
       "meat",
-      "group6"
+      "group8"
     ],
     "file": "blocktypes/clay/pot.json"
   },

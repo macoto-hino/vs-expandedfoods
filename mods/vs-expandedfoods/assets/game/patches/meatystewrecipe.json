@@ -9,7 +9,7 @@
             "shapeElement": "bowl/meat stew/*",
             "textureMapping": [
                 "meat",
-                "group2"
+                "group7"
             ]
         },
         {
@@ -18,7 +18,7 @@
       "shapeElement": "bowl/meat stew/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
         },
  {
@@ -63,7 +63,7 @@
       "shapeElement": "bowl/meat stew/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },       
  {
@@ -90,7 +90,7 @@
       "shapeElement": "bowl/meat stew/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },        
   {
@@ -117,7 +117,7 @@
       "shapeElement": "bowl/meat stew/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },        
  {
@@ -188,7 +188,7 @@
       "shapeElement": "bowl/red meat/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },    
  {
@@ -197,7 +197,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group7"
       ]
     },
  {
@@ -246,7 +246,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -255,7 +255,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -264,7 +264,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -273,7 +273,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -345,7 +345,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -372,7 +372,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },
  {
@@ -390,7 +390,7 @@
       "shapeElement": "bowl/meatnugget 1/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -417,7 +417,7 @@
       "shapeElement": "bowl/red meat/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },    
  {
@@ -483,7 +483,7 @@
       "shapeElement": "bowl/red meat 2/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },
     {
@@ -492,7 +492,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group7"
       ]
     },    
  {
@@ -541,7 +541,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -550,7 +550,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -559,7 +559,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -568,7 +568,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -649,7 +649,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -676,7 +676,7 @@
       "shapeElement": "bowl/meatnugget 2/*",
       "textureMapping": [
         "meatnugget",
-        "group6"
+        "group8"
       ]
     },    
  {
@@ -703,7 +703,7 @@
       "shapeElement": "bowl/red meat 2/*",
       "textureMapping": [
         "meat",
-        "group2"
+        "group7"
       ]
     },    
  {

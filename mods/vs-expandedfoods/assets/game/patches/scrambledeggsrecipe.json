@@ -1139,7 +1139,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1166,7 +1166,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1193,7 +1193,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1202,7 +1202,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1211,7 +1211,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1220,7 +1220,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1301,7 +1301,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1328,7 +1328,7 @@
           "shapeElement": "bowl/meatnugget 1/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1359,10 +1359,10 @@
     "op": "addeach",
     "path": "/ingredients/6/validStacks/-",
     "value": [
-        { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 1/*", textureMapping: ["meatnugget", "poultry-raw"] },
@@ -1431,7 +1431,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1458,7 +1458,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1485,7 +1485,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1494,7 +1494,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1503,7 +1503,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1512,7 +1512,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1593,7 +1593,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1620,7 +1620,7 @@
           "shapeElement": "bowl/meatnugget 2/*",
           "textureMapping": [
             "meatnugget",
-            "redmeat-raw"
+            "bushmeat-raw"
           ]
         },
         {
@@ -1651,10 +1651,10 @@
     "op": "addeach",
     "path": "/ingredients/7/validStacks/-",
     "value": [
-        { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
-        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "redmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeat-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
+        { type: "item", code: "expandedfoods:sausageherb-bushmeatcheese-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "bushmeat-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultry-dried",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
         { type: "item", code: "expandedfoods:sausageherb-poultrycheese-raw",  shapeElement: "bowl/meatnugget 2/*", textureMapping: ["meatnugget", "poultry-raw"] },
