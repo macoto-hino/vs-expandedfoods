@@ -22,6 +22,7 @@ Added candied apples
 Added mushroom ketchup/juice
 Added VanVar compatibility for more mixing bowl variants
 Added vegetable broth
+Added gummy candy (spiles on cherry, peach, plum, or apricot tree to get gum; harden into gum or mixed with syrup or honey for candy; make candy molds)
 Fixed meat rack cure timer?
 Remove smashed meat variants?
 Acorns stuff compiled into base items & removed; vanilla patches redone
@@ -39,13 +40,15 @@ Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
 Fixed visual issues with Alchemy herbs & racks
-Simplified cauldron/saucepan models?
-Meat dries instead of curing now?
+Simplified cauldron/saucepan models - DONE!!!
+New holding animation added?
+Changed mixing bowl to match saucepan model - DONE!!!
+Saucepan recipe changed again
+Saucepan & mixing bowl capacity nerfed; only holds 3 L of liquid - DONE!!!
 Mushrooms in sushi are appropriately deadly - DONE!!!
 Veggie juicing error corrected - DONE!!!
-Olive oil added
-Pickled eggs & boiled eggs can be used interchangeably
-Wildcraft berry nutrition reviewed
+Olive oil added - DONE!!!
+Pickled eggs & boiled eggs can be used interchangeably - DONE!!!
 Bushmeat in meals has proper textures - DONE!!!
 
 1.5.4

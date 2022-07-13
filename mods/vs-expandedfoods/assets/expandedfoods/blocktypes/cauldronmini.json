@@ -151,6 +151,14 @@
 		},
 	],
 	"materialDensity": 7870,
+	"guiTransform": {
+		"origin": {
+			"x": 0.5,
+			"y": 0.35,
+			"z": 0.5
+		},
+		"scale": 1.75
+	},
 	"tpHandTransform": {
 		"translation": {
 			"x": -0.95,
@@ -165,6 +173,11 @@
 		"scale": 0.75
 	},
 	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0.5
+		},
 		"scale": 1.5
 	},
 	"groundTransform": {

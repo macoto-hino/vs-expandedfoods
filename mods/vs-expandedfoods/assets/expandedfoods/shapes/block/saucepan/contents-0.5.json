@@ -1,6 +1,5 @@
 {
 	"editor": {
-		"backDropShape": "C:/Users/andy-/Documents/GitHub/vs-expandedfoods/mods/vs-expandedfoods/assets/expandedfoods/shapes/block/saucepan/empty",
 		"allAngles": false,
 		"entityTextureMode": false
 	},
@@ -13,9 +12,9 @@
 	"elements": [
 		{
 			"name": "origin",
-			"from": [ 8.0, 1.5, 8.0 ], 
-			"to": [ 8.0, 1.5, 8.0 ], 
-			"rotationOrigin": [ 8.0, 1.5, 8.0 ],
+			"from": [ 8.0, 0.1, 8.0 ], 
+			"to": [ 8.0, 0.1, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.1, 8.0 ],
 			"faces": {
 				"north": { "texture": "#metal", "uv": [ 12.0, 0.5, 12.5, 1.0 ] },
 				"east": { "texture": "#metal", "uv": [ 13.5, 12.5, 14.0, 13.0 ] },
@@ -27,16 +26,16 @@
 			"children": [
 				{
 					"name": "contents",
-					"from": [ -6.25, 0.0, -6.15 ], 
-					"to": [ 6.25, 1.0, 6.35 ], 
-					"rotationOrigin": [ -6.25, 0.0, -6.15 ],
+					"from": [ -3.0, 0.66, -3.0 ], 
+					"to": [ 3.0, 1.66, 3.0 ], 
+					"rotationOrigin": [ -3.0, 0.66, -3.0 ],
 					"faces": {
-						"north": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },
-						"east": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },
-						"south": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },
-						"west": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 12.5, 1.0 ], "enabled": false },
-						"up": { "texture": "#water_bucket", "uv": [ 1.0, 1.0, 13.5, 13.5 ] },
-						"down": { "texture": "#water_bucket", "uv": [ 1.0, 1.0, 13.5, 13.5 ], "enabled": false }
+						"north": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"east": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"south": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"west": { "texture": "#water_bucket", "uv": [ 0.0, 0.0, 6.0, 1.0 ], "enabled": false },
+						"up": { "texture": "#water_bucket", "uv": [ 5.0, 5.0, 11.0, 11.0 ] },
+						"down": { "texture": "#water_bucket", "uv": [ 1.0, 1.0, 7.0, 7.0 ], "enabled": false }
 					}
 				}
 			]

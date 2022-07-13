@@ -43,11 +43,11 @@
 			storageType: 1,
 			maxFillLevel: 2,
 			maxContainerSlotStackSize: 4,
-			cookingSlotCapacityLitres: 4,
+			cookingSlotCapacityLitres: 3,
 			cookingContainerSlots: 4,
 			"liquidContainerProps": {
-				"capacityLitres": 5,
-				"transferSizeLitres": 0.5,
+				"capacityLitres": 3,
+				"transferSizeLitres": 0.3,
 			},
 			canhold: [
 				"water-*"
@@ -10310,14 +10310,20 @@
 	heldTpIdleAnimation: "holdbothhandslarge", heldTpUseAnimation: "twohandplaceblock", 
 	texturesbyType: {
 		"*-raw": {
-			ceramic: {
+			all: {
 				base: "game:block/clay/blueclay"
 			}
 		},
 		"*": {
-			ceramic: {
+			"ceramic": {
 				base: "game:block/clay/ceramic"
-			}
+			},
+			"burned": {
+				base: "game:block/clay/vessel/sides/burned"
+			},
+			"ceramic-dark": {
+				base: "game:block/clay/ceramic-dark"
+			},
 		},
 	},
 	combustiblePropsByType: {
@@ -10344,25 +10350,25 @@
 		"walk": "game:walk/wood"
 	},
 	collisionbox: {
-		x1: 0.125,
+		x1: 0,
 		y1: 0,
-		z1: 0.125,
-		x2: 0.875,
-		y2: 0.275,
-		z2: 0.875
+		z1: 0,
+		x2: 1,
+		y2: 0.25,
+		z2: 1
 	},
 	selectionbox: {
-		x1: 0.125,
+		x1: 0,
 		y1: 0,
-		z1: 0.125,
-		x2: 0.875,
-		y2: 0.275,
-		z2: 0.875
+		z1: 0,
+		x2: 1,
+		y2: 0.25,
+		z2: 1
 	},
 	materialDensity: 400,
 	tpHandTransform: {
 		translation: {
-			x: -1.175,
+			x: -1.1,
 			y: -0.6,
 			z: -0.25
 		},
@@ -10376,13 +10382,13 @@
 	guiTransform: {
 		origin: {
 			x: 0.5,
-			y: 0.3,
+			y: 0.15,
 			z: 0.5
 		},
-		scale: 1.75
+		scale: 3
 	},
 	fpHandTransform: {
-		scale: 1.5
+		scale: 2
 	},
 	groundTransform: {
 		origin: {
@@ -10390,6 +10396,6 @@
 			y: 0,
 			z: 0.5
 		},
-		scale: 2
+		scale: 3
 	}
 }

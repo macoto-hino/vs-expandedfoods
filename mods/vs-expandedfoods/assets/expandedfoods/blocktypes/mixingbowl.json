@@ -5,7 +5,7 @@
 	"entityBehaviors": [ { "name": "MPConsumer" } ],
 	"behaviors": [ { "name": "Container" } ],
 	"attributes": {
-		"capacityLitres": 6,
+		"capacityLitres": 3,
 		"handbook": {
 			"groupBy": [ "mixingbowl-*" ]
 		},
@@ -33,7 +33,9 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"bowl": { "base": "game:block/clay/ceramic" }
+			"ceramic": { base: "game:block/clay/ceramic" },
+			"burned": { base: "game:block/clay/vessel/sides/burned" },
+			"ceramic-dark": { base: "game:block/clay/ceramic-dark" },
 		},
 		"*-redmarble": {
 			"top": { "base": "game:block/stone/polishedrock/redmarble-inside" },
@@ -44,7 +46,9 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"bowl": { "base": "game:block/clay/ceramic" }
+			"ceramic": { base: "game:block/clay/ceramic" },
+			"burned": { base: "game:block/clay/vessel/sides/burned" },
+			"ceramic-dark": { base: "game:block/clay/ceramic-dark" },
 		},
 		"*-greenmarble": {
 			"top": { "base": "game:block/stone/polishedrock/greenmarble-inside" },
@@ -55,7 +59,9 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"bowl": { "base": "game:block/clay/ceramic" }
+			"ceramic": { base: "game:block/clay/ceramic" },
+			"burned": { base: "game:block/clay/vessel/sides/burned" },
+			"ceramic-dark": { base: "game:block/clay/ceramic-dark" },
 		},
 		"*-aged": {
 			"top": { "base": "game:block/wood/table/aged/top" },
@@ -66,7 +72,9 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"bowl": { "base": "game:block/clay/ceramic" }
+			"ceramic": { base: "game:block/clay/ceramic" },
+			"burned": { base: "game:block/clay/vessel/sides/burned" },
+			"ceramic-dark": { base: "game:block/clay/ceramic-dark" },
 		},
 		"*-normal": {
 			"top": { "base": "game:block/wood/table/normal/top" },
@@ -77,7 +85,9 @@
 			"sidesbarrel": { "base": "game:block/wood/barrel/sides" },
 			"churnsides2": { "base": "game:block/wood/churnsides2" },
 			"sidesbucket": { "base": "game:block/wood/bucket/sides" },
-			"bowl": { "base": "game:block/clay/ceramic" }
+			"ceramic": { base: "game:block/clay/ceramic" },
+			"burned": { base: "game:block/clay/vessel/sides/burned" },
+			"ceramic-dark": { base: "game:block/clay/ceramic-dark" },
 		}
 	},
 	"sidesolid": {
@@ -95,16 +105,16 @@
 			"y1": 0.0,
 			"z1": 0.05,
 			"x2": 0.95,
-			"y2": 1,
+			"y2": 0.9,
 			"z2": 0.95
 		},
 		{
-			"x1": 0.19,
-			"y1": 1,
-			"z1": 0.19,
-			"x2": 0.81,
-			"y2": 1.4,
-			"z2": 0.81
+			"x1": 0.25,
+			"y1": 0.9,
+			"z1": 0.25,
+			"x2": 0.75,
+			"y2": 1.1,
+			"z2": 0.75
 		}
 	]
 }

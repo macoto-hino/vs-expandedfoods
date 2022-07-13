@@ -329,12 +329,7 @@
 			code: "topping-sauce", 
 			validStacks: [
 				{ type: "item", code: "expandedfoods:soysauce",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "fishsauce"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-flax",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-rice",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-seed",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-soy",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-sunflower",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
-				{ type: "item", code: "expandedfoods:foodoilportion-peanut",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
+				{ type: "item", code: "expandedfoods:foodoilportion-*",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "foodoil"] }, 
 				{ type: "item", code: "expandedfoods:lard",  shapeElement: "bowl/topping/*", textureMapping: ["topping", "lard"] }, 
 			],
 			minQuantity: 0,
