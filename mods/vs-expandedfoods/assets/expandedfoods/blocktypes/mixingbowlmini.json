@@ -30,7 +30,7 @@
 	"sideopaque": {
 		"all": false
 	},
-	"heldTpIdleAnimation": "holdbothhands",
+	heldTpIdleAnimation: "holdbothhandsmedium", heldTpUseAnimation: "twohandplaceblock", 
 	"lightAbsorption": 1,
 	"replaceable": 600,
 	"resistance": 1.5,
@@ -51,5 +51,31 @@
 			"y2": 0.5,
 			"z2": 0.75
 		}
-	]
+	],
+	guiTransform: {
+		origin: {
+			x: 0.5,
+			y: 0.2,
+			z: 0.5
+		},
+		scale: 2
+	},
+	fpHandTransform: {
+		translation: {
+			x: 0,
+			y: 0,
+			z: 0
+		},
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -1.1, y: -0.6, z: -0.35 },
+		rotation: { x: 100, y: -13, z: -105 },
+		scale: 0.8
+	},
+	groundTransform: {
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 5
+	}
 }

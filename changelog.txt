@@ -34,16 +34,19 @@ Added 'tenderized' attribute to meat
 Fruit leather added?
 Fixed pies?
 
-1.5.5
-Patches now use addEach function; load times improved - DONE!!!
+1.5.6
 Ancient Tools Compatibility added
 RenderIngredients now uses selectiveElements to cut down on files
 Breaded mushrooms added
 Fixed visual issues with Alchemy herbs & racks
+
+
+1.5.5
+Patches now use addEach function; load times improved - DONE!!!
 Simplified cauldron/saucepan models - DONE!!!
-New holding animation added?
+New holding animation added - DONE!!!
 Changed mixing bowl to match saucepan model - DONE!!!
-Saucepan recipe changed again
+Saucepan recipe changed again - DONE!!!
 Saucepan & mixing bowl capacity nerfed; only holds 3 L of liquid - DONE!!!
 Mushrooms in sushi are appropriately deadly - DONE!!!
 Veggie juicing error corrected - DONE!!!

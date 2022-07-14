@@ -99,6 +99,7 @@
 	"lightAbsorption": 1,
 	"replaceable": 600,
 	"resistance": 1.5,
+	heldTpIdleAnimation: "holdbothhandsverylarge", heldTpUseAnimation: "twohandplaceblock", 
 	"collisionSelectionBoxes": [
 		{
 			"x1": 0.05,
@@ -116,5 +117,26 @@
 			"y2": 1.1,
 			"z2": 0.75
 		}
-	]
+	],
+	guiTransform: {
+		scale: 1.15
+	},
+	fpHandTransform: {
+		translation: {
+			x: 0,
+			y: 0,
+			z: 0
+		},
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -1.35, y: -0.7, z: -0.35 },
+		rotation: { x: -83, y: 29, z: -66 },
+		scale: 0.75
+	},
+	groundTransform: {
+		rotation: { x: 0, y: -45, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 3
+	}
 }

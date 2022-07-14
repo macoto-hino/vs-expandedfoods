@@ -1,0 +1,46 @@
+[
+  {
+    "op": "add",
+    "path": "/client/animations/22",
+    "value": {
+      "code": "holdbothhandsmedium",
+      "animation": "holdbothhandsmedium",
+      "blendMode": "Add",
+      "elementWeight": {
+        "UpperArmR": 4,
+        "LowerArmR": 4,
+        "UpperArmL": 12,
+        "LowerArmL": 12
+      },
+      "elementBlendMode": {
+        "UpperArmR": "AddAverage",
+        "LowerArmR": "AddAverage",
+        "UpperArmL": "AddAverage",
+        "LowerArmL": "AddAverage"
+      }
+    },
+    "file": "game:entities/humanoid/player.json"
+  },
+  {
+    "op": "add",
+    "path": "/client/animations/23",
+    "value": {
+      "code": "holdbothhandsverylarge",
+      "animation": "holdbothhandsverylarge",
+      "blendMode": "Add",
+      "elementWeight": {
+        "UpperArmR": 4,
+        "LowerArmR": 4,
+        "UpperArmL": 12,
+        "LowerArmL": 12
+      },
+      "elementBlendMode": {
+        "UpperArmR": "AddAverage",
+        "LowerArmR": "AddAverage",
+        "UpperArmL": "AddAverage",
+        "LowerArmL": "AddAverage"
+      }
+    },
+    "file": "game:entities/humanoid/player.json"
+  }
+]

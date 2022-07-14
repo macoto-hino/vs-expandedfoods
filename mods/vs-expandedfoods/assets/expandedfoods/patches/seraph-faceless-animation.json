@@ -1,0 +1,108 @@
+[
+  {
+    "op": "add",
+    "path": "/animations/-",
+    "value": {
+      "name": "Holding with both hands (very large object)",
+      "code": "holdbothhandsverylarge",
+      "quantityframes": 30,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {},
+            "UpperTorso": {},
+            "UpperArmR": {
+              "offsetX": -0.2,
+              "offsetY": -0.4,
+              "offsetZ": 0.4,
+              "rotationX": 22.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "LowerArmR": {
+              "offsetX": 0.1,
+              "offsetY": 0.4,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": 8.0,
+              "rotationZ": -66.0
+            },
+            "UpperArmL": {
+              "offsetX": -0.2,
+              "offsetY": -0.4,
+              "offsetZ": -0.4,
+              "rotationX": -19.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "LowerArmL": {
+              "offsetX": 0.1,
+              "offsetY": 0.4,
+              "offsetZ": 0.0,
+              "rotationX": 0.0,
+              "rotationY": -8.0,
+              "rotationZ": -70.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json"
+  },
+  {
+    "op": "add",
+    "path": "/animations/-",
+    "value": {
+      "name": "Holding with both hands (medium object)",
+      "code": "holdbothhandsmedium",
+      "quantityframes": 30,
+      "onActivityStopped": "EaseOut",
+      "onAnimationEnd": "Repeat",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "LowerTorso": {},
+            "UpperTorso": {},
+            "UpperArmR": {
+              "offsetX": -0.1,
+              "offsetY": -0.1,
+              "offsetZ": 0.0,
+              "rotationX": 13.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "LowerArmR": {
+              "offsetX": 0.0,
+              "offsetY": 0.2,
+              "offsetZ": -0.1,
+              "rotationX": 0.0,
+              "rotationY": 14.0,
+              "rotationZ": -75.0
+            },
+            "UpperArmL": {
+              "offsetX": -0.1,
+              "offsetY": -0.1,
+              "offsetZ": 0.0,
+              "rotationX": -14.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "LowerArmL": {
+              "offsetX": 0.0,
+              "offsetY": 0.2,
+              "offsetZ": -0.1,
+              "rotationX": 0.0,
+              "rotationY": -11.0,
+              "rotationZ": -75.0
+            }
+          }
+        }
+      ]
+    },
+    "file": "game:shapes/entity/humanoid/seraph-faceless.json"
+  },
+]

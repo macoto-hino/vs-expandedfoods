@@ -1274,6 +1274,8 @@
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildfruit.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\compatibility\wildcraft\wildseeds.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\flower.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\seraph-faceless-animation.json" />
+    <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\player-animation.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\grain.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\honeycomb.json" />
     <None Include="mods\vs-expandedfoods\assets\expandedfoods\patches\legume.json" />
