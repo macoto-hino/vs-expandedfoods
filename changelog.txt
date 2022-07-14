@@ -42,17 +42,17 @@ Fixed visual issues with Alchemy herbs & racks
 
 
 1.5.5
-Patches now use addEach function; load times improved - DONE!!!
-Simplified cauldron/saucepan models - DONE!!!
-New holding animation added - DONE!!!
-Changed mixing bowl to match saucepan model - DONE!!!
-Saucepan recipe changed again - DONE!!!
-Saucepan & mixing bowl capacity nerfed; only holds 3 L of liquid - DONE!!!
-Mushrooms in sushi are appropriately deadly - DONE!!!
-Veggie juicing error corrected - DONE!!!
-Olive oil added - DONE!!!
-Pickled eggs & boiled eggs can be used interchangeably - DONE!!!
-Bushmeat in meals has proper textures - DONE!!!
+Olive oil added
+Pickled eggs & boiled eggs can be used interchangeably
+Patches now use addEach function; load times improved
+Saucepan & mixing bowl capacity nerfed; only holds 3 L of liquid
+Simplified cauldron/saucepan models
+New holding animation added
+Changed mixing bowl to match saucepan model
+Saucepan recipe changed again
+Mushrooms in sushi are appropriately deadly 
+Veggie juicing error corrected
+Bushmeat in meals has proper textures
 
 1.5.4
 Added Dehydrated Berries, made by breaking up berry mash; usable in everything dried berries can be used for (may turn into fruit leather instead of dried berries later)
